@@ -1,0 +1,22 @@
+# Kampagnenstruktur, Keywords und Anzeigen
+
+In dieser Lesson schauen wir uns an: Kampagnen, Anzeigengruppen, Keywords und Anzeigentexte aufsetzen.
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt kampagnen, Anzeigengruppen, Keywords und Anzeigentexte aufsetzen.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+
+## Was als Nächstes ausgebaut werden muss
+
+- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[suchmaschinenmarketing]], `@shemshaki2025`, `@ostrovsky2023`)
+- Mindestens eine Analogie aus dem Berufsalltag ergänzen
+- Ein konkretes Beispiel oder eine kleine Übung einfügen
+- Inhalt zu Kampagnenstruktur, Keywords und Anzeigen vertiefen

@@ -1,0 +1,11 @@
+# KI im Marketing {.unnumbered}
+
+Wir lernen, wie generative KI den gesamten Marketingprozess unterstützt, von strukturierten Prompts über die Content-Erstellung bis zu KI-Werkzeugen im Arbeitsalltag, und wo die Grenzen liegen.
+
+Wir werden:
+
+- reproduzierbare Prompts mit COMPASS schreiben
+- KI-gestützte Marketing-Inhalte erstellen
+- Chancen und Risiken generativer KI kritisch bewerten
+
+**Quellen:** [[genai-marketing]], [[ai-marketing]], `@hartmann2025`, `@kumar2025`, `@salvi2025`, `@schmid2025`

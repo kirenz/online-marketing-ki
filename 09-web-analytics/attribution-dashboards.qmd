@@ -1,0 +1,22 @@
+# Attribution und Dashboards
+
+In dieser Lesson schauen wir uns an: Attributionsmodelle und die Visualisierung in Dashboards wie Looker Studio.
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt attributionsmodelle und die Visualisierung in Dashboards wie Looker Studio.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+
+## Was als Nächstes ausgebaut werden muss
+
+- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[web-analytics]], `@li2014`, `@berman2018`, `@ahrholdt2023`)
+- Mindestens eine Analogie aus dem Berufsalltag ergänzen
+- Ein konkretes Beispiel oder eine kleine Übung einfügen
+- Inhalt zu Attribution und Dashboards vertiefen

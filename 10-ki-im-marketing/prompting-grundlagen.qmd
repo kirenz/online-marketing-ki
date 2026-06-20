@@ -1,0 +1,22 @@
+# Prompting-Grundlagen
+
+In dieser Lesson schauen wir uns an: Klare Anweisungen, Rollen, Beispiele und Kontext für bessere KI-Ergebnisse.
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt klare Anweisungen, Rollen, Beispiele und Kontext für bessere KI-Ergebnisse.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+
+## Was als Nächstes ausgebaut werden muss
+
+- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[genai-marketing]], [[ai-marketing]], `@hartmann2025`, `@kumar2025`, `@salvi2025`, `@schmid2025`)
+- Mindestens eine Analogie aus dem Berufsalltag ergänzen
+- Ein konkretes Beispiel oder eine kleine Übung einfügen
+- Inhalt zu Prompting-Grundlagen vertiefen

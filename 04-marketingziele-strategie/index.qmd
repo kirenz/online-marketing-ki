@@ -1,0 +1,11 @@
+# Marketingziele und Strategie {.unnumbered}
+
+Wir übersetzen die Strategie in konkrete, messbare Ziele, die später die Erfolgsmessung steuern.
+
+Wir werden:
+
+- SMART-Marketingziele formulieren
+- Ziele mit passenden Kennzahlen verknüpfen
+- eine Brücke von Strategie zu Messung schlagen
+
+**Quellen:** [[marketing-grundlagen]], [[web-analytics]], `@kotler2022`, `@farris2010`

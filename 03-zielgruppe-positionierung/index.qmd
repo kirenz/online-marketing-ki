@@ -1,0 +1,11 @@
+# Zielgruppe und Positionierung {.unnumbered}
+
+Wir lernen, wie aus einem heterogenen Markt klar beschriebene Zielgruppen werden und wie man sich gegenüber dem Wettbewerb positioniert.
+
+Wir werden:
+
+- eine Kernzielgruppe als Persona beschreiben
+- Segmentierung und Targeting anwenden
+- eine klare Positionierung formulieren
+
+**Quellen:** [[marketing-grundlagen]], `@smith1956`, `@venter2015`

@@ -1,0 +1,22 @@
+# Personas erstellen und nutzen
+
+In dieser Lesson schauen wir uns an: Aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+
+## Was als Nächstes ausgebaut werden muss
+
+- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], `@smith1956`, `@venter2015`)
+- Mindestens eine Analogie aus dem Berufsalltag ergänzen
+- Ein konkretes Beispiel oder eine kleine Übung einfügen
+- Inhalt zu Personas erstellen und nutzen vertiefen

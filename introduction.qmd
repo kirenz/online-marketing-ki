@@ -1,20 +1,47 @@
 # Einführung {.unnumbered}
 
-<!--
-SCHABLONE — pro zentralen Begriff ein H2 mit zwei Sätzen.
-Reihenfolge folgt der späteren Buch-Reihenfolge.
--->
+Bevor wir mit dem ersten Modul beginnen, lohnt sich ein kurzer Überblick über die Begriffe, die uns durch den Kurs begleiten. Jeder Begriff wird in zwei Sätzen erklärt, damit klar ist, worauf wir aufbauen. Die Reihenfolge folgt grob dem Aufbau des Buches.
 
-Bevor wir mit dem ersten konkreten Schritt beginnen, lohnt sich ein kurzer Überblick über die Bausteine, mit denen wir arbeiten. Jeder Baustein hat eine bestimmte Rolle. Diese Einführung erklärt jeden Baustein in zwei Sätzen, damit klar ist, worauf wir aufbauen.
+## Marketing-Mix
 
-## Begriff 1
+Der Marketing-Mix bündelt die zentralen Stellhebel des Marketings, klassisch als 4 P (Product, Price, Place, Promotion). Aus Kundensicht lassen sie sich als 4 C lesen (Customer, Cost, Convenience, Communication).
 
-Satz 1 — was es ist. Satz 2 — wozu es dient.
+## Value Proposition
 
-## Begriff 2
+Die Value Proposition beschreibt den konkreten Nutzen, den ein Angebot für eine bestimmte Kundengruppe stiftet. Sie verbindet die Aufgaben, Probleme und Wünsche der Kundschaft mit den Leistungen des Angebots.
 
-Satz 1. Satz 2.
+## Zielgruppe und Persona
 
-## Begriff 3
+Eine Zielgruppe ist ein klar beschriebener Ausschnitt des Marktes, den ein Angebot ansprechen soll. Eine Persona verdichtet diese Zielgruppe zu einer greifbaren, beispielhaften Person mit Bedürfnissen und Verhalten.
 
-Satz 1. Satz 2.
+## Positionierung
+
+Positionierung bedeutet, das eigene Angebot im Kopf der Zielgruppe klar und unterscheidbar zu verankern. Sie beantwortet, warum jemand dieses Angebot und nicht das des Wettbewerbs wählen sollte.
+
+## SMART-Ziele
+
+SMART-Ziele sind spezifisch, messbar, erreichbar, relevant und terminiert. Sie machen Marketingabsichten überprüfbar und bilden die Grundlage der späteren Erfolgsmessung.
+
+## Content-Marketing
+
+Content-Marketing schafft Aufmerksamkeit und Vertrauen über nützliche, relevante Inhalte statt über reine Werbebotschaften. Ziel ist, die Zielgruppe entlang ihrer Fragen zu begleiten und so eine Beziehung aufzubauen.
+
+## SEO und SEA
+
+SEO (Suchmaschinenoptimierung) sorgt dafür, dass Inhalte in den organischen Suchergebnissen gefunden werden. SEA (Suchmaschinenwerbung) bucht bezahlte Anzeigen in der Suche, etwa über Google Ads.
+
+## Web-Analytics und KPI
+
+Web-Analytics erfasst und interpretiert das Verhalten auf Websites und in Kampagnen. KPI (Key Performance Indicators) sind die ausgewählten Kennzahlen, an denen sich der Zielerreichungsgrad ablesen lässt.
+
+## Attribution
+
+Attribution ordnet einen Erfolg (etwa eine Conversion) den beteiligten Kontaktpunkten zu. Die Wahl des Attributionsmodells beeinflusst, welchem Kanal welcher Beitrag zugeschrieben wird.
+
+## Generative KI
+
+Generative KI erzeugt neue Inhalte wie Texte oder Bilder auf Basis großer Sprach- und Bildmodelle. Im Marketing unterstützt sie unter anderem Recherche, Content-Erstellung und Analyse.
+
+## Prompting und COMPASS
+
+Prompting ist die Kunst, einer KI klare und kontextreiche Anweisungen zu geben. COMPASS ist ein Strukturraster für Prompts (Context, Objective, Mode, People, Attitude, Style, Specifications).

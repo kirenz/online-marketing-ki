@@ -2,13 +2,19 @@ project:
   type: book
   output-dir: _book
   # Mono-Repo: Slides liegen unter slides/ als eigenständige Reveal.js-Decks
-  # mit eigenem Frontmatter und _metadata.yml. Slides werden NICHT vom
-  # Buch-Build erfasst.
+  # und werden NICHT vom Buch-Build erfasst.
   render:
     - "*.qmd"
-    - "beispiel-modul/*.qmd"
-    # Pro neuem Modul eine Zeile ergänzen:
-    # - "<modul-2-slug>/*.qmd"
+    - "01-marketing-grundlagen/*.qmd"
+    - "02-kundenverstaendnis/*.qmd"
+    - "03-zielgruppe-positionierung/*.qmd"
+    - "04-marketingziele-strategie/*.qmd"
+    - "05-content-persuasion/*.qmd"
+    - "06-seo/*.qmd"
+    - "07-google-ads/*.qmd"
+    - "08-social-media-linkedin/*.qmd"
+    - "09-web-analytics/*.qmd"
+    - "10-ki-im-marketing/*.qmd"
 
 lang: de
 
@@ -16,8 +22,8 @@ execute:
   freeze: auto
 
 book:
-  title: "Kurs-Titel"
-  description: "Schablone — auf konkreten Kurs anpassen"
+  title: "Digitales Marketing & KI"
+  description: "Ein praxisorientierter Kurs, der digitales Marketing mit dem durchgängigen Einsatz generativer KI verbindet."
   author: "Jan Kirenz"
 
   search:
@@ -30,28 +36,65 @@ book:
     - index.qmd
     - introduction.qmd
 
-    - part: beispiel-modul/index.qmd
+    - part: 01-marketing-grundlagen/index.qmd
       chapters:
-        - beispiel-modul/beispiel-lesson.qmd
-
-    # Pro neuem Modul einen Part-Block:
-    # - part: <modul-2-slug>/index.qmd
-    #   chapters:
-    #     - <modul-2-slug>/<lesson-1>.qmd
-    #     - <modul-2-slug>/<lesson-2>.qmd
+        - 01-marketing-grundlagen/was-ist-marketing.qmd
+        - 01-marketing-grundlagen/marketing-mix.qmd
+        - 01-marketing-grundlagen/ki-im-marketing.qmd
+    - part: 02-kundenverstaendnis/index.qmd
+      chapters:
+        - 02-kundenverstaendnis/value-proposition-canvas.qmd
+        - 02-kundenverstaendnis/empathy-map.qmd
+        - 02-kundenverstaendnis/business-model-canvas.qmd
+    - part: 03-zielgruppe-positionierung/index.qmd
+      chapters:
+        - 03-zielgruppe-positionierung/segmentierung-targeting.qmd
+        - 03-zielgruppe-positionierung/personas.qmd
+        - 03-zielgruppe-positionierung/positionierung.qmd
+    - part: 04-marketingziele-strategie/index.qmd
+      chapters:
+        - 04-marketingziele-strategie/smart-ziele.qmd
+        - 04-marketingziele-strategie/ziele-zu-kennzahlen.qmd
+    - part: 05-content-persuasion/index.qmd
+      chapters:
+        - 05-content-persuasion/content-strategie.qmd
+        - 05-content-persuasion/science-of-persuasion.qmd
+        - 05-content-persuasion/storytelling.qmd
+        - 05-content-persuasion/ki-content-erstellung.qmd
+    - part: 06-seo/index.qmd
+      chapters:
+        - 06-seo/keyword-recherche.qmd
+        - 06-seo/onpage-technische-seo.qmd
+        - 06-seo/core-web-vitals.qmd
+    - part: 07-google-ads/index.qmd
+      chapters:
+        - 07-google-ads/funktionsweise-auktionen.qmd
+        - 07-google-ads/kampagnenstruktur.qmd
+        - 07-google-ads/quality-score.qmd
+    - part: 08-social-media-linkedin/index.qmd
+      chapters:
+        - 08-social-media-linkedin/linkedin-grundlagen.qmd
+        - 08-social-media-linkedin/kampagnentypen-targeting.qmd
+        - 08-social-media-linkedin/erfolgsmessung-fallstudien.qmd
+    - part: 09-web-analytics/index.qmd
+      chapters:
+        - 09-web-analytics/kennzahlen-systeme.qmd
+        - 09-web-analytics/ga4-tracking.qmd
+        - 09-web-analytics/attribution-dashboards.qmd
+    - part: 10-ki-im-marketing/index.qmd
+      chapters:
+        - 10-ki-im-marketing/prompting-grundlagen.qmd
+        - 10-ki-im-marketing/compass-framework.qmd
+        - 10-ki-im-marketing/genai-content.qmd
+        - 10-ki-im-marketing/ki-werkzeuge-agenten.qmd
 
 format:
   html:
     toc: true
-    # Theme-Stack: cosmo als Bootstrap-Basis, book-theme.scss zieht den
-    # Plattform-Mirror-Look (Geist, Cream-Paper, Ink, Ochre, Terracotta) durch.
-    # Schwester-Datei zu slides/redesign/variant-a-pure.scss — gleiche DNA für
-    # Buch und Slides.
     theme:
       - cosmo
       - book-theme.scss
     code-copy: true
-    # github (light) statt github-dark — passt zum Cream-Paper-Hintergrund.
     highlight-style: github
     code-overflow: wrap
     author-meta: "Jan Kirenz"

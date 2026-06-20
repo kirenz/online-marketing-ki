@@ -1,0 +1,22 @@
+# Die Wissenschaft der Überzeugung
+
+In dieser Lesson schauen wir uns an: Cialdinis Prinzipien und ihre Anwendung im Marketing.
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt cialdinis Prinzipien und ihre Anwendung im Marketing.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+
+## Was als Nächstes ausgebaut werden muss
+
+- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[content-marketing]], [[persuasion]], `@hollebeek2019`, `@cialdini2021`, `@lamberton2023`)
+- Mindestens eine Analogie aus dem Berufsalltag ergänzen
+- Ein konkretes Beispiel oder eine kleine Übung einfügen
+- Inhalt zu Die Wissenschaft der Überzeugung vertiefen

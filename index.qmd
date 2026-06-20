@@ -1,29 +1,25 @@
 # Willkommen {.unnumbered}
 
-::: {.callout-note appearance="minimal"}
-**Hinweis (Schablone):** Diese Datei ist ein Platzhalter — beim Anlegen eines neuen Kurses durch konkreten Inhalt ersetzen. Stilregeln: Wir-Form, Callouts, Analogien aus dem Berufsalltag. Detail-Vorgaben: AGENTS.md im Repo-Root.
-:::
+Willkommen zum Kurs „Digitales Marketing & KI". Dieses Buch führt Schritt für Schritt durch das digitale Marketing und zeigt, wie sich generative KI sinnvoll in jeden Schritt einbinden lässt.
 
-Willkommen zum Einstieg in das Thema dieses Kurses. Dieses Buch bietet eine schrittweise Einführung in den Kerngegenstand.
+Wir entwickeln den roten Faden entlang eines eigenen Projekts: von den Grundlagen über Kundenverständnis, Zielgruppe und Ziele bis zu den Kanälen (Content, SEO, Google Ads, LinkedIn), der Erfolgsmessung und dem gezielten Einsatz von KI.
 
-Hier ein bis zwei Sätze zum Buch — wer es geschrieben hat, welcher Kurs damit verbunden ist, was am Ende erreicht ist. Diese Schablone wird beim Anlegen eines neuen Kurses durch konkreten Inhalt ersetzt.
+Beispiele für den Einsatz des Gelernten:
 
-Beispiele für den Einsatz des Themas:
+1. **Strategie:** eine Value Proposition und messbare Marketingziele für ein eigenes Angebot entwickeln
+2. **Kanäle:** eine SEO-, Google-Ads- oder LinkedIn-Kampagne konzipieren und vorbereiten
+3. **KI:** Inhalte mit generativer KI erstellen, mit COMPASS strukturieren und die Ergebnisse kritisch prüfen
 
-1. **Bereich 1:** konkrete Anwendung
-2. **Bereich 2:** konkrete Anwendung
-3. **Bereich 3:** konkrete Anwendung
-
-Ein Absatz: Wie das Buch strukturiert ist, welcher Demo-Pfad sich durchzieht.
+Das Buch ist modular aufgebaut. Jedes Modul bündelt mehrere kurze Lektionen, die aufeinander aufbauen und sich an einem durchgehenden Projektgedanken orientieren.
 
 ::: {.callout-note}
 Die hier vermittelten Fähigkeiten sind branchenübergreifend einsetzbar:
 
-- Bereich 1
-- Bereich 2
-- Bereich 3
+- Marketing und Kommunikation
+- Vertrieb und Business Development
+- Gründung und Selbstständigkeit
 :::
 
 ::: {.callout-tip}
-Lernempfehlung: Die Kapitel sind aufeinander aufbauend angelegt. Wer den größten Nutzen mitnehmen möchte, arbeitet die Module in der Reihenfolge durch und baut den Demo-Workflow Schritt für Schritt mit.
+Lernempfehlung: Die Module sind aufeinander aufbauend angelegt. Wer den größten Nutzen mitnehmen möchte, arbeitet sie in der Reihenfolge durch und entwickelt parallel ein eigenes Marketingprojekt.
 :::

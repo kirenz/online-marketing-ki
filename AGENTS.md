@@ -2,7 +2,7 @@
 
 Dieses Dokument ist die **kanonische Quelle der Wahrheit** für jede KI, die in diesem Repo arbeitet. Wenn andere Dokumente widersprechen, gilt AGENTS.md.
 
-Dieses Repository ist die **Mono-Repo-Schablone** für neue Lernplattform-Kurse. Wer einen neuen Kurs anlegt, klont es via `gh repo create kirenz/<slug> --template kirenz/lernplattform-templates --clone` und ersetzt die Schablonen-Inhalte durch konkrete Inhalte. Vollständig ausgearbeitetes Beispiel-Repo: [`kirenz/n8n-grundlagen`](https://github.com/kirenz/n8n-grundlagen).
+Dieses Repository ist das **Mono-Repo für den Kurs „Digitales Marketing & KI"** (`online-marketing-ki`), angelegt aus der Schablone `kirenz/lernplattform-templates`. Buch und Folien leben hier nebeneinander: das Buch im Repo-Root, die Folien unter `slides/`. Vollständig ausgearbeitetes Vorbild-Repo: [`kirenz/n8n-grundlagen`](https://github.com/kirenz/n8n-grundlagen).
 
 ---
 

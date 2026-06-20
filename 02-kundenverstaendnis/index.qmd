@@ -1,0 +1,11 @@
+# Kundenverständnis {.unnumbered}
+
+Wir klären, wer die Kundschaft ist und welchen Wert ein Angebot für sie stiftet. Dafür arbeiten wir mit Value Proposition Canvas, Empathy Map und Business Model Canvas.
+
+Wir werden:
+
+- eine Value Proposition für ein eigenes Angebot formulieren
+- Kundenbedürfnisse mit einer Empathy Map erfassen
+- ein Geschäftsmodell im Business Model Canvas skizzieren
+
+**Quellen:** [[marketing-grundlagen]], `@osterwalder2014`, `@osterwalder2013`

@@ -1,0 +1,11 @@
+# Web-Analytics und Erfolgsmessung {.unnumbered}
+
+Wir klären, wie Marketingerfolg gemessen wird, von Kennzahlensystemen über GA4 und Attribution bis zu Dashboards.
+
+Wir werden:
+
+- ein KPI-Set für eigene Ziele festlegen
+- GA4-Tracking konzeptionell verstehen
+- ein Dashboard-Konzept entwerfen
+
+**Quellen:** [[web-analytics]], `@li2014`, `@berman2018`, `@ahrholdt2023`

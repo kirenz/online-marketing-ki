@@ -1,0 +1,22 @@
+# Erfolgsmessung und Fallstudien
+
+In dieser Lesson schauen wir uns an: Kennzahlen für LinkedIn-Werbung und Lernpunkte aus Fallbeispielen.
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt kennzahlen für LinkedIn-Werbung und Lernpunkte aus Fallbeispielen.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+
+## Was als Nächstes ausgebaut werden muss
+
+- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[social-media-advertising]], `@balaji2023`, `@seebacher2023`)
+- Mindestens eine Analogie aus dem Berufsalltag ergänzen
+- Ein konkretes Beispiel oder eine kleine Übung einfügen
+- Inhalt zu Erfolgsmessung und Fallstudien vertiefen

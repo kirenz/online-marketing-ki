@@ -1,0 +1,22 @@
+# Von Zielen zu Kennzahlen
+
+In dieser Lesson schauen wir uns an: Wie aus Zielen konkrete KPIs für die Erfolgsmessung werden.
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt wie aus Zielen konkrete KPIs für die Erfolgsmessung werden.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+
+## Was als Nächstes ausgebaut werden muss
+
+- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], [[web-analytics]], `@kotler2022`, `@farris2010`)
+- Mindestens eine Analogie aus dem Berufsalltag ergänzen
+- Ein konkretes Beispiel oder eine kleine Übung einfügen
+- Inhalt zu Von Zielen zu Kennzahlen vertiefen

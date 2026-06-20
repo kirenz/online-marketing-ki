@@ -1,0 +1,11 @@
+# Social Media und LinkedIn Ads {.unnumbered}
+
+Wir lernen, wie Social-Media-Werbung im B2B wirkt, welche LinkedIn-Kampagnentypen es gibt und wie man die richtige Zielgruppe erreicht.
+
+Wir werden:
+
+- eine LinkedIn-Ad-Kampagne entwerfen
+- Kampagnentypen und Targeting passend wählen
+- den Erfolg von Social-Media-Werbung messen
+
+**Quellen:** [[social-media-advertising]], `@balaji2023`, `@seebacher2023`

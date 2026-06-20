@@ -1,0 +1,11 @@
+# Content-Marketing und Persuasion {.unnumbered}
+
+Wir klären, welche Inhalte für die Zielgruppe relevant sind, wie Content Vertrauen und Engagement aufbaut und welche psychologischen Prinzipien überzeugen.
+
+Wir werden:
+
+- eine Content-Idee entlang der Zielgruppe entwickeln
+- Persuasionsprinzipien gezielt einsetzen
+- Storytelling für eine Botschaft nutzen
+
+**Quellen:** [[content-marketing]], [[persuasion]], `@hollebeek2019`, `@cialdini2021`, `@lamberton2023`

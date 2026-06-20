@@ -1,0 +1,11 @@
+# Suchmaschinenwerbung (Google Ads) {.unnumbered}
+
+Wir verstehen, wie bezahlte Suche funktioniert, wie Kampagnen aufgebaut werden und wovon Sichtbarkeit und Kosten abhängen.
+
+Wir werden:
+
+- eine Google-Ads-Kampagne konzipieren
+- Kampagnen sinnvoll strukturieren
+- den Quality Score gezielt verbessern
+
+**Quellen:** [[suchmaschinenmarketing]], `@shemshaki2025`, `@ostrovsky2023`

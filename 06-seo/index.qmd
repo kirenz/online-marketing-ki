@@ -1,0 +1,11 @@
+# Suchmaschinenoptimierung (SEO) {.unnumbered}
+
+Wir lernen, wie Inhalte in der organischen Suche gefunden werden, von der Keyword-Recherche über On-Page bis zur technischen Optimierung.
+
+Wir werden:
+
+- eine Keyword-Analyse durchführen
+- eine Seite On-Page optimieren
+- Core Web Vitals einordnen und verbessern
+
+**Quellen:** [[suchmaschinenmarketing]], `@enge2023`, `@erlhofer2023`

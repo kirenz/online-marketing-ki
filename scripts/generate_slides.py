@@ -31,9 +31,16 @@ OUTPUT_DIR = ROOT / "slides"
 # Pro Modul ein Eintrag — beim Anlegen eines neuen Kurses anpassen.
 # Im Template ist hier nur das Beispiel-Modul gesetzt.
 MODULE_DIRS = [
-    "beispiel-modul",
-    # "<modul-2-slug>",
-    # "<modul-3-slug>",
+    "01-marketing-grundlagen",
+    "02-kundenverstaendnis",
+    "03-zielgruppe-positionierung",
+    "04-marketingziele-strategie",
+    "05-content-persuasion",
+    "06-seo",
+    "07-google-ads",
+    "08-social-media-linkedin",
+    "09-web-analytics",
+    "10-ki-im-marketing",
 ]
 
 SLIDE_FRONTMATTER = """---
