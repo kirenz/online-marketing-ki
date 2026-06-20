@@ -1,0 +1,122 @@
+---
+title: "Der Marketing-Mix"
+subtitle: "Modul 1: Marketing-Grundlagen"
+author: Jan Kirenz
+---
+
+# Vier Hebel, ein Mix {.stage background-image="images/hero-marketing-mix.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-marketing-mix.png"
+Dunkle, ruhige Aufnahme eines Mischpults von oben, vier Regler im weichen Lichtschein, tiefes Anthrazit mit einem warmen Akzent. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
+-->
+
+::: {.notes}
+Sobald Ziel und Strategie stehen, braucht die Umsetzung Werkzeuge. Der Marketing-Mix bündelt die zentralen Stellhebel, an denen sich drehen lässt. Klassisch sind das die vier P, aus Kundensicht die vier C.
+:::
+
+## Die vier P
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa box >}}]{.accent-blue}
+**Product**
+
+Angebot, Eigenschaften, Nutzen.
+:::
+
+::: {.feature}
+[{{< fa tag >}}]{.accent-blue}
+**Price**
+
+Preis und Preislogik.
+:::
+
+::: {.feature}
+[{{< fa truck >}}]{.accent-green}
+**Place**
+
+Wege und Orte des Angebots.
+:::
+
+::: {.feature}
+[{{< fa bullhorn >}}]{.accent-green}
+**Promotion**
+
+Bekannt machen und überzeugen.
+:::
+
+::::
+
+::: {.notes}
+Die vier P beschreiben die Entscheidungsfelder aus Sicht des anbietenden Unternehmens: Produkt, Preis, Distribution und Kommunikation. Der Großteil dieses Kurses fällt in das Feld Promotion, also SEO, Content, Werbung und Social Media. Die anderen drei P bilden den Rahmen.
+:::
+
+## Von den vier P zu den vier C
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Anbietersicht: vier P**
+
+- Product
+- Price
+- Place
+- Promotion
+:::
+
+::: {.column width="50%"}
+**Kundensicht: vier C**
+
+- Customer Value (Nutzen)
+- Cost (Gesamtkosten)
+- Convenience (Zugang)
+- Communication (Dialog)
+:::
+
+::::
+
+::: {.sources}
+Quelle: @kotler2022
+:::
+
+::: {.notes}
+Die vier C übersetzen jeden Hebel in die Perspektive der Kundschaft. Der Wechsel ist mehr als eine Umbenennung: Wer von Communication statt von Promotion spricht, denkt an einen Dialog statt an eine einseitige Botschaft. Genau dieser Dialog prägt das digitale Marketing.
+:::
+
+## Der Mix als Mischpult {.stage background-color="#0a0a0f"}
+
+Kein einzelner Regler macht den guten Klang aus, sondern ihr Zusammenspiel. Ein voll aufgezogener Regler bei vernachlässigten anderen ergibt ein schiefes Ergebnis.
+
+::: {.notes}
+Das Bild des Mischpults trägt den Kerngedanken: Die einzelnen Hebel wirken nicht isoliert. Ein hochwertiges Produkt mit einem Billigpreis sendet widersprüchliche Signale, und die beste Kampagne verpufft bei umständlichem Zugang. Es zählt das abgestimmte Ganze.
+:::
+
+## Konsistenz vor Einzelmaßnahme
+
+Bevor eine einzelne Maßnahme optimiert wird, lohnt der Blick auf das Zusammenspiel. Eine widerspruchsfreie Gesamtbotschaft wirkt stärker als jede isoliert perfektionierte Einzelmaßnahme.
+
+::: {.callout-important title="Faustregel"}
+Erst prüfen, ob eine Maßnahme zum übrigen Mix passt, dann optimieren. Konsistenz schlägt Perfektion im Detail.
+:::
+
+::: {.notes}
+Die praktische Konsequenz lautet: zuerst auf Stimmigkeit achten, dann auf Feinschliff. Eine konsistente Geschichte über alle vier Hebel hinweg überzeugt mehr als ein einzelnes, isoliert optimiertes Element.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Der Marketing-Mix ist ein Werkzeugkasten, kein Selbstzweck. Die vier C halten die Kundschaft im Blick, und das abgestimmte Zusammenspiel der Hebel entscheidet über die Wirkung.
+
+::: {.notes}
+Als Kern bleibt: Der Mix ordnet die Umsetzung. Die vier P liefern die Hebel, die vier C die Kundenperspektive, und die Konsistenz des Ganzen entscheidet über den Erfolg.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

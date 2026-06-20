@@ -1,0 +1,30 @@
+---
+title: "Value Proposition Canvas"
+subtitle: "Modul: 02-kundenverstaendnis"
+author: Jan Kirenz
+---
+
+<!--
+ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
+- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
+- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
+- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
+- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
+- Closing-Beat (`{.stage .closing}`) als letzte Folie
+- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
+- `## Literatur` mit `::: {#refs}`-Block am Ende
+Diesen Kommentar nach Feinjustierung entfernen.
+-->
+
+In dieser Lesson schauen wir uns an: Jobs, Pains, Gains und der Fit zwischen Angebot und Kundenprofil.
+
+
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt jobs, Pains, Gains und der Fit zwischen Angebot und Kundenprofil.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+

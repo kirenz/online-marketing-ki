@@ -1,0 +1,30 @@
+---
+title: "Personas erstellen und nutzen"
+subtitle: "Modul: 03-zielgruppe-positionierung"
+author: Jan Kirenz
+---
+
+<!--
+ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
+- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
+- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
+- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
+- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
+- Closing-Beat (`{.stage .closing}`) als letzte Folie
+- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
+- `## Literatur` mit `::: {#refs}`-Block am Ende
+Diesen Kommentar nach Feinjustierung entfernen.
+-->
+
+In dieser Lesson schauen wir uns an: Aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+
+
+
+## Worum es geht
+
+Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+
+## Im Detail
+
+Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+

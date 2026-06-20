@@ -1,0 +1,123 @@
+---
+title: "Was Marketing ist und warum es zählt"
+subtitle: "Modul 1: Marketing-Grundlagen"
+author: Jan Kirenz
+---
+
+# Marketing ist mehr als Werbung {.stage background-image="images/hero-was-ist-marketing.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-was-ist-marketing.png"
+Atmosphärische, dunkle Szene: eine ruhige Schreibtischfläche aus der Vogelperspektive mit angedeuteten Notizen, einer Landkarte und einem Kompass, in tiefem Anthrazit mit warmem Lichtschimmer. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, gedämpfte editoriale Tonalität.
+-->
+
+::: {.notes}
+Marketing wird im Alltag oft mit Werbung gleichgesetzt. Diese Lesson zeigt, dass Werbung nur ein kleiner, sichtbarer Teil ist und Marketing im Kern beschreibt, wie eine Organisation Wert für ihre Kundschaft versteht, schafft und kommuniziert.
+:::
+
+## Marketing beginnt beim Kunden
+
+Der häufigste Fehler ist die falsche Reihenfolge: zuerst ein Produkt bauen, dann nach Abnehmern suchen. Wirksames Marketing dreht das um und setzt zuerst bei der Aufgabe an, die die Kundschaft erledigen möchte.
+
+Aus dieser Haltung folgt eine einzige Leitfrage, die den ganzen Kurs trägt: Welchen Nutzen stiftet eine Maßnahme für eine konkrete Zielgruppe?
+
+::: {.sources}
+Quelle: @kotler2022
+:::
+
+::: {.notes}
+Im Zentrum steht die Kundschaft, nicht das Produkt. Wer zuerst das Produkt baut und danach den Markt sucht, arbeitet gegen die Logik des Marketings. Die Leitfrage nach dem konkreten Nutzen für eine konkrete Zielgruppe begleitet alle weiteren Module.
+:::
+
+## Die Kundenreise von Fremden zu Fürsprechern
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[01]{.timeline-number}
+[Anwerben]{.timeline-title}
+[Aus Fremden werden Besucher, etwa über Suchmaschinen.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[02]{.timeline-number}
+[Überzeugen]{.timeline-title}
+[Aus Besuchern werden Interessenten, etwa über Content.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[03]{.timeline-number}
+[Gewinnen]{.timeline-title}
+[Aus Interessenten werden Kundinnen und Kunden.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[04]{.timeline-number}
+[Binden]{.timeline-title}
+[Aus Kundschaft werden loyale Nutzer und Fürsprecher.]{.timeline-detail}
+:::
+
+::::
+
+::: {.notes}
+Kundinnen und Kunden entstehen nicht mit einem Klick, sondern auf einer Reise. Sie führt von der ersten flüchtigen Wahrnehmung über das Interesse bis zur aktiven Empfehlung. Jede Station hat eine passende Aufgabe: anwerben, überzeugen, gewinnen, binden. Eine Maßnahme ist deshalb selten gut oder schlecht an sich, sondern passend oder unpassend für die jeweilige Station.
+:::
+
+## Der Kunde im Mittelpunkt {.stage background-color="#0a0a0f"}
+
+::: {.quote-box}
+Unternehmen konzentrieren sich zu sehr auf die Herstellung von Waren oder Dienstleistungen und verbringen nicht genug Zeit damit zu verstehen, was Kunden wollen oder brauchen.
+
+[Theodore Levitt]{.text-muted}
+:::
+
+::: {.notes}
+Dieses Zitat von Theodore Levitt bringt die Grundhaltung auf den Punkt. Der Blick wandert weg von der reinen Produktion hin zum Verständnis der Bedürfnisse. Genau dieser Perspektivwechsel unterscheidet Marketing von bloßem Verkaufen.
+:::
+
+## Ziel, Strategie und Maßnahmen
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa bullseye >}}]{.accent-blue}
+**Ziel**
+
+Was wollen wir erreichen? Bekanntheit, Image, Kauf.
+:::
+
+::: {.feature}
+[{{< fa compass >}}]{.accent-green}
+**Strategie**
+
+Wie kommen wir dorthin? Zielgruppe und Positionierung.
+:::
+
+::: {.feature}
+[{{< fa list-check >}}]{.accent-orange}
+**Maßnahmen**
+
+Was setzen wir um? SEO, Content, Werbung.
+:::
+
+::::
+
+::: {.notes}
+Damit Marketing nicht in Aktionismus verfällt, helfen drei getrennte Ebenen. Das Ziel beschreibt den gewünschten Zustand, die Strategie den Weg dorthin, die Maßnahme den konkreten Schritt. Wer mit der Maßnahme beginnt, bucht ein Verkehrsmittel, ohne das Reiseziel zu kennen.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Marketing ist die Disziplin, Angebot und Bedürfnis zusammenzubringen. Wer zuerst die Kundschaft versteht, trifft danach bessere Entscheidungen über Ziel, Strategie und jede einzelne Maßnahme.
+
+::: {.notes}
+Als Kern bleibt: Marketing bringt Angebot und Bedürfnis zusammen. Das Kundenverständnis steht am Anfang, die Kundenreise gibt die Landkarte, und die drei Ebenen Ziel, Strategie und Maßnahme sorgen für Ordnung statt Aktionismus.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

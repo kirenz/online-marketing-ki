@@ -1,0 +1,99 @@
+---
+title: "Die Rolle der KI im Marketing"
+subtitle: "Modul 1: Marketing-Grundlagen"
+author: Jan Kirenz
+---
+
+# KI ist kein Monolith {.stage background-image="images/hero-ki-im-marketing.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-ki-im-marketing.png"
+Dunkle, ruhige Komposition: drei abstrakte, unterschiedlich geformte Bausteine schweben über einer Anthrazitfläche im weichen Lichtschein, angedeutete feine Verbindungslinien. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
+-->
+
+::: {.notes}
+KI im Marketing wird leicht zum Schlagwort, das alles und nichts bedeutet. Damit es konkret bleibt, hilft es, KI nicht als eine Technologie zu behandeln, sondern als drei Klassen mit unterschiedlichen Aufgaben.
+:::
+
+## Drei Arten von KI
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa gears >}}]{.accent-blue}
+**Mechanisch**
+
+Automatisiert Routine: Daten sammeln, Standard ausspielen.
+:::
+
+::: {.feature}
+[{{< fa brain >}}]{.accent-blue}
+**Denkend**
+
+Verarbeitet Daten zu Entscheidungen und Empfehlungen.
+:::
+
+::: {.feature}
+[{{< fa heart >}}]{.accent-green}
+**Fühlend**
+
+Liest Tonalität und Stimmung in der Interaktion.
+:::
+
+::::
+
+::: {.notes}
+Das Drei-Stufen-Framework unterscheidet KI nach ihrer Aufgabe: mechanische KI für Routine, denkende KI für Entscheidungen, fühlende KI für Tonalität und Stimmung. Generative KI, mit der dieser Kurs vor allem arbeitet, bewegt sich quer über alle drei Typen.
+:::
+
+## KI entlang des Marketingprozesses
+
+| Phase | Mechanisch | Denkend | Fühlend |
+|---|---|---|---|
+| Analyse | Daten sammeln | Markt analysieren | Kundschaft verstehen |
+| Strategie | Segmente erkennen | Zielgruppen empfehlen | Resonanz prüfen |
+| Umsetzung | Standardisieren | Personalisieren | Beziehung pflegen |
+
+::: {.sources}
+Quelle: @huang2021
+:::
+
+::: {.notes}
+Besonders nützlich wird die Unterscheidung im Kreuz mit den Phasen des Marketings. So entsteht eine Landkarte von der Analyse über die Strategie bis zur Umsetzung. Diese Landkarte begleitet den Kurs: Bei Content, Anzeigen oder Kennzahlen lässt sich jeweils fragen, welcher KI-Typ in welcher Phase hilft.
+:::
+
+## Das Assistenz-Team {.stage background-color="#0a0a0f"}
+
+Drei Profile, eine Aufgabe je Profil: eine Kraft erledigt Routine, eine zweite rechnet und empfiehlt, eine dritte hat ein Gespür für Ton und Stimmung.
+
+::: {.notes}
+Das Bild eines Assistenz-Teams mit drei Profilen macht die Typen greifbar. Wer die Aufgabe kennt, weiß, an welches Profil sie übergeben wird. Das schützt davor, KI als pauschale Lösung für alles zu behandeln.
+:::
+
+## Was das für die Praxis heißt
+
+Zwei Leitlinien tragen die Arbeit mit KI im Marketing: KI dort einsetzen, wo sie eine klar benannte Aufgabe übernimmt, und das Kundenverständnis als Grundlage behalten.
+
+::: {.callout-important title="KI ergänzt, sie ersetzt nicht das Verständnis"}
+KI beschleunigt gute wie schlechte Entscheidungen gleichermaßen. Auf ein unscharfes Ziel und eine unklare Zielgruppe trifft sie schnell viel, aber selten das Richtige.
+:::
+
+::: {.notes}
+Für die Praxis bleiben zwei Leitlinien. Erstens bekommt KI eine klar benannte Aufgabe, statt als Selbstzweck zu erscheinen. Zweitens bleibt das Kundenverständnis aus der ersten Lesson die Grundlage, denn KI verstärkt jede Entscheidung, die gute wie die schlechte.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Drei KI-Typen, gekreuzt mit den Marketingphasen, ergeben eine Landkarte statt eines Schlagworts. Die konkreten Werkzeuge dazu, von strukturierten Prompts bis zur Content-Erstellung, vertieft Modul 10.
+
+::: {.notes}
+Als Kern bleibt: KI ist kein Monolith, sondern drei Klassen mit klaren Aufgaben. Die Landkarte ordnet ihren Einsatz entlang der Marketingphasen ein. Die praktische Vertiefung folgt in Modul 10.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::
