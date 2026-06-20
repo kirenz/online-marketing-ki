@@ -8,4 +8,4 @@ Wir werden:
 - Kampagnen sinnvoll strukturieren
 - den Quality Score gezielt verbessern
 
-**Quellen:** [[suchmaschinenmarketing]], `@shemshaki2025`, `@ostrovsky2023`
+**Quellen:** [@shemshaki2025; @ostrovsky2023]

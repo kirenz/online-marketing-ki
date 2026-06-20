@@ -8,4 +8,4 @@ Wir werden:
 - Kundenbedürfnisse mit einer Empathy Map erfassen
 - ein Geschäftsmodell im Business Model Canvas skizzieren
 
-**Quellen:** [[marketing-grundlagen]], `@osterwalder2014`, `@osterwalder2013`
+**Quellen:** [@osterwalder2014; @osterwalder2013]

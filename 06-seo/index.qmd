@@ -8,4 +8,4 @@ Wir werden:
 - eine Seite On-Page optimieren
 - Core Web Vitals einordnen und verbessern
 
-**Quellen:** [[suchmaschinenmarketing]], `@enge2023`, `@erlhofer2023`
+**Quellen:** [@enge2023; @erlhofer2023]

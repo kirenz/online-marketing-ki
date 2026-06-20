@@ -8,4 +8,4 @@ Wir werden:
 - zentrale Marketing-Begriffe sicher verwenden
 - die Rolle von KI im Marketing grob einordnen
 
-**Quellen:** [[marketing-grundlagen]], [[ai-marketing]], `@kotler2022`, `@huang2021`
+**Quellen:** [@kotler2022; @huang2021]

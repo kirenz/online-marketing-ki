@@ -8,4 +8,4 @@ Wir werden:
 - KI-gestützte Marketing-Inhalte erstellen
 - Chancen und Risiken generativer KI kritisch bewerten
 
-**Quellen:** [[genai-marketing]], [[ai-marketing]], `@hartmann2025`, `@kumar2025`, `@salvi2025`, `@schmid2025`
+**Quellen:** [@hartmann2025; @kumar2025; @salvi2025; @schmid2025]

@@ -1,17 +1,29 @@
-# Lernplattform-Templates — Mono-Repo-Schablone
+# Digitales Marketing & KI
 
-Quarto-Template-Repo für neue Kurse auf der Lernplattform. Buch und Folien-Decks leben **im selben Repository** — Buch im Root, Slides unter `slides/`. Aus einem Curriculum entstehen prosaische Buch-Kapitel (Wir-Form, Callouts, Analogien) und daraus generierte Folien-Decks (Indirekte Ansprache, Pattern-Bibliothek, Plattform-DNA-Look mit Geist-Font und Cream-Paper).
+Kurs-Mono-Repo für die Lernplattform: Buch und Folien-Decks leben im selben Repository. Das Buch (Wir-Form, Callouts, Analogien) liegt im Repo-Root, die Folien-Decks unter `slides/`. Angelegt aus der Schablone `kirenz/lernplattform-templates`.
 
-## Wann nutzen
+- **Buch bauen:** `quarto render` (Output in `_book/`)
+- **Folien generieren:** `uv run python scripts/generate_slides.py`, dann pro Deck feinjustieren
+- Vorbild-Repo: [`kirenz/n8n-grundlagen`](https://github.com/kirenz/n8n-grundlagen)
 
-Dieses Repo ist der **Startpunkt für jeden neuen Kurs**. Klonen, Curriculum füllen, KI das Repo + Curriculum übergeben — heraus kommen:
+## Stand
 
-- Ein Online-Buch mit Kapiteln pro Lesson (kanonische Quelle, prosaisch ausführlich, mit Callouts)
-- Pro Lesson ein Reveal.js-Folien-Deck (kompakt, Premium-Look, Stage/Desktop-Choreographie)
-- Buch-Brücke vom Slide-Deck zurück zum Buch-Kapitel
-- Speaker-Notes pro Folie, fertig für TTS-Vertonung
+Pro Modul entsteht erst das Buch-Kapitel (Wir-Form), dann das daraus generierte Folien-Deck.
 
-Vollständig ausgearbeitetes Beispiel-Repo: [`kirenz/n8n-grundlagen`](https://github.com/kirenz/n8n-grundlagen) (lokal unter `/Users/jankirenz/code/kurse/n8n-grundlagen/`).
+| # | Modul | Buch | Folien |
+|---|---|---|---|
+| 1 | Marketing-Grundlagen | ✅ | ⬜ |
+| 2 | Kundenverständnis | ⬜ | ⬜ |
+| 3 | Zielgruppe & Positionierung | ⬜ | ⬜ |
+| 4 | Marketingziele & Strategie | ⬜ | ⬜ |
+| 5 | Content-Marketing & Persuasion | ⬜ | ⬜ |
+| 6 | Suchmaschinenoptimierung (SEO) | ⬜ | ⬜ |
+| 7 | Suchmaschinenwerbung (Google Ads) | ⬜ | ⬜ |
+| 8 | Social Media & LinkedIn Ads | ⬜ | ⬜ |
+| 9 | Web-Analytics & Erfolgsmessung | ⬜ | ⬜ |
+| 10 | KI im Marketing | ⬜ | ⬜ |
+
+Legende: ✅ fertig, 🟡 in Arbeit, ⬜ offen.
 
 ## 5-Minuten-Quickstart
 

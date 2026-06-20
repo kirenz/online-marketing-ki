@@ -1,22 +1,52 @@
 # Die Rolle der KI im Marketing
 
-In dieser Lesson schauen wir uns an: Überblick über KI im Marketing und das Drei-Stufen-Framework von Huang und Rust.
+In dieser Lesson verschaffen wir uns einen ersten Überblick darüber, wie Künstliche Intelligenz im Marketing wirkt, und ordnen sie mit einem einfachen Framework so ein, dass wir sie im weiteren Kurs gezielt einsetzen können.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+KI im Marketing wird leicht zum Schlagwort, das alles und nichts bedeutet. Damit wir konkret bleiben, behandeln wir KI nicht als eine einzige Technologie, sondern als drei Klassen mit unterschiedlichen Aufgaben. Diese Unterscheidung geht auf das Drei-Stufen-Framework von @huang2021 zurück und hilft uns, jede KI-Anwendung sauber einzuordnen statt pauschal über „die KI" zu reden.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt überblick über KI im Marketing und das Drei-Stufen-Framework von Huang und Rust.
+## Drei Arten von KI
 
-## Im Detail
+@huang2021 unterscheiden drei Typen von KI nach der Aufgabe, die sie übernehmen:
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+- **Mechanische KI** automatisiert wiederkehrende Routine, etwa das Sammeln von Daten oder das Ausspielen von Standard-Inhalten.
+- **Denkende KI** verarbeitet Daten zu Entscheidungen, etwa wenn sie Zielgruppen erkennt oder Empfehlungen berechnet.
+- **Fühlende KI** analysiert Interaktion und Emotion, etwa bei der Auswertung von Stimmungen in Kundenkommentaren.
+
+Generative KI, mit der wir in diesem Kurs vor allem arbeiten, lässt sich nicht eindeutig einem Typ zuordnen. Sie kann Routine übernehmen (Textentwürfe), Entscheidungen vorbereiten (Analysen) und auf Tonalität eingehen (zielgruppengerechte Sprache).
+
+## KI entlang des Marketingprozesses
+
+Die drei Typen werden besonders nützlich, wenn wir sie mit den Phasen des Marketings kreuzen. So entsteht eine Landkarte, die zeigt, wo welche Art von KI ansetzt.
+
+| Phase | Mechanische KI | Denkende KI | Fühlende KI |
+|---|---|---|---|
+| Research (Analyse) | Daten sammeln | Markt analysieren | Kundschaft verstehen |
+| Strategie (STP) | Segmente erkennen | Zielgruppen empfehlen | Resonanz der Positionierung |
+| Action (Umsetzung) | Standardisierung | Personalisierung | Beziehungspflege |
+
+Diese Landkarte begleitet uns durch den Kurs. Wenn wir später Content erstellen, Anzeigen schalten oder Kennzahlen auswerten, können wir jeweils fragen, welcher KI-Typ hier hilft und in welcher Phase wir gerade sind.
+
+## Was das für die Praxis heißt
+
+Für unsere Arbeit ergeben sich daraus zwei Leitlinien. Erstens setzen wir KI dort ein, wo sie eine klar benannte Aufgabe übernimmt, statt sie als Selbstzweck einzuführen. Zweitens bleibt das Kundenverständnis aus der ersten Lesson die Grundlage, denn KI beschleunigt gute wie schlechte Marketingentscheidungen gleichermaßen.
+
+::: {.callout-tip title="Analogie: das Assistenz-Team"}
+Wir können uns KI wie ein Assistenz-Team mit drei Profilen vorstellen. Eine Kraft erledigt zuverlässig Routine, eine zweite rechnet und empfiehlt, eine dritte hat ein Gespür für Ton und Stimmung. Wer die Aufgabe kennt, weiß, an welches Profil er sie übergibt.
+:::
+
+::: {.callout-important title="KI ergänzt, sie ersetzt nicht das Verständnis"}
+Die hier genannten Frameworks ordnen Anwendungsfälle, sie ersetzen keine Strategie. Eine KI, die auf ein unscharfes Ziel und eine unklare Zielgruppe trifft, liefert schnell viel, aber selten das Richtige.
+:::
+
+Die konkreten Werkzeuge, von strukturierten Prompts über das COMPASS-Framework bis zur KI-gestützten Content-Erstellung, vertiefen wir in Modul 10.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], [[ai-marketing]], `@kotler2022`, `@huang2021`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Die Rolle der KI im Marketing vertiefen
+- Konkrete Tool-Beispiele pro KI-Typ ergänzen (mit kurzer Einordnung)
+- Ein Mini-Beispiel: dieselbe Marketingaufgabe ohne und mit KI gelöst
+- Verweise auf aktuelle empirische Befunde zu generativer KI im Marketing (@hartmann2025, @kumar2025)
+- Ethische und rechtliche Hinweise (Transparenz, Datenschutz) als eigener Abschnitt

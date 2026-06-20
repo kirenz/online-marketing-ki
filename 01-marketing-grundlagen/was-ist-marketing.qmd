@@ -1,22 +1,53 @@
 # Was Marketing ist und warum es zählt
 
-In dieser Lesson schauen wir uns an: Kernidee des Marketings, Kundenorientierung und der Wertbegriff.
+In dieser Lesson klären wir, was Marketing im Kern ausmacht, warum es weit mehr ist als Werbung und wie es den Weg von der ersten Aufmerksamkeit bis zur dauerhaften Kundenbeziehung gestaltet.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Marketing wird oft mit Werbung gleichgesetzt. Tatsächlich ist Werbung nur ein kleiner, sichtbarer Teil. Im Kern beschreibt Marketing, wie eine Organisation den Wert für ihre Kundschaft versteht, schafft, kommuniziert und liefert [@kotler2022]. Wir betrachten Marketing deshalb in diesem Kurs als durchgehende Denkweise, die bei den Bedürfnissen der Menschen ansetzt und erst danach bei Produkten und Kanälen.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt kernidee des Marketings, Kundenorientierung und der Wertbegriff.
+## Marketing beginnt beim Kunden, nicht beim Produkt
 
-## Im Detail
+Der häufigste Fehler ist, zuerst ein Produkt zu bauen und danach nach Abnehmern zu suchen. Erfolgreiches Marketing dreht die Reihenfolge um: Wir verstehen zuerst, welche Aufgabe die Kundschaft erledigen möchte und welches Problem sie löst, und leiten daraus das Angebot ab.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.callout-note title="Der Kunde im Mittelpunkt"}
+„Unternehmen konzentrieren sich zu sehr auf die Herstellung von Waren oder Dienstleistungen und verbringen nicht genug Zeit damit zu verstehen, was Kunden wollen oder brauchen." (Theodore Levitt)
+:::
+
+Diese Haltung zieht sich durch den ganzen Kurs. Ob wir später eine Anzeige schalten oder einen Blogartikel schreiben, die Frage bleibt dieselbe: Welchen Nutzen stiftet das für eine konkrete Zielgruppe?
+
+## Die Kundenreise von Fremden zu Fürsprechern
+
+Kundinnen und Kunden entstehen nicht mit einem Klick. Sie durchlaufen eine Reise, die von der ersten flüchtigen Wahrnehmung bis zur aktiven Empfehlung reicht. Wir unterscheiden dabei mehrere Stationen: aus Fremden werden Besucher, aus Besuchern Interessenten, aus Interessenten Kunden, und aus zufriedenen Kunden werden loyale Nutzer und schließlich Fürsprecher.
+
+Für jede Station gibt es eine passende Marketingaufgabe:
+
+| Station | Aufgabe | Typische Maßnahme |
+|---|---|---|
+| Fremde zu Besuchern | Anwerben | Suchmaschinenwerbung, SEO |
+| Besucher zu Interessenten | Überzeugen | Content-Marketing |
+| Interessenten zu Kunden | Gewinnen | Angebot, Conversion |
+| Kunden zu Fürsprechern | Binden | Service, Community |
+
+Dieses Bild hilft uns, einzelne Maßnahmen einzuordnen. Eine Maßnahme ist selten für sich genommen gut oder schlecht, sondern passend oder unpassend für die Station, an der die Zielgruppe gerade steht.
+
+## Ziel, Strategie und Maßnahmen
+
+Damit Marketing nicht in Aktionismus verfällt, trennen wir drei Ebenen. Das Ziel beschreibt, was wir erreichen wollen (etwa mehr Bekanntheit oder mehr Käufe). Die Strategie beschreibt den Weg dorthin, vor allem über Zielgruppe und Positionierung. Die Maßnahmen sind die konkreten Schritte, etwa SEO, Content-Marketing oder bezahlte Werbung.
+
+::: {.callout-tip title="Analogie: die Reiseplanung"}
+Wer eine Reise plant, legt zuerst das Ziel fest (wohin), dann die Route (wie kommen wir hin) und erst danach die einzelnen Etappen (welche Verkehrsmittel). Marketing funktioniert genauso: Ziel vor Strategie, Strategie vor Maßnahme. Wer mit der Maßnahme beginnt, bucht ein Verkehrsmittel, ohne das Ziel zu kennen.
+:::
+
+::: {.callout-important title="Häufige Stolperfalle"}
+Viele Projekte starten mit der Maßnahme („Wir brauchen einen Social-Media-Kanal") statt mit dem Ziel. Wir prüfen deshalb bei jeder Maßnahme zuerst, auf welches Ziel sie einzahlt und für welche Station der Kundenreise sie gedacht ist.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], [[ai-marketing]], `@kotler2022`, `@huang2021`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Was Marketing ist und warum es zählt vertiefen
+- Ein durchgehendes Praxisbeispiel (ein fiktives Unternehmen) einführen, das den ganzen Kurs begleitet
+- Die Kundenreise mit einer Grafik illustrieren (Fremder bis Fürsprecher)
+- Abgrenzung von Marketing, Vertrieb und Kommunikation in einer kurzen Tabelle ergänzen
+- Definition von Marketing und Austauschprozessen aus @kotler2022 vertiefen

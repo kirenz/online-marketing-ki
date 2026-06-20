@@ -1,22 +1,52 @@
 # Der Marketing-Mix
 
-In dieser Lesson schauen wir uns an: Von den 4 P zu den 4 C und ihre praktische Anwendung.
+In dieser Lesson lernen wir den Marketing-Mix kennen, das klassische Werkzeugset, mit dem wir eine Marketingstrategie in konkrete Entscheidungen übersetzen.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Sobald Ziel und Strategie stehen, brauchen wir Werkzeuge für die Umsetzung. Der Marketing-Mix bündelt die zentralen Stellhebel, an denen wir drehen können [@kotler2022]. Traditionell sind das die vier P. Aus Kundensicht lassen sie sich als vier C lesen, was den Perspektivwechsel vom Anbieter zur Kundschaft betont.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt von den 4 P zu den 4 C und ihre praktische Anwendung.
+## Die vier P
 
-## Im Detail
+Die vier P beschreiben die Entscheidungsfelder aus Sicht des anbietenden Unternehmens.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+- **Product (Produkt):** Was bieten wir an, mit welchen Eigenschaften und welchem Nutzen?
+- **Price (Preis):** Was kostet das Angebot, und welche Preislogik verfolgen wir?
+- **Place (Distribution):** Über welche Wege und Orte gelangt das Angebot zur Kundschaft?
+- **Promotion (Kommunikation):** Wie machen wir das Angebot bekannt und überzeugen wir?
+
+Im digitalen Marketing fällt der Großteil dieses Kurses in das Feld Promotion, also SEO, Content, Werbung und Social Media. Die anderen drei P bilden den Rahmen, in dem diese Kommunikation überhaupt sinnvoll ist.
+
+## Von den vier P zu den vier C
+
+Die vier P denken vom Unternehmen aus. Die vier C übersetzen jeden Hebel in die Perspektive der Kundschaft, was gut zur kundenzentrierten Haltung aus der vorigen Lesson passt.
+
+| Vier P (Anbietersicht) | Vier C (Kundensicht) | Leitfrage |
+|---|---|---|
+| Product | Customer Value (Kundennutzen) | Welchen Nutzen hat die Kundschaft? |
+| Price | Cost (Gesamtkosten) | Was kostet es die Kundschaft insgesamt? |
+| Place | Convenience (Bequemlichkeit) | Wie einfach ist der Zugang? |
+| Promotion | Communication (Dialog) | Wie entsteht ein echter Austausch? |
+
+Der Wechsel ist mehr als eine Umbenennung. Wer von Communication statt von Promotion spricht, denkt an einen Dialog statt an eine einseitige Botschaft, und genau dieser Dialog prägt das digitale Marketing.
+
+## Den Mix als Ganzes denken
+
+Die einzelnen Hebel wirken nicht isoliert. Ein hochwertiges Produkt mit einem Billigpreis sendet widersprüchliche Signale, und die beste Kampagne verpufft, wenn der Zugang umständlich ist. Wir stimmen die Elemente deshalb aufeinander ab, sodass sie dieselbe Geschichte erzählen.
+
+::: {.callout-tip title="Analogie: das Mischpult"}
+Der Marketing-Mix ist wie ein Mischpult im Tonstudio. Jeder Regler steht für einen Hebel. Kein einzelner Regler macht den guten Klang aus, sondern ihr Zusammenspiel. Wer nur einen Regler voll aufzieht und die anderen ignoriert, bekommt ein schiefes Ergebnis.
+:::
+
+::: {.callout-important title="Konsistenz vor Einzelmaßnahme"}
+Bevor wir eine einzelne Maßnahme optimieren, prüfen wir, ob sie zum übrigen Mix passt. Eine widerspruchsfreie Gesamtbotschaft schlägt jede einzelne, isoliert perfektionierte Maßnahme.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], [[ai-marketing]], `@kotler2022`, `@huang2021`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Der Marketing-Mix vertiefen
+- Ein konkretes Mix-Beispiel für das durchgehende Kursprojekt durchspielen
+- Erweiterungen des Mix (sieben P für Dienstleistungen) kurz einordnen
+- Verbindung zu den späteren Kanal-Modulen (SEO, Google Ads, Social Media) explizit herstellen
+- Belege und Definitionen aus @kotler2022 ergänzen

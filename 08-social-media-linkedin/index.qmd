@@ -8,4 +8,4 @@ Wir werden:
 - Kampagnentypen und Targeting passend wählen
 - den Erfolg von Social-Media-Werbung messen
 
-**Quellen:** [[social-media-advertising]], `@balaji2023`, `@seebacher2023`
+**Quellen:** [@balaji2023; @seebacher2023]

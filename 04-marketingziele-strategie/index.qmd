@@ -8,4 +8,4 @@ Wir werden:
 - Ziele mit passenden Kennzahlen verknüpfen
 - eine Brücke von Strategie zu Messung schlagen
 
-**Quellen:** [[marketing-grundlagen]], [[web-analytics]], `@kotler2022`, `@farris2010`
+**Quellen:** [@kotler2022; @farris2010]

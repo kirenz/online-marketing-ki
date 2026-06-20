@@ -8,4 +8,4 @@ Wir werden:
 - Segmentierung und Targeting anwenden
 - eine klare Positionierung formulieren
 
-**Quellen:** [[marketing-grundlagen]], `@smith1956`, `@venter2015`
+**Quellen:** [@smith1956; @venter2015]

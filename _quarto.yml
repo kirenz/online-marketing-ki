@@ -18,6 +18,9 @@ project:
 
 lang: de
 
+bibliography: slides/references.bib
+link-citations: true
+
 execute:
   freeze: auto
 
