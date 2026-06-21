@@ -1,30 +1,159 @@
 ---
 title: "Prompting-Grundlagen"
-subtitle: "Modul: 10-ki-im-marketing"
+subtitle: "Modul 10: KI im Marketing"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Die Anweisung macht das Ergebnis {.stage background-image="images/hero-prompting-grundlagen.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-prompting-grundlagen.png"
+Dunkle, ruhige Komposition: aus einer einzelnen Eingabezeile fächern sich feine Lichtspuren in mehrere Richtungen auf, über tiefem Anthrazit im weichen Schein. Editorial und gedämpft, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
 -->
 
-In dieser Lesson schauen wir uns an: Klare Anweisungen, Rollen, Beispiele und Kontext für bessere KI-Ergebnisse.
+::: {.notes}
+Den Auftakt bildet eine einfache Beobachtung: Ein KI-System kennt nur den Text, den es bekommt, nicht die Absicht dahinter. Deshalb entscheidet die Anweisung über das Ergebnis. Diese Lesson zeigt, wie aus einer vagen Bitte eine präzise Anweisung wird.
+:::
 
+## Warum die Anweisung zählt
 
+Ein Sprachmodell sieht nicht, was im Kopf vorgeht. Es arbeitet allein mit dem eingegebenen [Text]{.highlight-blue}.
 
-## Worum es geht
+Eine vage Bitte erzeugt eine beliebige Antwort. Eine präzise Anweisung richtet das Modell auf das gewünschte Ergebnis aus.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt klare Anweisungen, Rollen, Beispiele und Kontext für bessere KI-Ergebnisse.
+::: {.sources}
+Quelle: @anthropicPrompting2024
+:::
 
-## Im Detail
+::: {.notes}
+Der Kern ist schnell erklärt: Das Modell hat keinen Zugriff auf die Vorstellung im Kopf, sondern nur auf den Text. Eine ungenaue Anweisung führt fast immer zu einer beliebigen Antwort, eine durchdachte Anweisung richtet die Ausgabe aus. Genau das beschreibt der Begriff Prompt Engineering.
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+## Das Briefing an eine neue Kollegin {.stage background-color="#0a0a0f"}
 
+Eine neue Kollegin ist fachlich fähig, kennt aber Produkt, Zielgruppe und Tonfall noch nicht. Wer nur "schreib mal was" sagt, bekommt Beliebiges. Wer Ziel, Adressat und Stil nennt, bekommt einen brauchbaren Entwurf.
+
+::: {.notes}
+Das Bild der neuen Kollegin trägt die ganze Lesson: Kompetenz ist vorhanden, der konkrete Fall aber unbekannt. Je genauer Ziel, Rolle und Rahmen beschrieben werden, desto besser fällt das Ergebnis aus. Ein Prompt funktioniert nach derselben Logik wie ein gutes Briefing.
+:::
+
+## Vier Bausteine eines guten Prompts
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa bullseye >}}]{.accent-blue}
+**Klare Aufgabe**
+
+Ergebnis, Format und Umfang benennen.
+:::
+
+::: {.feature}
+[{{< fa user-tie >}}]{.accent-green}
+**Rolle**
+
+Eine Expertenrolle steuert die Perspektive.
+:::
+
+::: {.feature}
+[{{< fa layer-group >}}]{.accent-orange}
+**Kontext**
+
+Zielgruppe, Anlass und Rahmen mitliefern.
+:::
+
+::: {.feature}
+[{{< fa clone >}}]{.accent-violet}
+**Beispiel**
+
+Ein Muster zeigt die gewünschte Form.
+:::
+
+::::
+
+::: {.notes}
+Vier Elemente heben die Qualität verlässlich an. Die klare Aufgabe benennt Ergebnis, Format und Umfang. Die Rolle steuert die Perspektive der Antwort. Der Kontext liefert Zielgruppe, Anlass und Rahmen. Das Beispiel zeigt die gewünschte Form besser als jede Beschreibung. Die nächsten Folien zeigen die ersten beiden im Detail.
+:::
+
+## Klare Aufgabe statt vagem Thema
+
+Statt eines allgemeinen Themas das gewünschte Ergebnis mit Format und Umfang benennen.
+
+```markdown
+Erkläre Prompt Engineering in fünf Sätzen
+für eine Marketingmitarbeiterin ohne Vorkenntnisse.
+```
+
+Der Prompt legt Ergebnis, Umfang und Adressat fest. Das Modell muss nicht mehr raten.
+
+::: {.notes}
+Hier wird der erste Baustein konkret. Der Prompt benennt das Ergebnis, also eine Erklärung, den Umfang von fünf Sätzen und den Adressaten, eine Marketingmitarbeiterin ohne Vorkenntnisse. Damit entfällt jedes Raten über das, was gemeint ist.
+:::
+
+## Eine Rolle steuert die Perspektive
+
+Eine zugewiesene Expertenrolle passt Wortwahl und Blickwinkel an.
+
+```markdown
+Verhalte dich als erfahrene SEO-Beraterin.
+Bewerte den folgenden Seitentitel und
+schlage drei Alternativen vor.
+```
+
+Unterschiedliche Rollen liefern gezielt unterschiedliche Sichtweisen.
+
+::: {.notes}
+Der zweite Baustein ist die Rolle. Eine SEO-Beraterin achtet auf andere Aspekte als eine Texterin, also liefert die zugewiesene Rolle eine bestimmte Perspektive. Wer verschiedene Sichtweisen braucht, variiert gezielt die Rolle.
+:::
+
+## Kontext klar abgrenzen
+
+Hintergrund vom Auftrag trennen, damit das Modell beides nicht verwechselt. Bewährt haben sich [XML-ähnliche Tags]{.highlight-blue}.
+
+```markdown
+Beantworte die folgende E-Mail freundlich
+und mit konkretem Terminvorschlag.
+
+<email>
+Hallo, koennen Sie mir Infos zum
+Seminar zukommen lassen? Gruss, Martin
+</email>
+```
+
+::: {.notes}
+Der dritte Baustein ist der Kontext. Tags wie email umschließen einen Textblock klar und trennen ihn vom eigentlichen Auftrag. So weiß das Modell, was Anweisung ist und was Material, das es verarbeiten soll.
+:::
+
+## Schritt für Schritt schärfen
+
+Ein guter Prompt entsteht selten im ersten Versuch.
+
+- Mit klarer Aufgabe starten
+- Antwort prüfen
+- Gezielt ergänzen, was gefehlt hat
+
+Für wiederkehrende Aufgaben helfen [Platzhalter]{.highlight-green} wie `[ROLLE]` oder `[ZIELGRUPPE]`.
+
+::: {.sources}
+Quelle: @bolz2024
+:::
+
+::: {.notes}
+Prompting ist ein iterativer Vorgang. Der Start ist eine klare Aufgabe, dann folgen Prüfung und gezielte Ergänzung dessen, was gefehlt hat. Für wiederkehrende Aufgaben lohnen sich Platzhalter, die nur an den variablen Stellen getauscht werden. Damit ist die Brücke zur nächsten Lesson geschlagen, in der COMPASS diese Bausteine zu einem festen Raster ordnet.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Ein Prompt ist ein Briefing. Klare Aufgabe, passende Rolle, mitgelieferter Kontext und ein Beispiel verwandeln eine beliebige Antwort in ein brauchbares Ergebnis. Geschärft wird schrittweise, nicht im ersten Versuch.
+
+::: {.notes}
+Als Kern bleibt: Die Anweisung entscheidet über das Ergebnis. Vier Bausteine, also klare Aufgabe, Rolle, Kontext und Beispiel, heben die Qualität verlässlich an. Das nächste Kapitel fasst diese Bausteine im COMPASS-Framework zu einem festen Raster zusammen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

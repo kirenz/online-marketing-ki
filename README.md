@@ -21,7 +21,7 @@ Pro Modul entsteht erst das Buch-Kapitel (Wir-Form), dann das daraus generierte 
 | 7 | Suchmaschinenwerbung (Google Ads) | ✅ | ✅ |
 | 8 | Social Media & LinkedIn Ads | ✅ | ✅ |
 | 9 | Web-Analytics & Erfolgsmessung | ✅ | ✅ |
-| 10 | KI im Marketing | ⬜ | ⬜ |
+| 10 | KI im Marketing | ✅ | ✅ |
 
 Legende: ✅ fertig, 🟡 in Arbeit, ⬜ offen.
 

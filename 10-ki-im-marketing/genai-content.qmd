@@ -1,22 +1,49 @@
 # GenAI für Marketing-Content
 
-In dieser Lesson schauen wir uns an: Texte und Bilder mit generativer KI erstellen und kritisch prüfen.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir lernen in dieser Lesson, wie generative KI Texte und Bilder für das Marketing erstellt und worauf wir bei der Prüfung achten. Im Mittelpunkt steht das Zusammenspiel aus schnellem Entwurf durch die KI und kritischem Urteil durch uns.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt texte und Bilder mit generativer KI erstellen und kritisch prüfen.
+## KI als Entwurfsmotor
 
-## Im Detail
+Generative KI verändert die Content-Produktion vor allem an einer Stelle: bei der Geschwindigkeit vom leeren Blatt zum ersten Entwurf. Eine Rohfassung für einen Blogbeitrag, mehrere Betreffzeilen für einen Newsletter oder Varianten einer Anzeige entstehen in Minuten statt in Stunden.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Auch bei Bildern ist der Fortschritt erheblich. Studien zeigen, dass generative Modelle visuelle Marketing-Inhalte erzeugen können, die in Tests mit von Menschen erstellten Inhalten mithalten und diese in einzelnen Fällen sogar übertreffen [@hartmann2025]. Für Entwürfe, Moodboards und schnelle Varianten ist das ein großer Gewinn.
+
+Wir nutzen die KI deshalb als Entwurfsmotor: Sie liefert Tempo und Vielfalt, die Auswahl und die Verantwortung bleiben bei uns.
+
+::: {.callout-tip title="Analogie: Die schnelle Praktikantin"}
+Generative KI gleicht einer fleißigen Praktikantin: Sie legt in kurzer Zeit zwanzig Entwürfe vor, kennt aber weder Kundschaft noch Marke im Detail und versteht manchen Fakt nur halb. Das hat zwei Konsequenzen: Wir geben klare Anweisungen, und wir lesen gegen, bevor etwas das Haus verlässt.
+:::
+
+## Vom Prompt zum brauchbaren Entwurf
+
+Die Qualität des Entwurfs hängt direkt an der Anweisung. Hier zahlen sich die vorigen Lessons aus: Ein nach COMPASS aufgebauter Prompt mit Kontext, Ziel, Rolle, Zielgruppe und Stil liefert deutlich brauchbarere Texte als eine vage Bitte.
+
+Bei Bildern übernehmen ähnliche Bausteine diese Rolle. Wir beschreiben Motiv, Bildstil, Stimmung und Bildausschnitt und benennen, was nicht im Bild erscheinen soll. Auch hier gilt: Je konkreter die Beschreibung, desto näher liegt das Ergebnis an der Vorstellung.
+
+In beiden Fällen arbeiten wir iterativ. Wir erzeugen einen Entwurf, prüfen ihn und schärfen den Prompt gezielt nach. Selten ist der erste Versuch schon der finale Inhalt.
+
+## Kritisch prüfen, bevor es erscheint
+
+Geschwindigkeit ist nur dann ein Gewinn, wenn die Qualität stimmt. Generative KI erzeugt bisweilen Aussagen, Zahlen oder Quellen, die überzeugend klingen, aber schlicht falsch sind. Dieses Phänomen wird als Halluzination bezeichnet. Jeder Entwurf braucht deshalb eine menschliche Prüfung entlang einiger fester Fragen.
+
+- **Faktentreue**: Stimmen Aussagen, Zahlen und Quellen? Erfundene Belege sind ein bekanntes Risiko.
+- **Markenstimme**: Passt der Tonfall zur Marke, oder klingt der Text beliebig?
+- **Rechtliches und Ethisches**: Sind Urheberrecht, Kennzeichnung und Datenschutz beachtet?
+- **Eigenständigkeit**: Hebt sich der Inhalt ab, oder gleicht er austauschbarer Massenware?
+
+Diese Prüfung ist keine lästige Pflicht, sondern der Kern verantwortungsvoller Nutzung. Die Forschung weist ausdrücklich darauf hin, dass generative KI im Marketing neben den Chancen auch Risiken birgt, von Fehlinformationen bis zu Fragen der Transparenz, die eine bewusste Steuerung erfordern [@kumar2025].
+
+::: {.callout-important title="Verantwortung bleibt menschlich"}
+Wer einen KI-Entwurf ohne Prüfung veröffentlicht, übernimmt dessen Fehler als eigene. Die KI trägt keine Verantwortung für falsche Fakten oder fragwürdige Aussagen, das tut die Person oder das Unternehmen, das den Inhalt verbreitet.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[genai-marketing]], [[ai-marketing]], `@hartmann2025`, `@kumar2025`, `@salvi2025`, `@schmid2025`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu GenAI für Marketing-Content vertiefen
+- Ein konkretes Beispiel für die Textgenerierung mit anschließender Prüf-Checkliste ergänzen
+- Einen guten und einen schwachen Bild-Prompt gegenüberstellen und die Unterschiede erläutern
+- Eine kompakte Prüf-Checkliste als wiederverwendbares Werkzeug einfügen
+- Rechtliche und ethische Aspekte vertiefen (Kennzeichnungspflicht, Urheberrecht, Datenschutz) [@kumar2025]

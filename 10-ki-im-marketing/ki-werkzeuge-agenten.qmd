@@ -1,22 +1,54 @@
 # KI-Werkzeuge und Agenten im Arbeitsalltag
 
-In dieser Lesson schauen wir uns an: Copilot und KI-Agenten sinnvoll in Marketing-Workflows einbinden.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir lernen in dieser Lesson, wie KI vom einzelnen Chat-Fenster in den täglichen Arbeitsfluss wandert. Im Mittelpunkt stehen integrierte Assistenten wie Microsoft Copilot und die Idee von KI-Agenten, die mehrschrittige Aufgaben übernehmen.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt copilot und KI-Agenten sinnvoll in Marketing-Workflows einbinden.
+## Von der KI im Chat zur KI im Werkzeug
 
-## Im Detail
+Bis hierher haben wir KI als eigenes Fenster genutzt, in das wir Prompts eingeben. Der nächste Schritt bringt die KI direkt in die Programme, mit denen wir ohnehin arbeiten. Microsoft Copilot etwa sitzt in Word, Excel, PowerPoint und Outlook und greift dort auf den jeweiligen Inhalt zu.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Das verändert die Arbeitsweise: Statt Inhalte zwischen Chat und Dokument hin und her zu kopieren, formulieren wir die Anweisung direkt im Werkzeug. In Word entsteht so ein Entwurf für einen Bericht, in Excel eine Analyse einer Tabelle, in PowerPoint ein erster Foliensatz, in Outlook eine Zusammenfassung eines langen E-Mail-Verlaufs.
+
+::: {.callout-tip title="Analogie: Der Assistent am Schreibtisch"}
+Ein externer Dienstleister ist hilfreich, aber wir müssen ihm jede Akte erst zuschicken. Eine Assistenz am eigenen Schreibtisch dagegen sieht die Unterlagen direkt mit und arbeitet im Vorgang weiter. Integrierte KI-Werkzeuge wie Copilot sind diese Assistenz: Sie kennen den Kontext des Dokuments, in dem wir gerade sind.
+:::
+
+## Was ein KI-Agent zusätzlich kann
+
+Ein Assistent antwortet auf eine Anweisung. Ein KI-Agent geht einen Schritt weiter: Er zerlegt ein Ziel selbst in Teilschritte, führt diese nacheinander aus und nutzt dabei Werkzeuge wie eine Websuche oder einen Kalender.
+
+Der Unterschied liegt in der Selbststeuerung. Statt "Schreibe diese eine E-Mail" lautet der Auftrag an einen Agenten eher "Bereite das Meeting nächste Woche vor": Termine prüfen, relevante Informationen sammeln, einen Vorschlag zusammenstellen. Für Marketing-Workflows eröffnet das Spielräume, etwa beim Recherchieren von Themen, beim Aufbereiten von Daten oder beim Vorbereiten wiederkehrender Reportings.
+
+Die folgende Tabelle stellt die drei Stufen gegenüber, die wir in diesem Modul kennengelernt haben.
+
+| Stufe | Was wir tun | Beispiel |
+|---|---|---|
+| Chat | Einzelne Prompts in einem KI-Fenster | Eine Anzeige in fünf Varianten texten |
+| Assistent | Anweisungen direkt im Programm | In Word einen Berichtsentwurf erstellen |
+| Agent | Ein Ziel vorgeben, Teilschritte werden selbst ausgeführt | Ein Meeting vorbereiten lassen |
+
+::: {.callout-important title="Mehr Autonomie, mehr Aufsicht"}
+Je eigenständiger ein Werkzeug handelt, desto wichtiger wird die Kontrolle. Ein Agent, der selbst Schritte ausführt, kann auch selbstständig Fehler fortpflanzen. Ergebnisse müssen geprüft werden, sensible Daten gehören nur in dafür freigegebene Werkzeuge, und die Verantwortung für das Resultat bleibt bei uns [@kumar2025].
+:::
+
+## KI sinnvoll in Workflows einbinden
+
+Nicht jede Aufgabe braucht KI, und nicht jedes Werkzeug passt zu jeder Aufgabe. Wir wählen bewusst: Für einen schnellen Entwurf reicht der Chat, für die Arbeit an einem konkreten Dokument der integrierte Assistent, für eine mehrschrittige Routineaufgabe der Agent.
+
+Ein tragfähiger Workflow entsteht, wenn wir wiederkehrende Aufgaben identifizieren, dafür gute Prompts oder Vorlagen anlegen und feste Prüfschritte einbauen. So wird aus einem Einzelversuch eine verlässliche Arbeitsweise. Generative KI ist dabei ein Werkzeug zur Unterstützung, das menschliche Urteilskraft schärft, statt sie zu ersetzen [@bolz2024].
+
+## Ausblick: Was diesen Kurs verbindet
+
+Mit dieser Lesson schließt das Modul und der Kurs. Ein roter Faden zieht sich durch alle Module: Marketing beginnt beim Verständnis der Zielgruppe, führt über klare Ziele und Strategie zu Inhalten und Kanälen und endet bei der Messung der Wirkung. KI ist kein eigener Endpunkt, sondern eine Schicht, die diesen gesamten Prozess unterstützt, vom Entwurf eines Personas-Steckbriefs über SEO-Texte und Anzeigen bis zur Auswertung von Kennzahlen.
+
+Genau deshalb steht dieses Modul am Ende: Es greift die Aufgaben der vorigen Module auf und zeigt, wie strukturierte Prompts, generative Inhalte und KI-Werkzeuge sie schneller und konsistenter machen. Die menschliche Rolle bleibt dabei in allen Modulen dieselbe: Ziele setzen, Kontext liefern, Ergebnisse prüfen und Verantwortung tragen. Wer den Kurs mit dieser Haltung verlässt, kann KI als verlässlichen Teil der eigenen Marketingarbeit nutzen.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[genai-marketing]], [[ai-marketing]], `@hartmann2025`, `@kumar2025`, `@salvi2025`, `@schmid2025`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu KI-Werkzeuge und Agenten im Arbeitsalltag vertiefen
+- Konkrete Copilot-Beispiele aus dem Marketingalltag mit Schritt-für-Schritt-Ablauf ergänzen
+- Ein einfaches Agenten-Szenario als durchgespieltes Beispiel einfügen
+- Eine Entscheidungshilfe ergänzen, welche Aufgabe welches Werkzeug verlangt
+- Datenschutz und Unternehmensrichtlinien beim Einsatz integrierter KI-Werkzeuge vertiefen

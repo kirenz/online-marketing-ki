@@ -1,30 +1,122 @@
 ---
 title: "GenAI für Marketing-Content"
-subtitle: "Modul: 10-ki-im-marketing"
+subtitle: "Modul 10: KI im Marketing"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Vom leeren Blatt zum Entwurf {.stage background-image="images/hero-genai-content.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-genai-content.png"
+Dunkle, ruhige Komposition: aus einem leeren Blatt steigen angedeutete Textzeilen und Bildflächen als feine Lichtspuren auf, über tiefem Anthrazit im weichen Schein. Editorial und gedämpft, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
 -->
 
-In dieser Lesson schauen wir uns an: Texte und Bilder mit generativer KI erstellen und kritisch prüfen.
+::: {.notes}
+Den Auftakt bildet die Stelle, an der generative KI die Content-Arbeit am stärksten verändert: beim Tempo vom leeren Blatt zum ersten Entwurf. Diese Lesson zeigt, wie aus diesem Tempo brauchbarer Content wird und wo die Prüfung ansetzt.
+:::
 
+## KI als Entwurfsmotor
 
+:::: {.features}
 
-## Worum es geht
+::: {.feature}
+[{{< fa bolt >}}]{.accent-blue}
+**Tempo**
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt texte und Bilder mit generativer KI erstellen und kritisch prüfen.
+Vom leeren Blatt zur Rohfassung in Minuten.
+:::
 
-## Im Detail
+::: {.feature}
+[{{< fa shuffle >}}]{.accent-blue}
+**Varianten**
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Mehrere Versionen einer Botschaft zur Auswahl.
+:::
 
+::: {.feature}
+[{{< fa user-check >}}]{.accent-green}
+**Urteil**
+
+Auswahl, Faktentreue und Markenstimme bleiben menschlich.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @hartmann2025
+:::
+
+::: {.notes}
+Generative KI liefert Tempo und Varianten, der Mensch liefert das Urteil. Die Forschung zeigt, dass KI bei visuellen Marketing-Inhalten hohe Qualität erreicht und mit menschlicher Arbeit mithalten kann. Die Verantwortung für Auswahl, Faktentreue und Markenstimme bleibt dennoch beim Menschen.
+:::
+
+## Die schnelle Praktikantin {.stage background-color="#0a0a0f"}
+
+KI gleicht einer fleißigen Praktikantin: zwanzig Entwürfe in Minuten, aber ohne echtes Wissen über Kundschaft und Marke und mit manch halb verstandenem Fakt.
+
+::: {.notes}
+Das Bild der Praktikantin trägt zwei Konsequenzen. Erstens braucht es klare Anweisungen, weil das konkrete Wissen über Kundschaft und Marke fehlt. Zweitens braucht es ein Gegenlesen, weil manch Fakt nur halb verstanden ist. Beides bestimmt den Umgang mit generativem Content.
+:::
+
+## Vom Prompt zum brauchbaren Entwurf
+
+Die Qualität des Entwurfs hängt direkt an der Anweisung.
+
+- **Text**: ein Prompt nach COMPASS mit Kontext, Ziel, Rolle und Stil
+- **Bild**: Motiv, Bildstil, Stimmung und Bildausschnitt beschreiben, plus was nicht erscheinen soll
+- **Beides**: iterativ schärfen statt auf den ersten Versuch hoffen
+
+::: {.notes}
+Hier zahlen sich die vorigen Lessons aus. Für Text liefert ein nach COMPASS gebauter Prompt deutlich brauchbarere Ergebnisse als eine vage Bitte. Für Bilder übernehmen ähnliche Bausteine die Rolle: Motiv, Stil, Stimmung, Ausschnitt und ein Hinweis, was nicht erscheinen soll. In beiden Fällen wird iterativ geschärft.
+:::
+
+## Bilder erreichen hohe Qualität {.stage background-color="#0a0a0f"}
+
+Generative Modelle erzeugen visuelle Marketing-Inhalte, die in Tests mit menschlicher Arbeit mithalten und sie in einzelnen Fällen übertreffen.
+
+::: {.notes}
+Dieser Moment hält die Evidenz fest: Bei visuellen Inhalten ist der Fortschritt erheblich. In kontrollierten Tests erreichen generative Modelle eine Qualität, die mit von Menschen erstellten Inhalten mithält und sie vereinzelt übertrifft. Für Entwürfe, Moodboards und schnelle Varianten ist das ein großer Gewinn.
+:::
+
+## Kritisch prüfen vor dem Veröffentlichen
+
+Tempo nützt nur bei stimmender Qualität. Vier feste Fragen vor jeder Veröffentlichung:
+
+- **Faktentreue**: Stimmen Aussagen, Zahlen und Quellen?
+- **Markenstimme**: Passt der Tonfall, oder klingt es beliebig?
+- **Recht und Ethik**: Sind Urheberrecht, Kennzeichnung und Datenschutz beachtet?
+- **Eigenständigkeit**: Hebt sich der Inhalt ab?
+
+::: {.sources}
+Quelle: @kumar2025
+:::
+
+::: {.notes}
+Geschwindigkeit ist nur dann ein Gewinn, wenn die Qualität stimmt. Generative KI erzeugt bisweilen überzeugend klingende, aber falsche Aussagen, sogenannte Halluzinationen. Vier feste Fragen helfen: Faktentreue, Markenstimme, rechtliche und ethische Aspekte sowie Eigenständigkeit. Die Forschung betont diese Risiken ausdrücklich neben den Chancen.
+:::
+
+## Verantwortung bleibt menschlich
+
+Wer einen KI-Entwurf ungeprüft veröffentlicht, übernimmt dessen Fehler als [eigene]{.highlight-red}.
+
+Die KI trägt keine Verantwortung für falsche Fakten. Das tut, wer den Inhalt verbreitet.
+
+::: {.notes}
+Der Punkt ist grundsätzlich: Verantwortung lässt sich nicht an ein Werkzeug abgeben. Wer einen ungeprüften Entwurf veröffentlicht, übernimmt dessen Fehler. Die Prüfung ist deshalb kein optionaler Zusatz, sondern der Kern verantwortungsvoller Nutzung.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+KI ist Entwurfsmotor, kein Autopilot. Sie liefert Tempo und Varianten für Text und Bild, die Qualität sichern wir durch Prüfung. Der größte Gewinn ist Geschwindigkeit, die größte Gefahr ungeprüfte Beliebigkeit.
+
+::: {.notes}
+Als Kern bleibt: Generative KI beschleunigt den Entwurf, menschliche Sorgfalt macht daraus wirksamen Content. Die nächste Lesson zeigt, wie diese KI von einzelnen Entwürfen in integrierte Werkzeuge und Agenten im Arbeitsalltag wandert.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

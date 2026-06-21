@@ -1,30 +1,112 @@
 ---
 title: "KI-Werkzeuge und Agenten im Arbeitsalltag"
-subtitle: "Modul: 10-ki-im-marketing"
+subtitle: "Modul 10: KI im Marketing"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Wenn die KI an den Schreibtisch wandert {.stage background-image="images/hero-ki-werkzeuge-agenten.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-ki-werkzeuge-agenten.png"
+Dunkle, ruhige Komposition: ein angedeuteter Arbeitsplatz, in dem feine Lichtlinien aus mehreren Werkzeugen zu einem Punkt zusammenlaufen, über tiefem Anthrazit im weichen Schein. Editorial und gedämpft, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
 -->
 
-In dieser Lesson schauen wir uns an: Copilot und KI-Agenten sinnvoll in Marketing-Workflows einbinden.
+::: {.notes}
+Den Abschluss des Moduls bildet der Schritt von der KI im Chat zur KI im Werkzeug. Diese Lesson zeigt, wie integrierte Assistenten und Agenten in den täglichen Arbeitsfluss wandern, und schließt am Ende den Bogen über den ganzen Kurs.
+:::
 
+## Von der KI im Chat zur KI im Werkzeug
 
+Bisher diente KI als eigenes Fenster für Prompts. Der nächste Schritt bringt sie direkt in die Programme des Alltags.
 
-## Worum es geht
+Microsoft Copilot etwa sitzt in [Word, Excel, PowerPoint und Outlook]{.highlight-blue} und greift dort auf den Inhalt zu.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt copilot und KI-Agenten sinnvoll in Marketing-Workflows einbinden.
+::: {.notes}
+Der Übergang ist der Kern dieser Folie. Statt Inhalte zwischen Chat und Dokument zu kopieren, wird die Anweisung direkt im Werkzeug formuliert. Copilot sitzt in den Office-Programmen und kennt den Kontext des Dokuments, in dem gerade gearbeitet wird.
+:::
 
-## Im Detail
+## Der Assistent am Schreibtisch {.stage background-color="#0a0a0f"}
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Ein externer Dienstleister ist hilfreich, aber jede Akte muss erst zugeschickt werden. Eine Assistenz am eigenen Schreibtisch sieht die Unterlagen direkt mit und arbeitet im Vorgang weiter.
 
+::: {.notes}
+Das Bild ordnet den Unterschied. Die KI im Chat gleicht einem externen Dienstleister, dem man alles zuschicken muss. Integrierte Werkzeuge wie Copilot gleichen einer Assistenz am eigenen Schreibtisch, die den Kontext des Dokuments bereits mitsieht.
+:::
+
+## Was ein Agent zusätzlich kann
+
+Ein Assistent antwortet auf eine Anweisung. Ein [Agent]{.highlight-green} zerlegt ein Ziel selbst in Teilschritte und führt sie aus.
+
+Statt "Schreibe diese E-Mail" lautet der Auftrag "Bereite das Meeting vor": Termine prüfen, Informationen sammeln, Vorschlag erstellen.
+
+::: {.notes}
+Hier kommt die zweite Stufe. Der Unterschied zum Assistenten liegt in der Selbststeuerung: Ein Agent zerlegt ein Ziel in Teilschritte, führt sie nacheinander aus und nutzt dabei Werkzeuge wie Websuche oder Kalender. Für Marketing eröffnet das Spielräume beim Recherchieren, Aufbereiten und bei wiederkehrenden Reportings.
+:::
+
+## Drei Stufen im Überblick
+
+| Stufe | Was wir tun | Beispiel |
+|---|---|---|
+| Chat | Einzelne Prompts in einem KI-Fenster | Eine Anzeige in fünf Varianten texten |
+| Assistent | Anweisungen direkt im Programm | In Word einen Berichtsentwurf erstellen |
+| Agent | Ein Ziel vorgeben, Teilschritte laufen selbst | Ein Meeting vorbereiten lassen |
+
+::: {.notes}
+Diese Tabelle fasst das Modul zusammen. Die erste Stufe ist der Chat mit einzelnen Prompts. Die zweite ist der Assistent, der direkt im Programm arbeitet. Die dritte ist der Agent, der ein Ziel selbst in Teilschritte zerlegt. Mit jeder Stufe steigt die Eigenständigkeit des Werkzeugs.
+:::
+
+## Mehr Autonomie, mehr Aufsicht
+
+Je eigenständiger ein Werkzeug handelt, desto wichtiger wird die [Kontrolle]{.highlight-red}.
+
+Ein Agent kann auch selbstständig Fehler fortpflanzen. Ergebnisse prüfen, sensible Daten nur in freigegebene Werkzeuge, Verantwortung bleibt bei uns.
+
+::: {.sources}
+Quelle: @kumar2025
+:::
+
+::: {.notes}
+Mit der Autonomie wächst die Pflicht zur Aufsicht. Ein Agent, der selbst Schritte ausführt, kann Fehler auch selbstständig fortpflanzen. Deshalb gilt: Ergebnisse prüfen, sensible Daten nur in dafür freigegebene Werkzeuge geben, und die Verantwortung für das Resultat bleibt beim Menschen.
+:::
+
+## KI bewusst einbinden
+
+Nicht jede Aufgabe braucht KI, und nicht jedes Werkzeug passt zu jeder Aufgabe.
+
+- Schneller Entwurf: der Chat
+- Arbeit an einem Dokument: der Assistent
+- Mehrschrittige Routine: der Agent
+
+Tragfähig wird ein Workflow durch feste Vorlagen und feste Prüfschritte.
+
+::: {.sources}
+Quelle: @bolz2024
+:::
+
+::: {.notes}
+Die Werkzeugwahl ist eine bewusste Entscheidung. Für einen schnellen Entwurf reicht der Chat, für die Arbeit an einem Dokument der Assistent, für eine mehrschrittige Routine der Agent. Ein tragfähiger Workflow entsteht, wenn wiederkehrende Aufgaben mit Vorlagen und festen Prüfschritten hinterlegt werden. KI unterstützt, sie ersetzt nicht das Urteil.
+:::
+
+## Was diesen Kurs verbindet {.stage background-color="#0a0a0f"}
+
+Marketing beginnt beim Verständnis der Zielgruppe, führt über Ziele und Strategie zu Inhalten und Kanälen und endet bei der Messung. KI ist kein Endpunkt, sondern eine Schicht, die diesen ganzen Weg unterstützt.
+
+::: {.notes}
+Dieser Moment schließt den Bogen über den Kurs. Ein roter Faden zieht sich durch alle Module, von der Zielgruppe über Ziele, Strategie, Inhalte und Kanäle bis zur Messung der Wirkung. KI ist keine eigene Disziplin am Ende, sondern eine unterstützende Schicht über dem gesamten Prozess. Deshalb steht dieses Modul am Schluss.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+KI wandert vom Chat über den Assistenten bis zum Agenten in den Arbeitsalltag. Je mehr Autonomie, desto mehr Aufsicht. Die menschliche Rolle bleibt in jedem Modul dieselbe: Ziele setzen, Kontext liefern, Ergebnisse prüfen, Verantwortung tragen.
+
+::: {.notes}
+Als Abschluss des Kurses bleibt: KI ist ein verlässliches Werkzeug über den gesamten Marketingprozess, vom Persona-Steckbrief bis zur Auswertung von Kennzahlen. Wer Ziele setzt, Kontext liefert und Ergebnisse prüft, nutzt sie als festen Teil der eigenen Arbeit. Damit endet der Kurs.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

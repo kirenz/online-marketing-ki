@@ -1,30 +1,122 @@
 ---
 title: "Das COMPASS-Framework"
-subtitle: "Modul: 10-ki-im-marketing"
+subtitle: "Modul 10: KI im Marketing"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Sieben Felder für jeden Prompt {.stage background-image="images/hero-compass-framework.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-compass-framework.png"
+Dunkle, ruhige Komposition: ein abstrakter Kompass aus feinen Lichtlinien mit mehreren angedeuteten Strahlen, über tiefem Anthrazit im weichen Schein. Editorial und gedämpft, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
 -->
 
-In dieser Lesson schauen wir uns an: Context, Objective, Mode, People, Attitude, Style, Specifications als Prompt-Struktur.
+::: {.notes}
+Den Einstieg bildet der Gedanke, dass gute Prompts nicht von Inspiration leben, sondern von einer Checkliste. COMPASS ist genau das: ein festes Raster aus sieben Feldern, das bei jedem Prompt durchgegangen wird.
+:::
 
+## Warum ein festes Raster hilft
 
+Die vorige Lesson zeigte, welche Bausteine eine Antwort verbessern. Unter Zeitdruck fällt leicht die Hälfte davon weg.
 
-## Worum es geht
+Eine [Checkliste]{.highlight-blue} sorgt dafür, dass auch bei Routine kein wichtiger Schritt ausfällt.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt context, Objective, Mode, People, Attitude, Style, Specifications als Prompt-Struktur.
+::: {.notes}
+Im Alltag ist das Problem nicht fehlendes Wissen, sondern Vergessen unter Zeitdruck. Checklisten lösen genau das: Sie machen wichtige Schritte unabhängig vom Gedächtnis. COMPASS überträgt dieses Prinzip auf das Schreiben von Prompts.
+:::
 
-## Im Detail
+## Die Checkliste im Cockpit {.stage background-color="#0a0a0f"}
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Eine Pilotin verlässt sich vor dem Start nicht auf ihr Gedächtnis, sondern auf eine feste Liste. Jeder Punkt wird abgehakt, damit auch bei Routine nichts übersehen wird.
 
+::: {.notes}
+Das Bild des Cockpits trägt die Lesson: Auch erfahrene Profis arbeiten Listen ab, gerade weil Routine das Übersehen begünstigt. COMPASS erfüllt für Prompts denselben Zweck wie die Checkliste vor dem Start.
+:::
+
+## COMPASS, Feld für Feld
+
+| Komponente | Bedeutung | Leitfrage |
+|---|---|---|
+| Context (Kontext) | Hintergrund und relevante Fakten | Was muss das Modell wissen? |
+| Objective (Ziel) | Zweck und erwartetes Ergebnis | Was soll herauskommen? |
+| Mode (Rolle/Modus) | Rolle, die das Modell einnimmt | Aus wessen Perspektive? |
+| People of Interest (Zielgruppe) | Adressat der Antwort | Für wen ist das Ergebnis? |
+| Attitude (Tonfall) | Emotionale Grundstimmung | Wie soll es klingen? |
+| Style (Stil) | Sprachliche Gestaltung | In welcher Schreibweise? |
+| Specifications (Spezifikationen) | Konkrete Vorgaben und Grenzen | Welche Regeln gelten? |
+
+::: {.notes}
+Diese Tabelle ist der Kern der Lesson. Jede Komponente steht für eine Frage: Context klärt den Hintergrund, Objective das Ziel, Mode die Rolle, People of Interest den Adressaten, Attitude den Tonfall, Style die Schreibweise und Specifications die Grenzen. Sieben Felder, sieben Fragen.
+:::
+
+## Das Fundament: Kontext und Ziel
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa layer-group >}}]{.accent-blue}
+**Context**
+
+Ein präziser Kontext verhindert falsche Annahmen.
+:::
+
+::: {.feature}
+[{{< fa bullseye >}}]{.accent-green}
+**Objective**
+
+Ein klares Ziel richtet die Antwort aus.
+:::
+
+::::
+
+Die übrigen fünf Felder steuern Perspektive, Adressat, Klang, Form und Grenzen.
+
+::: {.notes}
+Unter den sieben Feldern tragen zwei das Fundament. Ein präziser Kontext verhindert, dass das Modell falsche Annahmen trifft. Ein klares Ziel richtet die Antwort auf das gewünschte Ergebnis aus. Mode und People of Interest steuern danach Perspektive und Adressat, Attitude und Style den Klang und die Form, Specifications die Grenzen.
+:::
+
+## COMPASS in der Praxis
+
+Nicht jeder Prompt braucht alle sieben Felder. Bei einer kurzen Frage genügen [Kontext und Ziel]{.highlight-green}.
+
+Je sichtbarer das Ergebnis, etwa ein Newsletter oder eine Anzeige, desto mehr lohnt die vollständige Liste.
+
+Der Gewinn liegt in der Wiederholbarkeit: einmal sauber gebaut, als Vorlage gespeichert, immer wieder genutzt.
+
+::: {.sources}
+Quelle: @bolz2024
+:::
+
+::: {.notes}
+In der Praxis wird das Raster flexibel genutzt. Für eine kurze Frage reichen Kontext und Ziel. Für sichtbare Ergebnisse wie einen Newsletter oder eine Anzeige lohnt sich die vollständige Liste. Der eigentliche Gewinn ist die Wiederholbarkeit: Ein einmal sauber gebauter COMPASS-Prompt wird zur Vorlage, bei der nur Kontext und Zielgruppe getauscht werden.
+:::
+
+## Struktur ersetzt keine Prüfung
+
+Auch ein sauber nach COMPASS gebauter Prompt liefert nur einen [Entwurf]{.highlight-red}.
+
+Das Modell kann Fakten und Zahlen erfinden, die überzeugend klingen, aber falsch sind. Jede Ausgabe braucht eine inhaltliche Prüfung.
+
+::: {.sources}
+Quelle: @kumar2025
+:::
+
+::: {.notes}
+Eine wichtige Einschränkung gehört dazu: Struktur verbessert den Prompt, garantiert aber kein korrektes Ergebnis. Das Modell kann Fakten und Zahlen erfinden, die plausibel wirken. Deshalb braucht jede Ausgabe eine inhaltliche Prüfung, bevor sie verwendet wird.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+COMPASS ist die Checkliste für Prompts: Context, Objective, Mode, People of Interest, Attitude, Style und Specifications. Kontext und Ziel tragen das Fundament, die übrigen Felder schärfen Perspektive, Klang und Grenzen. Einmal gebaut, beliebig wiederverwendbar.
+
+::: {.notes}
+Als Kern bleibt: COMPASS macht gute Prompts wiederholbar statt zufällig. Sieben feste Felder sorgen dafür, dass nichts Wesentliches fehlt. Die nächste Lesson nutzt solche strukturierten Prompts, um konkrete Marketing-Inhalte zu erstellen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::
