@@ -1,30 +1,96 @@
 ---
 title: "Business Model Canvas"
-subtitle: "Modul: 02-kundenverstaendnis"
+subtitle: "Modul 2: Kundenverständnis"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Das Geschäft auf einer Seite {.stage background-image="images/hero-business-model-canvas.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-business-model-canvas.png"
+Dunkle, ruhige Komposition: ein angedeuteter Grundriss aus neun feinen Rechtecken über tiefem Anthrazit, weicher Lichtschein, architektonische Anmutung. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Das Geschäftsmodell mit seinen neun Bausteinen im Überblick.
+::: {.notes}
+Value Proposition Canvas und Empathy Map schärfen den Blick auf Kundschaft und Nutzen. Das Business Model Canvas setzt diesen Nutzen in den größeren Zusammenhang und zeigt mit neun Bausteinen, wie aus einem Angebot ein tragfähiges Geschäft wird.
+:::
 
+## Die neun Bausteine
 
+| Baustein | Leitfrage |
+|---|---|
+| Kundensegmente | Für wen schaffen wir Wert? |
+| Wertangebote | Welchen Nutzen stiften wir? |
+| Kanäle | Wie erreichen wir die Kundschaft? |
+| Kundenbeziehungen | Welche Beziehung pflegen wir? |
+| Einnahmequellen | Wofür wird bezahlt? |
+| Schlüsselressourcen | Was brauchen wir dafür? |
+| Schlüsselaktivitäten | Was müssen wir tun? |
+| Schlüsselpartner | Wer hilft uns? |
+| Kostenstruktur | Welche Kosten entstehen? |
 
-## Worum es geht
+::: {.notes}
+Neun Felder beschreiben das Geschäftsmodell, von den Kundensegmenten über das Wertangebot bis zur Kostenstruktur. Jedes Feld beantwortet eine Leitfrage, und zusammen ergeben sie ein vollständiges Bild.
+:::
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt das Geschäftsmodell mit seinen neun Bausteinen im Überblick.
+## Die rechte und die linke Seite
 
-## Im Detail
+:::: {.columns}
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.column width="50%"}
+**Rechts: nach außen**
 
+Kundensegmente, Wertangebote, Kanäle, Beziehungen, Einnahmen.
+:::
+
+::: {.column width="50%"}
+**Links: nach innen**
+
+Schlüsselressourcen, Aktivitäten, Partner, Kosten.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @osterwalder2013
+:::
+
+::: {.notes}
+Das Canvas hat eine innere Logik. Die rechte Seite ist nach außen gerichtet, die linke nach innen. In der Mitte verbindet das Wertangebot beide Seiten. Fürs Marketing zählt vor allem die rechte Seite.
+:::
+
+## Der Bauplan eines Hauses {.stage background-color="#0a0a0f"}
+
+Ein Grundriss zeigt alle Räume und ihre Verbindungen auf einem Blatt, bevor der erste Stein gesetzt wird.
+
+::: {.notes}
+Das Bild des Bauplans trägt den Gedanken: Das Canvas zeigt das ganze Geschäftsmodell auf einen Blick. So fällt früh auf, wenn ein Baustein nicht zu den anderen passt, etwa eine Küche ohne Zugang zum Esszimmer.
+:::
+
+## Vom Canvas zur Marketingstrategie
+
+Kundensegmente und Wertangebote liefern die Grundlage für Zielgruppe und Positionierung. Die Kanäle verweisen auf die späteren Kanal-Module dieses Kurses.
+
+::: {.callout-important title="Stimmigkeit prüfen"}
+Ein Geschäftsmodell trägt nur, wenn die Bausteine zueinander passen. Ein hochwertiges Wertangebot mit einem Billig-Kanal bleibt ein Widerspruch.
+:::
+
+::: {.notes}
+Für das Marketing sind die rechte Seite und ihr Zusammenspiel zentral. Kundensegment und Wertangebot bereiten Zielgruppe und Positionierung vor, die Kanäle verweisen auf die kommenden Module. Entscheidend bleibt die Stimmigkeit aller Bausteine.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Das Business Model Canvas ordnet das ganze Geschäft auf einer Seite. Die rechte Seite verbindet es mit Zielgruppe, Positionierung und den Kanälen der nächsten Module.
+
+::: {.notes}
+Als Kern bleibt: ein Geschäftsmodell auf einer Seite, mit klarer innerer Logik. Die kundenseitige Hälfte bildet die Brücke zur Marketingstrategie der folgenden Module.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

@@ -1,30 +1,102 @@
 ---
 title: "Empathy Map und Kundenbedürfnisse"
-subtitle: "Modul: 02-kundenverstaendnis"
+subtitle: "Modul 2: Kundenverständnis"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Erst zuhören, dann anbieten {.stage background-image="images/hero-empathy-map.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-empathy-map.png"
+Dunkle, ruhige Szene: vier angedeutete Quadranten als feine Linien über tiefem Anthrazit, in der Mitte eine schemenhafte Kopf-Silhouette ohne Gesicht, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Die Kundensicht systematisch erfassen und Bedürfnisse sichtbar machen.
+::: {.notes}
+Das Value Proposition Canvas verlangt ein klares Kundenprofil. Die Empathy Map hilft, dieses Profil zu füllen, indem sie die Kundschaft aus mehreren Blickwinkeln betrachtet und über reine Demografie hinausgeht.
+:::
 
+## Was die Empathy Map zeigt
 
+:::: {.features}
 
-## Worum es geht
+::: {.feature}
+[{{< fa eye >}}]{.accent-blue}
+**Sehen**
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt die Kundensicht systematisch erfassen und Bedürfnisse sichtbar machen.
+Was nimmt die Person im Umfeld wahr?
+:::
 
-## Im Detail
+::: {.feature}
+[{{< fa ear-listen >}}]{.accent-blue}
+**Hören**
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Welche Stimmen beeinflussen sie?
+:::
 
+::: {.feature}
+[{{< fa brain >}}]{.accent-green}
+**Denken und Fühlen**
+
+Was beschäftigt sie wirklich?
+:::
+
+::: {.feature}
+[{{< fa comment >}}]{.accent-green}
+**Sagen und Tun**
+
+Wie verhält sie sich nach außen?
+:::
+
+::::
+
+::: {.notes}
+Die Empathy Map ordnet Beobachtungen in mehrere Felder: sehen, hören, denken und fühlen, sagen und tun. Ergänzt wird das durch Pains und Gains, die direkt an das Kundenprofil anschließen.
+:::
+
+## Mit echten Beobachtungen füllen
+
+Im Mittelpunkt steht eine konkrete, beispielhafte Person statt einer abstrakten Zielgruppe. Die Felder werden mit echten Beobachtungen gefüllt, idealerweise aus Gesprächen, Bewertungen oder Support-Anfragen.
+
+::: {.sources}
+Quelle: @osterwalder2014
+:::
+
+::: {.notes}
+Statt einer abstrakten Zielgruppe steht eine konkrete Person im Zentrum. Die Felder werden mit echten Beobachtungen gefüllt, nicht mit Vermutungen. Gute Quellen sind Interviews, Bewertungen und Support-Anfragen.
+:::
+
+## Das Anamnesegespräch {.stage background-color="#0a0a0f"}
+
+Vor der Diagnose steht das Zuhören. Erst die Beschwerden, das Umfeld und die Gewohnheiten, dann der Lösungsvorschlag.
+
+::: {.notes}
+Das Bild des ärztlichen Anamnesegesprächs trägt den Gedanken: erst zuhören und verstehen, dann eine Lösung vorschlagen. Die Empathy Map ist dieses Gespräch für das Marketing.
+:::
+
+## Von der Map zum Kundenprofil
+
+Die Felder der Empathy Map fließen direkt in das Kundenprofil des Value Proposition Canvas. Pains und Gains lassen sich oft eins zu eins übertragen.
+
+::: {.callout-important title="Vermutung kennzeichnen"}
+Nicht jedes Feld lässt sich mit gesicherten Beobachtungen füllen. Vermutungen werden markiert, damit klar bleibt, was noch zu validieren ist.
+:::
+
+::: {.notes}
+Die Brücke zum Kundenprofil ist kurz: Pains und Gains der Map werden zu Pains und Gains im Canvas, das Feld Denken und Fühlen deckt oft unausgesprochene Jobs auf. Offene Vermutungen bleiben markiert.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Die Empathy Map macht die Kundensicht greifbar und speist direkt das Kundenprofil. Wer zuerst zuhört, formuliert danach treffendere Angebote.
+
+::: {.notes}
+Als Kern bleibt: erst die Perspektive der Kundschaft erfassen, dann anbieten. Die Empathy Map liefert die Beobachtungen, das Value Proposition Canvas verarbeitet sie weiter.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::
