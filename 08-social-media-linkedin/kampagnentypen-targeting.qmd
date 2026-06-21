@@ -1,22 +1,52 @@
 # Kampagnentypen und Targeting
 
-In dieser Lesson schauen wir uns an: Anzeigenformate und die Aussteuerung über professionelle Demografie und Matched Audiences.
+In dieser Lesson schauen wir uns die wichtigsten Anzeigenformate von LinkedIn an und lernen, wie wir mit professioneller Demografie, eigenen Daten und kontobasiertem Marketing die richtige Zielgruppe erreichen.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Jede LinkedIn-Kampagne beginnt mit einem Ziel, das einer von drei Phasen zugeordnet ist: Bekanntheit, Erwägung und Konversion. Diese Wahl steuert, wie der Algorithmus die Anzeige ausliefert und welche Kennzahlen sinnvoll sind. Erst danach wählen wir das passende Format und die Zielgruppe [@linkedinAds2024].
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt anzeigenformate und die Aussteuerung über professionelle Demografie und Matched Audiences.
+## Die wichtigsten Anzeigenformate
 
-## Im Detail
+LinkedIn bietet mehrere Formate, die sich grob nach dem Ort ihrer Ausspielung unterscheiden. Wir konzentrieren uns auf die drei Gruppen, die im B2B am häufigsten zum Einsatz kommen.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+| Format | Erscheinungsbild | Typischer Einsatz |
+|---|---|---|
+| Sponsored Content | Beitrag im Feed (Bild, Video, Karussell) | Bekanntheit, Reichweite, Traffic |
+| Message- und Conversation Ads | Direktnachricht im Postfach | Direkte Ansprache, Qualifizierung |
+| Lead Gen Forms | Vorausgefülltes Formular in einer Anzeige | Leads direkt auf LinkedIn sammeln |
+
+Sponsored Content erscheint mitten im Feed und eignet sich für breite Sichtbarkeit. Message- und Conversation Ads landen im Postfach und ermöglichen eine persönliche, dialogartige Ansprache, bei der die empfangende Person zwischen mehreren Antwortpfaden wählt. Lead Gen Forms sind kein eigenes Format, sondern eine Funktion: Sie füllen das Formular automatisch mit den Profildaten vor, sodass eine Anfrage mit wenigen Klicks abgeschickt ist.
+
+::: {.callout-tip title="Analogie: das Werkzeug an der Werkbank"}
+Die Formate sind wie Werkzeuge an einer Werkbank. Eine Säge ist nicht besser als ein Schraubstock, sie ist nur für eine andere Aufgabe gemacht. Sponsored Content ist das Werkzeug für breite Aufmerksamkeit, die Message Ad für das gezielte Einzelgespräch, das Lead Gen Form für das schnelle Erfassen einer Anfrage. Wer das Werkzeug zur Aufgabe wählt, arbeitet sauber, und niemand sägt ein Brett mit dem Schraubstock.
+:::
+
+## Targeting über professionelle Demografie
+
+Die Stärke von LinkedIn liegt in den beruflichen Merkmalen der Profile. Während Standort und Sprache die Pflichtbasis bilden, können wir die Zielgruppe darüber hinaus sehr genau eingrenzen [@linkedinTargeting2024]:
+
+- Unternehmen nach Branche, Größe und Name
+- Ausbildung nach Studienfach, Abschluss und Hochschule
+- Berufserfahrung nach Funktion, Karrierestufe, Jobtitel und Kenntnissen
+
+So erreichen wir zum Beispiel gezielt Personalverantwortliche in mittelgroßen Industrieunternehmen einer bestimmten Region. Wichtig ist, die Zielgruppe nicht zu eng zu schneiden, weil eine sehr kleine Zielgruppe die Auslieferung verteuert und einschränkt.
+
+## Matched Audiences und kontobasiertes Marketing
+
+Über die professionelle Demografie hinaus können wir eigene Daten einbringen, die sogenannten Matched Audiences. Dazu gehören das erneute Ansprechen von Website-Besuchern über das Insight Tag, das Hochladen von Kontaktlisten sowie das Hochladen von Unternehmenslisten.
+
+Gerade die Unternehmenslisten sind die Grundlage für kontobasiertes Marketing, oft als Account-Based Marketing oder kurz ABM bezeichnet. Statt breit zu streuen, definieren wir vorab eine Liste der wirklich relevanten Zielunternehmen und richten die gesamte Ansprache auf die Entscheiderinnen und Entscheider in genau diesen Konten aus. Das passt zur Realität des B2B, in dem oft wenige große Abschlüsse den Umsatz tragen.
+
+::: {.callout-important title="Datenschutz beachten"}
+Beim Hochladen von Kontakt- und Unternehmenslisten gelten im deutschsprachigen Raum die Vorgaben der Datenschutz-Grundverordnung. Wir verarbeiten personenbezogene Daten nur auf einer gültigen Rechtsgrundlage und stellen bei Lead Gen Forms immer den Link zur Datenschutzerklärung sowie eine nicht vorangekreuzte Einwilligung bereit.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[social-media-advertising]], `@balaji2023`, `@seebacher2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Kampagnentypen und Targeting vertiefen
+- Eine Entscheidungshilfe ergänzen, die Kampagnenziel, Phase und passendes Format verbindet
+- Den Aufbau eines Lead Gen Forms Schritt für Schritt mit Screenshots zeigen
+- Ein konkretes ABM-Beispiel mit einer Beispiel-Zielliste durchspielen
+- Die Funktionsweise des Insight Tags für Website-Retargeting technisch vertiefen

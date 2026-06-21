@@ -1,22 +1,38 @@
 # GA4 und eventbasiertes Tracking
 
-In dieser Lesson schauen wir uns an: Das eventbasierte Datenmodell von Google Analytics 4 verstehen.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir schauen uns an, wie Google Analytics 4 (kurz GA4) Verhalten auf einer Website erfasst. Der Schlüssel liegt in einem einzigen Grundgedanken: In GA4 ist jede Interaktion ein Ereignis, ein sogenanntes Event. Wer dieses Datenmodell versteht, versteht die ganze Logik des Werkzeugs.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt das eventbasierte Datenmodell von Google Analytics 4 verstehen.
+## Vom Seitenaufruf zum Event
 
-## Im Detail
+Frühere Analyse-Werkzeuge dachten in Seitenaufrufen. Im Zentrum stand die Frage, welche Seite wie oft geöffnet wurde. GA4 verschiebt diesen Blick grundlegend: Nicht mehr die Seite ist die kleinste Einheit, sondern die einzelne Handlung. Jeder Seitenaufruf, jeder Klick, jedes Scrollen und jeder Download wird als Event erfasst.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Dieser Wechsel hat einen guten Grund. Moderne Websites und Apps bestehen längst nicht mehr nur aus statischen Seiten, die nacheinander geladen werden. Viele Inhalte ändern sich, ohne dass eine neue Seite lädt. Ein eventbasiertes Modell bildet solche Interaktionen sauber ab, weil es nicht an die Seite, sondern an die Handlung gebunden ist [@googleGa4Events2026].
+
+::: {.callout-tip title="Analogie: Das Kassenbuch im Einzelhandel"}
+Wir stellen uns ein Geschäft vor, das nicht nur zählt, wie viele Menschen den Laden betreten, sondern jede einzelne Handlung notiert: Regal angesehen, Produkt in die Hand genommen, Frage an das Personal gestellt, an der Kasse bezahlt. Genauso protokolliert GA4 nicht bloß den Eintritt auf eine Seite, sondern jede relevante Aktion als eigenen Eintrag. Aus diesen Einträgen lässt sich später jeder Weg nachvollziehen.
+:::
+
+## Events und ihre Parameter
+
+Ein Event allein sagt, dass etwas geschehen ist. Spannend wird es durch die Details, die GA4 mitliefert. Zu jedem Event gehören Parameter, also Zusatzangaben, die das Ereignis genauer beschreiben. Ein Klick auf einen Button trägt etwa Angaben dazu, welcher Button es war oder auf welcher Seite er stand.
+
+So entsteht ein reiches Bild aus zwei Teilen. Das Event nennt die Art der Handlung, die Parameter liefern den Kontext. Ein Event namens `purchase` wird erst durch Parameter wie Bestellwert oder gekaufte Artikel wirklich aussagekräftig. Wir entwerfen unser Tracking deshalb so, dass jedes wichtige Event die Parameter mitbringt, die wir später zur Auswertung brauchen [@googleGa4Events2026].
+
+GA4 unterscheidet dabei verschiedene Arten von Events. Einige werden automatisch erfasst, sobald die Messung aktiv ist. Andere richten wir gezielt selbst ein, weil sie für unsere Ziele zentral sind. Genau diese selbst definierten Ereignisse, etwa ein abgeschicktes Kontaktformular, bilden später die Grundlage unserer wichtigsten Kennzahlen.
+
+## Von Events zu Conversions
+
+Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Conversion, also als Zielhandlung. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.
+
+Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang einer Conversion verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern [@kaushik2010].
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[web-analytics]], `@li2014`, `@berman2018`, `@ahrholdt2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu GA4 und eventbasiertes Tracking vertiefen
+- Den Unterschied zwischen automatisch erfassten und selbst definierten Events anhand konkreter Beispiele ausarbeiten
+- Eine kommentierte Beispielstruktur eines Events mit typischen Parametern als Tabelle ergänzen
+- Den Zusammenhang zwischen GA4-Eigenschaft, Datenstrom und Konto kurz und verständlich einordnen
+- Datenschutzaspekte wie Einwilligung und anonymisierte Erfassung in eigener Tiefe behandeln

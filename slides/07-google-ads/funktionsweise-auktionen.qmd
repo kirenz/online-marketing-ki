@@ -1,30 +1,119 @@
 ---
 title: "Funktionsweise von Google Ads und Auktionen"
-subtitle: "Modul: 07-google-ads"
+subtitle: "Modul 7: Suchmaschinenwerbung (Google Ads)"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Ein Wettbieten in Sekundenbruchteilen {.stage background-image="images/hero-funktionsweise-auktionen.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-funktionsweise-auktionen.png"
+A dark atmospheric background composition suggesting a silent, instantaneous auction: faint glowing nodes connected by thin light lines over a deep blue-black gradient, with a subtle sense of motion and competing signals converging toward a single point. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no faces, no sharp focal points.
 -->
 
-In dieser Lesson schauen wir uns an: Wie die Anzeigenauktion Platzierung und Preis bestimmt.
+::: {.notes}
+Hinter jeder bezahlten Suchanzeige steht eine Auktion, die in Sekundenbruchteilen abläuft. Dieser Einstieg verschiebt den Blick von der sichtbaren Anzeige hin zu dem unsichtbaren Mechanismus, der über Platzierung und Preis entscheidet.
+:::
 
+## Jede Suche löst eine eigene Auktion aus
 
+Es gibt keine festen Werbeplätze, die sich dauerhaft kaufen lassen.
 
-## Worum es geht
+Stattdessen startet jede einzelne Suchanfrage eine eigene Auktion in Echtzeit:
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt wie die Anzeigenauktion Platzierung und Preis bestimmt.
+- Google prüft, wer auf passende Keywords bietet.
+- Für genau diese Anfrage wird neu über Platzierung entschieden.
 
-## Im Detail
+::: {.sources}
+Quelle: @shemshaki2025
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.notes}
+Der erste Kerngedanke: Werbeplätze sind nicht fest buchbar. Jede Suchanfrage löst eine eigene Auktion aus, in der Google in Echtzeit prüft, welche Werbetreibenden auf passende Keywords bieten. Dadurch wird für jede einzelne Suche neu entschieden, welche Anzeigen erscheinen.
+:::
 
+## Nicht das höchste Gebot gewinnt {.stage background-color="#0a0a0f"}
+
+Wer am meisten bietet, steht nicht automatisch ganz oben.
+
+::: {.notes}
+Dieser Stage-Moment hält die wichtigste Überraschung der Lesson fest: Das höchste Gebot allein entscheidet nicht über die Position. Qualität und Kontext zählen gleichermaßen. Das bereitet den Anzeigenrang auf der nächsten Folie vor.
+:::
+
+## Der Anzeigenrang bestimmt die Position
+
+Über die Reihenfolge entscheidet der **Anzeigenrang** (Ad Rank).
+
+Vereinfacht entsteht er aus zwei Größen:
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa coins >}}]{.accent-blue}
+**Gebot**
+
+Der maximale Betrag pro Klick.
+:::
+
+::: {.feature}
+[{{< fa star >}}]{.accent-green}
+**Anzeigenqualität**
+
+Wie relevant und nützlich die Anzeige ist.
+:::
+
+::::
+
+Eine relevante Anzeige mit moderatem Gebot überholt so eine teure, aber schwache Anzeige.
+
+::: {.sources}
+Quelle: @shemshaki2025
+:::
+
+::: {.notes}
+Die zentrale Größe heißt Anzeigenrang. Vereinfacht ergibt er sich aus dem Gebot und der Anzeigenqualität gemeinsam. Genau deshalb kann eine durchdachte, relevante Anzeige mit moderatem Gebot eine teure, aber schlecht gemachte Anzeige überholen. Das Gebot ist nur die halbe Miete.
+:::
+
+## Analogie: Die Auftragsvergabe im Handwerksbetrieb
+
+Ein Handwerksbetrieb vergibt einen Auftrag.
+
+Den Zuschlag bekommt nicht das höchste Angebot, sondern die Mischung aus Preis und nachgewiesener Qualität, die zusammen am meisten überzeugt.
+
+Genauso gewichtet die Auktion Gebot und Anzeigenqualität gemeinsam.
+
+::: {.notes}
+Das Bild der Auftragsvergabe macht die Logik greifbar: Nicht das teuerste Angebot gewinnt, sondern das überzeugendste Verhältnis aus Preis und Qualität. Übertragen auf die Anzeigenauktion heißt das, dass Gebot und Anzeigenqualität zusammen über die Platzierung entscheiden.
+:::
+
+## Das Gebot ist nur die Obergrenze
+
+Der tatsächliche Klickpreis liegt meist **unter** dem eigenen Gebot.
+
+Vereinfacht wird nur so viel gezahlt, wie nötig ist, um die nächstplatzierte Anzeige knapp zu übertreffen.
+
+Damit die Auktion stabil bleibt, gelten zusätzlich [Mindestpreise]{.highlight-blue}, unterhalb derer eine Anzeige nicht erscheint.
+
+::: {.sources}
+Quelle: @ostrovsky2023
+:::
+
+::: {.notes}
+Eine zweite wichtige Eigenschaft betrifft das Budget: Der abgerechnete Klickpreis liegt in der Regel unter dem eigenen Höchstgebot. Das Gebot ist eine Obergrenze, kein Festpreis. Zur Stabilität der Auktion tragen Mindestpreise bei, also Reservepreise, unterhalb derer eine Anzeige nicht ausgeliefert wird.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Jede Suche startet eine eigene Auktion, und über die Platzierung entscheidet der Anzeigenrang aus Gebot und Qualität. Das Gebot ist nur die Obergrenze, der reale Klickpreis liegt meist darunter. Wer Qualität ernst nimmt, kann mit weniger Geld weiter oben stehen.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Platzierung und Preis entstehen in einer Auktion pro Suchanfrage. Der Anzeigenrang verbindet Gebot und Qualität, und der tatsächliche Klickpreis bleibt meist unter dem Gebot. Gute Anzeigen werden mit besseren Positionen und niedrigeren Kosten belohnt.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

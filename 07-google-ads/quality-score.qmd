@@ -1,22 +1,36 @@
 # Quality Score und Optimierung
 
-In dieser Lesson schauen wir uns an: Die drei Komponenten des Quality Score und ihre Hebel.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir kennen nun die Auktion und den Kontoaufbau und wenden uns der Stellschraube zu, die beides verbindet: der Anzeigenqualität. In dieser Lesson lernen wir die drei Komponenten des Quality Score kennen und sehen, an welchen Hebeln wir konkret ansetzen.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt die drei Komponenten des Quality Score und ihre Hebel.
+## Was der Quality Score misst
 
-## Im Detail
+Der Quality Score ist eine Diagnosekennzahl auf einer Skala von 1 bis 10, die anzeigt, wie gut unsere Anzeige zu einem bestimmten Keyword passt. Er fließt nicht als einzelne Zahl direkt in die Auktion ein, sondern seine zugrunde liegenden Komponenten beeinflussen den Anzeigenrang. Ein hoher Wert signalisiert Google, dass unsere Anzeige für die suchende Person nützlich ist, und führt tendenziell zu besseren Positionen bei zugleich niedrigeren Klickpreisen.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Wir behandeln den Quality Score deshalb als Wegweiser, nicht als Selbstzweck. Er zeigt uns, wo eine Anzeige hakt, und lenkt unsere Optimierung auf die richtigen Stellen [@shemshaki2025].
+
+## Drei Komponenten, drei Hebel
+
+Der Quality Score setzt sich aus drei Komponenten zusammen, die Google getrennt bewertet [@googleQualityScore2024]. Die erwartete Klickrate (Expected CTR) schätzt, wie wahrscheinlich ein Klick auf die Anzeige ist, wenn sie für ein Keyword erscheint. Die Anzeigenrelevanz (Ad Relevance) bewertet, wie gut der Anzeigentext zur Suchanfrage passt. Die Nutzererfahrung mit der Zielseite (Landing Page Experience) beurteilt, wie hilfreich und passend die Seite ist, auf der Besucher nach dem Klick landen.
+
+::: {.callout-tip title="Analogie: Das Vorstellungsgespräch"}
+Wir stellen uns ein Vorstellungsgespräch vor. Eine Bewerbung überzeugt nicht über einen einzigen Punkt, sondern über das Zusammenspiel mehrerer: ein ansprechender erster Eindruck, eine Antwort, die genau zur gestellten Frage passt, und ein stimmiges Auftreten im weiteren Verlauf. Genauso ergibt sich die Anzeigenqualität aus erwarteter Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung zusammen.
+:::
+
+## An den richtigen Hebeln ziehen
+
+Aus den drei Komponenten ergeben sich drei konkrete Ansatzpunkte. Für eine bessere erwartete Klickrate schreiben wir Anzeigentexte, die den Suchbegriff aufgreifen und einen klaren Nutzen sowie eine eindeutige Handlungsaufforderung enthalten. Für eine höhere Anzeigenrelevanz sorgen wir dafür, dass die Begriffe aus dem Keyword auch im Anzeigentext vorkommen, was uns die enge thematische Gliederung der Anzeigengruppen aus der vorigen Lesson erleichtert. Für eine bessere Zielseiten-Erfahrung achten wir auf eine schnelle, übersichtliche und inhaltlich passende Seite.
+
+::: {.callout-important title="Komponenten verbessern, nicht die Zahl jagen"}
+Wir optimieren nicht die Quality-Score-Zahl als solche, sondern die drei Komponenten dahinter. Wer die erwartete Klickrate, die Anzeigenrelevanz und die Zielseiten-Erfahrung verbessert, hebt den Quality Score von selbst und senkt zugleich die Kosten. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[suchmaschinenmarketing]], `@shemshaki2025`, `@ostrovsky2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Quality Score und Optimierung vertiefen
+- Pro Komponente eine kurze Checkliste mit konkreten Optimierungsschritten ergänzen
+- Ein Vorher-Nachher-Beispiel einer Anzeigengruppe mit niedrigem und verbessertem Quality Score durchspielen
+- Eine kleine Übung einfügen, in der Lesende einem schwachen Quality Score die wahrscheinlich verantwortliche Komponente zuordnen
+- Abschnitt zum Zusammenhang zwischen Zielseiten-Erfahrung und Ladezeit (Verweis auf Modul 6) vertiefen

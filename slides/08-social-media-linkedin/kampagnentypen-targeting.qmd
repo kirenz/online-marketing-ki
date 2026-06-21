@@ -1,30 +1,159 @@
 ---
 title: "Kampagnentypen und Targeting"
-subtitle: "Modul: 08-social-media-linkedin"
+subtitle: "Modul 8: Social Media und LinkedIn Ads"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Das richtige Werkzeug für die Aufgabe {.stage background-image="images/hero-kampagnentypen-targeting.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-kampagnentypen-targeting.png"
+Dunkle, ruhige Komposition: eine aufgeräumte Werkbank von oben mit wenigen abstrakten Werkzeugen, in tiefem Anthrazit mit warmem Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Anzeigenformate und die Aussteuerung über professionelle Demografie und Matched Audiences.
+::: {.notes}
+Jede Kampagne beginnt mit einem Ziel und endet mit der passenden Zielgruppe. Dazwischen liegt die Wahl des richtigen Formats. Diese Lesson zeigt die wichtigsten Anzeigentypen und die Logik des Targetings auf LinkedIn.
+:::
 
+## Erst das Ziel, dann das Format
 
+:::: {.timeline}
 
-## Worum es geht
+::: {.timeline-item}
+[01]{.timeline-number}
+[Bekanntheit]{.timeline-title}
+[Breite Sichtbarkeit, gemessen an Reichweite.]{.timeline-detail}
+:::
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt anzeigenformate und die Aussteuerung über professionelle Demografie und Matched Audiences.
+::: {.timeline-item}
+[02]{.timeline-number}
+[Erwägung]{.timeline-title}
+[Interesse vertiefen, gemessen an Klicks und Engagement.]{.timeline-detail}
+:::
 
-## Im Detail
+::: {.timeline-item}
+[03]{.timeline-number}
+[Konversion]{.timeline-title}
+[Konkrete Handlung, gemessen an Leads und Abschlüssen.]{.timeline-detail}
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::::
 
+::: {.sources}
+Quelle: @linkedinAds2024
+:::
+
+::: {.notes}
+Jede Kampagne startet mit einem Ziel aus einer von drei Phasen: Bekanntheit, Erwägung, Konversion. Diese Wahl steuert die Auslieferung durch den Algorithmus und bestimmt, welche Kennzahlen überhaupt sinnvoll sind. Erst danach folgen Format und Zielgruppe.
+:::
+
+## Drei Formate, drei Aufgaben
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa rectangle-ad >}}]{.accent-blue}
+**Sponsored Content**
+
+Beitrag im Feed, für breite Sichtbarkeit und Traffic.
+:::
+
+::: {.feature}
+[{{< fa comments >}}]{.accent-green}
+**Message- und Conversation Ads**
+
+Direktnachricht im Postfach, für persönliche Ansprache.
+:::
+
+::: {.feature}
+[{{< fa list-check >}}]{.accent-orange}
+**Lead Gen Forms**
+
+Vorausgefülltes Formular, für Leads direkt auf LinkedIn.
+:::
+
+::::
+
+::: {.notes}
+Sponsored Content erscheint im Feed und sorgt für breite Aufmerksamkeit. Message- und Conversation Ads landen im Postfach und ermöglichen ein dialogartiges Gespräch mit wählbaren Antwortpfaden. Lead Gen Forms sind kein eigenes Format, sondern eine Funktion: Sie füllen das Formular mit Profildaten vor, sodass eine Anfrage in wenigen Klicks abgeschickt ist.
+:::
+
+## Werkzeug zur Aufgabe wählen {.stage background-color="#0a0a0f"}
+
+Eine Säge ist nicht besser als ein Schraubstock, nur für etwas anderes gemacht. Sponsored Content für breite Aufmerksamkeit, die Message Ad für das gezielte Gespräch, das Lead Gen Form für die schnelle Anfrage.
+
+::: {.notes}
+Die Formate sind wie Werkzeuge an einer Werkbank. Keines ist grundsätzlich überlegen, jedes hat seine Aufgabe. Wer das Werkzeug zur Aufgabe wählt, arbeitet sauber. Niemand sägt ein Brett mit dem Schraubstock, und niemand baut breite Bekanntheit mit einer Einzelnachricht im Postfach auf.
+:::
+
+## Targeting über Berufsprofile
+
+Standort und Sprache bilden die Pflichtbasis. Darüber hinaus grenzen wir die Zielgruppe über berufliche Merkmale ein:
+
+- [Unternehmen]{.highlight-blue} nach Branche, Größe und Name
+- [Ausbildung]{.highlight-blue} nach Studienfach, Abschluss, Hochschule
+- Berufserfahrung nach Funktion, Karrierestufe, Jobtitel und Kenntnissen
+
+::: {.sources}
+Quelle: @linkedinTargeting2024
+:::
+
+::: {.notes}
+Die Stärke von LinkedIn liegt in den beruflichen Merkmalen der Profile. Standort und Sprache sind die Pflichtbasis, darüber hinaus lässt sich nach Unternehmen, Ausbildung und Berufserfahrung eingrenzen. So erreicht man zum Beispiel gezielt Personalverantwortliche in mittelgroßen Industrieunternehmen einer Region.
+:::
+
+## Die Falle der zu engen Zielgruppe
+
+::: {.tip-box}
+Eine sehr klein geschnittene Zielgruppe verteuert die Auslieferung und schränkt die Reichweite ein. Präzise schneiden, aber nicht ersticken.
+:::
+
+::: {.notes}
+Mehr Eingrenzung ist nicht automatisch besser. Eine sehr enge Zielgruppe lässt die Kosten steigen und begrenzt die mögliche Reichweite, weil zu wenige passende Profile übrig bleiben. Die Kunst liegt darin, präzise zu schneiden, ohne die Zielgruppe zu ersticken.
+:::
+
+## Eigene Daten und ABM
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Matched Audiences**
+
+- Website-Besucher erneut ansprechen
+- Kontaktlisten hochladen
+- Unternehmenslisten hochladen
+:::
+
+::: {.column width="50%"}
+**Account-Based Marketing**
+
+- vorab definierte Zielunternehmen
+- Ansprache der Entscheider in genau diesen Konten
+- passt zu wenigen, großen Abschlüssen
+:::
+
+::::
+
+::: {.sources}
+Quelle: @linkedinTargeting2024
+:::
+
+::: {.notes}
+Über die Demografie hinaus lassen sich eigene Daten einbringen, die Matched Audiences. Dazu zählen Website-Retargeting, Kontaktlisten und Unternehmenslisten. Letztere sind die Grundlage für kontobasiertes Marketing, kurz ABM. Statt breit zu streuen, richtet sich die gesamte Ansprache auf die Entscheider in einer vorab definierten Liste relevanter Konten.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Erst das Ziel, dann das Format, dann die Zielgruppe. Berufliche Merkmale und eigene Daten machen die Ansprache präzise, und kontobasiertes Marketing richtet sie auf die wirklich relevanten Konten aus.
+
+::: {.notes}
+Als Kern bleibt: die Reihenfolge aus Ziel, Format und Zielgruppe, drei Formate für drei Aufgaben sowie ein Targeting über Berufsprofile und eigene Daten. Account-Based Marketing bündelt den Aufwand auf die wenigen Konten, die zählen. Die nächste Lesson zeigt, wie sich der Erfolg dieser Kampagnen messen lässt.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

@@ -1,22 +1,42 @@
 # LinkedIn-Grundlagen und B2B-Wirkungsprinzipien
 
-In dieser Lesson schauen wir uns an: Warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
+In dieser Lesson klären wir, warum LinkedIn im B2B-Marketing eine besondere Rolle spielt und wie Markenaufbau und kurzfristige Aktivierung zusammenspielen. Wir lernen die Logik kennen, nach der wirksame B2B-Kampagnen ihr Budget verteilen.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+LinkedIn ist das weltweit größte berufliche Netzwerk mit rund einer Milliarde Mitgliedern, davon über 24 Millionen im deutschsprachigen Raum. Anders als auf rein privaten Plattformen sind Menschen hier in ihrer beruflichen Rolle unterwegs. Wir erreichen sie also genau in dem Moment, in dem sie über Karriere, Weiterbildung, Werkzeuge und Geschäftsentscheidungen nachdenken. Für das B2B-Marketing ist dieser berufliche Kontext der entscheidende Vorteil.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
+## Warum LinkedIn im B2B wirkt
 
-## Im Detail
+Im Geschäftskundengeschäft kaufen selten Einzelpersonen, sondern Einkaufsgremien aus mehreren Personen, und der Entscheidungsweg zieht sich oft über Monate. Genau hier setzt LinkedIn an, weil die Plattform die beruflichen Profile dieser Menschen abbildet. Wir können Inhalte gezielt an Fachfunktionen, Branchen und Unternehmensgrößen ausspielen, statt breit zu streuen.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Wirksamkeit entsteht dabei nicht allein über das Format der Anzeige, sondern über die Glaubwürdigkeit der Quelle und die Relevanz der Botschaft [@balaji2023]. Beiträge, die von einer Person mit erkennbarer Expertise stammen und einen echten fachlichen Mehrwert liefern, erzeugen mehr Resonanz als anonyme Werbebotschaften.
+
+::: {.callout-tip title="Analogie: die Fachmesse"}
+LinkedIn funktioniert wie eine dauerhaft geöffnete Fachmesse. Auf einer Branchenmesse treffen wir gezielt Menschen in ihrer Berufsrolle, knüpfen Kontakte und führen Fachgespräche, statt zufällige Passanten auf der Straße anzusprechen. Ein guter Messeauftritt überzeugt durch Substanz und einen kompetenten Ansprechpartner, nicht durch das lauteste Plakat. Genauso wirkt LinkedIn am besten mit fachlich glaubwürdigen Inhalten in einem beruflichen Umfeld.
+:::
+
+## Markenaufbau und Aktivierung im Gleichgewicht
+
+Eine der wichtigsten Erkenntnisse des B2B-Marketings betrifft die Aufteilung des Budgets zwischen zwei Aufgaben. Markenaufbau wirkt langfristig, spricht eine breite Zielgruppe an und sorgt dafür, dass ein Unternehmen überhaupt in Erwägung gezogen wird. Aktivierung wirkt kurzfristig, spricht kaufbereite Kontakte an und löst konkrete Handlungen wie Anfragen oder Anmeldungen aus.
+
+Die Forschung von Binet und Field empfiehlt für nachhaltiges Wachstum eine Aufteilung von etwa 60 Prozent des Budgets für Markenaufbau und 40 Prozent für Aktivierung [@binetField2019]. Wer ausschließlich auf kurzfristige Abschlüsse setzt, erntet eine Weile die bereits vorhandene Nachfrage, baut aber keine neue auf. Das Wachstum versiegt, sobald die Markenbekanntheit nicht mehr nachwächst.
+
+::: {.callout-important title="Häufige Stolperfalle"}
+Viele Kampagnen messen nur kurzfristige Abschlüsse und kürzen deshalb zuerst das Budget für den Markenaufbau. Das wirkt kurzfristig effizient, schwächt aber mittelfristig die gesamte Nachfrage. Wir prüfen deshalb bei jeder Kampagne, ob sie auf Markenaufbau oder auf Aktivierung einzahlt, und halten beide Aufgaben im Gleichgewicht.
+:::
+
+## Share of Voice als Wachstumshebel
+
+Eng mit der 60/40-Regel verbunden ist der Anteil der eigenen Werbestimme am Markt, der sogenannte Share of Voice. Damit ist gemeint, wie groß der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern eines Marktes ist. Tendenziell wächst ein Unternehmen, wenn sein Share of Voice größer ist als sein aktueller Marktanteil, weil es sich überdurchschnittlich Aufmerksamkeit sichert.
+
+Für die Praxis bedeutet das, kontinuierlich präsent zu bleiben, statt nur in kurzen Kampagnenfenstern aufzutauchen. Dauerhafte Sichtbarkeit baut die mentale Verfügbarkeit auf, die später über den Abschluss entscheidet. Vertiefend ordnet @seebacher2023 diese Prinzipien in die Gesamtstrategie des B2B-Marketings ein.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[social-media-advertising]], `@balaji2023`, `@seebacher2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu LinkedIn-Grundlagen und B2B-Wirkungsprinzipien vertiefen
+- Ein durchgehendes Praxisbeispiel (etwa ein B2B-Softwareanbieter) einführen, das die 60/40-Aufteilung konkret durchrechnet
+- Den Unterschied zwischen organischer Präsenz und bezahlter Reichweite auf LinkedIn in einer Tabelle gegenüberstellen
+- Eine kleine Übung ergänzen, in der ein Budget beispielhaft auf Markenaufbau und Aktivierung aufgeteilt wird
+- Den Zusammenhang von Share of Voice und Marktanteil mit einer Grafik veranschaulichen

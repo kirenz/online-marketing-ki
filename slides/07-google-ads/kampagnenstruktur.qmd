@@ -1,30 +1,109 @@
 ---
 title: "Kampagnenstruktur, Keywords und Anzeigen"
-subtitle: "Modul: 07-google-ads"
+subtitle: "Modul 7: Suchmaschinenwerbung (Google Ads)"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Ordnung schlägt Zufall {.stage background-image="images/hero-kampagnenstruktur.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-kampagnenstruktur.png"
+A dark atmospheric background composition suggesting structure and hierarchy: faintly glowing nested frames and softly lit shelving-like grids receding into a deep blue-black gradient, conveying calm order and clear compartments. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no faces, no sharp focal points.
 -->
 
-In dieser Lesson schauen wir uns an: Kampagnen, Anzeigengruppen, Keywords und Anzeigentexte aufsetzen.
+::: {.notes}
+Eine gute Auktionsposition beginnt mit einem aufgeräumten Konto. Dieser Einstieg verschiebt den Blick von einzelnen Anzeigen hin zur Struktur, die Relevanz und damit Leistung überhaupt erst ermöglicht.
+:::
 
+## Drei Ebenen geben Ordnung
 
+Ein Werbekonto ist in drei aufeinander aufbauende Ebenen gegliedert:
 
-## Worum es geht
+:::: {.features}
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt kampagnen, Anzeigengruppen, Keywords und Anzeigentexte aufsetzen.
+::: {.feature}
+[{{< fa bullseye >}}]{.accent-blue}
+**Kampagne**
 
-## Im Detail
+Bündelt ein Ziel und ein Budget.
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.feature}
+[{{< fa layer-group >}}]{.accent-green}
+**Anzeigengruppe**
 
+Deckt ein eng umrissenes Thema ab.
+:::
+
+::: {.feature}
+[{{< fa key >}}]{.accent-orange}
+**Keywords + Anzeigen**
+
+Suchbegriffe und passende Texte.
+:::
+
+::::
+
+Je enger das Thema, desto relevanter die Anzeige.
+
+::: {.sources}
+Quelle: @shemshaki2025
+:::
+
+::: {.notes}
+Das Konto gliedert sich in drei Ebenen: Die Kampagne bündelt Ziel und Budget, die Anzeigengruppe deckt ein enges Thema ab, und darunter liegen Keywords und Anzeigentexte. Je enger eine Anzeigengruppe gefasst ist, desto besser passen Keyword, Text und Zielseite zusammen, was die Relevanz in der Auktion erhöht.
+:::
+
+## Analogie: Das Archiv im Büro {.stage background-color="#0a0a0f"}
+
+Akten liegen nicht in einem großen Stapel, sondern in beschrifteten Ordnern mit klaren Registern.
+
+::: {.notes}
+Das Bild des Archivs macht den Nutzen der Struktur greifbar: Beschriftete Ordner mit klaren Registern lassen sich durchsuchen, ein großer Stapel nicht. Genauso trennen Kampagnen, Anzeigengruppen und Keywords die Werbung in saubere Fächer, statt alles in eine Gruppe zu werfen.
+:::
+
+## Keyword-Optionen steuern die Reichweite
+
+Die Keyword-Option legt fest, wie genau eine Suchanfrage zum Keyword passen muss:
+
+- **Genau passend**: nur sehr nahe Anfragen, präzise Kontrolle.
+- **Passende Wortgruppe**: etwas mehr Spielraum.
+- **Weitgehend passend**: größte Reichweite, aber auch unpassende Anfragen.
+
+Mit **ausschließenden Keywords** verhindern wir Anzeigen bei klar irrelevanten Suchen und sparen Budget.
+
+::: {.sources}
+Quelle: @shemshaki2025
+:::
+
+::: {.notes}
+Nicht nur die Auswahl der Begriffe zählt, sondern auch die Keyword-Option. Genau passend bietet präzise Kontrolle, passende Wortgruppe etwas mehr Spielraum, weitgehend passend die größte Reichweite bei höherem Streuverlust. Ausschließende Keywords verhindern Anzeigen bei irrelevanten Suchen und schützen so das Budget.
+:::
+
+## Eine durchgängige Linie bis zur Zielseite
+
+Anzeigentexte arbeiten heute mit **Responsive Suchanzeigen**: mehrere Überschriften und Beschreibungen, die Google automatisch kombiniert und testet.
+
+Gute Texte greifen den Suchbegriff auf, benennen einen klaren Nutzen und enthalten eine eindeutige Handlungsaufforderung.
+
+Entscheidend ist die [Konsistenz]{.highlight-green} von Keyword, Anzeige und Zielseite.
+
+::: {.notes}
+Auf der untersten Ebene stehen die Anzeigentexte, heute meist als Responsive Suchanzeigen mit mehreren Bausteinen, die Google automatisch kombiniert. Gute Texte greifen den Suchbegriff auf, benennen einen Nutzen und fordern zum Handeln auf. Entscheidend ist die durchgängige Linie von Keyword über Anzeige bis zur passenden Zielseite.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Drei Ebenen geben dem Konto Ordnung, enge Anzeigengruppen erhöhen die Relevanz, und Keyword-Optionen steuern, wie breit eine Anzeige ausgespielt wird. Wenn Keyword, Anzeige und Zielseite zusammenpassen, entsteht die Konsistenz, die später den Quality Score trägt.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Eine klare Struktur aus Kampagne, Anzeigengruppe und Keywords ist die Grundlage relevanter Werbung. Keyword-Optionen und ausschließende Keywords steuern Reichweite und Budget, und die Konsistenz bis zur Zielseite bereitet direkt die nächste Lesson zum Quality Score vor.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

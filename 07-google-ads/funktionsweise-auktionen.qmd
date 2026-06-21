@@ -1,22 +1,38 @@
 # Funktionsweise von Google Ads und Auktionen
 
-In dieser Lesson schauen wir uns an: Wie die Anzeigenauktion Platzierung und Preis bestimmt.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir öffnen dieses Modul mit der Frage, die hinter jeder bezahlten Suchanzeige steht: Warum erscheint genau diese Anzeige auf genau dieser Position, und was kostet das? In dieser Lesson sehen wir, wie eine automatisierte Auktion bei jeder Suchanfrage Platzierung und Preis bestimmt.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt wie die Anzeigenauktion Platzierung und Preis bestimmt.
+## Jede Suchanfrage startet eine Auktion
 
-## Im Detail
+Sobald jemand einen Suchbegriff eingibt, prüft Google in Sekundenbruchteilen, welche Werbetreibenden auf passende Keywords bieten, und startet eine eigene Auktion für genau diese Anfrage. Es gibt also keine festen Plätze, die sich kaufen lassen, sondern für jede einzelne Suche wird neu entschieden, welche Anzeigen erscheinen und in welcher Reihenfolge.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Wichtig ist dabei eine Erkenntnis, die wir für das ganze Modul mitnehmen: Die Platzierung hängt nicht allein vom höchsten Gebot ab. Wer am meisten bietet, steht nicht automatisch ganz oben. Stattdessen kombiniert Google das Gebot mit der Qualität der Anzeige und mit dem Kontext der Suche [@shemshaki2025].
+
+## Der Anzeigenrang entscheidet über die Position
+
+Die zentrale Größe, die über die Reihenfolge entscheidet, heißt Anzeigenrang (Ad Rank). Vereinfacht ergibt er sich aus dem maximalen Gebot und der erwarteten Qualität der Anzeige. Ein höherer Anzeigenrang bedeutet eine bessere Position. Genau deshalb kann eine durchdachte, relevante Anzeige mit moderatem Gebot eine teure, aber schlecht gemachte Anzeige überholen.
+
+::: {.callout-tip title="Analogie: Die Auftragsvergabe im Handwerksbetrieb"}
+Wir stellen uns einen Handwerksbetrieb vor, der einen Auftrag vergibt. Den Zuschlag bekommt nicht zwangsläufig die Firma mit dem höchsten Angebot, sondern jene, bei der Preis und nachgewiesene Qualität zusammen am meisten überzeugen. Genauso gewichtet die Anzeigenauktion das Gebot und die Anzeigenqualität gemeinsam, statt nur auf die Zahl zu schauen.
+:::
+
+## Wir zahlen meist weniger als unser Gebot
+
+Eine zweite Eigenschaft der Auktion ist für das Budget besonders wichtig: Der tatsächliche Klickpreis ist in der Regel niedriger als das eigene Höchstgebot. Vereinfacht zahlen wir nur so viel, wie nötig ist, um die nächstplatzierte Anzeige knapp zu übertreffen. Das Gebot ist also eine Obergrenze, nicht der feste Preis pro Klick.
+
+Diese Logik schützt davor, dauerhaft zu viel zu bezahlen, und belohnt zugleich gute Anzeigen mit niedrigeren Kosten. Damit die Auktion fair und stabil bleibt, arbeitet Google zusätzlich mit Mindestpreisen, unterhalb derer eine Anzeige nicht ausgeliefert wird. Solche Reservepreise sind ein bewusst gestaltetes Element von Anzeigenauktionen und beeinflussen sowohl die Einnahmen der Plattform als auch das Verhalten der Werbetreibenden [@ostrovsky2023].
+
+::: {.callout-important title="Gebot ist eine Obergrenze, kein Festpreis"}
+Wir verwechseln das maximale Gebot nicht mit den realen Kosten. Das Gebot legt fest, wie viel wir höchstens zu zahlen bereit sind. Der abgerechnete Klickpreis liegt meist darunter und hängt vom Wettbewerb und von der Qualität unserer Anzeige ab.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[suchmaschinenmarketing]], `@shemshaki2025`, `@ostrovsky2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Funktionsweise von Google Ads und Auktionen vertiefen
+- Vereinfachte Rechenbeispiele zur Bildung des Anzeigenrangs Schritt für Schritt durchspielen (Gebot mal Qualität)
+- Den Zusammenhang zwischen Reservepreisen und tatsächlichem Klickpreis an einem Zahlenbeispiel illustrieren
+- Eine kleine Übung einfügen, in der zwei Anzeigen mit unterschiedlichem Gebot und Qualität verglichen und platziert werden
+- Abschnitt zur Rolle des Suchkontexts (Gerät, Standort, Tageszeit) in der Auktion vertiefen

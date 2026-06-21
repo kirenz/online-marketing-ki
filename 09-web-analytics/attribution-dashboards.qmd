@@ -1,22 +1,44 @@
 # Attribution und Dashboards
 
-In dieser Lesson schauen wir uns an: Attributionsmodelle und die Visualisierung in Dashboards wie Looker Studio.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir klären zwei eng verwandte Fragen. Erstens: Welchem Kanal schreiben wir einen Erfolg gut, wenn die Kundschaft über viele Kontaktpunkte zu uns findet? Das ist die Frage der Attribution. Zweitens: Wie machen wir die Antworten so sichtbar, dass sie zu Entscheidungen führen? Das leisten Dashboards, etwa in Looker Studio.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt attributionsmodelle und die Visualisierung in Dashboards wie Looker Studio.
+## Das Zurechnungsproblem
 
-## Im Detail
+Eine Conversion entsteht selten nach einem einzigen Kontakt. Eine Person sieht vielleicht eine Anzeige, liest später einen Blogbeitrag, klickt Tage darauf auf eine Suchanzeige und kauft erst dann. Jede dieser Stationen ist ein Touchpoint, ein Berührungspunkt mit unserer Marke. Attribution beschreibt, wie wir den Erfolgsbeitrag auf diese Berührungspunkte verteilen.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Diese Verteilung ist keine technische Nebensache, sondern entscheidet über die Budgetlenkung. Wenn wir falsch zurechnen, verschieben wir Geld zu den falschen Kanälen. Die Forschung zeigt, dass eine realistische Zurechnung über mehrere Kontaktpunkte hinweg die Wirkung einzelner Kanäle deutlich anders bewertet als eine vereinfachte Betrachtung [@li2014].
+
+::: {.callout-tip title="Analogie: Das Tor im Mannschaftssport"}
+Wir stellen uns ein Tor im Fußball vor. Es wäre ungerecht, allein der Person den Erfolg zuzuschreiben, die den Ball über die Linie bringt. Das Tor entsteht aus einer Kette: Ballgewinn, Pass, Vorlage, Abschluss. Genauso entsteht eine Conversion aus einer Kette von Kontaktpunkten. Attribution ist der Versuch, diese Vorlagen sichtbar zu machen und nicht nur den letzten Schritt zu zählen.
+:::
+
+## Vom Last-Click zu datengetriebenen Modellen
+
+Lange galt eine einfache Regel: Der letzte Klick vor dem Kauf bekommt den gesamten Erfolg. Dieses Last-Click-Modell ist leicht zu verstehen, verzerrt aber das Bild systematisch. Es überschätzt jene Kanäle, die am Ende der Reise stehen, und unterschätzt jene, die früh Aufmerksamkeit und Vertrauen schaffen.
+
+Deshalb haben sich differenziertere Ansätze durchgesetzt. Manche Modelle verteilen den Erfolg gleichmäßig auf alle Kontaktpunkte, andere gewichten frühe oder späte Stationen stärker. Den größten Fortschritt bringen datengetriebene Modelle (data-driven attribution). Sie verteilen den Beitrag nicht nach starrer Regel, sondern lernen aus den tatsächlichen Pfaden, welche Berührungspunkte den Unterschied machen [@berman2018].
+
+GA4 stellt für diese Zurechnung eigene Einstellungen bereit. Wir wählen dort bewusst, nach welcher Logik Conversions auf Kanäle verteilt werden, statt die Voreinstellung ungeprüft zu übernehmen [@googleGa4Attribution2026].
+
+::: {.callout-important title="Last-Click ist bequem, aber irreführend"}
+Wir verlassen uns nicht allein auf den letzten Klick. Wer nur den finalen Schritt belohnt, kürzt das Budget genau dort, wo Nachfrage erst entsteht. Eine mehrstufige Betrachtung schützt vor dieser stillen Fehlsteuerung.
+:::
+
+## Dashboards, die Entscheidungen tragen
+
+Die beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Dashboard bündelt die wichtigsten Kennzahlen an einem Ort und macht sie auf einen Blick lesbar. Werkzeuge wie Looker Studio verbinden sich dafür direkt mit GA4 und anderen Datenquellen und stellen die Zahlen als Diagramme und Übersichten dar.
+
+Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Phasen der Customer Journey. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann [@ahrholdt2023].
+
+Wir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[web-analytics]], `@li2014`, `@berman2018`, `@ahrholdt2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Attribution und Dashboards vertiefen
+- Die gängigen Attributionsmodelle einzeln mit kurzem Beispiel und Stärken-Schwächen-Profil ausarbeiten
+- Einen beispielhaften Dashboard-Aufbau mit konkreten Widgets je Journey-Phase skizzieren
+- Eine Übung ergänzen, in der dieselbe Kampagne nach Last-Click und nach datengetriebenem Modell bewertet wird
+- Den Einfluss von Datenschutz und fehlenden Daten auf die Verlässlichkeit der Attribution vertiefen

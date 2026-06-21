@@ -1,30 +1,123 @@
 ---
 title: "GA4 und eventbasiertes Tracking"
-subtitle: "Modul: 09-web-analytics"
+subtitle: "Modul 9: Web-Analytics und Erfolgsmessung"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Jede Interaktion ist ein Ereignis {.stage background-image="images/hero-ga4-tracking.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-ga4-tracking.png"
+A dark, atmospheric composition suggesting streams of discrete events: many small glowing dots and short connector lines flowing across a deep indigo-to-black gradient, like individual signals traveling through a network. Generous negative space in the upper-left for a title overlay. Cinematic, low-contrast, no readable text, no people.
 -->
 
-In dieser Lesson schauen wir uns an: Das eventbasierte Datenmodell von Google Analytics 4 verstehen.
+::: {.notes}
+Der Einstieg bringt das zentrale Prinzip von Google Analytics 4 auf den Punkt: In GA4 ist jede Interaktion ein Ereignis, ein Event. Wer diesen einen Grundgedanken verinnerlicht, versteht die gesamte Logik des Werkzeugs.
+:::
 
+## Vom Seitenaufruf zum Event
 
+Frühere Werkzeuge dachten in Seitenaufrufen. Die zentrale Frage war: Welche Seite wurde wie oft geöffnet?
 
-## Worum es geht
+GA4 verschiebt diesen Blick. Nicht die Seite ist die kleinste Einheit, sondern die einzelne Handlung:
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt das eventbasierte Datenmodell von Google Analytics 4 verstehen.
+- ein Seitenaufruf
+- ein Klick
+- ein Scrollvorgang
+- ein Download
 
-## Im Detail
+Jede dieser Aktionen wird als **Event** erfasst.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.sources}
+Quelle: @googleGa4Events2026
+:::
 
+::: {.notes}
+Der Perspektivwechsel ist grundlegend. Moderne Websites und Apps bestehen längst nicht mehr nur aus statischen Seiten, die nacheinander laden. Viele Inhalte ändern sich, ohne dass eine neue Seite lädt. Ein eventbasiertes Modell bildet das sauber ab, weil es an die Handlung gebunden ist, nicht an die Seite.
+:::
+
+## Das Datenmodell besteht aus zwei Teilen
+
+Ein Event nennt die Art der Handlung. Parameter liefern den Kontext dazu.
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa bolt >}}]{.accent-blue}
+**Event**
+
+Was ist geschehen? Zum Beispiel `purchase`.
+:::
+
+::: {.feature}
+[{{< fa tags >}}]{.accent-green}
+**Parameter**
+
+In welchem Kontext? Bestellwert, Artikel, Seite.
+:::
+
+::::
+
+Ein `purchase` wird erst durch Parameter wie Bestellwert oder Artikel wirklich aussagekräftig.
+
+::: {.sources}
+Quelle: @googleGa4Events2026
+:::
+
+::: {.notes}
+Ein Event allein sagt nur, dass etwas geschehen ist. Erst die Parameter machen es auswertbar. Deshalb wird Tracking so entworfen, dass jedes wichtige Event genau die Zusatzangaben mitbringt, die später zur Auswertung gebraucht werden.
+:::
+
+## Zwei Arten von Events {.stage background-color="#0a0a0f"}
+
+Einige Events erfasst GA4 automatisch. Andere werden gezielt selbst eingerichtet, weil sie für die eigenen Ziele zentral sind.
+
+::: {.notes}
+Die selbst definierten Ereignisse sind der entscheidende Hebel. Ein automatisch erfasster Seitenaufruf ist nützlich, doch ein bewusst eingerichtetes Event wie ein abgeschicktes Kontaktformular bildet später die Grundlage der wichtigsten Kennzahlen.
+:::
+
+## Von Events zu Conversions
+
+Nicht jedes Event ist gleich wichtig. Besonders wertvolle Handlungen werden als **Conversion** markiert.
+
+::: {.formula .editorial}
+Aus vielen Events werden wenige Zielhandlungen.
+:::
+
+So entsteht aus einer Flut von Ereignissen eine überschaubare Zahl von Conversions, die tatsächlich verfolgt und verbessert werden.
+
+::: {.sources}
+Quelle: @kaushik2010
+:::
+
+::: {.notes}
+Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Es wird bewusst entschieden, welche Events den Rang einer Conversion verdienen. Damit werden sie aus der Masse der Ereignisse herausgehoben und zur eigentlichen Steuerungsgröße.
+:::
+
+## Analogie: Das Kassenbuch im Einzelhandel
+
+Ein Geschäft zählt nicht nur, wer den Laden betritt.
+
+Es notiert jede Handlung: Regal angesehen, Produkt in die Hand genommen, Frage gestellt, an der Kasse bezahlt.
+
+Genauso protokolliert GA4 nicht bloß den Seiteneintritt, sondern jede relevante Aktion als eigenen Eintrag. Aus diesen Einträgen lässt sich jeder Weg nachvollziehen.
+
+::: {.notes}
+Das Bild des Kassenbuchs macht das eventbasierte Modell greifbar. Statt nur Eintritte zu zählen, wird jede einzelne Handlung festgehalten. Genau diese Granularität erlaubt es später, ganze Pfade der Kundschaft zu rekonstruieren.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+GA4 denkt nicht in Seiten, sondern in Handlungen. Jede Interaktion ist ein Event, beschrieben durch Parameter, und die wertvollsten Events werden zu Conversions. Wer dieses Modell versteht, versteht das ganze Werkzeug.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Das eventbasierte Datenmodell ist der Schlüssel zu GA4. Event, Parameter und Conversion bilden eine durchgängige Kette von der einzelnen Handlung bis zur steuerungsrelevanten Zielgröße.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

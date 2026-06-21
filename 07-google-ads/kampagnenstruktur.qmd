@@ -1,22 +1,40 @@
 # Kampagnenstruktur, Keywords und Anzeigen
 
-In dieser Lesson schauen wir uns an: Kampagnen, Anzeigengruppen, Keywords und Anzeigentexte aufsetzen.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Nachdem wir verstanden haben, wie die Auktion funktioniert, bauen wir nun unser Werbekonto so auf, dass es übersichtlich bleibt und gute Ergebnisse liefert. In dieser Lesson setzen wir Kampagnen, Anzeigengruppen, Keywords und Anzeigentexte sauber auf.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt kampagnen, Anzeigengruppen, Keywords und Anzeigentexte aufsetzen.
+## Drei Ebenen geben Ordnung
 
-## Im Detail
+Ein Google-Ads-Konto ist in drei Ebenen gegliedert, die aufeinander aufbauen. Ganz oben steht die Kampagne, die ein Ziel und ein Budget bündelt, etwa die Bewerbung einer bestimmten Produktgruppe. Darunter liegen die Anzeigengruppen, die jeweils ein eng umrissenes Thema abdecken. In jeder Anzeigengruppe schließlich liegen die Keywords und die dazu passenden Anzeigentexte.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Diese Ordnung ist kein Selbstzweck. Je enger eine Anzeigengruppe thematisch gefasst ist, desto besser passen Keyword, Anzeigentext und Zielseite zusammen, und desto relevanter wirkt die Anzeige in der Auktion. Eine klare Struktur ist damit eine direkte Voraussetzung für gute Leistung [@shemshaki2025].
+
+::: {.callout-tip title="Analogie: Das Archiv im Büro"}
+Wir stellen uns ein gut geführtes Archiv im Büro vor. Die Akten liegen nicht in einem einzigen großen Stapel, sondern in beschrifteten Ordnern mit klar abgegrenzten Registern. Wer etwas sucht, findet es sofort. Genauso trennen wir mit Kampagnen, Anzeigengruppen und Keywords unsere Werbung in saubere Fächer, statt alles in eine einzige Gruppe zu werfen.
+:::
+
+## Keywords und ihre Keyword-Optionen
+
+Keywords sind die Suchbegriffe, auf die wir bieten. Entscheidend ist nicht nur die Auswahl der Begriffe, sondern auch die Keyword-Option, die festlegt, wie genau eine Suchanfrage zum Keyword passen muss. Bei genau passenden Keywords lösen nur sehr nahe Suchanfragen die Anzeige aus, was präzise Kontrolle bietet. Passende Wortgruppen erlauben etwas mehr Spielraum, und weitgehend passende Keywords erreichen die größte Reichweite, ziehen aber auch unpassende Anfragen an.
+
+Ebenso wichtig sind ausschließende Keywords. Mit ihnen verhindern wir, dass unsere Anzeige bei klar irrelevanten Suchbegriffen erscheint, etwa bei der Suche nach kostenlosen Angeboten, wenn wir kostenpflichtige Leistungen bewerben. Jeder so vermiedene Klick spart Budget.
+
+::: {.callout-important title="Eine Zielseite pro Anzeigengruppe"}
+Wir achten darauf, dass die Anzeige auf eine Zielseite führt, die genau zum Suchbegriff passt. Wer nach einem bestimmten Angebot sucht, soll nicht auf der allgemeinen Startseite landen, sondern direkt auf der passenden Seite. Diese Konsistenz zwischen Keyword, Anzeige und Zielseite verbessert sowohl die Ergebnisse als auch die spätere Bewertung der Anzeigenqualität.
+:::
+
+## Anzeigentexte, die zur Suche passen
+
+Auf der untersten Ebene formulieren wir die Anzeigentexte. Heute arbeiten wir dabei mit Responsive Suchanzeigen, bei denen wir mehrere Überschriften und Beschreibungen hinterlegen. Google kombiniert diese Bausteine automatisch und testet, welche Zusammenstellung am besten funktioniert. Unsere Aufgabe ist es, genügend vielfältige und relevante Bausteine zu liefern.
+
+Gute Anzeigentexte greifen den Suchbegriff auf, benennen einen klaren Nutzen und enthalten eine eindeutige Handlungsaufforderung. So entsteht eine durchgängige Linie von der Suchanfrage über die Anzeige bis zur Zielseite, die wir im weiteren Verlauf des Moduls noch gezielt für die Anzeigenqualität nutzen.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[suchmaschinenmarketing]], `@shemshaki2025`, `@ostrovsky2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Kampagnenstruktur, Keywords und Anzeigen vertiefen
+- Ein vollständiges Beispielkonto mit zwei Kampagnen und mehreren Anzeigengruppen Schritt für Schritt aufbauen
+- Die Keyword-Optionen in einer Vergleichstabelle mit Beispielanfragen gegenüberstellen
+- Eine kleine Übung einfügen, in der Lesende eine Liste ausschließender Keywords für ein fiktives Angebot erstellen
+- Abschnitt zu Best Practices für Responsive Suchanzeigen (Anzahl und Vielfalt der Bausteine) vertiefen

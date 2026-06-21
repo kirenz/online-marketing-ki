@@ -1,30 +1,125 @@
 ---
 title: "Erfolgsmessung und Fallstudien"
-subtitle: "Modul: 08-social-media-linkedin"
+subtitle: "Modul 8: Social Media und LinkedIn Ads"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Eine Kampagne ist nur so gut wie ihre Messung {.stage background-image="images/hero-erfolgsmessung-fallstudien.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-erfolgsmessung-fallstudien.png"
+Dunkle, ruhige Komposition: ein abstraktes Cockpit-Instrumentenfeld mit wenigen leuchtenden Anzeigen über tiefem Anthrazit, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Kennzahlen für LinkedIn-Werbung und Lernpunkte aus Fallbeispielen.
+::: {.notes}
+Ohne saubere Messung bleibt jede Kampagne Glückssache. Diese Lesson zeigt die zentralen Kennzahlen für LinkedIn-Werbung, ihre Zuordnung zu den Zielen und die wichtigsten Lernpunkte aus Fallbeispielen.
+:::
 
+## Kennzahl zum Ziel wählen
 
+Die wichtigste Regel zuerst: Die Kennzahl muss zum Kampagnenziel passen. Bekanntheit misst Reichweite, Konversion misst die Kosten pro Lead.
 
-## Worum es geht
+Eine [falsch gewählte Kennzahl]{.highlight-red} führt schnell zu falschen Schlüssen über den Erfolg.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt kennzahlen für LinkedIn-Werbung und Lernpunkte aus Fallbeispielen.
+::: {.sources}
+Quelle: @linkedinAds2024
+:::
 
-## Im Detail
+::: {.notes}
+Eine Kampagne ist nur so gut wie ihre Messung, und entscheidend ist die passende Kennzahl. Wer Markenbekanntheit aufbaut, schaut auf Reichweite. Wer Leads gewinnt, schaut auf die Kosten pro Lead. Eine falsch gewählte Kennzahl führt zu falschen Schlüssen, etwa wenn ein Awareness-Ziel an Abschlüssen gemessen wird.
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+## Die zentralen Kennzahlen
 
+| Kennzahl | Bedeutung | Passendes Ziel |
+|---|---|---|
+| Impressions | Wie oft die Anzeige erschien | Bekanntheit |
+| CTR | Anteil Klicks an Einblendungen | Erwägung, Traffic |
+| CPC | Kosten pro Klick | Traffic |
+| CPL | Kosten pro Lead | Konversion |
+| Conversion Rate | Anteil Abschlüsse an Klicks | Konversion |
+
+::: {.sources}
+Quelle: @seebacher2023
+:::
+
+::: {.notes}
+Diese fünf Kennzahlen begegnen uns im Kampagnen-Manager am häufigsten. Eine hohe Klickrate zeigt, dass Botschaft und Zielgruppe zusammenpassen. Steigende Kosten pro Lead bei gleicher Qualität sind dagegen ein Warnsignal, dass die Zielgruppe zu eng ist oder die Anzeige ermüdet.
+:::
+
+## Das Cockpit-Prinzip {.stage background-color="#0a0a0f"}
+
+Niemand fliegt allein nach dem Tachometer. Erst Höhe, Geschwindigkeit und Treibstoff zusammen ergeben ein verlässliches Bild. Genauso werden Reichweite, Klickrate und Kosten pro Lead immer gemeinsam gelesen.
+
+::: {.notes}
+Das Bild des Cockpits macht klar, warum eine einzelne Zahl nie ausreicht. Kein Pilot verlässt sich auf ein einziges Instrument. Erst das Zusammenspiel der Werte ergibt die Lage. Eine einzelne Kennzahl zu verabsolutieren, führt in die Irre.
+:::
+
+## Was Fallbeispiele lehren
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa user-check >}}]{.accent-green}
+**Quelle zählt**
+
+Beiträge erkennbarer Fachpersonen erzielen mehr Resonanz.
+:::
+
+::: {.feature}
+[{{< fa lightbulb >}}]{.accent-blue}
+**Mehrwert schlägt Druck**
+
+Inhalte, die ein Problem lösen, bringen bessere Anfragen.
+:::
+
+::: {.feature}
+[{{< fa seedling >}}]{.accent-orange}
+**Geduld zahlt sich aus**
+
+Marke und Aktivierung wirken erst über Monate zusammen.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @balaji2023
+:::
+
+::: {.notes}
+Aus typischen Kampagnen im deutschsprachigen B2B lassen sich drei zuverlässige Lernpunkte ableiten. Die Glaubwürdigkeit der Quelle wirkt stark, relevanter Mehrwert schlägt reinen Werbedruck, und Markenaufbau wie Aktivierung entfalten ihre Wirkung erst im Zusammenspiel über mehrere Monate. Weniger spektakulär als oft erzählt, dafür belastbar.
+:::
+
+## Vorsicht bei geliehenen Zahlen
+
+::: {.tip-box}
+Veröffentlichte Erfolgszahlen stammen aus anderem Markt, anderer Branche, anderem Zeitraum. Als grobe Orientierung nutzen, niemals als verbindliches Ziel. Belastbar ist nur der Vergleich mit den eigenen Werten.
+:::
+
+::: {.notes}
+Benchmarks aus Fallstudien sind verführerisch, aber sie stammen aus einem anderen Kontext. Sie taugen als grobe Orientierung, nie als verbindlicher Zielwert. Belastbar ist allein der Vergleich mit den eigenen, über mehrere Kampagnen hinweg gemessenen Werten.
+:::
+
+## Vom Messen zum Verbessern
+
+Messung ist kein Selbstzweck. Aus den Zahlen leiten wir Anpassungen ab: zwei Varianten gegeneinander testen, ermüdete Motive austauschen, die Zielgruppe nachschärfen. So wird aus einer Kampagne ein [lernender Kreislauf]{.highlight-yellow}.
+
+::: {.notes}
+Der letzte Schritt schließt den Kreis. Aus den Kennzahlen entstehen konkrete Anpassungen: ein A/B-Test zweier Anzeigen, der Austausch müder Motive, eine geschärfte Zielgruppe. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, der mit jeder Runde besser wird.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Die Kennzahl folgt dem Ziel, und keine Zahl steht für sich allein. Fallbeispiele liefern Orientierung, doch den Maßstab setzen die eigenen Werte, gemessen über mehrere Kampagnen.
+
+::: {.notes}
+Als Kern bleibt: Kennzahl zum Ziel wählen, Werte immer gemeinsam lesen, Benchmarks nur als Orientierung nehmen und aus jeder Kampagne lernen. Damit schließt das Modul zu Social Media und LinkedIn Ads von den Wirkungsprinzipien über die Kampagnentypen bis zur Erfolgsmessung.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

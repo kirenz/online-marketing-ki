@@ -18,9 +18,9 @@ Pro Modul entsteht erst das Buch-Kapitel (Wir-Form), dann das daraus generierte 
 | 4 | Marketingziele & Strategie | ✅ | ✅ |
 | 5 | Content-Marketing & Persuasion | ✅ | ✅ |
 | 6 | Suchmaschinenoptimierung (SEO) | ✅ | ✅ |
-| 7 | Suchmaschinenwerbung (Google Ads) | ⬜ | ⬜ |
-| 8 | Social Media & LinkedIn Ads | ⬜ | ⬜ |
-| 9 | Web-Analytics & Erfolgsmessung | ⬜ | ⬜ |
+| 7 | Suchmaschinenwerbung (Google Ads) | ✅ | ✅ |
+| 8 | Social Media & LinkedIn Ads | ✅ | ✅ |
+| 9 | Web-Analytics & Erfolgsmessung | ✅ | ✅ |
 | 10 | KI im Marketing | ⬜ | ⬜ |
 
 Legende: ✅ fertig, 🟡 in Arbeit, ⬜ offen.

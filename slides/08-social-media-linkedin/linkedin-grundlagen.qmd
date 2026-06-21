@@ -1,30 +1,139 @@
 ---
 title: "LinkedIn-Grundlagen und B2B-Wirkungsprinzipien"
-subtitle: "Modul: 08-social-media-linkedin"
+subtitle: "Modul 8: Social Media und LinkedIn Ads"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Wo Geschäft beruflich denkt {.stage background-image="images/hero-linkedin-grundlagen.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-linkedin-grundlagen.png"
+Dunkle, ruhige Komposition: ein abstraktes Netz aus leuchtenden Knotenpunkten über tiefem Anthrazit, das ein berufliches Netzwerk andeutet, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
+::: {.notes}
+LinkedIn ist der Ort, an dem Menschen in ihrer beruflichen Rolle unterwegs sind. Genau das macht die Plattform für das Geschäftskundengeschäft so wertvoll. Diese Lesson klärt, warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
+:::
 
+## Das größte berufliche Netzwerk
 
+:::: {.metrics-grid}
 
-## Worum es geht
+::: {.metric}
+[≈ 1 Mrd.]{.stat-number}
+[Mitglieder weltweit]{.stat-label}
+:::
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
+::: {.metric}
+[> 24 Mio.]{.stat-number}
+[Mitglieder im DACH-Raum]{.stat-label}
+:::
 
-## Im Detail
+::: {.metric}
+[beruflich]{.stat-number}
+[Kontext jeder Interaktion]{.stat-label}
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::::
 
+::: {.sources}
+Quelle: @linkedinAds2024
+:::
+
+::: {.notes}
+Rund eine Milliarde Mitglieder weltweit, über vierundzwanzig Millionen im deutschsprachigen Raum. Der entscheidende Punkt ist nicht die Größe allein, sondern der berufliche Kontext. Hier sind Menschen in ihrer Arbeitsrolle ansprechbar, also genau dann, wenn sie über Werkzeuge, Weiterbildung und Geschäftsentscheidungen nachdenken.
+:::
+
+## Warum das im B2B zählt
+
+Im Geschäftskundengeschäft entscheidet selten eine Einzelperson. Ein Einkaufsgremium aus mehreren Rollen wägt über Monate ab. LinkedIn bildet genau diese beruflichen Profile ab und macht sie ansprechbar.
+
+Wirksamkeit entsteht dabei über die [Glaubwürdigkeit der Quelle]{.highlight-blue} und die Relevanz der Botschaft, nicht über das laute Format.
+
+::: {.sources}
+Quelle: @balaji2023
+:::
+
+::: {.notes}
+Geschäftsentscheidungen fallen in Gremien und über lange Zeiträume. LinkedIn bildet die beruflichen Profile dieser Menschen ab, deshalb lassen sie sich gezielt erreichen. Die Forschung zeigt klar: Was überzeugt, ist die Glaubwürdigkeit der Quelle und ein echter fachlicher Mehrwert, nicht der reine Werbedruck.
+:::
+
+## Die Fachmesse, die nie schließt {.stage background-color="#0a0a0f"}
+
+Auf einer Branchenmesse zählt das Fachgespräch mit den richtigen Leuten, nicht das lauteste Plakat. LinkedIn ist diese Fachmesse im Dauerbetrieb: berufliches Umfeld, gezielte Kontakte, Substanz vor Lautstärke.
+
+::: {.notes}
+Das Bild der Fachmesse macht den Charakter der Plattform greifbar. Auf einer Messe trifft man gezielt Menschen in ihrer Berufsrolle und überzeugt durch einen kompetenten Auftritt, nicht durch das größte Plakat. Genauso wirkt LinkedIn am besten mit fachlich glaubwürdigen Inhalten in einem beruflichen Umfeld.
+:::
+
+## Markenaufbau und Aktivierung
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Markenaufbau**
+
+- wirkt langfristig
+- breite Zielgruppe
+- sorgt dafür, überhaupt erwogen zu werden
+:::
+
+::: {.column width="50%"}
+**Aktivierung**
+
+- wirkt kurzfristig
+- kaufbereite Kontakte
+- löst Anfragen und Anmeldungen aus
+:::
+
+::::
+
+::: {.notes}
+Zwei Aufgaben, die sich ergänzen. Markenaufbau wirkt langfristig und breit und sorgt dafür, dass ein Anbieter überhaupt in die engere Wahl kommt. Aktivierung wirkt kurzfristig und spricht die an, die schon kaufbereit sind. Wer nur aktiviert, erntet vorhandene Nachfrage, baut aber keine neue auf.
+:::
+
+## Die 60/40-Regel
+
+:::: {.big-stat .zoom-in-bounce}
+[60 / 40]{.stat-number}
+[Budgetanteil Markenaufbau zu Aktivierung]{.stat-label}
+[Empfehlung für nachhaltiges B2B-Wachstum]{.stat-context}
+::::
+
+::: {.sources}
+Quelle: @binetField2019
+:::
+
+::: {.notes}
+Die Forschung von Binet und Field empfiehlt für nachhaltiges Wachstum rund sechzig Prozent des Budgets für Markenaufbau und vierzig Prozent für Aktivierung. Die häufige Versuchung ist, zuerst beim Markenaufbau zu kürzen, weil sich nur die kurzfristigen Abschlüsse leicht messen lassen. Das schwächt mittelfristig die gesamte Nachfrage.
+:::
+
+## Share of Voice als Hebel
+
+Der eigene Werbeanteil am Markt heißt [Share of Voice]{.highlight-blue}. Liegt er über dem aktuellen Marktanteil, tendiert ein Unternehmen zum Wachstum, weil es sich überdurchschnittlich Aufmerksamkeit sichert.
+
+Der praktische Schluss: [dauerhaft präsent bleiben]{.highlight-yellow}, statt nur in kurzen Kampagnenfenstern aufzutauchen.
+
+::: {.sources}
+Quelle: @seebacher2023
+:::
+
+::: {.notes}
+Eng mit der Sechzig-zu-vierzig-Regel verbunden ist der Share of Voice, also der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern. Übersteigt er den Marktanteil, entsteht Wachstumsdruck nach oben. Für die Praxis heißt das: kontinuierlich sichtbar bleiben und so die mentale Verfügbarkeit aufbauen, die später über den Abschluss entscheidet.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+LinkedIn erreicht Menschen im beruflichen Kontext, und genau das macht es im B2B stark. Wirkung entsteht aus Glaubwürdigkeit, aus dem Gleichgewicht von Markenaufbau und Aktivierung und aus dauerhafter Präsenz.
+
+::: {.notes}
+Als Kern bleibt: beruflicher Kontext, glaubwürdige Quellen, das Gleichgewicht aus Markenaufbau und Aktivierung im Verhältnis sechzig zu vierzig und ein Share of Voice über dem Marktanteil. Die nächste Lesson zeigt, mit welchen Kampagnentypen und welchem Targeting sich das konkret umsetzen lässt.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

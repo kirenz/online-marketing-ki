@@ -1,30 +1,130 @@
 ---
 title: "Attribution und Dashboards"
-subtitle: "Modul: 09-web-analytics"
+subtitle: "Modul 9: Web-Analytics und Erfolgsmessung"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Wer bekommt den Erfolg gutgeschrieben? {.stage background-image="images/hero-attribution-dashboards.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-attribution-dashboards.png"
+A dark, atmospheric composition suggesting multiple paths converging: several faint glowing lines starting at different points and merging toward a single soft point of light, set against a deep charcoal-to-black gradient. Generous negative space in the upper-left for a title overlay. Cinematic, low-contrast, no readable text, no people.
 -->
 
-In dieser Lesson schauen wir uns an: Attributionsmodelle und die Visualisierung in Dashboards wie Looker Studio.
+::: {.notes}
+Der Einstieg stellt die Leitfrage der Attribution: Welchem Kanal wird ein Erfolg gutgeschrieben, wenn die Kundschaft über viele Kontaktpunkte zu uns findet? Daran schließt die zweite Frage an, wie sich diese Antworten in Dashboards sichtbar machen lassen.
+:::
 
+## Eine Conversion hat viele Vorlagen
 
+Eine Conversion entsteht selten nach einem einzigen Kontakt. Eine typische Reise verläuft über mehrere Berührungspunkte:
 
-## Worum es geht
+- eine Anzeige wird gesehen
+- später folgt ein Blogbeitrag
+- Tage darauf ein Klick auf eine Suchanzeige
+- dann erst der Kauf
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt attributionsmodelle und die Visualisierung in Dashboards wie Looker Studio.
+Jede dieser Stationen ist ein **Touchpoint**. Attribution verteilt den Erfolgsbeitrag auf diese Berührungspunkte.
 
-## Im Detail
+::: {.sources}
+Quelle: @li2014
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.notes}
+Die Verteilung ist keine technische Nebensache, sondern entscheidet über die Budgetlenkung. Wer falsch zurechnet, verschiebt Geld zu den falschen Kanälen. Forschung zeigt, dass eine realistische Zurechnung über mehrere Kontaktpunkte die Wirkung einzelner Kanäle deutlich anders bewertet als eine vereinfachte Betrachtung.
+:::
 
+## Das Last-Click-Modell verzerrt {.stage background-color="#0a0a0f"}
+
+Die einfache Regel lautet: Der letzte Klick vor dem Kauf bekommt den gesamten Erfolg. Leicht zu verstehen, aber systematisch irreführend.
+
+::: {.notes}
+Das Last-Click-Modell überschätzt jene Kanäle, die am Ende der Reise stehen, und unterschätzt jene, die früh Aufmerksamkeit und Vertrauen schaffen. Es belohnt den finalen Schritt und kürzt damit das Budget genau dort, wo Nachfrage erst entsteht.
+:::
+
+## Vom letzten Klick zum gelernten Modell
+
+Bessere Ansätze verteilen den Erfolg nicht nach starrer Regel:
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa arrow-pointer >}}]{.accent-orange}
+**Last-Click**
+
+Aller Erfolg geht an den letzten Klick. Einfach, aber verzerrend.
+:::
+
+::: {.feature}
+[{{< fa scale-balanced >}}]{.accent-blue}
+**Regelbasiert**
+
+Erfolg gleichmäßig oder nach fester Gewichtung verteilt.
+:::
+
+::: {.feature}
+[{{< fa wand-magic-sparkles >}}]{.accent-green}
+**Datengetrieben**
+
+Das Modell lernt aus echten Pfaden, welche Touchpoints zählen.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @berman2018
+:::
+
+::: {.notes}
+Den größten Fortschritt bringen datengetriebene Modelle. Sie verteilen den Beitrag nicht nach starrer Regel, sondern lernen aus den tatsächlichen Pfaden, welche Berührungspunkte den Unterschied machen. GA4 stellt dafür eigene Einstellungen bereit, die bewusst gewählt und nicht ungeprüft übernommen werden sollten.
+:::
+
+## Analogie: Das Tor im Mannschaftssport
+
+Es wäre ungerecht, allein der Person den Erfolg zuzuschreiben, die den Ball über die Linie bringt.
+
+Ein Tor entsteht aus einer Kette: Ballgewinn, Pass, Vorlage, Abschluss.
+
+Genauso entsteht eine Conversion aus einer Kette von Kontaktpunkten. Attribution macht die **Vorlagen** sichtbar, nicht nur den letzten Schritt.
+
+::: {.sources}
+Quelle: @googleGa4Attribution2026
+:::
+
+::: {.notes}
+Das Bild des Tores macht das Zurechnungsproblem greifbar. Der Abschluss ist sichtbar, doch ohne Vorlagen gäbe es ihn nicht. Attribution ist der Versuch, diesen gesamten Spielzug zu würdigen statt nur den letzten Ballkontakt.
+:::
+
+## Dashboards machen Zahlen lesbar
+
+Die beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Dashboard bündelt die wichtigsten Kennzahlen an einem Ort, etwa in Looker Studio.
+
+Es folgt denselben Prinzipien wie ein gutes Kennzahlensystem:
+
+- oben die Leitkennzahlen für den schnellen Gesundheitscheck
+- darunter die Treiber, die Veränderungen erklären
+- geordnet nach den Phasen der Customer Journey
+
+::: {.sources}
+Quelle: @ahrholdt2023
+:::
+
+::: {.notes}
+Ein gutes Dashboard zeigt nicht alles, sondern das Wesentliche. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann. Außerdem richtet es sich nach dem Publikum: Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Erfolg hat viele Vorlagen. Wer nur den letzten Klick zählt, steuert das Budget in die Irre. Datengetriebene Attribution verteilt den Beitrag realistisch, und ein klares Dashboard macht die Erkenntnisse zur Entscheidung.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Attribution und Visualisierung gehören zusammen. Erst die faire Zurechnung über alle Touchpoints und dann die verständliche Darstellung im Dashboard verwandeln Daten in begründete Budgetentscheidungen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

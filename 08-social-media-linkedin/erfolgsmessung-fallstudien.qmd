@@ -1,22 +1,50 @@
 # Erfolgsmessung und Fallstudien
 
-In dieser Lesson schauen wir uns an: Kennzahlen für LinkedIn-Werbung und Lernpunkte aus Fallbeispielen.
+In dieser Lesson lernen wir die zentralen Kennzahlen für LinkedIn-Werbung kennen und ordnen sie den Kampagnenzielen zu. Außerdem ziehen wir aus typischen Fallbeispielen die wichtigsten Lernpunkte für die eigene Praxis.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Eine Kampagne ist nur so gut wie ihre Messung. Entscheidend ist, dass wir die Kennzahl zum Kampagnenziel passend wählen. Wer Markenbekanntheit aufbaut, misst Reichweite, wer Leads gewinnt, misst die Kosten pro Lead. Eine falsch gewählte Kennzahl führt schnell zu falschen Schlüssen [@linkedinAds2024].
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt kennzahlen für LinkedIn-Werbung und Lernpunkte aus Fallbeispielen.
+## Die zentralen Kennzahlen
 
-## Im Detail
+Die folgenden Kennzahlen begegnen uns im Kampagnen-Manager am häufigsten. Wir lesen sie immer im Licht des jeweiligen Ziels, nicht isoliert.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+| Kennzahl | Bedeutung | Passendes Ziel |
+|---|---|---|
+| Impressions | Wie oft die Anzeige erschienen ist | Bekanntheit |
+| CTR | Anteil der Klicks an den Einblendungen | Erwägung, Traffic |
+| CPC | Kosten pro Klick | Traffic |
+| CPL | Kosten pro gewonnenem Lead | Konversion |
+| Conversion Rate | Anteil der Abschlüsse an den Klicks | Konversion |
+
+Eine hohe Klickrate zeigt, dass Botschaft und Zielgruppe zusammenpassen. Steigende Kosten pro Lead bei gleichbleibender Qualität sind dagegen ein Warnsignal, dass die Zielgruppe zu eng oder die Anzeige ermüdet ist. Eine Vertiefung dieser Mess-Logik im Gesamtbild des B2B-Marketings liefert @seebacher2023.
+
+::: {.callout-tip title="Analogie: das Cockpit"}
+Die Kennzahlen sind wie die Instrumente im Cockpit. Niemand fliegt allein nach dem Tachometer, und kein einzelnes Instrument erzählt die ganze Lage. Erst das Zusammenspiel aus Höhe, Geschwindigkeit und Treibstoff ergibt ein verlässliches Bild. Genauso lesen wir Reichweite, Klickrate und Kosten pro Lead immer gemeinsam, statt eine einzelne Zahl zu verabsolutieren.
+:::
+
+## Was Fallbeispiele lehren
+
+Aus typischen Kampagnen im deutschsprachigen B2B lassen sich wiederkehrende Lernpunkte ableiten. Sie sind weniger spektakulär als oft dargestellt, dafür aber zuverlässig.
+
+- Die Glaubwürdigkeit der Quelle wirkt stark: Beiträge von erkennbaren Fachpersonen erzielen mehr Resonanz als anonyme Markenbotschaften [@balaji2023].
+- Relevanter Mehrwert schlägt Werbedruck: Inhalte, die ein konkretes Problem der Zielgruppe lösen, erzeugen mehr qualifizierte Anfragen als reine Produktwerbung.
+- Geduld zahlt sich aus: Markenaufbau und Aktivierung entfalten ihre Wirkung erst im Zusammenspiel über mehrere Monate.
+
+::: {.callout-important title="Vorsicht bei geliehenen Benchmarks"}
+Veröffentlichte Erfolgszahlen aus Fallstudien stammen aus einem anderen Markt, einer anderen Branche und einem anderen Zeitraum. Wir nutzen sie als grobe Orientierung, niemals als verbindliche Zielwerte. Belastbar ist allein der Vergleich mit den eigenen, über mehrere Kampagnen hinweg gemessenen Werten.
+:::
+
+## Vom Messen zum Verbessern
+
+Messung ist kein Selbstzweck, sondern die Grundlage für den nächsten Schritt. Aus den Zahlen leiten wir konkrete Anpassungen ab: Wir testen zwei Varianten einer Anzeige gegeneinander, tauschen ermüdete Motive aus oder schärfen die Zielgruppe nach. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, der mit jeder Runde besser wird.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[social-media-advertising]], `@balaji2023`, `@seebacher2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Erfolgsmessung und Fallstudien vertiefen
+- Eine ausgearbeitete Fallstudie mit anonymisierten, aber konkreten Zahlen ergänzen
+- Den Aufbau eines A/B-Tests im Kampagnen-Manager Schritt für Schritt zeigen
+- Eine Beispielrechnung für die Kosten pro Lead und den daraus abgeleiteten Return einfügen
+- Eine Checkliste für die wöchentliche Kampagnenkontrolle erstellen

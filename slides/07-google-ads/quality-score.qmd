@@ -1,30 +1,117 @@
 ---
 title: "Quality Score und Optimierung"
-subtitle: "Modul: 07-google-ads"
+subtitle: "Modul 7: Suchmaschinenwerbung (Google Ads)"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Qualität, die den Preis senkt {.stage background-image="images/hero-quality-score.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-quality-score.png"
+A dark atmospheric background composition suggesting measured quality and calibration: a faintly glowing gauge-like arc and soft concentric rings over a deep blue-black gradient, with three subtle points of light suggesting separate components. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no faces, no sharp focal points.
 -->
 
-In dieser Lesson schauen wir uns an: Die drei Komponenten des Quality Score und ihre Hebel.
+::: {.notes}
+Auktion und Kontoaufbau treffen sich in der Anzeigenqualität. Dieser Einstieg führt zum Quality Score als der Stellschraube, die bessere Positionen und niedrigere Kosten zugleich möglich macht.
+:::
 
+## Der Quality Score ist ein Wegweiser
 
+Eine Diagnosekennzahl von **1 bis 10** zeigt, wie gut eine Anzeige zu einem Keyword passt.
 
-## Worum es geht
+Wichtig: Die Zahl fließt nicht direkt in die Auktion ein. Ihre **Komponenten** wirken auf den Anzeigenrang.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt die drei Komponenten des Quality Score und ihre Hebel.
+Ein hoher Wert bedeutet tendenziell bessere Positionen bei niedrigeren Klickpreisen.
 
-## Im Detail
+::: {.sources}
+Quelle: @shemshaki2025
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.notes}
+Der Quality Score ist eine Diagnosekennzahl von 1 bis 10 für die Passung zwischen Anzeige und Keyword. Er fließt nicht als einzelne Zahl in die Auktion ein, sondern seine Komponenten beeinflussen den Anzeigenrang. Ein hoher Wert signalisiert Nützlichkeit und führt tendenziell zu besseren Positionen bei niedrigeren Kosten.
+:::
 
+## Drei Komponenten, drei Hebel
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa hand-pointer >}}]{.accent-blue}
+**Erwartete Klickrate**
+
+Wie wahrscheinlich ein Klick ist.
+:::
+
+::: {.feature}
+[{{< fa bullseye >}}]{.accent-green}
+**Anzeigenrelevanz**
+
+Wie gut der Text zur Suche passt.
+:::
+
+::: {.feature}
+[{{< fa file-lines >}}]{.accent-orange}
+**Zielseiten-Erfahrung**
+
+Wie hilfreich die Seite nach dem Klick ist.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @googleQualityScore2024
+:::
+
+::: {.notes}
+Der Quality Score setzt sich aus drei Komponenten zusammen, die Google getrennt bewertet: die erwartete Klickrate als geschätzte Klickwahrscheinlichkeit, die Anzeigenrelevanz als Passung von Text und Suchanfrage, und die Zielseiten-Erfahrung als Nützlichkeit der Seite nach dem Klick. Jede Komponente ist zugleich ein eigener Ansatzpunkt.
+:::
+
+## Analogie: Das Vorstellungsgespräch {.stage background-color="#0a0a0f"}
+
+Eine Bewerbung überzeugt nie über einen einzigen Punkt, sondern über das Zusammenspiel: erster Eindruck, passende Antworten, stimmiges Auftreten.
+
+::: {.notes}
+Das Bild des Vorstellungsgesprächs ordnet die drei Komponenten zu: Der erste Eindruck entspricht der erwarteten Klickrate, die zur Frage passende Antwort der Anzeigenrelevanz und das stimmige Auftreten im weiteren Verlauf der Zielseiten-Erfahrung. Erst das Zusammenspiel ergibt die Anzeigenqualität.
+:::
+
+## An den richtigen Hebeln ziehen
+
+Aus den drei Komponenten folgen drei konkrete Schritte:
+
+- **Klickrate**: Suchbegriff aufgreifen, Nutzen und klare Handlungsaufforderung benennen.
+- **Relevanz**: Keyword-Begriffe im Anzeigentext aufnehmen (enge Anzeigengruppen helfen).
+- **Zielseite**: schnelle, übersichtliche und inhaltlich passende Seite.
+
+::: {.sources}
+Quelle: @googleQualityScore2024
+:::
+
+::: {.notes}
+Aus den Komponenten ergeben sich drei Hebel. Für die Klickrate helfen Texte, die den Suchbegriff aufgreifen und einen klaren Nutzen mit Handlungsaufforderung bieten. Für die Relevanz sorgen Keyword-Begriffe im Text, erleichtert durch enge Anzeigengruppen. Für die Zielseiten-Erfahrung zählt eine schnelle, übersichtliche und passende Seite.
+:::
+
+## Die Zahl ist das Thermometer
+
+Optimiert wird nicht die Quality-Score-Zahl, sondern die drei [Komponenten dahinter]{.highlight-green}.
+
+Wer Klickrate, Relevanz und Zielseiten-Erfahrung verbessert, hebt den Wert von selbst und senkt zugleich die Kosten.
+
+::: {.notes}
+Eine wichtige Klarstellung zum Schluss: Die Quality-Score-Zahl lässt sich nicht direkt steuern, nur die Komponenten dahinter. Wer Klickrate, Relevanz und Zielseiten-Erfahrung verbessert, hebt den Wert automatisch und senkt die Kosten. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Der Quality Score ist ein Wegweiser aus drei Komponenten: erwartete Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung. Wir verbessern nicht die Zahl, sondern diese drei Hebel. So entstehen bessere Positionen und niedrigere Kosten zugleich.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Der Quality Score zeigt die Anzeigenqualität, und seine drei Komponenten sind die eigentlichen Stellschrauben. Wer an erwarteter Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung arbeitet, verbessert Position und Kosten gemeinsam und schließt damit den Bogen vom Auktionsmechanismus zur praktischen Optimierung.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

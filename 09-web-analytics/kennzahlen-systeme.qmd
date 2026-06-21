@@ -1,22 +1,42 @@
 # Kennzahlen und Kennzahlensysteme
 
-In dieser Lesson schauen wir uns an: Von Vanity-Metriken zu wertorientierten KPIs entlang der Customer Journey.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir messen Marketingerfolg nicht an Applaus, sondern an Wirkung. In dieser Lesson lernen wir, sogenannte Vanity-Metriken von echten Steuerungsgrößen zu unterscheiden und unsere Kennzahlen so entlang der Customer Journey anzuordnen, dass sie zusammen ein stimmiges Bild ergeben.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt von Vanity-Metriken zu wertorientierten KPIs entlang der Customer Journey.
+## Warum Kennzahlen überhaupt zählen
 
-## Im Detail
+Was wir nicht messen, können wir nicht gezielt verbessern. Kennzahlen übersetzen das, was im Marketing passiert, in nachvollziehbare Zahlen und machen damit Entscheidungen begründbar statt beliebig. Sie zeigen uns, ob ein eingesetzter Euro tatsächlich Wirkung entfaltet, und sie schaffen eine gemeinsame Sprache zwischen Marketing, Vertrieb und Geschäftsführung.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Wir unterscheiden dabei zwei Begriffe, die oft verwechselt werden. Eine Metrik ist jede messbare Größe, also etwa die Zahl der Seitenaufrufe. Ein KPI (Key Performance Indicator) ist hingegen eine bewusst ausgewählte Schlüsselkennzahl, die direkt auf ein Ziel einzahlt. Jeder KPI ist eine Metrik, aber nicht jede Metrik verdient den Rang eines KPI [@farris2010].
+
+::: {.callout-tip title="Analogie: Das Armaturenbrett im Auto"}
+Wir stellen uns das Armaturenbrett eines Autos vor. Dort stehen nicht alle technisch messbaren Werte, sondern nur die wenigen, die für eine sichere Fahrt zählen: Geschwindigkeit, Tankfüllung, Motortemperatur. Genauso wählen wir aus der Fülle möglicher Zahlen jene wenigen aus, die uns wirklich steuern helfen. Ein Cockpit mit fünfzig Anzeigen lenkt nur ab.
+:::
+
+## Vanity-Metriken erkennen und einordnen
+
+Manche Zahlen sehen beeindruckend aus, sagen aber wenig über den Geschäftserfolg. Solche Vanity-Metriken (Eitelkeits-Kennzahlen) steigen verlässlich, lassen sich gut präsentieren und führen doch leicht in die Irre. Typische Beispiele sind reine Reichweite, die Gesamtzahl der Follower oder die Menge der Seitenaufrufe ohne jeden Bezug zu einer Handlung.
+
+Das Problem liegt nicht in den Zahlen selbst, sondern in der fehlenden Verbindung zum Ziel. Zehntausend Aufrufe sind wertlos, wenn niemand davon zur Kundschaft wird. Wir prüfen deshalb bei jeder Kennzahl, ob sich aus ihr eine Entscheidung ableiten lässt. Eine wertorientierte Kennzahl beantwortet die Frage, ob wir unserem Ziel nähergekommen sind, und lenkt das nächste Handeln [@kaushik2010].
+
+::: {.callout-important title="Eine Zahl ohne Bezugsgröße steuert nicht"}
+Wir betrachten absolute Zahlen immer im Verhältnis. Tausend Klicks sind je nach eingesetztem Budget ein Erfolg oder eine Enttäuschung. Erst Relationen wie Conversion-Rate (Anteil der Handelnden an allen Besuchenden) oder Kosten pro Conversion machen aus einer rohen Zahl eine steuerbare Größe.
+:::
+
+## Kennzahlen entlang der Customer Journey
+
+Kennzahlen wirken einzeln selten überzeugend, im Verbund dagegen sehr. Ein Kennzahlensystem ordnet die wichtigsten Größen so an, dass sie aufeinander aufbauen und gemeinsam den Weg der Kundschaft abbilden. Wir orientieren uns dabei an den Phasen der Customer Journey, also an der Reise von der ersten Aufmerksamkeit bis zur dauerhaften Bindung.
+
+In der frühen Phase messen wir Sichtbarkeit und Aufmerksamkeit, etwa über Reichweite oder neue Besuchende. In der mittleren Phase rückt das Interesse in den Blick, sichtbar an Verweildauer oder wiederkehrenden Besuchen. In der späten Phase zählt die Handlung, also die Conversion und ihr Wert. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt [@ahrholdt2023].
+
+Damit dieses System trägt, wählen wir bewusst wenige Schlüsselkennzahlen statt vieler Anzeigen. Vier bis fünf gut gewählte KPIs reichen aus, um eine Kampagne zu steuern. Mehr Zahlen erhöhen nicht die Klarheit, sondern den Aufwand der Interpretation.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[web-analytics]], `@li2014`, `@berman2018`, `@ahrholdt2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Kennzahlen und Kennzahlensysteme vertiefen
+- Ein durchgängiges Beispiel mit konkreten Zahlen entlang aller Journey-Phasen Schritt für Schritt aufbauen
+- Eine Übersichtstabelle gängiger KPIs je Phase mit Definition und sinnvoller Bezugsgröße ergänzen
+- Eine kleine Übung einfügen, in der Lesende eigene Metriken in Vanity-Metriken und KPIs sortieren
+- Den Zusammenhang zwischen North-Star-Kennzahl und untergeordneten Treiber-KPIs vertiefen

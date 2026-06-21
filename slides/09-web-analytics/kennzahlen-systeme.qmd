@@ -1,30 +1,123 @@
 ---
 title: "Kennzahlen und Kennzahlensysteme"
-subtitle: "Modul: 09-web-analytics"
+subtitle: "Modul 9: Web-Analytics und Erfolgsmessung"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Beeindruckende Zahlen sind nicht dasselbe wie Erfolg {.stage background-image="images/hero-kennzahlen-systeme.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-kennzahlen-systeme.png"
+A dark, atmospheric composition evoking measurement and focus: a dimly glowing car-style dashboard gauge floating in a deep charcoal-to-black gradient, with faint rising data lines dissolving into the background. Generous negative space in the upper-left for a title overlay. Cinematic, low-contrast, no readable text, no people.
 -->
 
-In dieser Lesson schauen wir uns an: Von Vanity-Metriken zu wertorientierten KPIs entlang der Customer Journey.
+::: {.notes}
+Der Einstieg setzt eine bewusste Spannung: Hohe Zahlen wirken überzeugend, sagen aber oft wenig über den tatsächlichen Erfolg. Diese Lesson trennt den schönen Schein von der echten Steuerung und ordnet Kennzahlen entlang der Customer Journey.
+:::
 
+## Metrik ist nicht gleich KPI
 
+Zwei Begriffe werden oft verwechselt:
 
-## Worum es geht
+- Eine **Metrik** ist jede messbare Größe, etwa Seitenaufrufe.
+- Ein **KPI** ist eine bewusst gewählte Schlüsselkennzahl, die auf ein Ziel einzahlt.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt von Vanity-Metriken zu wertorientierten KPIs entlang der Customer Journey.
+Jeder KPI ist eine Metrik. Aber nicht jede Metrik verdient den Rang eines KPI.
 
-## Im Detail
+::: {.sources}
+Quelle: @farris2010
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.notes}
+Die Unterscheidung ist die Grundlage der ganzen Lesson. Metriken gibt es im Überfluss, doch nur wenige davon taugen zur Steuerung. Ein KPI wird bewusst ausgewählt, weil er direkt auf ein Geschäftsziel einzahlt. Diese Auswahl ist eine Entscheidung, keine technische Voreinstellung.
+:::
 
+## Vorsicht vor Vanity-Metriken {.stage background-color="#0a0a0f"}
+
+Reichweite, Follower, reine Seitenaufrufe: Sie steigen verlässlich und sagen doch wenig über den Geschäftserfolg.
+
+::: {.notes}
+Vanity-Metriken sind Eitelkeits-Kennzahlen. Sie lassen sich gut präsentieren und steigen fast immer, führen aber leicht in die Irre, weil ihnen der Bezug zum Ziel fehlt. Zehntausend Aufrufe sind wertlos, wenn niemand davon zur Kundschaft wird.
+:::
+
+## Die Prüffrage für jede Kennzahl
+
+Bei jeder Zahl stellt sich dieselbe Frage:
+
+::: {.formula .editorial}
+Lässt sich aus dieser Kennzahl eine Entscheidung ableiten?
+:::
+
+Wenn nein, ist es Dekoration. Wenn ja, ist es eine Steuerungsgröße.
+
+Absolute Zahlen brauchen außerdem eine Bezugsgröße. Tausend Klicks sind je nach Budget Erfolg oder Enttäuschung.
+
+::: {.sources}
+Quelle: @kaushik2010
+:::
+
+::: {.notes}
+Diese eine Frage trennt Steuerungsgröße von Dekoration. Eine wertorientierte Kennzahl beantwortet, ob das Ziel nähergerückt ist, und lenkt das nächste Handeln. Und sie wird immer im Verhältnis betrachtet: Erst Relationen wie die Conversion-Rate machen aus einer rohen Zahl eine steuerbare Größe.
+:::
+
+## Kennzahlen entlang der Customer Journey
+
+Einzeln überzeugen Kennzahlen selten, im Verbund dagegen sehr. Jede Journey-Phase trägt ihre eigene Leitkennzahl.
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[1]{.timeline-number}
+[Aufmerksamkeit]{.timeline-title}
+[Reichweite, neue Besuchende]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[2]{.timeline-number}
+[Interesse]{.timeline-title}
+[Verweildauer, wiederkehrende Besuche]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[3]{.timeline-number}
+[Handlung]{.timeline-title}
+[Conversion und Conversion-Wert]{.timeline-detail}
+:::
+
+::::
+
+::: {.sources}
+Quelle: @ahrholdt2023
+:::
+
+::: {.notes}
+Ein Kennzahlensystem ordnet die wichtigsten Größen so an, dass sie aufeinander aufbauen. In der frühen Phase zählt Sichtbarkeit, in der mittleren das Interesse, in der späten die Handlung. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt.
+:::
+
+## Analogie: Das Armaturenbrett im Auto
+
+Ein Armaturenbrett zeigt nicht alle messbaren Werte, sondern nur die wenigen, die für eine sichere Fahrt zählen.
+
+Geschwindigkeit, Tankfüllung, Motortemperatur: mehr braucht es nicht. Ein Cockpit mit fünfzig Anzeigen lenkt nur ab.
+
+Genauso reichen **vier bis fünf** gut gewählte KPIs, um eine Kampagne zu steuern.
+
+::: {.notes}
+Das Bild des Armaturenbretts macht die Disziplin greifbar. Aus der Fülle möglicher Zahlen werden wenige ausgewählt, die wirklich steuern helfen. Mehr Anzeigen erhöhen nicht die Klarheit, sondern nur den Aufwand der Interpretation.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Kennzahlen sind kein Applaus, sondern Steuerung. Wer Vanity-Metriken aussortiert, wenige KPIs bewusst wählt und sie entlang der Customer Journey anordnet, verwandelt rohe Zahlen in begründete Entscheidungen.
+
+::: {.notes}
+Als Kernbotschaft bleibt: messbar ist nicht gleich wichtig. Die Auswahl weniger, zielgerichteter Kennzahlen entlang der Journey ist die eigentliche Leistung, nicht das Sammeln möglichst vieler Zahlen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::
