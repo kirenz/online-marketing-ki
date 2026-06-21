@@ -4,7 +4,7 @@ subtitle: "Modul 4: Marketingziele und Strategie"
 author: Jan Kirenz
 ---
 
-# Aus gutem Vorsatz wird ein steuerbares Ziel {.stage background-image="images/hero-smart-ziele.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Aus gutem Vorsatz wird ein steuerbares Ziel {.stage background-image="../images/hero-smart-ziele.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-smart-ziele.png"
 Moderne, frische Szene aus der Vogelperspektive: eine ruhige Schreibtischfläche in tiefem Petrol-Blau mit frischen Farbakzenten mit einem angedeuteten Notizblock, einer Zielscheibe und einem Stift, sanft beleuchtet. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, frisch und moderne editoriale Tonalität.

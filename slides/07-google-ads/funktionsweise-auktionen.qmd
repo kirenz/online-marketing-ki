@@ -4,7 +4,7 @@ subtitle: "Modul 7: Suchmaschinenwerbung (Google Ads)"
 author: Jan Kirenz
 ---
 
-# Ein Wettbieten in Sekundenbruchteilen {.stage background-image="images/hero-funktionsweise-auktionen.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Ein Wettbieten in Sekundenbruchteilen {.stage background-image="../images/hero-funktionsweise-auktionen.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-funktionsweise-auktionen.png"
 A dark atmospheric background composition suggesting a silent, instantaneous auction: faint glowing nodes connected by thin light lines over a deep blue-black gradient, with a subtle sense of motion and competing signals converging toward a single point. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no faces, no sharp focal points.

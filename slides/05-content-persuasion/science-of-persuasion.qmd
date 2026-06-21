@@ -4,7 +4,7 @@ subtitle: "Modul 5: Content-Marketing und Persuasion"
 author: Jan Kirenz
 ---
 
-# Warum wir Ja sagen {.stage background-image="images/hero-science-of-persuasion.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Warum wir Ja sagen {.stage background-image="../images/hero-science-of-persuasion.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-science-of-persuasion.png"
 Moderne, frische Komposition: sieben abstrakte, leuchtende Knotenpunkte, die über tiefem Petrol-Blau mit frischen Farbakzenten lose durch feine Linien verbunden sind, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

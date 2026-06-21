@@ -43,3 +43,6 @@ slides/.env
 slides/exports/
 
 /.quarto/
+
+# Gerendertes Slides-Site (Deploy via gh-pages)
+slides/_site/

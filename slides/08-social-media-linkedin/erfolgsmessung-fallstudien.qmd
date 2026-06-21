@@ -4,7 +4,7 @@ subtitle: "Modul 8: Social Media und LinkedIn Ads"
 author: Jan Kirenz
 ---
 
-# Eine Kampagne ist nur so gut wie ihre Messung {.stage background-image="images/hero-erfolgsmessung-fallstudien.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Eine Kampagne ist nur so gut wie ihre Messung {.stage background-image="../images/hero-erfolgsmessung-fallstudien.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-erfolgsmessung-fallstudien.png"
 Moderne, frische Komposition: ein abstraktes Cockpit-Instrumentenfeld mit wenigen leuchtenden Anzeigen über tiefem Petrol-Blau mit frischen Farbakzenten, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

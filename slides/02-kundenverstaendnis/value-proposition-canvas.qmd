@@ -4,7 +4,7 @@ subtitle: "Modul 2: Kundenverständnis"
 author: Jan Kirenz
 ---
 
-# Angebot trifft Bedürfnis {.stage background-image="images/hero-value-proposition-canvas.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Angebot trifft Bedürfnis {.stage background-image="../images/hero-value-proposition-canvas.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-value-proposition-canvas.png"
 Moderne, frische Komposition: ein Schlüssel und ein Schloss aus feinen Linien, einander zugewandt, über tiefem Petrol-Blau mit frischen Farbakzenten im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

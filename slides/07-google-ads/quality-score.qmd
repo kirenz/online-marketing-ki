@@ -4,7 +4,7 @@ subtitle: "Modul 7: Suchmaschinenwerbung (Google Ads)"
 author: Jan Kirenz
 ---
 
-# Qualität, die den Preis senkt {.stage background-image="images/hero-quality-score.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Qualität, die den Preis senkt {.stage background-image="../images/hero-quality-score.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-quality-score.png"
 A dark atmospheric background composition suggesting measured quality and calibration: a faintly glowing gauge-like arc and soft concentric rings over a deep blue-black gradient, with three subtle points of light suggesting separate components. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no faces, no sharp focal points.

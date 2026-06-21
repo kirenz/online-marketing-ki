@@ -4,7 +4,7 @@ subtitle: "Modul 1: Marketing-Grundlagen"
 author: Jan Kirenz
 ---
 
-# KI ist kein Monolith {.stage background-image="images/hero-ki-im-marketing.png" background-color="#0a0a0f" background-opacity="0.75"}
+# KI ist kein Monolith {.stage background-image="../images/hero-ki-im-marketing.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-ki-im-marketing.png"
 Moderne, frische Komposition: drei abstrakte, unterschiedlich geformte Bausteine schweben über einer Anthrazitfläche im weichen Lichtschein, angedeutete feine Verbindungslinien. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

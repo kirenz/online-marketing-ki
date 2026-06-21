@@ -4,7 +4,7 @@ subtitle: "Modul 9: Web-Analytics und Erfolgsmessung"
 author: Jan Kirenz
 ---
 
-# Jede Interaktion ist ein Ereignis {.stage background-image="images/hero-ga4-tracking.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Jede Interaktion ist ein Ereignis {.stage background-image="../images/hero-ga4-tracking.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-ga4-tracking.png"
 A dark, atmospheric composition suggesting streams of discrete events: many small glowing dots and short connector lines flowing across a deep indigo-to-black gradient, like individual signals traveling through a network. Generous negative space in the upper-left for a title overlay. Cinematic, low-contrast, no readable text, no people.

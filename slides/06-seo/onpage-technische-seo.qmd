@@ -4,7 +4,7 @@ subtitle: "Modul 6: Suchmaschinenoptimierung (SEO)"
 author: Jan Kirenz
 ---
 
-# Damit Mensch und Maschine die Seite verstehen {.stage background-image="images/hero-onpage-technische-seo.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Damit Mensch und Maschine die Seite verstehen {.stage background-image="../images/hero-onpage-technische-seo.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-onpage-technische-seo.png"
 A dark atmospheric background composition suggesting structure and architecture: faint glowing wireframe of a web page layout dissolving into thin monoline connectors and grid lines over a deep charcoal gradient. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no sharp focal points.

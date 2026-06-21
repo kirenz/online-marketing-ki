@@ -4,7 +4,7 @@ subtitle: "Modul 9: Web-Analytics und Erfolgsmessung"
 author: Jan Kirenz
 ---
 
-# Wer bekommt den Erfolg gutgeschrieben? {.stage background-image="images/hero-attribution-dashboards.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Wer bekommt den Erfolg gutgeschrieben? {.stage background-image="../images/hero-attribution-dashboards.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-attribution-dashboards.png"
 A dark, atmospheric composition suggesting multiple paths converging: several faint glowing lines starting at different points and merging toward a single soft point of light, set against a deep charcoal-to-black gradient. Generous negative space in the upper-left for a title overlay. Cinematic, low-contrast, no readable text, no people.

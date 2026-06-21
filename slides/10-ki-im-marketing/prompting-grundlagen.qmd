@@ -4,7 +4,7 @@ subtitle: "Modul 10: KI im Marketing"
 author: Jan Kirenz
 ---
 
-# Die Anweisung macht das Ergebnis {.stage background-image="images/hero-prompting-grundlagen.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Die Anweisung macht das Ergebnis {.stage background-image="../images/hero-prompting-grundlagen.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-prompting-grundlagen.png"
 Moderne, frische Komposition: aus einer einzelnen Eingabezeile fächern sich feine Lichtspuren in mehrere Richtungen auf, über tiefem Petrol-Blau mit frischen Farbakzenten im weichen Schein. Editorial und frisch und modern, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.

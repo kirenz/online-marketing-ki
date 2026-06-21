@@ -4,7 +4,7 @@ subtitle: "Modul 2: Kundenverständnis"
 author: Jan Kirenz
 ---
 
-# Erst zuhören, dann anbieten {.stage background-image="images/hero-empathy-map.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Erst zuhören, dann anbieten {.stage background-image="../images/hero-empathy-map.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-empathy-map.png"
 Moderne, frische Szene: vier angedeutete Quadranten als feine Linien über tiefem Petrol-Blau mit frischen Farbakzenten, in der Mitte eine schemenhafte Kopf-Silhouette ohne Gesicht, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, editorial und frisch und modern.

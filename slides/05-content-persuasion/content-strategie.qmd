@@ -4,7 +4,7 @@ subtitle: "Modul 5: Content-Marketing und Persuasion"
 author: Jan Kirenz
 ---
 
-# Erst das Vertrauen, dann der Verkauf {.stage background-image="images/hero-content-strategie.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Erst das Vertrauen, dann der Verkauf {.stage background-image="../images/hero-content-strategie.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-content-strategie.png"
 Moderne, frische Komposition: angedeutete Inhaltskacheln unterschiedlicher Form, die sich zu einem geordneten Raster fügen, über tiefem Petrol-Blau mit frischen Farbakzenten im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

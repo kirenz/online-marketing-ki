@@ -4,7 +4,7 @@ subtitle: "Modul 8: Social Media und LinkedIn Ads"
 author: Jan Kirenz
 ---
 
-# Das richtige Werkzeug für die Aufgabe {.stage background-image="images/hero-kampagnentypen-targeting.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Das richtige Werkzeug für die Aufgabe {.stage background-image="../images/hero-kampagnentypen-targeting.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-kampagnentypen-targeting.png"
 Moderne, frische Komposition: eine aufgeräumte Werkbank von oben mit wenigen abstrakten Werkzeugen, in tiefem Petrol-Blau mit frischen Farbakzenten mit warmem Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

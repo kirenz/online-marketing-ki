@@ -4,7 +4,7 @@ subtitle: "Modul 7: Suchmaschinenwerbung (Google Ads)"
 author: Jan Kirenz
 ---
 
-# Ordnung schlägt Zufall {.stage background-image="images/hero-kampagnenstruktur.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Ordnung schlägt Zufall {.stage background-image="../images/hero-kampagnenstruktur.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-kampagnenstruktur.png"
 A dark atmospheric background composition suggesting structure and hierarchy: faintly glowing nested frames and softly lit shelving-like grids receding into a deep blue-black gradient, conveying calm order and clear compartments. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no faces, no sharp focal points.

@@ -4,7 +4,7 @@ subtitle: "Modul 5: Content-Marketing und Persuasion"
 author: Jan Kirenz
 ---
 
-# Vom leeren Blatt zum Entwurf {.stage background-image="images/hero-ki-content-erstellung.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Vom leeren Blatt zum Entwurf {.stage background-image="../images/hero-ki-content-erstellung.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-ki-content-erstellung.png"
 Moderne, frische Komposition: ein leeres Blatt, aus dem sich angedeutete Textzeilen und Varianten als feine Lichtspuren auffächern, über tiefem Petrol-Blau mit frischen Farbakzenten im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

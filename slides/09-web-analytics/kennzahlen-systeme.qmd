@@ -4,7 +4,7 @@ subtitle: "Modul 9: Web-Analytics und Erfolgsmessung"
 author: Jan Kirenz
 ---
 
-# Beeindruckende Zahlen sind nicht dasselbe wie Erfolg {.stage background-image="images/hero-kennzahlen-systeme.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Beeindruckende Zahlen sind nicht dasselbe wie Erfolg {.stage background-image="../images/hero-kennzahlen-systeme.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-kennzahlen-systeme.png"
 A dark, atmospheric composition evoking measurement and focus: a dimly glowing car-style dashboard gauge floating in a deep charcoal-to-black gradient, with faint rising data lines dissolving into the background. Generous negative space in the upper-left for a title overlay. Cinematic, low-contrast, no readable text, no people.

@@ -4,7 +4,7 @@ subtitle: "Modul 6: Suchmaschinenoptimierung (SEO)"
 author: Jan Kirenz
 ---
 
-# Wonach sucht eigentlich die Kundschaft? {.stage background-image="images/hero-keyword-recherche.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Wonach sucht eigentlich die Kundschaft? {.stage background-image="../images/hero-keyword-recherche.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-keyword-recherche.png"
 A dark atmospheric background composition suggesting search and discovery: a faintly glowing magnifying glass hovering over a deep indigo-to-black gradient, surrounded by softly blurred floating words and thin connector lines drifting into the distance. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no sharp focal points.

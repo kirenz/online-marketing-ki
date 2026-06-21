@@ -4,7 +4,7 @@ subtitle: "Modul 5: Content-Marketing und Persuasion"
 author: Jan Kirenz
 ---
 
-# Wenn die Geschichte uns mitnimmt {.stage background-image="images/hero-storytelling.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Wenn die Geschichte uns mitnimmt {.stage background-image="../images/hero-storytelling.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-storytelling.png"
 Moderne, frische Komposition: ein feiner, leuchtender Pfad, der sich durch tiefes Anthrazit windet und über einen Bogen zu einem hellen Punkt führt, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.

@@ -4,7 +4,7 @@ subtitle: "Modul 6: Suchmaschinenoptimierung (SEO)"
 author: Jan Kirenz
 ---
 
-# Wenn sich eine Seite einfach gut anfühlt {.stage background-image="images/hero-core-web-vitals.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Wenn sich eine Seite einfach gut anfühlt {.stage background-image="../images/hero-core-web-vitals.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-core-web-vitals.png"
 A dark atmospheric background composition suggesting speed and smoothness: faint glowing motion-blur streaks and soft pulse rings over a deep blue-black gradient, with thin curved lines implying flow and responsiveness. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no sharp focal points.
