@@ -2,6 +2,7 @@
 
 Kurs-Mono-Repo für die Lernplattform: Buch und Folien-Decks leben im selben Repository. Das Buch (Wir-Form, Callouts, Analogien) liegt im Repo-Root, die Folien-Decks unter `slides/`. Angelegt aus der Schablone `kirenz/lernplattform-templates`.
 
+- **Live (öffentlich):** <https://kirenz.github.io/online-marketing-ki/>
 - **Buch bauen:** `quarto render` (Output in `_book/`)
 - **Folien generieren:** `uv run python scripts/generate_slides.py`, dann pro Deck feinjustieren
 - Vorbild-Repo: [`kirenz/n8n-grundlagen`](https://github.com/kirenz/n8n-grundlagen)
