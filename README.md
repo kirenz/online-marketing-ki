@@ -13,7 +13,7 @@ Pro Modul entsteht erst das Buch-Kapitel (Wir-Form), dann das daraus generierte 
 | # | Modul | Buch | Folien |
 |---|---|---|---|
 | 1 | Marketing-Grundlagen | ✅ | ✅ |
-| 2 | Kundenverständnis | ⬜ | ⬜ |
+| 2 | Kundenverständnis | ✅ | ⬜ |
 | 3 | Zielgruppe & Positionierung | ⬜ | ⬜ |
 | 4 | Marketingziele & Strategie | ⬜ | ⬜ |
 | 5 | Content-Marketing & Persuasion | ⬜ | ⬜ |

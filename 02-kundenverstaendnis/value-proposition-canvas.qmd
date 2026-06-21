@@ -1,22 +1,48 @@
 # Value Proposition Canvas
 
-In dieser Lesson schauen wir uns an: Jobs, Pains, Gains und der Fit zwischen Angebot und Kundenprofil.
+In dieser Lesson lernen wir das Value Proposition Canvas kennen, ein Werkzeug, das den Nutzen eines Angebots systematisch mit den Bedürfnissen der Kundschaft verbindet.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Im ersten Modul haben wir festgehalten, dass Marketing beim Kunden beginnt. Das Value Proposition Canvas macht diese Haltung konkret. Es besteht aus zwei Hälften: dem Kundenprofil auf der einen Seite und der Wertkarte auf der anderen [@osterwalder2014]. Erst wenn beide Hälften zusammenpassen, entsteht ein überzeugendes Angebot.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt jobs, Pains, Gains und der Fit zwischen Angebot und Kundenprofil.
+## Das Kundenprofil: Jobs, Pains, Gains
 
-## Im Detail
+Die erste Hälfte beschreibt die Kundschaft, bevor wir über unser Angebot nachdenken. Sie hat drei Felder.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+- **Jobs:** die Aufgaben, die die Kundschaft erledigen möchte, funktional, sozial oder emotional.
+- **Pains:** die Hindernisse, Risiken und Ärgernisse auf dem Weg.
+- **Gains:** die erwünschten Ergebnisse und der konkrete Nutzen.
+
+Wir füllen diese Felder bewusst aus der Sicht der Kundschaft, nicht aus der Sicht des Produkts.
+
+## Die Wertkarte: Pain Relievers, Gain Creators, Produkte
+
+Die zweite Hälfte beschreibt unser Angebot, gespiegelt zum Kundenprofil.
+
+- **Produkte und Services:** was wir konkret anbieten.
+- **Pain Relievers:** wie das Angebot die Pains lindert.
+- **Gain Creators:** wie das Angebot die Gains erzeugt.
+
+Jeder Eintrag auf der Wertkarte sollte sich auf einen Eintrag im Kundenprofil beziehen. Leistungen ohne Bezug zu Jobs, Pains oder Gains sind ein Warnsignal.
+
+## Der Fit zwischen beiden Seiten
+
+Der eigentliche Erkenntnisgewinn liegt im Abgleich. Ein Fit entsteht, wenn die Pain Relievers echte Pains adressieren und die Gain Creators echte Gains erzeugen.
+
+::: {.callout-tip title="Analogie: Schlüssel und Schloss"}
+Das Kundenprofil ist das Schloss, die Wertkarte der Schlüssel. Ein schöner Schlüssel nützt nichts, wenn er nicht ins Schloss passt. Erst der passende Bart öffnet die Tür, und genau diesen Bart formen wir mit den Pain Relievers und Gain Creators.
+:::
+
+::: {.callout-important title="Häufige Stolperfalle"}
+Viele beginnen mit der Wertkarte und suchen danach passende Kundenbedürfnisse. Wirksamer ist der umgekehrte Weg: zuerst das Kundenprofil sauber erarbeiten, dann die Wertkarte darauf ausrichten.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], `@osterwalder2014`, `@osterwalder2013`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Value Proposition Canvas vertiefen
+- Ein vollständig ausgefülltes Canvas für das durchgehende Kursprojekt zeigen
+- Eine Vorlage oder Grafik des Canvas einbinden
+- Verbindung zur Empathy Map (nächste Lesson) und zum Business Model Canvas explizit machen
+- Beispiele für funktionale, soziale und emotionale Jobs ergänzen [@osterwalder2014]

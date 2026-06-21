@@ -1,22 +1,48 @@
 # Business Model Canvas
 
-In dieser Lesson schauen wir uns an: Das Geschäftsmodell mit seinen neun Bausteinen im Überblick.
+In dieser Lesson lernen wir das Business Model Canvas kennen, eine Übersicht auf einer Seite, die zeigt, wie eine Organisation Wert schafft, liefert und damit Erträge erzielt.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Value Proposition Canvas und Empathy Map schärfen den Blick auf Kundschaft und Nutzen. Das Business Model Canvas setzt diesen Nutzen in den größeren Zusammenhang des Geschäftsmodells und macht mit neun Bausteinen sichtbar, wie aus einem Angebot ein tragfähiges Geschäft wird [@osterwalder2013].
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt das Geschäftsmodell mit seinen neun Bausteinen im Überblick.
+## Die neun Bausteine
 
-## Im Detail
+Das Canvas bündelt neun Felder, die zusammen das Geschäftsmodell beschreiben.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+| Baustein | Leitfrage |
+|---|---|
+| Kundensegmente | Für wen schaffen wir Wert? |
+| Wertangebote | Welchen Nutzen stiften wir? |
+| Kanäle | Wie erreichen wir die Kundschaft? |
+| Kundenbeziehungen | Welche Beziehung pflegen wir? |
+| Einnahmequellen | Wofür wird bezahlt? |
+| Schlüsselressourcen | Was brauchen wir dafür? |
+| Schlüsselaktivitäten | Was müssen wir tun? |
+| Schlüsselpartner | Wer hilft uns? |
+| Kostenstruktur | Welche Kosten entstehen? |
+
+## Die rechte und die linke Seite
+
+Das Canvas hat eine innere Logik. Die rechte Seite ist nach außen gerichtet: Kundensegmente, Wertangebote, Kanäle, Beziehungen und Einnahmen. Die linke Seite ist nach innen gerichtet: Ressourcen, Aktivitäten, Partner und Kosten. In der Mitte verbindet das Wertangebot beide Seiten.
+
+::: {.callout-tip title="Analogie: der Bauplan eines Hauses"}
+Das Business Model Canvas ist wie der Grundriss eines Hauses auf einem Blatt. Er zeigt alle Räume und ihre Verbindungen auf einen Blick, bevor der erste Stein gesetzt wird. So fällt früh auf, wenn die Küche keinen Zugang zum Esszimmer hat, also wenn ein Baustein nicht zu den anderen passt.
+:::
+
+## Vom Canvas zur Marketingstrategie
+
+Für das Marketing sind vor allem die rechte Seite und ihr Zusammenspiel relevant. Kundensegmente und Wertangebote liefern die Grundlage für Zielgruppe und Positionierung, die Kanäle verweisen auf die späteren Kanal-Module dieses Kurses.
+
+::: {.callout-important title="Stimmigkeit prüfen"}
+Ein Geschäftsmodell trägt nur, wenn die Bausteine zueinander passen. Ein hochwertiges Wertangebot mit einem Billig-Kanal oder ohne passende Schlüsselressourcen bleibt ein Widerspruch auf dem Papier.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], `@osterwalder2014`, `@osterwalder2013`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Business Model Canvas vertiefen
+- Ein ausgefülltes Business Model Canvas für das Kursprojekt zeigen
+- Eine Vorlage oder Grafik des Canvas einbinden
+- Den Zusammenhang von Wertangebot, Kundensegment und Positionierung (Modul 3) vertiefen
+- Beispiele für unterschiedliche Einnahmequellen ergänzen [@osterwalder2013]

@@ -1,22 +1,43 @@
 # Empathy Map und Kundenbedürfnisse
 
-In dieser Lesson schauen wir uns an: Die Kundensicht systematisch erfassen und Bedürfnisse sichtbar machen.
+In dieser Lesson lernen wir die Empathy Map kennen, ein einfaches Werkzeug, um die Perspektive der Kundschaft greifbar zu machen, bevor wir Angebote oder Botschaften formulieren.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Das Value Proposition Canvas verlangt ein klares Kundenprofil. Die Empathy Map hilft, dieses Profil zu füllen, indem sie die Kundschaft aus mehreren Blickwinkeln betrachtet und so über reine Demografie hinausgeht [@osterwalder2014].
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt die Kundensicht systematisch erfassen und Bedürfnisse sichtbar machen.
+## Was eine Empathy Map zeigt
 
-## Im Detail
+Die Empathy Map ordnet Beobachtungen über eine Person in mehrere Felder. Eine verbreitete Variante fragt:
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+- **Sehen:** Was nimmt die Person in ihrem Umfeld wahr?
+- **Hören:** Welche Stimmen und Quellen beeinflussen sie?
+- **Denken und Fühlen:** Was beschäftigt sie wirklich, auch unausgesprochen?
+- **Sagen und Tun:** Wie verhält sie sich nach außen?
+
+Ergänzt wird das durch zwei Felder, die direkt an das Kundenprofil anschließen: **Pains** (Frustrationen, Ängste) und **Gains** (Wünsche, Erfolgsmaßstäbe).
+
+## Wie wir eine Empathy Map erstellen
+
+Wir wählen eine konkrete, beispielhafte Person statt einer abstrakten Zielgruppe. Dann füllen wir die Felder mit echten Beobachtungen, idealerweise aus Gesprächen, Bewertungen oder Support-Anfragen, nicht aus Vermutungen.
+
+::: {.callout-tip title="Analogie: das Ärztliche Anamnesegespräch"}
+Bevor eine Diagnose gestellt wird, hört die Ärztin zu und fragt nach Beschwerden, Umfeld und Gewohnheiten. Die Empathy Map ist dieses Anamnesegespräch für das Marketing: erst zuhören und verstehen, dann eine Lösung vorschlagen.
+:::
+
+## Von der Empathy Map zur Value Proposition
+
+Die Felder der Empathy Map fließen direkt in das Kundenprofil des Value Proposition Canvas. Pains und Gains lassen sich oft eins zu eins übertragen, und das Feld Denken und Fühlen deckt häufig unausgesprochene Jobs auf.
+
+::: {.callout-important title="Vermutung kennzeichnen"}
+Nicht jedes Feld lässt sich mit gesicherten Beobachtungen füllen. Vermutungen werden markiert, damit klar bleibt, was noch zu validieren ist, bevor darauf eine Strategie aufgebaut wird.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], `@osterwalder2014`, `@osterwalder2013`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Empathy Map und Kundenbedürfnisse vertiefen
+- Eine ausgefüllte Empathy Map für eine Beispiel-Persona des Kursprojekts zeigen
+- Eine Vorlage oder Grafik der Empathy Map einbinden
+- Quellen für echte Beobachtungen auflisten (Interviews, Bewertungen, Analytics)
+- Übergang zu Personas in Modul 3 vorbereiten
