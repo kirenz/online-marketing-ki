@@ -1,22 +1,36 @@
 # Positionierung im Wettbewerbsumfeld
 
-In dieser Lesson schauen wir uns an: Das eigene Angebot klar und unterscheidbar im Markt verorten.
+In dieser Lesson lernen wir, wie ein Angebot einen klaren und unterscheidbaren Platz im Kopf der Zielgruppe einnimmt, und wie sich eine Positionierung in einem Satz festhalten lässt.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Segmentierung und Personas klären, wen wir ansprechen. Die Positionierung klärt, als was wir wahrgenommen werden wollen. Sie ist der dritte Schritt im STP-Modell und beantwortet die Frage, warum sich jemand für dieses Angebot und gegen den Wettbewerb entscheidet [@kotler2022].
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt das eigene Angebot klar und unterscheidbar im Markt verorten.
+## Was Positionierung bedeutet
 
-## Im Detail
+Positionierung ist kein Slogan, sondern ein gezielt aufgebauter Eindruck. Sie verankert das Angebot mit einem klaren Nutzenversprechen in der Wahrnehmung einer Zielgruppe, abgegrenzt vom Wettbewerb.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+## Die Position im Wettbewerb finden
+
+Hilfreich ist der Blick auf die für die Zielgruppe entscheidenden Dimensionen, etwa Preis und Leistung oder Spezialisierung und Breite. Wer diese Dimensionen aufspannt, sieht, wo der Wettbewerb steht und welche Lücke das eigene Angebot besetzen kann.
+
+::: {.callout-tip title="Analogie: der Sitzplan im Theater"}
+Im Kopf der Zielgruppe gibt es nur begrenzt gute Plätze. Ist der Platz für die günstigste Lösung bereits besetzt, lohnt es sich nicht, ihn streitig zu machen. Klüger ist ein freier, attraktiver Platz, den noch niemand hält.
+:::
+
+## Eine Positionierung formulieren
+
+Eine bewährte Vorlage hält die Positionierung in einem Satz fest: Für [Zielgruppe], die [Bedürfnis], ist [Angebot] das [Kategorie], das [zentraler Nutzen], weil [Begründung].
+
+::: {.callout-important title="Eine Position, nicht fünf"}
+Eine Positionierung wirkt nur, wenn sie fokussiert ist. Wer alles gleichzeitig sein will, günstig, hochwertig, schnell und persönlich, besetzt am Ende keinen klaren Platz.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], `@smith1956`, `@venter2015`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Positionierung im Wettbewerbsumfeld vertiefen
+- Eine ausformulierte Positionierung für das Kursprojekt nach der Vorlage
+- Eine Positionierungs-Matrix (zwei Dimensionen) als Grafik
+- Beispiele für gelungene und misslungene Positionierungen
+- Verbindung zur Botschaft und zur Content-Strategie (Modul 5) herstellen

@@ -1,22 +1,44 @@
 # Personas erstellen und nutzen
 
-In dieser Lesson schauen wir uns an: Aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+In dieser Lesson lernen wir, wie aus Segmenten greifbare Personas werden, die das Kundenverständnis konkret machen und die tägliche Marketingarbeit leiten.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Ein Segment bleibt abstrakt. Eine Persona macht es greifbar. Personas sind semi-fiktive Darstellungen idealer Kundinnen und Kunden, gestützt auf Daten und Recherche. Sie verdichten genau die Kundenseite, die wir im Value Proposition Canvas und mit der Empathy Map erarbeitet haben [@osterwalder2014].
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+## Was eine Persona leistet
 
-## Im Detail
+Eine gute Persona schärft den Fokus auf echte Jobs, Pains und Gains, hilft bei der Wahl der Botschaft und sorgt für einen effizienten Einsatz der Mittel. Sie beantwortet die Frage, für wen wir eigentlich schreiben, gestalten und werben.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+## Datenquellen für die Recherche
+
+Personas entstehen aus Daten, nicht aus dem Bauch. Mehrere Quellen ergänzen sich.
+
+| Quelle | Nutzen für die Persona |
+|---|---|
+| Web-Analytics | Suchintentionen, Navigationspfade, Content-Interesse |
+| Social Insights | Demografie, Interessen, Pain Points in Kommentaren |
+| Interne Daten | CRM, bisherige Touchpoints, Conversion |
+| Qualitative Daten | Interviews, direkte Einblicke in Jobs, Pains, Gains |
+| Externe Recherche | Markttrends, allgemeine Bedürfnisse der Zielgruppe |
+
+## Personas und KI
+
+Generative KI beschleunigt mehrere Schritte: das Clustern qualitativer Daten zu ersten Gruppen, das Ausformulieren von Persona-Profilen und das Ableiten erster Content-Ideen. Die Verantwortung für die Auswahl und Prüfung bleibt beim Menschen.
+
+::: {.callout-tip title="Analogie: das Fahndungsfoto und die Zeugenaussage"}
+Eine Persona ist wie ein Phantombild: Es zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtungen zu einem erkennbaren Gesicht. Je besser die Zeugenaussagen, also die Daten, desto brauchbarer das Bild.
+:::
+
+::: {.callout-important title="Daten statt Vermutung"}
+Eine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas bestätigen vor allem die eigenen Annahmen und führen die Kommunikation in die Irre.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], `@smith1956`, `@venter2015`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Personas erstellen und nutzen vertiefen
+- Eine vollständige Beispiel-Persona für das Kursprojekt erstellen
+- Den Clustering-Prompt aus der Vorlesung als wiederverwendbares Beispiel einbinden
+- Verbindung von Persona und Customer Journey zu konkreten Touchpoints zeigen
+- Vorlage für ein Persona-Steckblatt ergänzen

@@ -1,22 +1,45 @@
 # Segmentierung und Targeting (STP)
 
-In dieser Lesson schauen wir uns an: Wie Märkte in Segmente zerlegt und Zielsegmente ausgewählt werden.
+In dieser Lesson lernen wir, wie aus einem unübersichtlichen Gesamtmarkt klar beschriebene Zielsegmente werden, und warum diese Aufteilung die Grundlage jeder gezielten Marketingmaßnahme ist.
 
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Kein Markt ist homogen. Menschen unterscheiden sich in Bedürfnissen, Vorlieben und Verhalten. Der Ansatz, diese Vielfalt produktiv zu nutzen, statt sie zu ignorieren, geht auf den Gründungstext der Marktsegmentierung zurück [@smith1956]. Aus ihm leitet sich das STP-Modell ab: Segmentierung, Targeting, Positionierung. Die ersten beiden Schritte behandeln wir hier, die Positionierung in einer eigenen Lesson.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt wie Märkte in Segmente zerlegt und Zielsegmente ausgewählt werden.
+## Warum wir segmentieren
 
-## Im Detail
+Ein Angebot, das alle ansprechen soll, spricht am Ende niemanden richtig an. Segmentierung teilt den Markt in Gruppen mit ähnlichen Bedürfnissen, sodass wir Botschaft und Angebot auf eine Gruppe zuschneiden können.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.callout-important title="Segmentierung ist ein Umsetzungsproblem"}
+Segmente entstehen nicht von allein in den Daten. Sie werden in Organisationen aktiv erarbeitet und angewendet. Wer Segmente nur definiert, aber nicht in Prozesse überführt, gewinnt wenig [@venter2015].
+:::
+
+## Segmentierungskriterien
+
+Für die Aufteilung haben sich vier Gruppen von Kriterien etabliert.
+
+| Kriterium | Beispiele |
+|---|---|
+| Geografisch | Region, Stadt, Land, Klima |
+| Demografisch | Alter, Geschlecht, Bildung, Einkommen |
+| Psychografisch | Werte, Lebensstil, Interessen |
+| Verhaltensbezogen | Nutzung, Anlass, Loyalität, Suchintention |
+
+In der Praxis kombinieren wir mehrere Kriterien. Gerade verhaltensbezogene Merkmale, etwa die Suchintention, sind im digitalen Marketing besonders aussagekräftig.
+
+## Targeting: Segmente auswählen
+
+Nach der Aufteilung wählen wir die Segmente aus, die wir bedienen wollen. Zwei Fragen leiten die Auswahl: Wie attraktiv ist das Segment (Größe, Wachstum, Wettbewerb), und wie gut passt es zu unseren Stärken?
+
+::: {.callout-tip title="Analogie: die Sortierung im Lager"}
+Ein gut geführtes Lager sortiert die Ware nicht alphabetisch, sondern nach Zugriffshäufigkeit und Zusammengehörigkeit. Genauso ordnen wir einen Markt: nicht nach beliebigen Merkmalen, sondern nach den Gruppen, die sich wirklich unterschiedlich verhalten und die wir am besten bedienen können.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], `@smith1956`, `@venter2015`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Segmentierung und Targeting (STP) vertiefen
+- Ein durchgerechnetes Segmentierungs-Beispiel für das Kursprojekt
+- Kriterien zur Bewertung der Segment-Attraktivität als Tabelle
+- Verbindung zur Persona (nächste Lesson) und zur Positionierung explizit machen
+- Beispiele für verhaltensbezogene Segmentierung im digitalen Marketing [@venter2015]

@@ -14,7 +14,7 @@ Pro Modul entsteht erst das Buch-Kapitel (Wir-Form), dann das daraus generierte 
 |---|---|---|---|
 | 1 | Marketing-Grundlagen | ✅ | ✅ |
 | 2 | Kundenverständnis | ✅ | ✅ |
-| 3 | Zielgruppe & Positionierung | ⬜ | ⬜ |
+| 3 | Zielgruppe & Positionierung | ✅ | ⬜ |
 | 4 | Marketingziele & Strategie | ⬜ | ⬜ |
 | 5 | Content-Marketing & Persuasion | ⬜ | ⬜ |
 | 6 | Suchmaschinenoptimierung (SEO) | ⬜ | ⬜ |
