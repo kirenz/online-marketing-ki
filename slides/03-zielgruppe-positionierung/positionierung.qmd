@@ -1,30 +1,70 @@
 ---
 title: "Positionierung im Wettbewerbsumfeld"
-subtitle: "Modul: 03-zielgruppe-positionierung"
+subtitle: "Modul 3: Zielgruppe & Positionierung"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Der Platz im Kopf {.stage background-image="images/hero-positionierung.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-positionierung.png"
+Dunkle, ruhige Komposition: ein Koordinatensystem mit zwei Achsen und einigen Punkten, einer davon klar hervorgehoben in einer freien Ecke, über tiefem Anthrazit im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Das eigene Angebot klar und unterscheidbar im Markt verorten.
+::: {.notes}
+Segmentierung und Personas klären, wen wir ansprechen. Die Positionierung klärt, als was wir wahrgenommen werden wollen. Sie ist der dritte Schritt im STP-Modell und beantwortet, warum sich jemand für dieses Angebot entscheidet.
+:::
 
+## Was Positionierung bedeutet
 
+Positionierung ist kein Slogan, sondern ein gezielt aufgebauter Eindruck. Sie verankert das Angebot mit einem klaren Nutzenversprechen in der Wahrnehmung einer Zielgruppe, abgegrenzt vom Wettbewerb.
 
-## Worum es geht
+::: {.sources}
+Quelle: @kotler2022
+:::
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt das eigene Angebot klar und unterscheidbar im Markt verorten.
+::: {.notes}
+Positionierung wirkt im Kopf der Zielgruppe, nicht im Produktdatenblatt. Sie ist der bewusst aufgebaute Eindruck, der das Angebot unterscheidbar macht und die Wahl gegen den Wettbewerb begründet.
+:::
 
-## Im Detail
+## Die Position im Wettbewerb finden
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Hilfreich ist der Blick auf die entscheidenden Dimensionen, etwa Preis und Leistung oder Spezialisierung und Breite. Wer sie aufspannt, sieht, wo der Wettbewerb steht und welche Lücke frei ist.
 
+::: {.notes}
+Eine Positionierungs-Matrix mit zwei relevanten Dimensionen zeigt die Landschaft: Wo stehen die Wettbewerber, und welcher attraktive Platz ist noch frei? Genau diese Lücke kann das eigene Angebot besetzen.
+:::
+
+## Eine Positionierung formulieren
+
+::: {.formula .editorial}
+Für [Zielgruppe], die [Bedürfnis], ist [Angebot] das [Kategorie], das [Nutzen], weil [Begründung].
+:::
+
+::: {.notes}
+Diese Vorlage hält die Positionierung in einem Satz fest. Sie zwingt zur Klarheit über Zielgruppe, Bedürfnis, Kategorie, Nutzen und Begründung und macht die Position überprüfbar.
+:::
+
+## Der Sitzplan im Theater {.stage background-color="#0a0a0f"}
+
+Im Kopf der Zielgruppe gibt es nur begrenzt gute Plätze. Ein bereits besetzter Platz lohnt den Kampf selten, ein freier attraktiver Platz schon.
+
+::: {.notes}
+Das Bild des Sitzplans trägt den Fokus-Gedanken: Ist der Platz für die günstigste Lösung vergeben, ist es klüger, einen freien, attraktiven Platz zu besetzen, statt einen besetzten streitig zu machen.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Eine Positionierung wirkt nur fokussiert. Sie verankert einen klaren Nutzen für eine klare Zielgruppe und schließt das STP-Modell ab.
+
+::: {.notes}
+Als Kern bleibt: ein klarer Platz statt vieler halber. Die Positionierung baut auf Segmentierung und Personas auf und liefert die Leitplanke für Botschaft und Content in den nächsten Modulen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

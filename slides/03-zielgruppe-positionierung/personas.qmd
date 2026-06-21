@@ -1,30 +1,101 @@
 ---
 title: "Personas erstellen und nutzen"
-subtitle: "Modul: 03-zielgruppe-positionierung"
+subtitle: "Modul 3: Zielgruppe & Positionierung"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Aus Segment wird Gesicht {.stage background-image="images/hero-personas.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-personas.png"
+Dunkle, ruhige Komposition: eine schemenhafte Steckbrief-Karte mit angedeuteter Silhouette ohne Gesicht und feinen Datenpunkten, über tiefem Anthrazit im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+::: {.notes}
+Ein Segment bleibt abstrakt, eine Persona macht es greifbar. Personas sind semi-fiktive Darstellungen idealer Kundschaft, gestützt auf Daten und Recherche. Sie verdichten die Kundenseite aus Value Proposition Canvas und Empathy Map.
+:::
 
+## Was eine Persona leistet
 
+:::: {.features}
 
-## Worum es geht
+::: {.feature}
+[{{< fa bullseye >}}]{.accent-blue}
+**Fokus**
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt aus Zielgruppen greifbare Personas formen und im Alltag einsetzen.
+Konzentration auf echte Jobs, Pains, Gains.
+:::
 
-## Im Detail
+::: {.feature}
+[{{< fa comment-dots >}}]{.accent-blue}
+**Botschaft**
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Die richtige Ansprache für die Gruppe.
+:::
 
+::: {.feature}
+[{{< fa coins >}}]{.accent-green}
+**Effizienz**
+
+Mittel gezielt statt mit der Gießkanne.
+:::
+
+::::
+
+::: {.notes}
+Eine gute Persona schärft den Fokus auf echte Bedürfnisse, hilft bei der Wahl der Botschaft und sorgt für einen effizienten Mitteleinsatz. Sie beantwortet, für wen eigentlich geschrieben, gestaltet und geworben wird.
+:::
+
+## Datenquellen für die Recherche
+
+| Quelle | Nutzen |
+|---|---|
+| Web-Analytics | Suchintentionen, Content-Interesse |
+| Social Insights | Demografie, Interessen, Pain Points |
+| Interne Daten | CRM, Touchpoints, Conversion |
+| Qualitative Daten | Interviews, Jobs, Pains, Gains |
+| Externe Recherche | Markttrends, Bedürfnisse |
+
+::: {.sources}
+Quelle: @osterwalder2014
+:::
+
+::: {.notes}
+Personas entstehen aus Daten, nicht aus dem Bauch. Mehrere Quellen ergänzen sich, von Web-Analytics über Social Insights bis zu Interviews. Sie füllen zugleich das Kundenprofil des Value Proposition Canvas.
+:::
+
+## Personas und KI
+
+Generative KI beschleunigt das Clustern qualitativer Daten, das Ausformulieren der Profile und erste Content-Ideen. Auswahl und Prüfung bleiben beim Menschen.
+
+::: {.callout-important title="Daten statt Vermutung"}
+Eine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas bestätigen vor allem die eigenen Annahmen.
+:::
+
+::: {.notes}
+KI nimmt Routine ab: Muster in Interviews finden, Profile formulieren, Ideen vorschlagen. Die Verantwortung für Auswahl und Validierung bleibt menschlich, sonst zementiert eine Persona nur Vorannahmen.
+:::
+
+## Das Phantombild {.stage background-color="#0a0a0f"}
+
+Eine Persona zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtungen zu einem erkennbaren Gesicht.
+
+::: {.notes}
+Das Bild des Phantombilds trägt den Gedanken: Je besser die Zeugenaussagen, also die Daten, desto brauchbarer das Bild. Eine Persona ist ein datengestütztes Destillat, kein Steckbrief einer echten Person.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Personas machen Segmente greifbar und leiten die tägliche Arbeit. Sie sind nur so stark wie die Daten, aus denen sie entstehen.
+
+::: {.notes}
+Als Kern bleibt: Personas konkretisieren das Kundenverständnis und bilden das Fundament für Botschaften, Content und Kampagnen. Die Datenbasis entscheidet über ihre Qualität.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::
