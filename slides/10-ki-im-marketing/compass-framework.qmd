@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Sieben Felder für jeden Prompt {.stage background-image="images/hero-compass-framework.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-compass-framework.png"
-Dunkle, ruhige Komposition: ein abstrakter Kompass aus feinen Lichtlinien mit mehreren angedeuteten Strahlen, über tiefem Anthrazit im weichen Schein. Editorial und gedämpft, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
+Moderne, frische Komposition: ein abstrakter Kompass aus feinen Lichtlinien mit mehreren angedeuteten Strahlen, über tiefem Petrol-Blau mit frischen Farbakzenten im weichen Schein. Editorial und frisch und modern, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
 -->
 
 ::: {.notes}

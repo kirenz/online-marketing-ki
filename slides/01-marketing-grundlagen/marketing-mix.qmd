@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Vier Hebel, ein Mix {.stage background-image="images/hero-marketing-mix.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-marketing-mix.png"
-Dunkle, ruhige Aufnahme eines Mischpults von oben, vier Regler im weichen Lichtschein, tiefes Anthrazit mit einem warmen Akzent. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
+Moderne, frische Aufnahme eines Mischpults von oben, vier Regler im weichen Lichtschein, tiefes Anthrazit mit einem warmen Akzent. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.
 -->
 
 ::: {.notes}

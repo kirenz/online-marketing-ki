@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Aus Segment wird Gesicht {.stage background-image="images/hero-personas.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-personas.png"
-Dunkle, ruhige Komposition: eine schemenhafte Steckbrief-Karte mit angedeuteter Silhouette ohne Gesicht und feinen Datenpunkten, über tiefem Anthrazit im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, editorial und gedämpft.
+Moderne, frische Komposition: eine schemenhafte Steckbrief-Karte mit angedeuteter Silhouette ohne Gesicht und feinen Datenpunkten, über tiefem Petrol-Blau mit frischen Farbakzenten im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, editorial und frisch und modern.
 -->
 
 ::: {.notes}

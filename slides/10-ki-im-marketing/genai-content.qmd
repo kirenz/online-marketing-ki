@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Vom leeren Blatt zum Entwurf {.stage background-image="images/hero-genai-content.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-genai-content.png"
-Dunkle, ruhige Komposition: aus einem leeren Blatt steigen angedeutete Textzeilen und Bildflächen als feine Lichtspuren auf, über tiefem Anthrazit im weichen Schein. Editorial und gedämpft, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
+Moderne, frische Komposition: aus einem leeren Blatt steigen angedeutete Textzeilen und Bildflächen als feine Lichtspuren auf, über tiefem Petrol-Blau mit frischen Farbakzenten im weichen Schein. Editorial und frisch und modern, viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, keine scharfen Brennpunkte.
 -->
 
 ::: {.notes}

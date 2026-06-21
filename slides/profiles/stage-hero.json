@@ -1,11 +1,11 @@
 {
   "name": "stage-hero",
-  "display_name": "Stage Hero (Dark)",
-  "description": "Atmosphärisches Hero-Bild für Opener und Chapter-Opener auf der Bühne (dunkler Hintergrund)",
-  "style_instructions": "Style: Cinematic atmospheric composition, soft volumetric lighting, editorial magazine aesthetic, painterly textures. Color palette: muted earth tones, deep shadows, single warm accent. Mood: dignified, calm, professional.",
-  "composition": "Strong negative space in upper-left 40% for title overlay. Subject anchored lower-right or centered-low. Mid-tone to darker values dominate. Horizon line (if present) at lower 1/3.",
-  "negative": "no text, no logos, no people's faces visible, no cartoon style, no 3D rendering, no stock-photo look, no AI-glow artifacts, no children's book illustration",
+  "display_name": "Stage Hero (Modern Fresh)",
+  "description": "Modernes, frisches Hero-Bild für Opener/Chapter-Opener auf der Bühne",
+  "style_instructions": "Style: modern, fresh, contemporary editorial illustration. Clean abstract geometric composition with smooth gradients, crisp vector forms and a light premium-tech feel. Vibrant fresh accent palette (teal, lime green, electric blue, warm coral) over a rich deep base. Bright, optimistic and energetic with a soft luminous glow and high clarity.",
+  "composition": "Strong negative space in the upper-left/top 40% for a title overlay. Subject anchored lower-right or centered-low. Balanced, uncluttered, generous breathing room.",
+  "negative": "no text, no logos, no people's faces, no cartoon style, no 3D render, no stock-photo look, no muted or dull or desaturated colors, no somber or gloomy mood, no grunge, no AI-glow artifacts, no children's book illustration",
   "aspect_ratio": "16:9",
   "resolution": "2K",
-  "mood": "cinematic, calm, editorial"
+  "mood": "modern, fresh, vibrant, optimistic, premium"
 }

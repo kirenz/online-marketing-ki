@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Vom Ziel zur messbaren Spur {.stage background-image="images/hero-ziele-zu-kennzahlen.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-ziele-zu-kennzahlen.png"
-Atmosphärische, dunkle Szene aus der Vogelperspektive: ein ruhiges Armaturenbrett oder Cockpit-Detail mit wenigen sanft leuchtenden Anzeigen in tiefem Anthrazit, gedämpftes warmes Licht. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, gedämpfte editoriale Tonalität.
+Moderne, frische Szene aus der Vogelperspektive: ein ruhiges Armaturenbrett oder Cockpit-Detail mit wenigen sanft leuchtenden Anzeigen in tiefem Petrol-Blau mit frischen Farbakzenten, frisch und modernes warmes Licht. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, frisch und moderne editoriale Tonalität.
 -->
 
 ::: {.notes}

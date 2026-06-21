@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Warum wir Ja sagen {.stage background-image="images/hero-science-of-persuasion.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-science-of-persuasion.png"
-Dunkle, ruhige Komposition: sieben abstrakte, leuchtende Knotenpunkte, die über tiefem Anthrazit lose durch feine Linien verbunden sind, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
+Moderne, frische Komposition: sieben abstrakte, leuchtende Knotenpunkte, die über tiefem Petrol-Blau mit frischen Farbakzenten lose durch feine Linien verbunden sind, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.
 -->
 
 ::: {.notes}

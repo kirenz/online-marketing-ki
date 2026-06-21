@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Marketing ist mehr als Werbung {.stage background-image="images/hero-was-ist-marketing.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-was-ist-marketing.png"
-Atmosphärische, dunkle Szene: eine ruhige Schreibtischfläche aus der Vogelperspektive mit angedeuteten Notizen, einer Landkarte und einem Kompass, in tiefem Anthrazit mit warmem Lichtschimmer. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, gedämpfte editoriale Tonalität.
+Moderne, frische Szene: eine ruhige Schreibtischfläche aus der Vogelperspektive mit angedeuteten Notizen, einer Landkarte und einem Kompass, in tiefem Petrol-Blau mit frischen Farbakzenten mit warmem Lichtschimmer. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, frisch und moderne editoriale Tonalität.
 -->
 
 ::: {.notes}

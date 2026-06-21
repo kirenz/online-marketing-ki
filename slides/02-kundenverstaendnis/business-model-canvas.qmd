@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Das Geschäft auf einer Seite {.stage background-image="images/hero-business-model-canvas.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-business-model-canvas.png"
-Dunkle, ruhige Komposition: ein angedeuteter Grundriss aus neun feinen Rechtecken über tiefem Anthrazit, weicher Lichtschein, architektonische Anmutung. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
+Moderne, frische Komposition: ein angedeuteter Grundriss aus neun feinen Rechtecken über tiefem Petrol-Blau mit frischen Farbakzenten, weicher Lichtschein, architektonische Anmutung. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.
 -->
 
 ::: {.notes}
