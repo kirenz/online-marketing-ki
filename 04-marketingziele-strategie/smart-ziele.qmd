@@ -1,22 +1,38 @@
 # SMART-Marketingziele
 
-In dieser Lesson schauen wir uns an: Ziele spezifisch, messbar, erreichbar, relevant und terminiert formulieren.
-
 ::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
 :::
 
-## Worum es geht
+Wir haben im vorigen Modul eine Strategie entwickelt und wollen sie nun in greifbare Ziele übersetzen. Ein Ziel, das nur als guter Vorsatz im Raum steht, lässt sich später weder steuern noch bewerten, deshalb brauchen wir eine klare Form.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt ziele spezifisch, messbar, erreichbar, relevant und terminiert formulieren.
+## Warum vage Ziele scheitern
 
-## Im Detail
+Viele Marketingvorhaben starten mit Absichten wie „mehr Bekanntheit" oder „mehr Anfragen". Solche Formulierungen klingen sinnvoll, geben aber keine Richtung vor. Es bleibt offen, um wie viel die Bekanntheit steigen soll, bis wann das gelten soll und woran sich der Erfolg überhaupt ablesen lässt. Ohne diese Festlegungen kann ein Team nicht entscheiden, ob eine Kampagne fortgeführt, angepasst oder beendet werden sollte.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Ein gutes Ziel erfüllt deshalb eine doppelte Funktion. Es richtet die tägliche Arbeit aus und liefert gleichzeitig den Maßstab, an dem sich die Wirkung der eingesetzten Mittel messen lässt. Genau dieser Maßstab ist die Voraussetzung dafür, Marketingleistung überhaupt bewerten zu können [@farris2010].
+
+## Die fünf Kriterien im SMART-Schema
+
+Das SMART-Schema gibt fünf Prüfsteine vor, an denen sich jedes Ziel ausrichten lässt. Spezifisch bedeutet, dass präzise benannt wird, was erreicht werden soll, statt eine allgemeine Absicht zu formulieren. Messbar verlangt eine Kennzahl mit einem konkreten Wert, sodass am Ende eindeutig feststeht, ob das Ziel erreicht wurde. Erreichbar prüft, ob der angestrebte Wert mit dem vorhandenen Budget, der Zeit und den Mitteln realistisch ist. Relevant stellt sicher, dass das Ziel auf die übergeordnete Strategie einzahlt und nicht nur eine beliebige Zahl optimiert. Terminiert setzt schließlich eine Frist, bis zu der das Ergebnis vorliegen soll.
+
+::: {.callout-tip title="Analogie: das Rezept in der Küche"}
+Ein vages Ziel gleicht der Anweisung „koch etwas Leckeres". Ein SMART-Ziel ist das vollständige Rezept: zwei Portionen Risotto (spezifisch), 320 Gramm Reis (messbar), mit den Zutaten im Vorrat (erreichbar), passend zum Menü des Abends (relevant), fertig in 30 Minuten (terminiert). Erst das Rezept erlaubt es, am Ende zu prüfen, ob das Gericht gelungen ist.
+:::
+
+## Vom unscharfen Vorsatz zum SMART-Ziel
+
+Wir wandeln einen vagen Vorsatz Schritt für Schritt um. Aus „wir wollen mehr Anmeldungen für unser Webinar" wird durch die fünf Kriterien ein steuerbares Ziel: „Wir gewinnen bis zum 30. September über das Anmeldeformular der Website mindestens 80 Webinar-Anmeldungen bei einem Budget von 2.000 Euro." Diese Fassung benennt das Ergebnis, die Kennzahl, den Rahmen und die Frist in einem einzigen Satz.
+
+Der Anspruch an Erreichbarkeit verdient dabei besondere Aufmerksamkeit. Ein Ziel, das deutlich zu hoch gesteckt ist, demotiviert das Team und verliert seine steuernde Wirkung, weil es ohnehin als unerreichbar gilt. Ein zu niedrig gestecktes Ziel verschenkt dagegen Potenzial. Sinnvoll ist ein Wert, der ambitioniert bleibt, sich aber aus Erfahrungswerten oder Vergleichszahlen plausibel begründen lässt.
+
+::: {.callout-important title="Relevant heißt: auf die Strategie einzahlen"}
+Nicht jede leicht messbare Zahl ist ein gutes Ziel. Eine hohe Zahl an Klicks wirkt eindrucksvoll, ist aber wertlos, wenn die Strategie auf qualifizierte Anfragen zielt und die Klicks nicht dorthin führen. Wir prüfen deshalb bei jedem Ziel, ob es einen erkennbaren Beitrag zur übergeordneten Marketingstrategie leistet [@kotler2022].
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[marketing-grundlagen]], [[web-analytics]], `@kotler2022`, `@farris2010`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu SMART-Marketingziele vertiefen
+- Ein durchgehendes Praxisbeispiel (ein fiktives Unternehmen) mit drei vollständig formulierten SMART-Zielen einführen
+- Die häufige Verwechslung von Zielen und Maßnahmen in einer kurzen Gegenüberstellung schärfen
+- Eine kleine Übung ergänzen, in der vage Vorsätze in SMART-Ziele umgeschrieben werden
+- Den Unterschied zwischen Primär- und Sekundärzielen aus @kotler2022 vertiefen

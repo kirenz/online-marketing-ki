@@ -1,30 +1,124 @@
 ---
 title: "Die Wissenschaft der Überzeugung"
-subtitle: "Modul: 05-content-persuasion"
+subtitle: "Modul 5: Content-Marketing und Persuasion"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Warum wir Ja sagen {.stage background-image="images/hero-science-of-persuasion.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-science-of-persuasion.png"
+Dunkle, ruhige Komposition: sieben abstrakte, leuchtende Knotenpunkte, die über tiefem Anthrazit lose durch feine Linien verbunden sind, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Cialdinis Prinzipien und ihre Anwendung im Marketing.
+::: {.notes}
+Menschen können nicht jede Entscheidung vollständig abwägen und greifen deshalb auf gelernte Abkürzungen zurück. Robert Cialdini hat aus jahrzehntelanger Forschung sieben Prinzipien herausgearbeitet, die zuverlässig beeinflussen, ob jemand zustimmt.
+:::
 
+## Sieben Hebel der Überzeugung
 
+:::: {.features}
 
-## Worum es geht
+::: {.feature}
+[{{< fa rotate >}}]{.accent-blue}
+**Reziprozität**
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt cialdinis Prinzipien und ihre Anwendung im Marketing.
+Erhaltenes wird gern zurückgegeben.
+:::
 
-## Im Detail
+::: {.feature}
+[{{< fa link >}}]{.accent-blue}
+**Konsistenz**
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Begonnenes wird gern fortgeführt.
+:::
 
+::: {.feature}
+[{{< fa users >}}]{.accent-blue}
+**Social Proof**
+
+Das Verhalten anderer gibt Orientierung.
+:::
+
+::: {.feature}
+[{{< fa heart >}}]{.accent-green}
+**Sympathie**
+
+Wer gefällt, überzeugt leichter.
+:::
+
+::: {.feature}
+[{{< fa award >}}]{.accent-green}
+**Autorität**
+
+Anerkannter Kompetenz wird gefolgt.
+:::
+
+::: {.feature}
+[{{< fa hourglass-half >}}]{.accent-orange}
+**Knappheit**
+
+Seltenes erscheint wertvoller.
+:::
+
+::::
+
+::: {.notes}
+Die sieben Prinzipien lauten Reziprozität, Konsistenz, Social Proof, Sympathie, Autorität, Knappheit und Einheit. Sie überlisten niemanden, sondern knüpfen an etabliertes soziales Verhalten an. Das siebte Prinzip, Einheit, kommt auf der nächsten Folie als gemeinsame Identität hinzu.
+:::
+
+## Von Prinzip zu Maßnahme
+
+| Prinzip | Anwendung im Marketing |
+|---|---|
+| Reziprozität | Kostenloser Guide vor der Anfrage |
+| Konsistenz | Kleiner Schritt zuerst, dann größere |
+| Social Proof | Bewertungen, Nutzerzahlen, Berichte |
+| Sympathie | Nahbarer Ton, gemeinsame Werte |
+| Autorität | Belege, Auszeichnungen, Expertise |
+| Knappheit | Begrenzte Plätze, klare Fristen |
+| Einheit | Zugehörigkeit und gemeinsame Identität |
+
+::: {.sources}
+Quelle: @cialdini2021
+:::
+
+::: {.notes}
+Jedes Prinzip lässt sich direkt übersetzen. Reziprozität ist der rote Faden zur vorigen Lesson: Wer zuerst nützlichen Content verschenkt, schafft genau das Gefühl der Gegenseitigkeit, das eine spätere Kontaktaufnahme erleichtert.
+:::
+
+## Die Verkehrsregeln im Kopf {.stage background-color="#0a0a0f"}
+
+Niemand prüft an jeder Kreuzung neu, ob Rot wirklich Halten bedeutet. Die Regel spart Zeit und stimmt fast immer. Genauso verlassen wir uns auf Empfehlungen und Fachurteile.
+
+::: {.notes}
+Das Bild der Verkehrsregeln macht greifbar, warum die Prinzipien wirken: Sie sind mentale Abkürzungen, die im Alltag verlässlich funktionieren. Marketing nutzt diese Abkürzungen, statt gegen sie zu arbeiten.
+:::
+
+## Überzeugung endet an der Ethik
+
+Die Prinzipien sind wirksam, und genau deshalb tragen wir Verantwortung. Vorgetäuschte Knappheit oder erfundene Bewertungen wirken kurz, untergraben aber das Vertrauen, das Content erst aufbaut.
+
+::: {.callout-important title="Überzeugen, nicht manipulieren"}
+Die Prinzipien machen wahre Stärken sichtbar. Wer mit falschen Signalen arbeitet, gewinnt kurzfristig und verliert das Vertrauen dauerhaft.
+:::
+
+::: {.notes}
+Cialdini trennt klar zwischen Überzeugung auf Basis echter Vorzüge und Manipulation mit falschen Signalen. Für die Praxis gilt: Prinzipien nutzen, um wahre Stärken zu zeigen, nie um Schwächen zu verschleiern.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Sieben Prinzipien erklären, warum Menschen zustimmen. Sie verstärken gute Botschaften, und sie wirken nur dauerhaft, wenn sie ehrlich eingesetzt werden.
+
+::: {.notes}
+Als Kern bleibt: sieben Hebel, eine ethische Grenze. Die nächste Lesson zeigt, wie Storytelling diese Prinzipien in ein emotionales Gefäß bringt und ihre Wirkung verstärkt.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

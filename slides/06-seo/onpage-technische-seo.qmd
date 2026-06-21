@@ -1,30 +1,127 @@
 ---
 title: "On-Page- und technische SEO"
-subtitle: "Modul: 06-seo"
+subtitle: "Modul 6: Suchmaschinenoptimierung (SEO)"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Damit Mensch und Maschine die Seite verstehen {.stage background-image="images/hero-onpage-technische-seo.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-onpage-technische-seo.png"
+A dark atmospheric background composition suggesting structure and architecture: faint glowing wireframe of a web page layout dissolving into thin monoline connectors and grid lines over a deep charcoal gradient. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no sharp focal points.
 -->
 
-In dieser Lesson schauen wir uns an: Inhalte, Struktur und Technik suchmaschinenfreundlich gestalten.
+::: {.notes}
+Sobald klar ist, wonach die Zielgruppe sucht, geht es um die Gestaltung der Seite selbst. Sie muss für Menschen angenehm lesbar und für Suchmaschinen verständlich sein. Dieser Einstieg verbindet Inhalt, Struktur und Technik zu einem gemeinsamen Ziel.
+:::
 
+## On-Page: alles, was direkt auf der Seite steht
 
+On-Page-Optimierung umfasst die Stellschrauben auf der Seite selbst:
 
-## Worum es geht
+- **Title-Tag** als Seitentitel im Suchergebnis
+- **Meta-Description** als kurze Beschreibung darunter
+- **Überschriften** mit genau einer Hauptüberschrift und klarer Gliederung
+- **Interne Links** zwischen verwandten Seiten
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt inhalte, Struktur und Technik suchmaschinenfreundlich gestalten.
+So wird der rote Faden für Lesende und Suchmaschinen sichtbar.
 
-## Im Detail
+::: {.sources}
+Quelle: @erlhofer2023
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.notes}
+On-Page meint alle Faktoren, die sich direkt auf einer Seite beeinflussen lassen. Title-Tag und Meta-Description prägen den Auftritt im Suchergebnis. Eine einzige Hauptüberschrift und eine saubere Gliederung schaffen Struktur. Interne Links verbinden verwandte Inhalte und helfen, wichtige Seiten zu finden.
+:::
 
+## Analogie: Beschilderung im Lager
+
+Ein gut beschriftetes Lager trägt an jedem Regal ein eindeutiges Schild, und Wegweiser führen von Bereich zu Bereich.
+
+Klare Titel und interne Links wirken genauso: Sie zeigen sofort, wo etwas steht und wie alles zusammenhängt.
+
+::: {.notes}
+Das Lagerbild macht den Nutzen von Struktur greifbar. Schilder entsprechen aussagekräftigen Titeln und Überschriften, Wegweiser entsprechen internen Links. Beides reduziert Orientierungsaufwand, für Besuchende ebenso wie für die Suchmaschine, die den Zusammenhang der Seiten erfassen will.
+:::
+
+## Technik: auffindbar und lesbar bleiben
+
+Selbst der beste Inhalt verpufft, wenn Suchmaschinen ihn nicht erreichen.
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa sitemap >}}]{.accent-blue}
+**Sitemap**
+
+Listet die wichtigen Seiten auf.
+:::
+
+::: {.feature}
+[{{< fa robot >}}]{.accent-green}
+**robots-Steuerung**
+
+Regelt, was indexiert wird.
+:::
+
+::: {.feature}
+[{{< fa mobile-screen >}}]{.accent-orange}
+**Mobile Nutzbarkeit**
+
+Maßstab für die Bewertung.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @googleSeo2025
+:::
+
+::: {.notes}
+Die technische Ebene sorgt dafür, dass Inhalte überhaupt verarbeitet werden können. Eine Sitemap listet wichtige Seiten, die robots-Steuerung regelt die Indexierung, sprechende und stabile Adressen machen die Struktur verständlich. Weil viele Anfragen mobil laufen, bewertet Google vorrangig die mobile Fassung einer Seite.
+:::
+
+## E-E-A-T: vier Signale für Glaubwürdigkeit {.stage background-color="#0a0a0f"}
+
+Experience, Expertise, Authoritativeness, Trust.
+
+Trust ist der wichtigste Bestandteil, auf den die anderen drei einzahlen.
+
+::: {.notes}
+E-E-A-T fasst vier Qualitätseigenschaften zusammen: eigene Erfahrung mit dem Thema, fachliche Expertise, Autorität als anerkannte Quelle und Vertrauenswürdigkeit. Trust gilt als Kern, auf den die anderen drei Eigenschaften einzahlen. Dieser Stage-Moment hebt den Begriff bewusst aus dem Detailfluss heraus.
+:::
+
+## Glaubwürdigkeit sichtbar machen
+
+E-E-A-T lässt sich konkret stärken:
+
+- Urheberschaft sichtbar machen
+- Quellen nennen
+- Inhalte aktuell halten
+- transparente Kontaktangaben bereitstellen
+
+Bei sensiblen Themen wie Gesundheit oder Finanzen wiegt nachweisbare Glaubwürdigkeit besonders schwer. Technik ist die Eintrittskarte, [Substanz entscheidet]{.highlight-blue}.
+
+::: {.sources}
+Quelle: @enge2023
+:::
+
+::: {.notes}
+Glaubwürdigkeit entsteht durch nachvollziehbare Signale: sichtbare Urheberschaft, genannte Quellen, Aktualität und erreichbare Kontaktangaben. Bei sensiblen Themen ist das besonders wichtig. Die Kernaussage: Technische Sauberkeit ist Voraussetzung, doch ohne inhaltliche Substanz bleibt sie wirkungslos.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Gute Seiten verbinden drei Ebenen: lesbarer Inhalt mit klarer Struktur, eine Technik, die Auffindbarkeit sichert, und sichtbare Glaubwürdigkeit. Erst zusammen tragen sie das Ranking, einzeln bleibt jede Ebene Stückwerk.
+
+::: {.notes}
+Als Fazit bleibt das Zusammenspiel: Struktur ordnet den Inhalt, Technik macht ihn erreichbar, E-E-A-T macht ihn vertrauenswürdig. Keine Ebene ersetzt die andere. Die richtige Reihenfolge lautet: zuerst Substanz schaffen, dann technisch absichern.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

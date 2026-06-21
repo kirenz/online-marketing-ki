@@ -1,30 +1,131 @@
 ---
 title: "SMART-Marketingziele"
-subtitle: "Modul: 04-marketingziele-strategie"
+subtitle: "Modul 4: Marketingziele und Strategie"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Aus gutem Vorsatz wird ein steuerbares Ziel {.stage background-image="images/hero-smart-ziele.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-smart-ziele.png"
+Atmosphärische, dunkle Szene aus der Vogelperspektive: eine ruhige Schreibtischfläche in tiefem Anthrazit mit einem angedeuteten Notizblock, einer Zielscheibe und einem Stift, sanft beleuchtet. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, gedämpfte editoriale Tonalität.
 -->
 
-In dieser Lesson schauen wir uns an: Ziele spezifisch, messbar, erreichbar, relevant und terminiert formulieren.
+::: {.notes}
+Marketingvorhaben starten oft mit guten Absichten, die sich später weder steuern noch bewerten lassen. Diese Lesson zeigt, wie aus einem vagen Vorsatz ein klar formuliertes Ziel wird, das Richtung gibt und gleichzeitig den Maßstab für die spätere Erfolgsmessung liefert.
+:::
 
+## Warum vage Ziele scheitern
 
+Absichten wie „mehr Bekanntheit" oder „mehr Anfragen" klingen sinnvoll, geben aber keine Richtung.
 
-## Worum es geht
+Offen bleibt:
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt ziele spezifisch, messbar, erreichbar, relevant und terminiert formulieren.
+- um welchen Wert es gehen soll
+- bis wann das gelten soll
+- woran sich Erfolg ablesen lässt
 
-## Im Detail
+::: {.notes}
+Vage Ziele lassen die entscheidenden Festlegungen offen. Ohne einen konkreten Wert, eine Frist und eine Kennzahl kann ein Team nicht entscheiden, ob eine Kampagne fortgeführt, angepasst oder beendet werden sollte. Ein gutes Ziel richtet die Arbeit aus und liefert zugleich den Maßstab für die Wirkung.
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+## Die fünf Kriterien
 
+:::: {.features}
+
+::: {.feature}
+[{{< fa bullseye >}}]{.accent-blue}
+**Spezifisch**
+
+Präzise benennen, was erreicht werden soll.
+:::
+
+::: {.feature}
+[{{< fa ruler >}}]{.accent-green}
+**Messbar**
+
+Eine Kennzahl mit konkretem Wert festlegen.
+:::
+
+::: {.feature}
+[{{< fa scale-balanced >}}]{.accent-orange}
+**Erreichbar**
+
+Mit Budget, Zeit und Mitteln realistisch bleiben.
+:::
+
+::: {.feature}
+[{{< fa compass >}}]{.accent-violet}
+**Relevant**
+
+Auf die übergeordnete Strategie einzahlen.
+:::
+
+::: {.feature}
+[{{< fa clock >}}]{.accent-blue}
+**Terminiert**
+
+Eine Frist für das Ergebnis setzen.
+:::
+
+::::
+
+::: {.notes}
+Das SMART-Schema fasst fünf Prüfsteine zusammen. Spezifisch und messbar sorgen für Klarheit über das Was und den Maßstab. Erreichbar und relevant sichern, dass das Ziel realistisch ist und auf die Strategie einzahlt. Terminiert ergänzt die Frist. Erst alle fünf zusammen machen ein Ziel steuerbar.
+:::
+
+## Das Rezept in der Küche {.stage background-color="#0a0a0f"}
+
+::: {.quote-box}
+Ein vages Ziel gleicht der Anweisung „koch etwas Leckeres". Ein SMART-Ziel ist das vollständige Rezept: zwei Portionen, 320 Gramm Reis, aus dem Vorrat, passend zum Menü, fertig in 30 Minuten.
+
+[Analogie aus dem Berufsalltag]{.text-muted}
+:::
+
+::: {.notes}
+Die Küchen-Analogie macht den Unterschied greifbar. Erst das vollständige Rezept mit Menge, Zutaten, Passung und Zeit erlaubt es, am Ende zu prüfen, ob das Gericht gelungen ist. Genauso erlaubt erst ein SMART-Ziel die spätere Bewertung des Erfolgs.
+:::
+
+## Vom Vorsatz zum Ziel
+
+Ein vager Vorsatz wird durch die fünf Kriterien zu einem steuerbaren Satz.
+
+::: {.formula .editorial}
+„Mehr Webinar-Anmeldungen" wird zu: bis zum 30. September über das Anmeldeformular mindestens 80 Anmeldungen bei einem Budget von 2.000 Euro.
+:::
+
+::: {.sources}
+Quelle: @kotler2022
+:::
+
+::: {.notes}
+An diesem Beispiel zeigt sich die Umwandlung konkret. Der neue Satz benennt Ergebnis, Kennzahl, Rahmen und Frist in einem. Wichtig ist die Erreichbarkeit: ein zu hohes Ziel demotiviert und verliert seine steuernde Wirkung, ein zu niedriges verschenkt Potenzial. Sinnvoll ist ein ambitionierter, aber begründbarer Wert.
+:::
+
+## Relevant heißt: auf die Strategie einzahlen
+
+::: {.callout-important}
+Nicht jede leicht messbare Zahl ist ein gutes Ziel. Viele Klicks wirken eindrucksvoll, sind aber wertlos, wenn die Strategie auf qualifizierte Anfragen zielt.
+:::
+
+Bei jedem Ziel gilt die Prüffrage nach dem erkennbaren Beitrag zur übergeordneten Strategie.
+
+::: {.notes}
+Relevanz trennt gute Ziele von beliebig optimierten Zahlen. Eine hohe Klickzahl kann an der Strategie vorbeigehen, wenn sie nicht zu den gewünschten qualifizierten Anfragen führt. Die Prüffrage nach dem Beitrag zur Strategie verhindert, dass eine eindrucksvolle, aber wirkungslose Zahl zum Ziel erhoben wird.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Ein SMART-Ziel verwandelt einen guten Vorsatz in einen Satz, der Richtung gibt und Erfolg messbar macht. Spezifisch, messbar, erreichbar, relevant und terminiert sind die fünf Prüfsteine, die jedes Ziel bestehen sollte.
+
+::: {.notes}
+Als Kern bleibt: ein Ziel braucht eine klare Form, sonst lässt es sich nicht steuern. Die fünf Kriterien liefern diese Form. Sie machen aus einer Absicht einen überprüfbaren Satz und legen damit die Grundlage für die Kennzahlen, die im nächsten Schritt folgen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

@@ -1,22 +1,42 @@
 # Core Web Vitals und Page Experience
 
-In dieser Lesson schauen wir uns an: LCP, INP und CLS als messbare Kennzahlen der Nutzererfahrung.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Gute Inhalte entfalten ihre Wirkung nur, wenn die Seite sich auch gut anfühlt. In dieser Lesson lernen wir mit den Core Web Vitals drei messbare Kennzahlen kennen, mit denen Google die Nutzererfahrung beschreibt, und ordnen ein, was sie für unsere Arbeit bedeuten.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt lCP, INP und CLS als messbare Kennzahlen der Nutzererfahrung.
+## Was die Core Web Vitals messen
 
-## Im Detail
+Die Core Web Vitals sind eine kleine Gruppe von Kennzahlen, mit denen Google zentrale Aspekte der erlebten Qualität einer Seite greifbar macht. Sie übersetzen ein eher vages Gefühl, nämlich ob eine Seite schnell und angenehm zu bedienen ist, in konkrete Werte, die wir messen und verbessern können [@googleWebVitals2024].
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Drei Kennzahlen bilden den Kern. Wir schauen sie uns einzeln an, weil jede einen anderen Moment im Besuch beschreibt.
+
+::: {.callout-tip title="Analogie: Die Eröffnung eines Ladengeschäfts"}
+Wir stellen uns den Besuch wie das Betreten eines Geschäfts vor. Wie schnell die Ware sichtbar ausliegt, entspricht der Ladewahrnehmung. Wie zügig eine Mitarbeiterin auf unsere Frage reagiert, entspricht der Reaktionsfähigkeit. Und ob die Regale ruhig stehen oder ständig umgeräumt werden, während wir greifen, entspricht der visuellen Stabilität.
+:::
+
+## LCP, INP und CLS im Einzelnen
+
+Die erste Kennzahl ist LCP (Largest Contentful Paint). Sie misst die Ladewahrnehmung, also wie lange es dauert, bis der größte sichtbare Inhalt im Bildausschnitt erscheint. Ein zügiger LCP gibt den Besuchenden früh das Gefühl, dass die Seite bereitsteht.
+
+Die zweite Kennzahl ist INP (Interaction to Next Paint). Sie misst die Reaktionsfähigkeit, also wie schnell die Seite auf Eingaben wie Klicks oder Tippen sichtbar reagiert. INP hat im Jahr 2024 die frühere Kennzahl FID (First Input Delay) abgelöst und betrachtet die Reaktionsfähigkeit über den gesamten Besuch hinweg.
+
+Die dritte Kennzahl ist CLS (Cumulative Layout Shift). Sie misst die visuelle Stabilität, also wie stark Elemente während des Ladens ungewollt verrutschen. Ein niedriger CLS bedeutet, dass nichts unter den Fingern wegspringt, während wir lesen oder klicken wollen [@googleWebVitals2024].
+
+::: {.callout-important title="Keine erfundenen Schwellenwerte"}
+Google legt für jede Kennzahl Zielbereiche fest und passt diese gelegentlich an. Wir schlagen konkrete Grenzwerte deshalb immer in der aktuellen offiziellen Dokumentation nach, statt uns auf gemerkte Zahlen zu verlassen.
+:::
+
+## Warum uns das im Marketing betrifft
+
+Die Core Web Vitals sind Teil der sogenannten Page Experience, mit der Google die Gesamtqualität des Seitenerlebnisses bewertet. Sie sind ein Faktor unter mehreren und ersetzen guten Inhalt nicht, doch sie wirken als Verstärker: Bei ähnlich relevanten Seiten kann die bessere Nutzererfahrung den Ausschlag geben.
+
+Für uns sind diese Kennzahlen vor allem deshalb wertvoll, weil sie messbar und damit steuerbar sind. Wir können sie regelmäßig prüfen, Schwachstellen erkennen und gezielt verbessern, statt über Bauchgefühl zu diskutieren [@enge2023].
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[suchmaschinenmarketing]], `@enge2023`, `@erlhofer2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Core Web Vitals und Page Experience vertiefen
+- Aktuelle Zielbereiche für LCP, INP und CLS aus der offiziellen Quelle ergänzen und datieren
+- Übersicht der gängigen Messwerkzeuge (Labordaten und Felddaten) als Tabelle einfügen
+- Pro Kennzahl zwei bis drei konkrete Optimierungshebel beschreiben
+- Zusammenspiel mit den übrigen Page-Experience-Signalen vertiefen

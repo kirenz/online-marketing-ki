@@ -1,22 +1,40 @@
 # KI-gestützte Content-Erstellung
 
-In dieser Lesson schauen wir uns an: Generative KI als Werkzeug für Content-Entwürfe, Brücke zu Modul 10.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir setzen in dieser Lesson generative KI als Werkzeug für Content-Entwürfe ein. Sie schlägt die Brücke von der Strategie dieses Moduls zu den vertieften Techniken in Modul 10.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt generative KI als Werkzeug für Content-Entwürfe, Brücke zu Modul 10.
+## KI als Entwurfsmotor, nicht als Autopilot
 
-## Im Detail
+Generative KI verändert die Content-Produktion vor allem an einer Stelle: bei der Geschwindigkeit vom leeren Blatt zum ersten Entwurf. Was früher Stunden des Formulierens kostete, entsteht heute in Minuten als Rohfassung, die wir anschließend prüfen und schärfen. Die Forschung zeigt, dass KI-Systeme bei bestimmten visuellen und textlichen Aufgaben überraschend hohe Qualität erreichen können [@hartmann2025].
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Entscheidend bleibt die Rollenverteilung. KI liefert Varianten, Strukturvorschläge und erste Formulierungen. Die Verantwortung für Auswahl, Faktentreue und Markenstimme liegt weiterhin bei uns. Ein Entwurf ist eben ein Entwurf, kein fertiges Ergebnis, und genau so behandeln wir die Ausgaben.
+
+::: {.callout-important title="Die Ausgabe ist ein Entwurf, kein Endprodukt"}
+KI erfindet bisweilen Fakten, Zahlen oder Quellen, die überzeugend klingen, aber falsch sind. Jede KI-Ausgabe braucht deshalb eine menschliche Prüfung, bevor sie veröffentlicht wird. Ungeprüfter KI-Content gefährdet genau das Vertrauen, das dieses Modul aufbauen will.
+:::
+
+## KI für die Aufgaben dieses Moduls
+
+Die vorigen Lessons liefern den Stoff, den KI bearbeiten kann. Für die Content-Strategie entwirft sie Themenideen, Gliederungen und Redaktionsplan-Vorschläge. Für die Persuasion formuliert sie eine Botschaft in Varianten, etwa eine mit Knappheit und eine mit Social Proof, sodass wir die wirksamere wählen können. Für das Storytelling skizziert sie einen Spannungsbogen, den wir mit echten Details füllen.
+
+Die Qualität dieser Entwürfe hängt unmittelbar von der Anweisung ab, dem Prompt. Eine vage Bitte erzeugt eine beliebige Antwort. Erst wenn wir Rolle, Aufgabe, Zielgruppe und Tonalität benennen, wird die Ausgabe brauchbar. Genau diese Technik des strukturierten Prompts vertieft Modul 10, das hier ansetzt.
+
+::: {.callout-tip title="Die schnelle Praktikantin"}
+KI gleicht einer fleißigen Praktikantin, die in Minuten zwanzig Entwürfe liefert. Sie kennt aber weder die Kundschaft noch die Marke wirklich und hat manche Fakten nur halb verstanden. Wir geben ihr klare Anweisungen, und wir lesen gegen, bevor etwas das Haus verlässt.
+:::
+
+## Die Grenze zwischen Beschleunigung und Beliebigkeit
+
+Der größte Gewinn von KI ist Geschwindigkeit, ihre größte Gefahr ist Beliebigkeit. Wer KI-Texte ungefiltert veröffentlicht, produziert schnell viel Inhalt, der austauschbar klingt und niemanden erreicht. Der Wert entsteht erst dort, wo menschliches Urteil den Entwurf zuspitzt: mit echten Beispielen, mit einer klaren Haltung und mit der eigenen Markenstimme.
+
+So schließt sich der Bogen des Moduls. Strategie legt fest, was wir sagen, Persuasion und Storytelling legen fest, wie es wirkt, und KI hilft, es schneller in Form zu bringen. Die Sorgfalt am Ende bleibt menschlich, und genau sie unterscheidet wirksamen Content von bloßem Rauschen.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[content-marketing]], [[persuasion]], `@hollebeek2019`, `@cialdini2021`, `@lamberton2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu KI-gestützte Content-Erstellung vertiefen
+- Konkrete, kommentierte Beispiel-Prompts für Strategie, Persuasion und Storytelling ergänzen
+- Einen klaren Prüf- und Redaktionsworkflow für KI-Entwürfe beschreiben
+- Rechtliche und ethische Hinweise zu Kennzeichnung und Urheberschaft aufnehmen
+- Die Übergänge zu den Prompting-Lessons in Modul 10 konkret verlinken

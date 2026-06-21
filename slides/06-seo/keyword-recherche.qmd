@@ -1,30 +1,133 @@
 ---
 title: "Keyword-Recherche"
-subtitle: "Modul: 06-seo"
+subtitle: "Modul 6: Suchmaschinenoptimierung (SEO)"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Wonach sucht eigentlich die Kundschaft? {.stage background-image="images/hero-keyword-recherche.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-keyword-recherche.png"
+A dark atmospheric background composition suggesting search and discovery: a faintly glowing magnifying glass hovering over a deep indigo-to-black gradient, surrounded by softly blurred floating words and thin connector lines drifting into the distance. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no sharp focal points.
 -->
 
-In dieser Lesson schauen wir uns an: Relevante Suchbegriffe finden, bewerten und Themen ableiten.
+::: {.notes}
+Jede Suchmaschinenoptimierung beginnt mit einer einfachen Frage: Welche Wörter tippt die Zielgruppe wirklich in das Suchfeld? Dieser Einstieg verschiebt den Blick weg von der eigenen Produktsicht hin zur Nachfrage der Menschen, die etwas suchen.
+:::
 
+## Keywords sind die Brücke zur Nachfrage
 
+Ein Keyword verbindet zwei Welten: das Anliegen der suchenden Person und das eigene Angebot.
 
-## Worum es geht
+Zwei Größen beschreiben jedes Keyword:
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt relevante Suchbegriffe finden, bewerten und Themen ableiten.
+- **Suchvolumen** zeigt, wie oft ein Begriff gesucht wird.
+- **Wettbewerb** zeigt, wie schwer eine vordere Platzierung ist.
 
-## Im Detail
+Hohes Volumen ist verlockend, aber meist hart umkämpft.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+::: {.sources}
+Quelle: @erlhofer2023
+:::
 
+::: {.notes}
+Keywords sind kein Selbstzweck, sondern eine Brücke zwischen Nachfrage und Angebot. Zwei Größen helfen bei der Bewertung: das Suchvolumen als Maß der Nachfrage und der Wettbewerb als Maß der Schwierigkeit. Begriffe mit sehr hohem Volumen wirken attraktiv, sind aber oft so stark umkämpft, dass kleinere Anbieter dort kaum sichtbar werden.
+:::
+
+## Hinter jedem Begriff steckt eine Absicht {.stage background-color="#0a0a0f"}
+
+Ein Suchbegriff ist nie nur ein Wort, sondern ein Anliegen.
+
+::: {.notes}
+Der entscheidende Perspektivwechsel: Ein Suchbegriff ist immer ein verdichtetes Anliegen. Wer die Absicht hinter dem Begriff versteht, kann das passende Format wählen. Genau diese Passung zwischen Absicht und Inhalt bevorzugen Suchmaschinen.
+:::
+
+## Vier Arten von Suchabsicht
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa circle-info >}}]{.accent-blue}
+**Informieren**
+
+Etwas verstehen wollen.
+:::
+
+::: {.feature}
+[{{< fa location-arrow >}}]{.accent-green}
+**Navigieren**
+
+Eine Seite ansteuern.
+:::
+
+::: {.feature}
+[{{< fa scale-balanced >}}]{.accent-orange}
+**Vergleichen**
+
+Optionen abwägen.
+:::
+
+::: {.feature}
+[{{< fa cart-shopping >}}]{.accent-violet}
+**Handeln**
+
+Kaufen oder buchen.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @enge2023
+:::
+
+::: {.notes}
+Vier Grundabsichten lassen sich unterscheiden: informieren, navigieren, vergleichen und handeln. Ein Ratgeber gewinnt bei informierenden Anfragen, eine Produktseite bei kauforientierten. Das Format richtet sich nach der erkennbaren Absicht, nicht umgekehrt.
+:::
+
+## Vom Keyword zum Thema
+
+Einzelne Keywords sind nur der Rohstoff. Verwandte Begriffe werden zu **Themenclustern** gebündelt.
+
+Besonders wertvoll sind **Long-Tail-Begriffe**, also längere, spezifischere Suchphrasen:
+
+- einzeln weniger Volumen
+- treffen das Anliegen genauer
+- leichter zu gewinnen
+
+Entscheidend ist der Nutzen für die Lesenden, nicht eine künstliche Schlagwortdichte.
+
+::: {.sources}
+Quelle: @googleSeo2025
+:::
+
+::: {.notes}
+Aus losen Keywords entstehen Themencluster, also Gruppen verwandter Begriffe, die dasselbe Anliegen aus mehreren Blickwinkeln abdecken. Long-Tail-Begriffe haben einzeln wenig Volumen, treffen die Absicht aber präzise und sind leichter zu gewinnen. Die offizielle Google-Anleitung betont, Inhalte an echten Bedürfnissen auszurichten statt an Schlagwortdichte.
+:::
+
+## Analogie: Das Schaufenster einer Fachhandlung
+
+Eine Fachhandlung bestückt ihr Schaufenster nicht wahllos.
+
+Zuerst kommt die Frage, wonach die Laufkundschaft regelmäßig verlangt. Erst dann wird das Regal gefüllt.
+
+Genauso steht bei der Recherche die echte Nachfrage vor dem eigenen Inhalt.
+
+::: {.notes}
+Das Bild der Fachhandlung macht die Reihenfolge greifbar: erst die Nachfrage prüfen, dann das Angebot präsentieren. Wer das Schaufenster nach Bauchgefühl bestückt, geht an der Laufkundschaft vorbei. Die Keyword-Recherche ist dieser prüfende Blick auf die tatsächliche Nachfrage.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Wer weiß, wonach gesucht wird, und die Absicht dahinter versteht, baut Inhalte auf echter Nachfrage statt auf Vermutungen. Keywords sind der Ausgangspunkt, Themencluster und Suchintention machen daraus eine Richtung.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Recherche kommt vor dem Schreiben. Suchvolumen und Wettbewerb liefern die Bewertung, die Suchintention liefert das passende Format, und Themencluster verwandeln Einzelbegriffe in eine tragfähige Inhaltsstrategie.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

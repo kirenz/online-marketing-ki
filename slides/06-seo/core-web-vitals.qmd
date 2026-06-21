@@ -1,30 +1,119 @@
 ---
 title: "Core Web Vitals und Page Experience"
-subtitle: "Modul: 06-seo"
+subtitle: "Modul 6: Suchmaschinenoptimierung (SEO)"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Wenn sich eine Seite einfach gut anfühlt {.stage background-image="images/hero-core-web-vitals.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-core-web-vitals.png"
+A dark atmospheric background composition suggesting speed and smoothness: faint glowing motion-blur streaks and soft pulse rings over a deep blue-black gradient, with thin curved lines implying flow and responsiveness. Generous negative space in the upper-left for a title overlay. Low-contrast, cinematic, no readable text, no people, no sharp focal points.
 -->
 
-In dieser Lesson schauen wir uns an: LCP, INP und CLS als messbare Kennzahlen der Nutzererfahrung.
+::: {.notes}
+Gute Inhalte wirken nur, wenn die Seite sich auch gut bedienen lässt. Dieser Einstieg führt zu den Core Web Vitals, mit denen Google ein bisher vages Gefühl in messbare Werte übersetzt.
+:::
 
+## Ein Gefühl wird messbar
 
+Die Core Web Vitals sind eine kleine Gruppe von Kennzahlen für die erlebte Qualität einer Seite.
 
-## Worum es geht
+Sie verwandeln eine vage Frage, ob sich eine Seite schnell und angenehm bedienen lässt, in konkrete Werte, die sich messen und verbessern lassen.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt lCP, INP und CLS als messbare Kennzahlen der Nutzererfahrung.
+::: {.sources}
+Quelle: @googleWebVitals2024
+:::
 
-## Im Detail
+::: {.notes}
+Die Core Web Vitals machen erlebte Qualität greifbar. Statt über Bauchgefühl zu diskutieren, liefern sie messbare Werte für zentrale Aspekte des Seitenerlebnisses. Genau diese Messbarkeit macht sie für die praktische Arbeit so nützlich.
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+## Drei Kennzahlen, drei Momente
 
+:::: {.features}
+
+::: {.feature}
+[{{< fa image >}}]{.accent-blue}
+**LCP**
+
+Largest Contentful Paint: die Ladewahrnehmung.
+:::
+
+::: {.feature}
+[{{< fa hand-pointer >}}]{.accent-green}
+**INP**
+
+Interaction to Next Paint: die Reaktionsfähigkeit.
+:::
+
+::: {.feature}
+[{{< fa arrows-up-down-left-right >}}]{.accent-orange}
+**CLS**
+
+Cumulative Layout Shift: die visuelle Stabilität.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @googleWebVitals2024
+:::
+
+::: {.notes}
+Drei Kennzahlen bilden den Kern, und jede beschreibt einen anderen Moment im Besuch. LCP steht für die Ladewahrnehmung, INP für die Reaktionsfähigkeit, CLS für die visuelle Stabilität. Wichtig ist, INP über den ganzen Besuch hinweg zu denken: Es hat 2024 die frühere Kennzahl FID abgelöst.
+:::
+
+## Analogie: Die Eröffnung eines Geschäfts {.stage background-color="#0a0a0f"}
+
+Wie schnell die Ware ausliegt, wie zügig jemand auf eine Frage reagiert, ob die Regale ruhig stehen.
+
+::: {.notes}
+Das Bild des Ladenbesuchs ordnet die drei Kennzahlen anschaulich zu: Die sichtbare Ware entspricht der Ladewahrnehmung (LCP), die schnelle Reaktion auf eine Frage entspricht der Reaktionsfähigkeit (INP), und ruhig stehende Regale entsprechen der visuellen Stabilität (CLS).
+:::
+
+## Zielbereiche immer nachschlagen
+
+Google legt für jede Kennzahl Zielbereiche fest und passt sie gelegentlich an.
+
+Deshalb gilt: konkrete Grenzwerte stets in der [aktuellen offiziellen Dokumentation]{.highlight-blue} prüfen, statt sich auf gemerkte Zahlen zu verlassen.
+
+::: {.sources}
+Quelle: @googleWebVitals2024
+:::
+
+::: {.notes}
+Für jede Kennzahl gibt es definierte Zielbereiche, die sich über die Zeit ändern können. Statt feste Zahlen auswendig zu lernen, lohnt der Blick in die aktuelle Dokumentation. So bleibt die Bewertung verlässlich, auch wenn Google die Schwellen anpasst.
+:::
+
+## Warum das im Marketing zählt
+
+Die Core Web Vitals sind Teil der **Page Experience**, der Gesamtbewertung des Seitenerlebnisses.
+
+Sie sind ein Faktor unter mehreren und ersetzen guten Inhalt nicht. Bei ähnlich relevanten Seiten kann die bessere Nutzererfahrung aber den Ausschlag geben.
+
+Ihr großer Vorteil: Sie sind messbar und damit gezielt steuerbar.
+
+::: {.sources}
+Quelle: @enge2023
+:::
+
+::: {.notes}
+Die Vitals gehören zur Page Experience, der Gesamtsicht auf das Seitenerlebnis. Sie sind ein Verstärker, kein Ersatz für Inhalt: Bei vergleichbarer Relevanz kann die bessere Erfahrung entscheiden. Ihr praktischer Wert liegt in der Steuerbarkeit, weil sich messbare Werte gezielt verbessern lassen.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+LCP, INP und CLS machen die Nutzererfahrung messbar und damit steuerbar. Sie ersetzen guten Inhalt nicht, verstärken ihn aber. Konkrete Schwellenwerte gehören immer aus der aktuellen Quelle, nicht aus dem Gedächtnis.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Drei Kennzahlen übersetzen Nutzererfahrung in steuerbare Werte. Sie wirken als Verstärker guter Inhalte. Und die Schwellenwerte kommen stets aus der aktuellen offiziellen Quelle, weil Google sie anpassen kann.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis wird automatisch aus den Zitationen im Deck gefüllt.
+:::

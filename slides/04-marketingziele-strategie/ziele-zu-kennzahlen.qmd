@@ -1,30 +1,130 @@
 ---
 title: "Von Zielen zu Kennzahlen"
-subtitle: "Modul: 04-marketingziele-strategie"
+subtitle: "Modul 4: Marketingziele und Strategie"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Vom Ziel zur messbaren Spur {.stage background-image="images/hero-ziele-zu-kennzahlen.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-ziele-zu-kennzahlen.png"
+Atmosphärische, dunkle Szene aus der Vogelperspektive: ein ruhiges Armaturenbrett oder Cockpit-Detail mit wenigen sanft leuchtenden Anzeigen in tiefem Anthrazit, gedämpftes warmes Licht. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Gesichter, gedämpfte editoriale Tonalität.
 -->
 
-In dieser Lesson schauen wir uns an: Wie aus Zielen konkrete KPIs für die Erfolgsmessung werden.
+::: {.notes}
+Ein SMART-Ziel nennt bereits eine Kennzahl, doch eine einzelne Zahl genügt selten, um den Weg zum Ziel zu beobachten. Diese Lesson zeigt, wie aus einem Ziel ein kleines Set passender Kennzahlen entsteht, mit dem sich der Fortschritt laufend verfolgen lässt.
+:::
 
+## Was eine Kennzahl steuerbar macht
 
+Eine Kennzahl (KPI für Key Performance Indicator) macht den Fortschritt in Richtung eines Ziels sichtbar.
 
-## Worum es geht
+Eine echte Steuerungsgröße ist:
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt wie aus Zielen konkrete KPIs für die Erfolgsmessung werden.
+- [eindeutig definiert]{.highlight-green}
+- regelmäßig verfügbar
+- durch die eigene Arbeit beeinflussbar
 
-## Im Detail
+::: {.notes}
+Entscheidend ist nicht, dass eine Zahl überhaupt erfasst werden kann, sondern dass sie eine steuerungsrelevante Frage beantwortet. Nur Größen, die eindeutig definiert, regelmäßig verfügbar und beeinflussbar sind, taugen zur Steuerung. Erst die bewusste Auswahl weniger Größen schafft aus der Datenfülle einen nützlichen Überblick.
+:::
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+## Das Cockpit {.stage background-color="#0a0a0f"}
 
+::: {.quote-box}
+Ein Cockpit zeigt nicht jeden messbaren Wert, sondern die wenigen Anzeigen, die für einen sicheren Flug zählen: Höhe, Geschwindigkeit, Treibstoff, Kurs.
+
+[Analogie aus dem Berufsalltag]{.text-muted}
+:::
+
+::: {.notes}
+Die Cockpit-Analogie verdeutlicht das Prinzip der Auswahl. Ein überfülltes Armaturenbrett lenkt ab, statt zu führen. Für ein Marketingziel werden deshalb nur die Kennzahlen gewählt, die den Kurs verraten. Weniger, aber relevante Anzeigen geben einen klaren Überblick.
+:::
+
+## Ergebnis- und Frühindikatoren
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Ergebnisindikator**
+
+Misst, ob das Ziel erreicht wurde. Eindeutig, aber spät, etwa die Zahl der Anmeldungen am Ende.
+:::
+
+::: {.column width="50%"}
+**Frühindikator**
+
+Zeigt unterwegs die Richtung, etwa Klickrate oder Besuche auf der Anmeldeseite.
+:::
+
+::::
+
+::: {.notes}
+Kennzahlen lassen sich danach ordnen, ob sie ein Endergebnis oder einen frühen Hinweis beschreiben. Ergebnisindikatoren sind eindeutig, kommen aber spät. Frühindikatoren zeigen rechtzeitig, ob die Richtung stimmt, und geben Anlass zum Nachjustieren. Die Kombination beider Arten verbindet eindeutige Bewertung mit rechtzeitiger Steuerung.
+:::
+
+## In vier Schritten zur Kennzahl
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[01]{.timeline-number}
+[Ziel festhalten]{.timeline-title}
+[80 Webinar-Anmeldungen bis Ende September.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[02]{.timeline-number}
+[Ergebnis bestimmen]{.timeline-title}
+[Gemessene Zahl abgeschlossener Anmeldungen.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[03]{.timeline-number}
+[Frühindikatoren wählen]{.timeline-title}
+[Besuche der Anmeldeseite und Conversion-Rate.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[04]{.timeline-number}
+[Rhythmus festlegen]{.timeline-title}
+[Festlegen, wie oft und woher abgelesen wird.]{.timeline-detail}
+:::
+
+::::
+
+::: {.sources}
+Quelle: @farris2010
+:::
+
+::: {.notes}
+Der Weg vom Ziel zur Messung verläuft in vier Schritten. Zuerst steht das Ziel mit seiner Kennzahl, dann der Ergebnisindikator, danach ein oder zwei Frühindikatoren und zuletzt der Rhythmus, in dem die Werte abgelesen werden. So entsteht aus den Kennzahlen ein verlässliches Steuerungsbild statt einer Momentaufnahme.
+:::
+
+## Eitelkeitszahlen erkennen
+
+::: {.callout-important}
+Reine Impressionen oder Gesamtaufrufe steigen fast immer und verleiten zu Optimismus, ohne über den Beitrag zum Ziel etwas auszusagen.
+:::
+
+Die Prüffrage lautet: Würde eine Veränderung dieser Zahl eine Entscheidung auslösen?
+
+::: {.notes}
+Manche Zahlen sehen beeindruckend aus, beantworten aber keine steuerungsrelevante Frage. Solche Eitelkeitszahlen steigen fast immer und täuschen Fortschritt vor. Die Prüffrage nach der ausgelösten Entscheidung trennt sie von echten Steuerungsgrößen. Was keine Entscheidung beeinflusst, gehört nicht ins Steuerungsbild.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Aus einem Ziel wird ein kleines Set von Kennzahlen: ein Ergebnisindikator für die Bewertung und wenige Frühindikatoren für die rechtzeitige Steuerung. Wer dabei Eitelkeitszahlen aussortiert, behält ein Cockpit, das wirklich den Kurs zeigt.
+
+::: {.notes}
+Als Kern bleibt: nicht die Menge der Zahlen zählt, sondern ihre Aussagekraft für das Ziel. Ein Ergebnisindikator und wenige Frühindikatoren genügen, sofern sie steuerungsrelevant sind. Damit schließt sich der Bogen von der Strategie über das SMART-Ziel bis zur laufenden Erfolgsmessung.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

@@ -1,22 +1,40 @@
 # On-Page- und technische SEO
 
-In dieser Lesson schauen wir uns an: Inhalte, Struktur und Technik suchmaschinenfreundlich gestalten.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Sobald wir wissen, wonach unsere Zielgruppe sucht, gestalten wir unsere Seiten so, dass Menschen und Suchmaschinen sie gleichermaßen gut verstehen. In dieser Lesson kümmern wir uns um Inhalte, Struktur und Technik und ordnen ein, warum Glaubwürdigkeit dabei eine wachsende Rolle spielt.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt inhalte, Struktur und Technik suchmaschinenfreundlich gestalten.
+## Inhalte und Struktur auf der Seite
 
-## Im Detail
+On-Page-Optimierung umfasst alles, was wir direkt auf einer Seite beeinflussen können. Dazu gehören der Seitentitel (das Title-Tag), die kurze Beschreibung in den Suchergebnissen (die Meta-Description) und eine saubere Gliederung über Überschriften. Wir geben jeder Seite genau eine Hauptüberschrift und gliedern den Rest in nachvollziehbare Abschnitte, damit der rote Faden sichtbar wird.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Wichtig ist außerdem die interne Verlinkung. Wenn wir thematisch verwandte Seiten miteinander verbinden, helfen wir sowohl Lesenden als auch Suchmaschinen, Zusammenhänge zu erkennen und wichtige Seiten zu finden [@erlhofer2023].
+
+::: {.callout-tip title="Analogie: Beschilderung im Lager"}
+Wir denken an ein gut beschriftetes Lager. Jedes Regal trägt ein eindeutiges Schild, und Wegweiser führen von einem Bereich zum nächsten. Genauso wirken klare Titel und interne Links: Sie sagen jeder Besucherin und jeder Suchmaschine sofort, wo etwas steht und wie alles zusammenhängt.
+:::
+
+## Technische Grundlagen
+
+Selbst der beste Inhalt bleibt wirkungslos, wenn Suchmaschinen ihn nicht erreichen oder verarbeiten können. Auf der technischen Ebene sorgen wir deshalb dafür, dass unsere Seiten auffindbar und lesbar sind. Eine Sitemap listet unsere wichtigen Seiten auf, eine durchdachte robots-Steuerung regelt, was indexiert werden darf, und sprechende, stabile Adressen (URLs) machen die Struktur verständlich.
+
+Hinzu kommt die mobile Nutzbarkeit. Da ein großer Teil der Suchanfragen über Smartphones läuft, bewertet Google Seiten vorrangig in ihrer mobilen Fassung. Die offizielle Einführung von Google nennt eine technisch saubere, mobil nutzbare und schnell erreichbare Seite als Grundvoraussetzung [@googleSeo2025].
+
+## Glaubwürdigkeit mit E-E-A-T
+
+Qualität lässt sich nicht allein an Technik messen. Google beschreibt mit dem Kürzel E-E-A-T vier Eigenschaften guter Inhalte: Experience (eigene Erfahrung mit dem Thema), Expertise (fachliches Können), Authoritativeness (Ansehen als Quelle) und Trust (Vertrauenswürdigkeit). Trust gilt dabei als wichtigster Bestandteil, auf den die anderen drei einzahlen.
+
+Wir stärken diese Signale konkret, indem wir Urheberschaft sichtbar machen, Quellen nennen, Inhalte aktuell halten und transparente Kontaktangaben bereitstellen. Gerade bei sensiblen Themen wie Gesundheit oder Finanzen wiegt nachweisbare Glaubwürdigkeit besonders schwer [@enge2023].
+
+::: {.callout-important title="Substanz vor Technik"}
+Technische Sauberkeit ist die Eintrittskarte, kein Ranking-Garant. Wenn Inhalt und Glaubwürdigkeit fehlen, bringen perfekt gesetzte Tags wenig. Wir investieren deshalb zuerst in echten Mehrwert und sichern ihn technisch ab.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[suchmaschinenmarketing]], `@enge2023`, `@erlhofer2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu On-Page- und technische SEO vertiefen
+- Vorher-Nachher-Beispiel für ein optimiertes Title-Tag und eine Meta-Description ergänzen
+- Checkliste für technische Grundlagen (Sitemap, robots, mobile Nutzbarkeit) als Tabelle einfügen
+- E-E-A-T anhand eines konkreten Seitenbeispiels durchdeklinieren
+- Abschnitt zu strukturierten Daten und Rich Results vertiefen

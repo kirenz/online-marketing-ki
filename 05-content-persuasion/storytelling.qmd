@@ -1,22 +1,40 @@
 # Storytelling im Marketing
 
-In dieser Lesson schauen wir uns an: Mit Narrative Transportation Botschaften wirksamer machen.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir untersuchen in dieser Lesson, warum Geschichten überzeugen, wo nüchterne Argumente an Grenzen stoßen. Den Schlüssel dazu liefert das Konzept der Narrative Transportation.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt mit Narrative Transportation Botschaften wirksamer machen.
+## Warum Geschichten anders wirken als Argumente
 
-## Im Detail
+Eine Liste von Vorteilen lädt zum Prüfen und Gegenargumentieren ein. Eine Geschichte dagegen nimmt uns mit. Wir folgen einer Figur, erleben ihren Konflikt und hoffen auf die Auflösung. Dieses Eintauchen beschreibt die Forschung als Narrative Transportation: Wer in eine Geschichte versinkt, verliert die kritische Distanz und nimmt deren Botschaft eher an [@lamberton2023].
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Für das Marketing ist das bedeutsam. Statt zu behaupten, ein Angebot sei nützlich, zeigen wir eine Person, deren Problem durch dieses Angebot gelöst wird. Die Zielgruppe erkennt sich in der Figur wieder und überträgt die Lösung auf die eigene Lage, ganz ohne dass wir sie direkt überzeugen müssen.
+
+::: {.callout-tip title="Zeigen statt behaupten"}
+Wir sagen nicht, dass ein Produkt das Leben erleichtert. Wir erzählen von einer Person, deren überfüllter Terminkalender plötzlich wieder Luft bekommt. Das Publikum zieht den Schluss selbst, und selbst gezogene Schlüsse überzeugen am stärksten.
+:::
+
+## Bausteine einer überzeugenden Geschichte
+
+Wirksame Marketinggeschichten teilen ein einfaches Gerüst. Im Zentrum steht eine nachvollziehbare Figur, oft die Kundin oder der Kunde selbst, nicht die Marke. Diese Figur hat ein Ziel und stößt auf ein Hindernis. Aus diesem Spannungsbogen entsteht der Konflikt, der die Aufmerksamkeit hält. Am Ende steht eine Auflösung, in der das Angebot die Rolle des Helfers übernimmt, der die Figur ihr Ziel erreichen lässt.
+
+Entscheidend ist die Rollenverteilung. Die Marke ist selten der Held der Geschichte. Sie ist der Mentor, der dem eigentlichen Helden, also der Kundschaft, das richtige Werkzeug an die Hand gibt. Diese Perspektive verhindert, dass eine Geschichte zur reinen Selbstdarstellung wird.
+
+::: {.callout-note title="Der Kollege, der vom Wochenende erzählt"}
+Wir erinnern uns an die Anekdote eines Kollegen über sein verregnetes Campingwochenende länger als an drei Stichpunkte aus einer Besprechung. Die Anekdote hat eine Figur, ein Hindernis und eine Pointe, und genau dieses Gerüst macht sie haftbar. Marketinggeschichten funktionieren nach demselben Muster.
+:::
+
+## Storytelling mit den Persuasionsprinzipien verbinden
+
+Storytelling und die Prinzipien der vorigen Lesson verstärken sich gegenseitig. Ein echter Erfahrungsbericht ist zugleich eine Geschichte und ein Beleg im Sinne des Social Proof. Eine Gründungsgeschichte mit gemeinsamen Werten erzeugt Sympathie und Einheit. Die Geschichte liefert dabei das emotionale Gefäß, die Prinzipien liefern die überzeugende Wirkung.
+
+Auch hier gilt die Grenze der vorigen Lesson: Eine Geschichte überzeugt nur dauerhaft, wenn sie wahr ist. Erfundene Kundengeschichten mögen kurz berühren, doch sie brechen das Vertrauen, sobald die Lücke zur Wirklichkeit sichtbar wird. Die wirksamste Geschichte ist deshalb die echte, gut erzählte.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[content-marketing]], [[persuasion]], `@hollebeek2019`, `@cialdini2021`, `@lamberton2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Storytelling im Marketing vertiefen
+- Den Spannungsbogen an einem vollständig ausgearbeiteten Beispiel durchspielen
+- Die Mentor-statt-Held-Rollenverteilung mit Gegenbeispielen schärfen
+- Konkrete Storytelling-Formate für einzelne Kanäle und Phasen ergänzen
+- Eine Übung einfügen, in der eine Kundengeschichte entlang des Gerüsts entwickelt wird

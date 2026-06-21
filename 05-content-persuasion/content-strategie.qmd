@@ -1,22 +1,40 @@
 # Content-Strategie und Formate
 
-In dieser Lesson schauen wir uns an: Inhalte planen, passende Formate wählen und redaktionell steuern.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir planen in dieser Lesson Inhalte so, dass sie auf ein Ziel und eine Zielgruppe einzahlen. Dafür wählen wir passende Formate und steuern die Produktion über einen Redaktionsplan.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt inhalte planen, passende Formate wählen und redaktionell steuern.
+## Warum Content ein eigenes Handwerk ist
 
-## Im Detail
+Content-Marketing verfolgt eine einfache Idee: Wir bauen Vertrauen auf, bevor wir etwas verkaufen. Statt nur Werbebotschaften zu senden, liefern wir Inhalte, die für die Zielgruppe nützlich, relevant oder unterhaltsam sind. Aus dieser Nützlichkeit entsteht Engagement, aus wiederholtem Engagement entsteht Vertrauen, und Vertrauen ist die Grundlage jeder späteren Kaufentscheidung [@hollebeek2019].
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Damit das funktioniert, brauchen wir vor dem ersten Wort drei Festlegungen: ein Ziel, eine Zielgruppe und eine Phase der Customer Journey. Wer für die frühe Awareness-Phase schreibt, erklärt und informiert. Wer für die Entscheidungsphase schreibt, liefert Belege wie Fallstudien oder Vergleiche. Dieselbe Botschaft wirkt also je nach Phase unterschiedlich gut.
+
+::: {.callout-tip title="Format folgt Funktion"}
+Wir wählen das Format nie zuerst. Erst klären wir, welche Aufgabe der Inhalt in der Customer Journey erfüllt, dann entscheiden wir über Blogartikel, Video, Infografik oder Webinar.
+:::
+
+## Formate entlang der Customer Journey
+
+Verschiedene Formate erfüllen verschiedene Zwecke. In der Awareness-Phase informieren Blogartikel, How-to-Guides und FAQ-Seiten. In der Consideration-Phase inspirieren Erfahrungsberichte und kurze Videos. In der Entscheidungsphase überzeugen Fallstudien, Erfolgszahlen und Infografiken. Direkt vor der Handlung aktivieren Checklisten, Webinare oder Event-Einladungen, oft als sogenannter Lead-Magnet im Tausch gegen eine Kontaktadresse.
+
+Eine hilfreiche Struktur dahinter ist das Topic-Cluster-Modell. Eine umfassende Hauptseite zu einem Kernthema, die Cornerstone-Page, bündelt das Thema im Überblick. Mehrere spezifische Artikel vertiefen einzelne Unterfragen und verlinken zurück auf die Hauptseite. So entsteht ein thematisch geschlossenes Netz, das sowohl Suchmaschinen als auch Leserinnen und Leser leichter durchdringen.
+
+::: {.callout-note title="Die Speisekarte eines Restaurants"}
+Ein gutes Content-Angebot ist wie eine durchdachte Speisekarte. Es gibt Gerichte für jeden Hunger und jeden Anlass, vom kleinen Appetithappen für Neugierige bis zum Hauptgang für Entschlossene. Niemand bekommt zur Begrüßung das schwerste Menü, und niemand bleibt hungrig, weil nur eine einzige Speise im Angebot steht.
+:::
+
+## Redaktionell steuern statt sporadisch posten
+
+Eine Strategie wird erst durch Regelmäßigkeit wirksam. Das zentrale Werkzeug dafür ist der Redaktionsplan: eine Übersicht, die festhält, welches Thema wann in welchem Format für welche Persona auf welchem Kanal erscheint und welches Ziel es verfolgt. So koordinieren wir Produktion und Verbreitung, vermeiden Lücken und erkennen früh, ob ein Thema fehlt.
+
+Ob ein Inhalt seine Aufgabe erfüllt, lesen wir an wenigen Kennzahlen ab: organischer Traffic zeigt Sichtbarkeit, die Verweildauer zeigt Relevanz, und die Conversion-Rate zeigt, ob aus Aufmerksamkeit eine Handlung wird. Diese Rückmeldung fließt in die nächste Planungsrunde ein, sodass die Strategie mit der Zeit schärfer wird.
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[content-marketing]], [[persuasion]], `@hollebeek2019`, `@cialdini2021`, `@lamberton2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Content-Strategie und Formate vertiefen
+- Ein vollständiges, durchgerechnetes Redaktionskalender-Beispiel über mehrere Wochen ergänzen
+- Das Topic-Cluster-Modell mit einer Abbildung visualisieren
+- Konkrete Zielwerte für die genannten Content-Kennzahlen mit Quelle hinterlegen
+- Eine kleine Übung einfügen, in der eine Content-Idee entlang einer Persona entwickelt wird

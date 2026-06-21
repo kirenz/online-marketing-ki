@@ -1,30 +1,102 @@
 ---
 title: "Content-Strategie und Formate"
-subtitle: "Modul: 05-content-persuasion"
+subtitle: "Modul 5: Content-Marketing und Persuasion"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Erst das Vertrauen, dann der Verkauf {.stage background-image="images/hero-content-strategie.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-content-strategie.png"
+Dunkle, ruhige Komposition: angedeutete Inhaltskacheln unterschiedlicher Form, die sich zu einem geordneten Raster fügen, über tiefem Anthrazit im weichen Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Inhalte planen, passende Formate wählen und redaktionell steuern.
+::: {.notes}
+Content-Marketing dreht die übliche Reihenfolge um: erst Nutzen stiften, dann verkaufen. Aus nützlichen Inhalten entsteht Engagement, aus Engagement Vertrauen, und Vertrauen trägt die spätere Kaufentscheidung.
+:::
 
+## Was Content leisten soll
 
+:::: {.features}
 
-## Worum es geht
+::: {.feature}
+[{{< fa lightbulb >}}]{.accent-blue}
+**Nutzen**
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt inhalte planen, passende Formate wählen und redaktionell steuern.
+Inhalte, die informieren, inspirieren oder helfen.
+:::
 
-## Im Detail
+::: {.feature}
+[{{< fa handshake >}}]{.accent-blue}
+**Vertrauen**
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Glaubwürdigkeit, bevor etwas verkauft wird.
+:::
 
+::: {.feature}
+[{{< fa seedling >}}]{.accent-green}
+**Bindung**
+
+Wiederkehr und Beziehung statt Einmalkontakt.
+:::
+
+::::
+
+::: {.notes}
+Drei Wirkungen tragen die Content-Strategie: Nutzen stiften, Vertrauen aufbauen, Bindung erzeugen. Diese Reihenfolge erklärt, warum guter Content nicht mit der Werbebotschaft beginnt, sondern mit einem echten Mehrwert für die Zielgruppe.
+:::
+
+## Format folgt Funktion
+
+Vor dem Format steht die Aufgabe. Erst klären wir Ziel, Zielgruppe und Phase der Customer Journey, dann fällt die Entscheidung für ein Format.
+
+| Phase | Aufgabe | Formate |
+|---|---|---|
+| Awareness | Informieren | Blogartikel, How-to, FAQ |
+| Consideration | Inspirieren | Erfahrungsberichte, Video |
+| Decision | Überzeugen | Fallstudie, Infografik |
+| Action | Aktivieren | Checkliste, Webinar |
+
+::: {.sources}
+Quelle: @hollebeek2019
+:::
+
+::: {.notes}
+Das Format ist nie der erste Schritt. Zuerst steht die Funktion im Kundenprozess, dann das passende Gefäß. Frühe Phasen verlangen Erklärung, späte Phasen verlangen Belege und konkrete Handlungsangebote.
+:::
+
+## Die Speisekarte {.stage background-color="#0a0a0f"}
+
+Ein gutes Content-Angebot ist wie eine durchdachte Speisekarte: ein Appetithappen für Neugierige, ein Hauptgang für Entschlossene, für jeden Hunger das Passende.
+
+::: {.notes}
+Das Bild der Speisekarte trägt den Gedanken der Phasen: Niemand bekommt zur Begrüßung das schwerste Menü, und niemand bleibt hungrig, weil nur ein einziges Gericht im Angebot steht. Content braucht Vielfalt entlang der Reise.
+:::
+
+## Redaktionell steuern
+
+Eine Strategie wirkt erst durch Regelmäßigkeit. Der Redaktionsplan hält fest, welches Thema wann, in welchem Format, für welche Persona und auf welchem Kanal erscheint. Drei Kennzahlen zeigen die Wirkung: Traffic für Sichtbarkeit, Verweildauer für Relevanz, Conversion für Handlung.
+
+::: {.callout-tip title="Plan schlägt Zufall"}
+Sporadische Posts verpuffen. Ein einfacher Redaktionsplan macht aus Einzelaktionen eine Strategie und deckt früh auf, wo ein Thema fehlt.
+:::
+
+::: {.notes}
+Steuerung schlägt Spontaneität. Der Redaktionsplan koordiniert Produktion und Verbreitung, die Kennzahlen liefern die Rückmeldung für die nächste Runde. So wird die Strategie mit jeder Iteration schärfer.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Content baut Vertrauen vor dem Verkauf. Das Format folgt der Funktion, und ein Redaktionsplan macht aus guten Ideen eine verlässliche Strategie.
+
+::: {.notes}
+Als Kern bleibt: erst Nutzen, dann Verkauf. Funktion vor Format, Plan vor Zufall. Die nächste Lesson zeigt, mit welchen psychologischen Prinzipien dieser Content überzeugt.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

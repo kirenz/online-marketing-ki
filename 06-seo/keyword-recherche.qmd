@@ -1,22 +1,40 @@
 # Keyword-Recherche
 
-In dieser Lesson schauen wir uns an: Relevante Suchbegriffe finden, bewerten und Themen ableiten.
-
 ::: {.callout-note title="Status — Erstentwurf"}
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-## Worum es geht
+Wir starten die Suchmaschinenoptimierung dort, wo auch unsere Kundschaft startet: beim Suchbegriff, den jemand in das Suchfeld tippt. In dieser Lesson finden wir relevante Suchbegriffe, bewerten sie und leiten daraus Themen für unsere Inhalte ab.
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt relevante Suchbegriffe finden, bewerten und Themen ableiten.
+## Warum wir mit Keywords beginnen
 
-## Im Detail
+Bevor wir eine einzige Zeile Text schreiben, klären wir, wonach unsere Zielgruppe tatsächlich sucht. Keywords sind die Brücke zwischen dem, was Menschen wissen wollen, und dem, was wir anbieten. Wer diese Brücke nicht kennt, schreibt an der Nachfrage vorbei.
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Wir unterscheiden dabei zwei Größen, die jedes Keyword beschreiben. Das Suchvolumen sagt uns, wie oft ein Begriff gesucht wird. Der Wettbewerb sagt uns, wie schwer es ist, für diesen Begriff weit oben zu erscheinen. Begriffe mit hohem Volumen sind verlockend, doch sie sind oft hart umkämpft. Genau hier hilft uns eine sortierte Vorgehensweise [@erlhofer2023].
+
+::: {.callout-tip title="Analogie: Das Sortiment einer Fachhandlung"}
+Wir stellen uns eine Fachhandlung vor, die ihr Schaufenster bestückt. Sie räumt nicht wahllos Ware ein, sondern fragt zuerst, wonach die Laufkundschaft regelmäßig verlangt. Genauso prüfen wir bei der Keyword-Recherche zuerst die echte Nachfrage, bevor wir unsere Inhalte ins Regal stellen.
+:::
+
+## Suchintention verstehen
+
+Ein Suchbegriff ist nie nur ein Wort, sondern ein Anliegen. Wir fragen uns deshalb bei jedem Keyword, was die suchende Person eigentlich erreichen will. Üblicherweise ordnen wir die Absicht in vier Richtungen ein: rein informieren (etwas verstehen wollen), navigieren (eine bestimmte Seite ansteuern), kommerziell vergleichen (Optionen abwägen) und transaktional handeln (kaufen oder buchen).
+
+Diese Einordnung ist entscheidend, weil Suchmaschinen genau jene Inhalte bevorzugen, die zur erkennbaren Absicht passen. Ein Ratgeber-Text gewinnt bei informierenden Anfragen, eine Produktseite bei kauforientierten Anfragen. Wir richten unser Format also an der Intention aus, nicht umgekehrt [@enge2023].
+
+## Von Keywords zu Themen
+
+Einzelne Keywords sind nur der Rohstoff. Im nächsten Schritt fassen wir verwandte Begriffe zu Themenclustern zusammen, also zu Gruppen, die dasselbe Anliegen aus verschiedenen Blickwinkeln beschreiben. Aus einem Cluster entsteht dann ein zusammenhängender Inhalt statt vieler dünner Einzelseiten.
+
+Wir achten besonders auf sogenannte Long-Tail-Begriffe, also längere und spezifischere Suchphrasen. Sie haben einzeln weniger Volumen, treffen das Anliegen aber präziser und sind leichter zu gewinnen. Die offizielle Anleitung von Google empfiehlt ausdrücklich, Inhalte an den tatsächlichen Bedürfnissen der Nutzenden auszurichten und nicht an einer künstlichen Schlagwortdichte [@googleSeo2025].
+
+::: {.callout-important title="Keyword-Stuffing vermeiden"}
+Wir bauen Keywords natürlich in gut lesbare Sätze ein. Das mechanische Aneinanderreihen vieler Suchbegriffe (Keyword-Stuffing) schadet heute mehr, als es nützt, weil Suchmaschinen Lesbarkeit und Relevanz höher gewichten als bloße Worthäufigkeit.
+:::
 
 ## Was als Nächstes ausgebaut werden muss
 
-- Kernaussagen aus den Quellen in Wir-Form ausformulieren ([[suchmaschinenmarketing]], `@enge2023`, `@erlhofer2023`)
-- Mindestens eine Analogie aus dem Berufsalltag ergänzen
-- Ein konkretes Beispiel oder eine kleine Übung einfügen
-- Inhalt zu Keyword-Recherche vertiefen
+- Konkretes Recherche-Beispiel mit einem fiktiven Anbieter Schritt für Schritt durchspielen
+- Übersicht gängiger Recherche-Werkzeuge (kostenfrei und kostenpflichtig) als Vergleichstabelle ergänzen
+- Eine kleine Übung einfügen, in der Lesende eigene Keywords nach Intention sortieren
+- Abschnitt zu saisonalen Schwankungen und zur Priorisierung nach Aufwand und Nutzen vertiefen

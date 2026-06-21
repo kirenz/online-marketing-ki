@@ -1,30 +1,106 @@
 ---
 title: "Storytelling im Marketing"
-subtitle: "Modul: 05-content-persuasion"
+subtitle: "Modul 5: Content-Marketing und Persuasion"
 author: Jan Kirenz
 ---
 
-<!--
-ROH-DECK aus dem Buch generiert. Feinjustierung gemäß slides/AGENTS.md, Phase 2:
-- Stage-Opener als erste Folie (`# Hook {.stage ...}` mit background-image)
-- Speaker-Notes pro Folie in indirekter Ansprache (`::: {.notes}`-Block)
-- Key-Badges für Content-Folien (`[Konzept]{.key-badge}` etc.)
-- Anschauung-Folien für Konzepte mit hohem Aha-Bedarf
-- Closing-Beat (`{.stage .closing}`) als letzte Folie
-- `## Weiter im Buch {.book-bridge}` falls book.chapter_slug im Frontmatter
-- `## Literatur` mit `::: {#refs}`-Block am Ende
-Diesen Kommentar nach Feinjustierung entfernen.
+# Wenn die Geschichte uns mitnimmt {.stage background-image="images/hero-storytelling.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-storytelling.png"
+Dunkle, ruhige Komposition: ein feiner, leuchtender Pfad, der sich durch tiefes Anthrazit windet und über einen Bogen zu einem hellen Punkt führt, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und gedämpft.
 -->
 
-In dieser Lesson schauen wir uns an: Mit Narrative Transportation Botschaften wirksamer machen.
+::: {.notes}
+Eine Liste von Vorteilen lädt zum Gegenargumentieren ein. Eine Geschichte dagegen nimmt uns mit. Wir folgen einer Figur, erleben den Konflikt und hoffen auf die Auflösung. Dieses Eintauchen beschreibt die Forschung als Narrative Transportation.
+:::
 
+## Argument gegen Geschichte
 
+:::: {.columns}
 
-## Worum es geht
+::: {.column}
+**Argument**
 
-Kurzer Aufschlag in Wir-Form. Diese Lesson behandelt mit Narrative Transportation Botschaften wirksamer machen.
+Lädt zum Prüfen ein. Das Publikum wägt ab und sucht nach Gegengründen.
+:::
 
-## Im Detail
+::: {.column}
+**Geschichte**
 
-Platzhalter für die Kernaussagen dieser Lesson. Wird in Phase 5a aus den Quellen ausgearbeitet.
+Lädt zum Eintauchen ein. Das Publikum folgt der Figur und senkt die Distanz.
+:::
 
+::::
+
+::: {.sources}
+Quelle: @lamberton2023
+:::
+
+::: {.notes}
+Der Kontrast erklärt die Wirkung. Wer in eine Geschichte versinkt, verliert die kritische Distanz und nimmt deren Botschaft eher an. Statt Nützlichkeit zu behaupten, zeigen wir eine Person, deren Problem gelöst wird, und das Publikum überträgt die Lösung auf sich selbst.
+:::
+
+## Das Gerüst einer Geschichte
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[1]{.timeline-number}
+[Figur]{.timeline-title}
+[Eine nachvollziehbare Hauptfigur, oft die Kundschaft selbst.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[2]{.timeline-number}
+[Konflikt]{.timeline-title}
+[Ein Ziel trifft auf ein Hindernis und erzeugt Spannung.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[3]{.timeline-number}
+[Auflösung]{.timeline-title}
+[Das Angebot hilft der Figur, ihr Ziel zu erreichen.]{.timeline-detail}
+:::
+
+::::
+
+::: {.notes}
+Drei Bausteine tragen jede wirksame Marketinggeschichte: eine Figur, ein Konflikt, eine Auflösung. Entscheidend ist die Rollenverteilung. Die Marke ist selten der Held, sondern der Mentor, der dem eigentlichen Helden, der Kundschaft, das richtige Werkzeug reicht.
+:::
+
+## Der Kollege am Montagmorgen {.stage background-color="#0a0a0f"}
+
+Wir erinnern die Anekdote vom verregneten Campingwochenende länger als drei Stichpunkte aus der Besprechung. Sie hat eine Figur, ein Hindernis und eine Pointe.
+
+::: {.notes}
+Das Bild des erzählenden Kollegen macht greifbar, warum Geschichten haften. Genau dieses Gerüst aus Figur, Hindernis und Pointe macht eine Botschaft erinnerbar. Marketinggeschichten funktionieren nach demselben Muster.
+:::
+
+## Storytelling trifft Persuasion
+
+Geschichte und Prinzipien verstärken sich. Ein echter Erfahrungsbericht ist zugleich Geschichte und Social Proof. Eine Gründungsgeschichte mit gemeinsamen Werten erzeugt Sympathie und Einheit.
+
+::: {.callout-important title="Nur die wahre Geschichte trägt"}
+Erfundene Kundengeschichten berühren kurz und brechen das Vertrauen, sobald die Lücke zur Wirklichkeit sichtbar wird. Am stärksten wirkt die echte, gut erzählte Geschichte.
+:::
+
+::: {.notes}
+Die Geschichte liefert das emotionale Gefäß, die Prinzipien liefern die überzeugende Wirkung. Auch hier gilt die ethische Grenze der vorigen Lesson: Eine Geschichte überzeugt nur dauerhaft, wenn sie wahr ist.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Geschichten überzeugen, wo Argumente abprallen. Figur, Konflikt und Auflösung bilden das Gerüst, und nur die wahre Geschichte hält der Wirklichkeit stand.
+
+::: {.notes}
+Als Kern bleibt: Narrative Transportation senkt die Distanz, das Drei-Schritt-Gerüst macht es nutzbar. Die nächste Lesson zeigt, wie generative KI hilft, solche Entwürfe schneller zu erstellen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::
