@@ -27,7 +27,7 @@ Ein Stand auf dem Wochenmarkt bringt uns sofort Laufkundschaft, doch Standgebüh
 Preise sind online in Sekunden vergleichbar. Preisvergleichsportale und Marktplatzlisten stellen Angebote nebeneinander, wodurch der Preis stärker in den Vordergrund rückt und Differenzierung über Leistung, Service und Marke wichtiger wird. Gleichzeitig lassen sich Preise technisch leicht ändern. Dynamische Preisbildung passt Preise an Nachfrage, Lagerbestand oder Wettbewerb an, und Personalisierung geht noch einen Schritt weiter, indem sie den Preis an einzelnen Nutzungsprofilen ausrichtet [@kreutzer2025].
 
 ::: {.callout-important title="Preisdifferenzierung braucht eine erklärbare Logik"}
-Kundschaft akzeptiert unterschiedliche Preise, wenn ein nachvollziehbarer Grund erkennbar ist, etwa Menge, Vertragslaufzeit oder Buchungszeitpunkt. Preise, die ohne sichtbaren Grund je Person variieren, beschädigen Vertrauen. Wer Preise auf Basis einer automatisierten Entscheidungsfindung personalisiert, muss darüber zudem informieren (§ 312a Abs. 1a BGB). Das Kapitel zum Recht ordnet diese Informationspflichten ein.
+Kundschaft akzeptiert unterschiedliche Preise, wenn ein nachvollziehbarer Grund erkennbar ist, etwa Menge, Vertragslaufzeit oder Buchungszeitpunkt. Preise, die ohne sichtbaren Grund je Person variieren, beschädigen Vertrauen. Wer Preise auf Basis einer automatisierten Entscheidungsfindung personalisiert, muss darüber zudem informieren (Art. 246a § 1 Abs. 1 Satz 1 Nr. 6 EGBGB). Das Kapitel zum Recht ordnet diese Informationspflichten ein.
 :::
 
 ## Distribution: eigener Kanal, Plattform oder Handel
