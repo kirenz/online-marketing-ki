@@ -1,9 +1,5 @@
 # Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Digitales Marketing arbeitet mit personenbezogenen Daten, mit Werbung in fremden Postfächern und zunehmend mit maschinell erzeugten Inhalten. Für alle drei Bereiche gibt es klare Regeln. Wir verschaffen uns einen Überblick, der ausreicht, um Vorhaben einzuordnen, Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden.
 
 ## Die Grundprinzipien der Datenschutz-Grundverordnung
@@ -61,10 +57,3 @@ Vier Fragen klären wir vor jeder Kampagne: Erstens, liegt für jede Datenverarb
 ::: {.callout-note title="Einordnung"}
 Dieses Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung. Bei konkreten Vorhaben ziehen wir juristische Fachkunde hinzu.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Eine kommentierte Beispielstruktur für ein Einwilligungsbanner mit den erforderlichen Angaben ergänzen
-- Den Umgang mit Auftragsverarbeitung und Drittlandtransfers als eigenen Abschnitt aufnehmen
-- Eine Übersicht der Betroffenenrechte mit Fristen und Zuständigkeiten im Unternehmen ergänzen
-- Die auf EU-Ebene diskutierten Anpassungen der AI-Act-Fristen vor Semesterbeginn prüfen und den Stand nachziehen

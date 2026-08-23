@@ -1,9 +1,5 @@
 # Das COMPASS-Framework
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir lernen in dieser Lesson ein festes Raster für gute Prompts kennen. COMPASS fasst die wichtigsten Bausteine einer Anweisung in sieben Komponenten zusammen, sodass wir nichts Wesentliches vergessen.
 
 ## Warum ein festes Raster hilft
@@ -41,10 +37,3 @@ Der eigentliche Gewinn liegt in der Wiederholbarkeit. Wer einen Prompt einmal sa
 ::: {.callout-important title="Struktur ersetzt keine Prüfung"}
 Auch ein sauber nach COMPASS gebauter Prompt liefert nur einen Entwurf. Das Modell kann Fakten und Zahlen erfinden, die überzeugend klingen, aber falsch sind. Jede Ausgabe braucht deshalb eine inhaltliche Prüfung, bevor sie verwendet wird [@kumar2025].
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein vollständig ausgefülltes COMPASS-Beispiel für eine konkrete Marketingaufgabe ergänzen (etwa eine LinkedIn-Anzeige)
-- Beispiel-Wortlisten für Attitude und Style als Auswahlhilfe einfügen
-- Eine Übung ergänzen, in der ein vager Prompt mit COMPASS schrittweise verbessert wird
-- Den Meta-Prompt zeigen, mit dem ein Modell selbst einen Prompt nach COMPASS strukturiert

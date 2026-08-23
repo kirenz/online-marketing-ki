@@ -1,9 +1,5 @@
 # KI-gestützte Content-Erstellung
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir setzen in dieser Lesson generative KI als Werkzeug für Content-Entwürfe ein. Sie schlägt die Brücke von der Strategie dieses Moduls zu den vertieften Techniken in Modul 10.
 
 ## KI als Entwurfsmotor, nicht als Autopilot
@@ -31,10 +27,3 @@ KI gleicht einer fleißigen Praktikantin, die in Minuten zwanzig Entwürfe liefe
 Der größte Gewinn von KI ist Geschwindigkeit, ihre größte Gefahr ist Beliebigkeit. Wer KI-Texte ungefiltert veröffentlicht, produziert schnell viel Inhalt, der austauschbar klingt und niemanden erreicht. Der Wert entsteht erst dort, wo menschliches Urteil den Entwurf zuspitzt: mit echten Beispielen, mit einer klaren Haltung und mit der eigenen Markenstimme.
 
 So schließt sich der Bogen des Moduls. Strategie legt fest, was wir sagen, Persuasion und Storytelling legen fest, wie es wirkt, und KI hilft, es schneller in Form zu bringen. Die Sorgfalt am Ende bleibt menschlich, und genau sie unterscheidet wirksamen Content von bloßem Rauschen.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Konkrete, kommentierte Beispiel-Prompts für Strategie, Persuasion und Storytelling ergänzen
-- Einen klaren Prüf- und Redaktionsworkflow für KI-Entwürfe beschreiben
-- Rechtliche und ethische Hinweise zu Kennzeichnung und Urheberschaft aufnehmen
-- Die Übergänge zu den Prompting-Lessons in Modul 10 konkret verlinken

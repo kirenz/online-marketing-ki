@@ -1,9 +1,5 @@
 # SMART-Marketingziele
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Wir haben im vorigen Modul eine Strategie entwickelt und wollen sie nun in greifbare Ziele übersetzen. Ein Ziel, das nur als guter Vorsatz im Raum steht, lässt sich später weder steuern noch bewerten, deshalb brauchen wir eine klare Form.
 
 ## Warum vage Ziele scheitern
@@ -29,10 +25,3 @@ Der Anspruch an Erreichbarkeit verdient dabei besondere Aufmerksamkeit. Ein Ziel
 ::: {.callout-important title="Relevant heißt: auf die Strategie einzahlen"}
 Nicht jede leicht messbare Zahl ist ein gutes Ziel. Eine hohe Zahl an Klicks wirkt eindrucksvoll, ist aber wertlos, wenn die Strategie auf qualifizierte Anfragen zielt und die Klicks nicht dorthin führen. Wir prüfen deshalb bei jedem Ziel, ob es einen erkennbaren Beitrag zur übergeordneten Marketingstrategie leistet [@kotler2022].
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein durchgehendes Praxisbeispiel (ein fiktives Unternehmen) mit drei vollständig formulierten SMART-Zielen einführen
-- Die häufige Verwechslung von Zielen und Maßnahmen in einer kurzen Gegenüberstellung schärfen
-- Eine kleine Übung ergänzen, in der vage Vorsätze in SMART-Ziele umgeschrieben werden
-- Den Unterschied zwischen Primär- und Sekundärzielen aus @kotler2022 vertiefen

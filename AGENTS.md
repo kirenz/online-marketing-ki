@@ -53,7 +53,7 @@ Wenn ein Curriculum übergeben wird, in dieser Reihenfolge arbeiten:
 2. **Lesson-Granularität festlegen**: 2–4 Lessons pro Modul, 5–15 Min Lernzeit pro Lesson, **eine Lesson = ein `.qmd`-Kapitel = ein späteres Slide-Deck**.
 3. **Pro Modul ein Verzeichnis** mit `index.qmd` (Modul-Übersicht in Wir-Form) + Lesson-Kapitel.
 4. **Pro Lesson ein Kapitel** mit H1-Titel, Wir-Form-Prosa, Callouts für Vertiefungen, Tabellen für Vergleiche, Code-Blöcken mit Erklärung im Folge-Callout.
-5. **Erstentwurf-Marker** am Anfang jedes nicht voll ausgearbeiteten Kapitels: `::: {.callout-note title="Status — Erstentwurf"}` plus am Ende einen Block `## Was als Nächstes ausgebaut werden muss` mit konkreten Vertiefungs-TODOs.
+5. **Erstentwurf-Marker** nur für interne Arbeitsstände: `::: {.callout-note title="Status — Erstentwurf"}` am Anfang plus am Ende einen Block `## Was als Nächstes ausgebaut werden muss` mit konkreten Vertiefungs-TODOs. In den veröffentlichten Kapiteln dieses Buches werden beide Blöcke nicht mehr verwendet; die offenen Ausbau-Punkte stehen gesammelt in `docs/ausbau-todos.md`.
 6. **Rendern**: `quarto render`. Output in `_book/`. Errors beheben, bevor an die Generator-Pipeline weitergereicht wird.
 7. **Folien generieren** (separate Aktion): `uv run python scripts/generate_slides.py` erzeugt aus jedem Buch-Kapitel ein Reveal.js-Deck.
 
@@ -156,6 +156,8 @@ Pro Lesson ein Kapitel mit:
 - Zwei bis drei Mal so lang wie der Erstentwurf
 
 Der Generator strippt den Status-Callout und den TODO-Block automatisch beim Erzeugen des Slide-Decks. Beide sind also für den Folien-Output unsichtbar.
+
+**Stand dieses Buches:** Die veröffentlichten Kapitel tragen weder Status-Callout noch TODO-Block, da das Buch als Online-Lehrbuch eines MBA-Moduls ausgeliefert wird. Die offenen Ausbau-Punkte aus Stufe A liegen gesammelt in `docs/ausbau-todos.md` und werden dort gepflegt, nicht mehr im Kapiteltext.
 
 ### 6. Disziplin-Verbote
 

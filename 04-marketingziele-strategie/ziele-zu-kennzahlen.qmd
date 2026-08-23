@@ -1,9 +1,5 @@
 # Von Zielen zu Kennzahlen
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Ein SMART-Ziel benennt bereits eine Kennzahl, doch in der Praxis genügt eine einzelne Zahl selten, um den Weg zum Ziel zu beobachten. Wir leiten deshalb aus jedem Ziel ein kleines Set passender Kennzahlen ab, mit dem sich der Fortschritt laufend verfolgen lässt.
 
 ## Was eine Kennzahl zur Steuerungsgröße macht
@@ -29,10 +25,3 @@ Wir gehen von einem konkreten Ziel aus und arbeiten uns zur passenden Messung vo
 ::: {.callout-important title="Eitelkeitszahlen erkennen"}
 Manche Zahlen sehen beeindruckend aus, beantworten aber keine steuerungsrelevante Frage. Reine Impressionen oder Gesamtaufrufe steigen fast immer und verleiten zu Optimismus, ohne über den Beitrag zum Ziel etwas auszusagen. Wir prüfen bei jeder Kennzahl, ob eine Veränderung tatsächlich eine Entscheidung auslösen würde, und verwerfen sie andernfalls als bloße Eitelkeitszahl, wie es @farris2010 nahelegt.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Eine kompakte Tabelle aufnehmen, die typische Ziele jeweils einem Ergebnis- und zwei Frühindikatoren zuordnet
-- Den Zusammenhang von Conversion-Rate, Kosten pro Ergebnis und Budget an einem Rechenbeispiel zeigen
-- Eine Übung ergänzen, in der Lernende für ein eigenes Ziel passende Kennzahlen auswählen
-- Die Abgrenzung von Eitelkeitszahlen und steuerungsrelevanten Kennzahlen nach @farris2010 vertiefen

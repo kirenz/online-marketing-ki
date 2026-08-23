@@ -1,9 +1,5 @@
 # GA4 und eventbasiertes Tracking
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir schauen uns an, wie Google Analytics 4 (kurz GA4) Verhalten auf einer Website erfasst. Der Schlüssel liegt in einem einzigen Grundgedanken: In GA4 ist jede Interaktion ein Ereignis, ein sogenanntes Event. Wer dieses Datenmodell versteht, versteht die ganze Logik des Werkzeugs.
 
 ## Vom Seitenaufruf zum Event
@@ -29,10 +25,3 @@ GA4 unterscheidet dabei verschiedene Arten von Events. Einige werden automatisch
 Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Conversion, also als Zielhandlung. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.
 
 Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang einer Conversion verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern [@kaushik2010].
-
-## Was als Nächstes ausgebaut werden muss
-
-- Den Unterschied zwischen automatisch erfassten und selbst definierten Events anhand konkreter Beispiele ausarbeiten
-- Eine kommentierte Beispielstruktur eines Events mit typischen Parametern als Tabelle ergänzen
-- Den Zusammenhang zwischen GA4-Eigenschaft, Datenstrom und Konto kurz und verständlich einordnen
-- Datenschutzaspekte wie Einwilligung und anonymisierte Erfassung in eigener Tiefe behandeln

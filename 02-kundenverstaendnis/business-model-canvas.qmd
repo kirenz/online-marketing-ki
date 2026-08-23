@@ -2,10 +2,6 @@
 
 In dieser Lesson lernen wir das Business Model Canvas kennen, eine Übersicht auf einer Seite, die zeigt, wie eine Organisation Wert schafft, liefert und damit Erträge erzielt.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Value Proposition Canvas und Empathy Map schärfen den Blick auf Kundschaft und Nutzen. Das Business Model Canvas setzt diesen Nutzen in den größeren Zusammenhang des Geschäftsmodells und macht mit neun Bausteinen sichtbar, wie aus einem Angebot ein tragfähiges Geschäft wird [@osterwalder2013].
 
 ## Die neun Bausteine
@@ -39,10 +35,3 @@ Für das Marketing sind vor allem die rechte Seite und ihr Zusammenspiel relevan
 ::: {.callout-important title="Stimmigkeit prüfen"}
 Ein Geschäftsmodell trägt nur, wenn die Bausteine zueinander passen. Ein hochwertiges Wertangebot mit einem Billig-Kanal oder ohne passende Schlüsselressourcen bleibt ein Widerspruch auf dem Papier.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein ausgefülltes Business Model Canvas für das Kursprojekt zeigen
-- Eine Vorlage oder Grafik des Canvas einbinden
-- Den Zusammenhang von Wertangebot, Kundensegment und Positionierung (Modul 3) vertiefen
-- Beispiele für unterschiedliche Einnahmequellen ergänzen [@osterwalder2013]

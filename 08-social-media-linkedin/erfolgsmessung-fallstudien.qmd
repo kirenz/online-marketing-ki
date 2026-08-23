@@ -2,10 +2,6 @@
 
 In dieser Lesson lernen wir die zentralen Kennzahlen für LinkedIn-Werbung kennen und ordnen sie den Kampagnenzielen zu. Außerdem ziehen wir aus typischen Fallbeispielen die wichtigsten Lernpunkte für die eigene Praxis.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Eine Kampagne ist nur so gut wie ihre Messung. Entscheidend ist, dass wir die Kennzahl zum Kampagnenziel passend wählen. Wer Markenbekanntheit aufbaut, misst Reichweite, wer Leads gewinnt, misst die Kosten pro Lead. Eine falsch gewählte Kennzahl führt schnell zu falschen Schlüssen [@linkedinAds2024].
 
 ## Die zentralen Kennzahlen
@@ -41,10 +37,3 @@ Veröffentlichte Erfolgszahlen aus Fallstudien stammen aus einem anderen Markt, 
 ## Vom Messen zum Verbessern
 
 Messung ist kein Selbstzweck, sondern die Grundlage für den nächsten Schritt. Aus den Zahlen leiten wir konkrete Anpassungen ab: Wir testen zwei Varianten einer Anzeige gegeneinander, tauschen ermüdete Motive aus oder schärfen die Zielgruppe nach. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, der mit jeder Runde besser wird.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Eine ausgearbeitete Fallstudie mit anonymisierten, aber konkreten Zahlen ergänzen
-- Den Aufbau eines A/B-Tests im Kampagnen-Manager Schritt für Schritt zeigen
-- Eine Beispielrechnung für die Kosten pro Lead und den daraus abgeleiteten Return einfügen
-- Eine Checkliste für die wöchentliche Kampagnenkontrolle erstellen

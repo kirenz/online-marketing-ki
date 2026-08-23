@@ -2,10 +2,6 @@
 
 In dieser Lesson lernen wir, wie aus einem unübersichtlichen Gesamtmarkt klar beschriebene Zielsegmente werden, und warum diese Aufteilung die Grundlage jeder gezielten Marketingmaßnahme ist.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Kein Markt ist homogen. Menschen unterscheiden sich in Bedürfnissen, Vorlieben und Verhalten. Der Ansatz, diese Vielfalt produktiv zu nutzen, statt sie zu ignorieren, geht auf den Gründungstext der Marktsegmentierung zurück [@smith1956]. Aus ihm leitet sich das STP-Modell ab: Segmentierung, Targeting, Positionierung. Die ersten beiden Schritte behandeln wir hier, die Positionierung in einer eigenen Lesson.
 
 ## Warum wir segmentieren
@@ -36,10 +32,3 @@ Nach der Aufteilung wählen wir die Segmente aus, die wir bedienen wollen. Zwei 
 ::: {.callout-tip title="Analogie: die Sortierung im Lager"}
 Ein gut geführtes Lager sortiert die Ware nicht alphabetisch, sondern nach Zugriffshäufigkeit und Zusammengehörigkeit. Genauso ordnen wir einen Markt: nicht nach beliebigen Merkmalen, sondern nach den Gruppen, die sich wirklich unterschiedlich verhalten und die wir am besten bedienen können.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein durchgerechnetes Segmentierungs-Beispiel für das Kursprojekt
-- Kriterien zur Bewertung der Segment-Attraktivität als Tabelle
-- Verbindung zur Persona (nächste Lesson) und zur Positionierung explizit machen
-- Beispiele für verhaltensbezogene Segmentierung im digitalen Marketing [@venter2015]

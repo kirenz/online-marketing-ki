@@ -1,9 +1,5 @@
 # Der Online-Werbemarkt und der Planungsprozess
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir betrachten zuerst den Markt, auf dem Online-Werbung gehandelt wird, und danach den Prozess, in dem eine Kampagne entsteht. Wer Budgets freigibt und Ergebnisse bewertet, sollte wissen, wer welche Leistung erbringt, wie abgerechnet wird und in welcher Reihenfolge Entscheidungen fallen.
 
 ## Wer am Online-Werbemarkt beteiligt ist
@@ -63,10 +59,3 @@ In Angeboten und Reportings begegnen uns immer dieselben Begriffe. Die folgende 
 | CPC (Cost per Click) | Preis für einen Klick |
 | CPA (Cost per Action) | Kosten für eine ausgelöste Handlung, etwa Kauf oder Anfrage |
 | ROAS (Return on Ad Spend) | Umsatz je eingesetztem Euro Werbebudget |
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein durchgerechnetes Beispiel ergänzen, das TKP, CPC und CPA für dieselbe Kampagne gegenüberstellt
-- Den Ablauf einer Programmatic-Auktion als Grafik einbinden, inklusive der Rollen von DSP, SSP und Ad Exchange sowie der Abgrenzung zu Programmatic Guaranteed
-- Eine Vorlage für ein Kampagnenbriefing ergänzen, die den achtstufigen Planungsprozess abbildet
-- Aktuelle Marktzahlen zu Investitionsanteilen der Kanäle mit Quelle und Erhebungsjahr nachtragen

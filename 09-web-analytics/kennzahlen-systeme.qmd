@@ -1,9 +1,5 @@
 # Kennzahlen und Kennzahlensysteme
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir messen Marketingerfolg nicht an Applaus, sondern an Wirkung. In dieser Lesson lernen wir, sogenannte Vanity-Metriken von echten Steuerungsgrößen zu unterscheiden und unsere Kennzahlen so entlang der Customer Journey anzuordnen, dass sie zusammen ein stimmiges Bild ergeben.
 
 ## Warum Kennzahlen überhaupt zählen
@@ -33,10 +29,3 @@ Kennzahlen wirken einzeln selten überzeugend, im Verbund dagegen sehr. Ein Kenn
 In der frühen Phase messen wir Sichtbarkeit und Aufmerksamkeit, etwa über Reichweite oder neue Besuchende. In der mittleren Phase rückt das Interesse in den Blick, sichtbar an Verweildauer oder wiederkehrenden Besuchen. In der späten Phase zählt die Handlung, also die Conversion und ihr Wert. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt [@ahrholdt2023].
 
 Damit dieses System trägt, wählen wir bewusst wenige Schlüsselkennzahlen statt vieler Anzeigen. Vier bis fünf gut gewählte KPIs reichen aus, um eine Kampagne zu steuern. Mehr Zahlen erhöhen nicht die Klarheit, sondern den Aufwand der Interpretation.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein durchgängiges Beispiel mit konkreten Zahlen entlang aller Journey-Phasen Schritt für Schritt aufbauen
-- Eine Übersichtstabelle gängiger KPIs je Phase mit Definition und sinnvoller Bezugsgröße ergänzen
-- Eine kleine Übung einfügen, in der Lesende eigene Metriken in Vanity-Metriken und KPIs sortieren
-- Den Zusammenhang zwischen North-Star-Kennzahl und untergeordneten Treiber-KPIs vertiefen

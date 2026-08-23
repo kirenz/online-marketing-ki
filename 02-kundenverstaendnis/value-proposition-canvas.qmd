@@ -2,10 +2,6 @@
 
 In dieser Lesson lernen wir das Value Proposition Canvas kennen, ein Werkzeug, das den Nutzen eines Angebots systematisch mit den Bedürfnissen der Kundschaft verbindet.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Im ersten Modul haben wir festgehalten, dass Marketing beim Kunden beginnt. Das Value Proposition Canvas macht diese Haltung konkret. Es besteht aus zwei Hälften: dem Kundenprofil auf der einen Seite und der Wertkarte auf der anderen [@osterwalder2014]. Erst wenn beide Hälften zusammenpassen, entsteht ein überzeugendes Angebot.
 
 ## Das Kundenprofil: Jobs, Pains, Gains
@@ -39,10 +35,3 @@ Das Kundenprofil ist das Schloss, die Wertkarte der Schlüssel. Ein schöner Sch
 ::: {.callout-important title="Häufige Stolperfalle"}
 Viele beginnen mit der Wertkarte und suchen danach passende Kundenbedürfnisse. Wirksamer ist der umgekehrte Weg: zuerst das Kundenprofil sauber erarbeiten, dann die Wertkarte darauf ausrichten.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein vollständig ausgefülltes Canvas für das durchgehende Kursprojekt zeigen
-- Eine Vorlage oder Grafik des Canvas einbinden
-- Verbindung zur Empathy Map (nächste Lesson) und zum Business Model Canvas explizit machen
-- Beispiele für funktionale, soziale und emotionale Jobs ergänzen [@osterwalder2014]

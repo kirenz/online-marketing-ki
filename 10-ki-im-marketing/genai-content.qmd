@@ -1,9 +1,5 @@
 # GenAI für Marketing-Content
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir lernen in dieser Lesson, wie generative KI Texte und Bilder für das Marketing erstellt und worauf wir bei der Prüfung achten. Im Mittelpunkt steht das Zusammenspiel aus schnellem Entwurf durch die KI und kritischem Urteil durch uns.
 
 ## KI als Entwurfsmotor
@@ -40,10 +36,3 @@ Diese Prüfung ist keine lästige Pflicht, sondern der Kern verantwortungsvoller
 ::: {.callout-important title="Verantwortung bleibt menschlich"}
 Wer einen KI-Entwurf ohne Prüfung veröffentlicht, übernimmt dessen Fehler als eigene. Die KI trägt keine Verantwortung für falsche Fakten oder fragwürdige Aussagen, das tut die Person oder das Unternehmen, das den Inhalt verbreitet.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein konkretes Beispiel für die Textgenerierung mit anschließender Prüf-Checkliste ergänzen
-- Einen guten und einen schwachen Bild-Prompt gegenüberstellen und die Unterschiede erläutern
-- Eine kompakte Prüf-Checkliste als wiederverwendbares Werkzeug einfügen
-- Rechtliche und ethische Aspekte vertiefen (Kennzeichnungspflicht, Urheberrecht, Datenschutz) [@kumar2025]

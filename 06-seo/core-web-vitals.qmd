@@ -1,9 +1,5 @@
 # Core Web Vitals und Page Experience
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Gute Inhalte entfalten ihre Wirkung nur, wenn die Seite sich auch gut anfühlt. In dieser Lesson lernen wir mit den Core Web Vitals drei messbare Kennzahlen kennen, mit denen Google die Nutzererfahrung beschreibt, und ordnen ein, was sie für unsere Arbeit bedeuten.
 
 ## Was die Core Web Vitals messen
@@ -33,10 +29,3 @@ Google legt für jede Kennzahl Zielbereiche fest und passt diese gelegentlich an
 Die Core Web Vitals sind Teil der sogenannten Page Experience, mit der Google die Gesamtqualität des Seitenerlebnisses bewertet. Sie sind ein Faktor unter mehreren und ersetzen guten Inhalt nicht, doch sie wirken als Verstärker: Bei ähnlich relevanten Seiten kann die bessere Nutzererfahrung den Ausschlag geben.
 
 Für uns sind diese Kennzahlen vor allem deshalb wertvoll, weil sie messbar und damit steuerbar sind. Wir können sie regelmäßig prüfen, Schwachstellen erkennen und gezielt verbessern, statt über Bauchgefühl zu diskutieren [@enge2023].
-
-## Was als Nächstes ausgebaut werden muss
-
-- Aktuelle Zielbereiche für LCP, INP und CLS aus der offiziellen Quelle ergänzen und datieren
-- Übersicht der gängigen Messwerkzeuge (Labordaten und Felddaten) als Tabelle einfügen
-- Pro Kennzahl zwei bis drei konkrete Optimierungshebel beschreiben
-- Zusammenspiel mit den übrigen Page-Experience-Signalen vertiefen

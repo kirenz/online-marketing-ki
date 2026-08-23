@@ -1,0 +1,27 @@
+# Über dieses Buch {.unnumbered}
+
+Dieses Online-Lehrbuch „Digitales Marketing & KI" ist die schriftliche Grundlage eines MBA-Moduls. Es umfasst elf Module mit insgesamt 35 Lektionen, ist frei zugänglich und wird laufend aktualisiert. Ergänzend gibt es einen Begleitkurs auf [kurse.kirenz.de](https://kurse.kirenz.de), der dieselben Inhalte in interaktive Lerneinheiten übersetzt.
+
+Wir verstehen das Buch als Arbeitsgrundlage, nicht als abgeschlossenes Nachschlagewerk. Die Kapitel sind kurz gehalten, bauen aufeinander auf und lassen sich einzeln lesen.
+
+## Autor
+
+Verfasst von Prof. Dr. Jan Kirenz, Hochschule der Medien Stuttgart. Kontakt und weitere Materialien über [kirenz.com](https://www.kirenz.com/).
+
+::: {.callout-note title="Zitierhinweis"}
+Für das gesamte Buch:
+
+> Kirenz, J. (2026): Digitales Marketing & KI. Online-Lehrbuch. https://kirenz.github.io/online-marketing-ki/ (Stand: August 2026)
+
+Für ein einzelnes Kapitel:
+
+> Kirenz, J. (2026): \<Kapiteltitel\>. In: Digitales Marketing & KI. Online-Lehrbuch. URL des Kapitels (Stand: August 2026)
+:::
+
+## Stand und Änderungen
+
+Version: August 2026. Die Kapitel werden fortlaufend überarbeitet, ergänzt und an aktuelle Entwicklungen angepasst. Das jeweilige Änderungsdatum eines Kapitels steht im Git-Verlauf des Repositories [github.com/kirenz/online-marketing-ki](https://github.com/kirenz/online-marketing-ki).
+
+## Rechte
+
+© Jan Kirenz 2026. Alle Rechte vorbehalten. Nutzung für das eigene Studium und die Lehre in den zugehörigen Veranstaltungen ist erlaubt; Weiterverbreitung und kommerzielle Nutzung nur mit Zustimmung.

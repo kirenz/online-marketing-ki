@@ -1,9 +1,5 @@
 # Prompting-Grundlagen
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir lernen in dieser Lesson, wie aus einer vagen Bitte an ein KI-System eine präzise Anweisung wird. Mit klaren Aufgaben, einer passenden Rolle, Beispielen und genug Kontext steigt die Qualität der Antworten deutlich.
 
 ## Warum die Anweisung über das Ergebnis entscheidet
@@ -51,10 +47,3 @@ Als Viertes das **Beispiel**. Ein mitgeliefertes Muster zeigt dem Modell die gew
 Ein guter Prompt entsteht selten im ersten Versuch. Wir starten mit einer klaren Aufgabe, prüfen die Antwort und ergänzen gezielt das, was gefehlt hat, etwa eine Rolle, einen Kontextblock oder ein Beispiel. Dieses schrittweise Schärfen kostet wenig Zeit und hebt die Qualität spürbar.
 
 Für wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie `[ROLLE]` oder `[ZIELGRUPPE]`. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zur nächsten Lesson geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet [@bolz2024].
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein durchgehendes Vorher-Nachher-Beispiel aus dem Marketingalltag ergänzen (etwa eine Produktbeschreibung vom vagen zum präzisen Prompt)
-- Eine kleine Übung mit Musterlösung einfügen, in der die vier Bausteine selbst angewendet werden
-- Häufige Fehler beim Prompting (zu lang, widersprüchlich, ohne Format) als Übersicht ergänzen
-- Den Zusammenhang von Prompting und Context Engineering vertiefen [@schmid2025]

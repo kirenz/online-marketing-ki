@@ -1,9 +1,5 @@
 # Funktionsweise von Google Ads und Auktionen
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir öffnen dieses Modul mit der Frage, die hinter jeder bezahlten Suchanzeige steht: Warum erscheint genau diese Anzeige auf genau dieser Position, und was kostet das? In dieser Lesson sehen wir, wie eine automatisierte Auktion bei jeder Suchanfrage Platzierung und Preis bestimmt.
 
 ## Jede Suchanfrage startet eine Auktion
@@ -29,10 +25,3 @@ Diese Logik schützt davor, dauerhaft zu viel zu bezahlen, und belohnt zugleich 
 ::: {.callout-important title="Gebot ist eine Obergrenze, kein Festpreis"}
 Wir verwechseln das maximale Gebot nicht mit den realen Kosten. Das Gebot legt fest, wie viel wir höchstens zu zahlen bereit sind. Der abgerechnete Klickpreis liegt meist darunter und hängt vom Wettbewerb und von der Qualität unserer Anzeige ab.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Vereinfachte Rechenbeispiele zur Bildung des Anzeigenrangs Schritt für Schritt durchspielen (Gebot mal Qualität)
-- Den Zusammenhang zwischen Reservepreisen und tatsächlichem Klickpreis an einem Zahlenbeispiel illustrieren
-- Eine kleine Übung einfügen, in der zwei Anzeigen mit unterschiedlichem Gebot und Qualität verglichen und platziert werden
-- Abschnitt zur Rolle des Suchkontexts (Gerät, Standort, Tageszeit) in der Auktion vertiefen

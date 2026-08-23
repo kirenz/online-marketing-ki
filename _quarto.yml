@@ -38,6 +38,7 @@ book:
 
   chapters:
     - index.qmd
+    - ueber-dieses-buch.qmd
     - introduction.qmd
 
     - part: 01-marketing-grundlagen/index.qmd

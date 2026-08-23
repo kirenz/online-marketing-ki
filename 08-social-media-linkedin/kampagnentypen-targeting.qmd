@@ -2,10 +2,6 @@
 
 In dieser Lesson schauen wir uns die wichtigsten Anzeigenformate von LinkedIn an und lernen, wie wir mit professioneller Demografie, eigenen Daten und kontobasiertem Marketing die richtige Zielgruppe erreichen.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Jede LinkedIn-Kampagne beginnt mit einem Ziel, das einer von drei Phasen zugeordnet ist: Bekanntheit, Erwägung und Konversion. Diese Wahl steuert, wie der Algorithmus die Anzeige ausliefert und welche Kennzahlen sinnvoll sind. Erst danach wählen wir das passende Format und die Zielgruppe [@linkedinAds2024].
 
 ## Die wichtigsten Anzeigenformate
@@ -43,10 +39,3 @@ Gerade die Unternehmenslisten sind die Grundlage für kontobasiertes Marketing, 
 ::: {.callout-important title="Datenschutz beachten"}
 Beim Hochladen von Kontakt- und Unternehmenslisten gelten im deutschsprachigen Raum die Vorgaben der Datenschutz-Grundverordnung. Wir verarbeiten personenbezogene Daten nur auf einer gültigen Rechtsgrundlage und stellen bei Lead Gen Forms immer den Link zur Datenschutzerklärung sowie eine nicht vorangekreuzte Einwilligung bereit.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Eine Entscheidungshilfe ergänzen, die Kampagnenziel, Phase und passendes Format verbindet
-- Den Aufbau eines Lead Gen Forms Schritt für Schritt mit Screenshots zeigen
-- Ein konkretes ABM-Beispiel mit einer Beispiel-Zielliste durchspielen
-- Die Funktionsweise des Insight Tags für Website-Retargeting technisch vertiefen

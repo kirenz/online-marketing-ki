@@ -1,9 +1,5 @@
 # Attribution und Dashboards
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir klären zwei eng verwandte Fragen. Erstens: Welchem Kanal schreiben wir einen Erfolg gut, wenn die Kundschaft über viele Kontaktpunkte zu uns findet? Das ist die Frage der Attribution. Zweitens: Wie machen wir die Antworten so sichtbar, dass sie zu Entscheidungen führen? Das leisten Dashboards, etwa in Looker Studio.
 
 ## Das Zurechnungsproblem
@@ -35,10 +31,3 @@ Die beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Da
 Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Phasen der Customer Journey. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann [@ahrholdt2023].
 
 Wir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Die gängigen Attributionsmodelle einzeln mit kurzem Beispiel und Stärken-Schwächen-Profil ausarbeiten
-- Einen beispielhaften Dashboard-Aufbau mit konkreten Widgets je Journey-Phase skizzieren
-- Eine Übung ergänzen, in der dieselbe Kampagne nach Last-Click und nach datengetriebenem Modell bewertet wird
-- Den Einfluss von Datenschutz und fehlenden Daten auf die Verlässlichkeit der Attribution vertiefen

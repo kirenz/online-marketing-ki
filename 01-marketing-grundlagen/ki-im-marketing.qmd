@@ -2,10 +2,6 @@
 
 In dieser Lesson verschaffen wir uns einen ersten Überblick darüber, wie Künstliche Intelligenz im Marketing wirkt, und ordnen sie mit einem einfachen Framework so ein, dass wir sie im weiteren Kurs gezielt einsetzen können.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 KI im Marketing wird leicht zum Schlagwort, das alles und nichts bedeutet. Damit wir konkret bleiben, behandeln wir KI nicht als eine einzige Technologie, sondern als drei Klassen mit unterschiedlichen Aufgaben. Diese Unterscheidung geht auf das Drei-Stufen-Framework von @huang2021 zurück und hilft uns, jede KI-Anwendung sauber einzuordnen statt pauschal über „die KI" zu reden.
 
 ## Drei Arten von KI
@@ -43,10 +39,3 @@ Die hier genannten Frameworks ordnen Anwendungsfälle, sie ersetzen keine Strate
 :::
 
 Die konkreten Werkzeuge, von strukturierten Prompts über das COMPASS-Framework bis zur KI-gestützten Content-Erstellung, vertiefen wir in Modul 10.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Konkrete Tool-Beispiele pro KI-Typ ergänzen (mit kurzer Einordnung)
-- Ein Mini-Beispiel: dieselbe Marketingaufgabe ohne und mit KI gelöst
-- Verweise auf aktuelle empirische Befunde zu generativer KI im Marketing (@hartmann2025, @kumar2025)
-- Ethische und rechtliche Hinweise (Transparenz, Datenschutz) als eigener Abschnitt

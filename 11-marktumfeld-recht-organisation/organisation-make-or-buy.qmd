@@ -1,9 +1,5 @@
 # Organisation: Make-or-buy, Agentursteuerung und KI-Einführung
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Digitales Marketing gelingt selten an einer einzigen Stelle im Unternehmen. Es braucht mehrere Kompetenzen, klare Zuständigkeiten und die Entscheidung, was wir selbst aufbauen und was wir einkaufen. In dieser Lesson klären wir die Rollen, die Kriterien für Make-or-buy, die Steuerung von Dienstleistern und den geordneten Einstieg in KI-Werkzeuge.
 
 ## Rollen und Kompetenzen
@@ -52,10 +48,3 @@ Typische Fehler sind schnell benannt: das Werkzeug ohne Anwendungsfall einführe
 ## Was die Geschäftsführung fragt
 
 Vier Fragen entscheiden über Freigaben: Welches Geschäftsziel unterstützt das Vorhaben? Was kostet es vollständig gerechnet, und woran erkennen wir den Nutzen? Wer ist verantwortlich, und welche Kompetenzen fehlen noch? Welche Risiken bestehen bei Daten, Recht und Abhängigkeit von Anbietern? Wer diese vier Fragen vor dem Termin beantwortet, bekommt seltener Rückfragen und schneller eine Entscheidung.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Eine Briefing-Vorlage für Agenturen mit Beispieltext je Abschnitt ergänzen
-- Eine Vollkostenrechnung für den Vergleich interner Aufbau gegen externe Beauftragung einfügen
-- Ein Bewertungsraster für die Auswahl von KI-Anwendungsfällen nach Nutzen und Aufwand ergänzen
-- Rollenprofile mit Aufgaben, Kompetenzen und typischen Kennzahlen je Rolle nachtragen

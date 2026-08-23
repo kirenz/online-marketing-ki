@@ -2,10 +2,6 @@
 
 In dieser Lesson klären wir, was Marketing im Kern ausmacht, warum es weit mehr ist als Werbung und wie es den Weg von der ersten Aufmerksamkeit bis zur dauerhaften Kundenbeziehung gestaltet.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Marketing wird oft mit Werbung gleichgesetzt. Tatsächlich ist Werbung nur ein kleiner, sichtbarer Teil. Im Kern beschreibt Marketing, wie eine Organisation den Wert für ihre Kundschaft versteht, schafft, kommuniziert und liefert [@kotler2022]. Wir betrachten Marketing deshalb in diesem Kurs als durchgehende Denkweise, die bei den Bedürfnissen der Menschen ansetzt und erst danach bei Produkten und Kanälen.
 
 ## Marketing beginnt beim Kunden, nicht beim Produkt
@@ -44,10 +40,3 @@ Wer eine Reise plant, legt zuerst das Ziel fest (wohin), dann die Route (wie kom
 ::: {.callout-important title="Häufige Stolperfalle"}
 Viele Projekte starten mit der Maßnahme („Wir brauchen einen Social-Media-Kanal") statt mit dem Ziel. Wir prüfen deshalb bei jeder Maßnahme zuerst, auf welches Ziel sie einzahlt und für welche Station der Kundenreise sie gedacht ist.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein durchgehendes Praxisbeispiel (ein fiktives Unternehmen) einführen, das den ganzen Kurs begleitet
-- Die Kundenreise mit einer Grafik illustrieren (Fremder bis Fürsprecher)
-- Abgrenzung von Marketing, Vertrieb und Kommunikation in einer kurzen Tabelle ergänzen
-- Definition von Marketing und Austauschprozessen aus @kotler2022 vertiefen

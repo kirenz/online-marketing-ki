@@ -1,9 +1,5 @@
 # Storytelling im Marketing
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir untersuchen in dieser Lesson, warum Geschichten überzeugen, wo nüchterne Argumente an Grenzen stoßen. Den Schlüssel dazu liefert das Konzept der Narrative Transportation.
 
 ## Warum Geschichten anders wirken als Argumente
@@ -31,10 +27,3 @@ Wir erinnern uns an die Anekdote eines Kollegen über sein verregnetes Campingwo
 Storytelling und die Prinzipien der vorigen Lesson verstärken sich gegenseitig. Ein echter Erfahrungsbericht ist zugleich eine Geschichte und ein Beleg im Sinne des Social Proof. Eine Gründungsgeschichte mit gemeinsamen Werten erzeugt Sympathie und Einheit. Die Geschichte liefert dabei das emotionale Gefäß, die Prinzipien liefern die überzeugende Wirkung.
 
 Auch hier gilt die Grenze der vorigen Lesson: Eine Geschichte überzeugt nur dauerhaft, wenn sie wahr ist. Erfundene Kundengeschichten mögen kurz berühren, doch sie brechen das Vertrauen, sobald die Lücke zur Wirklichkeit sichtbar wird. Die wirksamste Geschichte ist deshalb die echte, gut erzählte.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Den Spannungsbogen an einem vollständig ausgearbeiteten Beispiel durchspielen
-- Die Mentor-statt-Held-Rollenverteilung mit Gegenbeispielen schärfen
-- Konkrete Storytelling-Formate für einzelne Kanäle und Phasen ergänzen
-- Eine Übung einfügen, in der eine Kundengeschichte entlang des Gerüsts entwickelt wird

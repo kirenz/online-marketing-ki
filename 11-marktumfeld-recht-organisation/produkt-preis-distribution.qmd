@@ -1,9 +1,5 @@
 # Online-Marketing in Produkt-, Preis- und Distributionspolitik
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Online-Marketing ist mehr als Kommunikation. Digitale Kanäle verändern auch, welche Produkte wir anbieten, wie wir Preise setzen und über welche Wege wir verkaufen. Wir ordnen diese drei Felder des Marketing-Mix ein. Als Beispiel, das uns durch dieses Kapitel begleitet, dient eine kleine Kaffeerösterei, die neben ihrem Ladengeschäft einen Onlineshop mit Abo betreibt.
 
 ## Digitale Produkte und Services
@@ -46,10 +42,3 @@ Für die Rösterei bedeutet das eine bewusste Mischung: Der Marktplatz bringt ne
 ## Internationalisierung: was sich je Markt ändert
 
 Sobald wir über Grenzen hinweg verkaufen, stellt sich zuerst die Frage der Markteintrittsform: Export über einen Marktplatz, Zusammenarbeit mit einem Distributor, ein eigener Shop je Land oder eine Tochtergesellschaft. Die Reihenfolge beschreibt zugleich die Abwägung, denn mit jeder Stufe steigen Kontrolle und Nähe zur Kundschaft, aber auch Investition und gebundene Ressourcen. Danach kommen drei operative Fragen hinzu. Erstens die Lokalisierung: Sprache, Maßeinheiten, Bildwelt und Ansprache müssen zum Markt passen, eine reine Übersetzung reicht selten. Zweitens die Kanalwahl, denn führende Suchmaschinen, soziale Netzwerke und Marktplätze unterscheiden sich je Land erheblich. Drittens die Abwicklung, weil bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln häufiger über den Kaufabbruch entscheiden als die Produktseite selbst [@kingsnorth2022].
-
-## Was als Nächstes ausgebaut werden muss
-
-- Eine Deckungsbeitragsrechnung für Eigenshop, Marktplatz und Abo am Beispiel der Rösterei ergänzen
-- Retail Media als eigenen Abschnitt mit Anzeigenformaten und Steuerungslogik vertiefen
-- Eine Checkliste für die Markteintrittsprüfung in einem zweiten Land ergänzen
-- Beispiele für Versioning und Bundling aus dem B2B-Software-Umfeld nachtragen

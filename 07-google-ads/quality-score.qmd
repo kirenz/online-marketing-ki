@@ -1,9 +1,5 @@
 # Quality Score und Optimierung
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir kennen nun die Auktion und den Kontoaufbau und wenden uns der Stellschraube zu, die beides verbindet: der Anzeigenqualität. In dieser Lesson lernen wir die drei Komponenten des Quality Score kennen und sehen, an welchen Hebeln wir konkret ansetzen.
 
 ## Was der Quality Score misst
@@ -27,10 +23,3 @@ Aus den drei Komponenten ergeben sich drei konkrete Ansatzpunkte. Für eine bess
 ::: {.callout-important title="Komponenten verbessern, nicht die Zahl jagen"}
 Wir optimieren nicht die Quality-Score-Zahl als solche, sondern die drei Komponenten dahinter. Wer die erwartete Klickrate, die Anzeigenrelevanz und die Zielseiten-Erfahrung verbessert, hebt den Quality Score von selbst und senkt zugleich die Kosten. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Pro Komponente eine kurze Checkliste mit konkreten Optimierungsschritten ergänzen
-- Ein Vorher-Nachher-Beispiel einer Anzeigengruppe mit niedrigem und verbessertem Quality Score durchspielen
-- Eine kleine Übung einfügen, in der Lesende einem schwachen Quality Score die wahrscheinlich verantwortliche Komponente zuordnen
-- Abschnitt zum Zusammenhang zwischen Zielseiten-Erfahrung und Ladezeit (Verweis auf Modul 6) vertiefen

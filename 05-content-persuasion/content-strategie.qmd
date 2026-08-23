@@ -1,9 +1,5 @@
 # Content-Strategie und Formate
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir planen in dieser Lesson Inhalte so, dass sie auf ein Ziel und eine Zielgruppe einzahlen. Dafür wählen wir passende Formate und steuern die Produktion über einen Redaktionsplan.
 
 ## Warum Content ein eigenes Handwerk ist
@@ -31,10 +27,3 @@ Ein gutes Content-Angebot ist wie eine durchdachte Speisekarte. Es gibt Gerichte
 Eine Strategie wird erst durch Regelmäßigkeit wirksam. Das zentrale Werkzeug dafür ist der Redaktionsplan: eine Übersicht, die festhält, welches Thema wann in welchem Format für welche Persona auf welchem Kanal erscheint und welches Ziel es verfolgt. So koordinieren wir Produktion und Verbreitung, vermeiden Lücken und erkennen früh, ob ein Thema fehlt.
 
 Ob ein Inhalt seine Aufgabe erfüllt, lesen wir an wenigen Kennzahlen ab: organischer Traffic zeigt Sichtbarkeit, die Verweildauer zeigt Relevanz, und die Conversion-Rate zeigt, ob aus Aufmerksamkeit eine Handlung wird. Diese Rückmeldung fließt in die nächste Planungsrunde ein, sodass die Strategie mit der Zeit schärfer wird.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein vollständiges, durchgerechnetes Redaktionskalender-Beispiel über mehrere Wochen ergänzen
-- Das Topic-Cluster-Modell mit einer Abbildung visualisieren
-- Konkrete Zielwerte für die genannten Content-Kennzahlen mit Quelle hinterlegen
-- Eine kleine Übung einfügen, in der eine Content-Idee entlang einer Persona entwickelt wird

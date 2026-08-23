@@ -2,10 +2,6 @@
 
 In dieser Lesson lernen wir, wie ein Angebot einen klaren und unterscheidbaren Platz im Kopf der Zielgruppe einnimmt, und wie sich eine Positionierung in einem Satz festhalten lässt.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Segmentierung und Personas klären, wen wir ansprechen. Die Positionierung klärt, als was wir wahrgenommen werden wollen. Sie ist der dritte Schritt im STP-Modell und beantwortet die Frage, warum sich jemand für dieses Angebot und gegen den Wettbewerb entscheidet [@kotler2022].
 
 ## Was Positionierung bedeutet
@@ -27,10 +23,3 @@ Eine bewährte Vorlage hält die Positionierung in einem Satz fest: Für [Zielgr
 ::: {.callout-important title="Eine Position, nicht fünf"}
 Eine Positionierung wirkt nur, wenn sie fokussiert ist. Wer alles gleichzeitig sein will, günstig, hochwertig, schnell und persönlich, besetzt am Ende keinen klaren Platz.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Eine ausformulierte Positionierung für das Kursprojekt nach der Vorlage
-- Eine Positionierungs-Matrix (zwei Dimensionen) als Grafik
-- Beispiele für gelungene und misslungene Positionierungen
-- Verbindung zur Botschaft und zur Content-Strategie (Modul 5) herstellen

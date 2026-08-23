@@ -1,9 +1,5 @@
 # Keyword-Recherche
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Wir starten die Suchmaschinenoptimierung dort, wo auch unsere Kundschaft startet: beim Suchbegriff, den jemand in das Suchfeld tippt. In dieser Lesson finden wir relevante Suchbegriffe, bewerten sie und leiten daraus Themen für unsere Inhalte ab.
 
 ## Warum wir mit Keywords beginnen
@@ -31,10 +27,3 @@ Wir achten besonders auf sogenannte Long-Tail-Begriffe, also längere und spezif
 ::: {.callout-important title="Keyword-Stuffing vermeiden"}
 Wir bauen Keywords natürlich in gut lesbare Sätze ein. Das mechanische Aneinanderreihen vieler Suchbegriffe (Keyword-Stuffing) schadet heute mehr, als es nützt, weil Suchmaschinen Lesbarkeit und Relevanz höher gewichten als bloße Worthäufigkeit.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Konkretes Recherche-Beispiel mit einem fiktiven Anbieter Schritt für Schritt durchspielen
-- Übersicht gängiger Recherche-Werkzeuge (kostenfrei und kostenpflichtig) als Vergleichstabelle ergänzen
-- Eine kleine Übung einfügen, in der Lesende eigene Keywords nach Intention sortieren
-- Abschnitt zu saisonalen Schwankungen und zur Priorisierung nach Aufwand und Nutzen vertiefen

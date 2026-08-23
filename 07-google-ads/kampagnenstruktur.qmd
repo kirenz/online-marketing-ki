@@ -1,9 +1,5 @@
 # Kampagnenstruktur, Keywords und Anzeigen
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Nachdem wir verstanden haben, wie die Auktion funktioniert, bauen wir nun unser Werbekonto so auf, dass es übersichtlich bleibt und gute Ergebnisse liefert. In dieser Lesson setzen wir Kampagnen, Anzeigengruppen, Keywords und Anzeigentexte sauber auf.
 
 ## Drei Ebenen geben Ordnung
@@ -31,10 +27,3 @@ Wir achten darauf, dass die Anzeige auf eine Zielseite führt, die genau zum Suc
 Auf der untersten Ebene formulieren wir die Anzeigentexte. Heute arbeiten wir dabei mit Responsive Suchanzeigen, bei denen wir mehrere Überschriften und Beschreibungen hinterlegen. Google kombiniert diese Bausteine automatisch und testet, welche Zusammenstellung am besten funktioniert. Unsere Aufgabe ist es, genügend vielfältige und relevante Bausteine zu liefern.
 
 Gute Anzeigentexte greifen den Suchbegriff auf, benennen einen klaren Nutzen und enthalten eine eindeutige Handlungsaufforderung. So entsteht eine durchgängige Linie von der Suchanfrage über die Anzeige bis zur Zielseite, die wir im weiteren Verlauf des Moduls noch gezielt für die Anzeigenqualität nutzen.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein vollständiges Beispielkonto mit zwei Kampagnen und mehreren Anzeigengruppen Schritt für Schritt aufbauen
-- Die Keyword-Optionen in einer Vergleichstabelle mit Beispielanfragen gegenüberstellen
-- Eine kleine Übung einfügen, in der Lesende eine Liste ausschließender Keywords für ein fiktives Angebot erstellen
-- Abschnitt zu Best Practices für Responsive Suchanzeigen (Anzahl und Vielfalt der Bausteine) vertiefen

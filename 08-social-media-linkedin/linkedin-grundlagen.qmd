@@ -2,10 +2,6 @@
 
 In dieser Lesson klären wir, warum LinkedIn im B2B-Marketing eine besondere Rolle spielt und wie Markenaufbau und kurzfristige Aktivierung zusammenspielen. Wir lernen die Logik kennen, nach der wirksame B2B-Kampagnen ihr Budget verteilen.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 LinkedIn ist das weltweit größte berufliche Netzwerk mit rund einer Milliarde Mitgliedern, davon über 24 Millionen im deutschsprachigen Raum. Anders als auf rein privaten Plattformen sind Menschen hier in ihrer beruflichen Rolle unterwegs. Wir erreichen sie also genau in dem Moment, in dem sie über Karriere, Weiterbildung, Werkzeuge und Geschäftsentscheidungen nachdenken. Für das B2B-Marketing ist dieser berufliche Kontext der entscheidende Vorteil.
 
 ## Warum LinkedIn im B2B wirkt
@@ -33,10 +29,3 @@ Viele Kampagnen messen nur kurzfristige Abschlüsse und kürzen deshalb zuerst d
 Eng mit der 60/40-Regel verbunden ist der Anteil der eigenen Werbestimme am Markt, der sogenannte Share of Voice. Damit ist gemeint, wie groß der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern eines Marktes ist. Tendenziell wächst ein Unternehmen, wenn sein Share of Voice größer ist als sein aktueller Marktanteil, weil es sich überdurchschnittlich Aufmerksamkeit sichert.
 
 Für die Praxis bedeutet das, kontinuierlich präsent zu bleiben, statt nur in kurzen Kampagnenfenstern aufzutauchen. Dauerhafte Sichtbarkeit baut die mentale Verfügbarkeit auf, die später über den Abschluss entscheidet. Vertiefend ordnet @seebacher2023 diese Prinzipien in die Gesamtstrategie des B2B-Marketings ein.
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein durchgehendes Praxisbeispiel (etwa ein B2B-Softwareanbieter) einführen, das die 60/40-Aufteilung konkret durchrechnet
-- Den Unterschied zwischen organischer Präsenz und bezahlter Reichweite auf LinkedIn in einer Tabelle gegenüberstellen
-- Eine kleine Übung ergänzen, in der ein Budget beispielhaft auf Markenaufbau und Aktivierung aufgeteilt wird
-- Den Zusammenhang von Share of Voice und Marktanteil mit einer Grafik veranschaulichen

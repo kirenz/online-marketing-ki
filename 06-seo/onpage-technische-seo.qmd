@@ -1,9 +1,5 @@
 # On-Page- und technische SEO
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
-:::
-
 Sobald wir wissen, wonach unsere Zielgruppe sucht, gestalten wir unsere Seiten so, dass Menschen und Suchmaschinen sie gleichermaßen gut verstehen. In dieser Lesson kümmern wir uns um Inhalte, Struktur und Technik und ordnen ein, warum Glaubwürdigkeit dabei eine wachsende Rolle spielt.
 
 ## Inhalte und Struktur auf der Seite
@@ -31,10 +27,3 @@ Wir stärken diese Signale konkret, indem wir Urheberschaft sichtbar machen, Que
 ::: {.callout-important title="Substanz vor Technik"}
 Technische Sauberkeit ist die Eintrittskarte, kein Ranking-Garant. Wenn Inhalt und Glaubwürdigkeit fehlen, bringen perfekt gesetzte Tags wenig. Wir investieren deshalb zuerst in echten Mehrwert und sichern ihn technisch ab.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Vorher-Nachher-Beispiel für ein optimiertes Title-Tag und eine Meta-Description ergänzen
-- Checkliste für technische Grundlagen (Sitemap, robots, mobile Nutzbarkeit) als Tabelle einfügen
-- E-E-A-T anhand eines konkreten Seitenbeispiels durchdeklinieren
-- Abschnitt zu strukturierten Daten und Rich Results vertiefen

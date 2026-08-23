@@ -2,10 +2,6 @@
 
 In dieser Lesson lernen wir den Marketing-Mix kennen, das klassische Werkzeugset, mit dem wir eine Marketingstrategie in konkrete Entscheidungen übersetzen.
 
-::: {.callout-note title="Status — Erstentwurf"}
-Erstentwurf aus dem Vorlesungsmaterial und den Quellen. Ausbau-Punkte am Ende.
-:::
-
 Sobald Ziel und Strategie stehen, brauchen wir Werkzeuge für die Umsetzung. Der Marketing-Mix bündelt die zentralen Stellhebel, an denen wir drehen können [@kotler2022]. Traditionell sind das die vier P. Aus Kundensicht lassen sie sich als vier C lesen, was den Perspektivwechsel vom Anbieter zur Kundschaft betont.
 
 ## Die vier P
@@ -43,10 +39,3 @@ Der Marketing-Mix ist wie ein Mischpult im Tonstudio. Jeder Regler steht für ei
 ::: {.callout-important title="Konsistenz vor Einzelmaßnahme"}
 Bevor wir eine einzelne Maßnahme optimieren, prüfen wir, ob sie zum übrigen Mix passt. Eine widerspruchsfreie Gesamtbotschaft schlägt jede einzelne, isoliert perfektionierte Maßnahme.
 :::
-
-## Was als Nächstes ausgebaut werden muss
-
-- Ein konkretes Mix-Beispiel für das durchgehende Kursprojekt durchspielen
-- Erweiterungen des Mix (sieben P für Dienstleistungen) kurz einordnen
-- Verbindung zu den späteren Kanal-Modulen (SEO, Google Ads, Social Media) explizit herstellen
-- Belege und Definitionen aus @kotler2022 ergänzen
