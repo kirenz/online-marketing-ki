@@ -1879,5 +1879,312 @@
       "KI im Marketing",
       "<span class='chapter-number'>31</span>  <span class='chapter-title'>KI-Werkzeuge und Agenten im Arbeitsalltag</span>"
     ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/index.html",
+    "href": "11-marktumfeld-recht-organisation/index.html",
+    "title": "Marktumfeld, Recht und Organisation",
+    "section": "",
+    "text": "Wir wechseln in diesem Modul von der einzelnen Maßnahme auf die Ebene der Führung. Wir klären, wie der Online-Werbemarkt funktioniert und wie eine Kampagne geplant wird, welche Rolle digitale Kanäle in Produkt-, Preis- und Distributionsentscheidungen spielen, welche rechtlichen Pflichten bei Daten, Einwilligung und KI-Einsatz gelten und wie wir Aufgaben zwischen eigenem Team, Agenturen und Werkzeugen verteilen.\nWir werden:\n\ndie Marktpartner, Erlösmodelle und die Fachsprache des Online-Werbemarkts einordnen\nden Planungsprozess einer Online-Kampagne in nachvollziehbaren Schritten durchlaufen\nOnline-Marketing in Produkt-, Preis- und Distributionsentscheidungen einordnen\ndie wichtigsten rechtlichen Pflichten bei Tracking, E-Mail-Werbung und KI-Inhalten benennen\nMake-or-buy-Entscheidungen treffen und Dienstleister sowie KI-Einführungen steuern\n\nQuellen: (Kreutzer und Klose 2025; Lammenett 2025; Chaffey und Ellis-Chadwick 2022; Kingsnorth 2022; Europäisches Parlament und Rat der Europäischen Union 2016, 2024; Bundesrepublik Deutschland 2024, 2010; Gerichtshof der Europäischen Union 2019)\n\n\n\n\nBundesrepublik Deutschland. 2010. „Gesetz gegen den unlauteren Wettbewerb (UWG) in der Fassung der Bekanntmachung vom 3. März 2010 (BGBl. I S. 254)“. 2010. https://www.gesetze-im-internet.de/uwg_2004/.\n\n\n———. 2024. „Gesetz über den Datenschutz und den Schutz der Privatsphäre in der Telekommunikation und bei digitalen Diensten (TDDDG)“. 2024. https://www.gesetze-im-internet.de/ttdsg/.\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nEuropäisches Parlament und Rat der Europäischen Union. 2016. „Verordnung (EU) 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (Datenschutz-Grundverordnung)“. 2016. https://eur-lex.europa.eu/eli/reg/2016/679/oj.\n\n\n———. 2024. „Verordnung (EU) 2024/1689 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (Verordnung über künstliche Intelligenz)“. 2024. https://eur-lex.europa.eu/eli/reg/2024/1689/oj.\n\n\nGerichtshof der Europäischen Union. 2019. „Urteil vom 1. Oktober 2019, Bundesverband der Verbraucherzentralen und Verbraucherverbände (Verbraucherzentrale Bundesverband e.V.) gegen Planet49 GmbH, Rechtssache C-673/17“. 2019. https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli:ECLI%3AEU%3AC%3A2019%3A801.\n\n\nKingsnorth, Simon. 2022. Digital Marketing Strategy: An Integrated Approach to Online Marketing. 3. Aufl. London: Kogan Page.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.\n\n\nLammenett, Erwin. 2025. Praxiswissen Online-Marketing: Affiliate-, Influencer-, Content-, Social-Media-, Amazon-, Voice-, B2B-, Sprachassistenten- und e-Mail-Marketing, Google Ads, SEO, Künstliche Intelligenz.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html",
+    "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html",
+    "title": "32  Der Online-Werbemarkt und der Planungsprozess",
+    "section": "",
+    "text": "32.1 Wer am Online-Werbemarkt beteiligt ist\nWir betrachten zuerst den Markt, auf dem Online-Werbung gehandelt wird, und danach den Prozess, in dem eine Kampagne entsteht. Wer Budgets freigibt und Ergebnisse bewertet, sollte wissen, wer welche Leistung erbringt, wie abgerechnet wird und in welcher Reihenfolge Entscheidungen fallen.\nAm Anfang der Kette stehen die Werbungtreibenden, also die Unternehmen, die ein Budget einsetzen, um ein Produkt bekannt zu machen. Ihnen zur Seite stehen Agenturen, die je nach Zuschnitt Strategie, Kreation, Mediaeinkauf oder Technik übernehmen. Auf der Gegenseite stehen Publisher, also Medienhäuser und Websitebetreiber, sowie Vermarkter, die deren Werbeplätze bündeln und verkaufen (Kreutzer und Klose 2025).\nEinen Sonderfall bilden die großen Plattformen wie Suchmaschinen, soziale Netzwerke und Handelsplattformen. Sie treten gleichzeitig als Publisher, als Vermarkter und als Messsystem auf. Weil Daten, Auslieferung und Erfolgsmessung dort in einem geschlossenen System liegen, sprechen wir von Walled Gardens, also von ummauerten Gärten. Ein großer Teil der weltweiten Online-Werbeinvestitionen konzentriert sich auf wenige solcher Anbieter, was die Verhandlungsposition einzelner Werbungtreibender begrenzt (Chaffey und Ellis-Chadwick 2022).\nDazwischen arbeitet die Werbetechnik, kurz Ad-Tech. Eine Demand-Side-Platform (DSP) ist das Einkaufssystem der Werbungtreibenden, eine Supply-Side-Platform (SSP) das Verkaufssystem der Publisher, und ein Ad Exchange ist der Handelsplatz dazwischen. Ergänzend prüfen Messdienstleister, ob Werbung sichtbar war und in welchem Umfeld sie erschienen ist.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#wie-abgerechnet-wird",
+    "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#wie-abgerechnet-wird",
+    "title": "32  Der Online-Werbemarkt und der Planungsprozess",
+    "section": "32.2 Wie abgerechnet wird",
+    "text": "32.2 Wie abgerechnet wird\nDie Abrechnungsmodelle unterscheiden sich darin, wofür bezahlt wird. Beim Tausend-Kontakt-Preis (TKP) zahlen wir für tausend Kontakte, unabhängig von einer Reaktion, was zu Zielen der Bekanntheit passt. Klassisch rechnet der TKP je tausend erreichte Kontakte, der englische Cost per Mille (CPM) je tausend Einblendungen; online werden beide Begriffe meist gleichgesetzt. Beim Cost per Click (CPC) zahlen wir erst, wenn jemand klickt, beim Cost per Action (CPA) erst, wenn eine definierte Handlung erfolgt, etwa eine Anfrage oder ein Kauf. Im Affiliate-Bereich ist zusätzlich eine Umsatzbeteiligung (Revenue Share) üblich, bei der Partner einen Prozentsatz des vermittelten Umsatzes erhalten (Lammenett 2025).\nJe weiter das Modell in Richtung Handlung rückt, desto mehr Risiko trägt der Vermarkter und desto höher fällt der Preis pro Kontakt aus. Wir wählen deshalb nicht nach dem günstigsten Einheitspreis, sondern nach dem Kampagnenziel.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#programmatic-advertising-als-grundprinzip",
+    "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#programmatic-advertising-als-grundprinzip",
+    "title": "32  Der Online-Werbemarkt und der Planungsprozess",
+    "section": "32.3 Programmatic Advertising als Grundprinzip",
+    "text": "32.3 Programmatic Advertising als Grundprinzip\nDer größte Teil der Werbeplätze wird heute nicht einzeln verhandelt, sondern automatisiert gehandelt. Ruft jemand eine Seite auf, meldet die SSP den freien Platz, mehrere DSPs geben nach hinterlegten Regeln ein Gebot ab, und in wenigen Millisekunden steht fest, welches Werbemittel ausgeliefert wird. Diesen Ablauf nennen wir Programmatic Advertising. Nicht jeder programmatische Einkauf ist eine Auktion: Bei Programmatic Guaranteed und bei Preferred Deals vereinbaren beide Seiten Volumen und Preis vorab, und die Technik übernimmt nur die Auslieferung. Wo versteigert wird, gilt heute überwiegend das Erstpreisverfahren (First Price), bei dem der Zuschlag zum abgegebenen Gebot erfolgt.\n\n\n\n\n\n\nTippAnalogie: Die Auktion im Handelssaal\n\n\n\nWir stellen uns eine Börse vor, an der pausenlos winzige Posten versteigert werden. Jeder Seitenaufruf ist ein solcher Posten, jedes Gebot folgt einer vorher festgelegten Order, und der Zuschlag fällt, bevor die Seite fertig geladen ist. Wir handeln an dieser Börse nicht selbst, sondern hinterlegen Regeln: Was ist uns ein Kontakt wert, in welchem Umfeld, bei welcher Zielgruppe.\n\n\n\n\n\n\n\n\nWichtigDie Plattform misst ihren eigenen Erfolg\n\n\n\nZahlen aus dem Werbekonto einer Plattform sind zugleich Leistungsnachweis des Verkäufers. Wir vergleichen sie deshalb mit eigenen Daten aus Webanalyse und Kundendatenbank und stützen wichtige Entscheidungen nicht allein auf die Berichte eines einzelnen Anbieters.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#der-planungsprozess-in-acht-schritten",
+    "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#der-planungsprozess-in-acht-schritten",
+    "title": "32  Der Online-Werbemarkt und der Planungsprozess",
+    "section": "32.4 Der Planungsprozess in acht Schritten",
+    "text": "32.4 Der Planungsprozess in acht Schritten\nEine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Das folgende Raster lässt sich auf jede Kanalentscheidung anwenden (Kreutzer und Klose 2025; Chaffey und Ellis-Chadwick 2022).\n\n\n\n\n\n\n\n\nSchritt\nLeitfrage\nErgebnis\n\n\n\n\n1 Situationsanalyse\nWo stehen wir in Markt und Wettbewerb?\nLagebild\n\n\n2 Ziele\nWas wollen wir messbar erreichen?\nZielsystem mit Kennzahlen\n\n\n3 Zielgruppen\nWen genau wollen wir erreichen?\nSegmente und Personas\n\n\n4 Strategie und Positionierung\nWofür stehen wir, welches Versprechen geben wir?\nPositionierungsaussage\n\n\n5 Kanäle und Maßnahmen\nWelche Kanäle, welche Inhalte?\nKanalmix und Maßnahmenplan\n\n\n6 Budget\nWie viel, wie verteilt?\nBudgetplan\n\n\n7 Umsetzung\nWer macht was bis wann?\nZeit- und Verantwortungsplan\n\n\n8 Controlling\nWirkt es, was ändern wir?\nReporting und Anpassungen\n\n\n\nDie Schritte laufen in der Praxis nicht streng nacheinander ab, sondern in Schleifen. Entscheidend ist, dass kein Schritt übersprungen wird. Kampagnen scheitern selten an der Kreation, häufig aber daran, dass Ziele unscharf blieben oder das Controlling erst nach Ende der Laufzeit einsetzte.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#die-fachsprache-des-werbemarkts",
+    "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#die-fachsprache-des-werbemarkts",
+    "title": "32  Der Online-Werbemarkt und der Planungsprozess",
+    "section": "32.5 Die Fachsprache des Werbemarkts",
+    "text": "32.5 Die Fachsprache des Werbemarkts\nIn Angeboten und Reportings begegnen uns immer dieselben Begriffe. Die folgende Übersicht hilft, Angebote zu vergleichen und Rückfragen präzise zu stellen. Conversion und Attribution, also die gewünschte Handlung und ihre Zuordnung zu den Kontaktpunkten, behandeln wir im Modul zur Web-Analytik ausführlich.\n\n\n\n\n\n\n\nBegriff\nBedeutung\n\n\n\n\nImpression\nEine einzelne Einblendung eines Werbemittels\n\n\nReichweite\nZahl der erreichten Personen, praktisch gemessen als Unique Users, also als unterschiedliche Nutzerkennungen oder Geräte\n\n\nFrequenz\nDurchschnittliche Zahl der Kontakte je erreichter Person\n\n\nTKP oder CPM\nPreis für tausend Kontakte beziehungsweise Einblendungen\n\n\nCTR (Click-Through-Rate)\nAnteil der Klicks an den Einblendungen\n\n\nCPC (Cost per Click)\nPreis für einen Klick\n\n\nCPA (Cost per Action)\nKosten für eine ausgelöste Handlung, etwa Kauf oder Anfrage\n\n\nROAS (Return on Ad Spend)\nUmsatz je eingesetztem Euro Werbebudget",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#was-als-nächstes-ausgebaut-werden-muss",
+    "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#was-als-nächstes-ausgebaut-werden-muss",
+    "title": "32  Der Online-Werbemarkt und der Planungsprozess",
+    "section": "32.6 Was als Nächstes ausgebaut werden muss",
+    "text": "32.6 Was als Nächstes ausgebaut werden muss\n\nEin durchgerechnetes Beispiel ergänzen, das TKP, CPC und CPA für dieselbe Kampagne gegenüberstellt\nDen Ablauf einer Programmatic-Auktion als Grafik einbinden, inklusive der Rollen von DSP, SSP und Ad Exchange sowie der Abgrenzung zu Programmatic Guaranteed\nEine Vorlage für ein Kampagnenbriefing ergänzen, die den achtstufigen Planungsprozess abbildet\nAktuelle Marktzahlen zu Investitionsanteilen der Kanäle mit Quelle und Erhebungsjahr nachtragen\n\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.\n\n\nLammenett, Erwin. 2025. Praxiswissen Online-Marketing: Affiliate-, Influencer-, Content-, Social-Media-, Amazon-, Voice-, B2B-, Sprachassistenten- und e-Mail-Marketing, Google Ads, SEO, Künstliche Intelligenz.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html",
+    "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html",
+    "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
+    "section": "",
+    "text": "33.1 Digitale Produkte und Services\nOnline-Marketing ist mehr als Kommunikation. Digitale Kanäle verändern auch, welche Produkte wir anbieten, wie wir Preise setzen und über welche Wege wir verkaufen. Wir ordnen diese drei Felder des Marketing-Mix ein. Als Beispiel, das uns durch dieses Kapitel begleitet, dient eine kleine Kaffeerösterei, die neben ihrem Ladengeschäft einen Onlineshop mit Abo betreibt.\nDigitale Leistungen lassen sich nahezu ohne Zusatzkosten vervielfältigen. Daraus entstehen Angebotsformen, die es im rein physischen Geschäft so nicht gibt. Beim Versioning bieten wir dieselbe Leistung in mehreren Ausbaustufen an, etwa als Basis-, Profi- und Unternehmensversion, und lassen die Kundschaft selbst wählen, wie viel Funktionsumfang sie braucht. Beim Freemium-Modell ist eine Grundversion dauerhaft kostenlos, während Zusatzfunktionen bezahlt werden. Abo-Modelle verschieben den Fokus vom Einzelkauf auf eine laufende Beziehung, und Bundling fasst mehrere Leistungen zu einem Paket zusammen (Kreutzer und Klose 2025).\nAuch physische Produkte gewinnen digitale Anteile. Die Rösterei verkauft nicht nur Bohnen, sondern liefert Herkunftsangaben, Röstprofile und Zubereitungsanleitungen mit. Diese Zusatzleistungen kosten wenig, verbessern aber die Auffindbarkeit im Netz und geben einen Grund, sich für genau diesen Anbieter zu entscheiden.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#plattformen-und-marktplätze",
+    "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#plattformen-und-marktplätze",
+    "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
+    "section": "33.2 Plattformen und Marktplätze",
+    "text": "33.2 Plattformen und Marktplätze\nEin erheblicher Teil der Produktsuche beginnt heute nicht auf einer Website, sondern direkt auf einer Handelsplattform, in einem App-Store oder auf einem B2B-Marktplatz. Wer dort verkauft, erreicht sofort viele Suchende, gibt aber Kontrolle ab: Die Plattform bestimmt Sichtbarkeit, Regeln und Gebühren, und sie kennt die Kundschaft oft besser als der Anbieter selbst (Chaffey und Ellis-Chadwick 2022).\nSichtbarkeit auf Plattformen ist zudem selbst zu einer Werbeleistung geworden. Unter Retail Media verstehen wir Werbeplätze innerhalb von Handelsumgebungen, etwa hervorgehobene Produktplatzierungen in Suchergebnissen eines Marktplatzes. Der Platz im digitalen Regal wird damit gekauft statt nur verdient.\n\n\n\n\n\n\nTippAnalogie: Marktstand oder eigenes Ladenlokal\n\n\n\nEin Stand auf dem Wochenmarkt bringt uns sofort Laufkundschaft, doch Standgebühr, Öffnungszeiten und Platzvergabe bestimmt der Markt. Ein eigenes Ladenlokal müssen wir selbst bewerben, dafür gehören uns Auslage, Preisschild und Kundenkontakt. Marktplatz und eigener Onlineshop verhalten sich genauso zueinander, und die meisten Unternehmen brauchen beides.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#preispolitik-im-digitalen-umfeld",
+    "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#preispolitik-im-digitalen-umfeld",
+    "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
+    "section": "33.3 Preispolitik im digitalen Umfeld",
+    "text": "33.3 Preispolitik im digitalen Umfeld\nPreise sind online in Sekunden vergleichbar. Preisvergleichsportale und Marktplatzlisten stellen Angebote nebeneinander, wodurch der Preis stärker in den Vordergrund rückt und Differenzierung über Leistung, Service und Marke wichtiger wird. Gleichzeitig lassen sich Preise technisch leicht ändern. Dynamische Preisbildung passt Preise an Nachfrage, Lagerbestand oder Wettbewerb an, und Personalisierung geht noch einen Schritt weiter, indem sie den Preis an einzelnen Nutzungsprofilen ausrichtet (Kreutzer und Klose 2025).\n\n\n\n\n\n\nWichtigPreisdifferenzierung braucht eine erklärbare Logik\n\n\n\nKundschaft akzeptiert unterschiedliche Preise, wenn ein nachvollziehbarer Grund erkennbar ist, etwa Menge, Vertragslaufzeit oder Buchungszeitpunkt. Preise, die ohne sichtbaren Grund je Person variieren, beschädigen Vertrauen. Wer Preise auf Basis einer automatisierten Entscheidungsfindung personalisiert, muss darüber zudem informieren (Art. 246a § 1 Abs. 1 Satz 1 Nr. 6 EGBGB). Das Kapitel zum Recht ordnet diese Informationspflichten ein.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#distribution-eigener-kanal-plattform-oder-handel",
+    "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#distribution-eigener-kanal-plattform-oder-handel",
+    "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
+    "section": "33.4 Distribution: eigener Kanal, Plattform oder Handel",
+    "text": "33.4 Distribution: eigener Kanal, Plattform oder Handel\nBei der Distribution entscheiden wir, über welchen Weg das Produkt zur Kundschaft gelangt. Direct-to-Consumer bedeutet den Verkauf über den eigenen Shop, ohne Zwischenstufe. Der Marktplatz bringt Reichweite gegen Provision. Der stationäre Handel bleibt für Beratung und spontanen Kauf relevant. Omnichannel verbindet diese Wege so, dass Bestand, Preise und Kundenkonto über alle Kontaktpunkte hinweg zusammenpassen (Lammenett 2025).\n\n\n\n\n\n\n\n\n\nWeg\nMarge\nKontrolle\nReichweite\n\n\n\n\nEigener Onlineshop\nhoch\nhoch, eigene Daten und Preisgestaltung\ngering, muss aufgebaut werden\n\n\nMarktplatz oder App-Store\nniedrig, Provision und Werbekosten\ngering, Regeln der Plattform gelten\nhoch, vorhandene Suchnachfrage\n\n\nStationärer Handel\nmittel, Handelsspanne\nmittel, begrenzter Einfluss auf Präsentation\nregional begrenzt\n\n\nAbo über eigenen Shop\nhoch, planbarer Umsatz\nhoch, direkte Kundenbeziehung\nwächst langsam, dafür stabil\n\n\n\nFür die Rösterei bedeutet das eine bewusste Mischung: Der Marktplatz bringt neue Kundschaft, das Abo im eigenen Shop sichert wiederkehrenden Umsatz mit planbarer Nachlieferung (Replenishment), und der Laden bleibt Ort für Verkostung und Beratung.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#internationalisierung-was-sich-je-markt-ändert",
+    "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#internationalisierung-was-sich-je-markt-ändert",
+    "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
+    "section": "33.5 Internationalisierung: was sich je Markt ändert",
+    "text": "33.5 Internationalisierung: was sich je Markt ändert\nSobald wir über Grenzen hinweg verkaufen, stellt sich zuerst die Frage der Markteintrittsform: Export über einen Marktplatz, Zusammenarbeit mit einem Distributor, ein eigener Shop je Land oder eine Tochtergesellschaft. Die Reihenfolge beschreibt zugleich die Abwägung, denn mit jeder Stufe steigen Kontrolle und Nähe zur Kundschaft, aber auch Investition und gebundene Ressourcen. Danach kommen drei operative Fragen hinzu. Erstens die Lokalisierung: Sprache, Maßeinheiten, Bildwelt und Ansprache müssen zum Markt passen, eine reine Übersetzung reicht selten. Zweitens die Kanalwahl, denn führende Suchmaschinen, soziale Netzwerke und Marktplätze unterscheiden sich je Land erheblich. Drittens die Abwicklung, weil bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln häufiger über den Kaufabbruch entscheiden als die Produktseite selbst (Kingsnorth 2022).",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#was-als-nächstes-ausgebaut-werden-muss",
+    "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#was-als-nächstes-ausgebaut-werden-muss",
+    "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
+    "section": "33.6 Was als Nächstes ausgebaut werden muss",
+    "text": "33.6 Was als Nächstes ausgebaut werden muss\n\nEine Deckungsbeitragsrechnung für Eigenshop, Marktplatz und Abo am Beispiel der Rösterei ergänzen\nRetail Media als eigenen Abschnitt mit Anzeigenformaten und Steuerungslogik vertiefen\nEine Checkliste für die Markteintrittsprüfung in einem zweiten Land ergänzen\nBeispiele für Versioning und Bundling aus dem B2B-Software-Umfeld nachtragen\n\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKingsnorth, Simon. 2022. Digital Marketing Strategy: An Integrated Approach to Online Marketing. 3. Aufl. London: Kogan Page.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.\n\n\nLammenett, Erwin. 2025. Praxiswissen Online-Marketing: Affiliate-, Influencer-, Content-, Social-Media-, Amazon-, Voice-, B2B-, Sprachassistenten- und e-Mail-Marketing, Google Ads, SEO, Künstliche Intelligenz.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "",
+    "text": "34.1 Die Grundprinzipien der Datenschutz-Grundverordnung\nDigitales Marketing arbeitet mit personenbezogenen Daten, mit Werbung in fremden Postfächern und zunehmend mit maschinell erzeugten Inhalten. Für alle drei Bereiche gibt es klare Regeln. Wir verschaffen uns einen Überblick, der ausreicht, um Vorhaben einzuordnen, Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden.\nDie Datenschutz-Grundverordnung (DSGVO) erlaubt die Verarbeitung personenbezogener Daten nur, wenn eine Rechtsgrundlage vorliegt. Für das Marketing sind drei Grundlagen praktisch bedeutsam: die Einwilligung, die Erfüllung eines Vertrags und das berechtigte Interesse (Europäisches Parlament und Rat der Europäischen Union 2016).\nHinzu kommen Grundsätze, die unabhängig von der Rechtsgrundlage gelten: Zweckbindung erlaubt die Nutzung nur für den Zweck der Erhebung, Datenminimierung begrenzt den Umfang auf das Nötige, Speicherbegrenzung verlangt Löschfristen. Die Informationspflichten sorgen dafür, dass betroffene Personen verständlich erfahren, wer welche Daten wofür verarbeitet und an wen sie weitergegeben werden.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#die-grundprinzipien-der-datenschutz-grundverordnung",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#die-grundprinzipien-der-datenschutz-grundverordnung",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "",
+    "text": "Rechtsgrundlage\nTypischer Fall im Marketing\nWorauf wir achten\n\n\n\n\nEinwilligung (Art. 6 Abs. 1 lit. a)\nNewsletter, Tracking über das technisch Notwendige hinaus\nfreiwillig, informiert, durch aktive Handlung, jederzeit widerrufbar, nachweisbar\n\n\nVertrag (Art. 6 Abs. 1 lit. b)\nBestellabwicklung, Kundenkonto, Versandinformationen\nnur Daten, die für die Leistung erforderlich sind\n\n\nBerechtigtes Interesse (Art. 6 Abs. 1 lit. f)\nMissbrauchsabwehr, interne Auswertungen in engem Rahmen\ndokumentierte Abwägung, Widerspruchsrecht beachten\n\n\n\n\n\n\n\n\n\n\nTippAnalogie: Der Besucherausweis am Empfang\n\n\n\nEine Einwilligung funktioniert wie ein Besucherausweis. Er wird bewusst ausgestellt, gilt für einen bestimmten Bereich und für eine bestimmte Zeit, und er lässt sich zurückgeben. Niemand betritt das Gebäude, weil der Ausweis schon vorbereitet auf dem Tresen lag. Genauso wenig entsteht eine Einwilligung durch ein vorausgefülltes Kästchen.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#einwilligung-beim-tracking",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#einwilligung-beim-tracking",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "34.2 Einwilligung beim Tracking",
+    "text": "34.2 Einwilligung beim Tracking\nFür Zugriffe auf das Endgerät gilt in Deutschland zusätzlich das Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG, früher TTDSG). Nach dessen § 25 dürfen Informationen auf einem Endgerät nur gespeichert oder ausgelesen werden, wenn eine Einwilligung vorliegt. Ausgenommen sind Vorgänge, die für den ausdrücklich gewünschten Dienst unbedingt erforderlich sind, etwa der Warenkorb eines Shops. Reichweitenmessung, Werbe-Cookies und ähnliche Techniken fallen nicht darunter (Bundesrepublik Deutschland 2024).\nDer Europäische Gerichtshof hat im Verfahren Planet49 zwei Punkte geklärt: Ein vorangekreuztes Kästchen ist keine wirksame Einwilligung, und über die Speicherdauer sowie den Zugriff Dritter ist zu informieren (Gerichtshof der Europäischen Union 2019). Für heutige Einwilligungsbanner folgt daraus die aktive Handlung statt einer Voreinstellung. Dass Ablehnen genauso einfach erreichbar sein muss wie Zustimmen und der Widerruf so leicht wie die Zustimmung, ergibt sich nicht aus diesem Urteil, sondern aus den Vorgaben der Aufsichtsbehörden, also des Europäischen Datenschutzausschusses (EDSA) und der Datenschutzkonferenz (DSK). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge überhaupt laden.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#e-mail-marketing",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#e-mail-marketing",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "34.3 E-Mail-Marketing",
+    "text": "34.3 E-Mail-Marketing\nWerbliche E-Mails setzen nach § 7 Abs. 2 Nr. 2 UWG eine vorherige ausdrückliche Einwilligung voraus. In der Praxis sichern wir sie über das Double-Opt-in-Verfahren: Nach der Anmeldung folgt eine Bestätigungsmail, erst der Klick darin schaltet den Versand frei, und damit ist zugleich der Nachweis geführt (Bundesrepublik Deutschland 2010).\nEine eng gefasste Ausnahme für Bestandskundschaft enthält § 7 Abs. 3 UWG. Sie greift nur, wenn alle vier Voraussetzungen erfüllt sind: Die Adresse wurde im Zusammenhang mit dem Verkauf einer Ware oder Dienstleistung erhoben, sie wird für Direktwerbung für eigene ähnliche Waren oder Dienstleistungen genutzt, die Kundschaft hat nicht widersprochen, und sie wurde bei Erhebung und bei jeder Verwendung klar auf das Widerspruchsrecht hingewiesen.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#messen-ohne-cookies-von-drittanbietern",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#messen-ohne-cookies-von-drittanbietern",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "34.4 Messen ohne Cookies von Drittanbietern",
+    "text": "34.4 Messen ohne Cookies von Drittanbietern\nCookies fremder Anbieter verlieren an Bedeutung, teils durch Browsereinstellungen, teils durch rechtliche Vorgaben. Der Schwerpunkt verschiebt sich auf eigene Daten aus Shop, Kundenkonto und Newsletter, die wir mit Einwilligung erheben und selbst verwalten. Serverseitiges Tagging verlagert die Datenübergabe auf einen eigenen Server, ersetzt die Einwilligung aber nicht. Fehlende Signale werden von Werbeplattformen zunehmend über Modellierung geschätzt, etwa im Rahmen eines Einwilligungsmodus (Consent Mode). Chrome hat die vollständige Abschaltung der Cookies von Drittanbietern zurückgenommen, die Richtung bleibt aber bestehen: Einwilligung und eigene Daten tragen die Messung, nicht fremde Kennungen. Welche browserseitigen Ersatzverfahren sich durchsetzen, ist offen, weshalb wir Auswertungen so aufbauen, dass sie auch mit unvollständigen Daten belastbar bleiben.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#ki-transparenz-nach-dem-ai-act",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#ki-transparenz-nach-dem-ai-act",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "34.5 KI-Transparenz nach dem AI Act",
+    "text": "34.5 KI-Transparenz nach dem AI Act\nDie KI-Verordnung der Europäischen Union, die Verordnung (EU) 2024/1689 (AI Act), ordnet Anwendungen nach Risiko: Einige Praktiken sind verboten, Hochrisiko-Anwendungen unterliegen strengen Anforderungen, für weitere Systeme gelten Transparenzpflichten (Europäisches Parlament und Rat der Europäischen Union 2024). Ein eigenes Regime betrifft KI-Modelle mit allgemeinem Verwendungszweck (General Purpose AI, GPAI), also die großen Sprach- und Bildmodelle, deren Anbieter Dokumentations- und Urheberrechtspflichten treffen.\nFür das Marketing ist Artikel 50 einschlägig, und er verteilt die Pflichten auf Anbieter und Betreiber. Anbieter trifft zweierlei: Systeme, die direkt mit Menschen interagieren, müssen so gestaltet sein, dass die betroffenen Personen das erkennen (Absatz 1), und synthetische Ausgaben sind maschinenlesbar als künstlich erzeugt oder bearbeitet zu markieren (Absatz 2). Beides leistet das Werkzeug, nicht das Marketingteam, woraus für uns eine Beschaffungsfrage wird: Einen Chatbot kaufen oder konfigurieren wir nur so, dass er für Nutzende erkennbar als KI auftritt, und ein Bildwerkzeug wählen wir danach, ob es seine Ausgaben markiert.\nAls Betreiber trifft uns vor allem Absatz 4. Wer täuschend echte Darstellungen realer Personen, Objekte oder Orte veröffentlicht, also Deepfakes, legt offen, dass der Inhalt künstlich erzeugt oder verändert wurde; für veröffentlichte KI-Texte zu Angelegenheiten von öffentlichem Interesse gilt eine entsprechende Offenlegung. Absatz 3 betrifft Emotionserkennung und biometrische Kategorisierung und spielt im Marketing selten eine Rolle. Eine allgemeine Pflicht, jedes mit KI erstellte Werbebild zu kennzeichnen, folgt aus alldem nicht.\nDie Verordnung ist am 1. August 2024 in Kraft getreten und gilt gestuft. Die verbotenen Praktiken greifen seit dem 2. Februar 2025, die Pflichten für GPAI-Modelle seit dem 2. August 2025, und Artikel 50 sowie die meisten übrigen Pflichten gelten nach derzeitigem Stand ab dem 2. August 2026 (Artikel 113). Anpassungen einzelner Fristen werden auf EU-Ebene diskutiert; maßgeblich ist der Stand zum jeweiligen Zeitpunkt.\nBereits in Kraft ist dagegen Artikel 4: Anbieter und Betreiber sorgen dafür, dass ihr Personal über ein ausreichendes Maß an KI-Kompetenz verfügt, gemessen an Vorkenntnissen, Aufgabe und Einsatzkontext. Diese Pflicht gilt seit dem 2. Februar 2025 und trifft damit auch Marketingteams, die generative Werkzeuge einsetzen, weshalb wir Schulung im Kapitel zur Organisation fest in den Pilotversuch einplanen.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#werbekennzeichnung-und-haftung",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#werbekennzeichnung-und-haftung",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "34.6 Werbekennzeichnung und Haftung",
+    "text": "34.6 Werbekennzeichnung und Haftung\nUnabhängig vom Datenschutz gilt das Wettbewerbsrecht: Werbung muss als Werbung erkennbar sein, auch in Beiträgen von Kooperationspartnern, und irreführende Angaben zu Eigenschaften, Verfügbarkeit oder Preisen sind unzulässig. Bei KI-erzeugten Inhalten kommt hinzu, dass Modelle Fakten erfinden und fremde Marken oder Personenbildnisse einbauen können. Die Verantwortung für Veröffentlichtes bleibt beim Unternehmen, weshalb jede Ausgabe vor der Verwendung geprüft wird (Kreutzer und Klose 2025).\n\n\n\n\n\n\nWichtigKurzcheck vor dem Kampagnenstart\n\n\n\nVier Fragen klären wir vor jeder Kampagne: Erstens, liegt für jede Datenverarbeitung eine Rechtsgrundlage vor, und wird die Einwilligung sauber eingeholt und dokumentiert? Zweitens, sind Impressum, Datenschutzhinweise und Werbekennzeichnung vollständig? Drittens, welche Daten fließen an welche Dienstleister, und bestehen die nötigen Verträge? Viertens, sind Deepfakes offengelegt, und tritt ein eingesetzter Chatbot für Nutzende erkennbar als KI auf?\n\n\n\n\n\n\n\n\nHinweisEinordnung\n\n\n\nDieses Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung. Bei konkreten Vorhaben ziehen wir juristische Fachkunde hinzu.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#was-als-nächstes-ausgebaut-werden-muss",
+    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#was-als-nächstes-ausgebaut-werden-muss",
+    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
+    "section": "34.7 Was als Nächstes ausgebaut werden muss",
+    "text": "34.7 Was als Nächstes ausgebaut werden muss\n\nEine kommentierte Beispielstruktur für ein Einwilligungsbanner mit den erforderlichen Angaben ergänzen\nDen Umgang mit Auftragsverarbeitung und Drittlandtransfers als eigenen Abschnitt aufnehmen\nEine Übersicht der Betroffenenrechte mit Fristen und Zuständigkeiten im Unternehmen ergänzen\nDie auf EU-Ebene diskutierten Anpassungen der AI-Act-Fristen vor Semesterbeginn prüfen und den Stand nachziehen\n\n\n\n\n\nBundesrepublik Deutschland. 2010. „Gesetz gegen den unlauteren Wettbewerb (UWG) in der Fassung der Bekanntmachung vom 3. März 2010 (BGBl. I S. 254)“. 2010. https://www.gesetze-im-internet.de/uwg_2004/.\n\n\n———. 2024. „Gesetz über den Datenschutz und den Schutz der Privatsphäre in der Telekommunikation und bei digitalen Diensten (TDDDG)“. 2024. https://www.gesetze-im-internet.de/ttdsg/.\n\n\nEuropäisches Parlament und Rat der Europäischen Union. 2016. „Verordnung (EU) 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (Datenschutz-Grundverordnung)“. 2016. https://eur-lex.europa.eu/eli/reg/2016/679/oj.\n\n\n———. 2024. „Verordnung (EU) 2024/1689 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (Verordnung über künstliche Intelligenz)“. 2024. https://eur-lex.europa.eu/eli/reg/2024/1689/oj.\n\n\nGerichtshof der Europäischen Union. 2019. „Urteil vom 1. Oktober 2019, Bundesverband der Verbraucherzentralen und Verbraucherverbände (Verbraucherzentrale Bundesverband e.V.) gegen Planet49 GmbH, Rechtssache C-673/17“. 2019. https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli:ECLI%3AEU%3AC%3A2019%3A801.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html",
+    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html",
+    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
+    "section": "",
+    "text": "35.1 Rollen und Kompetenzen\nDigitales Marketing gelingt selten an einer einzigen Stelle im Unternehmen. Es braucht mehrere Kompetenzen, klare Zuständigkeiten und die Entscheidung, was wir selbst aufbauen und was wir einkaufen. In dieser Lesson klären wir die Rollen, die Kriterien für Make-or-buy, die Steuerung von Dienstleistern und den geordneten Einstieg in KI-Werkzeuge.\nAuch in kleinen Teams lassen sich sechs Aufgabenbündel unterscheiden. Die Strategie legt Ziele, Zielgruppen und Positionierung fest und verantwortet das Budget. Content erstellt Texte, Bilder und Videos und pflegt den Redaktionsplan. Performance und Media planen, buchen und optimieren bezahlte Kampagnen. Analytics richtet die Messung ein, prüft Datenqualität und liefert Auswertungen. MarTech (Marketing Technology) und Operations betreiben die Werkzeuge, halten Schnittstellen am Laufen und sorgen für saubere Datenflüsse. Recht und Compliance prüfen Einwilligungen, Verträge und Kennzeichnung (Chaffey und Ellis-Chadwick 2022).\nEntscheidend ist weniger, wie viele Personen diese Bündel abdecken, als dass jedes Bündel eine namentlich benannte Zuständigkeit hat. Aufgaben ohne Namen bleiben liegen, besonders Analytics und Compliance.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#make-or-buy-die-entscheidungskriterien",
+    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#make-or-buy-die-entscheidungskriterien",
+    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
+    "section": "35.2 Make-or-buy: die Entscheidungskriterien",
+    "text": "35.2 Make-or-buy: die Entscheidungskriterien\nFünf Kriterien führen zu einer begründeten Entscheidung. Erstens die Nähe zur Kernkompetenz: Was unsere Positionierung ausmacht, gehört ins Haus. Zweitens die Frequenz: Laufende Aufgaben rechtfertigen eigenen Aufbau, seltene Spitzen eher den Einkauf. Drittens das Spezialwissen: Manche Felder ändern sich so schnell, dass Einzelpersonen sie nicht nebenbei mitführen können. Viertens die Kosten im Vollbild, also inklusive Einarbeitung, Werkzeugen und Ausfallrisiko. Fünftens der Zugang zu Daten und Plattformen, denn wer die Konten hält, hält die Kundenbeziehung (Kingsnorth 2022).\n\n\n\n\n\n\n\n\nAufgabe\nEmpfehlung\nBegründung\n\n\n\n\nStrategie, Positionierung, Budgetsteuerung\nMake\nKernkompetenz, nicht delegierbar\n\n\nBezahlte Kampagnen in mehreren Kanälen\nHybrid\nSteuerung intern, Umsetzung und Optimierung extern\n\n\nAufwendige Video- und Bildproduktion\nBuy\nselten benötigt, hoher Werkzeug- und Personalaufwand\n\n\nLaufende Inhalte und Kundenkommunikation\nMake\nNähe zum Produkt und zur Kundschaft nötig\n\n\nTechnische Einrichtung von Messung und Schnittstellen\nHybrid\neinmalig extern aufsetzen, intern betreiben\n\n\nRechtliche Prüfung heikler Vorhaben\nBuy\nFachkunde, seltener Bedarf\n\n\n\n\n\n\n\n\n\nTippAnalogie: Eigene Werkbank oder Fachbetrieb\n\n\n\nEine Werkstatt hält Werkzeuge für alles vor, was täglich anfällt. Für den Spezialauftrag, der zweimal im Jahr vorkommt und eine teure Maschine verlangt, fährt sie zum Fachbetrieb. Sie gibt dabei nicht die Verantwortung ab, sondern beschreibt genau, was gebraucht wird, und prüft das Ergebnis bei der Abnahme.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#agenturen-und-dienstleister-steuern",
+    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#agenturen-und-dienstleister-steuern",
+    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
+    "section": "35.3 Agenturen und Dienstleister steuern",
+    "text": "35.3 Agenturen und Dienstleister steuern\nGute Zusammenarbeit beginnt beim Briefing. Es beschreibt Ausgangslage, Ziel, Zielgruppe, Botschaft, Budget, Termine und die Kriterien, an denen wir den Erfolg messen. Im Vertrag halten wir fest, welche Kennzahlen gelten und wie oft berichtet wird. Bei der Vergütung sind mehrere Formen üblich: ein fester Betrag je Leistungspaket, ein Stundensatz für einzelne Aufgaben, ein Retainer als monatliche Pauschale für laufende Betreuung, ein erfolgsabhängiger Anteil sowie eine prozentuale Beteiligung am Mediavolumen. Jedes Modell setzt eigene Anreize. Erfolgsabhängige Modelle verleiten dazu, jene Kanäle zu bevorzugen, die kurzfristige Abschlüsse zeigen. Eine Beteiligung am Mediavolumen belohnt höhere Ausgaben und nicht das bessere Ergebnis, weshalb wir sie nur mit klaren Zielwerten und Obergrenzen vereinbaren (Kreutzer und Klose 2025).\nGerade weil die Vergütung Anreize setzt, ist Transparenz über die Mediabudgets unverzichtbar. Wir lassen uns ausweisen, wie viel tatsächlich in Werbeplätze geflossen ist und wie viel in Dienstleistung, und wir vereinbaren einen festen Berichtsrhythmus statt Berichte nur auf Nachfrage. Der Ausstieg wird bereits im Vertrag geregelt: Kündigungsfristen, Übergabe der Daten, Dokumentation der laufenden Kampagnen.\n\n\n\n\n\n\nWichtigKonten und Daten gehören dem Unternehmen\n\n\n\nWerbekonten, Analysewerkzeuge, Domains und Datenbestände werden auf das Unternehmen angelegt, und Dienstleister erhalten Zugriff als Nutzer. Wer diesen Punkt beim Start übergeht, verliert bei einem Wechsel Verläufe, Zielgruppenlisten und Lernkurve der Kampagnen.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#der-martech-stack",
+    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#der-martech-stack",
+    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
+    "section": "35.4 Der MarTech-Stack",
+    "text": "35.4 Der MarTech-Stack\nFür die Werkzeuglandschaft gilt eine einfache Leitlinie: so wenige Systeme wie nötig. Jedes zusätzliche Werkzeug erzeugt eine weitere Schnittstelle, eine weitere Datenschutzprüfung und eine weitere Stelle, an der Daten auseinanderlaufen. Im Zentrum steht sinnvollerweise das System mit der Kundenbeziehung, also das Kundenbeziehungsmanagement (CRM). Vor jeder Neuanschaffung klären wir, welche Frage das Werkzeug beantwortet, die heute unbeantwortet bleibt, und wer es dauerhaft betreibt.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#ki-werkzeuge-im-team-einführen",
+    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#ki-werkzeuge-im-team-einführen",
+    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
+    "section": "35.5 KI-Werkzeuge im Team einführen",
+    "text": "35.5 KI-Werkzeuge im Team einführen\nDer Einstieg gelingt am besten über wenige, klar umrissene Anwendungsfälle mit hoher Wiederholrate, etwa Entwürfe für wiederkehrende Textformate oder die Vorstrukturierung von Auswertungen. Wir starten mit einem zeitlich begrenzten Pilotversuch in einem Team, legen vorab fest, welche Daten eingegeben werden dürfen und wer Ergebnisse vor Veröffentlichung freigibt, und schulen die Beteiligten an ihren echten Aufgaben, womit wir zugleich die im Rechtskapitel genannte Anforderung an KI-Kompetenz erfüllen. Den Nutzen messen wir an vorher festgelegten Größen wie Durchlaufzeit oder Zahl der Korrekturschleifen (Kreutzer und Klose 2025).\nTypische Fehler sind schnell benannt: das Werkzeug ohne Anwendungsfall einführen, keine Regeln für vertrauliche Daten setzen, die fachliche Prüfung der Ergebnisse überspringen und den Nutzen nie messen, sodass die Diskussion bei Meinungen bleibt.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#was-die-geschäftsführung-fragt",
+    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#was-die-geschäftsführung-fragt",
+    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
+    "section": "35.6 Was die Geschäftsführung fragt",
+    "text": "35.6 Was die Geschäftsführung fragt\nVier Fragen entscheiden über Freigaben: Welches Geschäftsziel unterstützt das Vorhaben? Was kostet es vollständig gerechnet, und woran erkennen wir den Nutzen? Wer ist verantwortlich, und welche Kompetenzen fehlen noch? Welche Risiken bestehen bei Daten, Recht und Abhängigkeit von Anbietern? Wer diese vier Fragen vor dem Termin beantwortet, bekommt seltener Rückfragen und schneller eine Entscheidung.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
+    ]
+  },
+  {
+    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#was-als-nächstes-ausgebaut-werden-muss",
+    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#was-als-nächstes-ausgebaut-werden-muss",
+    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
+    "section": "35.7 Was als Nächstes ausgebaut werden muss",
+    "text": "35.7 Was als Nächstes ausgebaut werden muss\n\nEine Briefing-Vorlage für Agenturen mit Beispieltext je Abschnitt ergänzen\nEine Vollkostenrechnung für den Vergleich interner Aufbau gegen externe Beauftragung einfügen\nEin Bewertungsraster für die Auswahl von KI-Anwendungsfällen nach Nutzen und Aufwand ergänzen\nRollenprofile mit Aufgaben, Kompetenzen und typischen Kennzahlen je Rolle nachtragen\n\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKingsnorth, Simon. 2022. Digital Marketing Strategy: An Integrated Approach to Online Marketing. 3. Aufl. London: Kogan Page.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.",
+    "crumbs": [
+      "Marktumfeld, Recht und Organisation",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
+    ]
   }
 ]
