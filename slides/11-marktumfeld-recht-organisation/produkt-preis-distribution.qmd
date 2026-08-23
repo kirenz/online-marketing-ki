@@ -114,12 +114,12 @@ Quelle: @kreutzer2025
 Preistransparenz ist die auffälligste Veränderung im digitalen Umfeld. Was früher Marktbeobachtung über Wochen erforderte, liefert heute eine Suchanfrage in Sekunden. Dadurch rückt der Preis in der Wahrnehmung nach vorn, und ein Aufschlag lässt sich nur halten, wenn ein erkennbarer Unterschied dahintersteht. Genau deshalb gewinnen Leistung, Service und Marke an Bedeutung: Sie sind die einzigen Größen, die einen Preisvergleich relativieren. Für die Rösterei bedeutet das, dass Herkunft und Beratung Teil der Preisbegründung werden.
 :::
 
-## Preisdifferenzierung braucht einen erkennbaren Grund
+## Dynamische Preise gelten für alle, personalisierte für einzelne
 
-Dynamische Preise folgen Nachfrage, Lagerbestand oder Wettbewerb. Personalisierung richtet den Preis am einzelnen Nutzungsprofil aus.
+Dynamische Preise folgen Nachfrage, Lagerbestand oder Wettbewerb, personalisierte dem einzelnen Nutzungsprofil.
 
 ::: {.tip-box}
-Wer Preise auf Basis einer automatisierten Entscheidungsfindung personalisiert, muss darüber informieren (Art. 246a § 1 Abs. 1 Satz 1 Nr. 6 EGBGB).
+Personalisierung durch automatisierte Entscheidungsfindung ist informationspflichtig (Art. 246a § 1 Abs. 1 Satz 1 Nr. 6 EGBGB).
 :::
 
 ::: {.notes}
@@ -173,11 +173,11 @@ Die vier Formen bilden eine Reihenfolge, die zugleich die Abwägung beschreibt. 
 
 ## Lokalisierung, Kanalwahl und Abwicklung entscheiden danach
 
-**Lokalisierung**: Sprache, Maßeinheiten, Bildwelt und Ansprache; reine Übersetzung reicht selten.
+**Lokalisierung**: Sprache, Maßeinheiten, Bildwelt, Ansprache.
 
-**Kanalwahl**: führende Suchmaschinen, Netzwerke und Marktplätze unterscheiden sich je Land.
+**Kanalwahl**: Suchmaschinen, Netzwerke und Marktplätze je Land verschieden.
 
-**Abwicklung**: Zahlungsarten, Versand, Zoll und Rückgabe entscheiden häufig über den Kaufabbruch.
+**Abwicklung**: Zahlungsarten, Versand, Zoll, Rückgabe.
 
 ::: {.notes}
 Nach der Markteintrittsform folgen drei operative Fragen, die in dieser Reihenfolge zu klären sind. Die Lokalisierung betrifft mehr als Sprache: Maßeinheiten, Bildwelt und Tonalität müssen zum Markt passen, und eine reine Übersetzung wirkt schnell fremd. Die Kanalwahl kann nicht aus dem Heimatmarkt übernommen werden, weil führende Suchmaschinen, soziale Netzwerke und Marktplätze sich je Land erheblich unterscheiden. Die Abwicklung wird am häufigsten unterschätzt: Bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln entscheiden oft stärker über den Kaufabbruch als die Produktseite selbst.

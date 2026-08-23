@@ -19,19 +19,19 @@ Der Einstieg benennt die organisatorische Realität. Digitales Marketing verlang
 :::: {.columns}
 
 ::: {.column width="50%"}
-**Strategie**: Ziele, Zielgruppen, Positionierung, Budget.
+**Strategie**
 
-**Content**: Texte, Bilder, Videos, Redaktionsplan.
+**Content**
 
-**Performance und Media**: bezahlte Kampagnen planen, buchen, optimieren.
+**Performance und Media**
 :::
 
 ::: {.column width="50%"}
-**Analytics**: Messung einrichten, Datenqualität prüfen, auswerten.
+**Analytics**
 
-**MarTech und Operations**: Werkzeuge, Schnittstellen, Datenflüsse.
+**MarTech und Operations**
 
-**Recht und Compliance**: Einwilligungen, Verträge, Kennzeichnung.
+**Recht und Compliance**
 :::
 
 ::::
@@ -58,11 +58,11 @@ Dieser Satz ist die praktische Konsequenz aus der vorigen Folie. Ob sechs Person
 
 ## Fünf Kriterien führen zur Make-or-buy-Entscheidung
 
-1. **Kernkompetenz**: Was die Positionierung ausmacht, gehört ins Haus.
-2. **Frequenz**: laufender Bedarf spricht für Aufbau, seltene Spitzen für Einkauf.
-3. **Spezialwissen**: schnell veränderliche Felder laufen nicht nebenbei mit.
-4. **Vollkosten**: inklusive Einarbeitung, Werkzeugen und Ausfallrisiko.
-5. **Datenzugang**: Wer die Konten hält, hält die Kundenbeziehung.
+1. **Kernkompetenz**
+2. **Frequenz**
+3. **Spezialwissen**
+4. **Vollkosten**
+5. **Datenzugang**
 
 ::: {.sources}
 Quelle: @kingsnorth2022
@@ -88,12 +88,12 @@ Eine Werkstatt hält Werkzeuge für alles vor, was täglich anfällt. Für den S
 |---|---|---|
 | **Strategie, Positionierung, Budget** | **Make** | **Kernkompetenz, nicht delegierbar** |
 | Bezahlte Kampagnen in mehreren Kanälen | Hybrid | Steuerung intern, Umsetzung extern |
-| Aufwendige Produktion, rechtliche Prüfung | Buy | selten benötigt, hohe Fachkunde |
+| Aufwendige Produktion, rechtliche Prüfung | Buy | selten benötigt, hoher Aufwand oder hohe Fachkunde |
 | Laufende Inhalte und Kundenkommunikation | Make | Nähe zu Produkt und Kundschaft nötig |
 | Messung und Schnittstellen einrichten | Hybrid | extern aufsetzen, intern betreiben |
 
 ::: {.notes}
-Die Tabelle zeigt, dass die reine Entscheidung zwischen Eigenleistung und Einkauf die Ausnahme bleibt. Die hervorgehobene Zeile ist die einzige, bei der es keine Abwägung gibt: Strategie, Positionierung und Budgetsteuerung sind Kernkompetenz und lassen sich nicht delegieren. Bezahlte Kampagnen laufen typischerweise hybrid, mit interner Steuerung und externer Umsetzung. Aufwendige Video- und Bildproduktion sowie die rechtliche Prüfung heikler Vorhaben werden eingekauft, weil beides selten gebraucht wird und hohe Fachkunde verlangt. Laufende Inhalte gehören ins Haus, weil sie Nähe zu Produkt und Kundschaft brauchen. Die technische Einrichtung von Messung und Schnittstellen wird einmalig extern aufgesetzt und danach intern betrieben.
+Die Tabelle zeigt, dass die reine Entscheidung zwischen Eigenleistung und Einkauf die Ausnahme bleibt. Die hervorgehobene Zeile ist die einzige, bei der es keine Abwägung gibt: Strategie, Positionierung und Budgetsteuerung sind Kernkompetenz und lassen sich nicht delegieren. Bezahlte Kampagnen laufen typischerweise hybrid, mit interner Steuerung und externer Umsetzung. Aufwendige Video- und Bildproduktion wird eingekauft, weil sie selten gebraucht wird und hohen Werkzeug- und Personalaufwand verlangt; die rechtliche Prüfung heikler Vorhaben, weil sie seltene Fachkunde erfordert. Laufende Inhalte gehören ins Haus, weil sie Nähe zu Produkt und Kundschaft brauchen. Die technische Einrichtung von Messung und Schnittstellen wird einmalig extern aufgesetzt und danach intern betrieben.
 :::
 
 ## Gute Zusammenarbeit beginnt beim Briefing
@@ -108,22 +108,22 @@ Die Qualität einer Agenturleistung entscheidet sich früher, als meist angenomm
 
 Fester Betrag je Leistungspaket, Stundensatz, **Retainer** als monatliche Pauschale, erfolgsabhängiger Anteil, prozentuale Beteiligung am Mediavolumen.
 
-Erfolgsabhängige Modelle bevorzugen Kanäle mit kurzfristigen Abschlüssen.
+Erfolgsabhängige Modelle verleiten dazu, Kanäle mit kurzfristigen Abschlüssen zu bevorzugen.
 
 ::: {.sources}
 Quelle: @kreutzer2025
 :::
 
 ::: {.notes}
-Die Vergütungsform ist keine kaufmännische Nebensache, sondern steuert das Verhalten des Dienstleisters. Üblich sind fünf Formen: ein fester Betrag je Leistungspaket, ein Stundensatz für einzelne Aufgaben, ein Retainer als monatliche Pauschale für laufende Betreuung, ein erfolgsabhängiger Anteil sowie eine prozentuale Beteiligung am Mediavolumen. Jedes dieser Modelle setzt eigene Anreize. Erfolgsabhängige Modelle etwa verleiten dazu, jene Kanäle zu bevorzugen, die kurzfristige Abschlüsse zeigen. Damit hat jedes Modell eine eingebaute Tendenz, die vor der Vertragsunterschrift bedacht gehört.
+Die Vergütungsform ist keine kaufmännische Nebensache, sondern steuert das Verhalten des Dienstleisters. Üblich sind fünf Formen: ein fester Betrag je Leistungspaket, ein Stundensatz für einzelne Aufgaben, ein Retainer als monatliche Pauschale für laufende Betreuung, ein erfolgsabhängiger Anteil sowie eine prozentuale Beteiligung am Mediavolumen. Jedes dieser Modelle setzt eigene Anreize. Erfolgsabhängige Modelle etwa verleiten dazu, jene Kanäle zu bevorzugen, die kurzfristige Abschlüsse zeigen. Damit hat jedes Modell eine eingebaute Tendenz, die vor der Vertragsunterschrift zu bedenken ist.
 :::
 
 ## Eine Beteiligung am Mediavolumen belohnt Ausgaben, nicht Ergebnisse {.stage background-color="#0a0a0f"}
 
-Sie gehört deshalb nur mit klaren Zielwerten und Obergrenzen vereinbart. Transparenz über die Mediabudgets ist unverzichtbar.
+Sie ist deshalb nur mit klaren Zielwerten und Obergrenzen zu vereinbaren. Transparenz über die Mediabudgets ist unverzichtbar.
 
 ::: {.notes}
-Dieser Moment isoliert den kritischsten Fehlanreiz in der Agenturvergütung. Eine prozentuale Beteiligung am Mediavolumen steigt, wenn mehr ausgegeben wird, und zwar unabhängig davon, ob das Ergebnis besser wird. Damit wird Budgetwachstum belohnt statt Effizienz. Ausschließen lässt sich das Modell nicht immer, aber es gehört mit klaren Zielwerten und Obergrenzen versehen. Ebenso wichtig ist Transparenz über die Mediabudgets: Auszuweisen ist, wie viel tatsächlich in Werbeplätze geflossen ist und wie viel in Dienstleistung. Dazu kommt ein fester Berichtsrhythmus statt Berichten nur auf Nachfrage.
+Dieser Moment isoliert den kritischsten Fehlanreiz in der Agenturvergütung. Eine prozentuale Beteiligung am Mediavolumen steigt, wenn mehr ausgegeben wird, und zwar unabhängig davon, ob das Ergebnis besser wird. Damit wird Budgetwachstum belohnt statt Effizienz. Ausschließen lässt sich das Modell nicht immer, aber es ist mit klaren Zielwerten und Obergrenzen zu versehen. Ebenso wichtig ist Transparenz über die Mediabudgets: Auszuweisen ist, wie viel tatsächlich in Werbeplätze geflossen ist und wie viel in Dienstleistung. Dazu kommt ein fester Berichtsrhythmus statt Berichten nur auf Nachfrage.
 :::
 
 ## Konten und Daten gehören dem Unternehmen
@@ -131,8 +131,6 @@ Dieser Moment isoliert den kritischsten Fehlanreiz in der Agenturvergütung. Ein
 ::: {.tip-box}
 Werbekonten, Analysewerkzeuge, Domains und Datenbestände werden auf das Unternehmen angelegt. Dienstleister erhalten Zugriff als Nutzer.
 :::
-
-Wer diesen Punkt beim Start übergeht, verliert bei einem Wechsel Verläufe, Zielgruppenlisten und die Lernkurve der Kampagnen.
 
 ::: {.notes}
 Dieser Punkt wird beim Start einer Zusammenarbeit häufig übersehen und ist später kaum zu korrigieren. Werbekonten, Analysewerkzeuge, Domains und Datenbestände werden auf das Unternehmen angelegt, und Dienstleister erhalten Zugriff als Nutzer. Der Unterschied wird erst beim Wechsel sichtbar: Wer die Konten nicht besitzt, verliert die historischen Verläufe, die aufgebauten Zielgruppenlisten und die Lernkurve der Kampagnen. Der neue Dienstleister beginnt dann nicht dort, wo der alte aufgehört hat, sondern von vorn. Diese Kosten tauchen in keinem Angebot auf, sind aber real.
@@ -200,10 +198,10 @@ Diese vier Fehler treten so regelmäßig auf, dass sie sich als Prüfliste eigne
 
 ## Vier Fragen entscheiden über jede Freigabe
 
-1. Welches Geschäftsziel unterstützt das Vorhaben?
-2. Was kostet es vollständig gerechnet, und woran ist der Nutzen erkennbar?
-3. Wer ist verantwortlich, und welche Kompetenzen fehlen noch?
-4. Welche Risiken bestehen bei Daten, Recht und Abhängigkeit von Anbietern?
+1. Geschäftsziel?
+2. Vollkosten und Nutzenkriterium?
+3. Verantwortung und Kompetenzlücke?
+4. Risiken bei Daten, Recht, Anbieterbindung?
 
 ::: {.notes}
 Diese vier Fragen stellt eine Geschäftsführung fast immer, unabhängig von Branche und Vorhaben. Die erste verlangt die Verbindung zum Geschäftsziel und schließt Vorhaben aus, die nur technisch interessant sind. Die zweite fragt nach den Vollkosten und nach dem Kriterium, an dem sich der Nutzen später zeigen soll. Die dritte klärt Verantwortung und Kompetenzlücke, weil ein Vorhaben ohne benannte Zuständigkeit erfahrungsgemäß liegen bleibt. Die vierte betrifft Risiken bei Daten, Recht und Anbieterabhängigkeit. Wer diese vier Fragen vor dem Termin beantwortet, bekommt seltener Rückfragen und schneller eine Entscheidung.

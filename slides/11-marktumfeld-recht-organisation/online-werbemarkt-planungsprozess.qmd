@@ -62,12 +62,14 @@ Dieser Moment unterbricht den Informationsfluss bewusst, weil er eine Führungsr
 
 ## Das Abrechnungsmodell verschiebt das Risiko
 
-| Modell | Bezahlt wird für | Risiko beim Vermarkter |
-|---|---|---|
-| Tausend-Kontakt-Preis (TKP/CPM) | tausend Kontakte oder Einblendungen | gering |
-| Cost per Click (CPC) | einen Klick | mittel |
-| **Cost per Action (CPA)** | **eine Handlung, etwa Kauf oder Anfrage** | **hoch** |
-| Umsatzbeteiligung (Revenue Share) | einen Anteil am vermittelten Umsatz | hoch |
+| Modell | Bezahlt wird für |
+|---|---|
+| Tausend-Kontakt-Preis (TKP/CPM) | tausend Kontakte oder Einblendungen |
+| Cost per Click (CPC) | einen Klick |
+| **Cost per Action (CPA)** | **eine Handlung, etwa Kauf oder Anfrage** |
+| Umsatzbeteiligung (Revenue Share) | einen Anteil am vermittelten Umsatz |
+
+Je näher das Modell an der Handlung liegt, desto mehr Risiko trägt der Vermarkter.
 
 ::: {.sources}
 Quelle: @lammenett2025
@@ -111,28 +113,38 @@ Der Ablauf erklärt, warum der größte Teil der Werbeplätze heute nicht mehr e
 
 Bei **Programmatic Guaranteed** und **Preferred Deals** vereinbaren beide Seiten Volumen und Preis vorab; die Technik übernimmt nur die Auslieferung.
 
-Wo versteigert wird, gilt heute überwiegend das [Erstpreisverfahren]{.highlight-blue}: Der Zuschlag erfolgt zum abgegebenen Gebot.
+Wo versteigert wird, gilt überwiegend das [Erstpreisverfahren]{.highlight-blue}.
 
 ::: {.notes}
 Diese Unterscheidung verhindert ein verbreitetes Missverständnis. Programmatisch bedeutet automatisiert, nicht zwangsläufig versteigert. Bei garantierten Abschlüssen und bei bevorzugten Vereinbarungen stehen Menge und Preis vorher fest, und die Technik sorgt nur noch für die Auslieferung. Das ist überall dort sinnvoll, wo ein bestimmtes Umfeld oder eine gesicherte Menge wichtiger ist als der letzte Cent im Einkauf. Wo tatsächlich versteigert wird, ist heute überwiegend das Erstpreisverfahren üblich: Der Zuschlag erfolgt zu genau dem Betrag, der geboten wurde. Das erhöht die Bedeutung sorgfältig gesetzter Gebotsobergrenzen.
 :::
 
-## Der Planungsprozess läuft in acht Schritten
+## Acht Planungsschritte bündeln sich zu vier Phasen
 
-:::: {.columns}
+:::: {.timeline}
 
-::: {.column width="50%"}
-1. Situationsanalyse
-2. Ziele
-3. Zielgruppen
-4. Strategie und Positionierung
+::: {.timeline-item}
+[1]{.timeline-number}
+[Lage]{.timeline-title}
+[Situationsanalyse]{.timeline-detail}
 :::
 
-::: {.column width="50%"}
-5. Kanäle und Maßnahmen
-6. Budget
-7. Umsetzung
-8. Controlling
+::: {.timeline-item}
+[2]{.timeline-number}
+[Ziel]{.timeline-title}
+[Ziele, Zielgruppen, Positionierung]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[3]{.timeline-number}
+[Mittel]{.timeline-title}
+[Kanäle, Maßnahmen, Budget]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[4]{.timeline-number}
+[Steuerung]{.timeline-title}
+[Umsetzung und Controlling]{.timeline-detail}
 :::
 
 ::::
@@ -142,7 +154,7 @@ Quelle: @kreutzer2025; @chaffey2022
 :::
 
 ::: {.notes}
-Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Der erste Schritt klärt die Lage in Markt und Wettbewerb und liefert ein Lagebild. Der zweite legt messbare Ziele fest, der dritte die Zielgruppen und Personas, der vierte die Positionierung und das Versprechen. Erst der fünfte Schritt wählt Kanäle und Maßnahmen, der sechste verteilt das Budget, der siebte regelt Verantwortung und Termine, der achte richtet Reporting und Anpassung ein. Jeder Schritt hat ein prüfbares Ergebnis. Dieses Raster lässt sich auf jede Kanalentscheidung anwenden, unabhängig von der Größe des Budgets.
+Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Die vier Phasen fassen acht Schritte zusammen. Der erste Schritt klärt die Lage in Markt und Wettbewerb und liefert ein Lagebild. Der zweite legt messbare Ziele fest, der dritte die Zielgruppen und Personas, der vierte die Positionierung und das Versprechen. Erst der fünfte Schritt wählt Kanäle und Maßnahmen, der sechste verteilt das Budget, der siebte regelt Verantwortung und Termine, der achte richtet Reporting und Anpassung ein. Jeder Schritt hat ein prüfbares Ergebnis. Dieses Raster lässt sich auf jede Kanalentscheidung anwenden, unabhängig von der Größe des Budgets.
 :::
 
 ## Kampagnen scheitern selten an der Kreation {.stage background-color="#0a0a0f"}
@@ -153,7 +165,7 @@ Häufiger blieben die Ziele unscharf, oder das Controlling setzte erst nach Ende
 Dieser Moment benennt die typische Fehlerquelle. In der Diskussion über eine enttäuschende Kampagne richtet sich der Blick fast immer auf das Motiv oder den Text. Die Ursache liegt jedoch meist früher im Prozess: bei Zielen, die nie messbar formuliert wurden, oder bei einem Controlling, das erst nach Ablauf der Laufzeit einsetzte und damit keine Steuerung mehr erlaubte. In der Praxis laufen die acht Schritte nicht streng nacheinander ab, sondern in Schleifen. Entscheidend ist allein, dass kein Schritt vollständig übersprungen wird.
 :::
 
-## Vier Begriffe beschreiben die Kontaktseite
+## Reichweite zählt Personen, Frequenz zählt die Kontakte je Person
 
 **Impression**: eine einzelne Einblendung eines Werbemittels.
 
@@ -167,7 +179,7 @@ Dieser Moment benennt die typische Fehlerquelle. In der Diskussion über eine en
 Diese vier Begriffe beantworten die Frage, wie oft und wie viele. Eine Impression ist eine einzelne Einblendung, unabhängig davon, ob sie jemand wahrgenommen hat. Reichweite zählt Personen, in der Praxis gemessen als unterschiedliche Nutzerkennungen oder Geräte, weshalb der Wert eine Annäherung bleibt. Die Frequenz zeigt, wie oft eine erreichte Person im Schnitt Kontakt hatte, und wird oft übersehen, obwohl sie über Wirkung und Reizschwelle entscheidet. Die Click-Through-Rate setzt Klicks ins Verhältnis zu Einblendungen und ist die erste Größe, die etwas über Relevanz aussagt.
 :::
 
-## Vier Begriffe beschreiben die Kostenseite
+## Nur der ROAS verbindet Ausgabe und Ertrag
 
 **TKP oder CPM**: Preis für tausend Kontakte beziehungsweise Einblendungen.
 

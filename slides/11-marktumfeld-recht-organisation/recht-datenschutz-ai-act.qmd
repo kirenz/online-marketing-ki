@@ -4,14 +4,14 @@ subtitle: "Modul 11: Marktumfeld, Recht und Organisation"
 author: Jan Kirenz
 ---
 
-# Drei Regelwerke berühren jede digitale Kampagne {.stage background-image="../images/hero-recht-datenschutz-ai-act.png" background-color="#0a0a0f" background-opacity="0.75"}
+# Drei Regelungsbereiche berühren jede digitale Kampagne {.stage background-image="../images/hero-recht-datenschutz-ai-act.png" background-color="#0a0a0f" background-opacity="0.75"}
 
 <!-- image: profile="stage-hero" file="hero-recht-datenschutz-ai-act.png"
 Abstrakte moderne Komposition aus drei klar getrennten, ineinandergreifenden Rahmenflächen über einer tiefen Basis, die geordnete Grenzen und geprüfte Durchgänge andeuten. Präzise geometrische Kanten, frische Akzente in elektrischem Blau und Teal, ruhige Ordnung statt Bedrohung. Großzügiger Negativraum im oberen Drittel für eine Titel-Überlagerung. Kein Text, keine Gesichter.
 -->
 
 ::: {.notes}
-Der Einstieg ordnet das Thema für eine Führungsrolle ein. Digitales Marketing arbeitet mit personenbezogenen Daten, mit Werbung in fremden Postfächern und zunehmend mit maschinell erzeugten Inhalten. Für alle drei Bereiche gibt es klare Regeln, und diese Lesson verschafft einen Überblick, der ausreicht, um Vorhaben einzuordnen, gezielte Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden. Das Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung; bei konkreten Vorhaben gehört juristische Fachkunde hinzu.
+Der Einstieg ordnet das Thema für eine Führungsrolle ein. Drei Felder sind es, in denen digitales Marketing regelmäßig auf Regeln trifft: der Umgang mit personenbezogenen Daten, die Ansprache in fremden Postfächern und der Einsatz maschinell erzeugter Inhalte. Für alle drei gelten klare Vorgaben, und diese Lesson verschafft einen Überblick, der ausreicht, um Vorhaben einzuordnen, gezielte Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden. Das Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung; bei konkreten Vorhaben gehört juristische Fachkunde hinzu.
 :::
 
 ## Ohne Rechtsgrundlage keine Verarbeitung personenbezogener Daten
@@ -66,11 +66,11 @@ Quelle: @tdddg2024
 Neben der DSGVO gilt in Deutschland das Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, kurz TDDDG, das früher TTDSG hieß. Sein Paragraf 25 setzt an einer anderen Stelle an als die DSGVO: Er betrifft nicht die Verarbeitung von Daten, sondern bereits den technischen Zugriff auf das Endgerät. Ausgenommen sind ausschließlich Vorgänge, die für den ausdrücklich gewünschten Dienst unbedingt erforderlich sind, etwa der Warenkorb eines Shops. Reichweitenmessung, Werbe-Cookies und ähnliche Techniken fallen nicht darunter und brauchen deshalb eine Einwilligung.
 :::
 
-## Planet49 klärte zwei Punkte, die Aufsichtsbehörden den dritten
+## Planet49 klärte zwei Punkte, die Aufsichtsbehörden den Rest
 
-**Aus dem Urteil**: ein vorangekreuztes Kästchen ist keine wirksame Einwilligung; über Speicherdauer und Zugriff Dritter ist zu informieren.
+**Aus dem Urteil**: kein vorangekreuztes Kästchen; Information über Speicherdauer und Zugriff Dritter.
 
-**Aus den Vorgaben von EDSA und DSK**: Ablehnen so einfach erreichbar wie Zustimmen, Widerruf so leicht wie die Zustimmung.
+**EDSA und DSK ergänzen**: Ablehnen so einfach wie Zustimmen, Widerruf so leicht.
 
 ::: {.sources}
 Quelle: @eughPlanet49
@@ -94,7 +94,7 @@ Für Werbung im Postfach gilt das Gesetz gegen den unlauteren Wettbewerb, kurz U
 
 ## Die Bestandskunden-Ausnahme gilt vollständig oder gar nicht
 
-§ 7 Abs. 3 UWG greift nur, wenn **alle vier** Voraussetzungen erfüllt sind: Adresse beim Verkauf erhoben, Werbung für eigene ähnliche Waren, kein Widerspruch, Hinweis auf das Widerspruchsrecht bei Erhebung und bei jeder Verwendung.
+§ 7 Abs. 3 UWG greift nur, wenn **alle vier** Voraussetzungen erfüllt sind: Adresse beim Verkauf erhoben, eigene ähnliche Waren, kein Widerspruch, Hinweis auf das Widerspruchsrecht.
 
 ::: {.sources}
 Quelle: @uwg
@@ -116,8 +116,6 @@ Dieser Moment fasst eine Entwicklung zusammen, die technische und rechtliche Urs
 
 Die Verordnung (EU) 2024/1689 verbietet einige Praktiken, stellt an Hochrisiko-Anwendungen strenge Anforderungen und belegt weitere Systeme mit Transparenzpflichten.
 
-Ein eigenes Regime gilt für Modelle mit allgemeinem Verwendungszweck (General Purpose AI, GPAI).
-
 ::: {.sources}
 Quelle: @euAiAct2024
 :::
@@ -128,9 +126,9 @@ Die KI-Verordnung der Europäischen Union wird meist als AI Act bezeichnet. Ihr 
 
 ## Artikel 50 verteilt die Pflichten auf Anbieter und Betreiber
 
-**Anbieter**: Systeme mit direkter Interaktion müssen als KI erkennbar sein (Abs. 1); synthetische Ausgaben sind maschinenlesbar zu markieren (Abs. 2).
+**Anbieter**: erkennbare KI-Interaktion (Abs. 1), maschinenlesbare Markierung synthetischer Ausgaben (Abs. 2).
 
-**Betreiber**: Deepfakes werden offengelegt, ebenso KI-Texte zu Angelegenheiten von öffentlichem Interesse (Abs. 4).
+**Betreiber**: Offenlegung von Deepfakes und von KI-Texten zu öffentlichem Interesse (Abs. 4).
 
 ::: {.sources}
 Quelle: @euAiAct2024
