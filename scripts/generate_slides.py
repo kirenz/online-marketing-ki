@@ -16,13 +16,21 @@ Workflow:
 Slide-Files erben das Reveal.js-Format aus `slides/_metadata.yml` —
 das Frontmatter setzt nur Title, Subtitle und Author.
 
+**Achtung:** Ein Lauf ohne Argumente überschreibt *alle* Decks in
+MODULE_DIRS — auch bereits feinjustierte. Wer nur ein neues Modul erzeugen
+will, schränkt den Lauf mit `--module <slug>` ein.
+
 Aufruf:
     uv run python scripts/generate_slides.py
+    uv run python scripts/generate_slides.py --module 11-marktumfeld-recht-organisation
+    uv run python scripts/generate_slides.py --module 09-web-analytics --module 10-ki-im-marketing
 """
 
 from __future__ import annotations
 
+import argparse
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -41,6 +49,7 @@ MODULE_DIRS = [
     "08-social-media-linkedin",
     "09-web-analytics",
     "10-ki-im-marketing",
+    "11-marktumfeld-recht-organisation",
 ]
 
 SLIDE_FRONTMATTER = """---
@@ -122,10 +131,46 @@ def process_chapter(input_path: Path, module_slug: str) -> None:
     print(f"  [ok]   {input_path.name} → {output_path.relative_to(ROOT)}")
 
 
-def main() -> None:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generiert Reveal.js-Folien-Decks aus den Buch-Kapiteln.",
+    )
+    parser.add_argument(
+        "--module",
+        dest="modules",
+        action="append",
+        metavar="SLUG",
+        help=(
+            "Nur dieses Modul generieren (mehrfach angebbar). "
+            "Ohne Angabe werden alle Module aus MODULE_DIRS erzeugt."
+        ),
+    )
+    return parser.parse_args(argv)
+
+
+def select_modules(requested: list[str] | None) -> list[str]:
+    """Filtert MODULE_DIRS auf die angeforderten Slugs (Reihenfolge bleibt)."""
+    if not requested:
+        return list(MODULE_DIRS)
+
+    unknown = [slug for slug in requested if slug not in MODULE_DIRS]
+    if unknown:
+        raise SystemExit(
+            "Unbekannte(s) Modul(e): "
+            + ", ".join(unknown)
+            + "\nVerfuegbar: "
+            + ", ".join(MODULE_DIRS)
+        )
+    return [slug for slug in MODULE_DIRS if slug in set(requested)]
+
+
+def main(argv: list[str] | None = None) -> None:
+    args = parse_args(argv)
+    modules = select_modules(args.modules)
+
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    for module_slug in MODULE_DIRS:
+    for module_slug in modules:
         module_dir = ROOT / module_slug
         if not module_dir.is_dir():
             print(f"[warn] Modul-Verzeichnis fehlt: {module_slug}")
@@ -141,4 +186,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

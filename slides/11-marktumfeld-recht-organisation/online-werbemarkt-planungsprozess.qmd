@@ -1,0 +1,199 @@
+---
+title: "Der Online-Werbemarkt und der Planungsprozess"
+subtitle: "Modul 11: Marktumfeld, Recht und Organisation"
+author: Jan Kirenz
+---
+
+# Wer Budgets freigibt, entscheidet auf einem fremden Markt {.stage background-image="../images/hero-online-werbemarkt-planungsprozess.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-online-werbemarkt-planungsprozess.png"
+Abstrakte moderne Komposition eines Handelsplatzes für Aufmerksamkeit: viele feine geometrische Kacheln, die über einer tiefen Basisfläche aufleuchten und wieder verlöschen, verbunden durch klare Linien. Frische Akzente in Teal und Lime über tiefem Grundton. Viel Negativraum im oberen Drittel für eine Titel-Überlagerung. Kein Text, keine Gesichter.
+-->
+
+::: {.notes}
+Der Einstieg setzt die Führungsperspektive. Werbebudgets werden auf einem Markt eingesetzt, dessen Regeln, Rollen und Preise andere gesetzt haben. Diese Lesson klärt zuerst, wer dort welche Leistung erbringt und wie abgerechnet wird, und danach, in welcher Reihenfolge die Entscheidungen einer Kampagne fallen. Das Ziel ist nicht die operative Buchung, sondern die Fähigkeit, Angebote zu lesen, Rückfragen präzise zu stellen und Ergebnisse einzuordnen.
+:::
+
+## Vier Parteien teilen sich den Online-Werbemarkt
+
+**Werbungtreibende** setzen ein Budget ein. **Agenturen** liefern Strategie, Kreation, Mediaeinkauf oder Technik. **Publisher** stellen Werbeplätze bereit. **Vermarkter** bündeln und verkaufen diese Plätze.
+
+::: {.sources}
+Quelle: @kreutzer2025
+:::
+
+::: {.notes}
+Am Anfang der Kette stehen die Unternehmen, die ein Produkt bekannt machen wollen und dafür Geld einsetzen. Agenturen treten je nach Zuschnitt sehr unterschiedlich auf: Manche liefern nur Kreation, andere kaufen Media ein, wieder andere betreiben Technik. Auf der Gegenseite stehen Medienhäuser und Websitebetreiber, die Platz anbieten, sowie Vermarkter, die diesen Platz bündeln und im Paket verkaufen. Wer im Gespräch mit einem Dienstleister nicht weiß, welche dieser Rollen das Gegenüber gerade einnimmt, kann Angebote nicht sinnvoll vergleichen.
+:::
+
+## Die Werbetechnik trennt Einkauf, Verkauf und Handelsplatz
+
+**Demand-Side-Platform (DSP)**: das Einkaufssystem der Werbungtreibenden.
+
+**Supply-Side-Platform (SSP)**: das Verkaufssystem der Publisher.
+
+**Ad Exchange**: der Handelsplatz dazwischen.
+
+Ergänzend prüfen Messdienstleister Sichtbarkeit und Umfeld.
+
+::: {.notes}
+Zwischen Einkauf und Verkauf arbeitet eine eigene Industrie, kurz Ad-Tech genannt. Die drei Begriffe beschreiben keine Produkte, sondern Positionen im Handel: ein System, das für die Nachfrageseite einkauft, ein System, das für die Angebotsseite verkauft, und ein Marktplatz, auf dem beide zusammenkommen. Daneben stehen Messdienstleister, die prüfen, ob ein Werbemittel überhaupt sichtbar war und in welchem Umfeld es erschienen ist. Diese Prüfung ist deshalb relevant, weil bezahlte Einblendungen nicht automatisch gesehene Einblendungen sind.
+:::
+
+## Große Plattformen sind Verkäufer und Messstelle zugleich
+
+Suchmaschinen, soziale Netzwerke und Handelsplattformen treten gleichzeitig als Publisher, Vermarkter und Messsystem auf. Daten, Auslieferung und Erfolgsmessung liegen in einem geschlossenen System: [Walled Gardens]{.highlight-blue}.
+
+::: {.sources}
+Quelle: @chaffey2022
+:::
+
+::: {.notes}
+Der Begriff der ummauerten Gärten beschreibt eine Besonderheit dieses Marktes. Bei den großen Plattformen fallen drei Rollen zusammen, die im klassischen Mediageschäft getrennt waren: Sie stellen das Umfeld, sie verkaufen den Platz, und sie liefern die Zahlen zur Wirkung. Weil sich ein großer Teil der weltweiten Online-Werbeinvestitionen auf wenige solcher Anbieter konzentriert, ist die Verhandlungsposition einzelner Werbungtreibender begrenzt. Für die Führungsebene folgt daraus eine nüchterne Konsequenz: Abhängigkeit von einem einzelnen Kanal ist ein Geschäftsrisiko, kein technisches Detail.
+:::
+
+## Die Plattform misst ihren eigenen Erfolg {.stage background-color="#0a0a0f"}
+
+Zahlen aus dem Werbekonto eines Anbieters sind zugleich sein Leistungsnachweis. Der Abgleich mit eigener Webanalyse und Kundendatenbank bleibt deshalb Pflicht.
+
+::: {.notes}
+Dieser Moment unterbricht den Informationsfluss bewusst, weil er eine Führungsregel enthält. Ein Werbekonto zeigt die Zahlen des Verkäufers über die eigene Leistung. Das macht sie nicht falsch, aber es macht sie zu einer interessengeleiteten Quelle. Wichtige Entscheidungen über Budgetverschiebungen stützen sich deshalb nicht allein auf die Berichte eines einzelnen Anbieters, sondern auf den Abgleich mit eigenen Daten aus Webanalyse und Kundendatenbank. Wo beide Quellen deutlich auseinanderlaufen, gehört die Differenz auf die Tagesordnung.
+:::
+
+## Das Abrechnungsmodell verschiebt das Risiko
+
+| Modell | Bezahlt wird für | Risiko beim Vermarkter |
+|---|---|---|
+| Tausend-Kontakt-Preis (TKP/CPM) | tausend Kontakte oder Einblendungen | gering |
+| Cost per Click (CPC) | einen Klick | mittel |
+| **Cost per Action (CPA)** | **eine Handlung, etwa Kauf oder Anfrage** | **hoch** |
+| Umsatzbeteiligung (Revenue Share) | einen Anteil am vermittelten Umsatz | hoch |
+
+::: {.sources}
+Quelle: @lammenett2025
+:::
+
+::: {.notes}
+Die Modelle unterscheiden sich nicht in der Höhe, sondern in der Frage, wofür überhaupt bezahlt wird. Der Tausend-Kontakt-Preis rechnet je tausend erreichte Kontakte, der englische Cost per Mille je tausend Einblendungen; online werden beide Begriffe meist gleichgesetzt. Beim Cost per Click fällt Geld erst beim Klick an, beim Cost per Action erst bei einer definierten Handlung. Im Affiliate-Bereich kommt eine Beteiligung am vermittelten Umsatz hinzu. Die hervorgehobene Zeile markiert den Kipppunkt: Je weiter das Modell in Richtung Handlung rückt, desto mehr Risiko übernimmt der Vermarkter, und desto höher fällt der Preis pro Kontakt aus.
+:::
+
+## Nicht der Einheitspreis entscheidet, sondern das Kampagnenziel
+
+::: {.formula .editorial}
+Wer Risiko abgibt, bezahlt es im Preis pro Kontakt mit.
+:::
+
+Ein Bekanntheitsziel passt zum Tausend-Kontakt-Preis, ein Abschlussziel zum Cost per Action.
+
+::: {.notes}
+Aus der Risikoverteilung folgt die eigentliche Entscheidungsregel. Ein niedriger Einheitspreis ist kein Qualitätsmerkmal, sondern zunächst nur ein Hinweis darauf, wer das Risiko trägt. Deshalb beginnt die Auswahl beim Ziel und nicht beim Preisblatt. Soll ein Produkt bekannt werden, ist die Zahl der Kontakte die passende Bezugsgröße. Soll eine Anfrage oder ein Kauf entstehen, ist die ausgelöste Handlung die passende Bezugsgröße. Ein Angebot, das für ein Bekanntheitsziel nach Handlungen abrechnet, ist selten günstig, sondern meist am Ziel vorbei kalkuliert.
+:::
+
+<!-- image: profile="anschauung" file="anschauung-programmatic-auktion.png"
+Ein Händler in einem ruhigen modernen Handelssaal steht vor einer weit entfernten, unscharfen Anzeigefläche und legt eine schriftliche Order in eine Ablage, während der Handel ohne ihn weiterläuft. Mid-shot von hinten aufgenommen, Gesicht nicht sichtbar, weitere Personen nur unscharf und abgewandt im Hintergrund. Editorial magazine photography aesthetic, muted earth tones, dignified atmosphere, natural daylight.
+-->
+
+# Der Handelssaal, in dem Millisekunden gehandelt werden {.stage .anschauung background-image="../images/anschauung-programmatic-auktion.png" background-color="#0a0a0f"}
+
+::: {.notes}
+Eine Börse, an der pausenlos winzige Posten versteigert werden, macht den automatisierten Werbehandel greifbar. Jeder einzelne Seitenaufruf ist ein solcher Posten. Jedes Gebot folgt einer vorher hinterlegten Order, und der Zuschlag fällt, bevor die Seite fertig geladen ist. Entscheidend an diesem Bild ist die Rolle des Menschen: Gehandelt wird nicht persönlich, sondern über hinterlegte Regeln. Was ist ein Kontakt wert, in welchem Umfeld, bei welcher Zielgruppe. Diese Regeln zu setzen und regelmäßig zu überprüfen ist die eigentliche Führungsaufgabe im programmatischen Einkauf.
+:::
+
+## Programmatic Advertising handelt Werbeplätze in Millisekunden
+
+Ein Seitenaufruf meldet den freien Platz an die SSP. Mehrere DSPs geben nach hinterlegten Regeln ein Gebot ab. In wenigen Millisekunden steht das ausgelieferte Werbemittel fest.
+
+::: {.notes}
+Der Ablauf erklärt, warum der größte Teil der Werbeplätze heute nicht mehr einzeln verhandelt wird. Sobald jemand eine Seite aufruft, meldet das Verkaufssystem des Publishers den freien Platz. Die Einkaufssysteme der Werbungtreibenden prüfen, ob dieser Kontakt zu den hinterlegten Kriterien passt, und geben ein Gebot ab. Innerhalb weniger Millisekunden steht fest, welches Werbemittel erscheint. Menschliche Einzelentscheidungen sind in diesem Takt nicht möglich, deshalb verschiebt sich die Steuerung von der Buchung auf die Regel.
+:::
+
+## Nicht jeder programmatische Einkauf ist eine Auktion
+
+Bei **Programmatic Guaranteed** und **Preferred Deals** vereinbaren beide Seiten Volumen und Preis vorab; die Technik übernimmt nur die Auslieferung.
+
+Wo versteigert wird, gilt heute überwiegend das [Erstpreisverfahren]{.highlight-blue}: Der Zuschlag erfolgt zum abgegebenen Gebot.
+
+::: {.notes}
+Diese Unterscheidung verhindert ein verbreitetes Missverständnis. Programmatisch bedeutet automatisiert, nicht zwangsläufig versteigert. Bei garantierten Abschlüssen und bei bevorzugten Vereinbarungen stehen Menge und Preis vorher fest, und die Technik sorgt nur noch für die Auslieferung. Das ist überall dort sinnvoll, wo ein bestimmtes Umfeld oder eine gesicherte Menge wichtiger ist als der letzte Cent im Einkauf. Wo tatsächlich versteigert wird, ist heute überwiegend das Erstpreisverfahren üblich: Der Zuschlag erfolgt zu genau dem Betrag, der geboten wurde. Das erhöht die Bedeutung sorgfältig gesetzter Gebotsobergrenzen.
+:::
+
+## Der Planungsprozess läuft in acht Schritten
+
+:::: {.columns}
+
+::: {.column width="50%"}
+1. Situationsanalyse
+2. Ziele
+3. Zielgruppen
+4. Strategie und Positionierung
+:::
+
+::: {.column width="50%"}
+5. Kanäle und Maßnahmen
+6. Budget
+7. Umsetzung
+8. Controlling
+:::
+
+::::
+
+::: {.sources}
+Quelle: @kreutzer2025; @chaffey2022
+:::
+
+::: {.notes}
+Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Der erste Schritt klärt die Lage in Markt und Wettbewerb und liefert ein Lagebild. Der zweite legt messbare Ziele fest, der dritte die Zielgruppen und Personas, der vierte die Positionierung und das Versprechen. Erst der fünfte Schritt wählt Kanäle und Maßnahmen, der sechste verteilt das Budget, der siebte regelt Verantwortung und Termine, der achte richtet Reporting und Anpassung ein. Jeder Schritt hat ein prüfbares Ergebnis. Dieses Raster lässt sich auf jede Kanalentscheidung anwenden, unabhängig von der Größe des Budgets.
+:::
+
+## Kampagnen scheitern selten an der Kreation {.stage background-color="#0a0a0f"}
+
+Häufiger blieben die Ziele unscharf, oder das Controlling setzte erst nach Ende der Laufzeit ein. Die Schritte laufen in Schleifen, aber keiner darf ausfallen.
+
+::: {.notes}
+Dieser Moment benennt die typische Fehlerquelle. In der Diskussion über eine enttäuschende Kampagne richtet sich der Blick fast immer auf das Motiv oder den Text. Die Ursache liegt jedoch meist früher im Prozess: bei Zielen, die nie messbar formuliert wurden, oder bei einem Controlling, das erst nach Ablauf der Laufzeit einsetzte und damit keine Steuerung mehr erlaubte. In der Praxis laufen die acht Schritte nicht streng nacheinander ab, sondern in Schleifen. Entscheidend ist allein, dass kein Schritt vollständig übersprungen wird.
+:::
+
+## Vier Begriffe beschreiben die Kontaktseite
+
+**Impression**: eine einzelne Einblendung eines Werbemittels.
+
+**Reichweite**: erreichte Personen, praktisch gemessen als Unique Users.
+
+**Frequenz**: durchschnittliche Kontakte je erreichter Person.
+
+**Click-Through-Rate (CTR)**: Anteil der Klicks an den Einblendungen.
+
+::: {.notes}
+Diese vier Begriffe beantworten die Frage, wie oft und wie viele. Eine Impression ist eine einzelne Einblendung, unabhängig davon, ob sie jemand wahrgenommen hat. Reichweite zählt Personen, in der Praxis gemessen als unterschiedliche Nutzerkennungen oder Geräte, weshalb der Wert eine Annäherung bleibt. Die Frequenz zeigt, wie oft eine erreichte Person im Schnitt Kontakt hatte, und wird oft übersehen, obwohl sie über Wirkung und Reizschwelle entscheidet. Die Click-Through-Rate setzt Klicks ins Verhältnis zu Einblendungen und ist die erste Größe, die etwas über Relevanz aussagt.
+:::
+
+## Vier Begriffe beschreiben die Kostenseite
+
+**TKP oder CPM**: Preis für tausend Kontakte beziehungsweise Einblendungen.
+
+**CPC**: Preis für einen Klick.
+
+**CPA**: Kosten für eine ausgelöste Handlung.
+
+**Return on Ad Spend (ROAS)**: Umsatz je eingesetztem Euro Werbebudget.
+
+::: {.notes}
+Diese vier Begriffe beantworten die Frage, was es kostet und was zurückkommt. Die ersten drei sind die Preisseite der zuvor gezeigten Abrechnungsmodelle und tauchen in jedem Angebot und jedem Reporting auf. Der Return on Ad Spend ist die einzige Größe darunter, die Ausgabe und Ertrag verbindet, und deshalb die für die Führungsebene wichtigste. Conversion und Attribution, also die gewünschte Handlung und ihre Zuordnung zu den Kontaktpunkten, werden im Modul zur Web-Analytik ausführlich behandelt und hier bewusst nur genannt.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Der Markt ist automatisiert, der Preis folgt dem Ziel, und der Plan trägt die Kampagne. Nächster Schritt im Seminarraum: das achtstufige Raster auf einen eigenen Kampagnenfall anwenden und benennen, an welchem Schritt es zuerst hakt.
+
+::: {.notes}
+Als Kern bleibt: Der Online-Werbemarkt ist ein automatisierter Handelsplatz mit klar verteilten Rollen, das Abrechnungsmodell folgt dem Kampagnenziel statt dem niedrigsten Einheitspreis, und die Qualität einer Kampagne entscheidet sich im Planungsprozess. Für die Anwendung im Seminarraum eignet sich ein konkreter Fall aus dem eigenen Unternehmen: Das achtstufige Raster wird darauf angelegt, und der erste Schritt, der sich nicht sauber beantworten lässt, markiert die Stelle mit dem größten Handlungsbedarf.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

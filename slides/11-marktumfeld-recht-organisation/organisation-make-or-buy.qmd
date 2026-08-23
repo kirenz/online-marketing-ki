@@ -1,0 +1,227 @@
+---
+title: "Organisation: Make-or-buy, Agentursteuerung und KI-Einführung"
+subtitle: "Modul 11: Marktumfeld, Recht und Organisation"
+author: Jan Kirenz
+---
+
+# Digitales Marketing gelingt selten an einer einzigen Stelle {.stage background-image="../images/hero-organisation-make-or-buy.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-organisation-make-or-buy.png"
+Abstrakte moderne Komposition eines arbeitsteiligen Gefüges: mehrere klar abgegrenzte Module, die über saubere Verbindungslinien zusammenspielen, einige innen liegend, einige außen angedockt. Frische Akzente in Lime und elektrischem Blau über tiefem Grundton, aufgeräumt und präzise. Viel Negativraum im oberen Drittel für eine Titel-Überlagerung. Kein Text, keine Gesichter.
+-->
+
+::: {.notes}
+Der Einstieg benennt die organisatorische Realität. Digitales Marketing verlangt mehrere Kompetenzen gleichzeitig, und keine davon deckt eine einzelne Person vollständig ab. Damit stellen sich drei Führungsfragen, die diese Lesson nacheinander behandelt: Welche Aufgaben gibt es überhaupt und wer verantwortet sie, was wird selbst aufgebaut und was eingekauft, und wie werden Dienstleister sowie neue Werkzeuge so gesteuert, dass die Verantwortung im Haus bleibt.
+:::
+
+## Sechs Aufgabenbündel decken digitales Marketing ab
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Strategie**: Ziele, Zielgruppen, Positionierung, Budget.
+
+**Content**: Texte, Bilder, Videos, Redaktionsplan.
+
+**Performance und Media**: bezahlte Kampagnen planen, buchen, optimieren.
+:::
+
+::: {.column width="50%"}
+**Analytics**: Messung einrichten, Datenqualität prüfen, auswerten.
+
+**MarTech und Operations**: Werkzeuge, Schnittstellen, Datenflüsse.
+
+**Recht und Compliance**: Einwilligungen, Verträge, Kennzeichnung.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @chaffey2022
+:::
+
+::: {.notes}
+Diese sechs Bündel lassen sich auch in kleinen Teams unterscheiden, selbst wenn eine Person mehrere davon übernimmt. Die Strategie legt Ziele, Zielgruppen und Positionierung fest und verantwortet das Budget. Content erstellt die Inhalte und pflegt den Redaktionsplan. Performance und Media planen, buchen und optimieren bezahlte Kampagnen. Analytics richtet die Messung ein, prüft die Datenqualität und liefert Auswertungen. MarTech, also Marketing Technology, betreibt zusammen mit Operations die Werkzeuge, hält Schnittstellen am Laufen und sorgt für saubere Datenflüsse. Recht und Compliance prüfen Einwilligungen, Verträge und Kennzeichnung.
+:::
+
+## Aufgaben ohne Namen bleiben liegen
+
+::: {.formula .editorial}
+Entscheidend ist nicht die Zahl der Köpfe, sondern die namentlich benannte Zuständigkeit je Bündel.
+:::
+
+Besonders betroffen sind Analytics und Compliance.
+
+::: {.notes}
+Dieser Satz ist die praktische Konsequenz aus der vorigen Folie. Ob sechs Personen oder zwei die Bündel abdecken, ist zweitrangig. Entscheidend ist, dass jedes Bündel eine namentlich benannte Zuständigkeit hat. Aufgaben ohne Namen bleiben liegen, und zwar mit einem erkennbaren Muster: Es trifft fast immer Analytics und Compliance. Beide liefern keine sichtbaren Ergebnisse im Tagesgeschäft, beide fallen erst auf, wenn etwas fehlt oder schiefgeht. Für die Führungsebene ist das eine einfache Prüffrage an jede Marketingorganisation.
+:::
+
+## Fünf Kriterien führen zur Make-or-buy-Entscheidung
+
+1. **Kernkompetenz**: Was die Positionierung ausmacht, gehört ins Haus.
+2. **Frequenz**: laufender Bedarf spricht für Aufbau, seltene Spitzen für Einkauf.
+3. **Spezialwissen**: schnell veränderliche Felder laufen nicht nebenbei mit.
+4. **Vollkosten**: inklusive Einarbeitung, Werkzeugen und Ausfallrisiko.
+5. **Datenzugang**: Wer die Konten hält, hält die Kundenbeziehung.
+
+::: {.sources}
+Quelle: @kingsnorth2022
+:::
+
+::: {.notes}
+Die fünf Kriterien ersetzen das Bauchgefühl durch eine begründbare Entscheidung. Das erste fragt nach der Positionierung: Was das Unternehmen im Markt unterscheidbar macht, wird nicht ausgelagert. Das zweite fragt nach der Häufigkeit, denn eine täglich anfallende Aufgabe rechtfertigt eigenen Aufbau, eine seltene Spitze eher den Einkauf. Das dritte betrifft Felder, die sich so schnell ändern, dass Einzelpersonen sie nicht nebenbei mitführen können. Das vierte verlangt die Vollkostenbetrachtung inklusive Einarbeitung, Werkzeugen und Ausfallrisiko. Das fünfte ist das strategisch gewichtigste: Wer die Konten und Daten hält, hält die Kundenbeziehung.
+:::
+
+<!-- image: profile="anschauung" file="anschauung-werkbank-fachbetrieb.png"
+Eine Handwerksmeisterin steht an ihrer eigenen gut sortierten Werkbank und prüft ein Bauteil, das sichtbar von außerhalb angeliefert wurde, im Hintergrund die geöffnete Werkstatttür. Mid-shot von der Seite, Gesicht abgewandt. Editorial magazine photography aesthetic, muted earth tones, dignified atmosphere, natural daylight.
+-->
+
+# Eigene Werkbank oder Fachbetrieb {.stage .anschauung background-image="../images/anschauung-werkbank-fachbetrieb.png" background-color="#0a0a0f"}
+
+::: {.notes}
+Eine Werkstatt hält Werkzeuge für alles vor, was täglich anfällt. Für den Spezialauftrag, der zweimal im Jahr vorkommt und eine teure Maschine verlangt, fährt sie zum Fachbetrieb. Der entscheidende Punkt liegt in dem, was dabei nicht abgegeben wird: Die Werkstatt beschreibt genau, was gebraucht wird, und prüft das Ergebnis bei der Abnahme. Verantwortung bleibt also im Haus, auch wenn die Ausführung außerhalb stattfindet. Genau dieses Verhältnis beschreibt eine gute Zusammenarbeit mit Agenturen und Dienstleistern.
+:::
+
+## Die Entscheidung fällt selten rein, sondern meist hybrid
+
+| Aufgabe | Empfehlung | Begründung |
+|---|---|---|
+| **Strategie, Positionierung, Budget** | **Make** | **Kernkompetenz, nicht delegierbar** |
+| Bezahlte Kampagnen in mehreren Kanälen | Hybrid | Steuerung intern, Umsetzung extern |
+| Aufwendige Produktion, rechtliche Prüfung | Buy | selten benötigt, hohe Fachkunde |
+| Laufende Inhalte und Kundenkommunikation | Make | Nähe zu Produkt und Kundschaft nötig |
+| Messung und Schnittstellen einrichten | Hybrid | extern aufsetzen, intern betreiben |
+
+::: {.notes}
+Die Tabelle zeigt, dass die reine Entscheidung zwischen Eigenleistung und Einkauf die Ausnahme bleibt. Die hervorgehobene Zeile ist die einzige, bei der es keine Abwägung gibt: Strategie, Positionierung und Budgetsteuerung sind Kernkompetenz und lassen sich nicht delegieren. Bezahlte Kampagnen laufen typischerweise hybrid, mit interner Steuerung und externer Umsetzung. Aufwendige Video- und Bildproduktion sowie die rechtliche Prüfung heikler Vorhaben werden eingekauft, weil beides selten gebraucht wird und hohe Fachkunde verlangt. Laufende Inhalte gehören ins Haus, weil sie Nähe zu Produkt und Kundschaft brauchen. Die technische Einrichtung von Messung und Schnittstellen wird einmalig extern aufgesetzt und danach intern betrieben.
+:::
+
+## Gute Zusammenarbeit beginnt beim Briefing
+
+Das Briefing beschreibt Ausgangslage, Ziel, Zielgruppe, Botschaft, Budget, Termine und die Erfolgskriterien. Der Vertrag hält fest, welche Kennzahlen gelten und wie oft berichtet wird.
+
+::: {.notes}
+Die Qualität einer Agenturleistung entscheidet sich früher, als meist angenommen wird. Ein Briefing, das Ausgangslage, Ziel, Zielgruppe, Botschaft, Budget und Termine benennt, verhindert die häufigste Ursache für Unzufriedenheit, nämlich unterschiedliche Erwartungen. Ebenso wichtig sind die Kriterien, an denen der Erfolg gemessen wird, denn sie werden im Nachhinein nur noch strittig festgelegt. Was im Briefing steht, gehört in den Vertrag: welche Kennzahlen gelten, wie oft berichtet wird und in welcher Form. Auch der Ausstieg wird bereits dort geregelt, mit Kündigungsfristen, Datenübergabe und Dokumentation der laufenden Kampagnen.
+:::
+
+## Jedes Vergütungsmodell setzt eigene Anreize
+
+Fester Betrag je Leistungspaket, Stundensatz, **Retainer** als monatliche Pauschale, erfolgsabhängiger Anteil, prozentuale Beteiligung am Mediavolumen.
+
+Erfolgsabhängige Modelle bevorzugen Kanäle mit kurzfristigen Abschlüssen.
+
+::: {.sources}
+Quelle: @kreutzer2025
+:::
+
+::: {.notes}
+Die Vergütungsform ist keine kaufmännische Nebensache, sondern steuert das Verhalten des Dienstleisters. Üblich sind fünf Formen: ein fester Betrag je Leistungspaket, ein Stundensatz für einzelne Aufgaben, ein Retainer als monatliche Pauschale für laufende Betreuung, ein erfolgsabhängiger Anteil sowie eine prozentuale Beteiligung am Mediavolumen. Jedes dieser Modelle setzt eigene Anreize. Erfolgsabhängige Modelle etwa verleiten dazu, jene Kanäle zu bevorzugen, die kurzfristige Abschlüsse zeigen. Damit hat jedes Modell eine eingebaute Tendenz, die vor der Vertragsunterschrift bedacht gehört.
+:::
+
+## Eine Beteiligung am Mediavolumen belohnt Ausgaben, nicht Ergebnisse {.stage background-color="#0a0a0f"}
+
+Sie gehört deshalb nur mit klaren Zielwerten und Obergrenzen vereinbart. Transparenz über die Mediabudgets ist unverzichtbar.
+
+::: {.notes}
+Dieser Moment isoliert den kritischsten Fehlanreiz in der Agenturvergütung. Eine prozentuale Beteiligung am Mediavolumen steigt, wenn mehr ausgegeben wird, und zwar unabhängig davon, ob das Ergebnis besser wird. Damit wird Budgetwachstum belohnt statt Effizienz. Ausschließen lässt sich das Modell nicht immer, aber es gehört mit klaren Zielwerten und Obergrenzen versehen. Ebenso wichtig ist Transparenz über die Mediabudgets: Auszuweisen ist, wie viel tatsächlich in Werbeplätze geflossen ist und wie viel in Dienstleistung. Dazu kommt ein fester Berichtsrhythmus statt Berichten nur auf Nachfrage.
+:::
+
+## Konten und Daten gehören dem Unternehmen
+
+::: {.tip-box}
+Werbekonten, Analysewerkzeuge, Domains und Datenbestände werden auf das Unternehmen angelegt. Dienstleister erhalten Zugriff als Nutzer.
+:::
+
+Wer diesen Punkt beim Start übergeht, verliert bei einem Wechsel Verläufe, Zielgruppenlisten und die Lernkurve der Kampagnen.
+
+::: {.notes}
+Dieser Punkt wird beim Start einer Zusammenarbeit häufig übersehen und ist später kaum zu korrigieren. Werbekonten, Analysewerkzeuge, Domains und Datenbestände werden auf das Unternehmen angelegt, und Dienstleister erhalten Zugriff als Nutzer. Der Unterschied wird erst beim Wechsel sichtbar: Wer die Konten nicht besitzt, verliert die historischen Verläufe, die aufgebauten Zielgruppenlisten und die Lernkurve der Kampagnen. Der neue Dienstleister beginnt dann nicht dort, wo der alte aufgehört hat, sondern von vorn. Diese Kosten tauchen in keinem Angebot auf, sind aber real.
+:::
+
+## Für den Werkzeugbestand gilt: so wenige Systeme wie nötig
+
+Jedes zusätzliche Werkzeug erzeugt eine weitere Schnittstelle, eine weitere Datenschutzprüfung und eine weitere Stelle, an der Daten auseinanderlaufen. Im Zentrum steht das Kundenbeziehungsmanagement (CRM).
+
+::: {.notes}
+Für die Werkzeuglandschaft, den sogenannten MarTech-Stack, gilt eine einfache Leitlinie. Jedes zusätzliche System erzeugt drei Folgekosten, die bei der Anschaffung selten mitgerechnet werden: eine weitere Schnittstelle, eine weitere Datenschutzprüfung und eine weitere Stelle, an der Datenstände auseinanderlaufen. Im Zentrum steht sinnvollerweise das System mit der Kundenbeziehung, also das Kundenbeziehungsmanagement. Vor jeder Neuanschaffung sind zwei Fragen zu klären: Welche Frage beantwortet dieses Werkzeug, die heute unbeantwortet bleibt, und wer betreibt es dauerhaft.
+:::
+
+## KI kommt über Anwendungsfall, Pilot, Regeln, Schulung und Messung
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[1]{.timeline-number}
+[Anwendungsfall]{.timeline-title}
+[wenige, klar umrissene Fälle mit hoher Wiederholrate]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[2]{.timeline-number}
+[Pilot]{.timeline-title}
+[zeitlich begrenzt, in einem Team]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[3]{.timeline-number}
+[Regeln]{.timeline-title}
+[welche Daten hinein dürfen, wer vor Veröffentlichung freigibt]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[4]{.timeline-number}
+[Schulung]{.timeline-title}
+[an echten Aufgaben; erfüllt Artikel 4 AI Act]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[5]{.timeline-number}
+[Messung]{.timeline-title}
+[Durchlaufzeit, Zahl der Korrekturschleifen]{.timeline-detail}
+:::
+
+::::
+
+::: {.sources}
+Quelle: @kreutzer2025
+:::
+
+::: {.notes}
+Der Einstieg in KI-Werkzeuge folgt einer Reihenfolge, die sich bewährt hat. Er beginnt bei wenigen, klar umrissenen Anwendungsfällen mit hoher Wiederholrate, etwa Entwürfen für wiederkehrende Textformate oder der Vorstrukturierung von Auswertungen. Dann folgt ein zeitlich begrenzter Pilotversuch in einem Team statt einer breiten Einführung. Vorab wird festgelegt, welche Daten eingegeben werden dürfen und wer Ergebnisse vor der Veröffentlichung freigibt. Die Schulung findet an echten Aufgaben statt und erfüllt zugleich die Anforderung an KI-Kompetenz aus Artikel 4 der KI-Verordnung. Am Ende steht die Messung an vorher festgelegten Größen wie Durchlaufzeit oder Zahl der Korrekturschleifen.
+:::
+
+## Vier Fehler wiederholen sich bei jeder KI-Einführung
+
+Das Werkzeug ohne Anwendungsfall einführen. Keine Regeln für vertrauliche Daten setzen. Die fachliche Prüfung der Ergebnisse überspringen. Den Nutzen nie messen, sodass die Diskussion bei Meinungen bleibt.
+
+::: {.notes}
+Diese vier Fehler treten so regelmäßig auf, dass sie sich als Prüfliste eignen. Der erste beginnt mit der Lizenz statt mit der Aufgabe, und die Nutzung versandet nach wenigen Wochen. Der zweite lässt offen, welche Daten in ein Werkzeug eingegeben werden dürfen, was besonders bei Kunden- und Vertragsdaten zum Problem wird. Der dritte überspringt die fachliche Prüfung der Ergebnisse und verlagert das Risiko in die Veröffentlichung. Der vierte verzichtet auf Messung, wodurch die Diskussion über den Nutzen dauerhaft bei Meinungen bleibt und keine Entscheidung mehr möglich ist.
+:::
+
+## Vier Fragen entscheiden über jede Freigabe
+
+1. Welches Geschäftsziel unterstützt das Vorhaben?
+2. Was kostet es vollständig gerechnet, und woran ist der Nutzen erkennbar?
+3. Wer ist verantwortlich, und welche Kompetenzen fehlen noch?
+4. Welche Risiken bestehen bei Daten, Recht und Abhängigkeit von Anbietern?
+
+::: {.notes}
+Diese vier Fragen stellt eine Geschäftsführung fast immer, unabhängig von Branche und Vorhaben. Die erste verlangt die Verbindung zum Geschäftsziel und schließt Vorhaben aus, die nur technisch interessant sind. Die zweite fragt nach den Vollkosten und nach dem Kriterium, an dem sich der Nutzen später zeigen soll. Die dritte klärt Verantwortung und Kompetenzlücke, weil ein Vorhaben ohne benannte Zuständigkeit erfahrungsgemäß liegen bleibt. Die vierte betrifft Risiken bei Daten, Recht und Anbieterabhängigkeit. Wer diese vier Fragen vor dem Termin beantwortet, bekommt seltener Rückfragen und schneller eine Entscheidung.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Verantwortung bleibt im Haus, auch wenn die Ausführung außerhalb liegt. Nächster Schritt im Seminarraum: die vier Fragen der Geschäftsführung auf ein eigenes Vorhaben anwenden und die schwächste Antwort benennen.
+
+::: {.notes}
+Als Kern bleibt: Organisation entscheidet über die Wirkung von digitalem Marketing mindestens so stark wie die einzelne Maßnahme. Jedes Aufgabenbündel braucht eine namentliche Zuständigkeit, die Make-or-buy-Entscheidung folgt fünf Kriterien statt dem Bauchgefühl, Vergütungsmodelle setzen Anreize, und Konten und Daten bleiben beim Unternehmen. Für die Anwendung im Seminarraum eignet sich ein eigenes Vorhaben, sei es eine Agenturbeauftragung oder eine KI-Einführung. Die vier Fragen der Geschäftsführung werden darauf angewandt, und die schwächste Antwort markiert die Aufgabe für die kommende Woche.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

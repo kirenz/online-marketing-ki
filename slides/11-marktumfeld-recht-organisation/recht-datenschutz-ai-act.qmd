@@ -1,0 +1,216 @@
+---
+title: "Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz"
+subtitle: "Modul 11: Marktumfeld, Recht und Organisation"
+author: Jan Kirenz
+---
+
+# Drei Regelwerke berühren jede digitale Kampagne {.stage background-image="../images/hero-recht-datenschutz-ai-act.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-recht-datenschutz-ai-act.png"
+Abstrakte moderne Komposition aus drei klar getrennten, ineinandergreifenden Rahmenflächen über einer tiefen Basis, die geordnete Grenzen und geprüfte Durchgänge andeuten. Präzise geometrische Kanten, frische Akzente in elektrischem Blau und Teal, ruhige Ordnung statt Bedrohung. Großzügiger Negativraum im oberen Drittel für eine Titel-Überlagerung. Kein Text, keine Gesichter.
+-->
+
+::: {.notes}
+Der Einstieg ordnet das Thema für eine Führungsrolle ein. Digitales Marketing arbeitet mit personenbezogenen Daten, mit Werbung in fremden Postfächern und zunehmend mit maschinell erzeugten Inhalten. Für alle drei Bereiche gibt es klare Regeln, und diese Lesson verschafft einen Überblick, der ausreicht, um Vorhaben einzuordnen, gezielte Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden. Das Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung; bei konkreten Vorhaben gehört juristische Fachkunde hinzu.
+:::
+
+## Ohne Rechtsgrundlage keine Verarbeitung personenbezogener Daten
+
+| Rechtsgrundlage | Typischer Fall | Worauf es ankommt |
+|---|---|---|
+| **Einwilligung (Art. 6 Abs. 1 lit. a)** | **Newsletter, Tracking über das Nötige hinaus** | **freiwillig, informiert, aktive Handlung, widerrufbar, nachweisbar** |
+| Vertrag (Art. 6 Abs. 1 lit. b) | Bestellabwicklung, Kundenkonto | nur erforderliche Daten |
+| Berechtigtes Interesse (Art. 6 Abs. 1 lit. f) | Missbrauchsabwehr, interne Auswertungen | dokumentierte Abwägung, Widerspruchsrecht |
+
+::: {.sources}
+Quelle: @dsgvo2016
+:::
+
+::: {.notes}
+Die Datenschutz-Grundverordnung, kurz DSGVO, erlaubt die Verarbeitung personenbezogener Daten nur, wenn eine Rechtsgrundlage vorliegt. Für das Marketing sind drei davon praktisch bedeutsam. Die hervorgehobene Zeile ist die im Marketing häufigste und zugleich anspruchsvollste: Eine Einwilligung muss freiwillig und informiert erfolgen, durch eine aktive Handlung zustande kommen, jederzeit widerrufbar sein und im Streitfall nachgewiesen werden können. Der Vertrag trägt alles, was zur Leistungserbringung erforderlich ist. Das berechtigte Interesse trägt einen engen Rahmen, verlangt aber eine dokumentierte Abwägung.
+:::
+
+## Drei Grundsätze gelten zusätzlich zu jeder Rechtsgrundlage
+
+**Zweckbindung**: Nutzung nur für den Zweck der Erhebung.
+
+**Datenminimierung**: Umfang begrenzt auf das Nötige.
+
+**Speicherbegrenzung**: Löschfristen sind festzulegen.
+
+Hinzu kommen Informationspflichten gegenüber den betroffenen Personen.
+
+::: {.notes}
+Eine gültige Rechtsgrundlage allein genügt nicht. Unabhängig davon gelten Grundsätze, die den Umgang mit den Daten prägen. Zweckbindung bedeutet, dass Daten nicht später für etwas anderes verwendet werden, als bei der Erhebung angegeben wurde. Datenminimierung begrenzt den Umfang auf das für den Zweck Nötige, was in der Praxis vor allem heißt, weniger Felder abzufragen. Die Speicherbegrenzung verlangt festgelegte Löschfristen. Die Informationspflichten sorgen dafür, dass betroffene Personen verständlich erfahren, wer welche Daten wofür verarbeitet und an wen sie weitergegeben werden.
+:::
+
+<!-- image: profile="anschauung" file="anschauung-besucherausweis.png"
+Eine Empfangsmitarbeiterin reicht über einen ruhigen Bürotresen einen frisch ausgestellten Besucherausweis an ein Gegenüber, im Hintergrund eine kontrollierte Zugangsschranke. Mid-shot, Gesichter abgewandt oder außerhalb des Bildes. Editorial magazine photography aesthetic, muted earth tones, dignified atmosphere, natural daylight.
+-->
+
+# Der Besucherausweis am Empfang {.stage .anschauung background-image="../images/anschauung-besucherausweis.png" background-color="#0a0a0f"}
+
+::: {.notes}
+Eine Einwilligung funktioniert wie ein Besucherausweis. Er wird bewusst ausgestellt, gilt für einen bestimmten Bereich und für eine bestimmte Zeit, und er lässt sich zurückgeben. Entscheidend ist der Umkehrschluss: Niemand betritt das Gebäude, weil der Ausweis schon vorbereitet auf dem Tresen lag. Genauso wenig entsteht eine Einwilligung durch ein vorausgefülltes Kästchen. Das Bild trägt damit drei Merkmale gleichzeitig, die auch juristisch zählen: die aktive Ausstellung, der begrenzte Geltungsbereich und die jederzeit mögliche Rückgabe.
+:::
+
+## § 25 TDDDG verlangt Einwilligung für den Zugriff auf das Endgerät
+
+Informationen auf einem Endgerät dürfen nur mit Einwilligung gespeichert oder ausgelesen werden. Ausgenommen ist, was für den gewünschten Dienst unbedingt erforderlich ist, etwa der Warenkorb.
+
+::: {.sources}
+Quelle: @tdddg2024
+:::
+
+::: {.notes}
+Neben der DSGVO gilt in Deutschland das Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz, kurz TDDDG, das früher TTDSG hieß. Sein Paragraf 25 setzt an einer anderen Stelle an als die DSGVO: Er betrifft nicht die Verarbeitung von Daten, sondern bereits den technischen Zugriff auf das Endgerät. Ausgenommen sind ausschließlich Vorgänge, die für den ausdrücklich gewünschten Dienst unbedingt erforderlich sind, etwa der Warenkorb eines Shops. Reichweitenmessung, Werbe-Cookies und ähnliche Techniken fallen nicht darunter und brauchen deshalb eine Einwilligung.
+:::
+
+## Planet49 klärte zwei Punkte, die Aufsichtsbehörden den dritten
+
+**Aus dem Urteil**: ein vorangekreuztes Kästchen ist keine wirksame Einwilligung; über Speicherdauer und Zugriff Dritter ist zu informieren.
+
+**Aus den Vorgaben von EDSA und DSK**: Ablehnen so einfach erreichbar wie Zustimmen, Widerruf so leicht wie die Zustimmung.
+
+::: {.sources}
+Quelle: @eughPlanet49
+:::
+
+::: {.notes}
+Diese Unterscheidung ist präzise zu halten, weil beide Anforderungen oft demselben Urteil zugeschrieben werden. Der Europäische Gerichtshof hat im Verfahren Planet49 genau zwei Punkte geklärt: Ein vorangekreuztes Kästchen ist keine wirksame Einwilligung, und über die Speicherdauer sowie den Zugriff Dritter ist zu informieren. Daraus folgt für heutige Einwilligungsbanner die aktive Handlung statt einer Voreinstellung. Dass Ablehnen genauso einfach erreichbar sein muss wie Zustimmen und der Widerruf so leicht wie die Zustimmung, ergibt sich dagegen aus den Vorgaben der Aufsichtsbehörden, also des Europäischen Datenschutzausschusses und der Datenschutzkonferenz. Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge überhaupt laden.
+:::
+
+## Werbliche E-Mails setzen eine vorherige ausdrückliche Einwilligung voraus
+
+Grundlage ist § 7 Abs. 2 Nr. 2 UWG. In der Praxis sichert das [Double-Opt-in-Verfahren]{.highlight-blue} sie ab: Anmeldung, Bestätigungsmail, erst der Klick darin schaltet den Versand frei.
+
+::: {.sources}
+Quelle: @uwg
+:::
+
+::: {.notes}
+Für Werbung im Postfach gilt das Gesetz gegen den unlauteren Wettbewerb, kurz UWG, und zwar unabhängig von der datenschutzrechtlichen Bewertung. Der genannte Paragraf verlangt eine vorherige ausdrückliche Einwilligung. Das Double-Opt-in-Verfahren ist die praktische Umsetzung: Auf die Anmeldung folgt eine Bestätigungsmail, und erst der Klick darin schaltet den Versand frei. Der doppelte Schritt erfüllt zwei Aufgaben zugleich. Er verhindert die Anmeldung fremder Adressen, und er führt zugleich den Nachweis, dass die Einwilligung tatsächlich von der Inhaberin oder dem Inhaber der Adresse stammt.
+:::
+
+## Die Bestandskunden-Ausnahme gilt vollständig oder gar nicht
+
+§ 7 Abs. 3 UWG greift nur, wenn **alle vier** Voraussetzungen erfüllt sind: Adresse beim Verkauf erhoben, Werbung für eigene ähnliche Waren, kein Widerspruch, Hinweis auf das Widerspruchsrecht bei Erhebung und bei jeder Verwendung.
+
+::: {.sources}
+Quelle: @uwg
+:::
+
+::: {.notes}
+Diese Ausnahme wird häufig zu großzügig ausgelegt, deshalb lohnt der genaue Blick. Sie greift nur, wenn alle vier Voraussetzungen zugleich erfüllt sind. Erstens wurde die Adresse im Zusammenhang mit dem Verkauf einer Ware oder Dienstleistung erhoben. Zweitens wird sie für Direktwerbung für eigene ähnliche Waren oder Dienstleistungen genutzt, was fremde Angebote und thematisch entfernte Produkte ausschließt. Drittens hat die Kundschaft nicht widersprochen. Viertens wurde sie bei der Erhebung und bei jeder einzelnen Verwendung klar auf das Widerspruchsrecht hingewiesen. Fällt eine dieser Voraussetzungen weg, greift wieder die Grundregel der vorherigen Einwilligung.
+:::
+
+## Einwilligung und eigene Daten tragen die Messung {.stage background-color="#0a0a0f"}
+
+Cookies fremder Anbieter verlieren an Bedeutung. Der Schwerpunkt verschiebt sich auf eigene Daten aus Shop, Kundenkonto und Newsletter.
+
+::: {.notes}
+Dieser Moment fasst eine Entwicklung zusammen, die technische und rechtliche Ursachen zugleich hat. Cookies fremder Anbieter verlieren an Bedeutung, teils durch Browsereinstellungen, teils durch rechtliche Vorgaben. Serverseitiges Tagging verlagert die Datenübergabe auf einen eigenen Server, ersetzt die Einwilligung aber ausdrücklich nicht. Fehlende Signale werden von Werbeplattformen zunehmend über Modellierung geschätzt, etwa im Rahmen eines Einwilligungsmodus. Chrome hat die vollständige Abschaltung der Cookies von Drittanbietern zurückgenommen, doch die Richtung bleibt bestehen. Welche browserseitigen Ersatzverfahren sich durchsetzen, ist offen, weshalb Auswertungen so aufzubauen sind, dass sie auch mit unvollständigen Daten belastbar bleiben.
+:::
+
+## Der AI Act ordnet KI-Anwendungen nach Risiko
+
+Die Verordnung (EU) 2024/1689 verbietet einige Praktiken, stellt an Hochrisiko-Anwendungen strenge Anforderungen und belegt weitere Systeme mit Transparenzpflichten.
+
+Ein eigenes Regime gilt für Modelle mit allgemeinem Verwendungszweck (General Purpose AI, GPAI).
+
+::: {.sources}
+Quelle: @euAiAct2024
+:::
+
+::: {.notes}
+Die KI-Verordnung der Europäischen Union wird meist als AI Act bezeichnet. Ihr Aufbau folgt einer Risikologik: Einige Praktiken sind verboten, Hochrisiko-Anwendungen unterliegen strengen Anforderungen, und für weitere Systeme gelten Transparenzpflichten. Marketinganwendungen fallen in aller Regel in die dritte Gruppe. Daneben steht ein eigenes Regime für Modelle mit allgemeinem Verwendungszweck, also die großen Sprach- und Bildmodelle. Deren Anbieter treffen Dokumentations- und Urheberrechtspflichten. Für ein Marketingteam ist das vor allem eine Beschaffungsfrage, weil diese Pflichten beim Anbieter des Werkzeugs liegen.
+:::
+
+## Artikel 50 verteilt die Pflichten auf Anbieter und Betreiber
+
+**Anbieter**: Systeme mit direkter Interaktion müssen als KI erkennbar sein (Abs. 1); synthetische Ausgaben sind maschinenlesbar zu markieren (Abs. 2).
+
+**Betreiber**: Deepfakes werden offengelegt, ebenso KI-Texte zu Angelegenheiten von öffentlichem Interesse (Abs. 4).
+
+::: {.sources}
+Quelle: @euAiAct2024
+:::
+
+::: {.notes}
+Die Trennung nach Rollen ist der wichtigste Teil dieser Folie. Die Absätze eins und zwei richten sich an Anbieter, also an die Hersteller der Werkzeuge, und werden vom Werkzeug erfüllt, nicht vom Marketingteam. Daraus wird für ein Unternehmen eine Beschaffungsfrage: Ein Chatbot wird nur so gekauft oder konfiguriert, dass er für Nutzende erkennbar als KI auftritt, und ein Bildwerkzeug wird danach ausgewählt, ob es seine Ausgaben maschinenlesbar markiert. Als Betreiber trifft ein Unternehmen vor allem Absatz vier: Täuschend echte Darstellungen realer Personen, Objekte oder Orte werden offengelegt, ebenso veröffentlichte KI-Texte zu Angelegenheiten von öffentlichem Interesse. Absatz drei betrifft Emotionserkennung und biometrische Kategorisierung und spielt im Marketing selten eine Rolle. Eine allgemeine Pflicht, jedes mit KI erstellte Werbebild zu kennzeichnen, folgt daraus nicht.
+:::
+
+## Der AI Act gilt gestuft
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[1]{.timeline-number}
+[01.08.2024]{.timeline-title}
+[Inkrafttreten der Verordnung]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[2]{.timeline-number}
+[02.02.2025]{.timeline-title}
+[Verbotene Praktiken und Artikel 4]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[3]{.timeline-number}
+[02.08.2025]{.timeline-title}
+[Pflichten für GPAI-Modelle]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[4]{.timeline-number}
+[02.08.2026]{.timeline-title}
+[Artikel 50 und die meisten übrigen Pflichten (Art. 113)]{.timeline-detail}
+:::
+
+::::
+
+::: {.sources}
+Quelle: @euAiAct2024
+:::
+
+::: {.notes}
+Die Verordnung ist am ersten August 2024 in Kraft getreten und gilt gestuft. Die verbotenen Praktiken greifen seit dem zweiten Februar 2025, und seit demselben Datum gilt auch die Anforderung an KI-Kompetenz aus Artikel 4. Die Pflichten für Modelle mit allgemeinem Verwendungszweck gelten seit dem zweiten August 2025. Artikel 50 sowie die meisten übrigen Pflichten gelten nach derzeitigem Stand ab dem zweiten August 2026; die Fristenregelung steht in Artikel 113. Anpassungen einzelner Fristen werden auf EU-Ebene diskutiert, weshalb jeweils der Stand zum Zeitpunkt der Entscheidung maßgeblich ist.
+:::
+
+## Artikel 4 gilt bereits und trifft jedes Marketingteam {.stage background-color="#0a0a0f"}
+
+Anbieter und Betreiber sorgen für ein ausreichendes Maß an KI-Kompetenz des Personals, gemessen an Vorkenntnissen, Aufgabe und Einsatzkontext.
+
+::: {.notes}
+Dieser Moment ist der praktisch wichtigste des gesamten Kapitels, weil er nicht in der Zukunft liegt. Während Artikel 50 nach derzeitigem Stand erst 2026 greift, gilt Artikel 4 bereits seit dem zweiten Februar 2025. Anbieter und Betreiber sorgen danach dafür, dass ihr Personal über ein ausreichendes Maß an KI-Kompetenz verfügt, gemessen an Vorkenntnissen, Aufgabe und Einsatzkontext. Damit sind auch Marketingteams erfasst, die generative Werkzeuge einsetzen. Die organisatorische Konsequenz ist eindeutig: Schulung gehört fest in jeden Pilotversuch, und das Kapitel zur Organisation greift genau diesen Punkt wieder auf.
+:::
+
+## Werbung bleibt kennzeichnungspflichtig, auch wenn KI sie schreibt
+
+Werbung muss als Werbung erkennbar sein, auch in Beiträgen von Kooperationspartnern. Modelle erfinden Fakten und bauen fremde Marken oder Personenbildnisse ein. Die Verantwortung für Veröffentlichtes bleibt beim Unternehmen.
+
+::: {.sources}
+Quelle: @kreutzer2025
+:::
+
+::: {.notes}
+Unabhängig vom Datenschutz gilt das Wettbewerbsrecht weiter. Werbung muss als Werbung erkennbar sein, und das schließt Beiträge von Kooperationspartnern ausdrücklich ein. Irreführende Angaben zu Eigenschaften, Verfügbarkeit oder Preisen sind unzulässig. Bei KI-erzeugten Inhalten kommt ein zusätzliches Risiko hinzu, weil Modelle Fakten erfinden und fremde Marken oder Personenbildnisse einbauen können. Die Verantwortung für alles Veröffentlichte bleibt beim Unternehmen und lässt sich weder an ein Werkzeug noch an einen Dienstleister abgeben. Daraus folgt eine schlichte Regel: Jede Ausgabe wird vor der Verwendung fachlich geprüft.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Rechtsgrundlage, Einwilligung, Kennzeichnung und KI-Kompetenz sind Führungsthemen, keine Formalien. Nächster Schritt im Seminarraum: der Kurzcheck mit vier Fragen, angewandt auf eine geplante Kampagne.
+
+::: {.notes}
+Als Kern bleibt der Kurzcheck vor jedem Kampagnenstart, und er besteht aus vier Fragen. Erstens: Liegt für jede Datenverarbeitung eine Rechtsgrundlage vor, und wird die Einwilligung sauber eingeholt und dokumentiert? Zweitens: Sind Impressum, Datenschutzhinweise und Werbekennzeichnung vollständig? Drittens: Welche Daten fließen an welche Dienstleister, und bestehen die nötigen Verträge? Viertens: Sind Deepfakes offengelegt, und tritt ein eingesetzter Chatbot für Nutzende erkennbar als KI auf? Diese vier Fragen lassen sich im Seminarraum direkt auf eine geplante Kampagne anwenden, und jede offene Antwort markiert eine Aufgabe vor dem Start.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

@@ -1,0 +1,201 @@
+---
+title: "Online-Marketing in Produkt-, Preis- und Distributionspolitik"
+subtitle: "Modul 11: Marktumfeld, Recht und Organisation"
+author: Jan Kirenz
+---
+
+# Digitale Kanäle verändern mehr als die Werbung {.stage background-image="../images/hero-produkt-preis-distribution.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-produkt-preis-distribution.png"
+Abstrakte moderne Komposition aus drei ineinandergreifenden Flächen, die Produkt, Preis und Vertriebsweg andeuten: geschichtete Kacheln, eine feine Preisskala und verzweigte Linien, die zu mehreren Endpunkten führen. Frische Akzente in Teal, Lime und warmem Koralle über tiefem Grundton. Großer Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter.
+-->
+
+::: {.notes}
+Der Einstieg verschiebt den Blick von der Kommunikation auf den übrigen Marketing-Mix. Digitale Kanäle betreffen nicht nur die Frage, wie ein Angebot beworben wird, sondern auch, welches Angebot überhaupt entsteht, wie es bepreist wird und über welchen Weg es zur Kundschaft gelangt. Als durchgehendes Beispiel dient eine kleine Kaffeerösterei mit Ladengeschäft, Onlineshop und Abo. Für die Führungsebene sind das drei Entscheidungsfelder mit unmittelbarer Ergebniswirkung.
+:::
+
+## Digitale Leistungen lassen sich fast ohne Zusatzkosten vervielfältigen
+
+Aus dieser Kostenstruktur entstehen Angebotsformen, die im rein physischen Geschäft nicht möglich wären.
+
+::: {.sources}
+Quelle: @kreutzer2025
+:::
+
+::: {.notes}
+Der Ausgangspunkt ist eine ökonomische Besonderheit. Eine weitere Kopie einer digitalen Leistung verursacht nahezu keine zusätzlichen Kosten, während eine weitere Packung Kaffee Rohstoff, Arbeit und Logistik bindet. Wo Grenzkosten gegen null gehen, wird es sinnvoll, dasselbe Angebot in mehreren Zuschnitten und Preisstufen anzubieten, statt es einheitlich zu verkaufen. Genau daraus leiten sich die Modelle der nächsten Folie ab. Sie sind keine Marketingmoden, sondern Konsequenzen aus der Kostenstruktur.
+:::
+
+## Vier Angebotsformen folgen aus dieser Kostenstruktur
+
+:::: {.features}
+
+::: {.feature}
+[01]{.feature-number}
+**Versioning**
+
+Dieselbe Leistung in mehreren Ausbaustufen, etwa Basis, Profi und Unternehmen.
+:::
+
+::: {.feature}
+[02]{.feature-number}
+**Freemium**
+
+Grundversion dauerhaft kostenlos, Zusatzfunktionen kostenpflichtig.
+:::
+
+::: {.feature}
+[03]{.feature-number}
+**Abo**
+
+Fokus vom Einzelkauf auf eine laufende Beziehung verschoben.
+:::
+
+::: {.feature}
+[04]{.feature-number}
+**Bundling**
+
+Mehrere Leistungen zu einem Paket zusammengefasst.
+:::
+
+::::
+
+::: {.notes}
+Die vier Formen unterscheiden sich darin, welche Entscheidung sie der Kundschaft überlassen. Versioning bietet dieselbe Leistung in mehreren Ausbaustufen an, etwa als Basis-, Profi- und Unternehmensversion, und überlässt die Wahl des Funktionsumfangs der Kundschaft. Beim Freemium-Modell bleibt eine Grundversion dauerhaft kostenlos, während Zusatzfunktionen bezahlt werden. Abo-Modelle verschieben den Fokus vom Einzelkauf auf eine laufende Beziehung. Bundling fasst mehrere Leistungen zu einem Paket zusammen. Für die Rösterei ist vor allem das Abo relevant, weil es Nachschub planbar macht.
+:::
+
+## Auch physische Produkte gewinnen digitale Anteile
+
+Die Rösterei verkauft nicht nur Bohnen, sondern liefert Herkunftsangaben, Röstprofile und Zubereitungsanleitungen mit. Das kostet wenig, verbessert die Auffindbarkeit und liefert einen Grund für genau diesen Anbieter.
+
+::: {.notes}
+Dieser Gedanke ist für Unternehmen mit physischem Kerngeschäft der wichtigste des Kapitels. Ein Sack Kaffee bleibt ein Sack Kaffee, doch die begleitenden Informationen sind digital und damit fast kostenlos zu vervielfältigen. Herkunftsangaben, Röstprofile und Zubereitungsanleitungen erfüllen zwei Zwecke gleichzeitig: Sie beantworten die Suchanfragen potenzieller Kundschaft und verbessern damit die Auffindbarkeit, und sie liefern ein Argument, das über den Preis hinausgeht. Der digitale Anteil eines physischen Produkts ist damit weniger eine Marketingmaßnahme als ein Teil des Angebots selbst.
+:::
+
+<!-- image: profile="anschauung" file="anschauung-marktstand-ladenlokal.png"
+Eine Händlerin an einem gut besuchten Wochenmarktstand ordnet ihre Auslage, während im Hintergrund unscharf die Fassade eines eigenen Ladenlokals sichtbar ist. Mid-shot von der Seite, Gesicht abgewandt. Editorial magazine photography aesthetic, muted earth tones, dignified atmosphere, natural daylight.
+-->
+
+# Marktstand oder eigenes Ladenlokal {.stage .anschauung background-image="../images/anschauung-marktstand-ladenlokal.png" background-color="#0a0a0f"}
+
+::: {.notes}
+Ein Stand auf dem Wochenmarkt bringt sofort Laufkundschaft. Standgebühr, Öffnungszeiten und Platzvergabe bestimmt jedoch der Markt. Ein eigenes Ladenlokal verlangt eigene Werbung, dafür gehören Auslage, Preisschild und Kundenkontakt zum Betrieb selbst. Marktplatz und eigener Onlineshop verhalten sich genauso zueinander. Wichtig an dem Bild ist der Schluss: Die meisten Unternehmen brauchen beides, und die eigentliche Entscheidung liegt nicht im Entweder-oder, sondern in der Gewichtung.
+:::
+
+## Plattformen bringen Reichweite und kosten Kontrolle
+
+Ein erheblicher Teil der Produktsuche beginnt auf Handelsplattformen, in App-Stores oder auf B2B-Marktplätzen. Die Plattform bestimmt Sichtbarkeit, Regeln und Gebühren und kennt die Kundschaft oft besser als der Anbieter.
+
+::: {.sources}
+Quelle: @chaffey2022
+:::
+
+::: {.notes}
+Der Ausgangspunkt vieler Kaufprozesse hat sich verschoben. Gesucht wird häufig nicht mehr auf einer Website, sondern direkt dort, wo gekauft werden kann. Wer auf einer Plattform verkauft, erreicht sofort viele Suchende und spart den mühsamen Aufbau eigener Reichweite. Der Preis dafür ist Kontrolle: Sichtbarkeit, Regeln und Gebühren setzt die Plattform, und die Kundenbeziehung entsteht in erster Linie zwischen Plattform und Käufer. Für die Führungsebene ist das eine Abwägung zwischen schnellem Umsatz und langfristiger Unabhängigkeit.
+:::
+
+## Retail Media macht den Regalplatz käuflich
+
+Werbeplätze innerhalb von Handelsumgebungen, etwa hervorgehobene Produktplatzierungen in den Suchergebnissen eines Marktplatzes. Der Platz im digitalen Regal wird gekauft statt nur verdient.
+
+::: {.notes}
+Sichtbarkeit auf Plattformen ist selbst zu einer Werbeleistung geworden. Retail Media bezeichnet Werbeplätze innerhalb von Handelsumgebungen, also etwa hervorgehobene Produktplatzierungen in den Suchergebnissen eines Marktplatzes. Damit verschiebt sich eine Regel, die im Handel lange galt: Der beste Platz im Regal wurde durch Absatz verdient, heute lässt er sich zusätzlich kaufen. Wer auf einem Marktplatz verkauft, kalkuliert deshalb nicht nur mit der Provision, sondern auch mit den Werbekosten für Sichtbarkeit.
+:::
+
+## Online ist der Preis in Sekunden vergleichbar
+
+Vergleichsportale und Marktplatzlisten stellen Angebote nebeneinander. Der Preis rückt nach vorn, und Differenzierung über Leistung, Service und Marke wird wichtiger.
+
+::: {.sources}
+Quelle: @kreutzer2025
+:::
+
+::: {.notes}
+Preistransparenz ist die auffälligste Veränderung im digitalen Umfeld. Was früher Marktbeobachtung über Wochen erforderte, liefert heute eine Suchanfrage in Sekunden. Dadurch rückt der Preis in der Wahrnehmung nach vorn, und ein Aufschlag lässt sich nur halten, wenn ein erkennbarer Unterschied dahintersteht. Genau deshalb gewinnen Leistung, Service und Marke an Bedeutung: Sie sind die einzigen Größen, die einen Preisvergleich relativieren. Für die Rösterei bedeutet das, dass Herkunft und Beratung Teil der Preisbegründung werden.
+:::
+
+## Preisdifferenzierung braucht einen erkennbaren Grund
+
+Dynamische Preise folgen Nachfrage, Lagerbestand oder Wettbewerb. Personalisierung richtet den Preis am einzelnen Nutzungsprofil aus.
+
+::: {.tip-box}
+Wer Preise auf Basis einer automatisierten Entscheidungsfindung personalisiert, muss darüber informieren (Art. 246a § 1 Abs. 1 Satz 1 Nr. 6 EGBGB).
+:::
+
+::: {.notes}
+Preise lassen sich digital fast beliebig oft ändern, und daraus entstehen zwei unterschiedliche Praktiken. Dynamische Preisbildung passt den Preis an Nachfrage, Lagerbestand oder Wettbewerb an und behandelt dabei alle Kundinnen und Kunden zum selben Zeitpunkt gleich. Personalisierung geht einen Schritt weiter und richtet den Preis am einzelnen Nutzungsprofil aus. Für den zweiten Fall besteht eine Informationspflicht, wenn die Personalisierung auf einer automatisierten Entscheidungsfindung beruht. Die Fundstelle steht im Einführungsgesetz zum Bürgerlichen Gesetzbuch, und das Rechtskapitel ordnet solche Pflichten weiter ein.
+:::
+
+## Ohne sichtbaren Grund kostet ein variabler Preis Vertrauen {.stage background-color="#0a0a0f"}
+
+Unterschiedliche Preise werden akzeptiert, wenn ein nachvollziehbarer Grund erkennbar ist: Menge, Vertragslaufzeit oder Buchungszeitpunkt.
+
+::: {.notes}
+Dieser Moment trennt zulässige von riskanter Preisgestaltung. Kundschaft akzeptiert unterschiedliche Preise durchaus, solange ein nachvollziehbarer Grund erkennbar ist. Eine Mengenstaffel, eine längere Vertragslaufzeit oder ein früher Buchungszeitpunkt sind solche Gründe, und sie lassen sich offen kommunizieren. Preise, die ohne sichtbaren Grund je Person variieren, beschädigen dagegen Vertrauen, und der Schaden trifft die Marke deutlich länger als der kurzfristige Zusatzertrag. Die Prüffrage lautet daher, ob sich der Preisunterschied ohne Unbehagen erklären ließe.
+:::
+
+## Vier Wege führen zur Kundschaft
+
+| Weg | Marge | Kontrolle | Reichweite |
+|---|---|---|---|
+| Eigener Onlineshop | hoch | hoch | gering, muss aufgebaut werden |
+| Marktplatz oder App-Store | niedrig | gering | hoch, vorhandene Suchnachfrage |
+| Stationärer Handel | mittel | mittel | regional begrenzt |
+| **Abo über eigenen Shop** | **hoch, planbar** | **hoch** | **wächst langsam, dafür stabil** |
+
+::: {.sources}
+Quelle: @lammenett2025
+:::
+
+::: {.notes}
+Die Tabelle ordnet die Distributionswege nach drei Größen, die sich systematisch gegenläufig verhalten. Der eigene Shop bringt hohe Marge, eigene Daten und volle Preishoheit, aber die Reichweite muss teuer aufgebaut werden. Der Marktplatz kehrt das Verhältnis um: sofortige Reichweite gegen Provision, Werbekosten und die Regeln der Plattform. Der stationäre Handel liegt dazwischen und bleibt für Beratung und spontanen Kauf relevant. Die hervorgehobene Zeile zeigt, warum das Abo für viele Anbieter attraktiv ist: Es verbindet hohe Marge mit planbarem Umsatz und direkter Kundenbeziehung, wächst dafür aber langsam.
+:::
+
+## Die Rösterei mischt bewusst, statt sich zu entscheiden
+
+Der Marktplatz bringt neue Kundschaft. Das Abo im eigenen Shop sichert wiederkehrenden Umsatz mit planbarer Nachlieferung (Replenishment). Der Laden bleibt Ort für Verkostung und Beratung.
+
+::: {.notes}
+Das Beispiel zeigt, wie die Abwägung praktisch aufgelöst wird. Jeder Weg übernimmt eine Aufgabe, für die er am besten geeignet ist. Der Marktplatz dient der Neukundengewinnung, weil dort Suchnachfrage bereits vorhanden ist. Das Abo im eigenen Shop bindet diese Kundschaft und macht den Nachschub planbar, was in der Fachsprache als Replenishment bezeichnet wird. Der Laden übernimmt, was digital schwer zu ersetzen ist: Verkostung, Beratung und die persönliche Bindung. Omnichannel bedeutet, dass Bestand, Preise und Kundenkonto über alle diese Kontaktpunkte hinweg zusammenpassen.
+:::
+
+## Jeder neue Markt beginnt mit der Markteintrittsform
+
+Export über einen Marktplatz, Zusammenarbeit mit einem Distributor, eigener Shop je Land oder Tochtergesellschaft. Mit jeder Stufe steigen Kontrolle und Kundennähe, aber auch Investition und gebundene Ressourcen.
+
+::: {.sources}
+Quelle: @kingsnorth2022
+:::
+
+::: {.notes}
+Die vier Formen bilden eine Reihenfolge, die zugleich die Abwägung beschreibt. Der Export über einen Marktplatz ist schnell und günstig, verschafft aber wenig Kontrolle und kaum Kundennähe. Ein Distributor bringt lokale Marktkenntnis und schiebt zugleich eine Stufe zwischen Anbieter und Kundschaft. Ein eigener Shop je Land erhöht Kontrolle und Datenzugang, verlangt aber Betrieb, Sprache und Abwicklung im jeweiligen Markt. Die Tochtergesellschaft steht am Ende dieser Reihe mit der höchsten Kontrolle und der höchsten Bindung von Kapital und Personal.
+:::
+
+## Lokalisierung, Kanalwahl und Abwicklung entscheiden danach
+
+**Lokalisierung**: Sprache, Maßeinheiten, Bildwelt und Ansprache; reine Übersetzung reicht selten.
+
+**Kanalwahl**: führende Suchmaschinen, Netzwerke und Marktplätze unterscheiden sich je Land.
+
+**Abwicklung**: Zahlungsarten, Versand, Zoll und Rückgabe entscheiden häufig über den Kaufabbruch.
+
+::: {.notes}
+Nach der Markteintrittsform folgen drei operative Fragen, die in dieser Reihenfolge zu klären sind. Die Lokalisierung betrifft mehr als Sprache: Maßeinheiten, Bildwelt und Tonalität müssen zum Markt passen, und eine reine Übersetzung wirkt schnell fremd. Die Kanalwahl kann nicht aus dem Heimatmarkt übernommen werden, weil führende Suchmaschinen, soziale Netzwerke und Marktplätze sich je Land erheblich unterscheiden. Die Abwicklung wird am häufigsten unterschätzt: Bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln entscheiden oft stärker über den Kaufabbruch als die Produktseite selbst.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Digitale Kanäle verändern Angebot, Preis und Vertriebsweg, nicht nur die Werbung. Nächster Schritt im Seminarraum: die vier Distributionswege für ein eigenes Produkt nach Marge, Kontrolle und Reichweite bewerten und die Mischung begründen.
+
+::: {.notes}
+Als Kern bleibt: Der Marketing-Mix wird durch digitale Kanäle in allen drei hier behandelten Feldern berührt. Beim Produkt entstehen neue Angebotsformen aus einer veränderten Kostenstruktur. Beim Preis erzwingt Transparenz eine erklärbare Logik, sobald differenziert wird. Bei der Distribution gilt keine reine Entweder-oder-Entscheidung, sondern eine bewusst gewichtete Mischung. Für die Anwendung im Seminarraum eignet sich ein eigenes Produkt, das entlang von Marge, Kontrolle und Reichweite auf die vier Wege verteilt wird, mit einer kurzen Begründung für die gewählte Gewichtung.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::
