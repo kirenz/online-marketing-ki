@@ -10,6 +10,46 @@
     ]
   },
   {
+    "objectID": "ueber-dieses-buch.html",
+    "href": "ueber-dieses-buch.html",
+    "title": "Über dieses Buch",
+    "section": "",
+    "text": "Autor\nDieses Online-Lehrbuch „Digitales Marketing & KI” ist die schriftliche Grundlage eines MBA-Moduls. Es umfasst elf Module mit insgesamt 35 Lektionen, ist frei zugänglich und wird laufend aktualisiert. Ergänzend gibt es einen Begleitkurs auf kurse.kirenz.de, der dieselben Inhalte in interaktive Lerneinheiten übersetzt.\nWir verstehen das Buch als Arbeitsgrundlage, nicht als abgeschlossenes Nachschlagewerk. Die Kapitel sind kurz gehalten, bauen aufeinander auf und lassen sich einzeln lesen.\nVerfasst von Prof. Dr. Jan Kirenz, Hochschule der Medien Stuttgart. Kontakt und weitere Materialien über kirenz.com.",
+    "crumbs": [
+      "Über dieses Buch"
+    ]
+  },
+  {
+    "objectID": "ueber-dieses-buch.html#autor",
+    "href": "ueber-dieses-buch.html#autor",
+    "title": "Über dieses Buch",
+    "section": "",
+    "text": "HinweisZitierhinweis\n\n\n\nFür das gesamte Buch:\n\nKirenz, J. (2026): Digitales Marketing & KI. Online-Lehrbuch. https://kirenz.github.io/online-marketing-ki/ (Stand: August 2026)\n\nFür ein einzelnes Kapitel:\n\nKirenz, J. (2026): &lt;Kapiteltitel&gt;. In: Digitales Marketing & KI. Online-Lehrbuch. URL des Kapitels (Stand: August 2026)",
+    "crumbs": [
+      "Über dieses Buch"
+    ]
+  },
+  {
+    "objectID": "ueber-dieses-buch.html#stand-und-änderungen",
+    "href": "ueber-dieses-buch.html#stand-und-änderungen",
+    "title": "Über dieses Buch",
+    "section": "Stand und Änderungen",
+    "text": "Stand und Änderungen\nVersion: August 2026. Die Kapitel werden fortlaufend überarbeitet, ergänzt und an aktuelle Entwicklungen angepasst. Das jeweilige Änderungsdatum eines Kapitels steht im Git-Verlauf des Repositories github.com/kirenz/online-marketing-ki.",
+    "crumbs": [
+      "Über dieses Buch"
+    ]
+  },
+  {
+    "objectID": "ueber-dieses-buch.html#rechte",
+    "href": "ueber-dieses-buch.html#rechte",
+    "title": "Über dieses Buch",
+    "section": "Rechte",
+    "text": "Rechte\n© Jan Kirenz 2026. Alle Rechte vorbehalten. Nutzung für das eigene Studium und die Lehre in den zugehörigen Veranstaltungen ist erlaubt; Weiterverbreitung und kommerzielle Nutzung nur mit Zustimmung.",
+    "crumbs": [
+      "Über dieses Buch"
+    ]
+  },
+  {
     "objectID": "introduction.html",
     "href": "introduction.html",
     "title": "Einführung",
@@ -167,18 +207,7 @@
     "href": "01-marketing-grundlagen/was-ist-marketing.html#ziel-strategie-und-maßnahmen",
     "title": "1  Was Marketing ist und warum es zählt",
     "section": "1.3 Ziel, Strategie und Maßnahmen",
-    "text": "1.3 Ziel, Strategie und Maßnahmen\nDamit Marketing nicht in Aktionismus verfällt, trennen wir drei Ebenen. Das Ziel beschreibt, was wir erreichen wollen (etwa mehr Bekanntheit oder mehr Käufe). Die Strategie beschreibt den Weg dorthin, vor allem über Zielgruppe und Positionierung. Die Maßnahmen sind die konkreten Schritte, etwa SEO, Content-Marketing oder bezahlte Werbung.\n\n\n\n\n\n\nTippAnalogie: die Reiseplanung\n\n\n\nWer eine Reise plant, legt zuerst das Ziel fest (wohin), dann die Route (wie kommen wir hin) und erst danach die einzelnen Etappen (welche Verkehrsmittel). Marketing funktioniert genauso: Ziel vor Strategie, Strategie vor Maßnahme. Wer mit der Maßnahme beginnt, bucht ein Verkehrsmittel, ohne das Ziel zu kennen.\n\n\n\n\n\n\n\n\nWichtigHäufige Stolperfalle\n\n\n\nViele Projekte starten mit der Maßnahme („Wir brauchen einen Social-Media-Kanal”) statt mit dem Ziel. Wir prüfen deshalb bei jeder Maßnahme zuerst, auf welches Ziel sie einzahlt und für welche Station der Kundenreise sie gedacht ist.",
-    "crumbs": [
-      "Marketing-Grundlagen",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Was Marketing ist und warum es zählt</span>"
-    ]
-  },
-  {
-    "objectID": "01-marketing-grundlagen/was-ist-marketing.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "01-marketing-grundlagen/was-ist-marketing.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "1  Was Marketing ist und warum es zählt",
-    "section": "1.4 Was als Nächstes ausgebaut werden muss",
-    "text": "1.4 Was als Nächstes ausgebaut werden muss\n\nEin durchgehendes Praxisbeispiel (ein fiktives Unternehmen) einführen, das den ganzen Kurs begleitet\nDie Kundenreise mit einer Grafik illustrieren (Fremder bis Fürsprecher)\nAbgrenzung von Marketing, Vertrieb und Kommunikation in einer kurzen Tabelle ergänzen\nDefinition von Marketing und Austauschprozessen aus Kotler, Keller, und Chernev (2022) vertiefen\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.",
+    "text": "1.3 Ziel, Strategie und Maßnahmen\nDamit Marketing nicht in Aktionismus verfällt, trennen wir drei Ebenen. Das Ziel beschreibt, was wir erreichen wollen (etwa mehr Bekanntheit oder mehr Käufe). Die Strategie beschreibt den Weg dorthin, vor allem über Zielgruppe und Positionierung. Die Maßnahmen sind die konkreten Schritte, etwa SEO, Content-Marketing oder bezahlte Werbung.\n\n\n\n\n\n\nTippAnalogie: die Reiseplanung\n\n\n\nWer eine Reise plant, legt zuerst das Ziel fest (wohin), dann die Route (wie kommen wir hin) und erst danach die einzelnen Etappen (welche Verkehrsmittel). Marketing funktioniert genauso: Ziel vor Strategie, Strategie vor Maßnahme. Wer mit der Maßnahme beginnt, bucht ein Verkehrsmittel, ohne das Ziel zu kennen.\n\n\n\n\n\n\n\n\nWichtigHäufige Stolperfalle\n\n\n\nViele Projekte starten mit der Maßnahme („Wir brauchen einen Social-Media-Kanal”) statt mit dem Ziel. Wir prüfen deshalb bei jeder Maßnahme zuerst, auf welches Ziel sie einzahlt und für welche Station der Kundenreise sie gedacht ist.\n\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.",
     "crumbs": [
       "Marketing-Grundlagen",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Was Marketing ist und warum es zählt</span>"
@@ -222,18 +251,7 @@
     "href": "01-marketing-grundlagen/marketing-mix.html#den-mix-als-ganzes-denken",
     "title": "2  Der Marketing-Mix",
     "section": "2.3 Den Mix als Ganzes denken",
-    "text": "2.3 Den Mix als Ganzes denken\nDie einzelnen Hebel wirken nicht isoliert. Ein hochwertiges Produkt mit einem Billigpreis sendet widersprüchliche Signale, und die beste Kampagne verpufft, wenn der Zugang umständlich ist. Wir stimmen die Elemente deshalb aufeinander ab, sodass sie dieselbe Geschichte erzählen.\n\n\n\n\n\n\nTippAnalogie: das Mischpult\n\n\n\nDer Marketing-Mix ist wie ein Mischpult im Tonstudio. Jeder Regler steht für einen Hebel. Kein einzelner Regler macht den guten Klang aus, sondern ihr Zusammenspiel. Wer nur einen Regler voll aufzieht und die anderen ignoriert, bekommt ein schiefes Ergebnis.\n\n\n\n\n\n\n\n\nWichtigKonsistenz vor Einzelmaßnahme\n\n\n\nBevor wir eine einzelne Maßnahme optimieren, prüfen wir, ob sie zum übrigen Mix passt. Eine widerspruchsfreie Gesamtbotschaft schlägt jede einzelne, isoliert perfektionierte Maßnahme.",
-    "crumbs": [
-      "Marketing-Grundlagen",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Der Marketing-Mix</span>"
-    ]
-  },
-  {
-    "objectID": "01-marketing-grundlagen/marketing-mix.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "01-marketing-grundlagen/marketing-mix.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "2  Der Marketing-Mix",
-    "section": "2.4 Was als Nächstes ausgebaut werden muss",
-    "text": "2.4 Was als Nächstes ausgebaut werden muss\n\nEin konkretes Mix-Beispiel für das durchgehende Kursprojekt durchspielen\nErweiterungen des Mix (sieben P für Dienstleistungen) kurz einordnen\nVerbindung zu den späteren Kanal-Modulen (SEO, Google Ads, Social Media) explizit herstellen\nBelege und Definitionen aus Kotler, Keller, und Chernev (2022) ergänzen\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.",
+    "text": "2.3 Den Mix als Ganzes denken\nDie einzelnen Hebel wirken nicht isoliert. Ein hochwertiges Produkt mit einem Billigpreis sendet widersprüchliche Signale, und die beste Kampagne verpufft, wenn der Zugang umständlich ist. Wir stimmen die Elemente deshalb aufeinander ab, sodass sie dieselbe Geschichte erzählen.\n\n\n\n\n\n\nTippAnalogie: das Mischpult\n\n\n\nDer Marketing-Mix ist wie ein Mischpult im Tonstudio. Jeder Regler steht für einen Hebel. Kein einzelner Regler macht den guten Klang aus, sondern ihr Zusammenspiel. Wer nur einen Regler voll aufzieht und die anderen ignoriert, bekommt ein schiefes Ergebnis.\n\n\n\n\n\n\n\n\nWichtigKonsistenz vor Einzelmaßnahme\n\n\n\nBevor wir eine einzelne Maßnahme optimieren, prüfen wir, ob sie zum übrigen Mix passt. Eine widerspruchsfreie Gesamtbotschaft schlägt jede einzelne, isoliert perfektionierte Maßnahme.\n\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.",
     "crumbs": [
       "Marketing-Grundlagen",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Der Marketing-Mix</span>"
@@ -277,18 +295,7 @@
     "href": "01-marketing-grundlagen/ki-im-marketing.html#was-das-für-die-praxis-heißt",
     "title": "3  Die Rolle der KI im Marketing",
     "section": "3.3 Was das für die Praxis heißt",
-    "text": "3.3 Was das für die Praxis heißt\nFür unsere Arbeit ergeben sich daraus zwei Leitlinien. Erstens setzen wir KI dort ein, wo sie eine klar benannte Aufgabe übernimmt, statt sie als Selbstzweck einzuführen. Zweitens bleibt das Kundenverständnis aus der ersten Lesson die Grundlage, denn KI beschleunigt gute wie schlechte Marketingentscheidungen gleichermaßen.\n\n\n\n\n\n\nTippAnalogie: das Assistenz-Team\n\n\n\nWir können uns KI wie ein Assistenz-Team mit drei Profilen vorstellen. Eine Kraft erledigt zuverlässig Routine, eine zweite rechnet und empfiehlt, eine dritte hat ein Gespür für Ton und Stimmung. Wer die Aufgabe kennt, weiß, an welches Profil er sie übergibt.\n\n\n\n\n\n\n\n\nWichtigKI ergänzt, sie ersetzt nicht das Verständnis\n\n\n\nDie hier genannten Frameworks ordnen Anwendungsfälle, sie ersetzen keine Strategie. Eine KI, die auf ein unscharfes Ziel und eine unklare Zielgruppe trifft, liefert schnell viel, aber selten das Richtige.\n\n\nDie konkreten Werkzeuge, von strukturierten Prompts über das COMPASS-Framework bis zur KI-gestützten Content-Erstellung, vertiefen wir in Modul 10.",
-    "crumbs": [
-      "Marketing-Grundlagen",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Die Rolle der KI im Marketing</span>"
-    ]
-  },
-  {
-    "objectID": "01-marketing-grundlagen/ki-im-marketing.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "01-marketing-grundlagen/ki-im-marketing.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "3  Die Rolle der KI im Marketing",
-    "section": "3.4 Was als Nächstes ausgebaut werden muss",
-    "text": "3.4 Was als Nächstes ausgebaut werden muss\n\nKonkrete Tool-Beispiele pro KI-Typ ergänzen (mit kurzer Einordnung)\nEin Mini-Beispiel: dieselbe Marketingaufgabe ohne und mit KI gelöst\nVerweise auf aktuelle empirische Befunde zu generativer KI im Marketing (Hartmann, Exner, und Domdey (2025), Kumar u. a. (2025))\nEthische und rechtliche Hinweise (Transparenz, Datenschutz) als eigener Abschnitt\n\n\n\n\n\nHartmann, Jochen, Yannick Exner, und Samuel Domdey. 2025. „The power of generative marketing: Can generative AI create superhuman visual marketing content?“ International Journal of Research in Marketing. https://doi.org/10.1016/j.ijresmar.2024.09.002.\n\n\nHuang, Ming-Hui, und Roland T. Rust. 2021. „A strategic framework for artificial intelligence in marketing“. Journal of the Academy of Marketing Science. https://doi.org/10.1007/s11747-020-00749-9.\n\n\nKumar, V., Philip Kotler, Shaphali Gupta, und Bharath Rajan. 2025. „Generative AI in Marketing: Promises, Perils, and Public Policy Implications“. Journal of Public Policy & Marketing. https://doi.org/10.1177/07439156241286499.",
+    "text": "3.3 Was das für die Praxis heißt\nFür unsere Arbeit ergeben sich daraus zwei Leitlinien. Erstens setzen wir KI dort ein, wo sie eine klar benannte Aufgabe übernimmt, statt sie als Selbstzweck einzuführen. Zweitens bleibt das Kundenverständnis aus der ersten Lesson die Grundlage, denn KI beschleunigt gute wie schlechte Marketingentscheidungen gleichermaßen.\n\n\n\n\n\n\nTippAnalogie: das Assistenz-Team\n\n\n\nWir können uns KI wie ein Assistenz-Team mit drei Profilen vorstellen. Eine Kraft erledigt zuverlässig Routine, eine zweite rechnet und empfiehlt, eine dritte hat ein Gespür für Ton und Stimmung. Wer die Aufgabe kennt, weiß, an welches Profil er sie übergibt.\n\n\n\n\n\n\n\n\nWichtigKI ergänzt, sie ersetzt nicht das Verständnis\n\n\n\nDie hier genannten Frameworks ordnen Anwendungsfälle, sie ersetzen keine Strategie. Eine KI, die auf ein unscharfes Ziel und eine unklare Zielgruppe trifft, liefert schnell viel, aber selten das Richtige.\n\n\nDie konkreten Werkzeuge, von strukturierten Prompts über das COMPASS-Framework bis zur KI-gestützten Content-Erstellung, vertiefen wir in Modul 10.\n\n\n\n\nHuang, Ming-Hui, und Roland T. Rust. 2021. „A strategic framework for artificial intelligence in marketing“. Journal of the Academy of Marketing Science. https://doi.org/10.1007/s11747-020-00749-9.",
     "crumbs": [
       "Marketing-Grundlagen",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Die Rolle der KI im Marketing</span>"
@@ -342,18 +349,7 @@
     "href": "02-kundenverstaendnis/value-proposition-canvas.html#der-fit-zwischen-beiden-seiten",
     "title": "4  Value Proposition Canvas",
     "section": "4.3 Der Fit zwischen beiden Seiten",
-    "text": "4.3 Der Fit zwischen beiden Seiten\nDer eigentliche Erkenntnisgewinn liegt im Abgleich. Ein Fit entsteht, wenn die Pain Relievers echte Pains adressieren und die Gain Creators echte Gains erzeugen.\n\n\n\n\n\n\nTippAnalogie: Schlüssel und Schloss\n\n\n\nDas Kundenprofil ist das Schloss, die Wertkarte der Schlüssel. Ein schöner Schlüssel nützt nichts, wenn er nicht ins Schloss passt. Erst der passende Bart öffnet die Tür, und genau diesen Bart formen wir mit den Pain Relievers und Gain Creators.\n\n\n\n\n\n\n\n\nWichtigHäufige Stolperfalle\n\n\n\nViele beginnen mit der Wertkarte und suchen danach passende Kundenbedürfnisse. Wirksamer ist der umgekehrte Weg: zuerst das Kundenprofil sauber erarbeiten, dann die Wertkarte darauf ausrichten.",
-    "crumbs": [
-      "Kundenverständnis",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Value Proposition Canvas</span>"
-    ]
-  },
-  {
-    "objectID": "02-kundenverstaendnis/value-proposition-canvas.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "02-kundenverstaendnis/value-proposition-canvas.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "4  Value Proposition Canvas",
-    "section": "4.4 Was als Nächstes ausgebaut werden muss",
-    "text": "4.4 Was als Nächstes ausgebaut werden muss\n\nEin vollständig ausgefülltes Canvas für das durchgehende Kursprojekt zeigen\nEine Vorlage oder Grafik des Canvas einbinden\nVerbindung zur Empathy Map (nächste Lesson) und zum Business Model Canvas explizit machen\nBeispiele für funktionale, soziale und emotionale Jobs ergänzen (Osterwalder u. a. 2014)\n\n\n\n\n\nOsterwalder, Alexander, Yves Pigneur, Gregory Bernarda, und Alan Smith. 2014. Value proposition design: how to create products and services customers want.",
+    "text": "4.3 Der Fit zwischen beiden Seiten\nDer eigentliche Erkenntnisgewinn liegt im Abgleich. Ein Fit entsteht, wenn die Pain Relievers echte Pains adressieren und die Gain Creators echte Gains erzeugen.\n\n\n\n\n\n\nTippAnalogie: Schlüssel und Schloss\n\n\n\nDas Kundenprofil ist das Schloss, die Wertkarte der Schlüssel. Ein schöner Schlüssel nützt nichts, wenn er nicht ins Schloss passt. Erst der passende Bart öffnet die Tür, und genau diesen Bart formen wir mit den Pain Relievers und Gain Creators.\n\n\n\n\n\n\n\n\nWichtigHäufige Stolperfalle\n\n\n\nViele beginnen mit der Wertkarte und suchen danach passende Kundenbedürfnisse. Wirksamer ist der umgekehrte Weg: zuerst das Kundenprofil sauber erarbeiten, dann die Wertkarte darauf ausrichten.\n\n\n\n\n\n\nOsterwalder, Alexander, Yves Pigneur, Gregory Bernarda, und Alan Smith. 2014. Value proposition design: how to create products and services customers want.",
     "crumbs": [
       "Kundenverständnis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Value Proposition Canvas</span>"
@@ -397,18 +393,7 @@
     "href": "02-kundenverstaendnis/empathy-map.html#von-der-empathy-map-zur-value-proposition",
     "title": "5  Empathy Map und Kundenbedürfnisse",
     "section": "5.3 Von der Empathy Map zur Value Proposition",
-    "text": "5.3 Von der Empathy Map zur Value Proposition\nDie Felder der Empathy Map fließen direkt in das Kundenprofil des Value Proposition Canvas. Pains und Gains lassen sich oft eins zu eins übertragen, und das Feld Denken und Fühlen deckt häufig unausgesprochene Jobs auf.\n\n\n\n\n\n\nWichtigVermutung kennzeichnen\n\n\n\nNicht jedes Feld lässt sich mit gesicherten Beobachtungen füllen. Vermutungen werden markiert, damit klar bleibt, was noch zu validieren ist, bevor darauf eine Strategie aufgebaut wird.",
-    "crumbs": [
-      "Kundenverständnis",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Empathy Map und Kundenbedürfnisse</span>"
-    ]
-  },
-  {
-    "objectID": "02-kundenverstaendnis/empathy-map.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "02-kundenverstaendnis/empathy-map.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "5  Empathy Map und Kundenbedürfnisse",
-    "section": "5.4 Was als Nächstes ausgebaut werden muss",
-    "text": "5.4 Was als Nächstes ausgebaut werden muss\n\nEine ausgefüllte Empathy Map für eine Beispiel-Persona des Kursprojekts zeigen\nEine Vorlage oder Grafik der Empathy Map einbinden\nQuellen für echte Beobachtungen auflisten (Interviews, Bewertungen, Analytics)\nÜbergang zu Personas in Modul 3 vorbereiten\n\n\n\n\n\nOsterwalder, Alexander, Yves Pigneur, Gregory Bernarda, und Alan Smith. 2014. Value proposition design: how to create products and services customers want.",
+    "text": "5.3 Von der Empathy Map zur Value Proposition\nDie Felder der Empathy Map fließen direkt in das Kundenprofil des Value Proposition Canvas. Pains und Gains lassen sich oft eins zu eins übertragen, und das Feld Denken und Fühlen deckt häufig unausgesprochene Jobs auf.\n\n\n\n\n\n\nWichtigVermutung kennzeichnen\n\n\n\nNicht jedes Feld lässt sich mit gesicherten Beobachtungen füllen. Vermutungen werden markiert, damit klar bleibt, was noch zu validieren ist, bevor darauf eine Strategie aufgebaut wird.\n\n\n\n\n\n\nOsterwalder, Alexander, Yves Pigneur, Gregory Bernarda, und Alan Smith. 2014. Value proposition design: how to create products and services customers want.",
     "crumbs": [
       "Kundenverständnis",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Empathy Map und Kundenbedürfnisse</span>"
@@ -452,18 +437,7 @@
     "href": "02-kundenverstaendnis/business-model-canvas.html#vom-canvas-zur-marketingstrategie",
     "title": "6  Business Model Canvas",
     "section": "6.3 Vom Canvas zur Marketingstrategie",
-    "text": "6.3 Vom Canvas zur Marketingstrategie\nFür das Marketing sind vor allem die rechte Seite und ihr Zusammenspiel relevant. Kundensegmente und Wertangebote liefern die Grundlage für Zielgruppe und Positionierung, die Kanäle verweisen auf die späteren Kanal-Module dieses Kurses.\n\n\n\n\n\n\nWichtigStimmigkeit prüfen\n\n\n\nEin Geschäftsmodell trägt nur, wenn die Bausteine zueinander passen. Ein hochwertiges Wertangebot mit einem Billig-Kanal oder ohne passende Schlüsselressourcen bleibt ein Widerspruch auf dem Papier.",
-    "crumbs": [
-      "Kundenverständnis",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Business Model Canvas</span>"
-    ]
-  },
-  {
-    "objectID": "02-kundenverstaendnis/business-model-canvas.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "02-kundenverstaendnis/business-model-canvas.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "6  Business Model Canvas",
-    "section": "6.4 Was als Nächstes ausgebaut werden muss",
-    "text": "6.4 Was als Nächstes ausgebaut werden muss\n\nEin ausgefülltes Business Model Canvas für das Kursprojekt zeigen\nEine Vorlage oder Grafik des Canvas einbinden\nDen Zusammenhang von Wertangebot, Kundensegment und Positionierung (Modul 3) vertiefen\nBeispiele für unterschiedliche Einnahmequellen ergänzen (Osterwalder und Pigneur 2013)\n\n\n\n\n\nOsterwalder, Alexander, und Yves Pigneur. 2013. Business model generation: a handbook for visionaries, game changers, and challengers.",
+    "text": "6.3 Vom Canvas zur Marketingstrategie\nFür das Marketing sind vor allem die rechte Seite und ihr Zusammenspiel relevant. Kundensegmente und Wertangebote liefern die Grundlage für Zielgruppe und Positionierung, die Kanäle verweisen auf die späteren Kanal-Module dieses Kurses.\n\n\n\n\n\n\nWichtigStimmigkeit prüfen\n\n\n\nEin Geschäftsmodell trägt nur, wenn die Bausteine zueinander passen. Ein hochwertiges Wertangebot mit einem Billig-Kanal oder ohne passende Schlüsselressourcen bleibt ein Widerspruch auf dem Papier.\n\n\n\n\n\n\nOsterwalder, Alexander, und Yves Pigneur. 2013. Business model generation: a handbook for visionaries, game changers, and challengers.",
     "crumbs": [
       "Kundenverständnis",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Business Model Canvas</span>"
@@ -517,18 +491,7 @@
     "href": "03-zielgruppe-positionierung/segmentierung-targeting.html#targeting-segmente-auswählen",
     "title": "7  Segmentierung und Targeting (STP)",
     "section": "7.3 Targeting: Segmente auswählen",
-    "text": "7.3 Targeting: Segmente auswählen\nNach der Aufteilung wählen wir die Segmente aus, die wir bedienen wollen. Zwei Fragen leiten die Auswahl: Wie attraktiv ist das Segment (Größe, Wachstum, Wettbewerb), und wie gut passt es zu unseren Stärken?\n\n\n\n\n\n\nTippAnalogie: die Sortierung im Lager\n\n\n\nEin gut geführtes Lager sortiert die Ware nicht alphabetisch, sondern nach Zugriffshäufigkeit und Zusammengehörigkeit. Genauso ordnen wir einen Markt: nicht nach beliebigen Merkmalen, sondern nach den Gruppen, die sich wirklich unterschiedlich verhalten und die wir am besten bedienen können.",
-    "crumbs": [
-      "Zielgruppe und Positionierung",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Segmentierung und Targeting (STP)</span>"
-    ]
-  },
-  {
-    "objectID": "03-zielgruppe-positionierung/segmentierung-targeting.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "03-zielgruppe-positionierung/segmentierung-targeting.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "7  Segmentierung und Targeting (STP)",
-    "section": "7.4 Was als Nächstes ausgebaut werden muss",
-    "text": "7.4 Was als Nächstes ausgebaut werden muss\n\nEin durchgerechnetes Segmentierungs-Beispiel für das Kursprojekt\nKriterien zur Bewertung der Segment-Attraktivität als Tabelle\nVerbindung zur Persona (nächste Lesson) und zur Positionierung explizit machen\nBeispiele für verhaltensbezogene Segmentierung im digitalen Marketing (Venter, Wright, und Dibb 2015)\n\n\n\n\n\nSmith, Wendell R. 1956. „Product Differentiation and Market Segmentation as Alternative Marketing Strategies“. Journal of Marketing. https://doi.org/10.1177/002224295602100102.\n\n\nVenter, Peet, Alex Wright, und Sally Dibb. 2015. „Performing market segmentation: a performative perspective“. Journal of Marketing Management. https://doi.org/10.1080/0267257X.2014.980437.",
+    "text": "7.3 Targeting: Segmente auswählen\nNach der Aufteilung wählen wir die Segmente aus, die wir bedienen wollen. Zwei Fragen leiten die Auswahl: Wie attraktiv ist das Segment (Größe, Wachstum, Wettbewerb), und wie gut passt es zu unseren Stärken?\n\n\n\n\n\n\nTippAnalogie: die Sortierung im Lager\n\n\n\nEin gut geführtes Lager sortiert die Ware nicht alphabetisch, sondern nach Zugriffshäufigkeit und Zusammengehörigkeit. Genauso ordnen wir einen Markt: nicht nach beliebigen Merkmalen, sondern nach den Gruppen, die sich wirklich unterschiedlich verhalten und die wir am besten bedienen können.\n\n\n\n\n\n\nSmith, Wendell R. 1956. „Product Differentiation and Market Segmentation as Alternative Marketing Strategies“. Journal of Marketing. https://doi.org/10.1177/002224295602100102.\n\n\nVenter, Peet, Alex Wright, und Sally Dibb. 2015. „Performing market segmentation: a performative perspective“. Journal of Marketing Management. https://doi.org/10.1080/0267257X.2014.980437.",
     "crumbs": [
       "Zielgruppe und Positionierung",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Segmentierung und Targeting (STP)</span>"
@@ -561,18 +524,7 @@
     "href": "03-zielgruppe-positionierung/personas.html#personas-und-ki",
     "title": "8  Personas erstellen und nutzen",
     "section": "8.3 Personas und KI",
-    "text": "8.3 Personas und KI\nGenerative KI beschleunigt mehrere Schritte: das Clustern qualitativer Daten zu ersten Gruppen, das Ausformulieren von Persona-Profilen und das Ableiten erster Content-Ideen. Die Verantwortung für die Auswahl und Prüfung bleibt beim Menschen.\n\n\n\n\n\n\nTippAnalogie: das Fahndungsfoto und die Zeugenaussage\n\n\n\nEine Persona ist wie ein Phantombild: Es zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtungen zu einem erkennbaren Gesicht. Je besser die Zeugenaussagen, also die Daten, desto brauchbarer das Bild.\n\n\n\n\n\n\n\n\nWichtigDaten statt Vermutung\n\n\n\nEine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas bestätigen vor allem die eigenen Annahmen und führen die Kommunikation in die Irre.",
-    "crumbs": [
-      "Zielgruppe und Positionierung",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Personas erstellen und nutzen</span>"
-    ]
-  },
-  {
-    "objectID": "03-zielgruppe-positionierung/personas.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "03-zielgruppe-positionierung/personas.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "8  Personas erstellen und nutzen",
-    "section": "8.4 Was als Nächstes ausgebaut werden muss",
-    "text": "8.4 Was als Nächstes ausgebaut werden muss\n\nEine vollständige Beispiel-Persona für das Kursprojekt erstellen\nDen Clustering-Prompt aus der Vorlesung als wiederverwendbares Beispiel einbinden\nVerbindung von Persona und Customer Journey zu konkreten Touchpoints zeigen\nVorlage für ein Persona-Steckblatt ergänzen\n\n\n\n\n\nOsterwalder, Alexander, Yves Pigneur, Gregory Bernarda, und Alan Smith. 2014. Value proposition design: how to create products and services customers want.",
+    "text": "8.3 Personas und KI\nGenerative KI beschleunigt mehrere Schritte: das Clustern qualitativer Daten zu ersten Gruppen, das Ausformulieren von Persona-Profilen und das Ableiten erster Content-Ideen. Die Verantwortung für die Auswahl und Prüfung bleibt beim Menschen.\n\n\n\n\n\n\nTippAnalogie: das Fahndungsfoto und die Zeugenaussage\n\n\n\nEine Persona ist wie ein Phantombild: Es zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtungen zu einem erkennbaren Gesicht. Je besser die Zeugenaussagen, also die Daten, desto brauchbarer das Bild.\n\n\n\n\n\n\n\n\nWichtigDaten statt Vermutung\n\n\n\nEine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas bestätigen vor allem die eigenen Annahmen und führen die Kommunikation in die Irre.\n\n\n\n\n\n\nOsterwalder, Alexander, Yves Pigneur, Gregory Bernarda, und Alan Smith. 2014. Value proposition design: how to create products and services customers want.",
     "crumbs": [
       "Zielgruppe und Positionierung",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Personas erstellen und nutzen</span>"
@@ -605,18 +557,7 @@
     "href": "03-zielgruppe-positionierung/positionierung.html#eine-positionierung-formulieren",
     "title": "9  Positionierung im Wettbewerbsumfeld",
     "section": "9.3 Eine Positionierung formulieren",
-    "text": "9.3 Eine Positionierung formulieren\nEine bewährte Vorlage hält die Positionierung in einem Satz fest: Für [Zielgruppe], die [Bedürfnis], ist [Angebot] das [Kategorie], das [zentraler Nutzen], weil [Begründung].\n\n\n\n\n\n\nWichtigEine Position, nicht fünf\n\n\n\nEine Positionierung wirkt nur, wenn sie fokussiert ist. Wer alles gleichzeitig sein will, günstig, hochwertig, schnell und persönlich, besetzt am Ende keinen klaren Platz.",
-    "crumbs": [
-      "Zielgruppe und Positionierung",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Positionierung im Wettbewerbsumfeld</span>"
-    ]
-  },
-  {
-    "objectID": "03-zielgruppe-positionierung/positionierung.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "03-zielgruppe-positionierung/positionierung.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "9  Positionierung im Wettbewerbsumfeld",
-    "section": "9.4 Was als Nächstes ausgebaut werden muss",
-    "text": "9.4 Was als Nächstes ausgebaut werden muss\n\nEine ausformulierte Positionierung für das Kursprojekt nach der Vorlage\nEine Positionierungs-Matrix (zwei Dimensionen) als Grafik\nBeispiele für gelungene und misslungene Positionierungen\nVerbindung zur Botschaft und zur Content-Strategie (Modul 5) herstellen\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.",
+    "text": "9.3 Eine Positionierung formulieren\nEine bewährte Vorlage hält die Positionierung in einem Satz fest: Für [Zielgruppe], die [Bedürfnis], ist [Angebot] das [Kategorie], das [zentraler Nutzen], weil [Begründung].\n\n\n\n\n\n\nWichtigEine Position, nicht fünf\n\n\n\nEine Positionierung wirkt nur, wenn sie fokussiert ist. Wer alles gleichzeitig sein will, günstig, hochwertig, schnell und persönlich, besetzt am Ende keinen klaren Platz.\n\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.",
     "crumbs": [
       "Zielgruppe und Positionierung",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Positionierung im Wettbewerbsumfeld</span>"
@@ -659,18 +600,7 @@
     "href": "04-marketingziele-strategie/smart-ziele.html#vom-unscharfen-vorsatz-zum-smart-ziel",
     "title": "10  SMART-Marketingziele",
     "section": "10.3 Vom unscharfen Vorsatz zum SMART-Ziel",
-    "text": "10.3 Vom unscharfen Vorsatz zum SMART-Ziel\nWir wandeln einen vagen Vorsatz Schritt für Schritt um. Aus „wir wollen mehr Anmeldungen für unser Webinar” wird durch die fünf Kriterien ein steuerbares Ziel: „Wir gewinnen bis zum 30. September über das Anmeldeformular der Website mindestens 80 Webinar-Anmeldungen bei einem Budget von 2.000 Euro.” Diese Fassung benennt das Ergebnis, die Kennzahl, den Rahmen und die Frist in einem einzigen Satz.\nDer Anspruch an Erreichbarkeit verdient dabei besondere Aufmerksamkeit. Ein Ziel, das deutlich zu hoch gesteckt ist, demotiviert das Team und verliert seine steuernde Wirkung, weil es ohnehin als unerreichbar gilt. Ein zu niedrig gestecktes Ziel verschenkt dagegen Potenzial. Sinnvoll ist ein Wert, der ambitioniert bleibt, sich aber aus Erfahrungswerten oder Vergleichszahlen plausibel begründen lässt.\n\n\n\n\n\n\nWichtigRelevant heißt: auf die Strategie einzahlen\n\n\n\nNicht jede leicht messbare Zahl ist ein gutes Ziel. Eine hohe Zahl an Klicks wirkt eindrucksvoll, ist aber wertlos, wenn die Strategie auf qualifizierte Anfragen zielt und die Klicks nicht dorthin führen. Wir prüfen deshalb bei jedem Ziel, ob es einen erkennbaren Beitrag zur übergeordneten Marketingstrategie leistet (Kotler, Keller, und Chernev 2022).",
-    "crumbs": [
-      "Marketingziele und Strategie",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>SMART-Marketingziele</span>"
-    ]
-  },
-  {
-    "objectID": "04-marketingziele-strategie/smart-ziele.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "04-marketingziele-strategie/smart-ziele.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "10  SMART-Marketingziele",
-    "section": "10.4 Was als Nächstes ausgebaut werden muss",
-    "text": "10.4 Was als Nächstes ausgebaut werden muss\n\nEin durchgehendes Praxisbeispiel (ein fiktives Unternehmen) mit drei vollständig formulierten SMART-Zielen einführen\nDie häufige Verwechslung von Zielen und Maßnahmen in einer kurzen Gegenüberstellung schärfen\nEine kleine Übung ergänzen, in der vage Vorsätze in SMART-Ziele umgeschrieben werden\nDen Unterschied zwischen Primär- und Sekundärzielen aus Kotler, Keller, und Chernev (2022) vertiefen\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.\n\n\nMarketing metrics: the definitive guide to measuring marketing performance. 2010.",
+    "text": "10.3 Vom unscharfen Vorsatz zum SMART-Ziel\nWir wandeln einen vagen Vorsatz Schritt für Schritt um. Aus „wir wollen mehr Anmeldungen für unser Webinar” wird durch die fünf Kriterien ein steuerbares Ziel: „Wir gewinnen bis zum 30. September über das Anmeldeformular der Website mindestens 80 Webinar-Anmeldungen bei einem Budget von 2.000 Euro.” Diese Fassung benennt das Ergebnis, die Kennzahl, den Rahmen und die Frist in einem einzigen Satz.\nDer Anspruch an Erreichbarkeit verdient dabei besondere Aufmerksamkeit. Ein Ziel, das deutlich zu hoch gesteckt ist, demotiviert das Team und verliert seine steuernde Wirkung, weil es ohnehin als unerreichbar gilt. Ein zu niedrig gestecktes Ziel verschenkt dagegen Potenzial. Sinnvoll ist ein Wert, der ambitioniert bleibt, sich aber aus Erfahrungswerten oder Vergleichszahlen plausibel begründen lässt.\n\n\n\n\n\n\nWichtigRelevant heißt: auf die Strategie einzahlen\n\n\n\nNicht jede leicht messbare Zahl ist ein gutes Ziel. Eine hohe Zahl an Klicks wirkt eindrucksvoll, ist aber wertlos, wenn die Strategie auf qualifizierte Anfragen zielt und die Klicks nicht dorthin führen. Wir prüfen deshalb bei jedem Ziel, ob es einen erkennbaren Beitrag zur übergeordneten Marketingstrategie leistet (Kotler, Keller, und Chernev 2022).\n\n\n\n\n\n\nKotler, Philip, Kevin Lane Keller, und Alexander Chernev. 2022. Marketing management.\n\n\nMarketing metrics: the definitive guide to measuring marketing performance. 2010.",
     "crumbs": [
       "Marketingziele und Strategie",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>SMART-Marketingziele</span>"
@@ -714,18 +644,7 @@
     "href": "04-marketingziele-strategie/ziele-zu-kennzahlen.html#vom-ziel-zur-kennzahl-in-vier-schritten",
     "title": "11  Von Zielen zu Kennzahlen",
     "section": "11.3 Vom Ziel zur Kennzahl in vier Schritten",
-    "text": "11.3 Vom Ziel zur Kennzahl in vier Schritten\nWir gehen von einem konkreten Ziel aus und arbeiten uns zur passenden Messung vor. Zuerst halten wir das Ziel mit seiner Kennzahl fest, etwa 80 Webinar-Anmeldungen bis Ende September. Danach bestimmen wir den Ergebnisindikator, hier die gemessene Zahl der abgeschlossenen Anmeldungen. Im dritten Schritt wählen wir ein oder zwei Frühindikatoren, die den Weg dorthin sichtbar machen, etwa Besuche auf der Anmeldeseite und die Conversion-Rate vom Besuch zur Anmeldung. Zuletzt legen wir fest, wie oft und woher wir diese Werte ablesen, damit aus den Kennzahlen ein verlässlicher Rhythmus entsteht.\n\n\n\n\n\n\nWichtigEitelkeitszahlen erkennen\n\n\n\nManche Zahlen sehen beeindruckend aus, beantworten aber keine steuerungsrelevante Frage. Reine Impressionen oder Gesamtaufrufe steigen fast immer und verleiten zu Optimismus, ohne über den Beitrag zum Ziel etwas auszusagen. Wir prüfen bei jeder Kennzahl, ob eine Veränderung tatsächlich eine Entscheidung auslösen würde, und verwerfen sie andernfalls als bloße Eitelkeitszahl, wie es Marketing metrics: the definitive guide to measuring marketing performance (2010) nahelegt.",
-    "crumbs": [
-      "Marketingziele und Strategie",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Von Zielen zu Kennzahlen</span>"
-    ]
-  },
-  {
-    "objectID": "04-marketingziele-strategie/ziele-zu-kennzahlen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "04-marketingziele-strategie/ziele-zu-kennzahlen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "11  Von Zielen zu Kennzahlen",
-    "section": "11.4 Was als Nächstes ausgebaut werden muss",
-    "text": "11.4 Was als Nächstes ausgebaut werden muss\n\nEine kompakte Tabelle aufnehmen, die typische Ziele jeweils einem Ergebnis- und zwei Frühindikatoren zuordnet\nDen Zusammenhang von Conversion-Rate, Kosten pro Ergebnis und Budget an einem Rechenbeispiel zeigen\nEine Übung ergänzen, in der Lernende für ein eigenes Ziel passende Kennzahlen auswählen\nDie Abgrenzung von Eitelkeitszahlen und steuerungsrelevanten Kennzahlen nach Marketing metrics: the definitive guide to measuring marketing performance (2010) vertiefen\n\n\n\n\n\nMarketing metrics: the definitive guide to measuring marketing performance. 2010.",
+    "text": "11.3 Vom Ziel zur Kennzahl in vier Schritten\nWir gehen von einem konkreten Ziel aus und arbeiten uns zur passenden Messung vor. Zuerst halten wir das Ziel mit seiner Kennzahl fest, etwa 80 Webinar-Anmeldungen bis Ende September. Danach bestimmen wir den Ergebnisindikator, hier die gemessene Zahl der abgeschlossenen Anmeldungen. Im dritten Schritt wählen wir ein oder zwei Frühindikatoren, die den Weg dorthin sichtbar machen, etwa Besuche auf der Anmeldeseite und die Conversion-Rate vom Besuch zur Anmeldung. Zuletzt legen wir fest, wie oft und woher wir diese Werte ablesen, damit aus den Kennzahlen ein verlässlicher Rhythmus entsteht.\n\n\n\n\n\n\nWichtigEitelkeitszahlen erkennen\n\n\n\nManche Zahlen sehen beeindruckend aus, beantworten aber keine steuerungsrelevante Frage. Reine Impressionen oder Gesamtaufrufe steigen fast immer und verleiten zu Optimismus, ohne über den Beitrag zum Ziel etwas auszusagen. Wir prüfen bei jeder Kennzahl, ob eine Veränderung tatsächlich eine Entscheidung auslösen würde, und verwerfen sie andernfalls als bloße Eitelkeitszahl, wie es Marketing metrics: the definitive guide to measuring marketing performance (2010) nahelegt.\n\n\n\n\n\n\nMarketing metrics: the definitive guide to measuring marketing performance. 2010.",
     "crumbs": [
       "Marketingziele und Strategie",
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Von Zielen zu Kennzahlen</span>"
@@ -779,18 +698,7 @@
     "href": "05-content-persuasion/content-strategie.html#redaktionell-steuern-statt-sporadisch-posten",
     "title": "12  Content-Strategie und Formate",
     "section": "12.3 Redaktionell steuern statt sporadisch posten",
-    "text": "12.3 Redaktionell steuern statt sporadisch posten\nEine Strategie wird erst durch Regelmäßigkeit wirksam. Das zentrale Werkzeug dafür ist der Redaktionsplan: eine Übersicht, die festhält, welches Thema wann in welchem Format für welche Persona auf welchem Kanal erscheint und welches Ziel es verfolgt. So koordinieren wir Produktion und Verbreitung, vermeiden Lücken und erkennen früh, ob ein Thema fehlt.\nOb ein Inhalt seine Aufgabe erfüllt, lesen wir an wenigen Kennzahlen ab: organischer Traffic zeigt Sichtbarkeit, die Verweildauer zeigt Relevanz, und die Conversion-Rate zeigt, ob aus Aufmerksamkeit eine Handlung wird. Diese Rückmeldung fließt in die nächste Planungsrunde ein, sodass die Strategie mit der Zeit schärfer wird.",
-    "crumbs": [
-      "Content-Marketing und Persuasion",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Content-Strategie und Formate</span>"
-    ]
-  },
-  {
-    "objectID": "05-content-persuasion/content-strategie.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "05-content-persuasion/content-strategie.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "12  Content-Strategie und Formate",
-    "section": "12.4 Was als Nächstes ausgebaut werden muss",
-    "text": "12.4 Was als Nächstes ausgebaut werden muss\n\nEin vollständiges, durchgerechnetes Redaktionskalender-Beispiel über mehrere Wochen ergänzen\nDas Topic-Cluster-Modell mit einer Abbildung visualisieren\nKonkrete Zielwerte für die genannten Content-Kennzahlen mit Quelle hinterlegen\nEine kleine Übung einfügen, in der eine Content-Idee entlang einer Persona entwickelt wird\n\n\n\n\n\nHollebeek, Linda D., und Keith Macky. 2019. „Digital Content Marketing’s Role in Fostering Consumer Engagement, Trust, and Value: Framework, Fundamental Propositions, and Implications“. Journal of Interactive Marketing. https://doi.org/10.1016/j.intmar.2018.07.003.",
+    "text": "12.3 Redaktionell steuern statt sporadisch posten\nEine Strategie wird erst durch Regelmäßigkeit wirksam. Das zentrale Werkzeug dafür ist der Redaktionsplan: eine Übersicht, die festhält, welches Thema wann in welchem Format für welche Persona auf welchem Kanal erscheint und welches Ziel es verfolgt. So koordinieren wir Produktion und Verbreitung, vermeiden Lücken und erkennen früh, ob ein Thema fehlt.\nOb ein Inhalt seine Aufgabe erfüllt, lesen wir an wenigen Kennzahlen ab: organischer Traffic zeigt Sichtbarkeit, die Verweildauer zeigt Relevanz, und die Conversion-Rate zeigt, ob aus Aufmerksamkeit eine Handlung wird. Diese Rückmeldung fließt in die nächste Planungsrunde ein, sodass die Strategie mit der Zeit schärfer wird.\n\n\n\n\nHollebeek, Linda D., und Keith Macky. 2019. „Digital Content Marketing’s Role in Fostering Consumer Engagement, Trust, and Value: Framework, Fundamental Propositions, and Implications“. Journal of Interactive Marketing. https://doi.org/10.1016/j.intmar.2018.07.003.",
     "crumbs": [
       "Content-Marketing und Persuasion",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Content-Strategie und Formate</span>"
@@ -834,18 +742,7 @@
     "href": "05-content-persuasion/science-of-persuasion.html#wirksamkeit-endet-an-der-ethik",
     "title": "13  Die Wissenschaft der Überzeugung",
     "section": "13.3 Wirksamkeit endet an der Ethik",
-    "text": "13.3 Wirksamkeit endet an der Ethik\nDie Prinzipien sind wirkungsvoll, und genau deshalb tragen wir Verantwortung. Knappheit, die nur vorgetäuscht ist, oder Social Proof mit erfundenen Bewertungen mögen kurzfristig wirken, untergraben aber das Vertrauen, das Content-Marketing überhaupt erst aufbaut. Cialdini unterscheidet darum klar zwischen Überzeugung, die auf echten Stärken beruht, und Manipulation, die mit falschen Signalen arbeitet.\nFür unsere Arbeit gilt deshalb eine einfache Leitlinie: Wir nutzen die Prinzipien, um wahre Vorzüge sichtbar zu machen, nicht um Schwächen zu verschleiern. Auf Dauer zahlt sich nur die ehrliche Anwendung aus, weil enttäuschtes Vertrauen kaum zurückzugewinnen ist.",
-    "crumbs": [
-      "Content-Marketing und Persuasion",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Die Wissenschaft der Überzeugung</span>"
-    ]
-  },
-  {
-    "objectID": "05-content-persuasion/science-of-persuasion.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "05-content-persuasion/science-of-persuasion.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "13  Die Wissenschaft der Überzeugung",
-    "section": "13.4 Was als Nächstes ausgebaut werden muss",
-    "text": "13.4 Was als Nächstes ausgebaut werden muss\n\nFür jedes der sieben Prinzipien ein ausformuliertes Praxisbeispiel ergänzen\nDen Unterschied zwischen ethischer Überzeugung und Manipulation an Fällen schärfen\nEine kleine Übung einfügen, in der zu einem Angebot passende Prinzipien gewählt werden\nDie Brücke zu Storytelling und zur KI-gestützten Content-Erstellung explizit machen\n\n\n\n\n\nCialdini, Robert B. 2021. Influence, new and expanded: the psychology of persuasion.",
+    "text": "13.3 Wirksamkeit endet an der Ethik\nDie Prinzipien sind wirkungsvoll, und genau deshalb tragen wir Verantwortung. Knappheit, die nur vorgetäuscht ist, oder Social Proof mit erfundenen Bewertungen mögen kurzfristig wirken, untergraben aber das Vertrauen, das Content-Marketing überhaupt erst aufbaut. Cialdini unterscheidet darum klar zwischen Überzeugung, die auf echten Stärken beruht, und Manipulation, die mit falschen Signalen arbeitet.\nFür unsere Arbeit gilt deshalb eine einfache Leitlinie: Wir nutzen die Prinzipien, um wahre Vorzüge sichtbar zu machen, nicht um Schwächen zu verschleiern. Auf Dauer zahlt sich nur die ehrliche Anwendung aus, weil enttäuschtes Vertrauen kaum zurückzugewinnen ist.\n\n\n\n\nCialdini, Robert B. 2021. Influence, new and expanded: the psychology of persuasion.",
     "crumbs": [
       "Content-Marketing und Persuasion",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Die Wissenschaft der Überzeugung</span>"
@@ -889,18 +786,7 @@
     "href": "05-content-persuasion/storytelling.html#storytelling-mit-den-persuasionsprinzipien-verbinden",
     "title": "14  Storytelling im Marketing",
     "section": "14.3 Storytelling mit den Persuasionsprinzipien verbinden",
-    "text": "14.3 Storytelling mit den Persuasionsprinzipien verbinden\nStorytelling und die Prinzipien der vorigen Lesson verstärken sich gegenseitig. Ein echter Erfahrungsbericht ist zugleich eine Geschichte und ein Beleg im Sinne des Social Proof. Eine Gründungsgeschichte mit gemeinsamen Werten erzeugt Sympathie und Einheit. Die Geschichte liefert dabei das emotionale Gefäß, die Prinzipien liefern die überzeugende Wirkung.\nAuch hier gilt die Grenze der vorigen Lesson: Eine Geschichte überzeugt nur dauerhaft, wenn sie wahr ist. Erfundene Kundengeschichten mögen kurz berühren, doch sie brechen das Vertrauen, sobald die Lücke zur Wirklichkeit sichtbar wird. Die wirksamste Geschichte ist deshalb die echte, gut erzählte.",
-    "crumbs": [
-      "Content-Marketing und Persuasion",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Storytelling im Marketing</span>"
-    ]
-  },
-  {
-    "objectID": "05-content-persuasion/storytelling.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "05-content-persuasion/storytelling.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "14  Storytelling im Marketing",
-    "section": "14.4 Was als Nächstes ausgebaut werden muss",
-    "text": "14.4 Was als Nächstes ausgebaut werden muss\n\nDen Spannungsbogen an einem vollständig ausgearbeiteten Beispiel durchspielen\nDie Mentor-statt-Held-Rollenverteilung mit Gegenbeispielen schärfen\nKonkrete Storytelling-Formate für einzelne Kanäle und Phasen ergänzen\nEine Übung einfügen, in der eine Kundengeschichte entlang des Gerüsts entwickelt wird\n\n\n\n\n\nKrause-Galoni, Rebecca, und Philip Mazzocco. 2023. „Storytelling and Narrative Persuasion“. In. https://www.cambridge.org/core/books/cambridge-handbook-of-consumer-psychology/storytelling-and-narrative-persuasion/3AB132C34C98AC968689A58FA4449802.",
+    "text": "14.3 Storytelling mit den Persuasionsprinzipien verbinden\nStorytelling und die Prinzipien der vorigen Lesson verstärken sich gegenseitig. Ein echter Erfahrungsbericht ist zugleich eine Geschichte und ein Beleg im Sinne des Social Proof. Eine Gründungsgeschichte mit gemeinsamen Werten erzeugt Sympathie und Einheit. Die Geschichte liefert dabei das emotionale Gefäß, die Prinzipien liefern die überzeugende Wirkung.\nAuch hier gilt die Grenze der vorigen Lesson: Eine Geschichte überzeugt nur dauerhaft, wenn sie wahr ist. Erfundene Kundengeschichten mögen kurz berühren, doch sie brechen das Vertrauen, sobald die Lücke zur Wirklichkeit sichtbar wird. Die wirksamste Geschichte ist deshalb die echte, gut erzählte.\n\n\n\n\nKrause-Galoni, Rebecca, und Philip Mazzocco. 2023. „Storytelling and Narrative Persuasion“. In. https://www.cambridge.org/core/books/cambridge-handbook-of-consumer-psychology/storytelling-and-narrative-persuasion/3AB132C34C98AC968689A58FA4449802.",
     "crumbs": [
       "Content-Marketing und Persuasion",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Storytelling im Marketing</span>"
@@ -944,18 +830,7 @@
     "href": "05-content-persuasion/ki-content-erstellung.html#die-grenze-zwischen-beschleunigung-und-beliebigkeit",
     "title": "15  KI-gestützte Content-Erstellung",
     "section": "15.3 Die Grenze zwischen Beschleunigung und Beliebigkeit",
-    "text": "15.3 Die Grenze zwischen Beschleunigung und Beliebigkeit\nDer größte Gewinn von KI ist Geschwindigkeit, ihre größte Gefahr ist Beliebigkeit. Wer KI-Texte ungefiltert veröffentlicht, produziert schnell viel Inhalt, der austauschbar klingt und niemanden erreicht. Der Wert entsteht erst dort, wo menschliches Urteil den Entwurf zuspitzt: mit echten Beispielen, mit einer klaren Haltung und mit der eigenen Markenstimme.\nSo schließt sich der Bogen des Moduls. Strategie legt fest, was wir sagen, Persuasion und Storytelling legen fest, wie es wirkt, und KI hilft, es schneller in Form zu bringen. Die Sorgfalt am Ende bleibt menschlich, und genau sie unterscheidet wirksamen Content von bloßem Rauschen.",
-    "crumbs": [
-      "Content-Marketing und Persuasion",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>KI-gestützte Content-Erstellung</span>"
-    ]
-  },
-  {
-    "objectID": "05-content-persuasion/ki-content-erstellung.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "05-content-persuasion/ki-content-erstellung.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "15  KI-gestützte Content-Erstellung",
-    "section": "15.4 Was als Nächstes ausgebaut werden muss",
-    "text": "15.4 Was als Nächstes ausgebaut werden muss\n\nKonkrete, kommentierte Beispiel-Prompts für Strategie, Persuasion und Storytelling ergänzen\nEinen klaren Prüf- und Redaktionsworkflow für KI-Entwürfe beschreiben\nRechtliche und ethische Hinweise zu Kennzeichnung und Urheberschaft aufnehmen\nDie Übergänge zu den Prompting-Lessons in Modul 10 konkret verlinken\n\n\n\n\n\nHartmann, Jochen, Yannick Exner, und Samuel Domdey. 2025. „The power of generative marketing: Can generative AI create superhuman visual marketing content?“ International Journal of Research in Marketing. https://doi.org/10.1016/j.ijresmar.2024.09.002.",
+    "text": "15.3 Die Grenze zwischen Beschleunigung und Beliebigkeit\nDer größte Gewinn von KI ist Geschwindigkeit, ihre größte Gefahr ist Beliebigkeit. Wer KI-Texte ungefiltert veröffentlicht, produziert schnell viel Inhalt, der austauschbar klingt und niemanden erreicht. Der Wert entsteht erst dort, wo menschliches Urteil den Entwurf zuspitzt: mit echten Beispielen, mit einer klaren Haltung und mit der eigenen Markenstimme.\nSo schließt sich der Bogen des Moduls. Strategie legt fest, was wir sagen, Persuasion und Storytelling legen fest, wie es wirkt, und KI hilft, es schneller in Form zu bringen. Die Sorgfalt am Ende bleibt menschlich, und genau sie unterscheidet wirksamen Content von bloßem Rauschen.\n\n\n\n\nHartmann, Jochen, Yannick Exner, und Samuel Domdey. 2025. „The power of generative marketing: Can generative AI create superhuman visual marketing content?“ International Journal of Research in Marketing. https://doi.org/10.1016/j.ijresmar.2024.09.002.",
     "crumbs": [
       "Content-Marketing und Persuasion",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>KI-gestützte Content-Erstellung</span>"
@@ -1009,18 +884,7 @@
     "href": "06-seo/keyword-recherche.html#von-keywords-zu-themen",
     "title": "16  Keyword-Recherche",
     "section": "16.3 Von Keywords zu Themen",
-    "text": "16.3 Von Keywords zu Themen\nEinzelne Keywords sind nur der Rohstoff. Im nächsten Schritt fassen wir verwandte Begriffe zu Themenclustern zusammen, also zu Gruppen, die dasselbe Anliegen aus verschiedenen Blickwinkeln beschreiben. Aus einem Cluster entsteht dann ein zusammenhängender Inhalt statt vieler dünner Einzelseiten.\nWir achten besonders auf sogenannte Long-Tail-Begriffe, also längere und spezifischere Suchphrasen. Sie haben einzeln weniger Volumen, treffen das Anliegen aber präziser und sind leichter zu gewinnen. Die offizielle Anleitung von Google empfiehlt ausdrücklich, Inhalte an den tatsächlichen Bedürfnissen der Nutzenden auszurichten und nicht an einer künstlichen Schlagwortdichte (Google Search Central nd).\n\n\n\n\n\n\nWichtigKeyword-Stuffing vermeiden\n\n\n\nWir bauen Keywords natürlich in gut lesbare Sätze ein. Das mechanische Aneinanderreihen vieler Suchbegriffe (Keyword-Stuffing) schadet heute mehr, als es nützt, weil Suchmaschinen Lesbarkeit und Relevanz höher gewichten als bloße Worthäufigkeit.",
-    "crumbs": [
-      "Suchmaschinenoptimierung (SEO)",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Keyword-Recherche</span>"
-    ]
-  },
-  {
-    "objectID": "06-seo/keyword-recherche.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "06-seo/keyword-recherche.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "16  Keyword-Recherche",
-    "section": "16.4 Was als Nächstes ausgebaut werden muss",
-    "text": "16.4 Was als Nächstes ausgebaut werden muss\n\nKonkretes Recherche-Beispiel mit einem fiktiven Anbieter Schritt für Schritt durchspielen\nÜbersicht gängiger Recherche-Werkzeuge (kostenfrei und kostenpflichtig) als Vergleichstabelle ergänzen\nEine kleine Übung einfügen, in der Lesende eigene Keywords nach Intention sortieren\nAbschnitt zu saisonalen Schwankungen und zur Priorisierung nach Aufwand und Nutzen vertiefen\n\n\n\n\n\nEnge, Eric, Stephan Spencer, und Jessie C. Stricchiola. 2023. The art of SEO: mastering search engine optimization.\n\n\nErlhofer, Sebastian. 2023. Suchmaschinen-Optimierung: das umfassende Handbuch.\n\n\nGoogle Search Central. nd. „SEO Starter Guide: The Basics | Google Search Central | Documentation“. nd. https://developers.google.com/search/docs/fundamentals/seo-starter-guide.",
+    "text": "16.3 Von Keywords zu Themen\nEinzelne Keywords sind nur der Rohstoff. Im nächsten Schritt fassen wir verwandte Begriffe zu Themenclustern zusammen, also zu Gruppen, die dasselbe Anliegen aus verschiedenen Blickwinkeln beschreiben. Aus einem Cluster entsteht dann ein zusammenhängender Inhalt statt vieler dünner Einzelseiten.\nWir achten besonders auf sogenannte Long-Tail-Begriffe, also längere und spezifischere Suchphrasen. Sie haben einzeln weniger Volumen, treffen das Anliegen aber präziser und sind leichter zu gewinnen. Die offizielle Anleitung von Google empfiehlt ausdrücklich, Inhalte an den tatsächlichen Bedürfnissen der Nutzenden auszurichten und nicht an einer künstlichen Schlagwortdichte (Google Search Central nd).\n\n\n\n\n\n\nWichtigKeyword-Stuffing vermeiden\n\n\n\nWir bauen Keywords natürlich in gut lesbare Sätze ein. Das mechanische Aneinanderreihen vieler Suchbegriffe (Keyword-Stuffing) schadet heute mehr, als es nützt, weil Suchmaschinen Lesbarkeit und Relevanz höher gewichten als bloße Worthäufigkeit.\n\n\n\n\n\n\nEnge, Eric, Stephan Spencer, und Jessie C. Stricchiola. 2023. The art of SEO: mastering search engine optimization.\n\n\nErlhofer, Sebastian. 2023. Suchmaschinen-Optimierung: das umfassende Handbuch.\n\n\nGoogle Search Central. nd. „SEO Starter Guide: The Basics | Google Search Central | Documentation“. nd. https://developers.google.com/search/docs/fundamentals/seo-starter-guide.",
     "crumbs": [
       "Suchmaschinenoptimierung (SEO)",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Keyword-Recherche</span>"
@@ -1064,18 +928,7 @@
     "href": "06-seo/onpage-technische-seo.html#glaubwürdigkeit-mit-e-e-a-t",
     "title": "17  On-Page- und technische SEO",
     "section": "17.3 Glaubwürdigkeit mit E-E-A-T",
-    "text": "17.3 Glaubwürdigkeit mit E-E-A-T\nQualität lässt sich nicht allein an Technik messen. Google beschreibt mit dem Kürzel E-E-A-T vier Eigenschaften guter Inhalte: Experience (eigene Erfahrung mit dem Thema), Expertise (fachliches Können), Authoritativeness (Ansehen als Quelle) und Trust (Vertrauenswürdigkeit). Trust gilt dabei als wichtigster Bestandteil, auf den die anderen drei einzahlen.\nWir stärken diese Signale konkret, indem wir Urheberschaft sichtbar machen, Quellen nennen, Inhalte aktuell halten und transparente Kontaktangaben bereitstellen. Gerade bei sensiblen Themen wie Gesundheit oder Finanzen wiegt nachweisbare Glaubwürdigkeit besonders schwer (Enge, Spencer, und Stricchiola 2023).\n\n\n\n\n\n\nWichtigSubstanz vor Technik\n\n\n\nTechnische Sauberkeit ist die Eintrittskarte, kein Ranking-Garant. Wenn Inhalt und Glaubwürdigkeit fehlen, bringen perfekt gesetzte Tags wenig. Wir investieren deshalb zuerst in echten Mehrwert und sichern ihn technisch ab.",
-    "crumbs": [
-      "Suchmaschinenoptimierung (SEO)",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>On-Page- und technische SEO</span>"
-    ]
-  },
-  {
-    "objectID": "06-seo/onpage-technische-seo.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "06-seo/onpage-technische-seo.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "17  On-Page- und technische SEO",
-    "section": "17.4 Was als Nächstes ausgebaut werden muss",
-    "text": "17.4 Was als Nächstes ausgebaut werden muss\n\nVorher-Nachher-Beispiel für ein optimiertes Title-Tag und eine Meta-Description ergänzen\nCheckliste für technische Grundlagen (Sitemap, robots, mobile Nutzbarkeit) als Tabelle einfügen\nE-E-A-T anhand eines konkreten Seitenbeispiels durchdeklinieren\nAbschnitt zu strukturierten Daten und Rich Results vertiefen\n\n\n\n\n\nEnge, Eric, Stephan Spencer, und Jessie C. Stricchiola. 2023. The art of SEO: mastering search engine optimization.\n\n\nErlhofer, Sebastian. 2023. Suchmaschinen-Optimierung: das umfassende Handbuch.\n\n\nGoogle Search Central. nd. „SEO Starter Guide: The Basics | Google Search Central | Documentation“. nd. https://developers.google.com/search/docs/fundamentals/seo-starter-guide.",
+    "text": "17.3 Glaubwürdigkeit mit E-E-A-T\nQualität lässt sich nicht allein an Technik messen. Google beschreibt mit dem Kürzel E-E-A-T vier Eigenschaften guter Inhalte: Experience (eigene Erfahrung mit dem Thema), Expertise (fachliches Können), Authoritativeness (Ansehen als Quelle) und Trust (Vertrauenswürdigkeit). Trust gilt dabei als wichtigster Bestandteil, auf den die anderen drei einzahlen.\nWir stärken diese Signale konkret, indem wir Urheberschaft sichtbar machen, Quellen nennen, Inhalte aktuell halten und transparente Kontaktangaben bereitstellen. Gerade bei sensiblen Themen wie Gesundheit oder Finanzen wiegt nachweisbare Glaubwürdigkeit besonders schwer (Enge, Spencer, und Stricchiola 2023).\n\n\n\n\n\n\nWichtigSubstanz vor Technik\n\n\n\nTechnische Sauberkeit ist die Eintrittskarte, kein Ranking-Garant. Wenn Inhalt und Glaubwürdigkeit fehlen, bringen perfekt gesetzte Tags wenig. Wir investieren deshalb zuerst in echten Mehrwert und sichern ihn technisch ab.\n\n\n\n\n\n\nEnge, Eric, Stephan Spencer, und Jessie C. Stricchiola. 2023. The art of SEO: mastering search engine optimization.\n\n\nErlhofer, Sebastian. 2023. Suchmaschinen-Optimierung: das umfassende Handbuch.\n\n\nGoogle Search Central. nd. „SEO Starter Guide: The Basics | Google Search Central | Documentation“. nd. https://developers.google.com/search/docs/fundamentals/seo-starter-guide.",
     "crumbs": [
       "Suchmaschinenoptimierung (SEO)",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>On-Page- und technische SEO</span>"
@@ -1119,18 +972,7 @@
     "href": "06-seo/core-web-vitals.html#warum-uns-das-im-marketing-betrifft",
     "title": "18  Core Web Vitals und Page Experience",
     "section": "18.3 Warum uns das im Marketing betrifft",
-    "text": "18.3 Warum uns das im Marketing betrifft\nDie Core Web Vitals sind Teil der sogenannten Page Experience, mit der Google die Gesamtqualität des Seitenerlebnisses bewertet. Sie sind ein Faktor unter mehreren und ersetzen guten Inhalt nicht, doch sie wirken als Verstärker: Bei ähnlich relevanten Seiten kann die bessere Nutzererfahrung den Ausschlag geben.\nFür uns sind diese Kennzahlen vor allem deshalb wertvoll, weil sie messbar und damit steuerbar sind. Wir können sie regelmäßig prüfen, Schwachstellen erkennen und gezielt verbessern, statt über Bauchgefühl zu diskutieren (Enge, Spencer, und Stricchiola 2023).",
-    "crumbs": [
-      "Suchmaschinenoptimierung (SEO)",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Core Web Vitals und Page Experience</span>"
-    ]
-  },
-  {
-    "objectID": "06-seo/core-web-vitals.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "06-seo/core-web-vitals.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "18  Core Web Vitals und Page Experience",
-    "section": "18.4 Was als Nächstes ausgebaut werden muss",
-    "text": "18.4 Was als Nächstes ausgebaut werden muss\n\nAktuelle Zielbereiche für LCP, INP und CLS aus der offiziellen Quelle ergänzen und datieren\nÜbersicht der gängigen Messwerkzeuge (Labordaten und Felddaten) als Tabelle einfügen\nPro Kennzahl zwei bis drei konkrete Optimierungshebel beschreiben\nZusammenspiel mit den übrigen Page-Experience-Signalen vertiefen\n\n\n\n\n\nEnge, Eric, Stephan Spencer, und Jessie C. Stricchiola. 2023. The art of SEO: mastering search engine optimization.\n\n\nGoogle. nd. „Web Vitals | Articles“. nd. https://web.dev/articles/vitals.",
+    "text": "18.3 Warum uns das im Marketing betrifft\nDie Core Web Vitals sind Teil der sogenannten Page Experience, mit der Google die Gesamtqualität des Seitenerlebnisses bewertet. Sie sind ein Faktor unter mehreren und ersetzen guten Inhalt nicht, doch sie wirken als Verstärker: Bei ähnlich relevanten Seiten kann die bessere Nutzererfahrung den Ausschlag geben.\nFür uns sind diese Kennzahlen vor allem deshalb wertvoll, weil sie messbar und damit steuerbar sind. Wir können sie regelmäßig prüfen, Schwachstellen erkennen und gezielt verbessern, statt über Bauchgefühl zu diskutieren (Enge, Spencer, und Stricchiola 2023).\n\n\n\n\nEnge, Eric, Stephan Spencer, und Jessie C. Stricchiola. 2023. The art of SEO: mastering search engine optimization.\n\n\nGoogle. nd. „Web Vitals | Articles“. nd. https://web.dev/articles/vitals.",
     "crumbs": [
       "Suchmaschinenoptimierung (SEO)",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>Core Web Vitals und Page Experience</span>"
@@ -1173,18 +1015,7 @@
     "href": "07-google-ads/funktionsweise-auktionen.html#wir-zahlen-meist-weniger-als-unser-gebot",
     "title": "19  Funktionsweise von Google Ads und Auktionen",
     "section": "19.3 Wir zahlen meist weniger als unser Gebot",
-    "text": "19.3 Wir zahlen meist weniger als unser Gebot\nEine zweite Eigenschaft der Auktion ist für das Budget besonders wichtig: Der tatsächliche Klickpreis ist in der Regel niedriger als das eigene Höchstgebot. Vereinfacht zahlen wir nur so viel, wie nötig ist, um die nächstplatzierte Anzeige knapp zu übertreffen. Das Gebot ist also eine Obergrenze, nicht der feste Preis pro Klick.\nDiese Logik schützt davor, dauerhaft zu viel zu bezahlen, und belohnt zugleich gute Anzeigen mit niedrigeren Kosten. Damit die Auktion fair und stabil bleibt, arbeitet Google zusätzlich mit Mindestpreisen, unterhalb derer eine Anzeige nicht ausgeliefert wird. Solche Reservepreise sind ein bewusst gestaltetes Element von Anzeigenauktionen und beeinflussen sowohl die Einnahmen der Plattform als auch das Verhalten der Werbetreibenden (Ostrovsky und Schwarz 2023).\n\n\n\n\n\n\nWichtigGebot ist eine Obergrenze, kein Festpreis\n\n\n\nWir verwechseln das maximale Gebot nicht mit den realen Kosten. Das Gebot legt fest, wie viel wir höchstens zu zahlen bereit sind. Der abgerechnete Klickpreis liegt meist darunter und hängt vom Wettbewerb und von der Qualität unserer Anzeige ab.",
-    "crumbs": [
-      "Suchmaschinenwerbung (Google Ads)",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funktionsweise von Google Ads und Auktionen</span>"
-    ]
-  },
-  {
-    "objectID": "07-google-ads/funktionsweise-auktionen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "07-google-ads/funktionsweise-auktionen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "19  Funktionsweise von Google Ads und Auktionen",
-    "section": "19.4 Was als Nächstes ausgebaut werden muss",
-    "text": "19.4 Was als Nächstes ausgebaut werden muss\n\nVereinfachte Rechenbeispiele zur Bildung des Anzeigenrangs Schritt für Schritt durchspielen (Gebot mal Qualität)\nDen Zusammenhang zwischen Reservepreisen und tatsächlichem Klickpreis an einem Zahlenbeispiel illustrieren\nEine kleine Übung einfügen, in der zwei Anzeigen mit unterschiedlichem Gebot und Qualität verglichen und platziert werden\nAbschnitt zur Rolle des Suchkontexts (Gerät, Standort, Tageszeit) in der Auktion vertiefen\n\n\n\n\n\nOstrovsky, Michael, und Michael Schwarz. 2023. „Reserve Prices in Internet Advertising Auctions: A Field Experiment“. Journal of Political Economy. https://doi.org/10.1086/725702.\n\n\nShemshaki, Milad, Nathaniel Amoah, Alessandro Bigi, und Michelle Bonera. 2025. „The relationship between campaign quality and performance in Google Ads: a systematic review“. Journal of Marketing Analytics. https://doi.org/10.1057/s41270-025-00419-1.",
+    "text": "19.3 Wir zahlen meist weniger als unser Gebot\nEine zweite Eigenschaft der Auktion ist für das Budget besonders wichtig: Der tatsächliche Klickpreis ist in der Regel niedriger als das eigene Höchstgebot. Vereinfacht zahlen wir nur so viel, wie nötig ist, um die nächstplatzierte Anzeige knapp zu übertreffen. Das Gebot ist also eine Obergrenze, nicht der feste Preis pro Klick.\nDiese Logik schützt davor, dauerhaft zu viel zu bezahlen, und belohnt zugleich gute Anzeigen mit niedrigeren Kosten. Damit die Auktion fair und stabil bleibt, arbeitet Google zusätzlich mit Mindestpreisen, unterhalb derer eine Anzeige nicht ausgeliefert wird. Solche Reservepreise sind ein bewusst gestaltetes Element von Anzeigenauktionen und beeinflussen sowohl die Einnahmen der Plattform als auch das Verhalten der Werbetreibenden (Ostrovsky und Schwarz 2023).\n\n\n\n\n\n\nWichtigGebot ist eine Obergrenze, kein Festpreis\n\n\n\nWir verwechseln das maximale Gebot nicht mit den realen Kosten. Das Gebot legt fest, wie viel wir höchstens zu zahlen bereit sind. Der abgerechnete Klickpreis liegt meist darunter und hängt vom Wettbewerb und von der Qualität unserer Anzeige ab.\n\n\n\n\n\n\nOstrovsky, Michael, und Michael Schwarz. 2023. „Reserve Prices in Internet Advertising Auctions: A Field Experiment“. Journal of Political Economy. https://doi.org/10.1086/725702.\n\n\nShemshaki, Milad, Nathaniel Amoah, Alessandro Bigi, und Michelle Bonera. 2025. „The relationship between campaign quality and performance in Google Ads: a systematic review“. Journal of Marketing Analytics. https://doi.org/10.1057/s41270-025-00419-1.",
     "crumbs": [
       "Suchmaschinenwerbung (Google Ads)",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>Funktionsweise von Google Ads und Auktionen</span>"
@@ -1228,18 +1059,7 @@
     "href": "07-google-ads/kampagnenstruktur.html#anzeigentexte-die-zur-suche-passen",
     "title": "20  Kampagnenstruktur, Keywords und Anzeigen",
     "section": "20.3 Anzeigentexte, die zur Suche passen",
-    "text": "20.3 Anzeigentexte, die zur Suche passen\nAuf der untersten Ebene formulieren wir die Anzeigentexte. Heute arbeiten wir dabei mit Responsive Suchanzeigen, bei denen wir mehrere Überschriften und Beschreibungen hinterlegen. Google kombiniert diese Bausteine automatisch und testet, welche Zusammenstellung am besten funktioniert. Unsere Aufgabe ist es, genügend vielfältige und relevante Bausteine zu liefern.\nGute Anzeigentexte greifen den Suchbegriff auf, benennen einen klaren Nutzen und enthalten eine eindeutige Handlungsaufforderung. So entsteht eine durchgängige Linie von der Suchanfrage über die Anzeige bis zur Zielseite, die wir im weiteren Verlauf des Moduls noch gezielt für die Anzeigenqualität nutzen.",
-    "crumbs": [
-      "Suchmaschinenwerbung (Google Ads)",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Kampagnenstruktur, Keywords und Anzeigen</span>"
-    ]
-  },
-  {
-    "objectID": "07-google-ads/kampagnenstruktur.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "07-google-ads/kampagnenstruktur.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "20  Kampagnenstruktur, Keywords und Anzeigen",
-    "section": "20.4 Was als Nächstes ausgebaut werden muss",
-    "text": "20.4 Was als Nächstes ausgebaut werden muss\n\nEin vollständiges Beispielkonto mit zwei Kampagnen und mehreren Anzeigengruppen Schritt für Schritt aufbauen\nDie Keyword-Optionen in einer Vergleichstabelle mit Beispielanfragen gegenüberstellen\nEine kleine Übung einfügen, in der Lesende eine Liste ausschließender Keywords für ein fiktives Angebot erstellen\nAbschnitt zu Best Practices für Responsive Suchanzeigen (Anzahl und Vielfalt der Bausteine) vertiefen\n\n\n\n\n\nShemshaki, Milad, Nathaniel Amoah, Alessandro Bigi, und Michelle Bonera. 2025. „The relationship between campaign quality and performance in Google Ads: a systematic review“. Journal of Marketing Analytics. https://doi.org/10.1057/s41270-025-00419-1.",
+    "text": "20.3 Anzeigentexte, die zur Suche passen\nAuf der untersten Ebene formulieren wir die Anzeigentexte. Heute arbeiten wir dabei mit Responsive Suchanzeigen, bei denen wir mehrere Überschriften und Beschreibungen hinterlegen. Google kombiniert diese Bausteine automatisch und testet, welche Zusammenstellung am besten funktioniert. Unsere Aufgabe ist es, genügend vielfältige und relevante Bausteine zu liefern.\nGute Anzeigentexte greifen den Suchbegriff auf, benennen einen klaren Nutzen und enthalten eine eindeutige Handlungsaufforderung. So entsteht eine durchgängige Linie von der Suchanfrage über die Anzeige bis zur Zielseite, die wir im weiteren Verlauf des Moduls noch gezielt für die Anzeigenqualität nutzen.\n\n\n\n\nShemshaki, Milad, Nathaniel Amoah, Alessandro Bigi, und Michelle Bonera. 2025. „The relationship between campaign quality and performance in Google Ads: a systematic review“. Journal of Marketing Analytics. https://doi.org/10.1057/s41270-025-00419-1.",
     "crumbs": [
       "Suchmaschinenwerbung (Google Ads)",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Kampagnenstruktur, Keywords und Anzeigen</span>"
@@ -1272,18 +1092,7 @@
     "href": "07-google-ads/quality-score.html#an-den-richtigen-hebeln-ziehen",
     "title": "21  Quality Score und Optimierung",
     "section": "21.3 An den richtigen Hebeln ziehen",
-    "text": "21.3 An den richtigen Hebeln ziehen\nAus den drei Komponenten ergeben sich drei konkrete Ansatzpunkte. Für eine bessere erwartete Klickrate schreiben wir Anzeigentexte, die den Suchbegriff aufgreifen und einen klaren Nutzen sowie eine eindeutige Handlungsaufforderung enthalten. Für eine höhere Anzeigenrelevanz sorgen wir dafür, dass die Begriffe aus dem Keyword auch im Anzeigentext vorkommen, was uns die enge thematische Gliederung der Anzeigengruppen aus der vorigen Lesson erleichtert. Für eine bessere Zielseiten-Erfahrung achten wir auf eine schnelle, übersichtliche und inhaltlich passende Seite.\n\n\n\n\n\n\nWichtigKomponenten verbessern, nicht die Zahl jagen\n\n\n\nWir optimieren nicht die Quality-Score-Zahl als solche, sondern die drei Komponenten dahinter. Wer die erwartete Klickrate, die Anzeigenrelevanz und die Zielseiten-Erfahrung verbessert, hebt den Quality Score von selbst und senkt zugleich die Kosten. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.",
-    "crumbs": [
-      "Suchmaschinenwerbung (Google Ads)",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Quality Score und Optimierung</span>"
-    ]
-  },
-  {
-    "objectID": "07-google-ads/quality-score.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "07-google-ads/quality-score.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "21  Quality Score und Optimierung",
-    "section": "21.4 Was als Nächstes ausgebaut werden muss",
-    "text": "21.4 Was als Nächstes ausgebaut werden muss\n\nPro Komponente eine kurze Checkliste mit konkreten Optimierungsschritten ergänzen\nEin Vorher-Nachher-Beispiel einer Anzeigengruppe mit niedrigem und verbessertem Quality Score durchspielen\nEine kleine Übung einfügen, in der Lesende einem schwachen Quality Score die wahrscheinlich verantwortliche Komponente zuordnen\nAbschnitt zum Zusammenhang zwischen Zielseiten-Erfahrung und Ladezeit (Verweis auf Modul 6) vertiefen\n\n\n\n\n\nGoogle. nd. „About Quality Score for Search campaigns - Google Ads Help“. nd. https://support.google.com/google-ads/answer/6167118.\n\n\nShemshaki, Milad, Nathaniel Amoah, Alessandro Bigi, und Michelle Bonera. 2025. „The relationship between campaign quality and performance in Google Ads: a systematic review“. Journal of Marketing Analytics. https://doi.org/10.1057/s41270-025-00419-1.",
+    "text": "21.3 An den richtigen Hebeln ziehen\nAus den drei Komponenten ergeben sich drei konkrete Ansatzpunkte. Für eine bessere erwartete Klickrate schreiben wir Anzeigentexte, die den Suchbegriff aufgreifen und einen klaren Nutzen sowie eine eindeutige Handlungsaufforderung enthalten. Für eine höhere Anzeigenrelevanz sorgen wir dafür, dass die Begriffe aus dem Keyword auch im Anzeigentext vorkommen, was uns die enge thematische Gliederung der Anzeigengruppen aus der vorigen Lesson erleichtert. Für eine bessere Zielseiten-Erfahrung achten wir auf eine schnelle, übersichtliche und inhaltlich passende Seite.\n\n\n\n\n\n\nWichtigKomponenten verbessern, nicht die Zahl jagen\n\n\n\nWir optimieren nicht die Quality-Score-Zahl als solche, sondern die drei Komponenten dahinter. Wer die erwartete Klickrate, die Anzeigenrelevanz und die Zielseiten-Erfahrung verbessert, hebt den Quality Score von selbst und senkt zugleich die Kosten. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.\n\n\n\n\n\n\nGoogle. nd. „About Quality Score for Search campaigns - Google Ads Help“. nd. https://support.google.com/google-ads/answer/6167118.\n\n\nShemshaki, Milad, Nathaniel Amoah, Alessandro Bigi, und Michelle Bonera. 2025. „The relationship between campaign quality and performance in Google Ads: a systematic review“. Journal of Marketing Analytics. https://doi.org/10.1057/s41270-025-00419-1.",
     "crumbs": [
       "Suchmaschinenwerbung (Google Ads)",
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>Quality Score und Optimierung</span>"
@@ -1337,18 +1146,7 @@
     "href": "08-social-media-linkedin/linkedin-grundlagen.html#share-of-voice-als-wachstumshebel",
     "title": "22  LinkedIn-Grundlagen und B2B-Wirkungsprinzipien",
     "section": "22.3 Share of Voice als Wachstumshebel",
-    "text": "22.3 Share of Voice als Wachstumshebel\nEng mit der 60/40-Regel verbunden ist der Anteil der eigenen Werbestimme am Markt, der sogenannte Share of Voice. Damit ist gemeint, wie groß der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern eines Marktes ist. Tendenziell wächst ein Unternehmen, wenn sein Share of Voice größer ist als sein aktueller Marktanteil, weil es sich überdurchschnittlich Aufmerksamkeit sichert.\nFür die Praxis bedeutet das, kontinuierlich präsent zu bleiben, statt nur in kurzen Kampagnenfenstern aufzutauchen. Dauerhafte Sichtbarkeit baut die mentale Verfügbarkeit auf, die später über den Abschluss entscheidet. Vertiefend ordnet Praxishandbuch B2B-Marketing: Neueste Konzepte, Strategien und Technologien sowie praxiserprobte Vorgehensmodelle – mit 14 Fallstudien (2023) diese Prinzipien in die Gesamtstrategie des B2B-Marketings ein.",
-    "crumbs": [
-      "Social Media und LinkedIn Ads",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>LinkedIn-Grundlagen und B2B-Wirkungsprinzipien</span>"
-    ]
-  },
-  {
-    "objectID": "08-social-media-linkedin/linkedin-grundlagen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "08-social-media-linkedin/linkedin-grundlagen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "22  LinkedIn-Grundlagen und B2B-Wirkungsprinzipien",
-    "section": "22.4 Was als Nächstes ausgebaut werden muss",
-    "text": "22.4 Was als Nächstes ausgebaut werden muss\n\nEin durchgehendes Praxisbeispiel (etwa ein B2B-Softwareanbieter) einführen, das die 60/40-Aufteilung konkret durchrechnet\nDen Unterschied zwischen organischer Präsenz und bezahlter Reichweite auf LinkedIn in einer Tabelle gegenüberstellen\nEine kleine Übung ergänzen, in der ein Budget beispielhaft auf Markenaufbau und Aktivierung aufgeteilt wird\nDen Zusammenhang von Share of Voice und Marktanteil mit einer Grafik veranschaulichen\n\n\n\n\n\nBalaji, M. S., Abhishek Behl, Kokil Jain, Abdullah M. Baabdullah, Mihalis Giannakis, Amit Shankar, und Yogesh K. Dwivedi. 2023. „Effectiveness of B2B social media marketing: The effect of message source and message content on social media engagement“. Industrial Marketing Management. https://doi.org/10.1016/j.indmarman.2023.06.011.\n\n\nPraxishandbuch B2B-Marketing: Neueste Konzepte, Strategien und Technologien sowie praxiserprobte Vorgehensmodelle – mit 14 Fallstudien. 2023. https://link.springer.com/10.1007/978-3-658-40037-8.\n\n\nThe B2B Institute. nd. „The 5 Principles Of Growth In B2B Marketing“. nd. https://business.linkedin.com/advertise/resources/b2b-institute/marketing-as-growth.",
+    "text": "22.3 Share of Voice als Wachstumshebel\nEng mit der 60/40-Regel verbunden ist der Anteil der eigenen Werbestimme am Markt, der sogenannte Share of Voice. Damit ist gemeint, wie groß der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern eines Marktes ist. Tendenziell wächst ein Unternehmen, wenn sein Share of Voice größer ist als sein aktueller Marktanteil, weil es sich überdurchschnittlich Aufmerksamkeit sichert.\nFür die Praxis bedeutet das, kontinuierlich präsent zu bleiben, statt nur in kurzen Kampagnenfenstern aufzutauchen. Dauerhafte Sichtbarkeit baut die mentale Verfügbarkeit auf, die später über den Abschluss entscheidet. Vertiefend ordnet Praxishandbuch B2B-Marketing: Neueste Konzepte, Strategien und Technologien sowie praxiserprobte Vorgehensmodelle – mit 14 Fallstudien (2023) diese Prinzipien in die Gesamtstrategie des B2B-Marketings ein.\n\n\n\n\nBalaji, M. S., Abhishek Behl, Kokil Jain, Abdullah M. Baabdullah, Mihalis Giannakis, Amit Shankar, und Yogesh K. Dwivedi. 2023. „Effectiveness of B2B social media marketing: The effect of message source and message content on social media engagement“. Industrial Marketing Management. https://doi.org/10.1016/j.indmarman.2023.06.011.\n\n\nPraxishandbuch B2B-Marketing: Neueste Konzepte, Strategien und Technologien sowie praxiserprobte Vorgehensmodelle – mit 14 Fallstudien. 2023. https://link.springer.com/10.1007/978-3-658-40037-8.\n\n\nThe B2B Institute. nd. „The 5 Principles Of Growth In B2B Marketing“. nd. https://business.linkedin.com/advertise/resources/b2b-institute/marketing-as-growth.",
     "crumbs": [
       "Social Media und LinkedIn Ads",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>LinkedIn-Grundlagen und B2B-Wirkungsprinzipien</span>"
@@ -1392,18 +1190,7 @@
     "href": "08-social-media-linkedin/kampagnentypen-targeting.html#matched-audiences-und-kontobasiertes-marketing",
     "title": "23  Kampagnentypen und Targeting",
     "section": "23.3 Matched Audiences und kontobasiertes Marketing",
-    "text": "23.3 Matched Audiences und kontobasiertes Marketing\nÜber die professionelle Demografie hinaus können wir eigene Daten einbringen, die sogenannten Matched Audiences. Dazu gehören das erneute Ansprechen von Website-Besuchern über das Insight Tag, das Hochladen von Kontaktlisten sowie das Hochladen von Unternehmenslisten.\nGerade die Unternehmenslisten sind die Grundlage für kontobasiertes Marketing, oft als Account-Based Marketing oder kurz ABM bezeichnet. Statt breit zu streuen, definieren wir vorab eine Liste der wirklich relevanten Zielunternehmen und richten die gesamte Ansprache auf die Entscheiderinnen und Entscheider in genau diesen Konten aus. Das passt zur Realität des B2B, in dem oft wenige große Abschlüsse den Umsatz tragen.\n\n\n\n\n\n\nWichtigDatenschutz beachten\n\n\n\nBeim Hochladen von Kontakt- und Unternehmenslisten gelten im deutschsprachigen Raum die Vorgaben der Datenschutz-Grundverordnung. Wir verarbeiten personenbezogene Daten nur auf einer gültigen Rechtsgrundlage und stellen bei Lead Gen Forms immer den Link zur Datenschutzerklärung sowie eine nicht vorangekreuzte Einwilligung bereit.",
-    "crumbs": [
-      "Social Media und LinkedIn Ads",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Kampagnentypen und Targeting</span>"
-    ]
-  },
-  {
-    "objectID": "08-social-media-linkedin/kampagnentypen-targeting.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "08-social-media-linkedin/kampagnentypen-targeting.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "23  Kampagnentypen und Targeting",
-    "section": "23.4 Was als Nächstes ausgebaut werden muss",
-    "text": "23.4 Was als Nächstes ausgebaut werden muss\n\nEine Entscheidungshilfe ergänzen, die Kampagnenziel, Phase und passendes Format verbindet\nDen Aufbau eines Lead Gen Forms Schritt für Schritt mit Screenshots zeigen\nEin konkretes ABM-Beispiel mit einer Beispiel-Zielliste durchspielen\nDie Funktionsweise des Insight Tags für Website-Retargeting technisch vertiefen\n\n\n\n\n\nLinkedIn Marketing Solutions. nd. „Ad Targeting with LinkedIn Ads“. nd. https://business.linkedin.com/advertise/ads/targeting.\n\n\n———. nd. „LinkedIn Ads Guide | Advertise on LinkedIn“. nd. https://business.linkedin.com/advertise/ads/ads-guide.",
+    "text": "23.3 Matched Audiences und kontobasiertes Marketing\nÜber die professionelle Demografie hinaus können wir eigene Daten einbringen, die sogenannten Matched Audiences. Dazu gehören das erneute Ansprechen von Website-Besuchern über das Insight Tag, das Hochladen von Kontaktlisten sowie das Hochladen von Unternehmenslisten.\nGerade die Unternehmenslisten sind die Grundlage für kontobasiertes Marketing, oft als Account-Based Marketing oder kurz ABM bezeichnet. Statt breit zu streuen, definieren wir vorab eine Liste der wirklich relevanten Zielunternehmen und richten die gesamte Ansprache auf die Entscheiderinnen und Entscheider in genau diesen Konten aus. Das passt zur Realität des B2B, in dem oft wenige große Abschlüsse den Umsatz tragen.\n\n\n\n\n\n\nWichtigDatenschutz beachten\n\n\n\nBeim Hochladen von Kontakt- und Unternehmenslisten gelten im deutschsprachigen Raum die Vorgaben der Datenschutz-Grundverordnung. Wir verarbeiten personenbezogene Daten nur auf einer gültigen Rechtsgrundlage und stellen bei Lead Gen Forms immer den Link zur Datenschutzerklärung sowie eine nicht vorangekreuzte Einwilligung bereit.\n\n\n\n\n\n\nLinkedIn Marketing Solutions. nd. „Ad Targeting with LinkedIn Ads“. nd. https://business.linkedin.com/advertise/ads/targeting.\n\n\n———. nd. „LinkedIn Ads Guide | Advertise on LinkedIn“. nd. https://business.linkedin.com/advertise/ads/ads-guide.",
     "crumbs": [
       "Social Media und LinkedIn Ads",
       "<span class='chapter-number'>23</span>  <span class='chapter-title'>Kampagnentypen und Targeting</span>"
@@ -1447,18 +1234,7 @@
     "href": "08-social-media-linkedin/erfolgsmessung-fallstudien.html#vom-messen-zum-verbessern",
     "title": "24  Erfolgsmessung und Fallstudien",
     "section": "24.3 Vom Messen zum Verbessern",
-    "text": "24.3 Vom Messen zum Verbessern\nMessung ist kein Selbstzweck, sondern die Grundlage für den nächsten Schritt. Aus den Zahlen leiten wir konkrete Anpassungen ab: Wir testen zwei Varianten einer Anzeige gegeneinander, tauschen ermüdete Motive aus oder schärfen die Zielgruppe nach. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, der mit jeder Runde besser wird.",
-    "crumbs": [
-      "Social Media und LinkedIn Ads",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Erfolgsmessung und Fallstudien</span>"
-    ]
-  },
-  {
-    "objectID": "08-social-media-linkedin/erfolgsmessung-fallstudien.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "08-social-media-linkedin/erfolgsmessung-fallstudien.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "24  Erfolgsmessung und Fallstudien",
-    "section": "24.4 Was als Nächstes ausgebaut werden muss",
-    "text": "24.4 Was als Nächstes ausgebaut werden muss\n\nEine ausgearbeitete Fallstudie mit anonymisierten, aber konkreten Zahlen ergänzen\nDen Aufbau eines A/B-Tests im Kampagnen-Manager Schritt für Schritt zeigen\nEine Beispielrechnung für die Kosten pro Lead und den daraus abgeleiteten Return einfügen\nEine Checkliste für die wöchentliche Kampagnenkontrolle erstellen\n\n\n\n\n\nBalaji, M. S., Abhishek Behl, Kokil Jain, Abdullah M. Baabdullah, Mihalis Giannakis, Amit Shankar, und Yogesh K. Dwivedi. 2023. „Effectiveness of B2B social media marketing: The effect of message source and message content on social media engagement“. Industrial Marketing Management. https://doi.org/10.1016/j.indmarman.2023.06.011.\n\n\nLinkedIn Marketing Solutions. nd. „LinkedIn Ads Guide | Advertise on LinkedIn“. nd. https://business.linkedin.com/advertise/ads/ads-guide.\n\n\nPraxishandbuch B2B-Marketing: Neueste Konzepte, Strategien und Technologien sowie praxiserprobte Vorgehensmodelle – mit 14 Fallstudien. 2023. https://link.springer.com/10.1007/978-3-658-40037-8.",
+    "text": "24.3 Vom Messen zum Verbessern\nMessung ist kein Selbstzweck, sondern die Grundlage für den nächsten Schritt. Aus den Zahlen leiten wir konkrete Anpassungen ab: Wir testen zwei Varianten einer Anzeige gegeneinander, tauschen ermüdete Motive aus oder schärfen die Zielgruppe nach. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, der mit jeder Runde besser wird.\n\n\n\n\nBalaji, M. S., Abhishek Behl, Kokil Jain, Abdullah M. Baabdullah, Mihalis Giannakis, Amit Shankar, und Yogesh K. Dwivedi. 2023. „Effectiveness of B2B social media marketing: The effect of message source and message content on social media engagement“. Industrial Marketing Management. https://doi.org/10.1016/j.indmarman.2023.06.011.\n\n\nLinkedIn Marketing Solutions. nd. „LinkedIn Ads Guide | Advertise on LinkedIn“. nd. https://business.linkedin.com/advertise/ads/ads-guide.\n\n\nPraxishandbuch B2B-Marketing: Neueste Konzepte, Strategien und Technologien sowie praxiserprobte Vorgehensmodelle – mit 14 Fallstudien. 2023. https://link.springer.com/10.1007/978-3-658-40037-8.",
     "crumbs": [
       "Social Media und LinkedIn Ads",
       "<span class='chapter-number'>24</span>  <span class='chapter-title'>Erfolgsmessung und Fallstudien</span>"
@@ -1512,18 +1288,7 @@
     "href": "09-web-analytics/kennzahlen-systeme.html#kennzahlen-entlang-der-customer-journey",
     "title": "25  Kennzahlen und Kennzahlensysteme",
     "section": "25.3 Kennzahlen entlang der Customer Journey",
-    "text": "25.3 Kennzahlen entlang der Customer Journey\nKennzahlen wirken einzeln selten überzeugend, im Verbund dagegen sehr. Ein Kennzahlensystem ordnet die wichtigsten Größen so an, dass sie aufeinander aufbauen und gemeinsam den Weg der Kundschaft abbilden. Wir orientieren uns dabei an den Phasen der Customer Journey, also an der Reise von der ersten Aufmerksamkeit bis zur dauerhaften Bindung.\nIn der frühen Phase messen wir Sichtbarkeit und Aufmerksamkeit, etwa über Reichweite oder neue Besuchende. In der mittleren Phase rückt das Interesse in den Blick, sichtbar an Verweildauer oder wiederkehrenden Besuchen. In der späten Phase zählt die Handlung, also die Conversion und ihr Wert. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt (Ahrholdt 2023).\nDamit dieses System trägt, wählen wir bewusst wenige Schlüsselkennzahlen statt vieler Anzeigen. Vier bis fünf gut gewählte KPIs reichen aus, um eine Kampagne zu steuern. Mehr Zahlen erhöhen nicht die Klarheit, sondern den Aufwand der Interpretation.",
-    "crumbs": [
-      "Web-Analytics und Erfolgsmessung",
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Kennzahlen und Kennzahlensysteme</span>"
-    ]
-  },
-  {
-    "objectID": "09-web-analytics/kennzahlen-systeme.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "09-web-analytics/kennzahlen-systeme.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "25  Kennzahlen und Kennzahlensysteme",
-    "section": "25.4 Was als Nächstes ausgebaut werden muss",
-    "text": "25.4 Was als Nächstes ausgebaut werden muss\n\nEin durchgängiges Beispiel mit konkreten Zahlen entlang aller Journey-Phasen Schritt für Schritt aufbauen\nEine Übersichtstabelle gängiger KPIs je Phase mit Definition und sinnvoller Bezugsgröße ergänzen\nEine kleine Übung einfügen, in der Lesende eigene Metriken in Vanity-Metriken und KPIs sortieren\nDen Zusammenhang zwischen North-Star-Kennzahl und untergeordneten Treiber-KPIs vertiefen\n\n\n\n\n\nAhrholdt, Dennis C. 2023. Online-Marketing-Intelligence: Erfolgsfaktoren, Kennzahlen und Steuerungskonzepte Für Praxisorientiertes Digital-Marketing.\n\n\nKaushik, Avinash. 2010. Web analytics 2.0: the art of online accountability & science of customer centricity.\n\n\nMarketing metrics: the definitive guide to measuring marketing performance. 2010.",
+    "text": "25.3 Kennzahlen entlang der Customer Journey\nKennzahlen wirken einzeln selten überzeugend, im Verbund dagegen sehr. Ein Kennzahlensystem ordnet die wichtigsten Größen so an, dass sie aufeinander aufbauen und gemeinsam den Weg der Kundschaft abbilden. Wir orientieren uns dabei an den Phasen der Customer Journey, also an der Reise von der ersten Aufmerksamkeit bis zur dauerhaften Bindung.\nIn der frühen Phase messen wir Sichtbarkeit und Aufmerksamkeit, etwa über Reichweite oder neue Besuchende. In der mittleren Phase rückt das Interesse in den Blick, sichtbar an Verweildauer oder wiederkehrenden Besuchen. In der späten Phase zählt die Handlung, also die Conversion und ihr Wert. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt (Ahrholdt 2023).\nDamit dieses System trägt, wählen wir bewusst wenige Schlüsselkennzahlen statt vieler Anzeigen. Vier bis fünf gut gewählte KPIs reichen aus, um eine Kampagne zu steuern. Mehr Zahlen erhöhen nicht die Klarheit, sondern den Aufwand der Interpretation.\n\n\n\n\nAhrholdt, Dennis C. 2023. Online-Marketing-Intelligence: Erfolgsfaktoren, Kennzahlen und Steuerungskonzepte Für Praxisorientiertes Digital-Marketing.\n\n\nKaushik, Avinash. 2010. Web analytics 2.0: the art of online accountability & science of customer centricity.\n\n\nMarketing metrics: the definitive guide to measuring marketing performance. 2010.",
     "crumbs": [
       "Web-Analytics und Erfolgsmessung",
       "<span class='chapter-number'>25</span>  <span class='chapter-title'>Kennzahlen und Kennzahlensysteme</span>"
@@ -1567,18 +1332,7 @@
     "href": "09-web-analytics/ga4-tracking.html#von-events-zu-conversions",
     "title": "26  GA4 und eventbasiertes Tracking",
     "section": "26.3 Von Events zu Conversions",
-    "text": "26.3 Von Events zu Conversions\nNicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Conversion, also als Zielhandlung. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.\nDieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang einer Conversion verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern (Kaushik 2010).",
-    "crumbs": [
-      "Web-Analytics und Erfolgsmessung",
-      "<span class='chapter-number'>26</span>  <span class='chapter-title'>GA4 und eventbasiertes Tracking</span>"
-    ]
-  },
-  {
-    "objectID": "09-web-analytics/ga4-tracking.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "09-web-analytics/ga4-tracking.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "26  GA4 und eventbasiertes Tracking",
-    "section": "26.4 Was als Nächstes ausgebaut werden muss",
-    "text": "26.4 Was als Nächstes ausgebaut werden muss\n\nDen Unterschied zwischen automatisch erfassten und selbst definierten Events anhand konkreter Beispiele ausarbeiten\nEine kommentierte Beispielstruktur eines Events mit typischen Parametern als Tabelle ergänzen\nDen Zusammenhang zwischen GA4-Eigenschaft, Datenstrom und Konto kurz und verständlich einordnen\nDatenschutzaspekte wie Einwilligung und anonymisierte Erfassung in eigener Tiefe behandeln\n\n\n\n\n\nGoogle. nd. „About events - Analytics Help“. nd. https://support.google.com/analytics/answer/9322688.\n\n\nKaushik, Avinash. 2010. Web analytics 2.0: the art of online accountability & science of customer centricity.",
+    "text": "26.3 Von Events zu Conversions\nNicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Conversion, also als Zielhandlung. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.\nDieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang einer Conversion verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern (Kaushik 2010).\n\n\n\n\nGoogle. nd. „About events - Analytics Help“. nd. https://support.google.com/analytics/answer/9322688.\n\n\nKaushik, Avinash. 2010. Web analytics 2.0: the art of online accountability & science of customer centricity.",
     "crumbs": [
       "Web-Analytics und Erfolgsmessung",
       "<span class='chapter-number'>26</span>  <span class='chapter-title'>GA4 und eventbasiertes Tracking</span>"
@@ -1622,18 +1376,7 @@
     "href": "09-web-analytics/attribution-dashboards.html#dashboards-die-entscheidungen-tragen",
     "title": "27  Attribution und Dashboards",
     "section": "27.3 Dashboards, die Entscheidungen tragen",
-    "text": "27.3 Dashboards, die Entscheidungen tragen\nDie beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Dashboard bündelt die wichtigsten Kennzahlen an einem Ort und macht sie auf einen Blick lesbar. Werkzeuge wie Looker Studio verbinden sich dafür direkt mit GA4 und anderen Datenquellen und stellen die Zahlen als Diagramme und Übersichten dar.\nEin gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Phasen der Customer Journey. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann (Ahrholdt 2023).\nWir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.",
-    "crumbs": [
-      "Web-Analytics und Erfolgsmessung",
-      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Attribution und Dashboards</span>"
-    ]
-  },
-  {
-    "objectID": "09-web-analytics/attribution-dashboards.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "09-web-analytics/attribution-dashboards.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "27  Attribution und Dashboards",
-    "section": "27.4 Was als Nächstes ausgebaut werden muss",
-    "text": "27.4 Was als Nächstes ausgebaut werden muss\n\nDie gängigen Attributionsmodelle einzeln mit kurzem Beispiel und Stärken-Schwächen-Profil ausarbeiten\nEinen beispielhaften Dashboard-Aufbau mit konkreten Widgets je Journey-Phase skizzieren\nEine Übung ergänzen, in der dieselbe Kampagne nach Last-Click und nach datengetriebenem Modell bewertet wird\nDen Einfluss von Datenschutz und fehlenden Daten auf die Verlässlichkeit der Attribution vertiefen\n\n\n\n\n\nAhrholdt, Dennis C. 2023. Online-Marketing-Intelligence: Erfolgsfaktoren, Kennzahlen und Steuerungskonzepte Für Praxisorientiertes Digital-Marketing.\n\n\nBerman, Ron. 2018. „Beyond the Last Touch: Attribution in Online Advertising“. Marketing Science. https://doi.org/10.1287/mksc.2018.1104.\n\n\nGoogle. nd. „Select attribution settings - Analytics Help“. nd. https://support.google.com/analytics/answer/10597962.\n\n\nLi, Hongshuang (Alice), und P. K. Kannan. 2014. „Attributing Conversions in a Multichannel Online Marketing Environment: An Empirical Model and a Field Experiment“. Journal of Marketing Research. https://doi.org/10.1509/jmr.13.0050.",
+    "text": "27.3 Dashboards, die Entscheidungen tragen\nDie beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Dashboard bündelt die wichtigsten Kennzahlen an einem Ort und macht sie auf einen Blick lesbar. Werkzeuge wie Looker Studio verbinden sich dafür direkt mit GA4 und anderen Datenquellen und stellen die Zahlen als Diagramme und Übersichten dar.\nEin gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Phasen der Customer Journey. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann (Ahrholdt 2023).\nWir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.\n\n\n\n\nAhrholdt, Dennis C. 2023. Online-Marketing-Intelligence: Erfolgsfaktoren, Kennzahlen und Steuerungskonzepte Für Praxisorientiertes Digital-Marketing.\n\n\nBerman, Ron. 2018. „Beyond the Last Touch: Attribution in Online Advertising“. Marketing Science. https://doi.org/10.1287/mksc.2018.1104.\n\n\nGoogle. nd. „Select attribution settings - Analytics Help“. nd. https://support.google.com/analytics/answer/10597962.\n\n\nLi, Hongshuang (Alice), und P. K. Kannan. 2014. „Attributing Conversions in a Multichannel Online Marketing Environment: An Empirical Model and a Field Experiment“. Journal of Marketing Research. https://doi.org/10.1509/jmr.13.0050.",
     "crumbs": [
       "Web-Analytics und Erfolgsmessung",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Attribution und Dashboards</span>"
@@ -1687,18 +1430,7 @@
     "href": "10-ki-im-marketing/prompting-grundlagen.html#schritt-für-schritt-zu-besseren-antworten",
     "title": "28  Prompting-Grundlagen",
     "section": "28.3 Schritt für Schritt zu besseren Antworten",
-    "text": "28.3 Schritt für Schritt zu besseren Antworten\nEin guter Prompt entsteht selten im ersten Versuch. Wir starten mit einer klaren Aufgabe, prüfen die Antwort und ergänzen gezielt das, was gefehlt hat, etwa eine Rolle, einen Kontextblock oder ein Beispiel. Dieses schrittweise Schärfen kostet wenig Zeit und hebt die Qualität spürbar.\nFür wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie [ROLLE] oder [ZIELGRUPPE]. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zur nächsten Lesson geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet (Bolz 2024).",
-    "crumbs": [
-      "KI im Marketing",
-      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Prompting-Grundlagen</span>"
-    ]
-  },
-  {
-    "objectID": "10-ki-im-marketing/prompting-grundlagen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "10-ki-im-marketing/prompting-grundlagen.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "28  Prompting-Grundlagen",
-    "section": "28.4 Was als Nächstes ausgebaut werden muss",
-    "text": "28.4 Was als Nächstes ausgebaut werden muss\n\nEin durchgehendes Vorher-Nachher-Beispiel aus dem Marketingalltag ergänzen (etwa eine Produktbeschreibung vom vagen zum präzisen Prompt)\nEine kleine Übung mit Musterlösung einfügen, in der die vier Bausteine selbst angewendet werden\nHäufige Fehler beim Prompting (zu lang, widersprüchlich, ohne Format) als Übersicht ergänzen\nDen Zusammenhang von Prompting und Context Engineering vertiefen (Schmid 2025)\n\n\n\n\n\nAnthropic. nd. „Prompt engineering overview“. nd. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview.\n\n\nBolz, Thomas. 2024. Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse.\n\n\nSchmid, Philipp. 2025. „The New Skill in AI is Not Prompting, It’s Context Engineering“. 2025. https://www.philschmid.de/context-engineering.",
+    "text": "28.3 Schritt für Schritt zu besseren Antworten\nEin guter Prompt entsteht selten im ersten Versuch. Wir starten mit einer klaren Aufgabe, prüfen die Antwort und ergänzen gezielt das, was gefehlt hat, etwa eine Rolle, einen Kontextblock oder ein Beispiel. Dieses schrittweise Schärfen kostet wenig Zeit und hebt die Qualität spürbar.\nFür wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie [ROLLE] oder [ZIELGRUPPE]. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zur nächsten Lesson geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet (Bolz 2024).\n\n\n\n\nAnthropic. nd. „Prompt engineering overview“. nd. https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview.\n\n\nBolz, Thomas. 2024. Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse.\n\n\nSchmid, Philipp. 2025. „The New Skill in AI is Not Prompting, It’s Context Engineering“. 2025. https://www.philschmid.de/context-engineering.",
     "crumbs": [
       "KI im Marketing",
       "<span class='chapter-number'>28</span>  <span class='chapter-title'>Prompting-Grundlagen</span>"
@@ -1742,18 +1474,7 @@
     "href": "10-ki-im-marketing/compass-framework.html#compass-in-der-marketingpraxis",
     "title": "29  Das COMPASS-Framework",
     "section": "29.3 COMPASS in der Marketingpraxis",
-    "text": "29.3 COMPASS in der Marketingpraxis\nWir müssen nicht in jedem Prompt alle sieben Komponenten ausfüllen. Bei einer kurzen Frage genügen oft Kontext und Ziel. Je wichtiger und je sichtbarer das Ergebnis aber ist, etwa ein Newsletter-Text oder eine Anzeige, desto mehr lohnt es sich, die Liste vollständig durchzugehen.\nDer eigentliche Gewinn liegt in der Wiederholbarkeit. Wer einen Prompt einmal sauber nach COMPASS aufgebaut hat, kann ihn als Vorlage speichern und für ähnliche Aufgaben wiederverwenden, indem nur Kontext und Zielgruppe getauscht werden. So entstehen reproduzierbare Ergebnisse statt Zufallstreffer. Die nächste Lesson zeigt, wie wir mit solchen strukturierten Prompts konkrete Marketing-Inhalte erstellen (Bolz 2024).\n\n\n\n\n\n\nWichtigStruktur ersetzt keine Prüfung\n\n\n\nAuch ein sauber nach COMPASS gebauter Prompt liefert nur einen Entwurf. Das Modell kann Fakten und Zahlen erfinden, die überzeugend klingen, aber falsch sind. Jede Ausgabe braucht deshalb eine inhaltliche Prüfung, bevor sie verwendet wird (Kumar u. a. 2025).",
-    "crumbs": [
-      "KI im Marketing",
-      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Das COMPASS-Framework</span>"
-    ]
-  },
-  {
-    "objectID": "10-ki-im-marketing/compass-framework.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "10-ki-im-marketing/compass-framework.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "29  Das COMPASS-Framework",
-    "section": "29.4 Was als Nächstes ausgebaut werden muss",
-    "text": "29.4 Was als Nächstes ausgebaut werden muss\n\nEin vollständig ausgefülltes COMPASS-Beispiel für eine konkrete Marketingaufgabe ergänzen (etwa eine LinkedIn-Anzeige)\nBeispiel-Wortlisten für Attitude und Style als Auswahlhilfe einfügen\nEine Übung ergänzen, in der ein vager Prompt mit COMPASS schrittweise verbessert wird\nDen Meta-Prompt zeigen, mit dem ein Modell selbst einen Prompt nach COMPASS strukturiert\n\n\n\n\n\nBolz, Thomas. 2024. Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse.\n\n\nKumar, V., Philip Kotler, Shaphali Gupta, und Bharath Rajan. 2025. „Generative AI in Marketing: Promises, Perils, and Public Policy Implications“. Journal of Public Policy & Marketing. https://doi.org/10.1177/07439156241286499.",
+    "text": "29.3 COMPASS in der Marketingpraxis\nWir müssen nicht in jedem Prompt alle sieben Komponenten ausfüllen. Bei einer kurzen Frage genügen oft Kontext und Ziel. Je wichtiger und je sichtbarer das Ergebnis aber ist, etwa ein Newsletter-Text oder eine Anzeige, desto mehr lohnt es sich, die Liste vollständig durchzugehen.\nDer eigentliche Gewinn liegt in der Wiederholbarkeit. Wer einen Prompt einmal sauber nach COMPASS aufgebaut hat, kann ihn als Vorlage speichern und für ähnliche Aufgaben wiederverwenden, indem nur Kontext und Zielgruppe getauscht werden. So entstehen reproduzierbare Ergebnisse statt Zufallstreffer. Die nächste Lesson zeigt, wie wir mit solchen strukturierten Prompts konkrete Marketing-Inhalte erstellen (Bolz 2024).\n\n\n\n\n\n\nWichtigStruktur ersetzt keine Prüfung\n\n\n\nAuch ein sauber nach COMPASS gebauter Prompt liefert nur einen Entwurf. Das Modell kann Fakten und Zahlen erfinden, die überzeugend klingen, aber falsch sind. Jede Ausgabe braucht deshalb eine inhaltliche Prüfung, bevor sie verwendet wird (Kumar u. a. 2025).\n\n\n\n\n\n\nBolz, Thomas. 2024. Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse.\n\n\nKumar, V., Philip Kotler, Shaphali Gupta, und Bharath Rajan. 2025. „Generative AI in Marketing: Promises, Perils, and Public Policy Implications“. Journal of Public Policy & Marketing. https://doi.org/10.1177/07439156241286499.",
     "crumbs": [
       "KI im Marketing",
       "<span class='chapter-number'>29</span>  <span class='chapter-title'>Das COMPASS-Framework</span>"
@@ -1797,18 +1518,7 @@
     "href": "10-ki-im-marketing/genai-content.html#kritisch-prüfen-bevor-es-erscheint",
     "title": "30  GenAI für Marketing-Content",
     "section": "30.3 Kritisch prüfen, bevor es erscheint",
-    "text": "30.3 Kritisch prüfen, bevor es erscheint\nGeschwindigkeit ist nur dann ein Gewinn, wenn die Qualität stimmt. Generative KI erzeugt bisweilen Aussagen, Zahlen oder Quellen, die überzeugend klingen, aber schlicht falsch sind. Dieses Phänomen wird als Halluzination bezeichnet. Jeder Entwurf braucht deshalb eine menschliche Prüfung entlang einiger fester Fragen.\n\nFaktentreue: Stimmen Aussagen, Zahlen und Quellen? Erfundene Belege sind ein bekanntes Risiko.\nMarkenstimme: Passt der Tonfall zur Marke, oder klingt der Text beliebig?\nRechtliches und Ethisches: Sind Urheberrecht, Kennzeichnung und Datenschutz beachtet?\nEigenständigkeit: Hebt sich der Inhalt ab, oder gleicht er austauschbarer Massenware?\n\nDiese Prüfung ist keine lästige Pflicht, sondern der Kern verantwortungsvoller Nutzung. Die Forschung weist ausdrücklich darauf hin, dass generative KI im Marketing neben den Chancen auch Risiken birgt, von Fehlinformationen bis zu Fragen der Transparenz, die eine bewusste Steuerung erfordern (Kumar u. a. 2025).\n\n\n\n\n\n\nWichtigVerantwortung bleibt menschlich\n\n\n\nWer einen KI-Entwurf ohne Prüfung veröffentlicht, übernimmt dessen Fehler als eigene. Die KI trägt keine Verantwortung für falsche Fakten oder fragwürdige Aussagen, das tut die Person oder das Unternehmen, das den Inhalt verbreitet.",
-    "crumbs": [
-      "KI im Marketing",
-      "<span class='chapter-number'>30</span>  <span class='chapter-title'>GenAI für Marketing-Content</span>"
-    ]
-  },
-  {
-    "objectID": "10-ki-im-marketing/genai-content.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "10-ki-im-marketing/genai-content.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "30  GenAI für Marketing-Content",
-    "section": "30.4 Was als Nächstes ausgebaut werden muss",
-    "text": "30.4 Was als Nächstes ausgebaut werden muss\n\nEin konkretes Beispiel für die Textgenerierung mit anschließender Prüf-Checkliste ergänzen\nEinen guten und einen schwachen Bild-Prompt gegenüberstellen und die Unterschiede erläutern\nEine kompakte Prüf-Checkliste als wiederverwendbares Werkzeug einfügen\nRechtliche und ethische Aspekte vertiefen (Kennzeichnungspflicht, Urheberrecht, Datenschutz) (Kumar u. a. 2025)\n\n\n\n\n\nHartmann, Jochen, Yannick Exner, und Samuel Domdey. 2025. „The power of generative marketing: Can generative AI create superhuman visual marketing content?“ International Journal of Research in Marketing. https://doi.org/10.1016/j.ijresmar.2024.09.002.\n\n\nKumar, V., Philip Kotler, Shaphali Gupta, und Bharath Rajan. 2025. „Generative AI in Marketing: Promises, Perils, and Public Policy Implications“. Journal of Public Policy & Marketing. https://doi.org/10.1177/07439156241286499.",
+    "text": "30.3 Kritisch prüfen, bevor es erscheint\nGeschwindigkeit ist nur dann ein Gewinn, wenn die Qualität stimmt. Generative KI erzeugt bisweilen Aussagen, Zahlen oder Quellen, die überzeugend klingen, aber schlicht falsch sind. Dieses Phänomen wird als Halluzination bezeichnet. Jeder Entwurf braucht deshalb eine menschliche Prüfung entlang einiger fester Fragen.\n\nFaktentreue: Stimmen Aussagen, Zahlen und Quellen? Erfundene Belege sind ein bekanntes Risiko.\nMarkenstimme: Passt der Tonfall zur Marke, oder klingt der Text beliebig?\nRechtliches und Ethisches: Sind Urheberrecht, Kennzeichnung und Datenschutz beachtet?\nEigenständigkeit: Hebt sich der Inhalt ab, oder gleicht er austauschbarer Massenware?\n\nDiese Prüfung ist keine lästige Pflicht, sondern der Kern verantwortungsvoller Nutzung. Die Forschung weist ausdrücklich darauf hin, dass generative KI im Marketing neben den Chancen auch Risiken birgt, von Fehlinformationen bis zu Fragen der Transparenz, die eine bewusste Steuerung erfordern (Kumar u. a. 2025).\n\n\n\n\n\n\nWichtigVerantwortung bleibt menschlich\n\n\n\nWer einen KI-Entwurf ohne Prüfung veröffentlicht, übernimmt dessen Fehler als eigene. Die KI trägt keine Verantwortung für falsche Fakten oder fragwürdige Aussagen, das tut die Person oder das Unternehmen, das den Inhalt verbreitet.\n\n\n\n\n\n\nHartmann, Jochen, Yannick Exner, und Samuel Domdey. 2025. „The power of generative marketing: Can generative AI create superhuman visual marketing content?“ International Journal of Research in Marketing. https://doi.org/10.1016/j.ijresmar.2024.09.002.\n\n\nKumar, V., Philip Kotler, Shaphali Gupta, und Bharath Rajan. 2025. „Generative AI in Marketing: Promises, Perils, and Public Policy Implications“. Journal of Public Policy & Marketing. https://doi.org/10.1177/07439156241286499.",
     "crumbs": [
       "KI im Marketing",
       "<span class='chapter-number'>30</span>  <span class='chapter-title'>GenAI für Marketing-Content</span>"
@@ -1863,18 +1573,7 @@
     "href": "10-ki-im-marketing/ki-werkzeuge-agenten.html#ausblick-was-diesen-kurs-verbindet",
     "title": "31  KI-Werkzeuge und Agenten im Arbeitsalltag",
     "section": "31.4 Ausblick: Was diesen Kurs verbindet",
-    "text": "31.4 Ausblick: Was diesen Kurs verbindet\nMit dieser Lesson schließt das Modul und der Kurs. Ein roter Faden zieht sich durch alle Module: Marketing beginnt beim Verständnis der Zielgruppe, führt über klare Ziele und Strategie zu Inhalten und Kanälen und endet bei der Messung der Wirkung. KI ist kein eigener Endpunkt, sondern eine Schicht, die diesen gesamten Prozess unterstützt, vom Entwurf eines Personas-Steckbriefs über SEO-Texte und Anzeigen bis zur Auswertung von Kennzahlen.\nGenau deshalb steht dieses Modul am Ende: Es greift die Aufgaben der vorigen Module auf und zeigt, wie strukturierte Prompts, generative Inhalte und KI-Werkzeuge sie schneller und konsistenter machen. Die menschliche Rolle bleibt dabei in allen Modulen dieselbe: Ziele setzen, Kontext liefern, Ergebnisse prüfen und Verantwortung tragen. Wer den Kurs mit dieser Haltung verlässt, kann KI als verlässlichen Teil der eigenen Marketingarbeit nutzen.",
-    "crumbs": [
-      "KI im Marketing",
-      "<span class='chapter-number'>31</span>  <span class='chapter-title'>KI-Werkzeuge und Agenten im Arbeitsalltag</span>"
-    ]
-  },
-  {
-    "objectID": "10-ki-im-marketing/ki-werkzeuge-agenten.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "10-ki-im-marketing/ki-werkzeuge-agenten.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "31  KI-Werkzeuge und Agenten im Arbeitsalltag",
-    "section": "31.5 Was als Nächstes ausgebaut werden muss",
-    "text": "31.5 Was als Nächstes ausgebaut werden muss\n\nKonkrete Copilot-Beispiele aus dem Marketingalltag mit Schritt-für-Schritt-Ablauf ergänzen\nEin einfaches Agenten-Szenario als durchgespieltes Beispiel einfügen\nEine Entscheidungshilfe ergänzen, welche Aufgabe welches Werkzeug verlangt\nDatenschutz und Unternehmensrichtlinien beim Einsatz integrierter KI-Werkzeuge vertiefen\n\n\n\n\n\nBolz, Thomas. 2024. Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse.\n\n\nKumar, V., Philip Kotler, Shaphali Gupta, und Bharath Rajan. 2025. „Generative AI in Marketing: Promises, Perils, and Public Policy Implications“. Journal of Public Policy & Marketing. https://doi.org/10.1177/07439156241286499.",
+    "text": "31.4 Ausblick: Was diesen Kurs verbindet\nMit dieser Lesson schließt das Modul und der Kurs. Ein roter Faden zieht sich durch alle Module: Marketing beginnt beim Verständnis der Zielgruppe, führt über klare Ziele und Strategie zu Inhalten und Kanälen und endet bei der Messung der Wirkung. KI ist kein eigener Endpunkt, sondern eine Schicht, die diesen gesamten Prozess unterstützt, vom Entwurf eines Personas-Steckbriefs über SEO-Texte und Anzeigen bis zur Auswertung von Kennzahlen.\nGenau deshalb steht dieses Modul am Ende: Es greift die Aufgaben der vorigen Module auf und zeigt, wie strukturierte Prompts, generative Inhalte und KI-Werkzeuge sie schneller und konsistenter machen. Die menschliche Rolle bleibt dabei in allen Modulen dieselbe: Ziele setzen, Kontext liefern, Ergebnisse prüfen und Verantwortung tragen. Wer den Kurs mit dieser Haltung verlässt, kann KI als verlässlichen Teil der eigenen Marketingarbeit nutzen.\n\n\n\n\nBolz, Thomas. 2024. Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse.\n\n\nKumar, V., Philip Kotler, Shaphali Gupta, und Bharath Rajan. 2025. „Generative AI in Marketing: Promises, Perils, and Public Policy Implications“. Journal of Public Policy & Marketing. https://doi.org/10.1177/07439156241286499.",
     "crumbs": [
       "KI im Marketing",
       "<span class='chapter-number'>31</span>  <span class='chapter-title'>KI-Werkzeuge und Agenten im Arbeitsalltag</span>"
@@ -1939,18 +1638,7 @@
     "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#die-fachsprache-des-werbemarkts",
     "title": "32  Der Online-Werbemarkt und der Planungsprozess",
     "section": "32.5 Die Fachsprache des Werbemarkts",
-    "text": "32.5 Die Fachsprache des Werbemarkts\nIn Angeboten und Reportings begegnen uns immer dieselben Begriffe. Die folgende Übersicht hilft, Angebote zu vergleichen und Rückfragen präzise zu stellen. Conversion und Attribution, also die gewünschte Handlung und ihre Zuordnung zu den Kontaktpunkten, behandeln wir im Modul zur Web-Analytik ausführlich.\n\n\n\n\n\n\n\nBegriff\nBedeutung\n\n\n\n\nImpression\nEine einzelne Einblendung eines Werbemittels\n\n\nReichweite\nZahl der erreichten Personen, praktisch gemessen als Unique Users, also als unterschiedliche Nutzerkennungen oder Geräte\n\n\nFrequenz\nDurchschnittliche Zahl der Kontakte je erreichter Person\n\n\nTKP oder CPM\nPreis für tausend Kontakte beziehungsweise Einblendungen\n\n\nCTR (Click-Through-Rate)\nAnteil der Klicks an den Einblendungen\n\n\nCPC (Cost per Click)\nPreis für einen Klick\n\n\nCPA (Cost per Action)\nKosten für eine ausgelöste Handlung, etwa Kauf oder Anfrage\n\n\nROAS (Return on Ad Spend)\nUmsatz je eingesetztem Euro Werbebudget",
-    "crumbs": [
-      "Marktumfeld, Recht und Organisation",
-      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
-    ]
-  },
-  {
-    "objectID": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "32  Der Online-Werbemarkt und der Planungsprozess",
-    "section": "32.6 Was als Nächstes ausgebaut werden muss",
-    "text": "32.6 Was als Nächstes ausgebaut werden muss\n\nEin durchgerechnetes Beispiel ergänzen, das TKP, CPC und CPA für dieselbe Kampagne gegenüberstellt\nDen Ablauf einer Programmatic-Auktion als Grafik einbinden, inklusive der Rollen von DSP, SSP und Ad Exchange sowie der Abgrenzung zu Programmatic Guaranteed\nEine Vorlage für ein Kampagnenbriefing ergänzen, die den achtstufigen Planungsprozess abbildet\nAktuelle Marktzahlen zu Investitionsanteilen der Kanäle mit Quelle und Erhebungsjahr nachtragen\n\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.\n\n\nLammenett, Erwin. 2025. Praxiswissen Online-Marketing: Affiliate-, Influencer-, Content-, Social-Media-, Amazon-, Voice-, B2B-, Sprachassistenten- und e-Mail-Marketing, Google Ads, SEO, Künstliche Intelligenz.",
+    "text": "32.5 Die Fachsprache des Werbemarkts\nIn Angeboten und Reportings begegnen uns immer dieselben Begriffe. Die folgende Übersicht hilft, Angebote zu vergleichen und Rückfragen präzise zu stellen. Conversion und Attribution, also die gewünschte Handlung und ihre Zuordnung zu den Kontaktpunkten, behandeln wir im Modul zur Web-Analytik ausführlich.\n\n\n\n\n\n\n\nBegriff\nBedeutung\n\n\n\n\nImpression\nEine einzelne Einblendung eines Werbemittels\n\n\nReichweite\nZahl der erreichten Personen, praktisch gemessen als Unique Users, also als unterschiedliche Nutzerkennungen oder Geräte\n\n\nFrequenz\nDurchschnittliche Zahl der Kontakte je erreichter Person\n\n\nTKP oder CPM\nPreis für tausend Kontakte beziehungsweise Einblendungen\n\n\nCTR (Click-Through-Rate)\nAnteil der Klicks an den Einblendungen\n\n\nCPC (Cost per Click)\nPreis für einen Klick\n\n\nCPA (Cost per Action)\nKosten für eine ausgelöste Handlung, etwa Kauf oder Anfrage\n\n\nROAS (Return on Ad Spend)\nUmsatz je eingesetztem Euro Werbebudget\n\n\n\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.\n\n\nLammenett, Erwin. 2025. Praxiswissen Online-Marketing: Affiliate-, Influencer-, Content-, Social-Media-, Amazon-, Voice-, B2B-, Sprachassistenten- und e-Mail-Marketing, Google Ads, SEO, Künstliche Intelligenz.",
     "crumbs": [
       "Marktumfeld, Recht und Organisation",
       "<span class='chapter-number'>32</span>  <span class='chapter-title'>Der Online-Werbemarkt und der Planungsprozess</span>"
@@ -2005,18 +1693,7 @@
     "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#internationalisierung-was-sich-je-markt-ändert",
     "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
     "section": "33.5 Internationalisierung: was sich je Markt ändert",
-    "text": "33.5 Internationalisierung: was sich je Markt ändert\nSobald wir über Grenzen hinweg verkaufen, stellt sich zuerst die Frage der Markteintrittsform: Export über einen Marktplatz, Zusammenarbeit mit einem Distributor, ein eigener Shop je Land oder eine Tochtergesellschaft. Die Reihenfolge beschreibt zugleich die Abwägung, denn mit jeder Stufe steigen Kontrolle und Nähe zur Kundschaft, aber auch Investition und gebundene Ressourcen. Danach kommen drei operative Fragen hinzu. Erstens die Lokalisierung: Sprache, Maßeinheiten, Bildwelt und Ansprache müssen zum Markt passen, eine reine Übersetzung reicht selten. Zweitens die Kanalwahl, denn führende Suchmaschinen, soziale Netzwerke und Marktplätze unterscheiden sich je Land erheblich. Drittens die Abwicklung, weil bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln häufiger über den Kaufabbruch entscheiden als die Produktseite selbst (Kingsnorth 2022).",
-    "crumbs": [
-      "Marktumfeld, Recht und Organisation",
-      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
-    ]
-  },
-  {
-    "objectID": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "11-marktumfeld-recht-organisation/produkt-preis-distribution.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "33  Online-Marketing in Produkt-, Preis- und Distributionspolitik",
-    "section": "33.6 Was als Nächstes ausgebaut werden muss",
-    "text": "33.6 Was als Nächstes ausgebaut werden muss\n\nEine Deckungsbeitragsrechnung für Eigenshop, Marktplatz und Abo am Beispiel der Rösterei ergänzen\nRetail Media als eigenen Abschnitt mit Anzeigenformaten und Steuerungslogik vertiefen\nEine Checkliste für die Markteintrittsprüfung in einem zweiten Land ergänzen\nBeispiele für Versioning und Bundling aus dem B2B-Software-Umfeld nachtragen\n\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKingsnorth, Simon. 2022. Digital Marketing Strategy: An Integrated Approach to Online Marketing. 3. Aufl. London: Kogan Page.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.\n\n\nLammenett, Erwin. 2025. Praxiswissen Online-Marketing: Affiliate-, Influencer-, Content-, Social-Media-, Amazon-, Voice-, B2B-, Sprachassistenten- und e-Mail-Marketing, Google Ads, SEO, Künstliche Intelligenz.",
+    "text": "33.5 Internationalisierung: was sich je Markt ändert\nSobald wir über Grenzen hinweg verkaufen, stellt sich zuerst die Frage der Markteintrittsform: Export über einen Marktplatz, Zusammenarbeit mit einem Distributor, ein eigener Shop je Land oder eine Tochtergesellschaft. Die Reihenfolge beschreibt zugleich die Abwägung, denn mit jeder Stufe steigen Kontrolle und Nähe zur Kundschaft, aber auch Investition und gebundene Ressourcen. Danach kommen drei operative Fragen hinzu. Erstens die Lokalisierung: Sprache, Maßeinheiten, Bildwelt und Ansprache müssen zum Markt passen, eine reine Übersetzung reicht selten. Zweitens die Kanalwahl, denn führende Suchmaschinen, soziale Netzwerke und Marktplätze unterscheiden sich je Land erheblich. Drittens die Abwicklung, weil bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln häufiger über den Kaufabbruch entscheiden als die Produktseite selbst (Kingsnorth 2022).\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKingsnorth, Simon. 2022. Digital Marketing Strategy: An Integrated Approach to Online Marketing. 3. Aufl. London: Kogan Page.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.\n\n\nLammenett, Erwin. 2025. Praxiswissen Online-Marketing: Affiliate-, Influencer-, Content-, Social-Media-, Amazon-, Voice-, B2B-, Sprachassistenten- und e-Mail-Marketing, Google Ads, SEO, Künstliche Intelligenz.",
     "crumbs": [
       "Marktumfeld, Recht und Organisation",
       "<span class='chapter-number'>33</span>  <span class='chapter-title'>Online-Marketing in Produkt-, Preis- und Distributionspolitik</span>"
@@ -2093,18 +1770,7 @@
     "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#werbekennzeichnung-und-haftung",
     "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
     "section": "34.6 Werbekennzeichnung und Haftung",
-    "text": "34.6 Werbekennzeichnung und Haftung\nUnabhängig vom Datenschutz gilt das Wettbewerbsrecht: Werbung muss als Werbung erkennbar sein, auch in Beiträgen von Kooperationspartnern, und irreführende Angaben zu Eigenschaften, Verfügbarkeit oder Preisen sind unzulässig. Bei KI-erzeugten Inhalten kommt hinzu, dass Modelle Fakten erfinden und fremde Marken oder Personenbildnisse einbauen können. Die Verantwortung für Veröffentlichtes bleibt beim Unternehmen, weshalb jede Ausgabe vor der Verwendung geprüft wird (Kreutzer und Klose 2025).\n\n\n\n\n\n\nWichtigKurzcheck vor dem Kampagnenstart\n\n\n\nVier Fragen klären wir vor jeder Kampagne: Erstens, liegt für jede Datenverarbeitung eine Rechtsgrundlage vor, und wird die Einwilligung sauber eingeholt und dokumentiert? Zweitens, sind Impressum, Datenschutzhinweise und Werbekennzeichnung vollständig? Drittens, welche Daten fließen an welche Dienstleister, und bestehen die nötigen Verträge? Viertens, sind Deepfakes offengelegt, und tritt ein eingesetzter Chatbot für Nutzende erkennbar als KI auf?\n\n\n\n\n\n\n\n\nHinweisEinordnung\n\n\n\nDieses Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung. Bei konkreten Vorhaben ziehen wir juristische Fachkunde hinzu.",
-    "crumbs": [
-      "Marktumfeld, Recht und Organisation",
-      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
-    ]
-  },
-  {
-    "objectID": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "34  Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz",
-    "section": "34.7 Was als Nächstes ausgebaut werden muss",
-    "text": "34.7 Was als Nächstes ausgebaut werden muss\n\nEine kommentierte Beispielstruktur für ein Einwilligungsbanner mit den erforderlichen Angaben ergänzen\nDen Umgang mit Auftragsverarbeitung und Drittlandtransfers als eigenen Abschnitt aufnehmen\nEine Übersicht der Betroffenenrechte mit Fristen und Zuständigkeiten im Unternehmen ergänzen\nDie auf EU-Ebene diskutierten Anpassungen der AI-Act-Fristen vor Semesterbeginn prüfen und den Stand nachziehen\n\n\n\n\n\nBundesrepublik Deutschland. 2010. „Gesetz gegen den unlauteren Wettbewerb (UWG) in der Fassung der Bekanntmachung vom 3. März 2010 (BGBl. I S. 254)“. 2010. https://www.gesetze-im-internet.de/uwg_2004/.\n\n\n———. 2024. „Gesetz über den Datenschutz und den Schutz der Privatsphäre in der Telekommunikation und bei digitalen Diensten (TDDDG)“. 2024. https://www.gesetze-im-internet.de/ttdsg/.\n\n\nEuropäisches Parlament und Rat der Europäischen Union. 2016. „Verordnung (EU) 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (Datenschutz-Grundverordnung)“. 2016. https://eur-lex.europa.eu/eli/reg/2016/679/oj.\n\n\n———. 2024. „Verordnung (EU) 2024/1689 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (Verordnung über künstliche Intelligenz)“. 2024. https://eur-lex.europa.eu/eli/reg/2024/1689/oj.\n\n\nGerichtshof der Europäischen Union. 2019. „Urteil vom 1. Oktober 2019, Bundesverband der Verbraucherzentralen und Verbraucherverbände (Verbraucherzentrale Bundesverband e.V.) gegen Planet49 GmbH, Rechtssache C-673/17“. 2019. https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli:ECLI%3AEU%3AC%3A2019%3A801.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.",
+    "text": "34.6 Werbekennzeichnung und Haftung\nUnabhängig vom Datenschutz gilt das Wettbewerbsrecht: Werbung muss als Werbung erkennbar sein, auch in Beiträgen von Kooperationspartnern, und irreführende Angaben zu Eigenschaften, Verfügbarkeit oder Preisen sind unzulässig. Bei KI-erzeugten Inhalten kommt hinzu, dass Modelle Fakten erfinden und fremde Marken oder Personenbildnisse einbauen können. Die Verantwortung für Veröffentlichtes bleibt beim Unternehmen, weshalb jede Ausgabe vor der Verwendung geprüft wird (Kreutzer und Klose 2025).\n\n\n\n\n\n\nWichtigKurzcheck vor dem Kampagnenstart\n\n\n\nVier Fragen klären wir vor jeder Kampagne: Erstens, liegt für jede Datenverarbeitung eine Rechtsgrundlage vor, und wird die Einwilligung sauber eingeholt und dokumentiert? Zweitens, sind Impressum, Datenschutzhinweise und Werbekennzeichnung vollständig? Drittens, welche Daten fließen an welche Dienstleister, und bestehen die nötigen Verträge? Viertens, sind Deepfakes offengelegt, und tritt ein eingesetzter Chatbot für Nutzende erkennbar als KI auf?\n\n\n\n\n\n\n\n\nHinweisEinordnung\n\n\n\nDieses Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung. Bei konkreten Vorhaben ziehen wir juristische Fachkunde hinzu.\n\n\n\n\n\n\nBundesrepublik Deutschland. 2010. „Gesetz gegen den unlauteren Wettbewerb (UWG) in der Fassung der Bekanntmachung vom 3. März 2010 (BGBl. I S. 254)“. 2010. https://www.gesetze-im-internet.de/uwg_2004/.\n\n\n———. 2024. „Gesetz über den Datenschutz und den Schutz der Privatsphäre in der Telekommunikation und bei digitalen Diensten (TDDDG)“. 2024. https://www.gesetze-im-internet.de/ttdsg/.\n\n\nEuropäisches Parlament und Rat der Europäischen Union. 2016. „Verordnung (EU) 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (Datenschutz-Grundverordnung)“. 2016. https://eur-lex.europa.eu/eli/reg/2016/679/oj.\n\n\n———. 2024. „Verordnung (EU) 2024/1689 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (Verordnung über künstliche Intelligenz)“. 2024. https://eur-lex.europa.eu/eli/reg/2024/1689/oj.\n\n\nGerichtshof der Europäischen Union. 2019. „Urteil vom 1. Oktober 2019, Bundesverband der Verbraucherzentralen und Verbraucherverbände (Verbraucherzentrale Bundesverband e.V.) gegen Planet49 GmbH, Rechtssache C-673/17“. 2019. https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=ecli:ECLI%3AEU%3AC%3A2019%3A801.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.",
     "crumbs": [
       "Marktumfeld, Recht und Organisation",
       "<span class='chapter-number'>34</span>  <span class='chapter-title'>Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz</span>"
@@ -2170,18 +1836,7 @@
     "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#was-die-geschäftsführung-fragt",
     "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
     "section": "35.6 Was die Geschäftsführung fragt",
-    "text": "35.6 Was die Geschäftsführung fragt\nVier Fragen entscheiden über Freigaben: Welches Geschäftsziel unterstützt das Vorhaben? Was kostet es vollständig gerechnet, und woran erkennen wir den Nutzen? Wer ist verantwortlich, und welche Kompetenzen fehlen noch? Welche Risiken bestehen bei Daten, Recht und Abhängigkeit von Anbietern? Wer diese vier Fragen vor dem Termin beantwortet, bekommt seltener Rückfragen und schneller eine Entscheidung.",
-    "crumbs": [
-      "Marktumfeld, Recht und Organisation",
-      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
-    ]
-  },
-  {
-    "objectID": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#was-als-nächstes-ausgebaut-werden-muss",
-    "href": "11-marktumfeld-recht-organisation/organisation-make-or-buy.html#was-als-nächstes-ausgebaut-werden-muss",
-    "title": "35  Organisation: Make-or-buy, Agentursteuerung und KI-Einführung",
-    "section": "35.7 Was als Nächstes ausgebaut werden muss",
-    "text": "35.7 Was als Nächstes ausgebaut werden muss\n\nEine Briefing-Vorlage für Agenturen mit Beispieltext je Abschnitt ergänzen\nEine Vollkostenrechnung für den Vergleich interner Aufbau gegen externe Beauftragung einfügen\nEin Bewertungsraster für die Auswahl von KI-Anwendungsfällen nach Nutzen und Aufwand ergänzen\nRollenprofile mit Aufgaben, Kompetenzen und typischen Kennzahlen je Rolle nachtragen\n\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKingsnorth, Simon. 2022. Digital Marketing Strategy: An Integrated Approach to Online Marketing. 3. Aufl. London: Kogan Page.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.",
+    "text": "35.6 Was die Geschäftsführung fragt\nVier Fragen entscheiden über Freigaben: Welches Geschäftsziel unterstützt das Vorhaben? Was kostet es vollständig gerechnet, und woran erkennen wir den Nutzen? Wer ist verantwortlich, und welche Kompetenzen fehlen noch? Welche Risiken bestehen bei Daten, Recht und Abhängigkeit von Anbietern? Wer diese vier Fragen vor dem Termin beantwortet, bekommt seltener Rückfragen und schneller eine Entscheidung.\n\n\n\n\nChaffey, Dave, und Fiona Ellis-Chadwick. 2022. Digital Marketing: Strategy, Implementation and Practice. 8. Aufl. Harlow: Pearson.\n\n\nKingsnorth, Simon. 2022. Digital Marketing Strategy: An Integrated Approach to Online Marketing. 3. Aufl. London: Kogan Page.\n\n\nKreutzer, Ralf T., und Sonja Klose. 2025. Praxisorientiertes Online-Marketing: Konzepte – Instrumente – Checklisten. https://link.springer.com/10.1007/978-3-658-46529-2.",
     "crumbs": [
       "Marktumfeld, Recht und Organisation",
       "<span class='chapter-number'>35</span>  <span class='chapter-title'>Organisation: Make-or-buy, Agentursteuerung und KI-Einführung</span>"
