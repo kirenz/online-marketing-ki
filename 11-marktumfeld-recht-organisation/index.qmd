@@ -1,0 +1,13 @@
+# Marktumfeld, Recht und Organisation {.unnumbered}
+
+Wir wechseln in diesem Modul von der einzelnen Maßnahme auf die Ebene der Führung. Wir klären, wie der Online-Werbemarkt funktioniert und wie eine Kampagne geplant wird, welche Rolle digitale Kanäle in Produkt-, Preis- und Distributionsentscheidungen spielen, welche rechtlichen Pflichten bei Daten, Einwilligung und KI-Einsatz gelten und wie wir Aufgaben zwischen eigenem Team, Agenturen und Werkzeugen verteilen.
+
+Wir werden:
+
+- die Marktpartner, Erlösmodelle und die Fachsprache des Online-Werbemarkts einordnen
+- den Planungsprozess einer Online-Kampagne in nachvollziehbaren Schritten durchlaufen
+- Online-Marketing in Produkt-, Preis- und Distributionsentscheidungen einordnen
+- die wichtigsten rechtlichen Pflichten bei Tracking, E-Mail-Werbung und KI-Inhalten benennen
+- Make-or-buy-Entscheidungen treffen und Dienstleister sowie KI-Einführungen steuern
+
+**Quellen:** [@kreutzer2025; @lammenett2025; @chaffey2022; @kingsnorth2022; @dsgvo2016; @euAiAct2024]

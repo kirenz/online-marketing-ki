@@ -1,0 +1,62 @@
+# Recht im digitalen Marketing: Datenschutz, Einwilligung, KI-Transparenz
+
+::: {.callout-note title="Status — Erstentwurf"}
+Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
+:::
+
+Digitales Marketing arbeitet mit personenbezogenen Daten, mit Werbung in fremden Postfächern und zunehmend mit maschinell erzeugten Inhalten. Für alle drei Bereiche gibt es klare Regeln. Wir verschaffen uns in dieser Lesson einen Überblick, der ausreicht, um Vorhaben einzuordnen, Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden.
+
+## Die Grundprinzipien der Datenschutz-Grundverordnung
+
+Die Datenschutz-Grundverordnung (DSGVO) erlaubt die Verarbeitung personenbezogener Daten nur, wenn eine Rechtsgrundlage vorliegt. Für das Marketing sind drei Grundlagen praktisch bedeutsam: die Einwilligung, die Erfüllung eines Vertrags und das berechtigte Interesse [@dsgvo2016].
+
+| Rechtsgrundlage | Typischer Fall im Marketing | Worauf wir achten |
+|---|---|---|
+| Einwilligung (Art. 6 Abs. 1 lit. a) | Newsletter, Tracking über das technisch Notwendige hinaus | freiwillig, informiert, durch aktive Handlung, jederzeit widerrufbar, nachweisbar |
+| Vertrag (Art. 6 Abs. 1 lit. b) | Bestellabwicklung, Kundenkonto, Versandinformationen | nur Daten, die für die Leistung erforderlich sind |
+| Berechtigtes Interesse (Art. 6 Abs. 1 lit. f) | Missbrauchsabwehr, interne Auswertungen in engem Rahmen | dokumentierte Abwägung, Widerspruchsrecht beachten |
+
+Hinzu kommen Grundsätze, die unabhängig von der Rechtsgrundlage gelten. Zweckbindung bedeutet, dass Daten nur für den Zweck genutzt werden, für den sie erhoben wurden. Datenminimierung verlangt, nur zu erheben, was gebraucht wird. Speicherbegrenzung fordert Löschfristen. Und die Informationspflichten verlangen, dass die betroffenen Personen verständlich erfahren, wer welche Daten wofür verarbeitet und an wen sie weitergegeben werden.
+
+::: {.callout-tip title="Analogie: Der Besucherausweis am Empfang"}
+Eine Einwilligung funktioniert wie ein Besucherausweis. Er wird bewusst ausgestellt, gilt für einen bestimmten Bereich und für eine bestimmte Zeit, und er lässt sich zurückgeben. Niemand betritt das Gebäude, weil der Ausweis schon vorbereitet auf dem Tresen lag. Genauso wenig entsteht eine Einwilligung durch ein vorausgefülltes Kästchen.
+:::
+
+## Einwilligung beim Tracking
+
+Für Zugriffe auf das Endgerät gilt in Deutschland zusätzlich das Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG, früher TTDSG). Nach dessen Paragraf 25 dürfen Informationen auf einem Endgerät nur gespeichert oder ausgelesen werden, wenn eine Einwilligung vorliegt. Ausgenommen sind Vorgänge, die für den ausdrücklich gewünschten Dienst unbedingt erforderlich sind, etwa der Warenkorb eines Shops. Reichweitenmessung, Werbe-Cookies und ähnliche Techniken fallen nicht darunter [@tdddg2024].
+
+Der Europäische Gerichtshof hat im Verfahren Planet49 klargestellt, dass ein vorangekreuztes Kästchen keine wirksame Einwilligung darstellt und dass über Speicherdauer und Zugriff Dritter informiert werden muss [@eughPlanet49]. Daraus folgen die Anforderungen an heutige Einwilligungsbanner: aktive Handlung statt Voreinstellung, Ablehnen genauso einfach erreichbar wie Zustimmen, verständliche Angaben zu Zwecken und Empfängern sowie ein Widerruf, der so leicht möglich ist wie die Zustimmung. Eine Consent-Management-Lösung protokolliert diese Entscheidungen und steuert, welche Werkzeuge überhaupt laden.
+
+## E-Mail-Marketing
+
+Werbliche E-Mails setzen grundsätzlich eine vorherige ausdrückliche Einwilligung voraus. In der Praxis sichern wir sie über das Double-Opt-in-Verfahren ab: Nach der Anmeldung folgt eine Bestätigungsmail, und erst der Klick darin schaltet den Versand frei. Damit ist zugleich der Nachweis geführt [@uwg].
+
+Eine eng gefasste Ausnahme erlaubt Werbung an Bestandskundschaft. Sie greift nur, wenn alle vier Voraussetzungen erfüllt sind: Die Adresse wurde im Zusammenhang mit dem Verkauf einer Ware oder Dienstleistung erhoben, sie wird für Direktwerbung für eigene ähnliche Waren oder Dienstleistungen genutzt, die Kundschaft hat nicht widersprochen, und sie wurde bei Erhebung und bei jeder Verwendung klar auf das Widerspruchsrecht hingewiesen.
+
+## Messen ohne Cookies von Drittanbietern
+
+Cookies fremder Anbieter verlieren an Bedeutung, teils durch Browsereinstellungen, teils durch rechtliche Vorgaben. Der Schwerpunkt verschiebt sich deshalb auf eigene Daten aus Shop, Kundenkonto und Newsletter, die wir mit Einwilligung erheben und selbst verwalten. Serverseitiges Tagging verlagert die Datenübergabe von der Seite auf einen eigenen Server, ersetzt die Einwilligung aber nicht. Fehlende Signale werden von Werbeplattformen zunehmend über Modellierung geschätzt, etwa im Rahmen eines Einwilligungsmodus. Welche browserseitigen Ersatzverfahren sich dauerhaft durchsetzen, ist derzeit offen, sodass wir Auswertungen so aufbauen, dass sie auch mit unvollständigen Daten belastbar bleiben.
+
+## KI-Transparenz nach dem AI Act
+
+Die KI-Verordnung der Europäischen Union (AI Act) ordnet Anwendungen nach Risiko: einige Praktiken sind verboten, Hochrisiko-Anwendungen unterliegen strengen Anforderungen, für weitere Systeme gelten Transparenzpflichten [@euAiAct2024]. Für das Marketing ist vor allem Artikel 50 einschlägig. Er verlangt, dass Menschen erkennen können, wenn sie mit einem KI-System interagieren, etwa mit einem Chatbot im Kundenservice. Ebenso müssen künstlich erzeugte oder veränderte Bild-, Ton- und Videoinhalte als solche gekennzeichnet werden, was insbesondere täuschend echte Darstellungen realer Personen betrifft. Diese Transparenzpflichten greifen im Jahr 2026.
+
+## Werbekennzeichnung und Haftung
+
+Unabhängig vom Datenschutz gilt das Wettbewerbsrecht. Werbung muss als Werbung erkennbar sein, auch in Beiträgen von Kooperationspartnern, und irreführende Angaben zu Eigenschaften, Verfügbarkeit oder Preisen sind unzulässig. Bei KI-erzeugten Inhalten kommt hinzu, dass Modelle Fakten erfinden und fremde Marken oder Personenbildnisse einbauen können. Die Verantwortung für Veröffentlichtes bleibt beim Unternehmen, weshalb jede Ausgabe vor der Verwendung geprüft wird [@kreutzer2025].
+
+::: {.callout-important title="Kurzcheck vor dem Kampagnenstart"}
+Vier Fragen klären wir vor jeder Kampagne: Erstens, liegt für jede Datenverarbeitung eine Rechtsgrundlage vor, und wird die Einwilligung sauber eingeholt und dokumentiert? Zweitens, sind Impressum, Datenschutzhinweise und Werbekennzeichnung vollständig? Drittens, welche Daten fließen an welche Dienstleister, und bestehen die nötigen Verträge? Viertens, sind KI-erzeugte Inhalte und automatisierte Dialoge erkennbar gemacht?
+:::
+
+::: {.callout-note title="Einordnung"}
+Dieses Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung. Bei konkreten Vorhaben ziehen wir juristische Fachkunde hinzu.
+:::
+
+## Was als Nächstes ausgebaut werden muss
+
+- Eine kommentierte Beispielstruktur für ein Einwilligungsbanner mit den erforderlichen Angaben ergänzen
+- Den Umgang mit Auftragsverarbeitung und Drittlandtransfers als eigenen Abschnitt aufnehmen
+- Eine Übersicht der Betroffenenrechte mit Fristen und Zuständigkeiten im Unternehmen ergänzen
+- Den Stand der Umsetzungsfristen des AI Act mit Datum und Fundstelle aktualisieren, sobald belastbar

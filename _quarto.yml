@@ -15,6 +15,7 @@ project:
     - "08-social-media-linkedin/*.qmd"
     - "09-web-analytics/*.qmd"
     - "10-ki-im-marketing/*.qmd"
+    - "11-marktumfeld-recht-organisation/*.qmd"
 
 lang: de
 
@@ -90,6 +91,12 @@ book:
         - 10-ki-im-marketing/compass-framework.qmd
         - 10-ki-im-marketing/genai-content.qmd
         - 10-ki-im-marketing/ki-werkzeuge-agenten.qmd
+    - part: 11-marktumfeld-recht-organisation/index.qmd
+      chapters:
+        - 11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.qmd
+        - 11-marktumfeld-recht-organisation/produkt-preis-distribution.qmd
+        - 11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.qmd
+        - 11-marktumfeld-recht-organisation/organisation-make-or-buy.qmd
 
 format:
   html:
