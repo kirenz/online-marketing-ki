@@ -4,11 +4,11 @@
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-Wir betrachten in dieser Lesson zuerst den Markt, auf dem Online-Werbung gehandelt wird, und danach den Prozess, in dem eine Kampagne entsteht. Wer Budgets freigibt und Ergebnisse bewertet, sollte wissen, wer am Markt welche Leistung erbringt, wie abgerechnet wird und in welcher Reihenfolge Entscheidungen fallen.
+Wir betrachten zuerst den Markt, auf dem Online-Werbung gehandelt wird, und danach den Prozess, in dem eine Kampagne entsteht. Wer Budgets freigibt und Ergebnisse bewertet, sollte wissen, wer welche Leistung erbringt, wie abgerechnet wird und in welcher Reihenfolge Entscheidungen fallen.
 
 ## Wer am Online-Werbemarkt beteiligt ist
 
-Am Anfang der Kette stehen die Werbungtreibenden, also die Unternehmen, die ein Produkt bekannt machen wollen und dafür ein Budget einsetzen. Ihnen zur Seite stehen Agenturen, die je nach Zuschnitt Strategie, Kreation, Mediaeinkauf oder Technik übernehmen. Auf der Gegenseite stehen Publisher, also Medienhäuser und Websitebetreiber, sowie Vermarkter, die deren Werbeplätze bündeln und verkaufen [@kreutzer2025].
+Am Anfang der Kette stehen die Werbungtreibenden, also die Unternehmen, die ein Budget einsetzen, um ein Produkt bekannt zu machen. Ihnen zur Seite stehen Agenturen, die je nach Zuschnitt Strategie, Kreation, Mediaeinkauf oder Technik übernehmen. Auf der Gegenseite stehen Publisher, also Medienhäuser und Websitebetreiber, sowie Vermarkter, die deren Werbeplätze bündeln und verkaufen [@kreutzer2025].
 
 Einen Sonderfall bilden die großen Plattformen wie Suchmaschinen, soziale Netzwerke und Handelsplattformen. Sie treten gleichzeitig als Publisher, als Vermarkter und als Messsystem auf. Weil Daten, Auslieferung und Erfolgsmessung dort in einem geschlossenen System liegen, sprechen wir von Walled Gardens, also von ummauerten Gärten. Ein großer Teil der weltweiten Online-Werbeinvestitionen konzentriert sich auf wenige solcher Anbieter, was die Verhandlungsposition einzelner Werbungtreibender begrenzt [@chaffey2022].
 
@@ -16,13 +16,13 @@ Dazwischen arbeitet die Werbetechnik, kurz Ad-Tech. Eine Demand-Side-Platform (D
 
 ## Wie abgerechnet wird
 
-Die Abrechnungsmodelle unterscheiden sich darin, wofür genau bezahlt wird. Beim Tausend-Kontakt-Preis (TKP, englisch Cost per Mille oder CPM) zahlen wir für tausend Einblendungen, unabhängig von einer Reaktion. Dieses Modell passt zu Zielen der Bekanntheit. Beim Cost per Click (CPC) zahlen wir erst, wenn jemand klickt, beim Cost per Action (CPA) erst, wenn eine definierte Handlung erfolgt, etwa eine Anfrage oder ein Kauf. Im Affiliate-Bereich ist zusätzlich eine Umsatzbeteiligung (Revenue Share) üblich, bei der Partner einen Prozentsatz des vermittelten Umsatzes erhalten [@lammenett2025].
+Die Abrechnungsmodelle unterscheiden sich darin, wofür bezahlt wird. Beim Tausend-Kontakt-Preis (TKP) zahlen wir für tausend Kontakte, unabhängig von einer Reaktion, was zu Zielen der Bekanntheit passt. Klassisch rechnet der TKP je tausend erreichte Kontakte, der englische Cost per Mille (CPM) je tausend Einblendungen; online werden beide Begriffe meist gleichgesetzt. Beim Cost per Click (CPC) zahlen wir erst, wenn jemand klickt, beim Cost per Action (CPA) erst, wenn eine definierte Handlung erfolgt, etwa eine Anfrage oder ein Kauf. Im Affiliate-Bereich ist zusätzlich eine Umsatzbeteiligung (Revenue Share) üblich, bei der Partner einen Prozentsatz des vermittelten Umsatzes erhalten [@lammenett2025].
 
-Je weiter das Modell in Richtung Handlung rückt, desto mehr Risiko trägt der Vermarkter und desto höher fällt der Preis pro Kontakt aus. Wir wählen das Modell deshalb nicht nach dem günstigsten Einheitspreis, sondern danach, welches Ziel die Kampagne verfolgt.
+Je weiter das Modell in Richtung Handlung rückt, desto mehr Risiko trägt der Vermarkter und desto höher fällt der Preis pro Kontakt aus. Wir wählen deshalb nicht nach dem günstigsten Einheitspreis, sondern nach dem Kampagnenziel.
 
 ## Programmatic Advertising als Grundprinzip
 
-Der größte Teil der Werbeplätze wird heute nicht einzeln verhandelt, sondern automatisiert gehandelt. Ruft jemand eine Seite auf, meldet die SSP den freien Platz, mehrere DSPs geben nach hinterlegten Regeln ein Gebot ab, und in wenigen Millisekunden steht fest, welches Werbemittel ausgeliefert wird. Diesen Ablauf nennen wir Programmatic Advertising.
+Der größte Teil der Werbeplätze wird heute nicht einzeln verhandelt, sondern automatisiert gehandelt. Ruft jemand eine Seite auf, meldet die SSP den freien Platz, mehrere DSPs geben nach hinterlegten Regeln ein Gebot ab, und in wenigen Millisekunden steht fest, welches Werbemittel ausgeliefert wird. Diesen Ablauf nennen wir Programmatic Advertising. Nicht jeder programmatische Einkauf ist eine Auktion: Bei Programmatic Guaranteed und bei Preferred Deals vereinbaren beide Seiten Volumen und Preis vorab, und die Technik übernimmt nur die Auslieferung. Wo versteigert wird, gilt heute überwiegend das Erstpreisverfahren (First Price), bei dem der Zuschlag zum abgegebenen Gebot erfolgt.
 
 ::: {.callout-tip title="Analogie: Die Auktion im Handelssaal"}
 Wir stellen uns eine Börse vor, an der pausenlos winzige Posten versteigert werden. Jeder Seitenaufruf ist ein solcher Posten, jedes Gebot folgt einer vorher festgelegten Order, und der Zuschlag fällt, bevor die Seite fertig geladen ist. Wir handeln an dieser Börse nicht selbst, sondern hinterlegen Regeln: Was ist uns ein Kontakt wert, in welchem Umfeld, bei welcher Zielgruppe.
@@ -34,40 +34,39 @@ Zahlen aus dem Werbekonto einer Plattform sind zugleich Leistungsnachweis des Ve
 
 ## Der Planungsprozess in acht Schritten
 
-Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Die folgende Reihenfolge hat sich als Planungsraster bewährt und lässt sich auf jede Kanalentscheidung anwenden [@kreutzer2025; @chaffey2022].
+Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Das folgende Raster lässt sich auf jede Kanalentscheidung anwenden [@kreutzer2025; @chaffey2022].
 
 | Schritt | Leitfrage | Ergebnis |
 |---|---|---|
-| 1 Situationsanalyse | Wo stehen wir in Markt, Wettbewerb und eigener Ausgangslage? | Lagebild |
-| 2 Ziele | Was wollen wir erreichen, messbar und terminiert? | Zielsystem mit Kennzahlen |
+| 1 Situationsanalyse | Wo stehen wir in Markt und Wettbewerb? | Lagebild |
+| 2 Ziele | Was wollen wir messbar erreichen? | Zielsystem mit Kennzahlen |
 | 3 Zielgruppen | Wen genau wollen wir erreichen? | Segmente und Personas |
 | 4 Strategie und Positionierung | Wofür stehen wir, welches Versprechen geben wir? | Positionierungsaussage |
-| 5 Kanal- und Maßnahmenplanung | Über welche Kanäle, mit welchen Inhalten? | Kanalmix und Maßnahmenplan |
-| 6 Budget | Wie viele Mittel, wie auf Kanäle verteilt? | Budgetplan |
+| 5 Kanäle und Maßnahmen | Welche Kanäle, welche Inhalte? | Kanalmix und Maßnahmenplan |
+| 6 Budget | Wie viel, wie verteilt? | Budgetplan |
 | 7 Umsetzung | Wer macht was bis wann? | Zeit- und Verantwortungsplan |
-| 8 Controlling und Optimierung | Wirkt es, und was ändern wir? | Reporting und Anpassungen |
+| 8 Controlling | Wirkt es, was ändern wir? | Reporting und Anpassungen |
 
 Die Schritte laufen in der Praxis nicht streng nacheinander ab, sondern in Schleifen. Entscheidend ist, dass kein Schritt übersprungen wird. Kampagnen scheitern selten an der Kreation, häufig aber daran, dass Ziele unscharf blieben oder das Controlling erst nach Ende der Laufzeit einsetzte.
 
 ## Die Fachsprache des Werbemarkts
 
-In Angeboten und Reportings begegnen uns immer dieselben Begriffe. Die folgende Übersicht hilft, Angebote zu vergleichen und Rückfragen präzise zu stellen.
+In Angeboten und Reportings begegnen uns immer dieselben Begriffe. Die folgende Übersicht hilft, Angebote zu vergleichen und Rückfragen präzise zu stellen. Conversion und Attribution, also die gewünschte Handlung und ihre Zuordnung zu den Kontaktpunkten, behandeln wir im Modul zur Web-Analytik ausführlich.
 
 | Begriff | Bedeutung |
 |---|---|
 | Impression | Eine einzelne Einblendung eines Werbemittels |
-| Reichweite | Zahl der verschiedenen Personen, die das Werbemittel mindestens einmal gesehen haben |
+| Reichweite | Zahl der erreichten Personen, praktisch gemessen als Unique Users, also als unterschiedliche Nutzerkennungen oder Geräte |
 | Frequenz | Durchschnittliche Zahl der Kontakte je erreichter Person |
+| TKP oder CPM | Preis für tausend Kontakte beziehungsweise Einblendungen |
 | CTR (Click-Through-Rate) | Anteil der Klicks an den Einblendungen |
 | CPC (Cost per Click) | Preis für einen Klick |
-| CPA (Cost per Action) | Kosten für eine ausgelöste Handlung |
-| Conversion | Gewünschte Handlung, etwa Kauf, Anfrage oder Anmeldung |
+| CPA (Cost per Action) | Kosten für eine ausgelöste Handlung, etwa Kauf oder Anfrage |
 | ROAS (Return on Ad Spend) | Umsatz je eingesetztem Euro Werbebudget |
-| Attribution | Zuordnung einer Conversion zu den beteiligten Kontaktpunkten |
 
 ## Was als Nächstes ausgebaut werden muss
 
 - Ein durchgerechnetes Beispiel ergänzen, das TKP, CPC und CPA für dieselbe Kampagne gegenüberstellt
-- Den Ablauf einer Programmatic-Auktion als Grafik einbinden, inklusive der Rollen von DSP, SSP und Ad Exchange
+- Den Ablauf einer Programmatic-Auktion als Grafik einbinden, inklusive der Rollen von DSP, SSP und Ad Exchange sowie der Abgrenzung zu Programmatic Guaranteed
 - Eine Vorlage für ein Kampagnenbriefing ergänzen, die den achtstufigen Planungsprozess abbildet
 - Aktuelle Marktzahlen zu Investitionsanteilen der Kanäle mit Quelle und Erhebungsjahr nachtragen

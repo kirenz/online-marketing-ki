@@ -8,7 +8,7 @@ Digitales Marketing gelingt selten an einer einzigen Stelle im Unternehmen. Es b
 
 ## Rollen und Kompetenzen
 
-Auch in kleinen Teams lassen sich sechs Aufgabenbündel unterscheiden. Die Strategie legt Ziele, Zielgruppen und Positionierung fest und verantwortet das Budget. Content erstellt Texte, Bilder und Videos und pflegt den Redaktionsplan. Performance und Media planen, buchen und optimieren bezahlte Kampagnen. Analytics richtet die Messung ein, prüft Datenqualität und liefert Auswertungen. MarTech und Operations betreiben die Werkzeuge, halten Schnittstellen am Laufen und sorgen für saubere Datenflüsse. Recht und Compliance prüfen Einwilligungen, Verträge und Kennzeichnung [@chaffey2022].
+Auch in kleinen Teams lassen sich sechs Aufgabenbündel unterscheiden. Die Strategie legt Ziele, Zielgruppen und Positionierung fest und verantwortet das Budget. Content erstellt Texte, Bilder und Videos und pflegt den Redaktionsplan. Performance und Media planen, buchen und optimieren bezahlte Kampagnen. Analytics richtet die Messung ein, prüft Datenqualität und liefert Auswertungen. MarTech (Marketing Technology) und Operations betreiben die Werkzeuge, halten Schnittstellen am Laufen und sorgen für saubere Datenflüsse. Recht und Compliance prüfen Einwilligungen, Verträge und Kennzeichnung [@chaffey2022].
 
 Entscheidend ist weniger, wie viele Personen diese Bündel abdecken, als dass jedes Bündel eine namentlich benannte Zuständigkeit hat. Aufgaben ohne Namen bleiben liegen, besonders Analytics und Compliance.
 
@@ -31,9 +31,9 @@ Eine Werkstatt hält Werkzeuge für alles vor, was täglich anfällt. Für den S
 
 ## Agenturen und Dienstleister steuern
 
-Gute Zusammenarbeit beginnt beim Briefing. Es beschreibt Ausgangslage, Ziel, Zielgruppe, Botschaft, Budget, Termine und die Kriterien, an denen wir den Erfolg messen. Im Vertrag halten wir fest, welche Kennzahlen gelten und wie oft berichtet wird. Bei der Vergütung sind drei Formen üblich: ein fester Betrag je Leistungspaket, ein Stundensatz für laufende Betreuung und ein erfolgsabhängiger Anteil. Erfolgsabhängige Modelle wirken attraktiv, verleiten aber dazu, jene Kanäle zu bevorzugen, die kurzfristige Abschlüsse zeigen [@kreutzer2025].
+Gute Zusammenarbeit beginnt beim Briefing. Es beschreibt Ausgangslage, Ziel, Zielgruppe, Botschaft, Budget, Termine und die Kriterien, an denen wir den Erfolg messen. Im Vertrag halten wir fest, welche Kennzahlen gelten und wie oft berichtet wird. Bei der Vergütung sind mehrere Formen üblich: ein fester Betrag je Leistungspaket, ein Stundensatz für einzelne Aufgaben, ein Retainer als monatliche Pauschale für laufende Betreuung, ein erfolgsabhängiger Anteil sowie eine prozentuale Beteiligung am Mediavolumen. Jedes Modell setzt eigene Anreize. Erfolgsabhängige Modelle verleiten dazu, jene Kanäle zu bevorzugen, die kurzfristige Abschlüsse zeigen. Eine Beteiligung am Mediavolumen belohnt höhere Ausgaben und nicht das bessere Ergebnis, weshalb wir sie nur mit klaren Zielwerten und Obergrenzen vereinbaren [@kreutzer2025].
 
-Ebenso wichtig ist die Transparenz über Mediabudgets. Wir lassen uns ausweisen, wie viel tatsächlich in Werbeplätze geflossen ist und wie viel in Dienstleistung, und wir vereinbaren einen festen Berichtsrhythmus statt Berichte nur auf Nachfrage. Der Ausstieg wird bereits im Vertrag geregelt: Kündigungsfristen, Übergabe der Daten, Dokumentation der laufenden Kampagnen.
+Gerade weil die Vergütung Anreize setzt, ist Transparenz über die Mediabudgets unverzichtbar. Wir lassen uns ausweisen, wie viel tatsächlich in Werbeplätze geflossen ist und wie viel in Dienstleistung, und wir vereinbaren einen festen Berichtsrhythmus statt Berichte nur auf Nachfrage. Der Ausstieg wird bereits im Vertrag geregelt: Kündigungsfristen, Übergabe der Daten, Dokumentation der laufenden Kampagnen.
 
 ::: {.callout-important title="Konten und Daten gehören dem Unternehmen"}
 Werbekonten, Analysewerkzeuge, Domains und Datenbestände werden auf das Unternehmen angelegt, und Dienstleister erhalten Zugriff als Nutzer. Wer diesen Punkt beim Start übergeht, verliert bei einem Wechsel Verläufe, Zielgruppenlisten und Lernkurve der Kampagnen.
@@ -45,9 +45,9 @@ Für die Werkzeuglandschaft gilt eine einfache Leitlinie: so wenige Systeme wie 
 
 ## KI-Werkzeuge im Team einführen
 
-Der Einstieg gelingt am besten über wenige, klar umrissene Anwendungsfälle mit hoher Wiederholrate, etwa Entwürfe für wiederkehrende Textformate oder die Vorstrukturierung von Auswertungen. Wir starten mit einem zeitlich begrenzten Pilotversuch in einem Team, legen vorab fest, welche Daten eingegeben werden dürfen und wer Ergebnisse vor Veröffentlichung freigibt, und schulen die Beteiligten an ihren echten Aufgaben. Den Nutzen messen wir an vorher festgelegten Größen wie Durchlaufzeit oder Zahl der Korrekturschleifen [@hartmann2025].
+Der Einstieg gelingt am besten über wenige, klar umrissene Anwendungsfälle mit hoher Wiederholrate, etwa Entwürfe für wiederkehrende Textformate oder die Vorstrukturierung von Auswertungen. Wir starten mit einem zeitlich begrenzten Pilotversuch in einem Team, legen vorab fest, welche Daten eingegeben werden dürfen und wer Ergebnisse vor Veröffentlichung freigibt, und schulen die Beteiligten an ihren echten Aufgaben, womit wir zugleich die im Rechtskapitel genannte Anforderung an KI-Kompetenz erfüllen. Den Nutzen messen wir an vorher festgelegten Größen wie Durchlaufzeit oder Zahl der Korrekturschleifen [@kreutzer2025].
 
-Typische Fehler sind schnell benannt: das Werkzeug ohne Anwendungsfall einführen, keine Regeln für vertrauliche Daten setzen, die fachliche Prüfung der Ergebnisse überspringen und den Nutzen nie messen, sodass die Diskussion bei Meinungen bleibt [@schmid2025].
+Typische Fehler sind schnell benannt: das Werkzeug ohne Anwendungsfall einführen, keine Regeln für vertrauliche Daten setzen, die fachliche Prüfung der Ergebnisse überspringen und den Nutzen nie messen, sodass die Diskussion bei Meinungen bleibt.
 
 ## Was die Geschäftsführung fragt
 

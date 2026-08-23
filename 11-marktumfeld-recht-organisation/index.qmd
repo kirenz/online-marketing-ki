@@ -10,4 +10,4 @@ Wir werden:
 - die wichtigsten rechtlichen Pflichten bei Tracking, E-Mail-Werbung und KI-Inhalten benennen
 - Make-or-buy-Entscheidungen treffen und Dienstleister sowie KI-Einführungen steuern
 
-**Quellen:** [@kreutzer2025; @lammenett2025; @chaffey2022; @kingsnorth2022; @dsgvo2016; @euAiAct2024]
+**Quellen:** [@kreutzer2025; @lammenett2025; @chaffey2022; @kingsnorth2022; @dsgvo2016; @tdddg2024; @uwg; @eughPlanet49; @euAiAct2024]

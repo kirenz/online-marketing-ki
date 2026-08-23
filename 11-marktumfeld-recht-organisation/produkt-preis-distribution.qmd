@@ -4,13 +4,13 @@
 Erstentwurf, wird in Stufe B auf Vollausbau-Niveau gehoben.
 :::
 
-Online-Marketing ist mehr als Kommunikation. Digitale Kanäle verändern auch, welche Produkte wir anbieten, wie wir Preise setzen und über welche Wege wir verkaufen. In dieser Lesson ordnen wir diese drei Felder des Marketing-Mix ein und begleiten als Beispiel eine kleine Kaffeerösterei, die neben ihrem Ladengeschäft einen Onlineshop mit Abo betreibt.
+Online-Marketing ist mehr als Kommunikation. Digitale Kanäle verändern auch, welche Produkte wir anbieten, wie wir Preise setzen und über welche Wege wir verkaufen. Wir ordnen diese drei Felder des Marketing-Mix ein. Als Beispiel, das uns durch dieses Kapitel begleitet, dient eine kleine Kaffeerösterei, die neben ihrem Ladengeschäft einen Onlineshop mit Abo betreibt.
 
 ## Digitale Produkte und Services
 
 Digitale Leistungen lassen sich nahezu ohne Zusatzkosten vervielfältigen. Daraus entstehen Angebotsformen, die es im rein physischen Geschäft so nicht gibt. Beim Versioning bieten wir dieselbe Leistung in mehreren Ausbaustufen an, etwa als Basis-, Profi- und Unternehmensversion, und lassen die Kundschaft selbst wählen, wie viel Funktionsumfang sie braucht. Beim Freemium-Modell ist eine Grundversion dauerhaft kostenlos, während Zusatzfunktionen bezahlt werden. Abo-Modelle verschieben den Fokus vom Einzelkauf auf eine laufende Beziehung, und Bundling fasst mehrere Leistungen zu einem Paket zusammen [@kreutzer2025].
 
-Auch physische Produkte gewinnen digitale Anteile. Unsere Rösterei verkauft nicht nur Bohnen, sondern liefert Herkunftsangaben, Röstprofile und Zubereitungsanleitungen mit. Diese Zusatzleistungen kosten wenig, verbessern aber die Auffindbarkeit im Netz und geben einen Grund, sich für genau diesen Anbieter zu entscheiden.
+Auch physische Produkte gewinnen digitale Anteile. Die Rösterei verkauft nicht nur Bohnen, sondern liefert Herkunftsangaben, Röstprofile und Zubereitungsanleitungen mit. Diese Zusatzleistungen kosten wenig, verbessern aber die Auffindbarkeit im Netz und geben einen Grund, sich für genau diesen Anbieter zu entscheiden.
 
 ## Plattformen und Marktplätze
 
@@ -27,7 +27,7 @@ Ein Stand auf dem Wochenmarkt bringt uns sofort Laufkundschaft, doch Standgebüh
 Preise sind online in Sekunden vergleichbar. Preisvergleichsportale und Marktplatzlisten stellen Angebote nebeneinander, wodurch der Preis stärker in den Vordergrund rückt und Differenzierung über Leistung, Service und Marke wichtiger wird. Gleichzeitig lassen sich Preise technisch leicht ändern. Dynamische Preisbildung passt Preise an Nachfrage, Lagerbestand oder Wettbewerb an, und Personalisierung geht noch einen Schritt weiter, indem sie den Preis an einzelnen Nutzungsprofilen ausrichtet [@kreutzer2025].
 
 ::: {.callout-important title="Preisdifferenzierung braucht eine erklärbare Logik"}
-Kundschaft akzeptiert unterschiedliche Preise, wenn ein nachvollziehbarer Grund erkennbar ist, etwa Menge, Vertragslaufzeit oder Buchungszeitpunkt. Preise, die ohne sichtbaren Grund je Person variieren, beschädigen Vertrauen. Wer Preise auf Basis automatisierter Auswertung individuell zuschneidet, muss darüber zudem informieren.
+Kundschaft akzeptiert unterschiedliche Preise, wenn ein nachvollziehbarer Grund erkennbar ist, etwa Menge, Vertragslaufzeit oder Buchungszeitpunkt. Preise, die ohne sichtbaren Grund je Person variieren, beschädigen Vertrauen. Wer Preise auf Basis einer automatisierten Entscheidungsfindung personalisiert, muss darüber zudem informieren (§ 312a Abs. 1a BGB). Das Kapitel zum Recht ordnet diese Informationspflichten ein.
 :::
 
 ## Distribution: eigener Kanal, Plattform oder Handel
@@ -41,11 +41,11 @@ Bei der Distribution entscheiden wir, über welchen Weg das Produkt zur Kundscha
 | Stationärer Handel | mittel, Handelsspanne | mittel, begrenzter Einfluss auf Präsentation | regional begrenzt |
 | Abo über eigenen Shop | hoch, planbarer Umsatz | hoch, direkte Kundenbeziehung | wächst langsam, dafür stabil |
 
-Für unsere Rösterei bedeutet das eine bewusste Mischung: Der Marktplatz bringt neue Kundschaft, das Abo im eigenen Shop sichert wiederkehrenden Umsatz mit planbarer Nachlieferung (Replenishment), und der Laden bleibt Ort für Verkostung und Beratung.
+Für die Rösterei bedeutet das eine bewusste Mischung: Der Marktplatz bringt neue Kundschaft, das Abo im eigenen Shop sichert wiederkehrenden Umsatz mit planbarer Nachlieferung (Replenishment), und der Laden bleibt Ort für Verkostung und Beratung.
 
-## Internationale Geschäftsmodelle
+## Internationalisierung: was sich je Markt ändert
 
-Sobald wir über Grenzen hinweg verkaufen, kommen drei Fragen hinzu. Erstens die Lokalisierung: Sprache, Maßeinheiten, Bildwelt und Ansprache müssen zum Markt passen, eine reine Übersetzung reicht selten. Zweitens die Kanalwahl, denn führende Suchmaschinen, soziale Netzwerke und Marktplätze unterscheiden sich je Land erheblich. Drittens die Abwicklung: Bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln entscheiden häufiger über den Kaufabbruch als die Produktseite selbst [@kingsnorth2022].
+Sobald wir über Grenzen hinweg verkaufen, stellt sich zuerst die Frage der Markteintrittsform: Export über einen Marktplatz, Zusammenarbeit mit einem Distributor, ein eigener Shop je Land oder eine Tochtergesellschaft. Die Reihenfolge beschreibt zugleich die Abwägung, denn mit jeder Stufe steigen Kontrolle und Nähe zur Kundschaft, aber auch Investition und gebundene Ressourcen. Danach kommen drei operative Fragen hinzu. Erstens die Lokalisierung: Sprache, Maßeinheiten, Bildwelt und Ansprache müssen zum Markt passen, eine reine Übersetzung reicht selten. Zweitens die Kanalwahl, denn führende Suchmaschinen, soziale Netzwerke und Marktplätze unterscheiden sich je Land erheblich. Drittens die Abwicklung, weil bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln häufiger über den Kaufabbruch entscheiden als die Produktseite selbst [@kingsnorth2022].
 
 ## Was als Nächstes ausgebaut werden muss
 
