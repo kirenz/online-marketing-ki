@@ -535,7 +535,7 @@ div.csl-indent {
 </section>
 <section id="technische-grundlagen" class="level2" data-number="17.2">
 <h2 data-number="17.2" class="anchored" data-anchor-id="technische-grundlagen"><span class="header-section-number">17.2</span> Technische Grundlagen</h2>
-<p>Selbst der beste Inhalt bleibt wirkungslos, wenn Suchmaschinen ihn nicht erreichen oder verarbeiten können. Auf der technischen Ebene sorgen wir deshalb dafür, dass unsere Seiten auffindbar und lesbar sind. Eine Sitemap listet unsere wichtigen Seiten auf, eine durchdachte robots-Steuerung regelt, was indexiert werden darf, und sprechende, stabile Adressen (URLs) machen die Struktur verständlich.</p>
+<p>Selbst der beste Inhalt bleibt wirkungslos, wenn Suchmaschinen ihn nicht erreichen oder verarbeiten können. Auf der technischen Ebene sorgen wir deshalb dafür, dass unsere Seiten auffindbar und lesbar sind. Eine Sitemap listet unsere wichtigen Seiten auf, <code>robots.txt</code> steuert den Zugriff von Crawlern, während <code>noindex</code> die Aufnahme in den Suchindex unterbindet, sofern der Crawler die Anweisung lesen kann, und sprechende, stabile Adressen (URLs) machen die Struktur verständlich.</p>
 <p>Hinzu kommt die mobile Nutzbarkeit. Da ein großer Teil der Suchanfragen über Smartphones läuft, bewertet Google Seiten vorrangig in ihrer mobilen Fassung. Die offizielle Einführung von Google nennt eine technisch saubere, mobil nutzbare und schnell erreichbare Seite als Grundvoraussetzung <span class="citation" data-cites="googleSeo2025">(<a href="#ref-googleSeo2025" role="doc-biblioref">Google Search Central nd</a>)</span>.</p>
 </section>
 <section id="glaubwürdigkeit-mit-e-e-a-t" class="level2" data-number="17.3">
@@ -555,6 +555,19 @@ div.csl-indent {
 <p>Technische Sauberkeit ist die Eintrittskarte, kein Ranking-Garant. Wenn Inhalt und Glaubwürdigkeit fehlen, bringen perfekt gesetzte Tags wenig. Wir investieren deshalb zuerst in echten Mehrwert und sichern ihn technisch ab.</p>
 </div>
 </div>
+<div class="callout callout-style-simple callout-important callout-titled" title="Crawling ist nicht Indexierung">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Wichtig</span>Crawling ist nicht Indexierung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Eine per <code>robots.txt</code> gesperrte URL kann trotzdem in Suchergebnissen auftauchen, etwa über externe Links. Gleichzeitig kann die Sperre verhindern, dass Google ein <code>noindex</code> auf der Seite liest. Für vertrauliche Inhalte benötigen wir eine Zugangskontrolle; beide Suchmaschinenanweisungen ersetzen sie nicht <span class="citation" data-cites="googleRobots2026">(<a href="#ref-googleRobots2026" role="doc-biblioref">Google Search Central o.&nbsp;J.</a>)</span>.</p>
+</div>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
@@ -566,6 +579,9 @@ Erlhofer, Sebastian. 2023. <em>Suchmaschinen-Optimierung: das umfassende Handbuc
 </div>
 <div id="ref-googleSeo2025" class="csl-entry" role="listitem">
 Google Search Central. nd. <span>„SEO Starter Guide: The Basics | Google Search Central | Documentation“</span>. nd. <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide">https://developers.google.com/search/docs/fundamentals/seo-starter-guide</a>.
+</div>
+<div id="ref-googleRobots2026" class="csl-entry" role="listitem">
+———. o.&nbsp;J. <span>„Einführung zu robots.txt-Dateien“</span>. Zugegriffen 5. September 2026. <a href="https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=de">https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=de</a>.
 </div>
 </div>
 </section>

@@ -488,7 +488,8 @@ div.csl-indent {
   <ul>
   <li><a href="#vom-seitenaufruf-zum-event" id="toc-vom-seitenaufruf-zum-event" class="nav-link active" data-scroll-target="#vom-seitenaufruf-zum-event"><span class="header-section-number">26.1</span> Vom Seitenaufruf zum Event</a></li>
   <li><a href="#events-und-ihre-parameter" id="toc-events-und-ihre-parameter" class="nav-link" data-scroll-target="#events-und-ihre-parameter"><span class="header-section-number">26.2</span> Events und ihre Parameter</a></li>
-  <li><a href="#von-events-zu-conversions" id="toc-von-events-zu-conversions" class="nav-link" data-scroll-target="#von-events-zu-conversions"><span class="header-section-number">26.3</span> Von Events zu Conversions</a></li>
+  <li><a href="#von-events-zu-schlüsselereignissen" id="toc-von-events-zu-schlüsselereignissen" class="nav-link" data-scroll-target="#von-events-zu-schlüsselereignissen"><span class="header-section-number">26.3</span> Von Events zu Schlüsselereignissen</a></li>
+  <li><a href="#ein-trackingplan-mit-abnahme" id="toc-ein-trackingplan-mit-abnahme" class="nav-link" data-scroll-target="#ein-trackingplan-mit-abnahme"><span class="header-section-number">26.4</span> Ein Trackingplan mit Abnahme</a></li>
   </ul>
 </nav>
     </div>
@@ -517,7 +518,7 @@ div.csl-indent {
 <p>Wir schauen uns an, wie Google Analytics 4 (kurz GA4) Verhalten auf einer Website erfasst. Der Schlüssel liegt in einem einzigen Grundgedanken: In GA4 ist jede Interaktion ein Ereignis, ein sogenanntes Event. Wer dieses Datenmodell versteht, versteht die ganze Logik des Werkzeugs.</p>
 <section id="vom-seitenaufruf-zum-event" class="level2" data-number="26.1">
 <h2 data-number="26.1" class="anchored" data-anchor-id="vom-seitenaufruf-zum-event"><span class="header-section-number">26.1</span> Vom Seitenaufruf zum Event</h2>
-<p>Frühere Analyse-Werkzeuge dachten in Seitenaufrufen. Im Zentrum stand die Frage, welche Seite wie oft geöffnet wurde. GA4 verschiebt diesen Blick grundlegend: Nicht mehr die Seite ist die kleinste Einheit, sondern die einzelne Handlung. Jeder Seitenaufruf, jeder Klick, jedes Scrollen und jeder Download wird als Event erfasst.</p>
+<p>Frühere Analyse-Werkzeuge dachten in Seitenaufrufen. Im Zentrum stand die Frage, welche Seite wie oft geöffnet wurde. GA4 verschiebt diesen Blick grundlegend: Nicht mehr die Seite ist die kleinste Einheit, sondern die einzelne Handlung. Seitenaufrufe, bestimmte Klicks, Scrollvorgänge und Downloads können als Events erfasst werden. Welche davon tatsächlich ankommen, hängt von Einrichtung, Einwilligung und technischen Einschränkungen ab; nicht jede Interaktion wird automatisch gemessen.</p>
 <p>Dieser Wechsel hat einen guten Grund. Moderne Websites und Apps bestehen längst nicht mehr nur aus statischen Seiten, die nacheinander geladen werden. Viele Inhalte ändern sich, ohne dass eine neue Seite lädt. Ein eventbasiertes Modell bildet solche Interaktionen sauber ab, weil es nicht an die Seite, sondern an die Handlung gebunden ist <span class="citation" data-cites="googleGa4Events2026">(<a href="#ref-googleGa4Events2026" role="doc-biblioref">Google nd</a>)</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled" title="Analogie: Das Kassenbuch im Einzelhandel">
 <div class="callout-header d-flex align-content-center">
@@ -529,7 +530,7 @@ div.csl-indent {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Wir stellen uns ein Geschäft vor, das nicht nur zählt, wie viele Menschen den Laden betreten, sondern jede einzelne Handlung notiert: Regal angesehen, Produkt in die Hand genommen, Frage an das Personal gestellt, an der Kasse bezahlt. Genauso protokolliert GA4 nicht bloß den Eintritt auf eine Seite, sondern jede relevante Aktion als eigenen Eintrag. Aus diesen Einträgen lässt sich später jeder Weg nachvollziehen.</p>
+<p>Wir stellen uns ein Geschäft vor, das nicht nur zählt, wie viele Menschen den Laden betreten, sondern jede einzelne Handlung notiert: Regal angesehen, Produkt in die Hand genommen, Frage an das Personal gestellt, an der Kasse bezahlt. Genauso protokolliert GA4 nicht bloß den Eintritt auf eine Seite, sondern jede relevante Aktion als eigenen Eintrag. Aus diesen Einträgen lassen sich die erfassten Teile eines Weges nachvollziehen; ein vollständiges Abbild aller Personen entsteht nicht.</p>
 </div>
 </div>
 </section>
@@ -539,15 +540,23 @@ div.csl-indent {
 <p>So entsteht ein reiches Bild aus zwei Teilen. Das Event nennt die Art der Handlung, die Parameter liefern den Kontext. Ein Event namens <code>purchase</code> wird erst durch Parameter wie Bestellwert oder gekaufte Artikel wirklich aussagekräftig. Wir entwerfen unser Tracking deshalb so, dass jedes wichtige Event die Parameter mitbringt, die wir später zur Auswertung brauchen <span class="citation" data-cites="googleGa4Events2026">(<a href="#ref-googleGa4Events2026" role="doc-biblioref">Google nd</a>)</span>.</p>
 <p>GA4 unterscheidet dabei verschiedene Arten von Events. Einige werden automatisch erfasst, sobald die Messung aktiv ist. Andere richten wir gezielt selbst ein, weil sie für unsere Ziele zentral sind. Genau diese selbst definierten Ereignisse, etwa ein abgeschicktes Kontaktformular, bilden später die Grundlage unserer wichtigsten Kennzahlen.</p>
 </section>
-<section id="von-events-zu-conversions" class="level2" data-number="26.3">
-<h2 data-number="26.3" class="anchored" data-anchor-id="von-events-zu-conversions"><span class="header-section-number">26.3</span> Von Events zu Conversions</h2>
-<p>Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Conversion, also als Zielhandlung. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.</p>
-<p>Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang einer Conversion verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern <span class="citation" data-cites="kaushik2010">(<a href="#ref-kaushik2010" role="doc-biblioref">Kaushik 2010</a>)</span>.</p>
+<section id="von-events-zu-schlüsselereignissen" class="level2" data-number="26.3">
+<h2 data-number="26.3" class="anchored" data-anchor-id="von-events-zu-schlüsselereignissen"><span class="header-section-number">26.3</span> Von Events zu Schlüsselereignissen</h2>
+<p>Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Schlüsselereignis (Key Event). Aus einem Schlüsselereignis kann eine Google-Ads-Conversion erstellt werden; die Bezeichnungen und Einstellungen sind zu unterscheiden <span class="citation" data-cites="googleKeyEvents2026">(<a href="#ref-googleKeyEvents2026" role="doc-biblioref">Google o.&nbsp;J.</a>)</span>. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.</p>
+<p>Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang eines Schlüsselereignisses verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern <span class="citation" data-cites="kaushik2010">(<a href="#ref-kaushik2010" role="doc-biblioref">Kaushik 2010</a>)</span>.</p>
+</section>
+<section id="ein-trackingplan-mit-abnahme" class="level2" data-number="26.4">
+<h2 data-number="26.4" class="anchored" data-anchor-id="ein-trackingplan-mit-abnahme"><span class="header-section-number">26.4</span> Ein Trackingplan mit Abnahme</h2>
+<p>Wir definieren für eine erfolgreiche Anfrage das Event, seinen Auslöser und erlaubte Parameter. Der Auslöser ist die bestätigte Übermittlung, nicht schon der Klick auf „Absenden“. Personenbezogene Freitexte oder E-Mail-Adressen übernehmen wir nicht als Analyseparameter.</p>
+<p><strong>Kurzprüfung:</strong> Wir spielen drei Fälle gedanklich durch: gültige Übermittlung, fehlgeschlagene Validierung und erneutes Laden der Bestätigung. Für jeden Fall notieren wir die erwartete Zählung und eine Prüfung gegen das führende Formular- oder CRM-System. Erst danach legen wir fest, ob je Ereignis oder je Sitzung gezählt werden soll. So bleiben technische Events und tatsächlich eingegangene Anfragen unterscheidbar.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-googleGa4Events2026" class="csl-entry" role="listitem">
 Google. nd. <span>„About events - Analytics Help“</span>. nd. <a href="https://support.google.com/analytics/answer/9322688">https://support.google.com/analytics/answer/9322688</a>.
+</div>
+<div id="ref-googleKeyEvents2026" class="csl-entry" role="listitem">
+———. o.&nbsp;J. <span>„About key events“</span>. Zugegriffen 5. September 2026. <a href="https://support.google.com/analytics/answer/9267568?hl=en">https://support.google.com/analytics/answer/9267568?hl=en</a>.
 </div>
 <div id="ref-kaushik2010" class="csl-entry" role="listitem">
 Kaushik, Avinash. 2010. <em>Web analytics 2.0: the art of online accountability &amp; science of customer centricity</em>.

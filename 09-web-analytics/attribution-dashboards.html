@@ -489,6 +489,7 @@ div.csl-indent {
   <li><a href="#das-zurechnungsproblem" id="toc-das-zurechnungsproblem" class="nav-link active" data-scroll-target="#das-zurechnungsproblem"><span class="header-section-number">27.1</span> Das Zurechnungsproblem</a></li>
   <li><a href="#vom-last-click-zu-datengetriebenen-modellen" id="toc-vom-last-click-zu-datengetriebenen-modellen" class="nav-link" data-scroll-target="#vom-last-click-zu-datengetriebenen-modellen"><span class="header-section-number">27.2</span> Vom Last-Click zu datengetriebenen Modellen</a></li>
   <li><a href="#dashboards-die-entscheidungen-tragen" id="toc-dashboards-die-entscheidungen-tragen" class="nav-link" data-scroll-target="#dashboards-die-entscheidungen-tragen"><span class="header-section-number">27.3</span> Dashboards, die Entscheidungen tragen</a></li>
+  <li><a href="#zurechnung-und-zusätzliche-wirkung-unterscheiden" id="toc-zurechnung-und-zusätzliche-wirkung-unterscheiden" class="nav-link" data-scroll-target="#zurechnung-und-zusätzliche-wirkung-unterscheiden"><span class="header-section-number">27.4</span> Zurechnung und zusätzliche Wirkung unterscheiden</a></li>
   </ul>
 </nav>
     </div>
@@ -517,7 +518,7 @@ div.csl-indent {
 <p>Wir klären zwei eng verwandte Fragen. Erstens: Welchem Kanal schreiben wir einen Erfolg gut, wenn die Kundschaft über viele Kontaktpunkte zu uns findet? Das ist die Frage der Attribution. Zweitens: Wie machen wir die Antworten so sichtbar, dass sie zu Entscheidungen führen? Das leisten Dashboards, etwa in Looker Studio.</p>
 <section id="das-zurechnungsproblem" class="level2" data-number="27.1">
 <h2 data-number="27.1" class="anchored" data-anchor-id="das-zurechnungsproblem"><span class="header-section-number">27.1</span> Das Zurechnungsproblem</h2>
-<p>Eine Conversion entsteht selten nach einem einzigen Kontakt. Eine Person sieht vielleicht eine Anzeige, liest später einen Blogbeitrag, klickt Tage darauf auf eine Suchanzeige und kauft erst dann. Jede dieser Stationen ist ein Touchpoint, ein Berührungspunkt mit unserer Marke. Attribution beschreibt, wie wir den Erfolgsbeitrag auf diese Berührungspunkte verteilen.</p>
+<p>Eine Conversion entsteht selten nach einem einzigen Kontakt. Eine Person sieht vielleicht eine Anzeige, liest später einen Blogbeitrag, klickt Tage darauf auf eine Suchanzeige und kauft erst dann. Jede dieser Stationen ist ein Touchpoint, ein Berührungspunkt mit unserer Marke. Attribution beschreibt, wie wir erfasste Conversions nach einer Regel oder einem Modell diesen Berührungspunkten zurechnen. Diese Zuordnung ist noch kein Nachweis ihres ursächlichen Beitrags.</p>
 <p>Diese Verteilung ist keine technische Nebensache, sondern entscheidet über die Budgetlenkung. Wenn wir falsch zurechnen, verschieben wir Geld zu den falschen Kanälen. Die Forschung zeigt, dass eine realistische Zurechnung über mehrere Kontaktpunkte hinweg die Wirkung einzelner Kanäle deutlich anders bewertet als eine vereinfachte Betrachtung <span class="citation" data-cites="li2014">(<a href="#ref-li2014" role="doc-biblioref">Li und Kannan 2014</a>)</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled" title="Analogie: Das Tor im Mannschaftssport">
 <div class="callout-header d-flex align-content-center">
@@ -535,8 +536,8 @@ div.csl-indent {
 </section>
 <section id="vom-last-click-zu-datengetriebenen-modellen" class="level2" data-number="27.2">
 <h2 data-number="27.2" class="anchored" data-anchor-id="vom-last-click-zu-datengetriebenen-modellen"><span class="header-section-number">27.2</span> Vom Last-Click zu datengetriebenen Modellen</h2>
-<p>Lange galt eine einfache Regel: Der letzte Klick vor dem Kauf bekommt den gesamten Erfolg. Dieses Last-Click-Modell ist leicht zu verstehen, verzerrt aber das Bild systematisch. Es überschätzt jene Kanäle, die am Ende der Reise stehen, und unterschätzt jene, die früh Aufmerksamkeit und Vertrauen schaffen.</p>
-<p>Deshalb haben sich differenziertere Ansätze durchgesetzt. Manche Modelle verteilen den Erfolg gleichmäßig auf alle Kontaktpunkte, andere gewichten frühe oder späte Stationen stärker. Den größten Fortschritt bringen datengetriebene Modelle (data-driven attribution). Sie verteilen den Beitrag nicht nach starrer Regel, sondern lernen aus den tatsächlichen Pfaden, welche Berührungspunkte den Unterschied machen <span class="citation" data-cites="berman2018">(<a href="#ref-berman2018" role="doc-biblioref">Berman 2018</a>)</span>.</p>
+<p>Lange galt eine einfache Regel: Der letzte Klick vor dem Kauf bekommt den gesamten Erfolg. Dieses Last-Click-Modell ist leicht zu verstehen, blendet bei der Zurechnung aber alle früheren Kontakte aus. Daraus folgt weder, dass frühere Kontakte wirkungslos waren, noch, dass der letzte Kontakt den Kauf verursacht hat.</p>
+<p>Deshalb haben sich differenziertere Ansätze durchgesetzt. Manche Modelle verteilen den Erfolg gleichmäßig auf alle Kontaktpunkte, andere gewichten frühe oder späte Stationen stärker. Datengetriebene Modelle (data-driven attribution) nutzen beobachtete Pfade und Modellannahmen für die Zurechnung <span class="citation" data-cites="berman2018">(<a href="#ref-berman2018" role="doc-biblioref">Berman 2018</a>)</span>. Auch sie hängen von verfügbaren Signalen, Identifikatoren und Auswertungsfenstern ab; fehlende Kontakte und bereits vorhandene Kaufabsicht können das Bild verzerren.</p>
 <p>GA4 stellt für diese Zurechnung eigene Einstellungen bereit. Wir wählen dort bewusst, nach welcher Logik Conversions auf Kanäle verteilt werden, statt die Voreinstellung ungeprüft zu übernehmen <span class="citation" data-cites="googleGa4Attribution2026">(<a href="#ref-googleGa4Attribution2026" role="doc-biblioref">Google nd</a>)</span>.</p>
 <div class="callout callout-style-simple callout-important callout-titled" title="Last-Click ist bequem, aber irreführend">
 <div class="callout-header d-flex align-content-center">
@@ -548,7 +549,7 @@ div.csl-indent {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Wir verlassen uns nicht allein auf den letzten Klick. Wer nur den finalen Schritt belohnt, kürzt das Budget genau dort, wo Nachfrage erst entsteht. Eine mehrstufige Betrachtung schützt vor dieser stillen Fehlsteuerung.</p>
+<p>Wir verlassen uns nicht allein auf den letzten Klick. Wer nur den finalen Schritt belohnt, kann vorgelagerte Kontakte übersehen. Auch eine mehrstufige Betrachtung beweist jedoch nicht, wie viele Käufe ohne Werbung ausgeblieben wären.</p>
 </div>
 </div>
 </section>
@@ -557,6 +558,12 @@ div.csl-indent {
 <p>Die beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Dashboard bündelt die wichtigsten Kennzahlen an einem Ort und macht sie auf einen Blick lesbar. Werkzeuge wie Looker Studio verbinden sich dafür direkt mit GA4 und anderen Datenquellen und stellen die Zahlen als Diagramme und Übersichten dar.</p>
 <p>Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Phasen der Customer Journey. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann <span class="citation" data-cites="ahrholdt2023">(<a href="#ref-ahrholdt2023" role="doc-biblioref">Ahrholdt 2023</a>)</span>.</p>
 <p>Wir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.</p>
+</section>
+<section id="zurechnung-und-zusätzliche-wirkung-unterscheiden" class="level2" data-number="27.4">
+<h2 data-number="27.4" class="anchored" data-anchor-id="zurechnung-und-zusätzliche-wirkung-unterscheiden"><span class="header-section-number">27.4</span> Zurechnung und zusätzliche Wirkung unterscheiden</h2>
+<p>Im fiktiven Beispiel führen 100 Käufe jeweils über Social Media und danach eine Suchanzeige. Last-Click schreibt der Suche 100 Käufe zu; eine gleichmäßige Regel ordnet beiden Kanälen je 50 zu. Keine Variante erzeugt zusätzliche Käufe: Der tatsächliche Gesamtwert bleibt 100. Melden beide Werbekonten jeweils 100 zugeordnete Käufe, dürfen wir daraus keine 200 Käufe machen. Wir gleichen Transaktionen und Attributionsfenster mit dem Shop ab.</p>
+<p>Zusätzliche Wirkung heißt dagegen: Wie verändert sich das Ergebnis gegenüber einer vergleichbaren Situation ohne diese Maßnahme? Ein vorab geplanter, randomisierter Test mit Kontrollgruppe kann diese Frage beantworten. Ein Vorher-nachher-Vergleich allein vermischt die Maßnahme mit Saison, Nachfrage und anderen Änderungen. Auch im Experiment betrachten wir Unsicherheit, Stichprobengröße und wirtschaftlichen Nutzen getrennt.</p>
+<p><strong>Kurzprüfung:</strong> Wir berechnen für die 100 Käufe beide Zurechnungen und formulieren einen zulässigen Ergebnissatz sowie eine offene Wirkungsfrage. Ins Dashboard gehören neben Zeitraum und Kennzahlendefinition auch Quelle, Attributionsfenster, Modell und erkennbare Datenlücken. Im Planspiel sind ausgewiesene Kanalwerte Ergebnisse der Simulation; sie belegen keine entsprechende Wirkung in einem realen Werbekonto.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
