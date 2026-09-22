@@ -186,14 +186,18 @@ A dark, atmospheric composition suggesting streams of discrete events: many smal
 <section id="vom-seitenaufruf-zum-event" class="slide level2">
 <h2>Vom Seitenaufruf zum Event</h2>
 <p>Frühere Werkzeuge dachten in Seitenaufrufen. Die zentrale Frage war: Welche Seite wurde wie oft geöffnet?</p>
+<div class="fragment">
 <p>GA4 verschiebt diesen Blick. Nicht die Seite ist die kleinste Einheit, sondern die einzelne Handlung:</p>
+</div>
 <ul>
 <li class="fragment">ein Seitenaufruf</li>
 <li class="fragment">ein Klick</li>
 <li class="fragment">ein Scrollvorgang</li>
 <li class="fragment">ein Download</li>
 </ul>
+<div class="fragment">
 <p>Diese Aktionen können als <strong>Events</strong> erfasst werden. Einrichtung, Einwilligung und Technik begrenzen die Messung.</p>
+</div>
 <div class="sources">
 <p>Quelle: <span class="citation" data-cites="googleGa4Events2026">Google (<a href="#/literatur" role="doc-biblioref" onclick="">nd</a>)</span></p>
 </div>
@@ -215,16 +219,18 @@ A dark, atmospheric composition suggesting streams of discrete events: many smal
 <h2>Das Datenmodell besteht aus zwei Teilen</h2>
 <p>Ein Event nennt die Art der Handlung. Parameter liefern den Kontext dazu.</p>
 <div class="features">
-<div class="feature">
+<div class="feature fragment">
 <p><span class="accent-blue"><i class="fa-solid fa-bolt" aria-label="bolt"></i></span> <strong>Event</strong></p>
 <p>Was ist geschehen? Zum Beispiel <code>purchase</code>.</p>
 </div>
-<div class="feature">
+<div class="feature fragment">
 <p><span class="accent-green"><i class="fa-solid fa-tags" aria-label="tags"></i></span> <strong>Parameter</strong></p>
 <p>In welchem Kontext? Bestellwert, Artikel, Seite.</p>
 </div>
 </div>
+<div class="fragment">
 <p>Ein <code>purchase</code> wird erst durch Parameter wie Bestellwert oder Artikel wirklich aussagekräftig.</p>
+</div>
 <div class="sources">
 <p>Quelle: <span class="citation" data-cites="googleGa4Events2026">Google (<a href="#/literatur" role="doc-biblioref" onclick="">nd</a>)</span></p>
 </div>
@@ -265,7 +271,9 @@ A dark, atmospheric composition suggesting streams of discrete events: many smal
 <div class="formula editorial">
 <p>Aus vielen Events werden wenige Zielhandlungen.</p>
 </div>
+<div class="fragment">
 <p>So entsteht aus einer Flut von Ereignissen eine überschaubare Zahl von Schlüsselereignissen, die tatsächlich verfolgt und verbessert werden.</p>
+</div>
 <div class="sources">
 <p>Quelle: <span class="citation" data-cites="googleKeyEvents2026">Google (<a href="#/literatur" role="doc-biblioref" onclick="">o.&nbsp;J.</a>)</span></p>
 </div>
@@ -286,8 +294,12 @@ A dark, atmospheric composition suggesting streams of discrete events: many smal
 <section id="analogie-das-kassenbuch-im-einzelhandel" class="slide level2">
 <h2>Analogie: Das Kassenbuch im Einzelhandel</h2>
 <p>Ein Geschäft zählt nicht nur, wer den Laden betritt.</p>
+<div class="fragment">
 <p>Es notiert jede Handlung: Regal angesehen, Produkt in die Hand genommen, Frage gestellt, an der Kasse bezahlt.</p>
+</div>
+<div class="fragment">
 <p>Genauso protokolliert GA4 nicht bloß den Seiteneintritt, sondern jede relevante Aktion als eigenen Eintrag. Erkennbar bleiben die erfassten Teile eines Weges; das Bild ist unvollständig.</p>
+</div>
 <aside class="notes">
 <p>Das Bild des Kassenbuchs macht das eventbasierte Modell greifbar. Statt nur Eintritte zu zählen, wird jede einzelne Handlung festgehalten. Genau diese Granularität erlaubt es später, ganze Pfade der Kundschaft zu rekonstruieren.</p>
 <style type="text/css">
@@ -305,7 +317,9 @@ A dark, atmospheric composition suggesting streams of discrete events: many smal
 <section id="vom-event-zur-verlässlichen-anfrage" class="slide level2">
 <h2>Vom Event zur verlässlichen Anfrage</h2>
 <p>Auslöser: bestätigte Übermittlung, nicht der Klick auf „Absenden“.</p>
+<div class="fragment">
 <p>Testfälle: gültige Anfrage · Validierungsfehler · erneut geladene Bestätigung.</p>
+</div>
 <aside class="notes">
 <p>Für jeden Fall wird die erwartete Zählung festgehalten und gegen Formularsystem oder CRM geprüft. Personenbezogene Freitexte und E-Mail-Adressen gehören nicht in Analyseparameter. Auch die Zählregel je Ereignis oder je Sitzung wird bewusst festgelegt. Eine Google-Ads-Conversion kann aus einem GA4-Schlüsselereignis erstellt werden; die Einstellungen sind zu unterscheiden.</p>
 <style type="text/css">

@@ -252,7 +252,9 @@ Moderne, frische Komposition: aus einer einzelnen Eingabezeile fächern sich fei
 <section id="warum-die-anweisung-zählt" class="slide level2">
 <h2>Warum die Anweisung zählt</h2>
 <p>Ein Sprachmodell sieht nicht, was im Kopf vorgeht. Es arbeitet mit verfügbarem <span class="highlight-blue">Kontext</span>: je nach Werkzeug Text, Dateien, Bilder oder abgerufene Quellen.</p>
+<div class="fragment">
 <p>Eine vage Bitte erzeugt eine beliebige Antwort. Eine präzise Anweisung richtet das Modell auf das gewünschte Ergebnis aus.</p>
+</div>
 <div class="sources">
 <p>Quelle: <span class="citation" data-cites="anthropicPrompting2024">Anthropic (<a href="#/literatur" role="doc-biblioref" onclick="">nd</a>)</span></p>
 </div>
@@ -290,19 +292,19 @@ Moderne, frische Komposition: aus einer einzelnen Eingabezeile fächern sich fei
 <section id="vier-bausteine-eines-guten-prompts" class="slide level2">
 <h2>Vier Bausteine eines guten Prompts</h2>
 <div class="features">
-<div class="feature">
+<div class="feature fragment">
 <p><span class="accent-blue"><i class="fa-solid fa-bullseye" aria-label="bullseye"></i></span> <strong>Klare Aufgabe</strong></p>
 <p>Ergebnis, Format und Umfang benennen.</p>
 </div>
-<div class="feature">
+<div class="feature fragment">
 <p><span class="accent-green"><i class="fa-solid fa-user-tie" aria-label="user-tie"></i></span> <strong>Rolle</strong></p>
 <p>Eine Expertenrolle steuert die Perspektive.</p>
 </div>
-<div class="feature">
+<div class="feature fragment">
 <p><span class="accent-orange"><i class="fa-solid fa-layer-group" aria-label="layer-group"></i></span> <strong>Kontext</strong></p>
 <p>Zielgruppe, Anlass und Rahmen mitliefern.</p>
 </div>
-<div class="feature">
+<div class="feature fragment">
 <p><span class="accent-violet"><i class="fa-solid fa-clone" aria-label="clone"></i></span> <strong>Beispiel</strong></p>
 <p>Ein Muster zeigt die gewünschte Form.</p>
 </div>
@@ -326,7 +328,9 @@ Moderne, frische Komposition: aus einer einzelnen Eingabezeile fächern sich fei
 <p>Statt eines allgemeinen Themas das gewünschte Ergebnis mit Format und Umfang benennen.</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href=""></a>Erkläre Prompt Engineering in fünf Sätzen</span>
 <span id="cb1-2"><a href=""></a>für eine Marketingmitarbeiterin ohne Vorkenntnisse.</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="fragment">
 <p>Der Prompt legt Ergebnis, Umfang und Adressat fest. Das Modell muss nicht mehr raten.</p>
+</div>
 <aside class="notes">
 <p>Hier wird der erste Baustein konkret. Der Prompt benennt das Ergebnis, also eine Erklärung, den Umfang von fünf Sätzen und den Adressaten, eine Marketingmitarbeiterin ohne Vorkenntnisse. Damit entfällt jedes Raten über das, was gemeint ist.</p>
 <style type="text/css">
@@ -347,7 +351,9 @@ Moderne, frische Komposition: aus einer einzelnen Eingabezeile fächern sich fei
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href=""></a>Verhalte dich als erfahrene SEO-Beraterin.</span>
 <span id="cb2-2"><a href=""></a>Bewerte den folgenden Seitentitel und</span>
 <span id="cb2-3"><a href=""></a>schlage drei Alternativen vor.</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="fragment">
 <p>Unterschiedliche Rollen liefern gezielt unterschiedliche Sichtweisen.</p>
+</div>
 <aside class="notes">
 <p>Der zweite Baustein ist die Rolle. Eine SEO-Beraterin achtet auf andere Aspekte als eine Texterin, also liefert die zugewiesene Rolle eine bestimmte Perspektive. Wer verschiedene Sichtweisen braucht, variiert gezielt die Rolle.</p>
 <style type="text/css">
@@ -394,7 +400,9 @@ Moderne, frische Komposition: aus einer einzelnen Eingabezeile fächern sich fei
 <li class="fragment">Antwort prüfen</li>
 <li class="fragment">Gezielt ergänzen, was gefehlt hat</li>
 </ul>
+<div class="fragment">
 <p>Für wiederkehrende Aufgaben helfen <span class="highlight-green">Platzhalter</span> wie <code>[ROLLE]</code> oder <code>[ZIELGRUPPE]</code>.</p>
+</div>
 <div class="sources">
 <p>Quelle: <span class="citation" data-cites="bolz2024">Bolz (<a href="#/literatur" role="doc-biblioref" onclick="">2024</a>)</span></p>
 </div>
