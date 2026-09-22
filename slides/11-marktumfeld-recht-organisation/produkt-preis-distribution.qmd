@@ -26,7 +26,7 @@ Quelle: @kreutzer2025
 Der Ausgangspunkt ist eine ökonomische Besonderheit. Eine weitere Kopie einer digitalen Leistung verursacht nahezu keine zusätzlichen Kosten, während eine weitere Packung Kaffee Rohstoff, Arbeit und Logistik bindet. Wo Grenzkosten gegen null gehen, wird es sinnvoll, dasselbe Angebot in mehreren Zuschnitten und Preisstufen anzubieten, statt es einheitlich zu verkaufen. Genau daraus leiten sich die Modelle der nächsten Folie ab. Sie sind keine Marketingmoden, sondern Konsequenzen aus der Kostenstruktur.
 :::
 
-## Vier Angebotsformen folgen aus dieser Kostenstruktur
+## Versioning und Freemium unterscheiden den Funktionsumfang
 
 :::: {.features}
 
@@ -34,7 +34,7 @@ Der Ausgangspunkt ist eine ökonomische Besonderheit. Eine weitere Kopie einer d
 [01]{.feature-number}
 **Versioning**
 
-Dieselbe Leistung in mehreren Ausbaustufen, etwa Basis, Profi und Unternehmen.
+Dieselbe Leistung in mehreren Ausbaustufen: Basis, Profi und Unternehmen.
 :::
 
 ::: {.feature}
@@ -44,24 +44,34 @@ Dieselbe Leistung in mehreren Ausbaustufen, etwa Basis, Profi und Unternehmen.
 Grundversion dauerhaft kostenlos, Zusatzfunktionen kostenpflichtig.
 :::
 
+::::
+
+::: {.notes}
+Versioning überlässt die Wahl des Funktionsumfangs der Kundschaft. Freemium kombiniert eine dauerhaft kostenlose Grundversion mit kostenpflichtigen Zusatzfunktionen. Beide Modelle lassen sich verbinden, verfolgen aber unterschiedliche Entscheidungen über Umfang und Zugang.
+:::
+
+## Abo und Bundling gestalten die Angebotsbeziehung
+
+:::: {.features}
+
 ::: {.feature}
 [03]{.feature-number}
 **Abo**
 
-Fokus vom Einzelkauf auf eine laufende Beziehung verschoben.
+Laufende Beziehung anstelle eines einzelnen Kaufs.
 :::
 
 ::: {.feature}
 [04]{.feature-number}
 **Bundling**
 
-Mehrere Leistungen zu einem Paket zusammengefasst.
+Mehrere Leistungen in einem Paket.
 :::
 
 ::::
 
 ::: {.notes}
-Die vier Formen unterscheiden sich darin, welche Entscheidung sie der Kundschaft überlassen. Versioning bietet dieselbe Leistung in mehreren Ausbaustufen an, etwa als Basis-, Profi- und Unternehmensversion, und überlässt die Wahl des Funktionsumfangs der Kundschaft. Beim Freemium-Modell bleibt eine Grundversion dauerhaft kostenlos, während Zusatzfunktionen bezahlt werden. Abo-Modelle verschieben den Fokus vom Einzelkauf auf eine laufende Beziehung. Bundling fasst mehrere Leistungen zu einem Paket zusammen. Für die Rösterei ist vor allem das Abo relevant, weil es Nachschub planbar macht.
+Ein Abo verschiebt den Fokus auf eine laufende Beziehung, Bundling auf die Zusammenstellung mehrerer Leistungen. Im Röstereibeispiel macht das Abo den Nachschub planbar. Beide Angebotsformen sind auch mit physischen Produkten möglich.
 :::
 
 ## Auch physische Produkte gewinnen digitale Anteile
@@ -181,6 +191,16 @@ Die vier Formen bilden eine Reihenfolge, die zugleich die Abwägung beschreibt. 
 
 ::: {.notes}
 Nach der Markteintrittsform folgen drei operative Fragen, die in dieser Reihenfolge zu klären sind. Die Lokalisierung betrifft mehr als Sprache: Maßeinheiten, Bildwelt und Tonalität müssen zum Markt passen, und eine reine Übersetzung wirkt schnell fremd. Die Kanalwahl kann nicht aus dem Heimatmarkt übernommen werden, weil führende Suchmaschinen, soziale Netzwerke und Marktplätze sich je Land erheblich unterscheiden. Die Abwicklung wird am häufigsten unterschätzt: Bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln entscheiden oft stärker über den Kaufabbruch als die Produktseite selbst.
+:::
+
+## Strategiebeispiel und Simulation unterscheiden
+
+Shop, Laden und Abo sind strategische Wahlmöglichkeiten des Beispiels.
+
+Im Planspiel gelten ausschließlich die dort ausgewiesenen Eingabefelder und Regeln.
+
+::: {.notes}
+Preise, Sortiment, Abos oder Vertriebskanäle sind nicht automatisch in jeder Simulation veränderbar. Der Unternehmenstransfer betrachtet wieder den ganzen Marketing-Mix. Auch die Margenübersicht ist vereinfacht: Provisionen, Versand, Retouren, Kundengewinnung und Betriebskosten müssen für einen belastbaren Vergleich berücksichtigt werden. Ein eigener Shop garantiert keine höhere Nettomarge.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

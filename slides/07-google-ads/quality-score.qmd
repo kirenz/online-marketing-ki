@@ -20,14 +20,14 @@ Eine Diagnosekennzahl von **1 bis 10** zeigt, wie gut eine Anzeige zu einem Keyw
 
 Wichtig: Die Zahl fließt nicht direkt in die Auktion ein. Ihre **Komponenten** wirken auf den Anzeigenrang.
 
-Ein hoher Wert bedeutet tendenziell bessere Positionen bei niedrigeren Klickpreisen.
+Der historische Diagnosewert garantiert weder günstigere Klicks noch bessere Positionen.
 
 ::: {.sources}
 Quelle: @shemshaki2025
 :::
 
 ::: {.notes}
-Der Quality Score ist eine Diagnosekennzahl von 1 bis 10 für die Passung zwischen Anzeige und Keyword. Er fließt nicht als einzelne Zahl in die Auktion ein, sondern seine Komponenten beeinflussen den Anzeigenrang. Ein hoher Wert signalisiert Nützlichkeit und führt tendenziell zu besseren Positionen bei niedrigeren Kosten.
+Der Quality Score ist eine Diagnosekennzahl von 1 bis 10 für die Passung zwischen Anzeige und Keyword. Er fließt nicht als einzelne Zahl in die Auktion ein, sondern seine Komponenten beeinflussen den Anzeigenrang. Qualität und Kontext werden für jede Auktion neu bewertet; der historische Diagnosewert garantiert kein bestimmtes Ergebnis.
 :::
 
 ## Drei Komponenten, drei Hebel
@@ -93,18 +93,18 @@ Aus den Komponenten ergeben sich drei Hebel. Für die Klickrate helfen Texte, di
 
 Optimiert wird nicht die Quality-Score-Zahl, sondern die drei [Komponenten dahinter]{.highlight-green}.
 
-Wer Klickrate, Relevanz und Zielseiten-Erfahrung verbessert, hebt den Wert von selbst und senkt zugleich die Kosten.
+Verbesserungen werden an tatsächlichen Ergebnissen geprüft. Wettbewerb, Gebote und Kontext wirken gleichzeitig.
 
 ::: {.notes}
-Eine wichtige Klarstellung zum Schluss: Die Quality-Score-Zahl lässt sich nicht direkt steuern, nur die Komponenten dahinter. Wer Klickrate, Relevanz und Zielseiten-Erfahrung verbessert, hebt den Wert automatisch und senkt die Kosten. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.
+Eine wichtige Klarstellung zum Schluss: Die Quality-Score-Zahl lässt sich nicht direkt steuern, nur die Komponenten dahinter. Eine Verbesserung dieser Aspekte senkt die Kosten nicht automatisch. Wettbewerb und Suchkontext können sich gleichzeitig ändern. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
-Der Quality Score ist ein Wegweiser aus drei Komponenten: erwartete Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung. Wir verbessern nicht die Zahl, sondern diese drei Hebel. So entstehen bessere Positionen und niedrigere Kosten zugleich.
+Der Quality Score ist ein Wegweiser aus drei Komponenten: erwartete Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung. Wir verbessern nicht die Zahl, sondern diese drei Hebel. Die tatsächlichen Ergebnisse bleiben der Maßstab.
 
 ::: {.notes}
-Als Kernbotschaft bleibt: Der Quality Score zeigt die Anzeigenqualität, und seine drei Komponenten sind die eigentlichen Stellschrauben. Wer an erwarteter Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung arbeitet, verbessert Position und Kosten gemeinsam und schließt damit den Bogen vom Auktionsmechanismus zur praktischen Optimierung.
+Als Kernbotschaft bleibt: Der Quality Score zeigt die Anzeigenqualität, und seine drei Komponenten sind die eigentlichen Stellschrauben. Wer an erwarteter Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung arbeitet, prüft mögliche Verbesserungen anhand tatsächlicher Positionen, Kosten und Zielhandlungen und schließt damit den Bogen vom Auktionsmechanismus zur praktischen Optimierung.
 :::
 
 ## Literatur

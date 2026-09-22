@@ -1,11 +1,11 @@
 # Marketing-Grundlagen {.unnumbered}
 
-In diesem Modul klären wir, worum es im Marketing geht, warum es für jede Organisation zentral ist und welche Rolle Künstliche Intelligenz künftig spielt. Wir legen damit das gemeinsame Vokabular für den ganzen Kurs.
+In diesem Modul klären wir, worum es im Marketing geht, warum es für jede Organisation zentral ist und welche Rolle Künstliche Intelligenz künftig spielt. Danach verschaffen wir uns einen Überblick über den Online-Werbemarkt und den Planungsprozess einer Kampagne, der als Landkarte durch den ganzen Kurs führt.
 
 Wir werden:
 
-- den Marketing-Mix auf ein eigenes Beispiel anwenden
 - zentrale Marketing-Begriffe sicher verwenden
 - die Rolle von KI im Marketing grob einordnen
+- die Marktpartner des Online-Werbemarkts und die Schritte des Planungsprozesses benennen
 
-**Quellen:** [@kotler2022; @huang2021]
+**Quellen:** [@kotler2022; @huang2021; @kreutzer2025]

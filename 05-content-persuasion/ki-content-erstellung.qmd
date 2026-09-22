@@ -14,7 +14,7 @@ KI erfindet bisweilen Fakten, Zahlen oder Quellen, die überzeugend klingen, abe
 
 ## KI für die Aufgaben dieses Moduls
 
-Die vorigen Lessons liefern den Stoff, den KI bearbeiten kann. Für die Content-Strategie entwirft sie Themenideen, Gliederungen und Redaktionsplan-Vorschläge. Für die Persuasion formuliert sie eine Botschaft in Varianten, etwa eine mit Knappheit und eine mit Social Proof, sodass wir die wirksamere wählen können. Für das Storytelling skizziert sie einen Spannungsbogen, den wir mit echten Details füllen.
+Die vorigen Lessons liefern den Stoff, den KI bearbeiten kann. Für die Content-Strategie entwirft sie Themenideen, Gliederungen und Redaktionsplan-Vorschläge. Für die Persuasion formuliert sie eine Botschaft in Varianten, etwa eine mit Knappheit und eine mit Social Proof, sodass wir passende, wahrheitsgemäße Varianten für einen späteren Test auswählen können. Welche besser wirkt, folgt nicht aus der Beurteilung durch die KI. Für das Storytelling skizziert sie einen Spannungsbogen, den wir mit echten Details füllen.
 
 Die Qualität dieser Entwürfe hängt unmittelbar von der Anweisung ab, dem Prompt. Eine vage Bitte erzeugt eine beliebige Antwort. Erst wenn wir Rolle, Aufgabe, Zielgruppe und Tonalität benennen, wird die Ausgabe brauchbar. Genau diese Technik des strukturierten Prompts vertieft Modul 10, das hier ansetzt.
 
@@ -27,3 +27,9 @@ KI gleicht einer fleißigen Praktikantin, die in Minuten zwanzig Entwürfe liefe
 Der größte Gewinn von KI ist Geschwindigkeit, ihre größte Gefahr ist Beliebigkeit. Wer KI-Texte ungefiltert veröffentlicht, produziert schnell viel Inhalt, der austauschbar klingt und niemanden erreicht. Der Wert entsteht erst dort, wo menschliches Urteil den Entwurf zuspitzt: mit echten Beispielen, mit einer klaren Haltung und mit der eigenen Markenstimme.
 
 So schließt sich der Bogen des Moduls. Strategie legt fest, was wir sagen, Persuasion und Storytelling legen fest, wie es wirkt, und KI hilft, es schneller in Form zu bringen. Die Sorgfalt am Ende bleibt menschlich, und genau sie unterscheidet wirksamen Content von bloßem Rauschen.
+
+## Eine Aussage bis zur Quelle prüfen
+
+Wir markieren im Entwurf Zahlen, Produktversprechen, Zitate und behauptete Kundenerfahrungen. Für jede überprüfbare Aussage öffnen wir die Originalquelle und notieren die tragende Stelle sowie deren Datum. Eine erfundene Quelle wird gestrichen; eine echte Quelle, die die Behauptung nicht trägt, ist ebenfalls kein Beleg. Fehlende Informationen kennzeichnen wir als offen.
+
+**Kurzprüfung:** Ein fiktiver Entwurf behauptet „von 90 Prozent der Kundschaft empfohlen“, obwohl nur fünf positive Kommentare vorliegen. Wir benennen den fehlenden Nenner und ersetzen die Zahl durch eine belegbare Beschreibung. Dasselbe gilt für künstlich erzeugte Bewertungen, Knappheit und Referenzen.

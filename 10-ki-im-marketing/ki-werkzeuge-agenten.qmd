@@ -38,6 +38,14 @@ Ein tragfähiger Workflow entsteht, wenn wir wiederkehrende Aufgaben identifizie
 
 ## Ausblick: Was diesen Kurs verbindet
 
-Mit dieser Lesson schließt das Modul und der Kurs. Ein roter Faden zieht sich durch alle Module: Marketing beginnt beim Verständnis der Zielgruppe, führt über klare Ziele und Strategie zu Inhalten und Kanälen und endet bei der Messung der Wirkung. KI ist kein eigener Endpunkt, sondern eine Schicht, die diesen gesamten Prozess unterstützt, vom Entwurf eines Personas-Steckbriefs über SEO-Texte und Anzeigen bis zur Auswertung von Kennzahlen.
+Mit dieser Lesson schließen wir das KI-Modul; Marktumfeld, Recht und Organisation ergänzen die Umsetzung. Ein roter Faden zieht sich durch alle Module: Marketing beginnt beim Verständnis der Zielgruppe, führt über klare Ziele und Strategie zu Inhalten und Kanälen und endet bei der Messung der Wirkung. KI ist kein eigener Endpunkt, sondern eine Schicht, die diesen gesamten Prozess unterstützt, vom Entwurf eines Personas-Steckbriefs über SEO-Texte und Anzeigen bis zur Auswertung von Kennzahlen.
 
-Genau deshalb steht dieses Modul am Ende: Es greift die Aufgaben der vorigen Module auf und zeigt, wie strukturierte Prompts, generative Inhalte und KI-Werkzeuge sie schneller und konsistenter machen. Die menschliche Rolle bleibt dabei in allen Modulen dieselbe: Ziele setzen, Kontext liefern, Ergebnisse prüfen und Verantwortung tragen. Wer den Kurs mit dieser Haltung verlässt, kann KI als verlässlichen Teil der eigenen Marketingarbeit nutzen.
+Deshalb bündelt dieses Modul die bisherigen Inhalte: Es greift die Aufgaben der vorigen Module auf und zeigt, wie strukturierte Prompts, generative Inhalte und KI-Werkzeuge sie schneller und konsistenter machen. Die menschliche Rolle bleibt dabei in allen Modulen dieselbe: Ziele setzen, Kontext liefern, Ergebnisse prüfen und Verantwortung tragen. Wer den Kurs mit dieser Haltung verlässt, kann KI als verlässlichen Teil der eigenen Marketingarbeit nutzen.
+
+## Ein begrenzter Agentenauftrag
+
+Für einen wöchentlichen Marketingbericht legen wir einen Arbeitsauftrag fest: freigegebene Kampagnendaten lesen, Kennzahlen mit Rechenweg zusammenfassen, fehlende Werte kennzeichnen und einen Budgetvorschlag als Entwurf ablegen. Als Quellen dienen nur die benannten Daten; zusätzliche Quellen werden einzeln ausgewiesen.
+
+Der Agent erhält für diesen Auftrag Leserechte und einen Ablageort für Entwürfe. Änderungen an Kampagnen, Ausgaben und Nachrichten benötigen eine gesonderte Freigabe. Fehlen Daten oder widersprechen sich Summen, stoppt die Auswertung mit einer konkreten Rückfrage. Wir protokollieren Quellen, Zeit und durchgeführte Schritte.
+
+**Kurzprüfung:** Wir formulieren für einen eigenen Arbeitsablauf Ergebnis, erlaubte Werkzeuge, Datenzugriff, Freigabepunkt und Abbruchbedingung. Der Auftrag ist erst überprüfbar, wenn eine andere Person erkennen kann, wann er erfolgreich abgeschlossen ist und welche Handlung noch nicht erlaubt ist.

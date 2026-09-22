@@ -4,7 +4,7 @@ Ein SMART-Ziel benennt bereits eine Kennzahl, doch in der Praxis genügt eine ei
 
 ## Was eine Kennzahl zur Steuerungsgröße macht
 
-Eine Kennzahl, kurz KPI für Key Performance Indicator, ist eine Messgröße, die den Fortschritt in Richtung eines Ziels sichtbar macht. Entscheidend ist nicht, dass eine Zahl überhaupt erfasst werden kann, sondern dass sie eine Frage beantwortet, die für die Steuerung wichtig ist. Eine Steuerungsgröße zeichnet sich dadurch aus, dass sie eindeutig definiert, regelmäßig verfügbar und durch die eigene Arbeit beeinflussbar ist.
+Eine Kennzahl ist eine Messgröße. Erst wenn wir sie als Schlüsselgröße für ein Ziel auswählen, wird sie zum KPI (Key Performance Indicator). Entscheidend ist nicht, dass eine Zahl überhaupt erfasst werden kann, sondern dass sie eine Frage beantwortet, die für die Steuerung wichtig ist. Eine Steuerungsgröße zeichnet sich dadurch aus, dass sie eindeutig definiert, regelmäßig verfügbar und durch die eigene Arbeit beeinflussbar ist.
 
 Daten allein schaffen noch keinen Überblick. Erst wenn wir bewusst auswählen, welche wenigen Größen wirklich auf das Ziel einzahlen, entsteht aus der Fülle möglicher Messwerte ein nützliches Steuerungsbild [@farris2010].
 
@@ -25,3 +25,9 @@ Wir gehen von einem konkreten Ziel aus und arbeiten uns zur passenden Messung vo
 ::: {.callout-important title="Eitelkeitszahlen erkennen"}
 Manche Zahlen sehen beeindruckend aus, beantworten aber keine steuerungsrelevante Frage. Reine Impressionen oder Gesamtaufrufe steigen fast immer und verleiten zu Optimismus, ohne über den Beitrag zum Ziel etwas auszusagen. Wir prüfen bei jeder Kennzahl, ob eine Veränderung tatsächlich eine Entscheidung auslösen würde, und verwerfen sie andernfalls als bloße Eitelkeitszahl, wie es @farris2010 nahelegt.
 :::
+
+## Ein messbarer Kennzahlensteckbrief
+
+Für die Webinar-Anmeldungen halten wir Zähler, Nenner, Zeitraum, Datenquelle und Zählregel fest. Eine mehrfach abgesendete Anmeldung zählt nach Bereinigung je Person nur einmal. Eine sitzungsbezogene Anmelderate teilt Sitzungen mit mindestens einer Anmeldung durch alle erfassten Sitzungen auf der Anmeldeseite im selben Zeitraum. Die Zahl aller Formular-Events wäre ein anderer Zähler.
+
+**Kurzprüfung:** Wir formulieren für ein eigenes Ziel genau einen Ergebnisindikator mit diesem Steckbrief und einen Frühindikator. Danach benennen wir eine konkrete Entscheidung, die ein schlechter Wert auslösen würde. Prüfkriterium: Eine zweite Person könnte die Kennzahl mit derselben Datenquelle nachrechnen.

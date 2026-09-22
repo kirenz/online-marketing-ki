@@ -4,12 +4,12 @@ Wir schauen uns an, wie Google Analytics 4 (kurz GA4) Verhalten auf einer Websit
 
 ## Vom Seitenaufruf zum Event
 
-Frühere Analyse-Werkzeuge dachten in Seitenaufrufen. Im Zentrum stand die Frage, welche Seite wie oft geöffnet wurde. GA4 verschiebt diesen Blick grundlegend: Nicht mehr die Seite ist die kleinste Einheit, sondern die einzelne Handlung. Jeder Seitenaufruf, jeder Klick, jedes Scrollen und jeder Download wird als Event erfasst.
+Frühere Analyse-Werkzeuge dachten in Seitenaufrufen. Im Zentrum stand die Frage, welche Seite wie oft geöffnet wurde. GA4 verschiebt diesen Blick grundlegend: Nicht mehr die Seite ist die kleinste Einheit, sondern die einzelne Handlung. Seitenaufrufe, bestimmte Klicks, Scrollvorgänge und Downloads können als Events erfasst werden. Welche davon tatsächlich ankommen, hängt von Einrichtung, Einwilligung und technischen Einschränkungen ab; nicht jede Interaktion wird automatisch gemessen.
 
 Dieser Wechsel hat einen guten Grund. Moderne Websites und Apps bestehen längst nicht mehr nur aus statischen Seiten, die nacheinander geladen werden. Viele Inhalte ändern sich, ohne dass eine neue Seite lädt. Ein eventbasiertes Modell bildet solche Interaktionen sauber ab, weil es nicht an die Seite, sondern an die Handlung gebunden ist [@googleGa4Events2026].
 
 ::: {.callout-tip title="Analogie: Das Kassenbuch im Einzelhandel"}
-Wir stellen uns ein Geschäft vor, das nicht nur zählt, wie viele Menschen den Laden betreten, sondern jede einzelne Handlung notiert: Regal angesehen, Produkt in die Hand genommen, Frage an das Personal gestellt, an der Kasse bezahlt. Genauso protokolliert GA4 nicht bloß den Eintritt auf eine Seite, sondern jede relevante Aktion als eigenen Eintrag. Aus diesen Einträgen lässt sich später jeder Weg nachvollziehen.
+Wir stellen uns ein Geschäft vor, das nicht nur zählt, wie viele Menschen den Laden betreten, sondern jede einzelne Handlung notiert: Regal angesehen, Produkt in die Hand genommen, Frage an das Personal gestellt, an der Kasse bezahlt. Genauso protokolliert GA4 nicht bloß den Eintritt auf eine Seite, sondern jede relevante Aktion als eigenen Eintrag. Aus diesen Einträgen lassen sich die erfassten Teile eines Weges nachvollziehen; ein vollständiges Abbild aller Personen entsteht nicht.
 :::
 
 ## Events und ihre Parameter
@@ -20,8 +20,14 @@ So entsteht ein reiches Bild aus zwei Teilen. Das Event nennt die Art der Handlu
 
 GA4 unterscheidet dabei verschiedene Arten von Events. Einige werden automatisch erfasst, sobald die Messung aktiv ist. Andere richten wir gezielt selbst ein, weil sie für unsere Ziele zentral sind. Genau diese selbst definierten Ereignisse, etwa ein abgeschicktes Kontaktformular, bilden später die Grundlage unserer wichtigsten Kennzahlen.
 
-## Von Events zu Conversions
+## Von Events zu Schlüsselereignissen
 
-Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Conversion, also als Zielhandlung. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.
+Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Schlüsselereignis (Key Event). Aus einem Schlüsselereignis kann eine Google-Ads-Conversion erstellt werden; die Bezeichnungen und Einstellungen sind zu unterscheiden [@googleKeyEvents2026]. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.
 
-Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang einer Conversion verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern [@kaushik2010].
+Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang eines Schlüsselereignisses verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern [@kaushik2010].
+
+## Ein Trackingplan mit Abnahme
+
+Wir definieren für eine erfolgreiche Anfrage das Event, seinen Auslöser und erlaubte Parameter. Der Auslöser ist die bestätigte Übermittlung, nicht schon der Klick auf „Absenden“. Personenbezogene Freitexte oder E-Mail-Adressen übernehmen wir nicht als Analyseparameter.
+
+**Kurzprüfung:** Wir spielen drei Fälle gedanklich durch: gültige Übermittlung, fehlgeschlagene Validierung und erneutes Laden der Bestätigung. Für jeden Fall notieren wir die erwartete Zählung und eine Prüfung gegen das führende Formular- oder CRM-System. Erst danach legen wir fest, ob je Ereignis oder je Sitzung gezählt werden soll. So bleiben technische Events und tatsächlich eingegangene Anfragen unterscheidbar.

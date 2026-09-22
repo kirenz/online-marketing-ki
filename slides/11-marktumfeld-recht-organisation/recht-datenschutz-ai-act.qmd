@@ -89,7 +89,7 @@ Quelle: @uwg
 :::
 
 ::: {.notes}
-Für Werbung im Postfach gilt das Gesetz gegen den unlauteren Wettbewerb, kurz UWG, und zwar unabhängig von der datenschutzrechtlichen Bewertung. Der genannte Paragraf verlangt eine vorherige ausdrückliche Einwilligung. Das Double-Opt-in-Verfahren ist die praktische Umsetzung: Auf die Anmeldung folgt eine Bestätigungsmail, und erst der Klick darin schaltet den Versand frei. Der doppelte Schritt erfüllt zwei Aufgaben zugleich. Er verhindert die Anmeldung fremder Adressen, und er führt zugleich den Nachweis, dass die Einwilligung tatsächlich von der Inhaberin oder dem Inhaber der Adresse stammt.
+Für Werbung im Postfach gilt das Gesetz gegen den unlauteren Wettbewerb, kurz UWG, und zwar unabhängig von der datenschutzrechtlichen Bewertung. Der genannte Paragraf verlangt eine vorherige ausdrückliche Einwilligung. Das Double-Opt-in-Verfahren ist die praktische Umsetzung: Auf die Anmeldung folgt eine Bestätigungsmail, und erst der Klick darin schaltet den Versand frei. Der doppelte Schritt erfüllt zwei Aufgaben zugleich. Er prüft den Zugriff auf die Adresse. Für den Nachweis werden zusätzlich Inhalt und Version der Einwilligungserklärung sowie Anmeldung und Bestätigung dokumentiert.
 :::
 
 ## Die Bestandskunden-Ausnahme gilt vollständig oder gar nicht
@@ -117,7 +117,7 @@ Dieser Moment fasst eine Entwicklung zusammen, die technische und rechtliche Urs
 Die Verordnung (EU) 2024/1689 verbietet einige Praktiken, stellt an Hochrisiko-Anwendungen strenge Anforderungen und belegt weitere Systeme mit Transparenzpflichten.
 
 ::: {.sources}
-Quelle: @euAiAct2024
+Quelle: @euAiAct2024; @euAiTransparency2026
 :::
 
 ::: {.notes}
@@ -128,14 +128,14 @@ Die KI-Verordnung der Europäischen Union wird meist als AI Act bezeichnet. Ihr 
 
 **Anbieter**: erkennbare KI-Interaktion (Abs. 1), maschinenlesbare Markierung synthetischer Ausgaben (Abs. 2).
 
-**Betreiber**: Offenlegung von Deepfakes und von KI-Texten zu öffentlichem Interesse (Abs. 4).
+**Betreiber**: Offenlegung von Deepfakes und bestimmten KI-Texten zu öffentlichem Interesse; Text-Ausnahme bei redaktioneller Prüfung und Verantwortung (Abs. 4).
 
 ::: {.sources}
-Quelle: @euAiAct2024
+Quelle: @euAiAct2024; @euAiTransparency2026
 :::
 
 ::: {.notes}
-Die Trennung nach Rollen ist der wichtigste Teil dieser Folie. Die Absätze eins und zwei richten sich an Anbieter, also an die Hersteller der Werkzeuge, und werden vom Werkzeug erfüllt, nicht vom Marketingteam. Daraus wird für ein Unternehmen eine Beschaffungsfrage: Ein Chatbot wird nur so gekauft oder konfiguriert, dass er für Nutzende erkennbar als KI auftritt, und ein Bildwerkzeug wird danach ausgewählt, ob es seine Ausgaben maschinenlesbar markiert. Als Betreiber trifft ein Unternehmen vor allem Absatz vier: Täuschend echte Darstellungen realer Personen, Objekte oder Orte werden offengelegt, ebenso veröffentlichte KI-Texte zu Angelegenheiten von öffentlichem Interesse. Absatz drei betrifft Emotionserkennung und biometrische Kategorisierung und spielt im Marketing selten eine Rolle. Eine allgemeine Pflicht, jedes mit KI erstellte Werbebild zu kennzeichnen, folgt daraus nicht.
+Die Trennung nach Rollen ist der wichtigste Teil dieser Folie. Die Absätze eins und zwei richten sich an Anbieter, also an die Hersteller der Werkzeuge, und werden vom Werkzeug erfüllt, nicht vom Marketingteam. Daraus wird für ein Unternehmen eine Beschaffungsfrage: Ein Chatbot wird nur so gekauft oder konfiguriert, dass er für Nutzende erkennbar als KI auftritt, und ein Bildwerkzeug wird danach ausgewählt, ob es seine Ausgaben maschinenlesbar markiert. Als Betreiber trifft ein Unternehmen vor allem Absatz vier: Täuschend echte Darstellungen realer Personen, Objekte oder Orte werden offengelegt, ebenso KI-Texte zur Information der Öffentlichkeit über Angelegenheiten von öffentlichem Interesse. Für diese Texte gilt die Ausnahme bei menschlicher Überprüfung oder redaktioneller Kontrolle zusammen mit redaktioneller Verantwortung. Absatz drei betrifft Emotionserkennung und biometrische Kategorisierung und spielt im Marketing selten eine Rolle. Eine allgemeine Pflicht, jedes mit KI erstellte Werbebild zu kennzeichnen, folgt daraus nicht.
 :::
 
 ## Der AI Act gilt gestuft
@@ -163,17 +163,17 @@ Die Trennung nach Rollen ist der wichtigste Teil dieser Folie. Die Absätze eins
 ::: {.timeline-item}
 [4]{.timeline-number}
 [02.08.2026]{.timeline-title}
-[Artikel 50 und die meisten übrigen Pflichten (Art. 113)]{.timeline-detail}
+[Artikel 50: Transparenzpflichten]{.timeline-detail}
 :::
 
 ::::
 
 ::: {.sources}
-Quelle: @euAiAct2024
+Quelle: @euAiAct2024; @euAiTransparency2026
 :::
 
 ::: {.notes}
-Die Verordnung ist am ersten August 2024 in Kraft getreten und gilt gestuft. Die verbotenen Praktiken greifen seit dem zweiten Februar 2025, und seit demselben Datum gilt auch die Anforderung an KI-Kompetenz aus Artikel 4. Die Pflichten für Modelle mit allgemeinem Verwendungszweck gelten seit dem zweiten August 2025. Artikel 50 sowie die meisten übrigen Pflichten gelten nach derzeitigem Stand ab dem zweiten August 2026; die Fristenregelung steht in Artikel 113. Anpassungen einzelner Fristen werden auf EU-Ebene diskutiert, weshalb jeweils der Stand zum Zeitpunkt der Entscheidung maßgeblich ist.
+Die Verordnung ist am ersten August 2024 in Kraft getreten und gilt gestuft. Die verbotenen Praktiken greifen seit dem zweiten Februar 2025, und seit demselben Datum gilt auch die Anforderung an KI-Kompetenz aus Artikel 4. Die Pflichten für Modelle mit allgemeinem Verwendungszweck gelten seit dem zweiten August 2025. Artikel 50 gilt seit dem zweiten August 2026; die Kommission bestätigt den Anwendungsbeginn in ihren Leitlinien. Ausnahmen und Übergangsvorschriften sind für das konkrete System in der jeweils geltenden Fassung zu prüfen. Das Datum ist keine einheitliche Frist für alle übrigen Pflichten.
 :::
 
 ## Artikel 4 gilt bereits und trifft jedes Marketingteam {.stage background-color="#0a0a0f"}
@@ -181,7 +181,7 @@ Die Verordnung ist am ersten August 2024 in Kraft getreten und gilt gestuft. Die
 Anbieter und Betreiber sorgen für ein ausreichendes Maß an KI-Kompetenz des Personals, gemessen an Vorkenntnissen, Aufgabe und Einsatzkontext.
 
 ::: {.notes}
-Dieser Moment ist der praktisch wichtigste des gesamten Kapitels, weil er nicht in der Zukunft liegt. Während Artikel 50 nach derzeitigem Stand erst 2026 greift, gilt Artikel 4 bereits seit dem zweiten Februar 2025. Anbieter und Betreiber sorgen danach dafür, dass ihr Personal über ein ausreichendes Maß an KI-Kompetenz verfügt, gemessen an Vorkenntnissen, Aufgabe und Einsatzkontext. Damit sind auch Marketingteams erfasst, die generative Werkzeuge einsetzen. Die organisatorische Konsequenz ist eindeutig: Schulung gehört fest in jeden Pilotversuch, und das Kapitel zur Organisation greift genau diesen Punkt wieder auf.
+Dieser Moment ist der praktisch wichtigste des gesamten Kapitels, weil er nicht in der Zukunft liegt. Artikel 50 gilt seit August 2026, Artikel 4 bereits seit dem zweiten Februar 2025. Anbieter und Betreiber sorgen danach dafür, dass ihr Personal über ein ausreichendes Maß an KI-Kompetenz verfügt, gemessen an Vorkenntnissen, Aufgabe und Einsatzkontext. Damit sind auch Marketingteams erfasst, die generative Werkzeuge einsetzen. Die organisatorische Konsequenz ist eindeutig: Schulung gehört fest in jeden Pilotversuch, und das Kapitel zur Organisation greift genau diesen Punkt wieder auf.
 :::
 
 ## Werbung bleibt kennzeichnungspflichtig, auch wenn KI sie schreibt

@@ -6,7 +6,7 @@ Wir starten die Suchmaschinenoptimierung dort, wo auch unsere Kundschaft startet
 
 Bevor wir eine einzige Zeile Text schreiben, klären wir, wonach unsere Zielgruppe tatsächlich sucht. Keywords sind die Brücke zwischen dem, was Menschen wissen wollen, und dem, was wir anbieten. Wer diese Brücke nicht kennt, schreibt an der Nachfrage vorbei.
 
-Wir unterscheiden dabei zwei Größen, die jedes Keyword beschreiben. Das Suchvolumen sagt uns, wie oft ein Begriff gesucht wird. Der Wettbewerb sagt uns, wie schwer es ist, für diesen Begriff weit oben zu erscheinen. Begriffe mit hohem Volumen sind verlockend, doch sie sind oft hart umkämpft. Genau hier hilft uns eine sortierte Vorgehensweise [@erlhofer2023].
+Wir unterscheiden dabei zwei Größen, die jedes Keyword beschreiben. Das Suchvolumen sagt uns, wie oft ein Begriff gesucht wird. Für die organische Schwierigkeit prüfen wir die vorhandenen Suchergebnisse und gegebenenfalls eine ausdrücklich als SEO-Schätzung ausgewiesene Tool-Kennzahl. Die Spalte „Wettbewerb“ im Google-Keyword-Planer beschreibt dagegen konkurrierende Werbungtreibende, nicht die Schwierigkeit eines organischen Rankings [@googleKeywordPlanner2026]. Begriffe mit hohem Volumen sind verlockend, doch sie sind oft hart umkämpft. Genau hier hilft uns eine sortierte Vorgehensweise [@erlhofer2023].
 
 ::: {.callout-tip title="Analogie: Das Sortiment einer Fachhandlung"}
 Wir stellen uns eine Fachhandlung vor, die ihr Schaufenster bestückt. Sie räumt nicht wahllos Ware ein, sondern fragt zuerst, wonach die Laufkundschaft regelmäßig verlangt. Genauso prüfen wir bei der Keyword-Recherche zuerst die echte Nachfrage, bevor wir unsere Inhalte ins Regal stellen.
@@ -22,8 +22,14 @@ Diese Einordnung ist entscheidend, weil Suchmaschinen genau jene Inhalte bevorzu
 
 Einzelne Keywords sind nur der Rohstoff. Im nächsten Schritt fassen wir verwandte Begriffe zu Themenclustern zusammen, also zu Gruppen, die dasselbe Anliegen aus verschiedenen Blickwinkeln beschreiben. Aus einem Cluster entsteht dann ein zusammenhängender Inhalt statt vieler dünner Einzelseiten.
 
-Wir achten besonders auf sogenannte Long-Tail-Begriffe, also längere und spezifischere Suchphrasen. Sie haben einzeln weniger Volumen, treffen das Anliegen aber präziser und sind leichter zu gewinnen. Die offizielle Anleitung von Google empfiehlt ausdrücklich, Inhalte an den tatsächlichen Bedürfnissen der Nutzenden auszurichten und nicht an einer künstlichen Schlagwortdichte [@googleSeo2025].
+Wir achten besonders auf sogenannte Long-Tail-Begriffe, also längere und spezifischere Suchphrasen. Sie haben einzeln weniger Volumen, treffen das Anliegen aber präziser und können weniger umkämpft sein. Eine längere Suchphrase garantiert jedoch kein leichtes Ranking. Die offizielle Anleitung von Google empfiehlt ausdrücklich, Inhalte an den tatsächlichen Bedürfnissen der Nutzenden auszurichten und nicht an einer künstlichen Schlagwortdichte [@googleSeo2025].
 
 ::: {.callout-important title="Keyword-Stuffing vermeiden"}
 Wir bauen Keywords natürlich in gut lesbare Sätze ein. Das mechanische Aneinanderreihen vieler Suchbegriffe (Keyword-Stuffing) schadet heute mehr, als es nützt, weil Suchmaschinen Lesbarkeit und Relevanz höher gewichten als bloße Worthäufigkeit.
 :::
+
+## Ein begründeter Keyword-Entscheid
+
+Wir vergleichen für ein eigenes Angebot drei Suchbegriffe. Je Begriff dokumentieren wir Suchintention, ein passendes Seitenformat, Quelle und Datum der Volumenschätzung sowie die Art des Wettbewerbswerts. Fehlt ein Wert, bleibt er als unbekannt markiert; KI-Schätzungen ersetzen keine Messquelle.
+
+**Prüfkriterium:** Wir wählen einen Begriff für eine konkrete Seite und begründen die Wahl aus Nutzen und erreichbarer Suchintention. Ein hohes Suchvolumen allein reicht nicht.

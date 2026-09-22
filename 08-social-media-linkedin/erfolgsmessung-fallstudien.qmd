@@ -16,7 +16,7 @@ Die folgenden Kennzahlen begegnen uns im Kampagnen-Manager am häufigsten. Wir l
 | CPL | Kosten pro gewonnenem Lead | Konversion |
 | Conversion Rate | Anteil der Abschlüsse an den Klicks | Konversion |
 
-Eine hohe Klickrate zeigt, dass Botschaft und Zielgruppe zusammenpassen. Steigende Kosten pro Lead bei gleichbleibender Qualität sind dagegen ein Warnsignal, dass die Zielgruppe zu eng oder die Anzeige ermüdet ist. Eine Vertiefung dieser Mess-Logik im Gesamtbild des B2B-Marketings liefert @seebacher2023.
+Eine hohe Klickrate kann auf Interesse hinweisen, belegt aber noch keine qualifizierte Nachfrage. Steigende Kosten pro Lead können etwa mit Wettbewerb, Auslieferung, Zielgruppe oder Anzeigenmüdigkeit zusammenhängen. Aus der Kennzahl allein folgt keine eindeutige Diagnose. Eine Vertiefung dieser Mess-Logik im Gesamtbild des B2B-Marketings liefert @seebacher2023.
 
 ::: {.callout-tip title="Analogie: das Cockpit"}
 Die Kennzahlen sind wie die Instrumente im Cockpit. Niemand fliegt allein nach dem Tachometer, und kein einzelnes Instrument erzählt die ganze Lage. Erst das Zusammenspiel aus Höhe, Geschwindigkeit und Treibstoff ergibt ein verlässliches Bild. Genauso lesen wir Reichweite, Klickrate und Kosten pro Lead immer gemeinsam, statt eine einzelne Zahl zu verabsolutieren.
@@ -31,9 +31,15 @@ Aus typischen Kampagnen im deutschsprachigen B2B lassen sich wiederkehrende Lern
 - Geduld zahlt sich aus: Markenaufbau und Aktivierung entfalten ihre Wirkung erst im Zusammenspiel über mehrere Monate.
 
 ::: {.callout-important title="Vorsicht bei geliehenen Benchmarks"}
-Veröffentlichte Erfolgszahlen aus Fallstudien stammen aus einem anderen Markt, einer anderen Branche und einem anderen Zeitraum. Wir nutzen sie als grobe Orientierung, niemals als verbindliche Zielwerte. Belastbar ist allein der Vergleich mit den eigenen, über mehrere Kampagnen hinweg gemessenen Werten.
+Veröffentlichte Erfolgszahlen aus Fallstudien stammen aus einem anderen Markt, einer anderen Branche und einem anderen Zeitraum. Wir nutzen sie als grobe Orientierung, niemals als verbindliche Zielwerte. Auch eigene Vergleichswerte sind nur bei vergleichbaren Zählregeln, Zielgruppen, Zeiträumen und Datenqualitäten aussagekräftig.
 :::
 
 ## Vom Messen zum Verbessern
 
-Messung ist kein Selbstzweck, sondern die Grundlage für den nächsten Schritt. Aus den Zahlen leiten wir konkrete Anpassungen ab: Wir testen zwei Varianten einer Anzeige gegeneinander, tauschen ermüdete Motive aus oder schärfen die Zielgruppe nach. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, der mit jeder Runde besser wird.
+Messung ist kein Selbstzweck, sondern die Grundlage für den nächsten Schritt. Aus den Zahlen leiten wir konkrete Anpassungen ab: Wir testen zwei Varianten einer Anzeige gegeneinander, tauschen ermüdete Motive aus oder schärfen die Zielgruppe nach. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, in dem wir Verbesserungen gezielt prüfen.
+
+## Niedriger CPL oder bessere Anfragen?
+
+Wir vergleichen zwei fiktive Kampagnen mit je 1.200 Euro Kosten. A liefert 60 Leads, davon 12 nach denselben CRM-Kriterien qualifiziert. B liefert 40 Leads, davon 16 qualifiziert. Zeitraum und Nachbeobachtungsdauer sind gleich.
+
+**Kurzprüfung:** Wir berechnen CPL und Kosten je qualifiziertem Lead, zuerst ohne KI. A liegt bei 20 Euro CPL und 100 Euro je qualifiziertem Lead; B bei 30 Euro und 75 Euro. B ist damit trotz höherem CPL bei diesem Qualitätsziel günstiger. Ob daraus profitablere Kunden entstehen, bleibt ohne Abschlüsse, Margen und weitere Kosten offen. Auch die Ursache des Unterschieds ist ohne geeigneten Test ungeklärt.

@@ -4,7 +4,7 @@ Wir kennen nun die Auktion und den Kontoaufbau und wenden uns der Stellschraube 
 
 ## Was der Quality Score misst
 
-Der Quality Score ist eine Diagnosekennzahl auf einer Skala von 1 bis 10, die anzeigt, wie gut unsere Anzeige zu einem bestimmten Keyword passt. Er fließt nicht als einzelne Zahl direkt in die Auktion ein, sondern seine zugrunde liegenden Komponenten beeinflussen den Anzeigenrang. Ein hoher Wert signalisiert Google, dass unsere Anzeige für die suchende Person nützlich ist, und führt tendenziell zu besseren Positionen bei zugleich niedrigeren Klickpreisen.
+Der Quality Score ist eine Diagnosekennzahl auf einer Skala von 1 bis 10, die anzeigt, wie gut unsere Anzeige zu einem bestimmten Keyword passt. Er fließt nicht als einzelne Zahl direkt in die Auktion ein, sondern seine zugrunde liegenden Komponenten beeinflussen den Anzeigenrang. Der historische Diagnosewert fasst Qualitätsaspekte zusammen; die Auktion bewertet Qualität und Kontext für die jeweilige Suche neu. Ein höherer Quality Score garantiert deshalb weder einen günstigeren Klick noch eine bessere Position [@googleQualityScore2024].
 
 Wir behandeln den Quality Score deshalb als Wegweiser, nicht als Selbstzweck. Er zeigt uns, wo eine Anzeige hakt, und lenkt unsere Optimierung auf die richtigen Stellen [@shemshaki2025].
 
@@ -21,5 +21,5 @@ Wir stellen uns ein Vorstellungsgespräch vor. Eine Bewerbung überzeugt nicht �
 Aus den drei Komponenten ergeben sich drei konkrete Ansatzpunkte. Für eine bessere erwartete Klickrate schreiben wir Anzeigentexte, die den Suchbegriff aufgreifen und einen klaren Nutzen sowie eine eindeutige Handlungsaufforderung enthalten. Für eine höhere Anzeigenrelevanz sorgen wir dafür, dass die Begriffe aus dem Keyword auch im Anzeigentext vorkommen, was uns die enge thematische Gliederung der Anzeigengruppen aus der vorigen Lesson erleichtert. Für eine bessere Zielseiten-Erfahrung achten wir auf eine schnelle, übersichtliche und inhaltlich passende Seite.
 
 ::: {.callout-important title="Komponenten verbessern, nicht die Zahl jagen"}
-Wir optimieren nicht die Quality-Score-Zahl als solche, sondern die drei Komponenten dahinter. Wer die erwartete Klickrate, die Anzeigenrelevanz und die Zielseiten-Erfahrung verbessert, hebt den Quality Score von selbst und senkt zugleich die Kosten. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.
+Wir optimieren nicht die Quality-Score-Zahl als solche, sondern die drei Komponenten dahinter. Wir prüfen Verbesserungen an erwarteter Klickrate, Relevanz und Zielseiten-Erfahrung anhand tatsächlicher Ergebnisse. Wettbewerb, Gebote und Suchkontext können sich gleichzeitig ändern; sinkende Kosten folgen nicht automatisch. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.
 :::

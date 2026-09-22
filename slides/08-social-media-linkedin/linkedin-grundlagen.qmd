@@ -14,33 +14,14 @@ Moderne, frische Komposition: ein abstraktes Netz aus leuchtenden Knotenpunkten 
 LinkedIn ist der Ort, an dem Menschen in ihrer beruflichen Rolle unterwegs sind. Genau das macht die Plattform für das Geschäftskundengeschäft so wertvoll. Diese Lesson klärt, warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
 :::
 
-## Das größte berufliche Netzwerk
+## Beruflicher Kontext statt bloßer Größe
 
-:::: {.metrics-grid}
+Berufliche Profile machen Zielgruppen nach Funktion, Branche und Unternehmensgröße beschreibbar.
 
-::: {.metric}
-[≈ 1 Mrd.]{.stat-number}
-[Mitglieder weltweit]{.stat-label}
-:::
-
-::: {.metric}
-[> 24 Mio.]{.stat-number}
-[Mitglieder im DACH-Raum]{.stat-label}
-:::
-
-::: {.metric}
-[beruflich]{.stat-number}
-[Kontext jeder Interaktion]{.stat-label}
-:::
-
-::::
-
-::: {.sources}
-Quelle: @linkedinAds2024
-:::
+Für eine Kampagne zählt die erreichbare Zielgruppe im gewählten Markt.
 
 ::: {.notes}
-Rund eine Milliarde Mitglieder weltweit, über vierundzwanzig Millionen im deutschsprachigen Raum. Der entscheidende Punkt ist nicht die Größe allein, sondern der berufliche Kontext. Hier sind Menschen in ihrer Arbeitsrolle ansprechbar, also genau dann, wenn sie über Werkzeuge, Weiterbildung und Geschäftsentscheidungen nachdenken.
+Eine globale Mitgliederzahl ersetzt keine Planung der tatsächlich erreichbaren Zielgruppe. Der relevante Bezug ist der konkrete Markt mit den ausgewählten beruflichen Merkmalen.
 :::
 
 ## Warum das im B2B zählt
@@ -88,23 +69,23 @@ Das Bild der Fachmesse macht den Charakter der Plattform greifbar. Auf einer Mes
 ::::
 
 ::: {.notes}
-Zwei Aufgaben, die sich ergänzen. Markenaufbau wirkt langfristig und breit und sorgt dafür, dass ein Anbieter überhaupt in die engere Wahl kommt. Aktivierung wirkt kurzfristig und spricht die an, die schon kaufbereit sind. Wer nur aktiviert, erntet vorhandene Nachfrage, baut aber keine neue auf.
+Zwei Aufgaben, die sich ergänzen. Markenaufbau wirkt langfristig und breit und sorgt dafür, dass ein Anbieter überhaupt in die engere Wahl kommt. Aktivierung wirkt kurzfristig und spricht die an, die schon kaufbereit sind. Wer nur auf kurzfristige Abschlüsse optimiert, kann langfristigen Markenaufbau vernachlässigen; die Wirkung hängt vom jeweiligen Markt und der Ausgangslage ab.
 :::
 
-## Die 60/40-Regel
+## B2B-Orientierung, keine feste Regel
 
 :::: {.big-stat .zoom-in-bounce}
-[60 / 40]{.stat-number}
+[≈ 50 / 50]{.stat-number}
 [Budgetanteil Markenaufbau zu Aktivierung]{.stat-label}
-[Empfehlung für nachhaltiges B2B-Wachstum]{.stat-context}
+[Kaufzyklus, Bekanntheit und Ziel mitberücksichtigen]{.stat-context}
 ::::
 
 ::: {.sources}
-Quelle: @binetField2019
+Quelle: @binetField2019; @linkedinB2bBalance2026
 :::
 
 ::: {.notes}
-Die Forschung von Binet und Field empfiehlt für nachhaltiges Wachstum rund sechzig Prozent des Budgets für Markenaufbau und vierzig Prozent für Aktivierung. Die häufige Versuchung ist, zuerst beim Markenaufbau zu kürzen, weil sich nur die kurzfristigen Abschlüsse leicht messen lassen. Das schwächt mittelfristig die gesamte Nachfrage.
+Binet und Field diskutieren für B2B eine ungefähr hälftige Verteilung auf Markenaufbau und Aktivierung. Sie ist Orientierung aus untersuchten Kampagnen, kein universelles Optimum. Die häufige Versuchung ist, zuerst beim Markenaufbau zu kürzen, weil sich nur die kurzfristigen Abschlüsse leicht messen lassen. Das schwächt mittelfristig die gesamte Nachfrage.
 :::
 
 ## Share of Voice als Hebel
@@ -118,7 +99,7 @@ Quelle: @seebacher2023
 :::
 
 ::: {.notes}
-Eng mit der Sechzig-zu-vierzig-Regel verbunden ist der Share of Voice, also der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern. Übersteigt er den Marktanteil, entsteht Wachstumsdruck nach oben. Für die Praxis heißt das: kontinuierlich sichtbar bleiben und so die mentale Verfügbarkeit aufbauen, die später über den Abschluss entscheidet.
+Mit Markeninvestitionen verbunden ist der Share of Voice, also der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern. Übersteigt er den Marktanteil, entsteht Wachstumsdruck nach oben. Für die Praxis heißt das: kontinuierlich sichtbar bleiben und so die mentale Verfügbarkeit aufbauen, die später über den Abschluss entscheidet.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
@@ -126,7 +107,7 @@ Eng mit der Sechzig-zu-vierzig-Regel verbunden ist der Share of Voice, also der 
 LinkedIn erreicht Menschen im beruflichen Kontext, und genau das macht es im B2B stark. Wirkung entsteht aus Glaubwürdigkeit, aus dem Gleichgewicht von Markenaufbau und Aktivierung und aus dauerhafter Präsenz.
 
 ::: {.notes}
-Als Kern bleibt: beruflicher Kontext, glaubwürdige Quellen, das Gleichgewicht aus Markenaufbau und Aktivierung im Verhältnis sechzig zu vierzig und ein Share of Voice über dem Marktanteil. Die nächste Lesson zeigt, mit welchen Kampagnentypen und welchem Targeting sich das konkret umsetzen lässt.
+Als Kern bleibt: beruflicher Kontext, glaubwürdige Quellen, das Gleichgewicht aus Markenaufbau und Aktivierung mit einer ungefähr hälftigen Verteilung als kontextabhängiger Orientierung und ein Share of Voice über dem Marktanteil. Die nächste Lesson zeigt, mit welchen Kampagnentypen und welchem Targeting sich das konkret umsetzen lässt.
 :::
 
 ## Literatur

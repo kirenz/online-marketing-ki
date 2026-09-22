@@ -1,11 +1,12 @@
 # Marketingziele und Strategie {.unnumbered}
 
-Wir übersetzen die Strategie in konkrete, messbare Ziele, die später die Erfolgsmessung steuern.
+Wir übersetzen die Strategie in konkrete, messbare Ziele, die später die Erfolgsmessung steuern. Zum Abschluss lernen wir mit dem Marketing-Mix die Stellhebel kennen, mit denen Ziel und Strategie in Maßnahmen übersetzt werden.
 
 Wir werden:
 
 - SMART-Marketingziele formulieren
 - Ziele mit passenden Kennzahlen verknüpfen
 - eine Brücke von Strategie zu Messung schlagen
+- den Marketing-Mix auf ein eigenes Beispiel anwenden
 
 **Quellen:** [@kotler2022; @farris2010]

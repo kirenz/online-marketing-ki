@@ -91,7 +91,17 @@ Die Werkzeugwahl ist eine bewusste Entscheidung. Für einen schnellen Entwurf re
 Marketing beginnt beim Verständnis der Zielgruppe, führt über Ziele und Strategie zu Inhalten und Kanälen und endet bei der Messung. KI ist kein Endpunkt, sondern eine Schicht, die diesen ganzen Weg unterstützt.
 
 ::: {.notes}
-Dieser Moment schließt den Bogen über den Kurs. Ein roter Faden zieht sich durch alle Module, von der Zielgruppe über Ziele, Strategie, Inhalte und Kanäle bis zur Messung der Wirkung. KI ist keine eigene Disziplin am Ende, sondern eine unterstützende Schicht über dem gesamten Prozess. Deshalb steht dieses Modul am Schluss.
+Dieser Moment schließt den Bogen über den Kurs. Ein roter Faden zieht sich durch alle Module, von der Zielgruppe über Ziele, Strategie, Inhalte und Kanäle bis zur Messung der Wirkung. KI ist keine eigene Disziplin am Ende, sondern eine unterstützende Schicht über dem gesamten Prozess. Das anschließende Modul ergänzt Marktumfeld, Recht und Organisation.
+:::
+
+## Ein begrenzter Agentenauftrag
+
+Marketingbericht: freigegebene Daten lesen, Kennzahlen prüfen, Budgetvorschlag als Entwurf ablegen.
+
+Kampagnenänderungen, Ausgaben und Nachrichten erst nach gesonderter Freigabe.
+
+::: {.notes}
+Der Auftrag benennt Ergebnis, erlaubte Werkzeuge, Datenzugriff, Freigabepunkt und Abbruchbedingung. Bei fehlenden Daten oder widersprüchlichen Summen stoppt die Auswertung mit konkreter Rückfrage. Quellen, Zeit und durchgeführte Schritte werden protokolliert. Leserechte und ein Ablageort für Entwürfe reichen für diesen Auftrag aus.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
@@ -99,7 +109,7 @@ Dieser Moment schließt den Bogen über den Kurs. Ein roter Faden zieht sich dur
 KI wandert vom Chat über den Assistenten bis zum Agenten in den Arbeitsalltag. Je mehr Autonomie, desto mehr Aufsicht. Die menschliche Rolle bleibt in jedem Modul dieselbe: Ziele setzen, Kontext liefern, Ergebnisse prüfen, Verantwortung tragen.
 
 ::: {.notes}
-Als Abschluss des Kurses bleibt: KI ist ein verlässliches Werkzeug über den gesamten Marketingprozess, vom Persona-Steckbrief bis zur Auswertung von Kennzahlen. Wer Ziele setzt, Kontext liefert und Ergebnisse prüft, nutzt sie als festen Teil der eigenen Arbeit. Damit endet der Kurs.
+Als Abschluss des Kurses bleibt: KI ist ein verlässliches Werkzeug über den gesamten Marketingprozess, vom Persona-Steckbrief bis zur Auswertung von Kennzahlen. Wer Ziele setzt, Kontext liefert und Ergebnisse prüft, nutzt sie als festen Teil der eigenen Arbeit. Damit endet das KI-Modul; Marktumfeld, Recht und Organisation ergänzen die Umsetzung.
 :::
 
 ## Literatur

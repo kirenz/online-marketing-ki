@@ -3,3 +3,8 @@ project:
   output-dir: _site
   render:
     - "[0-9][0-9]-*/*.qmd"
+
+# Das Slides-Verzeichnis ist ein eigenes Quarto-Projekt. Die Defaults am
+# Projektroot müssen explizit eingebunden werden, damit Reveal.js aktiv ist.
+metadata-files:
+  - _metadata.yml

@@ -25,7 +25,7 @@ GA4 verschiebt diesen Blick. Nicht die Seite ist die kleinste Einheit, sondern d
 - ein Scrollvorgang
 - ein Download
 
-Jede dieser Aktionen wird als **Event** erfasst.
+Diese Aktionen können als **Events** erfasst werden. Einrichtung, Einwilligung und Technik begrenzen die Messung.
 
 ::: {.sources}
 Quelle: @googleGa4Events2026
@@ -75,22 +75,22 @@ Einige Events erfasst GA4 automatisch. Andere werden gezielt selbst eingerichtet
 Die selbst definierten Ereignisse sind der entscheidende Hebel. Ein automatisch erfasster Seitenaufruf ist nützlich, doch ein bewusst eingerichtetes Event wie ein abgeschicktes Kontaktformular bildet später die Grundlage der wichtigsten Kennzahlen.
 :::
 
-## Von Events zu Conversions
+## Von Events zu Schlüsselereignissen
 
-Nicht jedes Event ist gleich wichtig. Besonders wertvolle Handlungen werden als **Conversion** markiert.
+Nicht jedes Event ist gleich wichtig. Besonders wertvolle Handlungen werden in GA4 als **Schlüsselereignis (Key Event)** markiert.
 
 ::: {.formula .editorial}
 Aus vielen Events werden wenige Zielhandlungen.
 :::
 
-So entsteht aus einer Flut von Ereignissen eine überschaubare Zahl von Conversions, die tatsächlich verfolgt und verbessert werden.
+So entsteht aus einer Flut von Ereignissen eine überschaubare Zahl von Schlüsselereignissen, die tatsächlich verfolgt und verbessert werden.
 
 ::: {.sources}
-Quelle: @kaushik2010
+Quelle: @googleKeyEvents2026
 :::
 
 ::: {.notes}
-Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Es wird bewusst entschieden, welche Events den Rang einer Conversion verdienen. Damit werden sie aus der Masse der Ereignisse herausgehoben und zur eigentlichen Steuerungsgröße.
+Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Es wird bewusst entschieden, welche Events den Rang eines Schlüsselereignisses verdienen. Damit werden sie aus der Masse der Ereignisse herausgehoben und zur eigentlichen Steuerungsgröße.
 :::
 
 ## Analogie: Das Kassenbuch im Einzelhandel
@@ -99,18 +99,28 @@ Ein Geschäft zählt nicht nur, wer den Laden betritt.
 
 Es notiert jede Handlung: Regal angesehen, Produkt in die Hand genommen, Frage gestellt, an der Kasse bezahlt.
 
-Genauso protokolliert GA4 nicht bloß den Seiteneintritt, sondern jede relevante Aktion als eigenen Eintrag. Aus diesen Einträgen lässt sich jeder Weg nachvollziehen.
+Genauso protokolliert GA4 nicht bloß den Seiteneintritt, sondern jede relevante Aktion als eigenen Eintrag. Erkennbar bleiben die erfassten Teile eines Weges; das Bild ist unvollständig.
 
 ::: {.notes}
 Das Bild des Kassenbuchs macht das eventbasierte Modell greifbar. Statt nur Eintritte zu zählen, wird jede einzelne Handlung festgehalten. Genau diese Granularität erlaubt es später, ganze Pfade der Kundschaft zu rekonstruieren.
 :::
 
-## Was bleibt {.stage .closing background-color="#0a0a0f"}
+## Vom Event zur verlässlichen Anfrage
 
-GA4 denkt nicht in Seiten, sondern in Handlungen. Jede Interaktion ist ein Event, beschrieben durch Parameter, und die wertvollsten Events werden zu Conversions. Wer dieses Modell versteht, versteht das ganze Werkzeug.
+Auslöser: bestätigte Übermittlung, nicht der Klick auf „Absenden“.
+
+Testfälle: gültige Anfrage · Validierungsfehler · erneut geladene Bestätigung.
 
 ::: {.notes}
-Als Kernbotschaft bleibt: Das eventbasierte Datenmodell ist der Schlüssel zu GA4. Event, Parameter und Conversion bilden eine durchgängige Kette von der einzelnen Handlung bis zur steuerungsrelevanten Zielgröße.
+Für jeden Fall wird die erwartete Zählung festgehalten und gegen Formularsystem oder CRM geprüft. Personenbezogene Freitexte und E-Mail-Adressen gehören nicht in Analyseparameter. Auch die Zählregel je Ereignis oder je Sitzung wird bewusst festgelegt. Eine Google-Ads-Conversion kann aus einem GA4-Schlüsselereignis erstellt werden; die Einstellungen sind zu unterscheiden.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+GA4 denkt nicht in Seiten, sondern in Handlungen. Jede Interaktion ist ein Event, beschrieben durch Parameter, und die wertvollsten Events werden als Schlüsselereignisse markiert. Wer dieses Modell versteht, versteht das ganze Werkzeug.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Das eventbasierte Datenmodell ist der Schlüssel zu GA4. Event, Parameter und Schlüsselereignis bilden eine durchgängige Kette von der einzelnen Handlung bis zur steuerungsrelevanten Zielgröße.
 :::
 
 ## Literatur

@@ -16,7 +16,7 @@ Ein SMART-Ziel nennt bereits eine Kennzahl, doch eine einzelne Zahl genügt selt
 
 ## Was eine Kennzahl steuerbar macht
 
-Eine Kennzahl (KPI für Key Performance Indicator) macht den Fortschritt in Richtung eines Ziels sichtbar.
+Eine Kennzahl ist eine Messgröße. Als bewusst gewählte Schlüsselgröße für ein Ziel wird sie zum KPI (Key Performance Indicator).
 
 Eine echte Steuerungsgröße ist:
 
@@ -110,6 +110,16 @@ Die Prüffrage lautet: Würde eine Veränderung dieser Zahl eine Entscheidung au
 
 ::: {.notes}
 Manche Zahlen sehen beeindruckend aus, beantworten aber keine steuerungsrelevante Frage. Solche Eitelkeitszahlen steigen fast immer und täuschen Fortschritt vor. Die Prüffrage nach der ausgelösten Entscheidung trennt sie von echten Steuerungsgrößen. Was keine Entscheidung beeinflusst, gehört nicht ins Steuerungsbild.
+:::
+
+## Ein Kennzahlensteckbrief
+
+Zähler · Nenner · Zeitraum · Datenquelle · Zählregel
+
+Prüfkriterium: Eine zweite Person kann denselben Wert nachrechnen.
+
+::: {.notes}
+Bei Webinar-Anmeldungen zählt eine bereinigte Person einmal. Für eine sitzungsbezogene Anmelderate werden Sitzungen mit Anmeldung durch die erfassten Sitzungen derselben Anmeldeseite im selben Zeitraum geteilt. Formular-Events sind ein anderer Zähler. Ein Ergebnisindikator und ein Frühindikator erhalten jeweils diesen Steckbrief und eine Entscheidung, die ein schlechter Wert auslösen würde.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

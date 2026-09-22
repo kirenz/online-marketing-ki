@@ -60,7 +60,7 @@ Listet die wichtigen Seiten auf.
 [{{< fa robot >}}]{.accent-green}
 **robots-Steuerung**
 
-Regelt, was indexiert wird.
+Crawling und Indexierung unterscheiden.
 :::
 
 ::: {.feature}
@@ -77,7 +77,7 @@ Quelle: @googleSeo2025
 :::
 
 ::: {.notes}
-Die technische Ebene sorgt dafür, dass Inhalte überhaupt verarbeitet werden können. Eine Sitemap listet wichtige Seiten, die robots-Steuerung regelt die Indexierung, sprechende und stabile Adressen machen die Struktur verständlich. Weil viele Anfragen mobil laufen, bewertet Google vorrangig die mobile Fassung einer Seite.
+Die technische Ebene sorgt dafür, dass Inhalte überhaupt verarbeitet werden können. Eine Sitemap listet wichtige Seiten, robots.txt steuert das Crawling und noindex die Aufnahme in den Suchindex, sofern die Anweisung lesbar ist, sprechende und stabile Adressen machen die Struktur verständlich. Weil viele Anfragen mobil laufen, bewertet Google vorrangig die mobile Fassung einer Seite.
 :::
 
 ## E-E-A-T: vier Signale für Glaubwürdigkeit {.stage background-color="#0a0a0f"}
@@ -107,6 +107,20 @@ Quelle: @enge2023
 
 ::: {.notes}
 Glaubwürdigkeit entsteht durch nachvollziehbare Signale: sichtbare Urheberschaft, genannte Quellen, Aktualität und erreichbare Kontaktangaben. Bei sensiblen Themen ist das besonders wichtig. Die Kernaussage: Technische Sauberkeit ist Voraussetzung, doch ohne inhaltliche Substanz bleibt sie wirkungslos.
+:::
+
+## robots.txt ist kein Zugangsschutz
+
+Eine gesperrte URL kann trotzdem im Suchindex stehen.
+
+Ein blockierter Crawler kann auch das **noindex** auf der Seite nicht lesen. Vertrauliche Inhalte benötigen Zugangskontrolle.
+
+::: {.sources}
+Quelle: @googleRobots2026
+:::
+
+::: {.notes}
+robots.txt verhindert keine unbefugten Zugriffe und ist kein verlässlicher Ausschluss aus Suchergebnissen. Die Kurzprüfung unterscheidet das Abrufen einer Seite durch Crawler, ihre Indexierung und den Zugriff durch Personen.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

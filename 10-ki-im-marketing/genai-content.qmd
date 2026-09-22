@@ -36,3 +36,9 @@ Diese Prüfung ist keine lästige Pflicht, sondern der Kern verantwortungsvoller
 ::: {.callout-important title="Verantwortung bleibt menschlich"}
 Wer einen KI-Entwurf ohne Prüfung veröffentlicht, übernimmt dessen Fehler als eigene. Die KI trägt keine Verantwortung für falsche Fakten oder fragwürdige Aussagen, das tut die Person oder das Unternehmen, das den Inhalt verbreitet.
 :::
+
+## Freigabe anhand eines kurzen Protokolls
+
+Wir halten für jede Variante vier Punkte fest: beabsichtigte Zielgruppe und Wirkung, überprüfte Tatsachen mit Originalquelle, offene oder entfernte Behauptungen und die fachlich verantwortliche Freigabe. Für Aussagen mit Zahlen rechnen wir Zähler, Nenner und Zeitraum nach. Eine KI-Selbstauskunft wie „alle Fakten geprüft“ genügt nicht.
+
+**Kurzprüfung:** Wir vergleichen zwei Entwürfe anhand derselben Kriterien: belegbarer Nutzen, klare Botschaft, Markenstimme und offene Risiken. Der überzeugendere Entwurf ist ein Testkandidat; seine höhere Conversion-Rate ist damit noch nicht belegt.

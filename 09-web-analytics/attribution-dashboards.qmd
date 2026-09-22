@@ -4,7 +4,7 @@ Wir klären zwei eng verwandte Fragen. Erstens: Welchem Kanal schreiben wir eine
 
 ## Das Zurechnungsproblem
 
-Eine Conversion entsteht selten nach einem einzigen Kontakt. Eine Person sieht vielleicht eine Anzeige, liest später einen Blogbeitrag, klickt Tage darauf auf eine Suchanzeige und kauft erst dann. Jede dieser Stationen ist ein Touchpoint, ein Berührungspunkt mit unserer Marke. Attribution beschreibt, wie wir den Erfolgsbeitrag auf diese Berührungspunkte verteilen.
+Eine Conversion entsteht selten nach einem einzigen Kontakt. Eine Person sieht vielleicht eine Anzeige, liest später einen Blogbeitrag, klickt Tage darauf auf eine Suchanzeige und kauft erst dann. Jede dieser Stationen ist ein Touchpoint, ein Berührungspunkt mit unserer Marke. Attribution beschreibt, wie wir erfasste Conversions nach einer Regel oder einem Modell diesen Berührungspunkten zurechnen. Diese Zuordnung ist noch kein Nachweis ihres ursächlichen Beitrags.
 
 Diese Verteilung ist keine technische Nebensache, sondern entscheidet über die Budgetlenkung. Wenn wir falsch zurechnen, verschieben wir Geld zu den falschen Kanälen. Die Forschung zeigt, dass eine realistische Zurechnung über mehrere Kontaktpunkte hinweg die Wirkung einzelner Kanäle deutlich anders bewertet als eine vereinfachte Betrachtung [@li2014].
 
@@ -14,14 +14,14 @@ Wir stellen uns ein Tor im Fußball vor. Es wäre ungerecht, allein der Person d
 
 ## Vom Last-Click zu datengetriebenen Modellen
 
-Lange galt eine einfache Regel: Der letzte Klick vor dem Kauf bekommt den gesamten Erfolg. Dieses Last-Click-Modell ist leicht zu verstehen, verzerrt aber das Bild systematisch. Es überschätzt jene Kanäle, die am Ende der Reise stehen, und unterschätzt jene, die früh Aufmerksamkeit und Vertrauen schaffen.
+Lange galt eine einfache Regel: Der letzte Klick vor dem Kauf bekommt den gesamten Erfolg. Dieses Last-Click-Modell ist leicht zu verstehen, blendet bei der Zurechnung aber alle früheren Kontakte aus. Daraus folgt weder, dass frühere Kontakte wirkungslos waren, noch, dass der letzte Kontakt den Kauf verursacht hat.
 
-Deshalb haben sich differenziertere Ansätze durchgesetzt. Manche Modelle verteilen den Erfolg gleichmäßig auf alle Kontaktpunkte, andere gewichten frühe oder späte Stationen stärker. Den größten Fortschritt bringen datengetriebene Modelle (data-driven attribution). Sie verteilen den Beitrag nicht nach starrer Regel, sondern lernen aus den tatsächlichen Pfaden, welche Berührungspunkte den Unterschied machen [@berman2018].
+Deshalb haben sich differenziertere Ansätze durchgesetzt. Manche Modelle verteilen den Erfolg gleichmäßig auf alle Kontaktpunkte, andere gewichten frühe oder späte Stationen stärker. Datengetriebene Modelle (data-driven attribution) nutzen beobachtete Pfade und Modellannahmen für die Zurechnung [@berman2018]. Auch sie hängen von verfügbaren Signalen, Identifikatoren und Auswertungsfenstern ab; fehlende Kontakte und bereits vorhandene Kaufabsicht können das Bild verzerren.
 
 GA4 stellt für diese Zurechnung eigene Einstellungen bereit. Wir wählen dort bewusst, nach welcher Logik Conversions auf Kanäle verteilt werden, statt die Voreinstellung ungeprüft zu übernehmen [@googleGa4Attribution2026].
 
 ::: {.callout-important title="Last-Click ist bequem, aber irreführend"}
-Wir verlassen uns nicht allein auf den letzten Klick. Wer nur den finalen Schritt belohnt, kürzt das Budget genau dort, wo Nachfrage erst entsteht. Eine mehrstufige Betrachtung schützt vor dieser stillen Fehlsteuerung.
+Wir verlassen uns nicht allein auf den letzten Klick. Wer nur den finalen Schritt belohnt, kann vorgelagerte Kontakte übersehen. Auch eine mehrstufige Betrachtung beweist jedoch nicht, wie viele Käufe ohne Werbung ausgeblieben wären.
 :::
 
 ## Dashboards, die Entscheidungen tragen
@@ -31,3 +31,11 @@ Die beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Da
 Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Phasen der Customer Journey. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann [@ahrholdt2023].
 
 Wir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.
+
+## Zurechnung und zusätzliche Wirkung unterscheiden
+
+Im fiktiven Beispiel führen 100 Käufe jeweils über Social Media und danach eine Suchanzeige. Last-Click schreibt der Suche 100 Käufe zu; eine gleichmäßige Regel ordnet beiden Kanälen je 50 zu. Keine Variante erzeugt zusätzliche Käufe: Der tatsächliche Gesamtwert bleibt 100. Melden beide Werbekonten jeweils 100 zugeordnete Käufe, dürfen wir daraus keine 200 Käufe machen. Wir gleichen Transaktionen und Attributionsfenster mit dem Shop ab.
+
+Zusätzliche Wirkung heißt dagegen: Wie verändert sich das Ergebnis gegenüber einer vergleichbaren Situation ohne diese Maßnahme? Ein vorab geplanter, randomisierter Test mit Kontrollgruppe kann diese Frage beantworten. Ein Vorher-nachher-Vergleich allein vermischt die Maßnahme mit Saison, Nachfrage und anderen Änderungen. Auch im Experiment betrachten wir Unsicherheit, Stichprobengröße und wirtschaftlichen Nutzen getrennt.
+
+**Kurzprüfung:** Wir berechnen für die 100 Käufe beide Zurechnungen und formulieren einen zulässigen Ergebnissatz sowie eine offene Wirkungsfrage. Ins Dashboard gehören neben Zeitraum und Kennzahlendefinition auch Quelle, Attributionsfenster, Modell und erkennbare Datenlücken. Im Planspiel sind ausgewiesene Kanalwerte Ergebnisse der Simulation; sie belegen keine entsprechende Wirkung in einem realen Werbekonto.

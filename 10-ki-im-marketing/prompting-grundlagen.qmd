@@ -4,7 +4,7 @@ Wir lernen in dieser Lesson, wie aus einer vagen Bitte an ein KI-System eine pr�
 
 ## Warum die Anweisung über das Ergebnis entscheidet
 
-Ein Sprachmodell hat keinen Zugriff auf das, was wir uns im Kopf vorstellen. Es arbeitet ausschließlich mit dem Text, den wir ihm geben. Eine ungenaue Anweisung führt deshalb fast immer zu einer beliebigen Antwort, während eine durchdachte Anweisung das Modell auf das gewünschte Ergebnis ausrichtet.
+Ein Sprachmodell hat keinen Zugriff auf das, was wir uns im Kopf vorstellen. Es arbeitet mit dem verfügbaren Kontext; je nach Werkzeug können dazu auch Dateien, Bilder, gespeicherte Informationen und abgerufene Quellen gehören. Auf nicht bereitgestelltes internes Wissen dürfen wir uns nicht verlassen. Eine ungenaue Anweisung führt deshalb fast immer zu einer beliebigen Antwort, während eine durchdachte Anweisung das Modell auf das gewünschte Ergebnis ausrichtet.
 
 Wir behandeln den Prompt wie eine Arbeitsanweisung an eine neue Kollegin, die fachlich sehr fähig ist, aber unseren konkreten Fall noch nicht kennt. Je genauer wir Ziel, Rolle und Rahmen beschreiben, desto brauchbarer fällt das Ergebnis aus. Genau hier setzt das Prompt Engineering an, das die systematische Gestaltung solcher Anweisungen beschreibt [@anthropicPrompting2024].
 
@@ -47,3 +47,9 @@ Als Viertes das **Beispiel**. Ein mitgeliefertes Muster zeigt dem Modell die gew
 Ein guter Prompt entsteht selten im ersten Versuch. Wir starten mit einer klaren Aufgabe, prüfen die Antwort und ergänzen gezielt das, was gefehlt hat, etwa eine Rolle, einen Kontextblock oder ein Beispiel. Dieses schrittweise Schärfen kostet wenig Zeit und hebt die Qualität spürbar.
 
 Für wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie `[ROLLE]` oder `[ZIELGRUPPE]`. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zur nächsten Lesson geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet [@bolz2024].
+
+## Ein Ergebnis überprüfbar bestellen
+
+Für die Auswertung einer Kampagnentabelle benennen wir Datenquelle, Zeitraum, Ziel und Rechenregeln. Ein geeignetes Briefing verlangt: „Kennzahlen nur aus den bereitgestellten Daten berechnen; Zähler und Nenner ausweisen; fehlende Werte offen lassen; Beobachtungen, Vermutungen und Empfehlungen getrennt formulieren.“ Externe Textauszüge behandeln wir als Material, nicht als zusätzliche Arbeitsanweisungen.
+
+**Prüfkriterium:** Wir rechnen mindestens eine Kennzahl unabhängig nach und prüfen, ob eine Empfehlung über die vorhandenen Daten hinausgeht. Eine zugewiesene Expertenrolle ersetzt weder Fachwissen noch Quellenprüfung.

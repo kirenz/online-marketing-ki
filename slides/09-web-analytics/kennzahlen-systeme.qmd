@@ -36,7 +36,7 @@ Die Unterscheidung ist die Grundlage der ganzen Lesson. Metriken gibt es im Übe
 Reichweite, Follower, reine Seitenaufrufe: Sie steigen verlässlich und sagen doch wenig über den Geschäftserfolg.
 
 ::: {.notes}
-Vanity-Metriken sind Eitelkeits-Kennzahlen. Sie lassen sich gut präsentieren und steigen fast immer, führen aber leicht in die Irre, weil ihnen der Bezug zum Ziel fehlt. Zehntausend Aufrufe sind wertlos, wenn niemand davon zur Kundschaft wird.
+Vanity-Metriken sind Eitelkeits-Kennzahlen. Sie lassen sich gut präsentieren und steigen fast immer, führen aber leicht in die Irre, weil ihnen der Bezug zum Ziel fehlt. Zehntausend Aufrufe belegen noch keinen Geschäftserfolg, können aber für ein Bekanntheitsziel relevant sein.
 :::
 
 ## Die Prüffrage für jede Kennzahl
@@ -103,6 +103,41 @@ Genauso reichen **vier bis fünf** gut gewählte KPIs, um eine Kampagne zu steue
 
 ::: {.notes}
 Das Bild des Armaturenbretts macht die Disziplin greifbar. Aus der Fülle möglicher Zahlen werden wenige ausgewählt, die wirklich steuern helfen. Mehr Anzeigen erhöhen nicht die Klarheit, sondern nur den Aufwand der Interpretation.
+:::
+
+## Bestellungen sind keine Neukunden {.stage background-color="#0a0a0f"}
+
+Fiktive Woche: 2.000 Euro Werbekosten, 40 Bestellungen, 25 erstmals kaufende Personen.
+
+- Kosten je Bestellung: **50 Euro**
+- Medien-CAC je neuer Person: **80 Euro**
+- Vollständiger CAC: weitere abgegrenzte Akquisekosten ergänzen
+
+::: {.notes}
+Zweitausend geteilt durch vierzig ergibt fünfzig Euro pro Bestellung. Zweitausend geteilt durch fünfundzwanzig ergibt achtzig Euro Medien-CAC pro neuer Person. Wiederholungskäufe erhöhen den Bestellzähler, nicht den Neukundenzähler. Die Kurzprüfung erklärt diesen Unterschied ohne KI.
+:::
+
+## Welche Conversion-Rate ist gemeint?
+
+1.000 Klicks · 800 Sitzungen · 40 Bestellungen aus 36 Sitzungen
+
+- Bestellungen je Klick: **4 Prozent**
+- Sitzungen mit Kauf / Sitzungen: **4,5 Prozent**
+
+Zähler, Nenner und Auswertungsfenster gehören zusammen.
+
+::: {.notes}
+Das Beispiel enthält vollständig erfasste Daten derselben Woche. Vierzig Bestellungen geteilt durch achthundert Sitzungen ergibt fünf Prozent, aber nicht den Anteil der Sitzungen mit mindestens einem Kauf. Dafür zählen sechsunddreißig Sitzungen. Fehlende Tage dürfen nicht als null gelten; eine Rate benötigt zusammengehörige Zähler und Nenner.
+:::
+
+## ROAS ist kein Gewinn
+
+4.000 Euro Nettoumsatz / 2.000 Euro Werbung = **ROAS 2**
+
+40 Prozent Deckungsbeitrag vor Werbung ergeben 1.600 Euro. Nach Werbung: **−400 Euro**, vor weiteren Fixkosten.
+
+::: {.notes}
+Der zugeordnete Nettoumsatz pro Werbe-Euro ist kein Gewinn. Auch ein positiver Durchschnitts-ROAS beantwortet die Budgetfrage nicht: Dafür fehlt der erwartete zusätzliche Deckungsbeitrag des nächsten Budgetschritts. Tatsächlich angefallene Kosten und Shop-Bestellungen bleiben trotz Trackinglücken wirtschaftlich relevant.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

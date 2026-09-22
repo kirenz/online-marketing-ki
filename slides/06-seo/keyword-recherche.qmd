@@ -21,7 +21,7 @@ Ein Keyword verbindet zwei Welten: das Anliegen der suchenden Person und das eig
 Zwei Größen beschreiben jedes Keyword:
 
 - **Suchvolumen** zeigt, wie oft ein Begriff gesucht wird.
-- **Wettbewerb** zeigt, wie schwer eine vordere Platzierung ist.
+- **Organische Schwierigkeit** wird aus Suchergebnissen und SEO-Schätzungen beurteilt.
 
 Hohes Volumen ist verlockend, aber meist hart umkämpft.
 
@@ -30,7 +30,7 @@ Quelle: @erlhofer2023
 :::
 
 ::: {.notes}
-Keywords sind kein Selbstzweck, sondern eine Brücke zwischen Nachfrage und Angebot. Zwei Größen helfen bei der Bewertung: das Suchvolumen als Maß der Nachfrage und der Wettbewerb als Maß der Schwierigkeit. Begriffe mit sehr hohem Volumen wirken attraktiv, sind aber oft so stark umkämpft, dass kleinere Anbieter dort kaum sichtbar werden.
+Keywords sind kein Selbstzweck, sondern eine Brücke zwischen Nachfrage und Angebot. Zwei Größen helfen bei der Bewertung: das Suchvolumen als Maß der Nachfrage und die organische Schwierigkeit als Einschätzung aus Suchergebnissen und SEO-Werkzeugen. Die Wettbewerbsspalte des Keyword-Planers beschreibt dagegen konkurrierende Werbungtreibende. Begriffe mit sehr hohem Volumen wirken attraktiv, sind aber oft so stark umkämpft, dass kleinere Anbieter dort kaum sichtbar werden.
 :::
 
 ## Hinter jedem Begriff steckt eine Absicht {.stage background-color="#0a0a0f"}
@@ -91,7 +91,7 @@ Besonders wertvoll sind **Long-Tail-Begriffe**, also längere, spezifischere Suc
 
 - einzeln weniger Volumen
 - treffen das Anliegen genauer
-- leichter zu gewinnen
+- möglicherweise weniger umkämpft
 
 Entscheidend ist der Nutzen für die Lesenden, nicht eine künstliche Schlagwortdichte.
 
@@ -100,7 +100,7 @@ Quelle: @googleSeo2025
 :::
 
 ::: {.notes}
-Aus losen Keywords entstehen Themencluster, also Gruppen verwandter Begriffe, die dasselbe Anliegen aus mehreren Blickwinkeln abdecken. Long-Tail-Begriffe haben einzeln wenig Volumen, treffen die Absicht aber präzise und sind leichter zu gewinnen. Die offizielle Google-Anleitung betont, Inhalte an echten Bedürfnissen auszurichten statt an Schlagwortdichte.
+Aus losen Keywords entstehen Themencluster, also Gruppen verwandter Begriffe, die dasselbe Anliegen aus mehreren Blickwinkeln abdecken. Long-Tail-Begriffe haben einzeln wenig Volumen, treffen die Absicht oft präziser. Ein leichtes Ranking ist damit nicht garantiert. Die offizielle Google-Anleitung betont, Inhalte an echten Bedürfnissen auszurichten statt an Schlagwortdichte.
 :::
 
 ## Analogie: Das Schaufenster einer Fachhandlung
@@ -113,6 +113,20 @@ Genauso steht bei der Recherche die echte Nachfrage vor dem eigenen Inhalt.
 
 ::: {.notes}
 Das Bild der Fachhandlung macht die Reihenfolge greifbar: erst die Nachfrage prüfen, dann das Angebot präsentieren. Wer das Schaufenster nach Bauchgefühl bestückt, geht an der Laufkundschaft vorbei. Die Keyword-Recherche ist dieser prüfende Blick auf die tatsächliche Nachfrage.
+:::
+
+## Drei Keywords, eine begründete Wahl
+
+Je Begriff: Suchintention · Seitenformat · Volumenquelle und Datum · Art des Wettbewerbswerts.
+
+„Wettbewerb“ im Keyword-Planer ist **Anzeigenwettbewerb**, keine SEO-Schwierigkeit.
+
+::: {.sources}
+Quelle: @googleKeywordPlanner2026
+:::
+
+::: {.notes}
+Die Kurzprüfung vergleicht drei Begriffe für ein eigenes Angebot. Fehlende Werte bleiben unbekannt; eine KI-Schätzung ersetzt keine Messquelle. Gewählt wird ein Begriff mit passendem Seitenformat und einer Begründung aus Nutzen und Suchintention, nicht allein aus hohem Suchvolumen.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

@@ -44,8 +44,8 @@ book:
     - part: 01-marketing-grundlagen/index.qmd
       chapters:
         - 01-marketing-grundlagen/was-ist-marketing.qmd
-        - 01-marketing-grundlagen/marketing-mix.qmd
         - 01-marketing-grundlagen/ki-im-marketing.qmd
+        - 11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.qmd
     - part: 02-kundenverstaendnis/index.qmd
       chapters:
         - 02-kundenverstaendnis/value-proposition-canvas.qmd
@@ -60,6 +60,7 @@ book:
       chapters:
         - 04-marketingziele-strategie/smart-ziele.qmd
         - 04-marketingziele-strategie/ziele-zu-kennzahlen.qmd
+        - 01-marketing-grundlagen/marketing-mix.qmd
     - part: 05-content-persuasion/index.qmd
       chapters:
         - 05-content-persuasion/content-strategie.qmd
@@ -94,7 +95,6 @@ book:
         - 10-ki-im-marketing/ki-werkzeuge-agenten.qmd
     - part: 11-marktumfeld-recht-organisation/index.qmd
       chapters:
-        - 11-marktumfeld-recht-organisation/online-werbemarkt-planungsprozess.qmd
         - 11-marktumfeld-recht-organisation/produkt-preis-distribution.qmd
         - 11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.qmd
         - 11-marktumfeld-recht-organisation/organisation-make-or-buy.qmd

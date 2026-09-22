@@ -81,6 +81,18 @@ KI erfindet bisweilen Fakten, Zahlen oder Quellen, die überzeugend klingen, abe
 Hier schließt sich der Bogen: Strategie legt fest, was wir sagen, Persuasion und Storytelling, wie es wirkt, und KI bringt es schneller in Form. Die Technik des strukturierten Prompts vertieft Modul 10, das genau an dieser Stelle ansetzt.
 :::
 
+## 90 Prozent empfohlen: auf welcher Basis?
+
+Fiktiver Entwurf: „Von 90 Prozent der Kundschaft empfohlen.“
+
+Vorhanden: fünf positive Kommentare.
+
+Fehlender Nenner und fehlende Erhebung erlauben keine Prozentbehauptung.
+
+::: {.notes}
+Jede Zahl, jedes Produktversprechen und jedes Zitat wird bis zur Originalquelle geprüft. Eine echte Quelle muss die konkrete Behauptung tragen; eine erfundene Quelle wird gestrichen. Das Beispiel verlangt eine belegbare Beschreibung der vorhandenen Kommentare. Dasselbe gilt für künstliche Bewertungen, Knappheit und Referenzen.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
 KI beschleunigt den Entwurf, der Mensch sichert die Qualität. Der größte Gewinn ist Tempo, die größte Gefahr Beliebigkeit, und nur menschliche Sorgfalt macht aus dem Entwurf wirksamen Content.

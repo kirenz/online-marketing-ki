@@ -90,6 +90,10 @@ $color-stage-muted-a: #a8a4a0 !default;   // warm-grau für Kicker/Muted
 .reveal section.slide.stage.present,
 .reveal section.slide.stage.future,
 .reveal section.slide.stage.past {
+  // H1-Stages erhalten auch .center: dessen Papierfläche darf das Hero-Bild
+  // nicht überdecken. Die dunkle Fläche liegt im Reveal-Hintergrundlayer.
+  background: transparent !important;
+  background-color: transparent !important;
   background-image: none !important;
   color: $color-stage-text-a !important;
 
@@ -105,7 +109,7 @@ $color-stage-muted-a: #a8a4a0 !default;   // warm-grau für Kicker/Muted
     letter-spacing: var(--tracking-display);
   }
 
-  p, li, span, blockquote {
+  p, li, span, blockquote, strong, b, em {
     color: $color-stage-text-a !important;
     text-shadow: none !important;
   }
@@ -120,6 +124,13 @@ $color-stage-muted-a: #a8a4a0 !default;   // warm-grau für Kicker/Muted
 // (h1 als Kicker, p als großer Schluss-Satz). Farben auf dunkle Bühne
 // abgestimmt: h1 gedämpft (Kicker-Charakter), p hell (Schluss-Satz).
 .reveal section.slide.stage.closing {
+  // Schlussgedanken bleiben auch bei zwei kurzen Sätzen im Folienrahmen.
+  > p, > blockquote {
+    font-size: clamp(1.8rem, 3vw, 2.6rem) !important;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+
   h1, h2 {
     color: $color-stage-muted-a !important;
     text-shadow: none !important;
@@ -799,6 +810,7 @@ body:has(.slides section.present.stage) {
 // einer eigenen Layer (`.reveal .backgrounds .slide-background`). Diese
 // Layer wird in modernen Reveal-Builds gefärbt; falls A's :root-Tokens das
 // inheriten, hier explizit zurücksetzen.
+.reveal .backgrounds .slide-background.stage,
 .reveal .backgrounds .slide-background[data-background-color="#0a0a0f"] {
   background-color: $color-stage-bg-a !important;
 }

@@ -31,3 +31,9 @@ Eine Persona ist wie ein Phantombild: Es zeigt keine reale Einzelperson, sondern
 ::: {.callout-important title="Daten statt Vermutung"}
 Eine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas bestätigen vor allem die eigenen Annahmen und führen die Kommunikation in die Irre.
 :::
+
+## Beobachtung, Annahme und Entscheidung
+
+Wir ergänzen eine Persona um drei entscheidungsrelevante Aussagen, jeweils mit Quelle oder dem Vermerk „Annahme“. Eine KI-erfundene Aussage wie „kauft vor allem wegen Nachhaltigkeit“ bleibt eine Hypothese, auch wenn das Profil detailliert wirkt. Wir prüfen sie etwa mit anonymisierten Interviewstellen oder beobachtetem Verhalten.
+
+**Prüfkriterium:** Für die wichtigste noch unbelegte Aussage formulieren wir eine neutrale Interviewfrage und eine Beobachtung, die ihr widersprechen würde. Anschließend benennen wir, welche Botschaft oder Kanalentscheidung sich dadurch ändern könnte.

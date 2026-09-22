@@ -83,6 +83,16 @@ Eine Persona zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtun
 Das Bild des Phantombilds trägt den Gedanken: Je besser die Zeugenaussagen, also die Daten, desto brauchbarer das Bild. Eine Persona ist ein datengestütztes Destillat, kein Steckbrief einer echten Person.
 :::
 
+## Drei Aussagen mit Quellenstatus
+
+Jede Aussage erhält eine Quelle oder den Vermerk **Annahme**.
+
+Eine offene Annahme braucht eine neutrale Interviewfrage und eine mögliche Gegenbeobachtung.
+
+::: {.notes}
+Ein KI-Profil wird nicht durch Detailreichtum zu Kundenwissen. Die Kurzprüfung dokumentiert drei entscheidungsrelevante Aussagen und prüft für die wichtigste offene Annahme, welche Beobachtung ihr widersprechen würde. Danach wird benannt, welche Botschaft oder Kanalentscheidung sich dadurch ändern könnte.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
 Personas machen Segmente greifbar und leiten die tägliche Arbeit. Sie sind nur so stark wie die Daten, aus denen sie entstehen.

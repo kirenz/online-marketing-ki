@@ -42,3 +42,9 @@ Für die Rösterei bedeutet das eine bewusste Mischung: Der Marktplatz bringt ne
 ## Internationalisierung: was sich je Markt ändert
 
 Sobald wir über Grenzen hinweg verkaufen, stellt sich zuerst die Frage der Markteintrittsform: Export über einen Marktplatz, Zusammenarbeit mit einem Distributor, ein eigener Shop je Land oder eine Tochtergesellschaft. Die Reihenfolge beschreibt zugleich die Abwägung, denn mit jeder Stufe steigen Kontrolle und Nähe zur Kundschaft, aber auch Investition und gebundene Ressourcen. Danach kommen drei operative Fragen hinzu. Erstens die Lokalisierung: Sprache, Maßeinheiten, Bildwelt und Ansprache müssen zum Markt passen, eine reine Übersetzung reicht selten. Zweitens die Kanalwahl, denn führende Suchmaschinen, soziale Netzwerke und Marktplätze unterscheiden sich je Land erheblich. Drittens die Abwicklung, weil bevorzugte Zahlungsarten, Versandkosten, Zollfragen und Rückgaberegeln häufiger über den Kaufabbruch entscheiden als die Produktseite selbst [@kingsnorth2022].
+
+## Beispiel und Planspiel auseinanderhalten
+
+Die Rösterei mit Shop, Laden und Abo ist hier ein Beispiel für strategische Wahlmöglichkeiten. Daraus folgt nicht, dass Preis, Sortiment, Abo oder Vertriebskanäle in einer konkreten Simulation veränderbar sind. Im Planspiel gelten ausschließlich die dort ausgewiesenen Eingabefelder und Regeln. Für den Unternehmenstransfer öffnen wir den Blick wieder auf den gesamten Marketing-Mix.
+
+Auch die Margeneinordnung in der Tabelle ist eine vereinfachte Orientierung. Wir vergleichen die Wege erst nach Provisionen, Versand, Retouren, Kundengewinnung und Betriebskosten. Ein eigener Shop garantiert keine höhere Nettomarge.

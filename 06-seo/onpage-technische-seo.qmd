@@ -14,7 +14,7 @@ Wir denken an ein gut beschriftetes Lager. Jedes Regal trägt ein eindeutiges Sc
 
 ## Technische Grundlagen
 
-Selbst der beste Inhalt bleibt wirkungslos, wenn Suchmaschinen ihn nicht erreichen oder verarbeiten können. Auf der technischen Ebene sorgen wir deshalb dafür, dass unsere Seiten auffindbar und lesbar sind. Eine Sitemap listet unsere wichtigen Seiten auf, eine durchdachte robots-Steuerung regelt, was indexiert werden darf, und sprechende, stabile Adressen (URLs) machen die Struktur verständlich.
+Selbst der beste Inhalt bleibt wirkungslos, wenn Suchmaschinen ihn nicht erreichen oder verarbeiten können. Auf der technischen Ebene sorgen wir deshalb dafür, dass unsere Seiten auffindbar und lesbar sind. Eine Sitemap listet unsere wichtigen Seiten auf, `robots.txt` steuert den Zugriff von Crawlern, während `noindex` die Aufnahme in den Suchindex unterbindet, sofern der Crawler die Anweisung lesen kann, und sprechende, stabile Adressen (URLs) machen die Struktur verständlich.
 
 Hinzu kommt die mobile Nutzbarkeit. Da ein großer Teil der Suchanfragen über Smartphones läuft, bewertet Google Seiten vorrangig in ihrer mobilen Fassung. Die offizielle Einführung von Google nennt eine technisch saubere, mobil nutzbare und schnell erreichbare Seite als Grundvoraussetzung [@googleSeo2025].
 
@@ -26,4 +26,8 @@ Wir stärken diese Signale konkret, indem wir Urheberschaft sichtbar machen, Que
 
 ::: {.callout-important title="Substanz vor Technik"}
 Technische Sauberkeit ist die Eintrittskarte, kein Ranking-Garant. Wenn Inhalt und Glaubwürdigkeit fehlen, bringen perfekt gesetzte Tags wenig. Wir investieren deshalb zuerst in echten Mehrwert und sichern ihn technisch ab.
+:::
+
+::: {.callout-important title="Crawling ist nicht Indexierung"}
+Eine per `robots.txt` gesperrte URL kann trotzdem in Suchergebnissen auftauchen, etwa über externe Links. Gleichzeitig kann die Sperre verhindern, dass Google ein `noindex` auf der Seite liest. Für vertrauliche Inhalte benötigen wir eine Zugangskontrolle; beide Suchmaschinenanweisungen ersetzen sie nicht [@googleRobots2026].
 :::

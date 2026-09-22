@@ -56,7 +56,7 @@ Diese Tabelle ist der Kern der Lesson. Jede Komponente steht für eine Frage: Co
 [{{< fa layer-group >}}]{.accent-blue}
 **Context**
 
-Ein präziser Kontext verhindert falsche Annahmen.
+Ein präziser Kontext reduziert vermeidbare Annahmen.
 :::
 
 ::: {.feature}
@@ -71,7 +71,7 @@ Ein klares Ziel richtet die Antwort aus.
 Die übrigen fünf Felder steuern Perspektive, Adressat, Klang, Form und Grenzen.
 
 ::: {.notes}
-Unter den sieben Feldern tragen zwei das Fundament. Ein präziser Kontext verhindert, dass das Modell falsche Annahmen trifft. Ein klares Ziel richtet die Antwort auf das gewünschte Ergebnis aus. Mode und People of Interest steuern danach Perspektive und Adressat, Attitude und Style den Klang und die Form, Specifications die Grenzen.
+Unter den sieben Feldern tragen zwei das Fundament. Ein präziser Kontext reduziert vermeidbare Annahmen, garantiert aber keine richtige Antwort. Ein klares Ziel richtet die Antwort auf das gewünschte Ergebnis aus. Mode und People of Interest steuern danach Perspektive und Adressat, Attitude und Style den Klang und die Form, Specifications die Grenzen.
 :::
 
 ## COMPASS in der Praxis
@@ -80,14 +80,14 @@ Nicht jeder Prompt braucht alle sieben Felder. Bei einer kurzen Frage genügen [
 
 Je sichtbarer das Ergebnis, etwa ein Newsletter oder eine Anzeige, desto mehr lohnt die vollständige Liste.
 
-Der Gewinn liegt in der Wiederholbarkeit: einmal sauber gebaut, als Vorlage gespeichert, immer wieder genutzt.
+Wiederverwendbar ist die Arbeitsanweisung. Identische oder richtige Ausgaben sind nicht garantiert.
 
 ::: {.sources}
 Quelle: @bolz2024
 :::
 
 ::: {.notes}
-In der Praxis wird das Raster flexibel genutzt. Für eine kurze Frage reichen Kontext und Ziel. Für sichtbare Ergebnisse wie einen Newsletter oder eine Anzeige lohnt sich die vollständige Liste. Der eigentliche Gewinn ist die Wiederholbarkeit: Ein einmal sauber gebauter COMPASS-Prompt wird zur Vorlage, bei der nur Kontext und Zielgruppe getauscht werden.
+In der Praxis wird das Raster flexibel genutzt. Für eine kurze Frage reichen Kontext und Ziel. Für sichtbare Ergebnisse wie einen Newsletter oder eine Anzeige lohnt sich die vollständige Liste. Ein COMPASS-Prompt wird zur wiederverwendbaren Vorlage. Für Vergleiche werden Prompt, Eingaben, Werkzeug oder Modell und Datum dokumentiert. Gleiche Ausgaben sind damit nicht garantiert.
 :::
 
 ## Struktur ersetzt keine Prüfung

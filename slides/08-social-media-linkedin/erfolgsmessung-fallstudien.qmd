@@ -43,7 +43,7 @@ Quelle: @seebacher2023
 :::
 
 ::: {.notes}
-Diese fünf Kennzahlen begegnen uns im Kampagnen-Manager am häufigsten. Eine hohe Klickrate zeigt, dass Botschaft und Zielgruppe zusammenpassen. Steigende Kosten pro Lead bei gleicher Qualität sind dagegen ein Warnsignal, dass die Zielgruppe zu eng ist oder die Anzeige ermüdet.
+Diese fünf Kennzahlen begegnen uns im Kampagnen-Manager am häufigsten. Eine hohe Klickrate kann Interesse anzeigen, belegt aber keine qualifizierte Nachfrage. Steigende Leadkosten können mit Wettbewerb, Zielgruppe oder Anzeigenmüdigkeit zusammenhängen. Die Kennzahl allein liefert keine eindeutige Diagnose.
 :::
 
 ## Das Cockpit-Prinzip {.stage background-color="#0a0a0f"}
@@ -92,11 +92,11 @@ Aus typischen Kampagnen im deutschsprachigen B2B lassen sich drei zuverlässige 
 ## Vorsicht bei geliehenen Zahlen
 
 ::: {.tip-box}
-Veröffentlichte Erfolgszahlen stammen aus anderem Markt, anderer Branche, anderem Zeitraum. Als grobe Orientierung nutzen, niemals als verbindliches Ziel. Belastbar ist nur der Vergleich mit den eigenen Werten.
+Veröffentlichte Erfolgszahlen stammen aus anderem Markt, anderer Branche, anderem Zeitraum. Als grobe Orientierung nutzen, niemals als verbindliches Ziel. Auch eigene Vergleiche brauchen passende Zählregeln und Zeiträume.
 :::
 
 ::: {.notes}
-Benchmarks aus Fallstudien sind verführerisch, aber sie stammen aus einem anderen Kontext. Sie taugen als grobe Orientierung, nie als verbindlicher Zielwert. Belastbar ist allein der Vergleich mit den eigenen, über mehrere Kampagnen hinweg gemessenen Werten.
+Benchmarks aus Fallstudien sind verführerisch, aber sie stammen aus einem anderen Kontext. Sie taugen als grobe Orientierung, nie als verbindlicher Zielwert. Auch eigene Vergleiche brauchen vergleichbare Zählregeln, Zielgruppen, Zeiträume und Datenqualitäten.
 :::
 
 ## Vom Messen zum Verbessern
@@ -104,7 +104,20 @@ Benchmarks aus Fallstudien sind verführerisch, aber sie stammen aus einem ander
 Messung ist kein Selbstzweck. Aus den Zahlen leiten wir Anpassungen ab: zwei Varianten gegeneinander testen, ermüdete Motive austauschen, die Zielgruppe nachschärfen. So wird aus einer Kampagne ein [lernender Kreislauf]{.highlight-yellow}.
 
 ::: {.notes}
-Der letzte Schritt schließt den Kreis. Aus den Kennzahlen entstehen konkrete Anpassungen: ein A/B-Test zweier Anzeigen, der Austausch müder Motive, eine geschärfte Zielgruppe. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, der mit jeder Runde besser wird.
+Der letzte Schritt schließt den Kreis. Aus den Kennzahlen entstehen konkrete Anpassungen: ein A/B-Test zweier Anzeigen, der Austausch müder Motive, eine geschärfte Zielgruppe. So wird aus einer einzelnen Kampagne ein lernender Kreislauf, in dem Verbesserungen gezielt geprüft werden.
+:::
+
+## Günstiger Lead oder bessere Anfrage?
+
+Je 1.200 Euro Kosten:
+
+| Kampagne | Leads | qualifiziert | CPL | je qualifiziertem Lead |
+|---|---|---|---|---|
+| A | 60 | 12 | 20 Euro | 100 Euro |
+| B | 40 | 16 | 30 Euro | 75 Euro |
+
+::: {.notes}
+Die fiktiven Kampagnen haben dieselben Qualifikationskriterien sowie gleiche Zeiträume und Nachbeobachtung. Ohne KI lassen sich beide Kennzahlen nachrechnen. B ist je qualifiziertem Lead günstiger, obwohl der CPL höher ist. Profitabilität bleibt ohne Abschlüsse, Margen und weitere Kosten offen. Die Ursache des Unterschieds ist ebenfalls ungeklärt.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

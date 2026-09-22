@@ -48,6 +48,7 @@ format:
       - redesign/tokens-platform.scss
       - redesign/motion-editorial.scss
       - redesign/variant-a-pure.scss
+    navigation-mode: linear
     incremental: true
     transition: none
     background-transition: fade

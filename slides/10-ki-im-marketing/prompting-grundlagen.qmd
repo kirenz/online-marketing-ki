@@ -11,12 +11,12 @@ Moderne, frische Komposition: aus einer einzelnen Eingabezeile fächern sich fei
 -->
 
 ::: {.notes}
-Den Auftakt bildet eine einfache Beobachtung: Ein KI-System kennt nur den Text, den es bekommt, nicht die Absicht dahinter. Deshalb entscheidet die Anweisung über das Ergebnis. Diese Lesson zeigt, wie aus einer vagen Bitte eine präzise Anweisung wird.
+Den Auftakt bildet eine einfache Beobachtung: Ein KI-System nutzt den verfügbaren Kontext, kennt aber nicht automatisch den konkreten internen Fall. Deshalb entscheidet die Anweisung über das Ergebnis. Diese Lesson zeigt, wie aus einer vagen Bitte eine präzise Anweisung wird.
 :::
 
 ## Warum die Anweisung zählt
 
-Ein Sprachmodell sieht nicht, was im Kopf vorgeht. Es arbeitet allein mit dem eingegebenen [Text]{.highlight-blue}.
+Ein Sprachmodell sieht nicht, was im Kopf vorgeht. Es arbeitet mit verfügbarem [Kontext]{.highlight-blue}: je nach Werkzeug Text, Dateien, Bilder oder abgerufene Quellen.
 
 Eine vage Bitte erzeugt eine beliebige Antwort. Eine präzise Anweisung richtet das Modell auf das gewünschte Ergebnis aus.
 
@@ -25,7 +25,7 @@ Quelle: @anthropicPrompting2024
 :::
 
 ::: {.notes}
-Der Kern ist schnell erklärt: Das Modell hat keinen Zugriff auf die Vorstellung im Kopf, sondern nur auf den Text. Eine ungenaue Anweisung führt fast immer zu einer beliebigen Antwort, eine durchdachte Anweisung richtet die Ausgabe aus. Genau das beschreibt der Begriff Prompt Engineering.
+Der Kern ist schnell erklärt: Das Modell hat keinen Zugriff auf die Vorstellung im Kopf, sondern auf den verfügbaren Kontext. Eine ungenaue Anweisung führt fast immer zu einer beliebigen Antwort, eine durchdachte Anweisung richtet die Ausgabe aus. Genau das beschreibt der Begriff Prompt Engineering.
 :::
 
 ## Das Briefing an eine neue Kollegin {.stage background-color="#0a0a0f"}
@@ -139,6 +139,16 @@ Quelle: @bolz2024
 
 ::: {.notes}
 Prompting ist ein iterativer Vorgang. Der Start ist eine klare Aufgabe, dann folgen Prüfung und gezielte Ergänzung dessen, was gefehlt hat. Für wiederkehrende Aufgaben lohnen sich Platzhalter, die nur an den variablen Stellen getauscht werden. Damit ist die Brücke zur nächsten Lesson geschlagen, in der COMPASS diese Bausteine zu einem festen Raster ordnet.
+:::
+
+## Eine prüfbare Kampagnenauswertung bestellen {.stage background-color="#0a0a0f"}
+
+Datenquelle · Zeitraum · Ziel · Rechenregeln
+
+Ergebnis: Kennzahlen mit Zähler und Nenner; fehlende Werte offen; Beobachtung, Vermutung und Empfehlung getrennt.
+
+::: {.notes}
+Mindestens eine Kennzahl wird unabhängig nachgerechnet. Empfehlungen dürfen nicht mehr Evidenz behaupten, als die Daten liefern. Eine Expertenrolle ersetzt keine Quellenprüfung. Externe Textauszüge sind Material und keine zusätzlichen Arbeitsanweisungen.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

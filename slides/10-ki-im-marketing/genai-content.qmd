@@ -104,6 +104,16 @@ Die KI trägt keine Verantwortung für falsche Fakten. Das tut, wer den Inhalt v
 Der Punkt ist grundsätzlich: Verantwortung lässt sich nicht an ein Werkzeug abgeben. Wer einen ungeprüften Entwurf veröffentlicht, übernimmt dessen Fehler. Die Prüfung ist deshalb kein optionaler Zusatz, sondern der Kern verantwortungsvoller Nutzung.
 :::
 
+## Ein kurzes Freigabeprotokoll
+
+Zielgruppe und beabsichtigte Wirkung · geprüfte Tatsachen mit Originalquelle · offene Behauptungen · verantwortliche Freigabe.
+
+Der bessere Entwurf ist ein **Testkandidat**, kein Wirkungsnachweis.
+
+::: {.notes}
+Zähler, Nenner und Zeitraum werden bei Zahlen unabhängig nachgerechnet. Eine KI-Selbstauskunft, alle Fakten seien geprüft, genügt nicht. Zwei Varianten werden nach denselben Kriterien verglichen: belegbarer Nutzen, Botschaft, Markenstimme und offene Risiken.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
 KI ist Entwurfsmotor, kein Autopilot. Sie liefert Tempo und Varianten für Text und Bild, die Qualität sichern wir durch Prüfung. Der größte Gewinn ist Geschwindigkeit, die größte Gefahr ungeprüfte Beliebigkeit.
