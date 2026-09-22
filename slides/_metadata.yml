@@ -25,6 +25,8 @@ title-slide-attributes:
 
 filters:
   - d2
+  # Folien bauen sich schrittweise auf (Absätze, Karten, Zeitstrahl, Spalten).
+  - filters/stepwise.lua
 
 format:
   revealjs:
