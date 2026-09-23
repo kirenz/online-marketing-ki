@@ -1,0 +1,341 @@
+---
+title: "Online-Marktforschung mit KI"
+subtitle: "Modul 2: Kundenverständnis"
+author: Jan Kirenz
+book:
+  chapter_slug: "02-kundenverstaendnis/marktforschung-mit-ki"
+---
+
+# Erst die Frage, dann das Werkzeug {.stage background-image="../images/hero-marktforschung-mit-ki.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-marktforschung-mit-ki.png"
+Moderne, ruhige Szene: auf tiefem Petrol-Blau schweben viele kleine, abstrakte Karten wie Notizzettel, einige davon durch feine helle Linien zu Gruppen verbunden, eine Lupe als schemenhafte Lichtform über einer der Gruppen. Frische, gedeckte Farbakzente, weicher Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und modern.
+-->
+
+::: {.notes}
+Online-Quellen und KI-Werkzeuge liefern in kurzer Zeit viele Hinweise auf Kundenbedürfnisse. Gerade deshalb steht am Anfang eine klare Frage. Am Ende steht eine saubere Prüfung dessen, was die Hinweise tatsächlich tragen. Das durchgehende Beispiel ist das Kaffeeabo der Rösterei Morgenrot.
+:::
+
+## Eine Frage mit Entscheidung dahinter
+
+:::: {.numbered-sections-container}
+
+::: {.numbered-section}
+[01]{.section-number}
+[Gegenstand]{.section-title}
+[Worum es geht]{.section-subtitle}
+
+- Bedenken vor dem Abschluss eines Kaffeeabos
+:::
+
+::: {.numbered-section}
+[02]{.section-number}
+[Entscheidung]{.section-title}
+[Wofür das Ergebnis dient]{.section-subtitle}
+
+- Was die Abo-Seite erklären soll
+:::
+
+::: {.numbered-section}
+[03]{.section-number}
+[Grenze]{.section-title}
+[Was die Recherche nicht leistet]{.section-subtitle}
+
+- Keine Absatzprognose
+- Kein Marktanteil
+:::
+
+::::
+
+::: {.notes}
+Die Rösterei Morgenrot möchte die Seite für ihr Kaffeeabo überarbeiten. Eine brauchbare Recherchefrage benennt den Gegenstand, hier die Bedenken vor dem Abschluss. [KLICK] Sie benennt auch die Entscheidung, für die das Ergebnis gebraucht wird, also den Inhalt der Abo-Seite. [KLICK] Und sie legt fest, was eine kleine Recherche nicht leisten soll: weder eine Absatzprognose noch den Anteil abowilliger Haushalte.
+:::
+
+## Jede Quelle zeigt etwas anderes
+
+:::: {.comparison}
+
+::: {.comparison-side}
+**Welche Bedenken gibt es?**
+
+- Bewertungen, Foren, Social Media
+- Interviews
+- Zeigen Situationen und Begriffe
+- Grenze: Selbstauswahl, keine Häufigkeiten
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side .highlighted}
+**Wie oft kommen sie vor?**
+
+- Online-Befragungen
+- Bestell- und Nutzungsdaten
+- Zeigen Verteilungen und Verhalten
+- Grenze: Auswahl der Befragten, Motiv fehlt oft
+:::
+
+::::
+
+::: {.sources}
+Quelle: @kotler2022; @tuten2023
+:::
+
+::: {.notes}
+Bewertungen, Onlinegespräche und Interviews liefern qualitative Einsichten. Sie zeigen, welche Bedenken es gibt und wie Menschen darüber sprechen. Die systematische Beobachtung öffentlicher Onlinegespräche heißt Social Listening. [KLICK] Befragungen und Bestelldaten liefern quantitative Aussagen darüber, wie oft etwas vorkommt. Anbieterseiten bilden eine eigene Kategorie: Sie beschreiben ein Angebot, aber keine Kundenpräferenz. Für eine Angebotsseite beginnt die Arbeit meist qualitativ.
+:::
+
+## KI hilft beim Suchen, Ordnen und Entwerfen
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa magnifying-glass >}}]{.accent-blue}
+**Suchen**
+
+Suchbegriffe vorschlagen, mit Webzugriff Quellen finden und zusammenfassen
+:::
+
+::: {.feature}
+[{{< fa layer-group >}}]{.accent-blue}
+**Ordnen**
+
+Bewertungen oder Interviewnotizen nach wiederkehrenden Themen gruppieren
+:::
+
+::: {.feature}
+[{{< fa pen-to-square >}}]{.accent-green}
+**Entwerfen**
+
+Interviewleitfäden und Fragebögen für echte Gespräche vorbereiten
+:::
+
+::::
+
+::: {.sources}
+Quelle: @huang2021; @kumar2025
+:::
+
+::: {.notes}
+KI-Werkzeuge unterstützen die Marktforschung an drei Stellen. Beim Suchen schlagen sie Begriffe vor und fassen mit Webzugriff mehrere Quellen zusammen. [KLICK] Beim Ordnen gruppieren sie viele Texte nach Themen. [KLICK] Beim Entwerfen bereiten sie Leitfäden und Fragebögen vor, die anschließend mit echten Menschen eingesetzt werden. In allen drei Fällen entsteht ein Vorschlag, kein Befund.
+:::
+
+## Jede Zuordnung braucht eine Textstelle
+
+::: {.formula .editorial}
+Thema + Kennung + Textstelle = überprüfbare Auswertung
+:::
+
+::: {.tip-box}
+Im Auftrag an die KI festhalten: Textstelle nennen, Widersprüche erhalten, keine Merkmale ergänzen, Unbekanntes als „nicht bekannt“ markieren.
+:::
+
+::: {.notes}
+Der Arbeitsauftrag an die KI legt fest, welches Material verwendet wird und in welcher Form die Belege erscheinen. Der wichtigste Teil ist die Pflicht zur Textstelle. Jede Zuordnung verweist auf eine Kennung und ein Zitat. Damit lässt sich jede Aussage im Original nachlesen. Widersprüchliche Wünsche bleiben sichtbar, und fehlende Informationen werden ausdrücklich als nicht bekannt markiert.
+:::
+
+## Aus einer Stimme wird keine Zielgruppe {.stage background-color="#0a0a0f"}
+
+::: {.quote-box}
+„In den Ferien blieb Kaffee übrig. Eine Pause wäre hilfreich gewesen.“
+:::
+
+::: {.notes}
+Ein kurzes, für dieses Beispiel konstruiertes Zitat einer Kundin. Zwei Sätze, eine Situation, ein Wunsch. Die nächste Folie zeigt, was eine KI-Auswertung daraus machen könnte und welcher Teil davon vom Text gedeckt ist. [PAUSE]
+:::
+
+## Eine KI-Auswertung am Text prüfen
+
+:::: {.comparison}
+
+::: {.comparison-side .highlighted}
+**Gedeckt**
+
+- Thema: Liefermenge und Pause
+- Beleg: „Kaffee übrig“, „Pause wäre hilfreich“
+- Offen: Ursache und weitere Merkmale
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side}
+**Nicht gedeckt**
+
+- „Berufstätige Familien brauchen grundsätzlich flexible Abos.“
+- Beruf, Haushalt und Verbreitung stehen nirgends im Text
+:::
+
+::::
+
+::: {.notes}
+Links steht eine Zuordnung, die sich an beiden Textstellen festmachen lässt. Das knappe Profil bleibt bei Situation und Wunsch, alles Weitere ist offen. [KLICK] Rechts steht eine Aussage, die plausibel klingt und gerade deshalb gefährlich ist. Sprachmodelle ergänzen fehlende Details gern mit typischen Mustern. Aus einer einzelnen Stimme wird so eine ganze Zielgruppe, ohne dass ein einziges Merkmal belegt wäre.
+:::
+
+## Deep Research: Quelle öffnen, Aussage nachlesen
+
+:::: {.numbered-sections-container}
+
+::: {.numbered-section}
+[01]{.section-number}
+[Stimmt es?]{.section-title}
+[Aussage prüfen]{.section-subtitle}
+
+- Die Seite enthält genau diese Aussage
+:::
+
+::: {.numbered-section}
+[02]{.section-number}
+[Wer spricht?]{.section-title}
+[Absender einordnen]{.section-subtitle}
+
+- Anbieter, Testbericht oder Befragung
+:::
+
+::: {.numbered-section}
+[03]{.section-number}
+[Eigene Quelle?]{.section-title}
+[Herkunft klären]{.section-subtitle}
+
+- Viele Seiten wiederholen dieselbe Studie
+:::
+
+::::
+
+::: {.sources}
+Quelle: @openaiDeepResearch2025
+:::
+
+::: {.notes}
+Viele KI-Assistenten bieten eine Recherche mit Webzugriff an, die mehrere Seiten liest und einen Bericht mit Quellenverweisen erstellt. Diese Arbeitsweise heißt häufig Deep Research. Auch die Anbieter weisen darauf hin, dass solche Berichte Fakten falsch wiedergeben können. Deshalb folgt auf jeden Bericht eine Prüfung in drei Schritten. [KLICK] Enthält die Seite die Aussage wirklich? [KLICK] Wer spricht dort? [KLICK] Und ist es eine eigene Quelle oder nur die Wiederholung einer anderen?
+:::
+
+## Beispiel: eine Anbieterseite
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Belegt auf der Abo-Seite von Coffee Circle**
+
+- wählbare Lieferintervalle
+- Abo pausieren
+- Kündigung im Kundenkonto
+- Versandkosten unter einem Mindestbestellwert
+:::
+
+::: {.column width="50%"}
+**Nicht belegt**
+
+- welche dieser Funktionen der Kundschaft wichtig sind
+- ob sie zu mehr Abschlüssen führen
+:::
+
+::::
+
+::: {.sources}
+Quelle: [coffeecircle.com/de/e/abo](https://www.coffeecircle.com/de/e/abo), Stand der Sichtung 23.09.2026
+:::
+
+::: {.notes}
+Ein kurzes Beispiel für die Quellenprüfung: Welche Möglichkeiten nennt Coffee Circle, um ein Kaffeeabo anzupassen? Auf der Originalseite lassen sich Lieferintervalle, das Pausieren, die Kündigung im Kundenkonto und die Versandkosten nachlesen. [KLICK] Das sind belegte Aussagen über ein Angebot. Welche Funktion der Kundschaft wichtig ist, beantwortet die Seite nicht.
+:::
+
+## Synthetische Befragte liefern Hypothesen
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Was die Forschung zeigt**
+
+- Unter bestimmten Bedingungen treffen Sprachmodelle Antwortverteilungen menschlicher Gruppen gut
+- Bei der Zahlungsbereitschaft weichen Schätzungen teils deutlich ab, manche zeigen sogar in die falsche Richtung
+:::
+
+::: {.column width="50%"}
+**Was daraus folgt**
+
+- Hypothesen sammeln
+- Fragebögen vorab testen
+- Keine Gespräche mit der Kundschaft ersetzen
+:::
+
+::::
+
+::: {.sources}
+Quelle: @argyle2023; @brand2023
+:::
+
+::: {.notes}
+Ein neueres Versprechen lautet, Befragungen durch KI zu ersetzen. Das Sprachmodell antwortet dann so, wie eine bestimmte Kundengruppe antworten würde. Die Forschung dazu ist ernst zu nehmen, die Ergebnisse sind aber gemischt. [KLICK] Synthetische Befragte eignen sich für Hypothesen und für einen Vortest von Fragebögen. Eine von KI beschriebene Persona enthält Annahmen, keine Beobachtungen.
+:::
+
+## Die Auswahl begrenzt die Aussage
+
+:::: {.comparison}
+
+::: {.comparison-side}
+**Zu weit**
+
+- „Die Kunden wollen flexible Abos.“
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side .highlighted}
+**Vom Material gedeckt**
+
+- „Drei der acht Stimmen betreffen Lieferpausen oder einen unpassenden Liefertakt.“
+:::
+
+::::
+
+::: {.sources}
+Quelle: @cetinkaya2024
+:::
+
+::: {.notes}
+Selbst eine fehlerfreie KI-Auswertung ändert nichts daran, woher die Daten stammen. Bewertungen schreiben vor allem sehr zufriedene und sehr unzufriedene Menschen, an Befragungen nehmen vor allem erreichbare und interessierte Menschen teil. Acht ausgewählte Stimmen zeigen, welche Bedenken es gibt. [KLICK] Wie verbreitet sie sind, zeigen sie nicht. Die gedeckte Formulierung beschreibt deshalb nur das Material.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Eine klare Frage, eine Textstelle für jede Aussage und eine offene Frage für den nächsten Schritt: So wird aus schneller Recherche eine belastbare Grundlage.
+
+::: {.notes}
+Am Ende einer kleinen Recherche stehen belegte Beobachtungen, eine begründete Empfehlung und eine offene Frage. Für die Rösterei heißt das: Die Abo-Seite erklärt Pause, Lieferintervall und Kündigungsweg. Wie verbreitet das Bedenken ist, klären später Interviews und eine Befragung. Die belegten Beobachtungen wandern in die Empathy Map und das Kundenprofil.
+:::
+
+## Weiter im Buch {.book-bridge}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](../images/section-background.svg)
+:::
+
+::: {.column width="70%"}
+::: {.chapter-title}
+Kapitel: Online-Marktforschung mit KI
+:::
+
+Im Online-Buch liegen die Quellenübersicht, das Prüfbeispiel und ein Auftrag für die Auswertung von Kundenstimmen ausformuliert bereit.
+
+[→ Zum Kapitel](https://kirenz.github.io/online-marketing-ki/02-kundenverstaendnis/marktforschung-mit-ki.html){.fragment .fade-up}
+:::
+
+::::
+
+::: {.notes}
+Das Buchkapitel vertieft die Quellenübersicht, das Prüfbeispiel und den Umgang mit Deep Research. Dort steht auch ein Auftrag, mit dem sich Kundenstimmen belegbar auswerten lassen.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

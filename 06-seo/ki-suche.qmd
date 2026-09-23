@@ -1,0 +1,55 @@
+# KI-Suche und Sichtbarkeit
+
+Eine Kundin der Rösterei Morgenrot fährt in drei Wochen in den Urlaub. Sie tippt in ihre Suchmaschine: „Wie lässt sich beim Kaffeeabo von Morgenrot eine Lieferung während des Urlaubs aussetzen?“ Immer häufiger bekommt sie darauf keine reine Liste mit Links, sondern eine formulierte Antwort mit Quellenhinweisen. In dieser Lesson klären wir, wie solche Antworten entstehen, was eine Seite zu einer brauchbaren Quelle macht, wo die Planbarkeit endet und was sich heute tatsächlich messen lässt.
+
+## Von der Trefferliste zur Antwort
+
+Google bietet in der Suche zwei KI-Funktionen an. **AI Overviews** sind kurze Zusammenfassungen oberhalb der klassischen Treffer. Sie erscheinen nur bei Anfragen, bei denen Google einen Zusatznutzen gegenüber der normalen Ergebnisliste sieht. Der **AI Mode** ist ein eigener Suchmodus für Fragen, die Vergleiche, mehrere Schritte oder Rückfragen verlangen. Beide Funktionen verbinden Informationen aus mehreren Webseiten zu einer Antwort und verlinken passende Seiten [@googleAiFeatures2026].
+
+Technisch arbeiten beide mit einem Verfahren, das Google „query fan-out“ nennt. Das System zerlegt eine komplexe Frage in mehrere verwandte Suchanfragen zu Unterthemen und führt diese parallel aus. Für die Frage unserer Kundin könnten das etwa Anfragen zu „Kaffeeabo pausieren“, „Morgenrot Lieferintervall“ und „Abo Kundenkonto“ sein. Die Antwort setzt sich dann aus Treffern zu allen Teilfragen zusammen.
+
+Neben Google gibt es Chat-Assistenten mit Websuche, zum Beispiel ChatGPT, Gemini, Perplexity oder Claude. Sie holen bei Bedarf aktuelle Seiten ab und nennen sie als Quelle. Jeder Anbieter nutzt dafür eigene Crawler und eigene Regeln. OpenAI unterscheidet etwa zwischen einem Crawler für die Suche in ChatGPT (`OAI-SearchBot`) und einem für das Training von Modellen (`GPTBot`). Wer den Such-Crawler per `robots.txt` aussperrt, erscheint nicht in den Suchantworten von ChatGPT [@openaiCrawlers2026].
+
+::: {.callout-note title="AEO und GEO"}
+Für die Arbeit an der Sichtbarkeit in solchen Antworten kursieren zwei Kürzel. AEO steht für Answer Engine Optimization, GEO für Generative Engine Optimization. Der Begriff GEO stammt aus einer Forschungsarbeit, die zeigt, dass sich Textmerkmale wie Quellenangaben oder konkrete Zahlen auf die Sichtbarkeit in generierten Antworten auswirken können [@aggarwal2024]. Google selbst ordnet diese Arbeit ausdrücklich als SEO ein und rät zur Vorsicht bei Dienstleistern, die AEO oder GEO als eigene Disziplin verkaufen [@googleAiOptimization2026].
+:::
+
+## Was eine Seite zitierfähig macht
+
+Google nennt für AI Overviews und AI Mode keine zusätzlichen Anforderungen. Eine Seite muss indexiert sein und mit einem Textausschnitt (Snippet) in der Suche erscheinen dürfen. Spezielle strukturierte Daten, KI-Textdateien wie `llms.txt` oder ein Zerlegen der Inhalte in kleine Häppchen sind nach Googles Angaben nicht nötig [@googleAiFeatures2026; @googleAiOptimization2026]. Es gelten die Grundlagen, die wir aus den vorherigen Lessons kennen: hilfreiche, eigenständige Inhalte, eine klare Gliederung mit Überschriften und eine technisch zugängliche Seite.
+
+Für die Praxis heißt das vor allem: Eine Seite wird dann zur brauchbaren Quelle, wenn sie eine konkrete Frage konkret beantwortet. Auf der Abo-Seite von Morgenrot steht bisher nur ein Werbesatz. Die tatsächlichen Bedingungen liegen intern vor, stehen aber nirgends öffentlich.
+
+| Bisheriger Seitentext | Überarbeiteter Seitentext |
+|---|---|
+| „Flexible Möglichkeiten sorgen dafür, dass Kaffee und Leben zusammenpassen.“ | „Eine einzelne Lieferung lässt sich im Kundenkonto aussetzen. Das ist bis spätestens fünf Kalendertage vor dem geplanten Versand möglich. Danach läuft das Abo im bisherigen Liefertakt weiter.“ |
+
+Der zweite Text beantwortet die Frage der Kundin vollständig: Vorgehen, Frist und Fortsetzung. Ein Mensch kann damit entscheiden, und ein Suchsystem findet eine Passage, die es zitieren kann. Beides ist dieselbe Arbeit: Wir schließen eine Informationslücke, die zuerst die Kundschaft stört.
+
+::: {.callout-tip title="Faustregel: erst die Fakten, dann der Text"}
+Wir sammeln zuerst die geprüften Angaben zum Angebot, etwa Lieferintervalle, Fristen und Ausnahmen. Erst dann formulieren wir. Was intern ungeklärt ist, zum Beispiel ob mehrere Lieferungen auf einmal pausiert werden können, klären wir vor der Veröffentlichung, statt es offen oder vage zu lassen.
+:::
+
+Ein KI-Chat hilft beim Überarbeiten. Er kann fehlende Angaben markieren und knappere Formulierungen vorschlagen. Dabei entsteht ein typisches Risiko: Das Modell ergänzt Formulierungen, die gut zum Fall passen, aber nicht belegt sind, etwa „jederzeit kostenlos pausieren“. Eine solche Aussage würde später womöglich in einer KI-Antwort wiederholt und wäre dann ein falsches Versprechen gegenüber der Kundschaft. Wir gleichen deshalb jeden Satz mit den Ausgangsfakten ab.
+
+## Grenzen der Planbarkeit
+
+Welche Antwort erscheint und welche Seiten verlinkt werden, schwankt. Die gleiche Frage kann morgen, auf einem anderen Gerät oder in einem anderen Land eine andere Antwort erzeugen. Eine einzelne Testsuche ist deshalb nur eine Momentaufnahme. Google betont zudem, dass auch eine Seite, die alle Anforderungen erfüllt, keinen Anspruch darauf hat, gecrawlt, indexiert oder angezeigt zu werden [@googleAiOptimization2026]. Für Chat-Assistenten anderer Anbieter gelten Googles Hinweise ohnehin nicht automatisch.
+
+::: {.callout-important title="Keine Nennung ist planbar"}
+Kein Text, kein Tool und keine Agentur kann garantieren, dass eine Seite in einer KI-Antwort genannt wird. Wir können die Voraussetzungen verbessern. Das Ergebnis bestimmen wir nicht. Angebote, die feste Nennungen versprechen, prüfen wir entsprechend kritisch.
+:::
+
+Offen ist auch, was KI-Antworten für die Besuche auf der eigenen Website bedeuten. Wenn die Antwort die Frage bereits beantwortet, entfällt für manche Menschen der Klick. Eine Beobachtungsstudie des Pew Research Center wertete das Suchverhalten von 900 Erwachsenen in den USA im März 2025 aus. Bei Suchergebnisseiten mit KI-Zusammenfassung klickten die Teilnehmenden in 8 Prozent der Fälle auf ein klassisches Suchergebnis, ohne Zusammenfassung in 15 Prozent. Links innerhalb der Zusammenfassung wurden in 1 Prozent der Fälle angeklickt [@chapekis2025]. Google betont dagegen, dass Klicks von Seiten mit AI Overviews qualitativ hochwertiger seien, weil Menschen länger auf der Zielseite bleiben [@googleAiFeatures2026]. Beide Aussagen beziehen sich auf den Durchschnitt vieler Suchen. Was davon für ein bestimmtes Unternehmen gilt, zeigt nur die eigene Messung.
+
+## Sichtbarkeit messen
+
+Für Google gibt es seit Kurzem eigene Messwerte. Die Google Search Console ist ein kostenloses Werkzeug, mit dem Websitebetreiber ihre Präsenz in der Google-Suche auswerten. Grundsätzlich zählt Google Einblendungen und Klicks aus AI Overviews und AI Mode im normalen Leistungsbericht unter dem Suchtyp „Web“ mit, also ohne sie getrennt auszuweisen [@googleAiFeatures2026]. Zusätzlich hat Google am 31. August 2026 einen eigenen Bericht zur Leistung in generativen KI-Funktionen für Websites weltweit freigegeben. Bei wenigen Einblendungen kann er leer bleiben. Er zeigt, wie oft Links zur eigenen Website in AI Overviews und AI Mode eingeblendet wurden, aufgeschlüsselt nach Seiten, Ländern, Geräten und Zeitraum. Klicks weist er derzeit nicht aus [@googleGenAiReport2026].
+
+::: {.callout-note title="Neue Einstellung in der Search Console"}
+Mit dem Bericht kam eine Einstellung, über die Websitebetreiber ihre Inhalte aus AI Overviews, AI Mode und den KI-Funktionen in Google Discover ausschließen können. Standardmäßig sind alle Websites einbezogen. Die klassischen Suchergebnisse bleiben laut Google davon unberührt [@googleGenAiControl2026]. Die Entscheidung ist eine Abwägung: Wer sich ausschließt, verzichtet auf Nennungen, behält aber mehr Kontrolle darüber, wie Inhalte wiedergegeben werden.
+:::
+
+Für Morgenrot ergibt sich daraus ein nüchternes Vorgehen in drei Schritten. Erstens verbessern wir die Seiten, die konkrete Kundenfragen beantworten sollen. Zweitens beobachten wir über mehrere Wochen, wie sich Einblendungen in den KI-Funktionen und Besuche auf diesen Seiten entwickeln. Drittens ziehen wir Schlüsse erst aus dieser Entwicklung, nicht aus einer einzelnen Testsuche. Ob ein besserer Seitentext am Ende zu mehr Abo-Abschlüssen führt, bleibt eine eigene Frage, die wir über die Webanalyse beantworten.
+
+Damit schließt sich der Kreis zu den vorherigen Lessons. KI-Suche verlangt keine neue Disziplin. Sie erhöht aber den Wert von Seiten, die Fragen der Kundschaft präzise, richtig und vollständig beantworten.

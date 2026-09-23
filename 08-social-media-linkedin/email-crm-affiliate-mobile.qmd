@@ -1,0 +1,58 @@
+# E-Mail, CRM, Affiliate und Mobile
+
+Im Planspiel verteilt die Rösterei Morgenrot ihr Budget auf drei Werbekanäle: Google Ads, Facebook Ads und Instagram Ads. Alle drei kaufen Aufmerksamkeit von Menschen, die Morgenrot noch nicht kennen oder gerade nach Kaffee suchen. Im echten Geschäft eines Kaffeeabos hängt der Erfolg aber genauso davon ab, was nach der ersten Bestellung passiert: ob die Kundschaft bleibt, ob Empfehlungen neue Bestellungen bringen und ob die Bestellung auf dem Smartphone reibungslos klappt. In dieser Lesson ordnen wir vier Instrumente ein, die diese Aufgaben übernehmen, und lernen, eine Maßnahme so zu begründen, dass wir ihren Erfolg später prüfen können [@chaffey2022; @lammenett2025].
+
+## Vier Begriffe auf unterschiedlichen Ebenen
+
+E-Mail, CRM, Affiliate und Mobile werden oft in einem Atemzug genannt. Sie liegen aber nicht auf derselben Ebene. E-Mail ist ein Kommunikationskanal. CRM beschreibt, wie ein Unternehmen seine Kundenbeziehungen gestaltet, und die Informationen, die es dafür zusammenführt. Affiliate ist ein Vergütungsmodell für Partner. Mobile ist eine Nutzungssituation, die alle anderen Kanäle betrifft. Wer diese Ebenen vermischt, vergleicht leicht Dinge, die sich nicht vergleichen lassen, etwa ein E-Mail-Budget mit einer besseren Bestellseite.
+
+Für jedes Instrument halten wir drei Dinge fest: eine typische Maßnahme, die Situation der Kundschaft und ein Erfolgskriterium.
+
+| Instrument | Typische Maßnahme bei Morgenrot | Situation der Kundschaft | Erfolgskriterium |
+|---|---|---|---|
+| E-Mail | Begrüßungsmail nach dem Abo-Abschluss, Newsletter zu einer neuen Röstung | kennt die Marke, hat sich angemeldet oder bestellt | Folgebestellungen der angeschriebenen Gruppe, Abmeldungen |
+| CRM | Abo-Pausen und offene Beschwerden erkennen, bevor geworben wird | bestehende Kundschaft mit Bestell- und Servicegeschichte | Kündigungen, Wiederkäufe, korrekt erkannte Servicefälle |
+| Affiliate | Kaffeeblog verlinkt das Probierabo gegen Provision | kennt Morgenrot noch nicht, vertraut dem Partner | Beitrag je Bestellung nach Provision, Stornierungen, zusätzliche Bestellungen |
+| Mobile | Bestellstrecke auf dem Smartphone vereinfachen | unterwegs, kleiner Bildschirm, kommt aus Anzeige, Mail oder Blog | abgeschlossene Bestellungen auf Mobilgeräten, Abbrüche im Formular |
+
+## E-Mail und CRM: mit Menschen arbeiten, die wir schon kennen
+
+Die Anzeigen im Planspiel erreichen fremde Menschen, für jede Einblendung zahlen wir erneut. E-Mail erreicht Menschen, die sich bereits für Morgenrot entschieden haben, und kostet je Nachricht wenig. Gerade für ein Abo ist das wertvoll. Eine Begrüßungsmail erklärt den Lieferrhythmus und zeigt, wie sich das Abo pausieren lässt. Ein Newsletter stellt eine neue Röstung vor. Jede Nachricht braucht einen nachvollziehbaren Anlass, eine passende Empfängergruppe und einen konkreten nächsten Schritt.
+
+CRM steht für Customer Relationship Management. Gemeint ist die Pflege von Kundenbeziehungen auf Grundlage dessen, was ein Unternehmen über seine Kundschaft weiß: Bestellungen, Servicekontakte, bekannte Vorlieben. CRM-Software führt diese Informationen zusammen [@salesforceCrm2026]. Ein Versandtool erstellt und verschickt dagegen Nachrichten. Beides kann in einem Produkt stecken, erfüllt aber unterschiedliche Aufgaben.
+
+Wie wichtig diese Verbindung ist, zeigt ein einfacher Fall. Eine Abonnentin wartet seit einer Woche auf eine verschwundene Lieferung und bekommt in dieser Zeit einen Newsletter mit einem Rabatt für Neukunden. Die Mail ist technisch korrekt verschickt und trotzdem ein Fehler. Kundenwissen entscheidet deshalb auch darüber, wann eine Nachricht unterbleibt.
+
+::: {.callout-important title="Rechtliche Leitplanken für E-Mail und CRM"}
+Werbliche E-Mails setzen eine vorherige ausdrückliche Einwilligung voraus. In der Praxis sichern wir sie über das Double-Opt-in-Verfahren und dokumentieren Anmeldung und Bestätigung [@uwg]. Die Ausnahme für Bestandskundschaft ist eng gefasst und greift nur, wenn alle ihre Voraussetzungen erfüllt sind. Für Kundendaten im CRM gilt zudem die Zweckbindung der DSGVO: Daten aus der Bestellabwicklung dürfen nicht ohne Weiteres für jeden Werbezweck genutzt werden [@dsgvo2016]. Die Einzelheiten stehen im Kapitel [Recht im digitalen Marketing](../11-marktumfeld-recht-organisation/recht-datenschutz-ai-act.qmd).
+:::
+
+## Affiliate: Partner, die nach Erfolg bezahlt werden
+
+Beim Affiliate Marketing verweisen Partner auf ein Angebot und erhalten eine Vergütung, wenn eine vereinbarte Handlung eintritt, meist ein Kauf, manchmal eine Anmeldung. Die Zuordnung läuft über einen Link mit Kennung. Partner lassen sich grob nach ihrer Arbeitsweise unterscheiden: Inhaltsseiten wie Blogs und Vergleichsportale, Gutschein- und Cashback-Seiten, eigene E-Mail-Verteiler oder bezahlte Suchanzeigen [@awinPartnerTypes2026]. Für Morgenrot liegt ein Kaffeeblog nahe, der Zubereitung und Röstungen bespricht und auf das Probierabo verlinkt.
+
+Das Versprechen „wir zahlen nur bei Erfolg“ klingt risikolos. Drei Fragen bleiben trotzdem offen. Erstens die Passung: Thema, Publikum und Darstellung des Partners müssen zur Marke passen, Reichweite allein reicht nicht. Zweitens die Wirtschaftlichkeit: Bleiben vor der Provision 12 Euro je Erstbestellung und kostet die Provision 5 Euro, verbleiben 7 Euro, noch ohne Einrichtung, Betreuung und Stornierungen. Drittens die zusätzliche Wirkung: Eine zugeordnete Bestellung ist nicht automatisch zusätzlich entstanden. Wer ohnehin kaufen wollte und kurz vorher noch über eine Gutscheinseite klickt, löst eine Provision aus, ohne dass der Partner den Kauf bewirkt hat. Die Forschung zur Attribution zeigt, dass Regeln wie die Zuordnung zum letzten Kontakt die Beiträge einzelner Kanäle verzerren und die Anreize der Partner prägen [@li2014; @berman2018].
+
+::: {.callout-note title="Werbung bleibt Werbung"}
+Ein Blogbeitrag mit Provisionslink ist kommerzielle Kommunikation und muss als Werbung erkennbar sein. Diese Pflicht trifft den Partner, betrifft aber auch Morgenrot, deshalb halten wir sie in der Vereinbarung fest.
+:::
+
+## Mobile: der Weg bis zur Bestellung
+
+Mobile Marketing umfasst Ansprache und Angebote für Smartphones und Tablets, von mobilen Anzeigen über Apps bis zu ortsbezogenen Angeboten. Für eine kleine Rösterei ist eine andere Frage meist wichtiger: Funktioniert der Weg bis zur Bestellung auf dem Smartphone? Eine Instagram-Anzeige wird fast immer in der App auf dem Telefon gesehen. Auch Newsletter und Blogbeiträge werden häufig unterwegs geöffnet. Jeder dieser Kanäle endet auf derselben Produktseite, demselben Formular und derselben Bestätigung.
+
+Eine gut lesbare Seite, gut erreichbare Schaltflächen und passende Eingabefelder erleichtern diesen Weg. Technische Grundlage ist ein Layout, das sich an die Bildschirmgröße anpasst [@webdevResponsive2026]. Eine eigene App braucht dagegen einen erkennbaren Zusatznutzen, etwa die Verwaltung des Abos mit wenigen Fingertipps. Solange die mobile Website die Bestellung trägt, ist sie für Morgenrot die naheliegende Wahl.
+
+Probleme im mobilen Bestellweg lassen sich schon mit wenigen Testpersonen entdecken. Finden zwei von fünf Personen den Bestellknopf erst nach einem Hinweis, ist das ein ernst zu nehmender Befund. Er zeigt eine Hürde. Wie häufig sie bei der gesamten Kundschaft auftritt, zeigt er noch nicht.
+
+## Maßnahme, Kundensituation, Erfolgskriterium
+
+Wenn Zeit und Budget nur für eine Maßnahme reichen, verbinden wir drei Punkte: ein beobachtetes Problem, eine dazu passende Maßnahme und ein Kriterium, an dem wir den Erfolg erkennen. Bei einer E-Mail-Strecke betrachten wir die Folgebestellungen der angeschriebenen Gruppe, bei einem Affiliate-Partner Provisionen, Stornierungen und den verbleibenden Beitrag, bei der mobilen Bestellseite die abgeschlossenen Bestellvorgänge.
+
+Dabei unterscheiden wir zwei Arten von Prüfung. Ein Nutzertest prüft die Bedienbarkeit: Finden Testpersonen den Bestellknopf jetzt ohne Hilfe? Die Geschäftswirkung ist eine zweite Frage. Steigen die Bestellungen nach einer Änderung, kann das auch an der Jahreszeit, an einer gleichzeitig laufenden Kampagne oder an anderen Besucherinnen und Besuchern liegen. Für eine Aussage über die Ursache brauchen wir einen passenden Vergleich, etwa eine Gruppe, die die neue Variante nicht sieht.
+
+::: {.callout-tip title="Faustregel: erst der Befund, dann das Instrument"}
+In der Werkstatt greift niemand zum Werkzeug, bevor klar ist, was kaputt ist. Genauso beginnen wir nicht mit der Frage, ob Morgenrot mehr E-Mails, mehr Partner oder eine App braucht. Wir beginnen mit dem Befund, etwa einer Werbemail an verärgerte Kundschaft oder einem schwer auffindbaren Bestellknopf, und wählen dann das passende Instrument.
+:::
+
+KI kann bei dieser Arbeit helfen. Sie ordnet eine Fallbeschreibung, entwirft Varianten einer Begrüßungsmail oder prüft eine Begründung auf unbelegte Annahmen. Fehlende Kundendaten ersetzt sie nicht, und die Entscheidung über Versand, Partner oder Priorität bleibt beim Team.

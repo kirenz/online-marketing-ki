@@ -1,0 +1,270 @@
+---
+title: "Growth Marketing: vom Kundenweg zur Hypothese"
+subtitle: "Modul 4: Marketingziele und Strategie"
+author: Jan Kirenz
+---
+
+# Wo der Kundenweg leise verliert {.stage background-image="../images/hero-growth-marketing.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-growth-marketing.png"
+Moderne, ruhige Szene aus leicht erhöhter Perspektive: ein geschwungener Weg aus hellen Steinplatten führt durch eine dunkle, weite Fläche, einzelne Platten leuchten sanft in warmem Kaffeebraun und frischem Petrol, einige Abzweigungen verlieren sich im Dunkel, am Ende schließt sich der Weg zu einem kleinen Kreis. Viel Negativraum in der oberen Hälfte für eine Titel-Überlagerung. Kein Text, keine Menschen, keine Gesichter, frische und moderne editoriale Tonalität.
+-->
+
+::: {.notes}
+Die Rösterei Morgenrot gewinnt jede Woche neue Besucher für ihren Onlineshop. Einige sehen sich Sorten an, wenige bestellen, und nur ein Teil davon bestellt ein zweites Mal oder schließt ein Abo ab. Diese Lesson zeigt, wie sich der Kundenweg in Zahlen lesen, mit AARRR ordnen und in eine prüfbare Hypothese übersetzen lässt.
+:::
+
+## Drei Merkmale von Growth Marketing
+
+:::: {.features}
+
+::: {.feature .fragment .fade-up}
+[01]{.feature-number}
+**Ganzer Kundenweg**
+
+Erstkontakt, Erstkauf, Wiederkauf und Empfehlung gehören zusammen.
+:::
+
+::: {.feature .fragment .fade-up}
+[02]{.feature-number}
+**Gemeinsame Kennzahlen**
+
+Marketing, Produkt, Service und Analyse arbeiten an denselben Zahlen.
+:::
+
+::: {.feature .fragment .fade-up}
+[03]{.feature-number}
+**Ideen als Vermutungen**
+
+Jede Idee wird in kleinen, messbaren Schritten geprüft.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @ellis2017
+:::
+
+::: {.notes}
+Der Begriff geht auf Sean Ellis zurück, der um 2010 die Rolle des Growth Hackers beschrieb. [KLICK] Das erste Merkmal ist der Blick auf den ganzen Kundenweg, denn oft liegt ein größerer Hebel beim Wiederkauf als bei neuen Kontakten. [KLICK] Das zweite Merkmal sind gemeinsame Kennzahlen über Abteilungsgrenzen hinweg. [KLICK] Das dritte Merkmal ist die Haltung, jede Idee zunächst als Vermutung zu behandeln. Seit generative KI Varianten in Minuten erzeugt, sind Ideen billig. Knapp bleiben gute Hypothesen und saubere Messung.
+:::
+
+## Eine Kohorte auf dem Weg durch den Shop
+
+| Station | Beschreibung | Personen |
+|---|---|---:|
+| K1 | Erster Shopbesuch, 1. bis 7. März | 200 |
+| K2 | Sortenseite angesehen (14 Tage) | 120 |
+| K3 | Bestellvorgang begonnen (14 Tage) | 40 |
+| K4 | Erste Bestellung bezahlt (14 Tage) | 20 |
+| K5 | Weitere Bestellung oder Abo (30 Tage ab Erstkauf) | 8 |
+
+[Erfundene Übungszahlen]{.text-muted}
+
+::: {.notes}
+Eine Kohorte ist eine Gruppe, die zur selben Zeit startet. Hier sind es 200 Personen mit erstem Shopbesuch in der ersten Märzwoche. Gezählt werden Personen, keine Seitenaufrufe. Die ersten vier Stationen werden 14 Tage ab dem ersten Besuch beobachtet. Der Wiederkauf wird 30 Tage ab dem Erstkauf beobachtet. Alle Zahlen sind für die Übung erfunden.
+:::
+
+## Eine Quote braucht einen Bezug
+
+::: {.formula}
+Quote = Zähler ÷ Nenner, im festgelegten Zeitraum
+:::
+
+Beispiel: 120 von 200 Erstbesuchern sehen innerhalb von 14 Tagen eine Sortenseite an. Das sind [60 Prozent]{.highlight-yellow}.
+
+::: {.tip-box}
+Der Wiederkauf bezieht sich auf die Erstkäufer, nicht auf alle 200 Besucher.
+:::
+
+::: {.notes}
+Eine Übergangsquote braucht drei Angaben: den Zähler, den Nenner und den Zeitraum. Das Beispiel zeigt den ersten Übergang vom Besuch zur Sortenseite. Beim Wiederkauf ändert sich der Bezugspunkt. Nenner sind dann nur die Erstkäufer, und die Beobachtung beginnt mit dem Erstkauf. Wer stattdessen durch alle 200 Besucher teilt, vermischt den Wiederkauf mit allen früheren Verlusten.
+:::
+
+## Wo, nicht warum {.stage background-color="#0a0a0f" data-kicker="Merksatz"}
+
+::: {.quote-box}
+Die Tabelle zeigt, wo Menschen den Weg verlassen. Sie zeigt nicht, warum.
+
+[Der größte Verlust ist nicht automatisch der beste Ansatzpunkt.]{.text-muted}
+:::
+
+::: {.notes}
+Ein Rückgang zwischen zwei Stationen ist eine Beobachtung. Vielleicht fehlen Informationen, vielleicht passt der Preis nicht, vielleicht kauft jemand später im Supermarkt. Ob der Verlust absolut oder relativ gemessen wird, verändert zudem die Rangfolge. Für die Wahl des Ansatzpunkts zählen auch die vermutete Ursache, die Kosten einer Änderung und der mögliche Beitrag zum Ergebnis.
+:::
+
+## AARRR: fünf Fragen an den Kundenweg
+
+| Bereich | Leitfrage | Morgenrot |
+|---|---|---|
+| Acquisition | Wie entsteht ein Erstkontakt? | Neue Personen nach Kanal |
+| Activation | Wann wird Nutzen erlebt? | Die erste Tasse überzeugt |
+| Retention | Wer kommt wieder? | Wiederkauf oder Abo in 30 Tagen |
+| Referral | Wer empfiehlt weiter? | Nachverfolgbare Empfehlungen |
+| Revenue | Was bleibt vom Umsatz? | Bestellungen abzüglich Kosten |
+
+::: {.sources}
+Quelle: @mcclure2007
+:::
+
+::: {.notes}
+Dave McClure hat 2007 fünf Kennzahlenbereiche vorgeschlagen und nach den Anfangsbuchstaben benannt. Die Buchstaben ordnen Fragen, sie legen keinen festen Ablauf fest. Eine Empfehlung kann vor dem ersten Kauf stehen, Umsatz entsteht schon beim Erstkauf. Ein Seitenaufruf belegt noch keinen erlebten Nutzen. Jeder Bereich braucht eine eigene, genau definierte Kennzahl. Die Kohortentabelle enthält keine Daten zu Nutzen und Empfehlungen.
+:::
+
+## Trichter und Loop
+
+:::: {.comparison}
+
+::: {.comparison-side}
+**Trichter**
+
+- läuft in eine Richtung
+- oben Besucher, unten Kunden
+- mehr Ergebnis braucht mehr Eingang
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side .highlighted}
+**Growth Loop**
+
+- Ergebnis speist den nächsten Durchlauf
+- Empfehlung → Erstkontakt → Kauf → Empfehlung
+- bei Morgenrot bisher unbelegt
+:::
+
+::::
+
+::: {.sources}
+Quelle: @balfour2018
+:::
+
+::: {.notes}
+Ein Trichter beschreibt einen Weg in eine Richtung. [KLICK] Ein Growth Loop beschreibt einen Mechanismus, bei dem das Ergebnis eines Durchlaufs zum Eingang des nächsten wird. Bei Morgenrot wäre ein Empfehlungskreislauf denkbar, ebenso ein Inhaltekreislauf über Zubereitungsanleitungen, die in Suchmaschinen gefunden werden. Ob ein solcher Loop existiert und wie stark er wirkt, ist offen. Empfehlungen können ausbleiben und verursachen Aufwand.
+:::
+
+## Loop und Experimentzyklus sind zwei Dinge
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Growth Loop**
+
+Ein Wachstumsmechanismus im Markt. Ein Durchlauf bringt neue Kunden oder Kontakte.
+:::
+
+::: {.column width="50%"}
+**Experimentzyklus**
+
+Die Arbeitsweise des Teams: analysieren, Ideen sammeln, priorisieren, testen. Ein Durchlauf bringt geprüftes Wissen.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @ellis2017
+:::
+
+::: {.notes}
+Der Experimentzyklus nach Ellis und Brown umfasst vier Schritte: Daten analysieren, Ideen sammeln, Ideen priorisieren und testen. Ein Durchlauf erzeugt Wissen und eine Entscheidung, aber nicht automatisch neue Kunden. Deshalb ist ein regelmäßiger Berichtstermin kein Growth Loop. Er gehört zur Arbeitsweise. Das Bild dazu: Der Loop ist die Maschine in der Werkstatt, der Zyklus ist das Labor daneben.
+:::
+
+# Von der Beobachtung zur Hypothese {.stage .chapter background-color="#0a0a0f"}
+
+::: {.chapter-number}
+Teil 2
+:::
+
+::: {.chapter-title}
+Von der Beobachtung zur Hypothese
+:::
+
+::: {.notes}
+Aus einer Beobachtung im Kundenweg wird jetzt eine Vermutung, die sich prüfen lässt. Dafür braucht es zwei Bausteine: einen klaren Satz und ein vorher festgelegtes Prüfkriterium.
+:::
+
+## Wenn X, dann Y, weil Z
+
+::: {.formula .editorial}
+Wenn sich X ändert, dann verändert sich Y, weil Z.
+:::
+
+**Morgenrot:** Wenn Erstkäufer eine Woche nach der Lieferung eine Zubereitungshilfe erhalten, dann bestellen in 30 Tagen mehr von ihnen erneut, weil ein [enttäuschendes erstes Ergebnis]{.highlight-blue} seltener wird.
+
+::: {.think-box}
+Alternative Erklärung: Ein Beutel Kaffee reicht länger als 30 Tage.
+:::
+
+::: {.notes}
+X ist eine konkrete Änderung an einem Übergang, Y eine Kennzahl mit Nenner und Zeitraum, Z die vermutete Ursache. Der Weil-Teil ist eine Annahme und muss ebenso geprüft werden wie die Wirkung. Die alternative Erklärung zeigt, warum. Reicht ein Beutel länger als 30 Tage, ändert die Zubereitungshilfe wenig, und die Wiederkaufquote in 30 Tagen wäre die falsche Kennzahl.
+:::
+
+## Das Prüfkriterium steht vor dem Test
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[01]{.timeline-number}
+[Zielkennzahl]{.timeline-title}
+[Anteil der zugeteilten Erstkäufer mit weiterer Bestellung in 30 Tagen.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[02]{.timeline-number}
+[Vergleich]{.timeline-title}
+[Der Zufall teilt in Testgruppe und Vergleichsgruppe.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[03]{.timeline-number}
+[Entscheidungsregel]{.timeline-title}
+[Ab welchem Unterschied die Änderung übernommen wird.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[04]{.timeline-number}
+[Leitplanke]{.timeline-title}
+[Eine Kennzahl, die sich nicht verschlechtern darf.]{.timeline-detail}
+:::
+
+::::
+
+::: {.sources}
+Quelle: @kohavi2020
+:::
+
+::: {.notes}
+Aus einer Vermutung wird erst dann eine prüfbare Hypothese, wenn vor dem Test feststeht, woran Erfolg erkannt wird. Dazu gehören Zielkennzahl, Vergleich mit zufälliger Zuteilung, eine Entscheidungsregel und eine Leitplanke wie Newsletter-Abmeldungen oder Servicekosten. Bei nur 20 Erstkäufern pro Woche braucht ein Test mehrere Wochen, bis genügend Fälle vorliegen. Die Planung des Experiments mit Gruppengröße und Auswertung folgt im nächsten Schritt.
+:::
+
+## KI im Growth-Prozess
+
+- Kundenstimmen bündeln und mögliche Erklärungen finden
+- Hypothesen vorformulieren
+- Varianten für Texte und Bilder erzeugen
+
+::: {.tip-box}
+Zwanzig Varianten gleichzeitig erhöhen die Chance auf einen **Zufallssieger**. Wenige, gut begründete Hypothesen tragen weiter.
+:::
+
+::: {.notes}
+KI-Werkzeuge unterstützen mehrere Schritte des Experimentzyklus. Sie fassen Rezensionen und Serviceanfragen zusammen, formulieren Hypothesen vor und erzeugen Varianten. Die Prüfung ersetzen sie nicht. Mit jeder zusätzlichen Variante steigt die Wahrscheinlichkeit, dass eine davon rein zufällig besser aussieht. Deshalb bleibt es bei wenigen Hypothesen mit vorher festgelegtem Prüfkriterium.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Der Kundenweg zeigt, wo Menschen gehen. Eine Hypothese mit Prüfkriterium macht daraus eine Frage, die ein Test beantworten kann.
+
+::: {.notes}
+Als Kern bleibt: Quoten brauchen Zähler, Nenner und Zeitraum. AARRR ordnet die Fragen. Der Growth Loop beschreibt einen möglichen Wachstumsmechanismus, der Experimentzyklus die Arbeit des Teams. Die Hypothesenkarte hält fest, was geändert wird, was sich zeigen soll und woran das Ergebnis vorher gemessen wird.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

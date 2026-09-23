@@ -7,5 +7,6 @@ Wir werden:
 - reproduzierbare Prompts mit COMPASS schreiben
 - KI-gestützte Marketing-Inhalte erstellen
 - Chancen und Risiken generativer KI kritisch bewerten
+- einen Marketingprozess mit KI-Schritt und menschlicher Freigabe gestalten
 
 **Quellen:** [@hartmann2025; @kumar2025; @salvi2025; @schmid2025]

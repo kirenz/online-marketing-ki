@@ -7,5 +7,6 @@ Wir werden:
 - eine Value Proposition für ein eigenes Angebot formulieren
 - Kundenbedürfnisse mit einer Empathy Map erfassen
 - ein Geschäftsmodell im Business Model Canvas skizzieren
+- Kundenstimmen, Bewertungen und KI-Recherche als Quellen der Marktforschung prüfen
 
 **Quellen:** [@osterwalder2014; @osterwalder2013]

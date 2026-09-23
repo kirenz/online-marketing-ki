@@ -8,5 +8,6 @@ Wir werden:
 - Ziele mit passenden Kennzahlen verknüpfen
 - eine Brücke von Strategie zu Messung schlagen
 - den Marketing-Mix auf ein eigenes Beispiel anwenden
+- einen Engpass im Kundenweg finden und daraus eine prüfbare Growth-Hypothese ableiten
 
 **Quellen:** [@kotler2022; @farris2010]

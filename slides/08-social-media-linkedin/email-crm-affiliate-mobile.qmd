@@ -1,0 +1,322 @@
+---
+title: "E-Mail, CRM, Affiliate und Mobile"
+subtitle: "Modul 8: Social Media und LinkedIn Ads"
+author: Jan Kirenz
+book:
+  chapter_slug: "08-social-media-linkedin/email-crm-affiliate-mobile"
+---
+
+# Nach der ersten Bestellung beginnt die Arbeit {.stage background-image="../images/hero-email-crm-affiliate-mobile.png" background-color="#0a0a0f" background-opacity="0.75"}
+
+<!-- image: profile="stage-hero" file="hero-email-crm-affiliate-mobile.png"
+Moderne, frische Komposition: ein aufgeräumter Tisch von oben mit einer Tasse Kaffee, einem geschlossenen Briefumschlag und einem Smartphone mit dunklem Bildschirm, dünne leuchtende Linien verbinden die drei Gegenstände, in tiefem Petrol-Blau mit frischen Farbakzenten und warmem Lichtschein. Viel Negativraum oben für eine Titel-Überlagerung. Kein Text, keine Gesichter, editorial und frisch und modern.
+-->
+
+::: {.notes}
+Im Planspiel verteilt die Rösterei Morgenrot ihr Budget auf Google Ads, Facebook Ads und Instagram Ads. Diese drei Kanäle kaufen Aufmerksamkeit von Menschen, die Morgenrot noch nicht kennen. Für ein Kaffeeabo zählt aber genauso, was nach der ersten Bestellung passiert. Diese Lesson ordnet vier ergänzende Instrumente ein: E-Mail, CRM, Affiliate und Mobile.
+:::
+
+## Vier Begriffe, vier Ebenen
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa envelope >}}]{.accent-blue}
+**E-Mail**
+
+Ein Kommunikationskanal zu Menschen, die sich angemeldet haben.
+:::
+
+::: {.feature}
+[{{< fa address-book >}}]{.accent-blue}
+**CRM**
+
+Kundenbeziehungen gestalten und das Wissen dafür zusammenführen.
+:::
+
+::: {.feature}
+[{{< fa handshake >}}]{.accent-green}
+**Affiliate**
+
+Ein Vergütungsmodell für Partner, die auf das Angebot verweisen.
+:::
+
+::: {.feature}
+[{{< fa mobile-screen >}}]{.accent-green}
+**Mobile**
+
+Eine Nutzungssituation, die alle anderen Kanäle betrifft.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @chaffey2022; @lammenett2025
+:::
+
+::: {.notes}
+Die vier Begriffe werden oft in einem Atemzug genannt, liegen aber auf unterschiedlichen Ebenen. E-Mail ist ein Kanal. CRM beschreibt die Pflege von Kundenbeziehungen und die dafür genutzten Informationen. Affiliate ist ein Vergütungsmodell. Mobile ist eine Nutzungssituation, die Anzeigen, Mails und Partnerlinks gleichermaßen betrifft. Wer diese Ebenen vermischt, vergleicht leicht ein E-Mail-Budget mit einer besseren Bestellseite.
+:::
+
+## Maßnahme, Kundensituation, Erfolgskriterium
+
+| Instrument | Maßnahme bei Morgenrot | Kundschaft | Erfolgskriterium |
+|---|---|---|---|
+| E-Mail | Begrüßungsmail nach Abo-Abschluss | angemeldet oder Kundin | Folgebestellungen, Abmeldungen |
+| CRM | offene Beschwerden vor Werbung erkennen | bestehende Kundschaft | Kündigungen, Wiederkäufe |
+| Affiliate | Kaffeeblog verlinkt das Probierabo | kennt Morgenrot noch nicht | Beitrag nach Provision, Stornos |
+| Mobile | Bestellstrecke vereinfachen | unterwegs, kleiner Bildschirm | abgeschlossene Bestellungen |
+
+::: {.notes}
+Für jedes Instrument werden drei Dinge festgehalten: eine typische Maßnahme, die Situation der Kundschaft und ein Kriterium, an dem sich der Erfolg ablesen lässt. Die Tabelle zeigt das am Beispiel der Rösterei. Das Erfolgskriterium entsteht vor der Maßnahme, nicht erst beim Blick auf die Zahlen.
+:::
+
+## E-Mail braucht einen Anlass
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[01]{.timeline-number}
+[Anlass]{.timeline-title}
+[Neues Abo, neue Röstung, anstehende Lieferung.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[02]{.timeline-number}
+[Empfängergruppe]{.timeline-title}
+[Für wen ist die Nachricht gerade relevant?]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[03]{.timeline-number}
+[Nächster Schritt]{.timeline-title}
+[Was soll nach dem Lesen möglich sein?]{.timeline-detail}
+:::
+
+::::
+
+::: {.notes}
+Anzeigen erreichen fremde Menschen, und jede Einblendung kostet erneut. E-Mail erreicht Menschen, die sich bereits für Morgenrot entschieden haben. Eine Begrüßungsmail erklärt etwa den Lieferrhythmus und zeigt, wie sich das Abo pausieren lässt. Jede Nachricht braucht einen Anlass, eine passende Empfängergruppe und einen konkreten nächsten Schritt.
+:::
+
+## Die Werbemail an die verärgerte Kundin {.stage background-color="#0a0a0f" data-kicker="Fall"}
+
+Eine Abonnentin wartet seit einer Woche auf eine verschwundene Lieferung. In dieser Woche erhält sie einen Newsletter mit einem Rabatt für Neukunden. Die Mail ist korrekt verschickt und trotzdem ein Fehler.
+
+::: {.notes}
+Der kleine Fall zeigt, warum E-Mail und Kundenwissen zusammengehören. Das Versandtool hat seine Aufgabe erfüllt. Gefehlt hat die Verbindung zur offenen Beschwerde. Kundenwissen entscheidet deshalb auch darüber, wann eine Nachricht unterbleibt.
+:::
+
+## CRM und Versandtool
+
+:::: {.comparison}
+
+::: {.comparison-side}
+**Versandtool**
+
+- Nachrichten gestalten
+- Verteiler verwalten
+- Mails ausliefern
+- Öffnungen und Klicks zählen
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side .highlighted}
+**CRM**
+
+- Bestellungen zusammenführen
+- Servicekontakte sichtbar machen
+- Vorlieben und Abo-Status kennen
+- entscheiden, wer was bekommt
+:::
+
+::::
+
+::: {.sources}
+Quelle: @salesforceCrm2026
+:::
+
+::: {.notes}
+CRM steht für Customer Relationship Management. Gemeint ist die Pflege von Kundenbeziehungen auf Grundlage dessen, was über die Kundschaft bekannt ist. CRM-Software führt Bestellungen, Servicekontakte und Vorlieben zusammen. Ein Versandtool erstellt und verschickt Nachrichten. Beides kann in einem Produkt stecken, erfüllt aber unterschiedliche Aufgaben.
+:::
+
+## Rechtliche Leitplanken
+
+Werbliche E-Mails brauchen eine vorherige ausdrückliche Einwilligung, gesichert über [Double-Opt-in]{.highlight-blue} und dokumentiert. Die Ausnahme für Bestandskundschaft ist eng. Für CRM-Daten gilt die Zweckbindung.
+
+::: {.tip-box}
+Die Einzelheiten stehen im Kapitel „Recht im digitalen Marketing“ in Modul 11.
+:::
+
+::: {.sources}
+Quelle: @uwg; @dsgvo2016
+:::
+
+::: {.notes}
+Drei Leitplanken reichen für die Einordnung. Werbliche E-Mails setzen eine vorherige ausdrückliche Einwilligung voraus, die in der Praxis über das Double-Opt-in-Verfahren eingeholt und dokumentiert wird. Die Ausnahme für Bestandskundschaft greift nur, wenn alle ihre Voraussetzungen erfüllt sind. Und Daten aus der Bestellabwicklung dürfen nicht ohne Weiteres für jeden Werbezweck genutzt werden. Die Details behandelt das Kapitel zu Recht und Datenschutz.
+:::
+
+## Affiliate: drei offene Fragen
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa puzzle-piece >}}]{.accent-blue}
+**Passung**
+
+Thema, Publikum und Darstellung des Partners passen zur Marke.
+:::
+
+::: {.feature}
+[{{< fa calculator >}}]{.accent-blue}
+**Wirtschaftlichkeit**
+
+Provision, Einrichtung, Betreuung und Stornierungen eingerechnet.
+:::
+
+::: {.feature}
+[{{< fa code-branch >}}]{.accent-orange}
+**Zusätzliche Wirkung**
+
+Zugeordnete Käufe sind nicht automatisch zusätzliche Käufe.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @awinPartnerTypes2026; @berman2018
+:::
+
+::: {.notes}
+Beim Affiliate Marketing verweisen Partner über einen Link mit Kennung auf das Angebot und erhalten eine Provision, meist je Kauf. Für Morgenrot liegt ein Kaffeeblog nahe. Das Versprechen, nur bei Erfolg zu zahlen, lässt drei Fragen offen. Passt der Partner zur Marke? Was bleibt nach allen Kosten? Und wäre die Bestellung ohne den Partner auch entstanden? Wer ohnehin kaufen wollte und kurz vorher über eine Gutscheinseite klickt, löst eine Provision aus, ohne dass der Partner den Kauf bewirkt hat. Zuordnungsregeln prägen damit auch das Verhalten der Partner. Ein Blogbeitrag mit Provisionslink muss zudem als Werbung erkennbar sein.
+:::
+
+## Was nach der Provision bleibt {.stage background-color="#0a0a0f"}
+
+:::: {.big-stat .fragment .zoom-in-bounce}
+[7 Euro]{.stat-number}
+[je Erstbestellung: 12 Euro Beitrag minus 5 Euro Provision]{.stat-label}
+[Fiktives Beispiel, ohne Einrichtung, Betreuung und Stornierungen]{.stat-context}
+::::
+
+::: {.notes}
+Eine einfache Rechnung mit fiktiven Zahlen. [KLICK] Bleiben vor der Provision 12 Euro je Erstbestellung und kostet die Provision 5 Euro, verbleiben 7 Euro. Einrichtung, Betreuung und Stornierungen sind darin noch nicht enthalten. Vor allem beantwortet die Zahl nicht, wie viele dieser Bestellungen ohne den Partner ebenfalls entstanden wären.
+:::
+
+## Mobile: ein Weg für alle Kanäle
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[01]{.timeline-number}
+[Einstieg]{.timeline-title}
+[Instagram-Anzeige, Newsletter oder Blogbeitrag auf dem Smartphone.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[02]{.timeline-number}
+[Produktseite]{.timeline-title}
+[Angebot auf kleinem Bildschirm lesen und verstehen.]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[03]{.timeline-number}
+[Bestellung]{.timeline-title}
+[Bestellknopf finden, Formular ausfüllen, Bestätigung erhalten.]{.timeline-detail}
+:::
+
+::::
+
+::: {.sources}
+Quelle: @webdevResponsive2026
+:::
+
+::: {.notes}
+Mobile Marketing reicht von mobilen Anzeigen über Apps bis zu ortsbezogenen Angeboten. Für eine kleine Rösterei ist eine andere Frage wichtiger: Funktioniert der Weg bis zur Bestellung auf dem Smartphone? Eine Instagram-Anzeige wird fast immer auf dem Telefon gesehen, Newsletter und Blogbeiträge werden häufig unterwegs geöffnet. Alle diese Wege enden auf derselben Produktseite und demselben Formular. Technische Grundlage ist ein Layout, das sich an die Bildschirmgröße anpasst. Eine eigene App braucht dagegen einen erkennbaren Zusatznutzen.
+:::
+
+## Bedienbarkeit oder Geschäftswirkung
+
+:::: {.comparison}
+
+::: {.comparison-side}
+**Nutzertest**
+
+- zwei von fünf finden den Bestellknopf erst nach Hinweis
+- zeigt eine Hürde
+- sagt nichts über ihre Häufigkeit
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side .highlighted}
+**Wirkungsprüfung**
+
+- Bestellungen steigen nach der Änderung
+- Jahreszeit, Kampagnen, Publikum können mitwirken
+- Ursache erst mit passendem Vergleich
+:::
+
+::::
+
+::: {.notes}
+Zwei Arten von Prüfung werden hier auseinandergehalten. Ein Test mit wenigen Personen deckt Hürden zuverlässig auf, zeigt aber nicht, wie häufig sie bei der gesamten Kundschaft auftreten. Steigen die Bestellungen nach einer Änderung, kann das auch an der Jahreszeit, an einer parallel laufenden Kampagne oder an anderen Besuchern liegen. Eine Aussage über die Ursache braucht einen Vergleich, etwa eine Gruppe, die die neue Variante nicht sieht.
+:::
+
+## Erst der Befund, dann das Instrument
+
+::: {.formula .editorial}
+Beobachtetes Problem + passende Maßnahme + Erfolgskriterium = prüfbare Entscheidung
+:::
+
+::: {.think-box}
+Welcher Befund spricht bei Morgenrot für die E-Mail-Strecke, welcher für den Blog, welcher für die Bestellseite?
+:::
+
+::: {.notes}
+In der Werkstatt greift niemand zum Werkzeug, bevor klar ist, was kaputt ist. Am Anfang steht deshalb der Befund, etwa eine Werbemail an verärgerte Kundschaft oder ein schwer auffindbarer Bestellknopf. Dann folgen die passende Maßnahme und das Kriterium, an dem sich ihr Erfolg zeigt. KI kann eine Fallbeschreibung ordnen oder eine Begründung auf unbelegte Annahmen prüfen. Fehlende Kundendaten ersetzt sie nicht, und die Entscheidung bleibt beim Team.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+E-Mail, CRM, Affiliate und Mobile ergänzen die bezahlten Kanäle dort, wo Kundschaft bleibt, empfiehlt und bestellt. Welches Instrument zuerst an der Reihe ist, entscheidet der Befund, geprüft an einem vorher festgelegten Kriterium.
+
+::: {.notes}
+Als Kern bleibt: Die vier Begriffe liegen auf unterschiedlichen Ebenen. Jede Maßnahme braucht eine Kundensituation und ein Erfolgskriterium. Eine zugeordnete Bestellung ist noch keine zusätzliche Bestellung, und ein gefundener Fehler im Bestellweg ist noch keine gemessene Wirkung.
+:::
+
+## Weiter im Buch {.book-bridge}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](../images/hero-email-crm-affiliate-mobile.png)
+:::
+
+::: {.column width="70%"}
+::: {.chapter-title}
+Kapitel: E-Mail, CRM, Affiliate und Mobile
+:::
+
+Im Online-Buch liegen die Übersichtstabelle zu Maßnahmen und Erfolgskriterien, die rechtlichen Leitplanken und der Verweis auf das Kapitel zu Recht und Datenschutz bereit.
+
+[→ Zum Kapitel](https://kirenz.github.io/online-marketing-ki/08-social-media-linkedin/email-crm-affiliate-mobile.html){.fragment .fade-up}
+:::
+
+::::
+
+::: {.notes}
+Das Buchkapitel vertieft die vier Instrumente am Fall der Rösterei Morgenrot und verweist für Einwilligung und Double-Opt-in auf das Kapitel zu Recht und Datenschutz.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::

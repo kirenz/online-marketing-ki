@@ -7,5 +7,6 @@ Wir werden:
 - eine LinkedIn-Ad-Kampagne entwerfen
 - Kampagnentypen und Targeting passend wählen
 - den Erfolg von Social-Media-Werbung messen
+- E-Mail, CRM, Affiliate und Mobile einordnen und eine Maßnahme mit Erfolgskriterium begründen
 
 **Quellen:** [@balaji2023; @seebacher2023]

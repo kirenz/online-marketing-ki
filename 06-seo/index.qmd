@@ -7,5 +7,6 @@ Wir werden:
 - eine Keyword-Analyse durchführen
 - eine Seite On-Page optimieren
 - Core Web Vitals einordnen und verbessern
+- einordnen, wie KI-Suche Antworten zusammenstellt und was eine Seite zitierfähig macht
 
 **Quellen:** [@enge2023; @erlhofer2023]
