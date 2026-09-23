@@ -14,13 +14,15 @@ Hilfreich ist der Blick auf die für die Zielgruppe entscheidenden Dimensionen, 
 
 ![Positionierungskarte mit fiktiven Wettbewerbern: Wo der Wettbewerb sich drängt, lohnt sich ein freier, attraktiver Platz.](../images/positionierungskarte.svg){#fig-positionierungskarte fig-alt="Achsenkreuz aus Spezialisierung und Preis. Vier Wettbewerber stehen im Bereich breit und eher günstig; oben rechts, spezialisiert und hochpreisig, ist ein freier Platz markiert."}
 
-::: {.callout-tip title="Analogie: der Sitzplan im Theater"}
-Im Kopf der Zielgruppe gibt es nur begrenzt gute Plätze. Ist der Platz für die günstigste Lösung bereits besetzt, lohnt es sich nicht, ihn streitig zu machen. Klüger ist ein freier, attraktiver Platz, den noch niemand hält.
+::: {.callout-tip title="Analogie: die Landkarte im Kopf"}
+Die Zielgruppe ordnet Angebote nach wenigen Merkmalen, etwa Preis und Spezialisierung. Wo schon jemand steht, ist es schwer, ihn zu verdrängen. Eine freie Stelle lohnt sich, wenn dort genug Menschen suchen und das eigene Angebot sie halten kann.
 :::
 
 ## Eine Positionierung formulieren
 
-Eine bewährte Vorlage hält die Positionierung in einem Satz fest: Für [Zielgruppe], die [Bedürfnis], ist [Angebot] das [Kategorie], das [zentraler Nutzen], weil [Begründung].
+Eine bewährte Vorlage hält die Positionierung in zwei kurzen Sätzen fest: Für [Zielgruppe], die [Bedürfnis], ist [Angebot] [Kategorie], die/der/das [Nutzen]. Anders als [Alternative] [Beleg].
+
+Ein Beispiel: „Für Menschen im Homeoffice, die jeden Morgen frischen Kaffee wollen, ohne ans Nachbestellen zu denken, ist Morgenrot das Kaffee-Abo, das nie leer läuft. Anders als Supermarkt und Großversender röstet Morgenrot erst nach der Bestellung und liefert im festen Rhythmus mit Röstdatum.“
 
 ::: {.callout-important title="Eine Position, nicht fünf"}
 Eine Positionierung wirkt nur, wenn sie fokussiert ist. Wer alles gleichzeitig sein will, günstig, hochwertig, schnell und persönlich, besetzt am Ende keinen klaren Platz.

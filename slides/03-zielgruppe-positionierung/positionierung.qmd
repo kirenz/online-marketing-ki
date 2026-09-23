@@ -45,19 +45,19 @@ Die Achsen sind die Dimensionen, die für die Zielgruppe entscheiden. Im Beispie
 ## Eine Positionierung formulieren
 
 ::: {.formula .editorial}
-Für [Zielgruppe], die [Bedürfnis], ist [Angebot] das [Kategorie], das [Nutzen], weil [Begründung].
+Für [Zielgruppe], die [Bedürfnis], ist [Angebot] [Kategorie], die/der/das [Nutzen]. Anders als [Alternative] [Beleg].
 :::
 
 ::: {.notes}
-Diese Vorlage hält die Positionierung in einem Satz fest. Sie zwingt zur Klarheit über Zielgruppe, Bedürfnis, Kategorie, Nutzen und Begründung und macht die Position überprüfbar.
+Diese Vorlage hält die Positionierung in einem Satz fest. Sie zwingt zur Klarheit über Zielgruppe, Bedürfnis, Kategorie, Nutzen, Alternative und Beleg und macht die Position überprüfbar.
 :::
 
-## Der Sitzplan im Theater {.stage background-color="#0a0a0f" data-kicker="Analogie"}
+## Die Landkarte im Kopf {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
-Im Kopf der Zielgruppe gibt es nur begrenzt gute Plätze. Ein bereits besetzter Platz lohnt den Kampf selten, ein freier attraktiver Platz schon.
+Die Zielgruppe ordnet Angebote nach wenigen Merkmalen. Wo schon jemand steht, ist es schwer, ihn zu verdrängen. Eine freie Stelle lohnt sich, wenn dort genug Menschen suchen.
 
 ::: {.notes}
-Das Bild des Sitzplans trägt den Fokus-Gedanken: Ist der Platz für die günstigste Lösung vergeben, ist es klüger, einen freien, attraktiven Platz zu besetzen, statt einen besetzten streitig zu machen.
+Das Bild der Landkarte schließt an die Positionierungskarte an: Die Achsen sind die Merkmale, nach denen die Zielgruppe unterscheidet. Ist der Platz für die günstigste Lösung vergeben, ist es klüger, eine freie Stelle zu besetzen, die sich lohnt und die das eigene Angebot halten kann.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
