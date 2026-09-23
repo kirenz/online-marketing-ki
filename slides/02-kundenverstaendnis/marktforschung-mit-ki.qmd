@@ -217,6 +217,33 @@ Quelle: @openaiDeepResearch2025
 Viele KI-Assistenten bieten eine Recherche mit Webzugriff an, die mehrere Seiten liest und einen Bericht mit Quellenverweisen erstellt. Das ersetzt Stunden an Desk Research. Die Anbieter weisen aber selbst darauf hin, dass solche Berichte Fakten falsch wiedergeben können. [KLICK] Deshalb folgt eine Prüfung in drei Fragen: Enthält die Seite die Aussage wirklich? [KLICK] Wer spricht dort? [KLICK] Und ist es eine eigene Quelle oder die Wiederholung einer anderen?
 :::
 
+## Demo: Deep Research in Gemini
+
+:::: {.columns}
+::: {.column width="50%"}
+**Ablauf**
+
+1. Deep Research wählen, Auftrag einfügen
+2. Rechercheplan prüfen und starten
+3. Bericht lesen, nach Google Docs exportieren
+:::
+::: {.column width="50%"}
+**Worauf achten**
+
+- Welche Quellen, welcher Absender?
+- Zwei Aussagen an der Quelle prüfen
+- Was fehlt im Bericht?
+:::
+::::
+
+::: {.tip-box}
+Der Bericht braucht einige Minuten. Die Recherche läuft, während die Übung beginnt.
+:::
+
+::: {.notes}
+Die Demo zeigt Deep Research in der Gemini-App am Übungsfall Kaffeeabo. Der Auftrag folgt der Prompt-Vorlage und steht im Buchkapitel sowie in der Lektion zum Kopieren bereit. [KLICK] Gemini legt zuerst einen Rechercheplan vor. Dieser Plan lässt sich vor dem Start anpassen, etwa auf Quellen aus Deutschland. Danach liest das Werkzeug einige Minuten lang Webquellen. In dieser Zeit beginnt die Übung. In der Auswertung werden zwei Aussagen aus dem Bericht an ihrer Quelle geprüft. Dabei zählt, ob die Seite die Aussage wirklich trägt, wer dort spricht und ob mehrere Quellen dieselbe ursprüngliche Studie wiederholen. Als Rückfall liegt ein vorab erzeugter Bericht als Google Doc bereit.
+:::
+
 ## KI als Prüferin macht einen Fragebogen neutraler
 
 :::: {.comparison}
