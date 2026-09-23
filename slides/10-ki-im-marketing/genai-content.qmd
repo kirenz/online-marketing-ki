@@ -49,7 +49,7 @@ Quelle: @hartmann2025
 Generative KI liefert Tempo und Varianten, der Mensch liefert das Urteil. Die Forschung zeigt, dass KI bei visuellen Marketing-Inhalten hohe Qualität erreicht und mit menschlicher Arbeit mithalten kann. Die Verantwortung für Auswahl, Faktentreue und Markenstimme bleibt dennoch beim Menschen.
 :::
 
-## Die schnelle Praktikantin {.stage background-color="#0a0a0f"}
+## Die schnelle Praktikantin {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 KI gleicht einer fleißigen Praktikantin: zwanzig Entwürfe in Minuten, aber ohne echtes Wissen über Kundschaft und Marke und mit manch halb verstandenem Fakt.
 

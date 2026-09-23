@@ -61,7 +61,7 @@ Quelle: @huang2021
 Besonders nützlich wird die Unterscheidung im Kreuz mit den Phasen des Marketings. So entsteht eine Landkarte von der Analyse über die Strategie bis zur Umsetzung. Diese Landkarte begleitet den Kurs: Bei Content, Anzeigen oder Kennzahlen lässt sich jeweils fragen, welcher KI-Typ in welcher Phase hilft.
 :::
 
-## Das Assistenz-Team {.stage background-color="#0a0a0f"}
+## Das Assistenz-Team {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Drei Profile, eine Aufgabe je Profil: eine Kraft erledigt Routine, eine zweite rechnet und empfiehlt, eine dritte hat ein Gespür für Ton und Stimmung.
 

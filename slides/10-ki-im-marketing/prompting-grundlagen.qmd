@@ -28,7 +28,7 @@ Quelle: @anthropicPrompting2024
 Der Kern ist schnell erklärt: Das Modell hat keinen Zugriff auf die Vorstellung im Kopf, sondern auf den verfügbaren Kontext. Eine ungenaue Anweisung führt fast immer zu einer beliebigen Antwort, eine durchdachte Anweisung richtet die Ausgabe aus. Genau das beschreibt der Begriff Prompt Engineering.
 :::
 
-## Das Briefing an eine neue Kollegin {.stage background-color="#0a0a0f"}
+## Das Briefing an eine neue Kollegin {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Eine neue Kollegin ist fachlich fähig, kennt aber Produkt, Zielgruppe und Tonfall noch nicht. Wer nur "schreib mal was" sagt, bekommt Beliebiges. Wer Ziel, Adressat und Stil nennt, bekommt einen brauchbaren Entwurf.
 

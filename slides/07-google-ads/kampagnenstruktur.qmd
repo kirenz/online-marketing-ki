@@ -61,7 +61,7 @@ Das Konto gliedert sich in drei Ebenen: Die Kampagne bündelt Ziel und Budget, d
 Die Kampagne bündelt Ziel und Budget. Jede Anzeigengruppe deckt ein enges Thema ab, hier Siebträger und Vollautomaten. Darin liegen passende Keywords, ein Anzeigentext und eine eigene Zielseite. Diese durchgängige Linie zahlt später auf den Quality Score ein.
 :::
 
-## Analogie: Das Archiv im Büro {.stage background-color="#0a0a0f"}
+## Das Archiv im Büro {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Akten liegen nicht in einem großen Stapel, sondern in beschrifteten Ordnern mit klaren Registern.
 

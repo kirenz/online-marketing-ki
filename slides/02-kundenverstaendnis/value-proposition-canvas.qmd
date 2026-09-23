@@ -83,7 +83,7 @@ Die zweite Hälfte spiegelt das Kundenprofil. Produkte und Services, Pain Reliev
 Beide Hälften nebeneinander: rechts das Kundenprofil, links die Wertkarte. Die Nummerierung zeigt die Reihenfolge, zuerst das Profil, dann die Wertkarte. Die Pfeile markieren, wo der Fit geprüft wird: Gain Creators gegen Gains, Pain Relievers gegen Pains.
 :::
 
-## Schlüssel und Schloss {.stage background-color="#0a0a0f"}
+## Schlüssel und Schloss {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Das Kundenprofil ist das Schloss, die Wertkarte der Schlüssel. Erst der passende Bart öffnet die Tür.
 

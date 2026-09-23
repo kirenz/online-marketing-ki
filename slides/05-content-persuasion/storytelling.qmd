@@ -68,7 +68,7 @@ Der Kontrast erklärt die Wirkung. Wer in eine Geschichte versinkt, verliert die
 Drei Bausteine tragen jede wirksame Marketinggeschichte: eine Figur, ein Konflikt, eine Auflösung. Entscheidend ist die Rollenverteilung. Die Marke ist selten der Held, sondern der Mentor, der dem eigentlichen Helden, der Kundschaft, das richtige Werkzeug reicht.
 :::
 
-## Der Kollege am Montagmorgen {.stage background-color="#0a0a0f"}
+## Der Kollege am Montagmorgen {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Wir erinnern die Anekdote vom verregneten Campingwochenende länger als drei Stichpunkte aus der Besprechung. Sie hat eine Figur, ein Hindernis und eine Pointe.
 

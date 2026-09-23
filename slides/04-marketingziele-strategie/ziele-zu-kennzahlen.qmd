@@ -28,7 +28,7 @@ Eine echte Steuerungsgröße ist:
 Entscheidend ist nicht, dass eine Zahl überhaupt erfasst werden kann, sondern dass sie eine steuerungsrelevante Frage beantwortet. Nur Größen, die eindeutig definiert, regelmäßig verfügbar und beeinflussbar sind, taugen zur Steuerung. Erst die bewusste Auswahl weniger Größen schafft aus der Datenfülle einen nützlichen Überblick.
 :::
 
-## Das Cockpit {.stage background-color="#0a0a0f"}
+## Das Cockpit {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 ::: {.quote-box}
 Ein Cockpit zeigt nicht jeden messbaren Wert, sondern die wenigen Anzeigen, die für einen sicheren Flug zählen: Höhe, Geschwindigkeit, Treibstoff, Kurs.

@@ -73,7 +73,7 @@ Eine Frist für das Ergebnis setzen.
 Das SMART-Schema fasst fünf Prüfsteine zusammen. Spezifisch und messbar sorgen für Klarheit über das Was und den Maßstab. Erreichbar und relevant sichern, dass das Ziel realistisch ist und auf die Strategie einzahlt. Terminiert ergänzt die Frist. Erst alle fünf zusammen machen ein Ziel steuerbar.
 :::
 
-## Das Rezept in der Küche {.stage background-color="#0a0a0f"}
+## Das Rezept in der Küche {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 ::: {.quote-box}
 Ein vages Ziel gleicht der Anweisung „koch etwas Leckeres". Ein SMART-Ziel ist das vollständige Rezept: zwei Portionen, 320 Gramm Reis, aus dem Vorrat, passend zum Menü, fertig in 30 Minuten.

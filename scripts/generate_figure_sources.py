@@ -120,7 +120,7 @@ def planungsprozess():
     for k, s in enumerate(steps):
         a = math.radians(-90 + 45 * k)
         x, y = cx + rx * math.cos(a), cy + ry * math.sin(a)
-        w, h = 160, 50
+        w, h = 184, 50
         fill = OCH_T if k in (0, 7) else NEUT
         b.append(rect(x - w / 2, y - h / 2, w, h, fill, INK, 1.25, 8))
         b.append(badge(x - w / 2 + 20, y, k + 1))

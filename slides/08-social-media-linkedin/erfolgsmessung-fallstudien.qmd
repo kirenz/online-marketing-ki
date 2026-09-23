@@ -46,7 +46,7 @@ Quelle: @seebacher2023
 Diese fünf Kennzahlen begegnen uns im Kampagnen-Manager am häufigsten. Eine hohe Klickrate kann Interesse anzeigen, belegt aber keine qualifizierte Nachfrage. Steigende Leadkosten können mit Wettbewerb, Zielgruppe oder Anzeigenmüdigkeit zusammenhängen. Die Kennzahl allein liefert keine eindeutige Diagnose.
 :::
 
-## Das Cockpit-Prinzip {.stage background-color="#0a0a0f"}
+## Das Cockpit-Prinzip {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Niemand fliegt allein nach dem Tachometer. Erst Höhe, Geschwindigkeit und Treibstoff zusammen ergeben ein verlässliches Bild. Genauso werden Reichweite, Klickrate und Kosten pro Lead immer gemeinsam gelesen.
 

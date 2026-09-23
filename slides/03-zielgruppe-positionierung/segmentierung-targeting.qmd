@@ -59,7 +59,7 @@ Segmente entstehen nicht von allein in den Daten. Sie werden in Organisationen a
 Targeting wählt aus den Segmenten die aus, die bedient werden sollen. Attraktivität und Passung sind die beiden Leitkriterien. Wichtig bleibt: Ein definiertes Segment, das nicht in die Prozesse einfließt, bringt wenig.
 :::
 
-## Die Sortierung im Lager {.stage background-color="#0a0a0f"}
+## Die Sortierung im Lager {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Ein gutes Lager sortiert nicht alphabetisch, sondern nach Zugriffshäufigkeit und Zusammengehörigkeit.
 

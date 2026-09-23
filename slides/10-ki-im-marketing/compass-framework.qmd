@@ -24,7 +24,7 @@ Eine [Checkliste]{.highlight-blue} sorgt dafür, dass auch bei Routine kein wich
 Im Alltag ist das Problem nicht fehlendes Wissen, sondern Vergessen unter Zeitdruck. Checklisten lösen genau das: Sie machen wichtige Schritte unabhängig vom Gedächtnis. COMPASS überträgt dieses Prinzip auf das Schreiben von Prompts.
 :::
 
-## Die Checkliste im Cockpit {.stage background-color="#0a0a0f"}
+## Die Checkliste im Cockpit {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Eine Pilotin verlässt sich vor dem Start nicht auf ihr Gedächtnis, sondern auf eine feste Liste. Jeder Punkt wird abgehakt, damit auch bei Routine nichts übersehen wird.
 

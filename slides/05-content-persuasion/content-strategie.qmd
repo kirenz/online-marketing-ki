@@ -64,7 +64,7 @@ Quelle: @hollebeek2019
 Das Format ist nie der erste Schritt. Zuerst steht die Funktion im Kundenprozess, dann das passende Gefäß. Frühe Phasen verlangen Erklärung, späte Phasen verlangen Belege und konkrete Handlungsangebote.
 :::
 
-## Die Speisekarte {.stage background-color="#0a0a0f"}
+## Die Speisekarte {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Ein gutes Content-Angebot ist wie eine durchdachte Speisekarte: ein Appetithappen für Neugierige, ein Hauptgang für Entschlossene, für jeden Hunger das Passende.
 

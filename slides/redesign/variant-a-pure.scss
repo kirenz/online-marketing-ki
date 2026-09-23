@@ -822,3 +822,76 @@ body:has(.slides section.present.stage) {
 .reveal section.slide.stage:not([data-background-image]) {
   background-color: $color-stage-bg-a !important;
 }
+
+// =========================================
+// Textfolien: nur Überschrift und kurzer Text, ohne Bild, Liste, Tabelle
+// oder Pattern. Vorher stand der Text oben und darunter lag leere Fläche.
+// Jetzt: vertikal zentriert, Ochre-Marke über dem Titel, optionaler Kicker
+// (Überschrift-Attribut data-kicker="Analogie"), größerer Fließtext mit
+// begrenzter Zeilenlänge. Dunkle Variante (Stage) zusätzlich mit warmem
+// Lichtschein. Flex nur auf der aktiven Folie, damit Reveal die übrigen
+// Folien weiter per display:none ausblenden kann.
+// =========================================
+$color-stage-body-a: #d6d1ca !default;
+
+@mixin text-slide {
+  &.present {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+  padding-left: 7% !important;
+  padding-right: 7% !important;
+
+  &::before {
+    content: attr(data-kicker);
+    display: block;
+    width: fit-content;
+    min-width: 56px;
+    padding-top: 0.9rem;
+    margin-bottom: 1.1rem;
+    border-top: 3px solid var(--ochre);
+    font-size: 0.62em;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--ochre);
+  }
+
+  h2 {
+    font-size: 2.3em !important;
+    line-height: 1.1;
+    max-width: none;
+    margin: 0 0 0.6em !important;
+  }
+
+  > p, > div > p {
+    font-size: 1.3em;
+    line-height: 1.55;
+    max-width: 34em;
+  }
+
+  .sources {
+    left: 7%;
+  }
+}
+
+// Dunkle Textfolie (Analogie, Merksatz)
+.reveal section.slide.stage:not([data-background-image]):not(.closing):not(.anschauung):not(.chapter):not(.breath) {
+  @include text-slide;
+  background-image:
+    radial-gradient(26% 34% at 72% 64%, rgba(192, 138, 62, 0.17), transparent),
+    radial-gradient(20% 26% at 18% 22%, rgba(90, 106, 134, 0.15), transparent) !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: 0 0 !important;
+
+  > p, > div > p {
+    color: $color-stage-body-a !important;
+  }
+}
+
+// Helle Textfolie: nur Überschrift, Absätze und ggf. Quellenzeile
+.reveal section.slide.level2:not(.stage):not(:has(img, svg, table, ul, ol, pre, iframe, blockquote, .columns, .features, .timeline, .comparison, .metrics-grid, .callout, .quote-box, .formula, .codewindow, .tip-box, .think-box, .book-bridge, .flow, .numbered-sections-container, #refs, .cell)) {
+  @include text-slide;
+}

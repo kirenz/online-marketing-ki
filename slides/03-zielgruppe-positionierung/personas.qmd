@@ -75,7 +75,7 @@ Eine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas best
 KI nimmt Routine ab: Muster in Interviews finden, Profile formulieren, Ideen vorschlagen. Die Verantwortung für Auswahl und Validierung bleibt menschlich, sonst zementiert eine Persona nur Vorannahmen.
 :::
 
-## Das Phantombild {.stage background-color="#0a0a0f"}
+## Das Phantombild {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Eine Persona zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtungen zu einem erkennbaren Gesicht.
 

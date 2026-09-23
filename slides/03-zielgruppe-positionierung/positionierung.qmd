@@ -52,7 +52,7 @@ Für [Zielgruppe], die [Bedürfnis], ist [Angebot] das [Kategorie], das [Nutzen]
 Diese Vorlage hält die Positionierung in einem Satz fest. Sie zwingt zur Klarheit über Zielgruppe, Bedürfnis, Kategorie, Nutzen und Begründung und macht die Position überprüfbar.
 :::
 
-## Der Sitzplan im Theater {.stage background-color="#0a0a0f"}
+## Der Sitzplan im Theater {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Im Kopf der Zielgruppe gibt es nur begrenzt gute Plätze. Ein bereits besetzter Platz lohnt den Kampf selten, ein freier attraktiver Platz schon.
 

@@ -24,7 +24,7 @@ Microsoft Copilot etwa sitzt in [Word, Excel, PowerPoint und Outlook]{.highlight
 Der Übergang ist der Kern dieser Folie. Statt Inhalte zwischen Chat und Dokument zu kopieren, wird die Anweisung direkt im Werkzeug formuliert. Copilot sitzt in den Office-Programmen und kennt den Kontext des Dokuments, in dem gerade gearbeitet wird.
 :::
 
-## Der Assistent am Schreibtisch {.stage background-color="#0a0a0f"}
+## Der Assistent am Schreibtisch {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Ein externer Dienstleister ist hilfreich, aber jede Akte muss erst zugeschickt werden. Eine Assistenz am eigenen Schreibtisch sieht die Unterlagen direkt mit und arbeitet im Vorgang weiter.
 

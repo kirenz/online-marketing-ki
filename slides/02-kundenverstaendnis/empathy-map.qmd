@@ -72,7 +72,7 @@ Quelle: @osterwalder2014
 Statt einer abstrakten Zielgruppe steht eine konkrete Person im Zentrum. Die Felder werden mit echten Beobachtungen gefüllt, nicht mit Vermutungen. Gute Quellen sind Interviews, Bewertungen und Support-Anfragen.
 :::
 
-## Das Anamnesegespräch {.stage background-color="#0a0a0f"}
+## Das Anamnesegespräch {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Vor der Diagnose steht das Zuhören. Erst die Beschwerden, das Umfeld und die Gewohnheiten, dann der Lösungsvorschlag.
 

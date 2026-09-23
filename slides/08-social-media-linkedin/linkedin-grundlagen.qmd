@@ -38,7 +38,7 @@ Quelle: @balaji2023
 Geschäftsentscheidungen fallen in Gremien und über lange Zeiträume. LinkedIn bildet die beruflichen Profile dieser Menschen ab, deshalb lassen sie sich gezielt erreichen. Die Forschung zeigt klar: Was überzeugt, ist die Glaubwürdigkeit der Quelle und ein echter fachlicher Mehrwert, nicht der reine Werbedruck.
 :::
 
-## Die Fachmesse, die nie schließt {.stage background-color="#0a0a0f"}
+## Die Fachmesse, die nie schließt {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Auf einer Branchenmesse zählt das Fachgespräch mit den richtigen Leuten, nicht das lauteste Plakat. LinkedIn ist diese Fachmesse im Dauerbetrieb: berufliches Umfeld, gezielte Kontakte, Substanz vor Lautstärke.
 

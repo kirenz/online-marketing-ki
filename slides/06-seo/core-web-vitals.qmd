@@ -71,7 +71,7 @@ Drei Kennzahlen bilden den Kern, und jede beschreibt einen anderen Moment im Bes
 LCP fragt, wann der größte Inhalt sichtbar ist. INP fragt, wie schnell die Seite auf eine Eingabe sichtbar reagiert. CLS fragt, wie stark Elemente verrutschen, etwa durch ein nachgeladenes Banner. Zielwerte stehen bewusst nicht auf der Folie, sie werden in der aktuellen Google-Dokumentation nachgeschlagen.
 :::
 
-## Analogie: Die Eröffnung eines Geschäfts {.stage background-color="#0a0a0f"}
+## Die Eröffnung eines Geschäfts {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Wie schnell die Ware ausliegt, wie zügig jemand auf eine Frage reagiert, ob die Regale ruhig stehen.
 

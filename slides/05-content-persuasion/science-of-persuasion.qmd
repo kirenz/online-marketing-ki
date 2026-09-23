@@ -86,7 +86,7 @@ Quelle: @cialdini2021
 Jedes Prinzip lässt sich direkt übersetzen. Reziprozität ist der rote Faden zur vorigen Lesson: Wer zuerst nützlichen Content verschenkt, schafft genau das Gefühl der Gegenseitigkeit, das eine spätere Kontaktaufnahme erleichtert.
 :::
 
-## Die Verkehrsregeln im Kopf {.stage background-color="#0a0a0f"}
+## Die Verkehrsregeln im Kopf {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Niemand prüft an jeder Kreuzung neu, ob Rot wirklich Halten bedeutet. Die Regel spart Zeit und stimmt fast immer. Genauso verlassen wir uns auf Empfehlungen und Fachurteile.
 

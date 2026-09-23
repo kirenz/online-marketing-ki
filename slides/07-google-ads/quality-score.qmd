@@ -73,7 +73,7 @@ Der Quality Score setzt sich aus drei Komponenten zusammen, die Google getrennt 
 Die drei Komponenten sitzen an verschiedenen Stellen des Wegs. Relevanz zwischen Suche und Anzeige, Klickrate an der Anzeige, Zielseiten-Erfahrung nach dem Klick. Verbessert werden die Komponenten, nicht die Zahl.
 :::
 
-## Analogie: Das Vorstellungsgespräch {.stage background-color="#0a0a0f"}
+## Das Vorstellungsgespräch {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Eine Bewerbung überzeugt nie über einen einzigen Punkt, sondern über das Zusammenspiel: erster Eindruck, passende Antworten, stimmiges Auftreten.
 

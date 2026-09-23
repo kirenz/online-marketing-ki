@@ -92,7 +92,7 @@ Die vier C übersetzen jeden Hebel in die Perspektive der Kundschaft. Der Wechse
 Links stehen die Entscheidungsfelder des Anbieters, rechts dieselben Hebel aus Sicht der Kundschaft. Aus Promotion wird Communication, also Dialog statt einseitiger Botschaft. Die Leitfragen rechts eignen sich als Prüffragen für jede Maßnahme.
 :::
 
-## Der Mix als Mischpult {.stage background-color="#0a0a0f"}
+## Der Mix als Mischpult {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Kein einzelner Regler macht den guten Klang aus, sondern ihr Zusammenspiel. Ein voll aufgezogener Regler bei vernachlässigten anderen ergibt ein schiefes Ergebnis.
 

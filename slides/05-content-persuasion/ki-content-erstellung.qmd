@@ -61,7 +61,7 @@ KI liefert Tempo und Varianten, der Mensch liefert das Urteil. Die Forschung zei
 Die vorigen Lessons liefern den Stoff, den KI bearbeitet. Sie entwirft Ideen für die Strategie, formuliert eine Botschaft mit Knappheit und eine mit Social Proof, und skizziert einen Spannungsbogen, den wir mit echten Details füllen.
 :::
 
-## Die schnelle Praktikantin {.stage background-color="#0a0a0f"}
+## Die schnelle Praktikantin {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 KI gleicht einer fleißigen Praktikantin: zwanzig Entwürfe in Minuten, aber ohne echtes Wissen über Kundschaft und Marke und mit manch halb verstandenem Fakt.
 

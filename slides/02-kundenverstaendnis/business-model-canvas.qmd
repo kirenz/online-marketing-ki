@@ -66,7 +66,7 @@ Quelle: @osterwalder2013
 Das Canvas hat eine innere Logik. Die rechte Seite ist nach außen gerichtet, die linke nach innen. In der Mitte verbindet das Wertangebot beide Seiten. Fürs Marketing zählt vor allem die rechte Seite.
 :::
 
-## Der Bauplan eines Hauses {.stage background-color="#0a0a0f"}
+## Der Bauplan eines Hauses {.stage background-color="#0a0a0f" data-kicker="Analogie"}
 
 Ein Grundriss zeigt alle Räume und ihre Verbindungen auf einem Blatt, bevor der erste Stein gesetzt wird.
 
