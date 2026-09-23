@@ -28,40 +28,40 @@
   <path d="M-6,-6 L4,0 L-6,6" transform="translate(140.2,174.2) rotate(-59.3)" fill="none" stroke="#8f8a7c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M-6,-6 L4,0 L-6,6" transform="translate(283.6,74.1) rotate(-16.1)" fill="none" stroke="#c08a3e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M197.6,114.2 A265,185 0 0 1 385.0,60.0" fill="none" stroke="#c08a3e" stroke-width="2.5"/>
-  <rect x="305" y="35" width="160" height="50" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="325" cy="60" r="11" fill="#16182c"/>
-  <text class="num" x="325" y="64.2" text-anchor="middle">1</text>
-  <text class="n" x="343" y="65" text-anchor="start">Situationsanalyse</text>
-  <rect x="492.383" y="89.1852" width="160" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="512.383" cy="114.185" r="11" fill="#16182c"/>
-  <text class="num" x="512.383" y="118.385" text-anchor="middle">2</text>
-  <text class="n" x="530.383" y="119.185" text-anchor="start">Ziele</text>
-  <rect x="570" y="220" width="160" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="590" cy="245" r="11" fill="#16182c"/>
-  <text class="num" x="590" y="249.2" text-anchor="middle">3</text>
-  <text class="n" x="608" y="250" text-anchor="start">Zielgruppen</text>
-  <rect x="492.383" y="350.815" width="160" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="512.383" cy="375.815" r="11" fill="#16182c"/>
-  <text class="num" x="512.383" y="380.015" text-anchor="middle">4</text>
-  <text class="n" x="530.383" y="371.815" text-anchor="start">Strategie und</text>
-  <text class="n" x="530.383" y="388.815" text-anchor="start">Positionierung</text>
-  <rect x="305" y="405" width="160" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="325" cy="430" r="11" fill="#16182c"/>
-  <text class="num" x="325" y="434.2" text-anchor="middle">5</text>
-  <text class="n" x="343" y="426" text-anchor="start">Kanäle und</text>
-  <text class="n" x="343" y="443" text-anchor="start">Maßnahmen</text>
-  <rect x="117.617" y="350.815" width="160" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="137.617" cy="375.815" r="11" fill="#16182c"/>
-  <text class="num" x="137.617" y="380.015" text-anchor="middle">6</text>
-  <text class="n" x="155.617" y="380.815" text-anchor="start">Budget</text>
-  <rect x="40" y="220" width="160" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="60" cy="245" r="11" fill="#16182c"/>
-  <text class="num" x="60" y="249.2" text-anchor="middle">7</text>
-  <text class="n" x="78" y="250" text-anchor="start">Umsetzung</text>
-  <rect x="117.617" y="89.1852" width="160" height="50" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
-  <circle cx="137.617" cy="114.185" r="11" fill="#16182c"/>
-  <text class="num" x="137.617" y="118.385" text-anchor="middle">8</text>
-  <text class="n" x="155.617" y="119.185" text-anchor="start">Controlling</text>
+  <rect x="293" y="35" width="184" height="50" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="313" cy="60" r="11" fill="#16182c"/>
+  <text class="num" x="313" y="64.2" text-anchor="middle">1</text>
+  <text class="n" x="331" y="65" text-anchor="start">Situationsanalyse</text>
+  <rect x="480.383" y="89.1852" width="184" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="500.383" cy="114.185" r="11" fill="#16182c"/>
+  <text class="num" x="500.383" y="118.385" text-anchor="middle">2</text>
+  <text class="n" x="518.383" y="119.185" text-anchor="start">Ziele</text>
+  <rect x="558" y="220" width="184" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="578" cy="245" r="11" fill="#16182c"/>
+  <text class="num" x="578" y="249.2" text-anchor="middle">3</text>
+  <text class="n" x="596" y="250" text-anchor="start">Zielgruppen</text>
+  <rect x="480.383" y="350.815" width="184" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="500.383" cy="375.815" r="11" fill="#16182c"/>
+  <text class="num" x="500.383" y="380.015" text-anchor="middle">4</text>
+  <text class="n" x="518.383" y="371.815" text-anchor="start">Strategie und</text>
+  <text class="n" x="518.383" y="388.815" text-anchor="start">Positionierung</text>
+  <rect x="293" y="405" width="184" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="313" cy="430" r="11" fill="#16182c"/>
+  <text class="num" x="313" y="434.2" text-anchor="middle">5</text>
+  <text class="n" x="331" y="426" text-anchor="start">Kanäle und</text>
+  <text class="n" x="331" y="443" text-anchor="start">Maßnahmen</text>
+  <rect x="105.617" y="350.815" width="184" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="125.617" cy="375.815" r="11" fill="#16182c"/>
+  <text class="num" x="125.617" y="380.015" text-anchor="middle">6</text>
+  <text class="n" x="143.617" y="380.815" text-anchor="start">Budget</text>
+  <rect x="28" y="220" width="184" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="48" cy="245" r="11" fill="#16182c"/>
+  <text class="num" x="48" y="249.2" text-anchor="middle">7</text>
+  <text class="n" x="66" y="250" text-anchor="start">Umsetzung</text>
+  <rect x="105.617" y="89.1852" width="184" height="50" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <circle cx="125.617" cy="114.185" r="11" fill="#16182c"/>
+  <text class="num" x="125.617" y="118.385" text-anchor="middle">8</text>
+  <text class="n" x="143.617" y="119.185" text-anchor="start">Controlling</text>
   <text class="d" x="385" y="233" text-anchor="middle">Die Schritte laufen in Schleifen.</text>
   <text class="d" x="385" y="253" text-anchor="middle">Keiner wird übersprungen.</text>
   <text class="s" x="385" y="281" text-anchor="middle" style="fill:#c08a3e;font-weight:600">Controlling liefert das Lagebild</text>
