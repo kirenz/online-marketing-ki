@@ -20,6 +20,8 @@ Wir stellen uns einen Handwerksbetrieb vor, der einen Auftrag vergibt. Den Zusch
 
 Eine zweite Eigenschaft der Auktion ist für das Budget besonders wichtig: Der tatsächliche Klickpreis ist in der Regel niedriger als das eigene Höchstgebot. Vereinfacht zahlen wir nur so viel, wie nötig ist, um die nächstplatzierte Anzeige knapp zu übertreffen. Das Gebot ist also eine Obergrenze, nicht der feste Preis pro Klick.
 
+![Vereinfachtes Rechenbeispiel mit fiktiven Zahlen: Das höchste Gebot landet auf dem letzten Platz, und jeder zahlt weniger als sein Höchstgebot.](../images/anzeigenrang.svg){#fig-anzeigenrang fig-alt="Tabelle mit Balken für drei Anbieter. Position 1: B, Gebot 2,00 Euro, Qualität 8, Anzeigenrang 16, Klickpreis 1,76 Euro. Position 2: C, 3,50 Euro, Qualität 4, Rang 14, Klickpreis 3,01 Euro. Position 3: A, 4,00 Euro, Qualität 3, Rang 12, Mindestpreis."}
+
 Diese Logik schützt davor, dauerhaft zu viel zu bezahlen, und belohnt zugleich gute Anzeigen mit niedrigeren Kosten. Damit die Auktion fair und stabil bleibt, arbeitet Google zusätzlich mit Mindestpreisen, unterhalb derer eine Anzeige nicht ausgeliefert wird. Solche Reservepreise sind ein bewusst gestaltetes Element von Anzeigenauktionen und beeinflussen sowohl die Einnahmen der Plattform als auch das Verhalten der Werbetreibenden [@ostrovsky2023].
 
 ::: {.callout-important title="Gebot ist eine Obergrenze, kein Festpreis"}

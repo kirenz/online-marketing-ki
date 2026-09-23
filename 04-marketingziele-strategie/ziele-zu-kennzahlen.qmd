@@ -22,6 +22,8 @@ Ein Frühindikator zeigt dagegen unterwegs an, ob die Richtung stimmt. Die Klick
 
 Wir gehen von einem konkreten Ziel aus und arbeiten uns zur passenden Messung vor. Zuerst halten wir das Ziel mit seiner Kennzahl fest, etwa 80 Webinar-Anmeldungen bis Ende September. Danach bestimmen wir den Ergebnisindikator, hier die gemessene Zahl der abgeschlossenen Anmeldungen. Im dritten Schritt wählen wir ein oder zwei Frühindikatoren, die den Weg dorthin sichtbar machen, etwa Besuche auf der Anmeldeseite und die Conversion-Rate vom Besuch zur Anmeldung. Zuletzt legen wir fest, wie oft und woher wir diese Werte ablesen, damit aus den Kennzahlen ein verlässlicher Rhythmus entsteht.
 
+![Vom Ziel zur Kennzahl am Webinar-Beispiel: Wir leiten von rechts nach links ab und lesen die Werte von links nach rechts ab.](../images/ziel-kennzahlen.svg){#fig-ziel-kennzahlen fig-alt="Rechts das Ziel 80 Webinar-Anmeldungen bis Ende September, in der Mitte der Ergebnisindikator abgeschlossene Anmeldungen, links die Frühindikatoren Besuche auf der Anmeldeseite und Conversion-Rate vom Besuch zur Anmeldung. Pfeile zeigen, dass sie aufeinander einzahlen. Darunter eine Zeitachse von unterwegs bis Kampagnenende und Schritt vier: Rhythmus und Datenquelle festlegen."}
+
 ::: {.callout-important title="Eitelkeitszahlen erkennen"}
 Manche Zahlen sehen beeindruckend aus, beantworten aber keine steuerungsrelevante Frage. Reine Impressionen oder Gesamtaufrufe steigen fast immer und verleiten zu Optimismus, ohne über den Beitrag zum Ziel etwas auszusagen. Wir prüfen bei jeder Kennzahl, ob eine Veränderung tatsächlich eine Entscheidung auslösen würde, und verwerfen sie andernfalls als bloße Eitelkeitszahl, wie es @farris2010 nahelegt.
 :::

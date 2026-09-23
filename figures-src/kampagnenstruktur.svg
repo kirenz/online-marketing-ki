@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 410" role="img" aria-labelledby="t d">
+  <title id="t">Kampagnenstruktur in Google Ads</title>
+  <desc id="d">Ein Google-Ads-Konto enthält die Kampagne Kaffeemaschinen mit Ziel und Budget. Darunter zwei Anzeigengruppen, Siebträger und Vollautomaten, jeweils ein eng umrissenes Thema. In jeder Anzeigengruppe liegen passende Keywords, ein Anzeigentext und eine eigene Zielseite, etwa siebträgermaschine kaufen, Siebträger vom Fachhändler und die Seite /siebtraeger. Fiktives Beispiel.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="410" fill="#faf9f4"/>
+  <text class="n" x="20" y="92" text-anchor="start">Kampagne</text>
+  <text class="s" x="20" y="112" text-anchor="start">Ziel und Budget</text>
+  <text class="n" x="20" y="172" text-anchor="start">Anzeigengruppe</text>
+  <text class="s" x="20" y="192" text-anchor="start">ein eng umrissenes</text>
+  <text class="s" x="20" y="208" text-anchor="start">Thema</text>
+  <text class="n" x="20" y="300" text-anchor="start">Keywords und</text>
+  <text class="s" x="20" y="320" text-anchor="start">Anzeigen mit</text>
+  <text class="s" x="20" y="336" text-anchor="start">passender Zielseite</text>
+  <line x1="190" y1="20" x2="190" y2="400" stroke="#e2dfd6" stroke-width="1"/>
+  <text class="s" x="485" y="30" text-anchor="middle">Google-Ads-Konto</text>
+  <line x1="485" y1="38" x2="485" y2="62" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="375" y="66" width="220" height="50" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.5"/>
+  <text class="n" x="485" y="88" text-anchor="middle">Kaffeemaschinen</text>
+  <text class="s" x="485" y="106" text-anchor="middle">Ziel und Budget</text>
+  <path d="M485,118 L485,136 L337.5,136 L337.5,150" fill="none" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="215" y="154" width="245" height="46" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="337.5" y="182" text-anchor="middle">Siebträger</text>
+  <line x1="337.5" y1="202" x2="337.5" y2="222" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="215" y="226" width="245" height="170" rx="8" fill="#faf9f4" stroke="#16182c" stroke-width="1.25"/>
+  <text class="s" x="229" y="248" text-anchor="start" style="font-weight:600">Keywords</text>
+  <rect x="229" y="256" width="217" height="22" rx="4" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <text class="mono" x="237" y="271" text-anchor="start">siebträgermaschine kaufen</text>
+  <rect x="229" y="284" width="217" height="22" rx="4" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <text class="mono" x="237" y="299" text-anchor="start">siebträger dualboiler</text>
+  <text class="s" x="229" y="334" text-anchor="start" style="font-weight:600">Anzeigentext</text>
+  <text class="d" x="229" y="352" text-anchor="start">Siebträger vom Fachhändler</text>
+  <text class="s" x="229" y="376" text-anchor="start" style="font-weight:600">Zielseite</text>
+  <text class="mono" x="299" y="376" text-anchor="start">/siebtraeger</text>
+  <path d="M485,118 L485,136 L627.5,136 L627.5,150" fill="none" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="505" y="154" width="245" height="46" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="627.5" y="182" text-anchor="middle">Vollautomaten</text>
+  <line x1="627.5" y1="202" x2="627.5" y2="222" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="505" y="226" width="245" height="170" rx="8" fill="#faf9f4" stroke="#16182c" stroke-width="1.25"/>
+  <text class="s" x="519" y="248" text-anchor="start" style="font-weight:600">Keywords</text>
+  <rect x="519" y="256" width="217" height="22" rx="4" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <text class="mono" x="527" y="271" text-anchor="start">kaffeevollautomat kaufen</text>
+  <rect x="519" y="284" width="217" height="22" rx="4" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <text class="mono" x="527" y="299" text-anchor="start">vollautomat milchsystem</text>
+  <text class="s" x="519" y="334" text-anchor="start" style="font-weight:600">Anzeigentext</text>
+  <text class="d" x="519" y="352" text-anchor="start">Vollautomaten mit Beratung</text>
+  <text class="s" x="519" y="376" text-anchor="start" style="font-weight:600">Zielseite</text>
+  <text class="mono" x="589" y="376" text-anchor="start">/vollautomaten</text>
+</svg>

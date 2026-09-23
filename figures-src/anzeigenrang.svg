@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 302" role="img" aria-labelledby="t d">
+  <title id="t">Rechenbeispiel Anzeigenrang</title>
+  <desc id="d">Drei Anbieter in einer vereinfachten Auktion mit fiktiven Zahlen. Position 1: Anbieter B, Höchstgebot 2,00 Euro, Qualität 8, Anzeigenrang 16, Klickpreis 1,76 Euro. Position 2: Anbieter C, 3,50 Euro, Qualität 4, Rang 14, Klickpreis 3,01 Euro. Position 3: Anbieter A, 4,00 Euro, Qualität 3, Rang 12, zahlt den Mindestpreis. Das höchste Gebot landet auf dem letzten Platz. Klickpreis vereinfacht: Rang der nächsten Anzeige geteilt durch eigene Qualität plus 0,01 Euro.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="302" fill="#faf9f4"/>
+  <text class="s" x="20" y="30" text-anchor="start" style="font-weight:600">Position</text>
+  <text class="s" x="170" y="30" text-anchor="start" style="font-weight:600">Höchstgebot</text>
+  <text class="s" x="352" y="30" text-anchor="middle" style="font-weight:600">× Qualität</text>
+  <text class="s" x="410" y="30" text-anchor="start" style="font-weight:600">= Anzeigenrang</text>
+  <text class="s" x="750" y="30" text-anchor="end" style="font-weight:600">tatsächlicher Klickpreis</text>
+  <line x1="20" y1="42" x2="750" y2="42" stroke="#16182c" stroke-width="1.5"/>
+  <circle cx="31" cy="80" r="11" fill="#16182c"/>
+  <text class="num" x="31" y="84.2" text-anchor="middle">1</text>
+  <text class="n" x="52" y="85" text-anchor="start">Anbieter B</text>
+  <path d="M170,68 h50.0 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-50.0 Z" fill="#3f63a8"/>
+  <text class="d" x="232" y="85" text-anchor="start">2,00 €</text>
+  <text class="n" x="352" y="85" text-anchor="middle">8</text>
+  <path d="M410,68 h220.0 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-220.0 Z" fill="#b98232"/>
+  <text class="n" x="642" y="85" text-anchor="start">16</text>
+  <text class="n" x="750" y="85" text-anchor="end">1,76 €</text>
+  <line x1="20" y1="110" x2="750" y2="110" stroke="#e2dfd6" stroke-width="1"/>
+  <circle cx="31" cy="142" r="11" fill="#16182c"/>
+  <text class="num" x="31" y="146.2" text-anchor="middle">2</text>
+  <text class="n" x="52" y="147" text-anchor="start">Anbieter C</text>
+  <path d="M170,130 h90.5 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-90.5 Z" fill="#3f63a8"/>
+  <text class="d" x="272.5" y="147" text-anchor="start">3,50 €</text>
+  <text class="n" x="352" y="147" text-anchor="middle">4</text>
+  <path d="M410,130 h192.0 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-192.0 Z" fill="#b98232"/>
+  <text class="n" x="614" y="147" text-anchor="start">14</text>
+  <text class="n" x="750" y="147" text-anchor="end">3,01 €</text>
+  <line x1="20" y1="172" x2="750" y2="172" stroke="#e2dfd6" stroke-width="1"/>
+  <circle cx="31" cy="204" r="11" fill="#16182c"/>
+  <text class="num" x="31" y="208.2" text-anchor="middle">3</text>
+  <text class="n" x="52" y="209" text-anchor="start">Anbieter A</text>
+  <path d="M170,192 h104.0 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-104.0 Z" fill="#3f63a8"/>
+  <text class="d" x="286" y="209" text-anchor="start">4,00 €</text>
+  <text class="n" x="352" y="209" text-anchor="middle">3</text>
+  <path d="M410,192 h164.0 a4,4 0 0 1 4,4 v16 a4,4 0 0 1 -4,4 h-164.0 Z" fill="#b98232"/>
+  <text class="n" x="586" y="209" text-anchor="start">12</text>
+  <text class="d" x="750" y="209" text-anchor="end">Mindestpreis</text>
+  <line x1="20" y1="234" x2="750" y2="234" stroke="#e2dfd6" stroke-width="1"/>
+  <text class="d" x="20" y="268" text-anchor="start">Das höchste Gebot (A) landet auf Position 3. B bietet am wenigsten und steht wegen hoher Qualität oben.</text>
+  <text class="s" x="20" y="290" text-anchor="start">Vereinfacht, fiktive Zahlen: Klickpreis = Rang der nächsten Anzeige ÷ eigene Qualität + 0,01 €.</text>
+</svg>

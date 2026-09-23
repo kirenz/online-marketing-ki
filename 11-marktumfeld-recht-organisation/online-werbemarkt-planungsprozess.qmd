@@ -10,6 +10,8 @@ Einen Sonderfall bilden die großen Plattformen wie Suchmaschinen, soziale Netzw
 
 Dazwischen arbeitet die Werbetechnik, kurz Ad-Tech. Eine Demand-Side-Platform (DSP) ist das Einkaufssystem der Werbungtreibenden, eine Supply-Side-Platform (SSP) das Verkaufssystem der Publisher, und ein Ad Exchange ist der Handelsplatz dazwischen. Ergänzend prüfen Messdienstleister, ob Werbung sichtbar war und in welchem Umfeld sie erschienen ist.
 
+![Akteure am Online-Werbemarkt: offene Handelskette über DSP, Ad Exchange und SSP, daneben der Walled Garden einer großen Plattform.](../images/werbemarkt-akteure.svg){#fig-werbemarkt-akteure fig-alt="Oben die Kette von Werbungtreibenden und Agenturen über DSP und Ad Exchange zu SSP sowie Publishern und Vermarktern; Messdienstleister prüfen Sichtbarkeit und Umfeld. Unten ein Walled Garden, in dem eine Plattform Publisher, Vermarkter und Messsystem zugleich ist; Werbungtreibende buchen dort direkt."}
+
 ## Wie abgerechnet wird
 
 Die Abrechnungsmodelle unterscheiden sich darin, wofür bezahlt wird. Beim Tausend-Kontakt-Preis (TKP) zahlen wir für tausend Kontakte, unabhängig von einer Reaktion, was zu Zielen der Bekanntheit passt. Klassisch rechnet der TKP je tausend erreichte Kontakte, der englische Cost per Mille (CPM) je tausend Einblendungen; online werden beide Begriffe meist gleichgesetzt. Beim Cost per Click (CPC) zahlen wir erst, wenn jemand klickt, beim Cost per Action (CPA) erst, wenn eine definierte Handlung erfolgt, etwa eine Anfrage oder ein Kauf. Im Affiliate-Bereich ist zusätzlich eine Umsatzbeteiligung (Revenue Share) üblich, bei der Partner einen Prozentsatz des vermittelten Umsatzes erhalten [@lammenett2025].
@@ -44,6 +46,8 @@ Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Das folgende 
 | 8 Controlling | Wirkt es, was ändern wir? | Reporting und Anpassungen |
 
 Die Schritte laufen in der Praxis nicht streng nacheinander ab, sondern in Schleifen. Entscheidend ist, dass kein Schritt übersprungen wird. Kampagnen scheitern selten an der Kreation, häufig aber daran, dass Ziele unscharf blieben oder das Controlling erst nach Ende der Laufzeit einsetzte.
+
+![Der Planungsprozess als Kreislauf: Das Controlling liefert das Lagebild für die nächste Runde.](../images/planungsprozess.svg){#fig-planungsprozess fig-alt="Acht Schritte im Uhrzeigersinn auf einem Ring: Situationsanalyse, Ziele, Zielgruppen, Strategie und Positionierung, Kanäle und Maßnahmen, Budget, Umsetzung, Controlling. Der Bogen vom Controlling zurück zur Situationsanalyse ist hervorgehoben."}
 
 ## Die Fachsprache des Werbemarkts
 

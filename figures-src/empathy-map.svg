@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 400" role="img" aria-labelledby="t d">
+  <title id="t">Empathy Map</title>
+  <desc id="d">Ein Quadrat mit vier Feldern um eine konkrete Person in der Mitte: Denken und Fühlen (Was beschäftigt sie wirklich, auch unausgesprochen?), Sehen (Was nimmt die Person in ihrem Umfeld wahr?), Hören (Welche Stimmen und Quellen beeinflussen sie?), Sagen und Tun (Wie verhält sie sich nach außen?). Darunter die Felder Pains (Frustrationen, Ängste) und Gains (Wünsche, Erfolgsmaßstäbe); ein Pfeil führt ins Kundenprofil des Value Proposition Canvas.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="400" fill="#faf9f4"/>
+  <rect x="100" y="16" width="240" height="145" fill="#efece3" stroke="#16182c" stroke-width="1"/>
+  <text class="n" x="118" y="46" text-anchor="start">Denken und Fühlen</text>
+  <text class="d" x="118" y="68" text-anchor="start">Was beschäftigt sie wirklich,</text>
+  <text class="d" x="118" y="86" text-anchor="start">auch unausgesprochen?</text>
+  <rect x="340" y="16" width="240" height="145" fill="#efece3" stroke="#16182c" stroke-width="1"/>
+  <text class="n" x="562" y="46" text-anchor="end">Sehen</text>
+  <text class="d" x="562" y="68" text-anchor="end">Was nimmt die Person in</text>
+  <text class="d" x="562" y="86" text-anchor="end">ihrem Umfeld wahr?</text>
+  <rect x="100" y="161" width="240" height="145" fill="#efece3" stroke="#16182c" stroke-width="1"/>
+  <text class="n" x="118" y="244" text-anchor="start">Hören</text>
+  <text class="d" x="118" y="266" text-anchor="start">Welche Stimmen und Quellen</text>
+  <text class="d" x="118" y="284" text-anchor="start">beeinflussen sie?</text>
+  <rect x="340" y="161" width="240" height="145" fill="#efece3" stroke="#16182c" stroke-width="1"/>
+  <text class="n" x="562" y="244" text-anchor="end">Sagen und Tun</text>
+  <text class="d" x="562" y="266" text-anchor="end">Wie verhält sie sich</text>
+  <text class="d" x="562" y="284" text-anchor="end">nach außen?</text>
+  <rect x="100" y="16" width="480" height="290" fill="none" stroke="#16182c" stroke-width="1.5"/>
+  <circle cx="340.0" cy="161.0" r="58" fill="#faf9f4" stroke="#16182c" stroke-width="1.5"/>
+  <circle cx="340.0" cy="141.0" r="10" fill="none" stroke="#555a6e" stroke-width="1.5"/>
+  <path d="M324.0,169.0 Q340.0,149.0 356.0,169.0" fill="none" stroke="#555a6e" stroke-width="1.5"/>
+  <text class="s" x="340" y="189" text-anchor="middle">eine konkrete</text>
+  <text class="s" x="340" y="204" text-anchor="middle">Person</text>
+  <rect x="100" y="322" width="234" height="60" rx="6" fill="#f6e4dc" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="118" y="347" text-anchor="start">Pains</text>
+  <text class="d" x="118" y="368" text-anchor="start">Frustrationen, Ängste</text>
+  <rect x="346" y="322" width="234" height="60" rx="6" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="364" y="347" text-anchor="start">Gains</text>
+  <text class="d" x="364" y="368" text-anchor="start">Wünsche, Erfolgsmaßstäbe</text>
+  <line x1="588" y1="352" x2="620" y2="352" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="628" y="346" text-anchor="start">ins Kundenprofil</text>
+  <text class="s" x="628" y="362" text-anchor="start">(Value Proposition</text>
+  <text class="s" x="628" y="378" text-anchor="start">Canvas)</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 312" role="img" aria-labelledby="t d">
+  <title id="t">Zurechnung verteilt, sie vermehrt nicht</title>
+  <desc id="d">Oben der Weg: Social Media, dann Suchanzeige, dann Kauf; 100 Käufe nehmen diesen Weg. Darunter Balken: Last-Click schreibt der Suche 100 Käufe zu. Eine gleichmäßige Regel gibt Social und Suche je 50, Summe 100. Melden beide Werbekonten je 100, ergibt die Summe 200, eine gestrichelte Linie markiert die tatsächlichen 100 Käufe: Es sind keine 200 Käufe.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="312" fill="#faf9f4"/>
+  <rect x="140" y="16" width="150" height="44" rx="22" fill="#f4ead8" stroke="#b98232" stroke-width="1.5"/>
+  <text class="n" x="215" y="43" text-anchor="middle">Social Media</text>
+  <rect x="330" y="16" width="150" height="44" rx="22" fill="#e3e8f3" stroke="#3f63a8" stroke-width="1.5"/>
+  <text class="n" x="405" y="43" text-anchor="middle">Suchanzeige</text>
+  <rect x="520" y="16" width="150" height="44" rx="22" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="595" y="43" text-anchor="middle">Kauf</text>
+  <line x1="292" y1="38" x2="326" y2="38" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="482" y1="38" x2="516" y2="38" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="405" y="82" text-anchor="middle">100 Käufe nehmen genau diesen Weg (fiktives Beispiel)</text>
+  <text class="n" x="20" y="146" text-anchor="start">Last-Click</text>
+  <rect x="241" y="128" width="248" height="26" rx="4" fill="#3f63a8"/>
+  <text class="s" x="365" y="121" text-anchor="middle" style="fill:#16182c">Suche 100</text>
+  <text class="d" x="500" y="146" text-anchor="start">Summe 100</text>
+  <text class="n" x="20" y="212" text-anchor="start">Gleichmäßig</text>
+  <rect x="241" y="194" width="123" height="26" rx="4" fill="#b98232"/>
+  <text class="s" x="302.5" y="187" text-anchor="middle" style="fill:#16182c">Social 50</text>
+  <rect x="366" y="194" width="123" height="26" rx="4" fill="#3f63a8"/>
+  <text class="s" x="427.5" y="187" text-anchor="middle" style="fill:#16182c">Suche 50</text>
+  <text class="d" x="500" y="212" text-anchor="start">Summe 100</text>
+  <text class="n" x="20" y="278" text-anchor="start">Beide Werbekonten</text>
+  <text class="s" x="20" y="296" text-anchor="start">melden je 100</text>
+  <rect x="241" y="260" width="248" height="26" rx="4" fill="#b98232"/>
+  <text class="s" x="365" y="253" text-anchor="middle" style="fill:#16182c">Social-Konto 100</text>
+  <rect x="491" y="260" width="248" height="26" rx="4" fill="#3f63a8"/>
+  <text class="s" x="615" y="253" text-anchor="middle" style="fill:#16182c">Such-Konto 100</text>
+  <text class="d" x="736" y="304" text-anchor="end" style="fill:#b85a3a;font-weight:600">keine 200 Käufe</text>
+  <line x1="490.0" y1="112" x2="490.0" y2="294" stroke="#16182c" stroke-width="1.25" stroke-dasharray="4 3"/>
+  <text class="s" x="490" y="106" text-anchor="middle" style="font-weight:600">tatsächlich 100 Käufe</text>
+</svg>

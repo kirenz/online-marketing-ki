@@ -15,6 +15,8 @@ Die Empathy Map ordnet Beobachtungen über eine Person in mehrere Felder. Eine v
 
 Ergänzt wird das durch zwei Felder, die direkt an das Kundenprofil anschließen: **Pains** (Frustrationen, Ängste) und **Gains** (Wünsche, Erfolgsmaßstäbe).
 
+![Die Empathy Map: vier Blickwinkel auf eine konkrete Person, ergänzt um Pains und Gains, die direkt ins Kundenprofil wandern.](../images/empathy-map.svg){#fig-empathy-map fig-alt="Ein Quadrat mit vier Feldern um eine Person in der Mitte: Denken und Fühlen, Sehen, Hören, Sagen und Tun, jeweils mit Leitfrage. Darunter die Felder Pains (Frustrationen, Ängste) und Gains (Wünsche, Erfolgsmaßstäbe) mit einem Pfeil ins Kundenprofil des Value Proposition Canvas."}
+
 ## Wie wir eine Empathy Map erstellen
 
 Wir wählen eine konkrete, beispielhafte Person statt einer abstrakten Zielgruppe. Dann füllen wir die Felder mit echten Beobachtungen, idealerweise aus Gesprächen, Bewertungen oder Support-Anfragen, nicht aus Vermutungen.

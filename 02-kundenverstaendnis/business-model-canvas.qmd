@@ -24,6 +24,8 @@ Das Canvas bündelt neun Felder, die zusammen das Geschäftsmodell beschreiben.
 
 Das Canvas hat eine innere Logik. Die rechte Seite ist nach außen gerichtet: Kundensegmente, Wertangebote, Kanäle, Beziehungen und Einnahmen. Die linke Seite ist nach innen gerichtet: Ressourcen, Aktivitäten, Partner und Kosten. In der Mitte verbindet das Wertangebot beide Seiten.
 
+![Die neun Bausteine des Business Model Canvas mit ihren Leitfragen. Links die nach innen gerichtete Seite, rechts die nach außen gerichtete, in der Mitte das Wertangebot. Nach @osterwalder2013.](../images/business-model-canvas.svg){#fig-business-model-canvas fig-alt="Raster mit neun Feldern. Links, bläulich getönt: Schlüsselpartner, Schlüsselaktivitäten, Schlüsselressourcen, Kostenstruktur. In der Mitte, ockerfarben: Wertangebote. Rechts: Kundenbeziehungen, Kanäle, Kundensegmente, Einnahmequellen. Jedes Feld trägt seine Leitfrage."}
+
 ::: {.callout-tip title="Analogie: der Bauplan eines Hauses"}
 Das Business Model Canvas ist wie der Grundriss eines Hauses auf einem Blatt. Er zeigt alle Räume und ihre Verbindungen auf einen Blick, bevor der erste Stein gesetzt wird. So fällt früh auf, wenn die Küche keinen Zugang zum Esszimmer hat, also wenn ein Baustein nicht zu den anderen passt.
 :::

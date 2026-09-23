@@ -4,6 +4,8 @@ In dieser Lesson lernen wir, wie aus einem unübersichtlichen Gesamtmarkt klar b
 
 Kein Markt ist homogen. Menschen unterscheiden sich in Bedürfnissen, Vorlieben und Verhalten. Der Ansatz, diese Vielfalt produktiv zu nutzen, statt sie zu ignorieren, geht auf den Gründungstext der Marktsegmentierung zurück [@smith1956]. Aus ihm leitet sich das STP-Modell ab: Segmentierung, Targeting, Positionierung. Die ersten beiden Schritte behandeln wir hier, die Positionierung in einer eigenen Lesson.
 
+![Das STP-Modell: erst den Markt in Gruppen teilen, dann Segmente auswählen, dann die Position bestimmen.](../images/stp-modell.svg){#fig-stp-modell fig-alt="Drei Felder mit Punkten für Menschen im Markt. Segmentierung: vier umrandete Gruppen. Targeting: eine Gruppe hervorgehoben, die übrigen blass. Positionierung: nur die gewählte Gruppe mit einem klaren Nutzenversprechen."}
+
 ## Warum wir segmentieren
 
 Ein Angebot, das alle ansprechen soll, spricht am Ende niemanden richtig an. Segmentierung teilt den Markt in Gruppen mit ähnlichen Bedürfnissen, sodass wir Botschaft und Angebot auf eine Gruppe zuschneiden können.

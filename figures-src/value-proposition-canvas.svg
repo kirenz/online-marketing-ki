@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 410" role="img" aria-labelledby="t d" font-family="Geist, 'Helvetica Neue', Arial, sans-serif">
+  <title id="t">Value Proposition Canvas</title>
+  <desc id="d">Links die Wertkarte als Quadrat mit Produkten und Services, Gain Creators und Pain Relievers. Rechts das Kundenprofil als Kreis mit Jobs, Gains und Pains. Pfeile verbinden Gain Creators mit Gains und Pain Relievers mit Pains. Das Kundenprofil wird zuerst erarbeitet, die Wertkarte danach darauf ausgerichtet.</desc>
+  <style>
+    /*@FONT@*/
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15.5px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .fit { font-size: 12.5px; font-weight: 500; fill: #555a6e; letter-spacing: 0.06em; }
+    .edge { fill: none; stroke: #16182c; stroke-width: 1.5; }
+    .div  { fill: none; stroke: #16182c; stroke-width: 1; }
+  </style>
+
+  <rect width="770" height="410" fill="#faf9f4"/>
+
+  <!-- Überschriften mit Reihenfolge -->
+  <g>
+    <circle cx="112" cy="32" r="11" fill="#16182c"/>
+    <text class="num" x="112" y="36.2" text-anchor="middle">2</text>
+    <text class="h" x="130" y="38">Wertkarte</text>
+    <text class="sub" x="130" y="56">unser Angebot, danach ausgerichtet</text>
+
+    <circle cx="514" cy="32" r="11" fill="#16182c"/>
+    <text class="num" x="514" y="36.2" text-anchor="middle">1</text>
+    <text class="h" x="532" y="38">Kundenprofil</text>
+    <text class="sub" x="532" y="56">die Kundschaft, zuerst</text>
+  </g>
+
+  <!-- Wertkarte (Quadrat) -->
+  <g>
+    <rect x="30" y="80" width="140" height="300" fill="#efece3"/>
+    <rect x="170" y="80" width="170" height="150" fill="#f6ecd8"/>
+    <rect x="170" y="230" width="170" height="150" fill="#f6e4dc"/>
+    <line class="div" x1="170" y1="80" x2="170" y2="380"/>
+    <line class="div" x1="170" y1="230" x2="340" y2="230"/>
+    <rect class="edge" x="30" y="80" width="310" height="300"/>
+
+    <text class="n" x="100" y="214" text-anchor="middle">Produkte und</text>
+    <text class="n" x="100" y="233" text-anchor="middle">Services</text>
+    <text class="d" x="100" y="258" text-anchor="middle">was wir</text>
+    <text class="d" x="100" y="276" text-anchor="middle">konkret anbieten</text>
+
+    <text class="n" x="255" y="143" text-anchor="middle">Gain Creators</text>
+    <text class="d" x="255" y="166" text-anchor="middle">wie das Angebot</text>
+    <text class="d" x="255" y="184" text-anchor="middle">Gains erzeugt</text>
+
+    <text class="n" x="255" y="293" text-anchor="middle">Pain Relievers</text>
+    <text class="d" x="255" y="316" text-anchor="middle">wie das Angebot</text>
+    <text class="d" x="255" y="334" text-anchor="middle">Pains lindert</text>
+  </g>
+
+  <!-- Kundenprofil (Kreis): Gains oben links, Pains unten links, Jobs rechts -->
+  <g>
+    <path d="M590,230 L665,100.1 A150,150 0 0 0 440,230 Z" fill="#f6ecd8"/>
+    <path d="M590,230 L440,230 A150,150 0 0 0 665,359.9 Z" fill="#f6e4dc"/>
+    <path d="M590,230 L665,359.9 A150,150 0 0 0 665,100.1 Z" fill="#efece3"/>
+    <path class="div" d="M665,100.1 L590,230 L440,230 M590,230 L665,359.9"/>
+    <circle class="edge" cx="590" cy="230" r="150"/>
+
+    <text class="n" x="545" y="150" text-anchor="middle">Gains</text>
+    <text class="d" x="545" y="172" text-anchor="middle">erwünschte</text>
+    <text class="d" x="545" y="190" text-anchor="middle">Ergebnisse</text>
+
+    <text class="n" x="545" y="286" text-anchor="middle">Pains</text>
+    <text class="d" x="545" y="308" text-anchor="middle">Hindernisse,</text>
+    <text class="d" x="545" y="326" text-anchor="middle">Risiken, Ärger</text>
+
+    <text class="n" x="672" y="214" text-anchor="middle">Jobs</text>
+    <text class="d" x="672" y="236" text-anchor="middle">Aufgaben, die</text>
+    <text class="d" x="672" y="254" text-anchor="middle">erledigt werden</text>
+    <text class="d" x="672" y="272" text-anchor="middle">sollen</text>
+  </g>
+
+  <!-- Fit-Verbindungen -->
+  <defs>
+    <marker id="a-o" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/>
+    </marker>
+    <marker id="a-t" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#b85a3a"/>
+    </marker>
+  </defs>
+  <line x1="348" y1="155" x2="457" y2="155" stroke="#c08a3e" stroke-width="2" marker-start="url(#a-o)" marker-end="url(#a-o)"/>
+  <line x1="348" y1="305" x2="457" y2="305" stroke="#b85a3a" stroke-width="2" marker-start="url(#a-t)" marker-end="url(#a-t)"/>
+  <text class="fit" x="402" y="236" text-anchor="middle">FIT</text>
+  <line x1="402" y1="170" x2="402" y2="220" stroke="#e2dfd6" stroke-width="1"/>
+  <line x1="402" y1="244" x2="402" y2="290" stroke="#e2dfd6" stroke-width="1"/>
+</svg>

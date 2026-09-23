@@ -18,6 +18,8 @@ Diese Haltung zieht sich durch den ganzen Kurs. Ob wir später eine Anzeige scha
 
 Kundinnen und Kunden entstehen nicht mit einem Klick. Sie durchlaufen eine Reise, die von der ersten flüchtigen Wahrnehmung bis zur aktiven Empfehlung reicht. Wir unterscheiden dabei mehrere Stationen: aus Fremden werden Besucher, aus Besuchern Interessenten, aus Interessenten Kunden, und aus zufriedenen Kunden werden loyale Nutzer und schließlich Fürsprecher.
 
+![Die Kundenreise: Zwischen zwei Stationen liegt jeweils eine Marketingaufgabe mit typischen Maßnahmen.](../images/kundenreise.svg){#fig-kundenreise fig-alt="Fünf Stationen von links nach rechts: Fremde, Besucher, Interessenten, Kunden, Fürsprecher. Darunter die Aufgaben zwischen den Stationen: Anwerben (Suchmaschinenwerbung, SEO), Überzeugen (Content-Marketing), Gewinnen (Angebot, Conversion), Binden (Service, Community)."}
+
 Für jede Station gibt es eine passende Marketingaufgabe:
 
 | Station | Aufgabe | Typische Maßnahme |

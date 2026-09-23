@@ -6,6 +6,8 @@ Nachdem wir verstanden haben, wie die Auktion funktioniert, bauen wir nun unser 
 
 Ein Google-Ads-Konto ist in drei Ebenen gegliedert, die aufeinander aufbauen. Ganz oben steht die Kampagne, die ein Ziel und ein Budget bündelt, etwa die Bewerbung einer bestimmten Produktgruppe. Darunter liegen die Anzeigengruppen, die jeweils ein eng umrissenes Thema abdecken. In jeder Anzeigengruppe schließlich liegen die Keywords und die dazu passenden Anzeigentexte.
 
+![Drei Ebenen am fiktiven Beispiel eines Kaffeemaschinen-Händlers: Kampagne, Anzeigengruppen, darin Keywords und Anzeigen mit passender Zielseite.](../images/kampagnenstruktur.svg){#fig-kampagnenstruktur fig-alt="Baum: Google-Ads-Konto mit der Kampagne Kaffeemaschinen (Ziel und Budget). Darunter die Anzeigengruppen Siebträger und Vollautomaten. In jeder Gruppe zwei Keywords, ein Anzeigentext und eine eigene Zielseite, etwa /siebtraeger."}
+
 Diese Ordnung ist kein Selbstzweck. Je enger eine Anzeigengruppe thematisch gefasst ist, desto besser passen Keyword, Anzeigentext und Zielseite zusammen, und desto relevanter wirkt die Anzeige in der Auktion. Eine klare Struktur ist damit eine direkte Voraussetzung für gute Leistung [@shemshaki2025].
 
 ::: {.callout-tip title="Analogie: Das Archiv im Büro"}

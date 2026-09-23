@@ -4,6 +4,8 @@ In dieser Lesson lernen wir das Value Proposition Canvas kennen, ein Werkzeug, d
 
 Im ersten Modul haben wir festgehalten, dass Marketing beim Kunden beginnt. Das Value Proposition Canvas macht diese Haltung konkret. Es besteht aus zwei Hälften: dem Kundenprofil auf der einen Seite und der Wertkarte auf der anderen [@osterwalder2014]. Erst wenn beide Hälften zusammenpassen, entsteht ein überzeugendes Angebot.
 
+![Das Value Proposition Canvas: Wir erarbeiten zuerst das Kundenprofil (rechts) und richten dann die Wertkarte (links) darauf aus. Gain Creators zielen auf Gains, Pain Relievers auf Pains. Nach @osterwalder2014.](../images/value-proposition-canvas.svg){#fig-value-proposition-canvas fig-alt="Links ein Quadrat, die Wertkarte, mit den Feldern Produkte und Services, Gain Creators und Pain Relievers. Rechts ein Kreis, das Kundenprofil, mit den Feldern Jobs, Gains und Pains. Pfeile verbinden Gain Creators mit Gains und Pain Relievers mit Pains; dazwischen steht Fit. Eine Nummerierung zeigt: zuerst das Kundenprofil, danach die Wertkarte."}
+
 ## Das Kundenprofil: Jobs, Pains, Gains
 
 Die erste Hälfte beschreibt die Kundschaft, bevor wir über unser Angebot nachdenken. Sie hat drei Felder.

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 352" role="img" aria-labelledby="t d">
+  <title id="t">Vom Ziel zur Kennzahl am Webinar-Beispiel</title>
+  <desc id="d">Rechts das Ziel: 80 Webinar-Anmeldungen bis Ende September (Schritt 1). In der Mitte der Ergebnisindikator: gemessene abgeschlossene Anmeldungen (Schritt 2). Links zwei Frühindikatoren: Besuche auf der Anmeldeseite und Conversion-Rate vom Besuch zur Anmeldung (Schritt 3). Pfeile zeigen, dass die Frühindikatoren auf den Ergebnisindikator und dieser auf das Ziel einzahlen. Eine Zeitachse zeigt: Frühindikatoren sind unterwegs sichtbar, der Ergebnisindikator am Ende. Schritt 4: Rhythmus festlegen, wie oft und aus welcher Datenquelle wir ablesen.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="352" fill="#faf9f4"/>
+  <circle cx="31" cy="24" r="11" fill="#16182c"/>
+  <text class="num" x="31" y="28.2" text-anchor="middle">3</text>
+  <text class="h" x="50" y="30" text-anchor="start">Frühindikatoren</text>
+  <text class="sub" x="20" y="52" text-anchor="start">zeigen unterwegs die Richtung</text>
+  <circle cx="301" cy="24" r="11" fill="#16182c"/>
+  <text class="num" x="301" y="28.2" text-anchor="middle">2</text>
+  <text class="h" x="320" y="30" text-anchor="start">Ergebnisindikator</text>
+  <text class="sub" x="290" y="52" text-anchor="start">misst, ob das Ziel erreicht ist</text>
+  <circle cx="551" cy="24" r="11" fill="#16182c"/>
+  <text class="num" x="551" y="28.2" text-anchor="middle">1</text>
+  <text class="h" x="570" y="30" text-anchor="start">Ziel</text>
+  <text class="sub" x="540" y="52" text-anchor="start">mit Kennzahl und Termin</text>
+  <rect x="20" y="72" width="230" height="56" rx="6" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="d" x="36" y="96" text-anchor="start">Besuche auf der</text>
+  <text class="d" x="36" y="114" text-anchor="start">Anmeldeseite</text>
+  <rect x="20" y="146" width="230" height="56" rx="6" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="d" x="36" y="170" text-anchor="start">Conversion-Rate vom</text>
+  <text class="d" x="36" y="188" text-anchor="start">Besuch zur Anmeldung</text>
+  <rect x="290" y="106" width="210" height="60" rx="6" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="d" x="306" y="131" text-anchor="start">abgeschlossene</text>
+  <text class="d" x="306" y="149" text-anchor="start">Anmeldungen (gemessen)</text>
+  <rect x="540" y="106" width="210" height="60" rx="6" fill="#f6ecd8" stroke="#16182c" stroke-width="1.5"/>
+  <text class="n" x="556" y="130" text-anchor="start">80 Webinar-Anmeldungen</text>
+  <text class="d" x="556" y="150" text-anchor="start">bis Ende September</text>
+  <path d="M252,100 C272,100 270,136 286,136" fill="none" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <path d="M252,174 C272,174 270,136 286,136" fill="none" stroke="#8f8a7c" stroke-width="1.5"/>
+  <line x1="502" y1="136" x2="536" y2="136" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="385" y="232" text-anchor="middle">Abgeleitet wird von rechts nach links, gemessen von links nach rechts.</text>
+  <line x1="20" y1="256" x2="750" y2="256" stroke="#555a6e" stroke-width="1.2" marker-end="url(#ar)"/>
+  <text class="s" x="20" y="276" text-anchor="start">unterwegs, früh sichtbar</text>
+  <text class="s" x="750" y="276" text-anchor="end">am Ende der Kampagne</text>
+  <rect x="20" y="296" width="730" height="44" rx="8" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <circle cx="42" cy="318" r="11" fill="#16182c"/>
+  <text class="num" x="42" y="322.2" text-anchor="middle">4</text>
+  <text class="n" x="62" y="323" text-anchor="start">Rhythmus festlegen:</text>
+  <text class="d" x="214" y="323" text-anchor="start">wie oft und aus welcher Datenquelle wir die Werte ablesen</text>
+</svg>

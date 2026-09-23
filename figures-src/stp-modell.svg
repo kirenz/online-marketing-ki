@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 360" role="img" aria-labelledby="t d">
+  <title id="t">STP-Modell: Segmentierung, Targeting, Positionierung</title>
+  <desc id="d">Drei Felder mit Punkten, die Menschen im Markt darstellen. 1 Segmentierung: Die Punkte bilden vier Gruppen mit ähnlichen Bedürfnissen, gebildet nach geografischen, demografischen, psychografischen und verhaltensbezogenen Kriterien. 2 Targeting: Eine Gruppe ist hervorgehoben, die übrigen sind blass; Leitfragen sind Attraktivität und Passung. 3 Positionierung: Nur das gewählte Segment bleibt, verbunden mit einem klaren Nutzenversprechen, abgegrenzt vom Wettbewerb.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="360" fill="#faf9f4"/>
+  <circle cx="21" cy="22" r="11" fill="#16182c"/>
+  <text class="num" x="21" y="26.2" text-anchor="middle">1</text>
+  <text class="h" x="40" y="28" text-anchor="start">Segmentierung</text>
+  <text class="s" x="10" y="50" text-anchor="start">Markt in Gruppen mit</text>
+  <text class="s" x="10" y="66" text-anchor="start">ähnlichen Bedürfnissen teilen</text>
+  <rect x="10" y="78" width="230" height="230" rx="10" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <ellipse cx="80" cy="163" rx="44" ry="38" fill="none" stroke="#8f8a7c" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <ellipse cx="180" cy="153" rx="44" ry="38" fill="none" stroke="#8f8a7c" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <ellipse cx="90" cy="258" rx="44" ry="38" fill="none" stroke="#8f8a7c" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <ellipse cx="185" cy="258" rx="44" ry="38" fill="none" stroke="#8f8a7c" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <circle cx="76.2" cy="169.6" r="4.2" fill="#8f8a7c"/>
+  <circle cx="76.6" cy="158.9" r="4.2" fill="#8f8a7c"/>
+  <circle cx="66.0" cy="160.2" r="4.2" fill="#8f8a7c"/>
+  <circle cx="96.7" cy="168.5" r="4.2" fill="#8f8a7c"/>
+  <circle cx="95.6" cy="166.2" r="4.2" fill="#8f8a7c"/>
+  <circle cx="85.9" cy="165.4" r="4.2" fill="#8f8a7c"/>
+  <circle cx="55.0" cy="174.1" r="4.2" fill="#8f8a7c"/>
+  <circle cx="87.6" cy="169.5" r="4.2" fill="#8f8a7c"/>
+  <circle cx="54.6" cy="140.3" r="4.2" fill="#8f8a7c"/>
+  <circle cx="166.7" cy="146.9" r="4.2" fill="#8f8a7c"/>
+  <circle cx="184.6" cy="152.4" r="4.2" fill="#8f8a7c"/>
+  <circle cx="187.8" cy="144.7" r="4.2" fill="#8f8a7c"/>
+  <circle cx="184.6" cy="158.1" r="4.2" fill="#8f8a7c"/>
+  <circle cx="170.1" cy="175.3" r="4.2" fill="#8f8a7c"/>
+  <circle cx="188.3" cy="168.6" r="4.2" fill="#8f8a7c"/>
+  <circle cx="170.7" cy="143.4" r="4.2" fill="#8f8a7c"/>
+  <circle cx="174.8" cy="151.6" r="4.2" fill="#8f8a7c"/>
+  <circle cx="189.5" cy="156.2" r="4.2" fill="#8f8a7c"/>
+  <circle cx="83.3" cy="245.6" r="4.2" fill="#8f8a7c"/>
+  <circle cx="82.2" cy="273.9" r="4.2" fill="#8f8a7c"/>
+  <circle cx="77.9" cy="261.2" r="4.2" fill="#8f8a7c"/>
+  <circle cx="96.4" cy="238.6" r="4.2" fill="#8f8a7c"/>
+  <circle cx="90.7" cy="275.0" r="4.2" fill="#8f8a7c"/>
+  <circle cx="59.8" cy="253.8" r="4.2" fill="#8f8a7c"/>
+  <circle cx="88.4" cy="247.4" r="4.2" fill="#8f8a7c"/>
+  <circle cx="97.5" cy="257.2" r="4.2" fill="#8f8a7c"/>
+  <circle cx="68.0" cy="268.8" r="4.2" fill="#8f8a7c"/>
+  <circle cx="195.0" cy="270.3" r="4.2" fill="#8f8a7c"/>
+  <circle cx="206.6" cy="262.7" r="4.2" fill="#8f8a7c"/>
+  <circle cx="186.8" cy="241.1" r="4.2" fill="#8f8a7c"/>
+  <circle cx="194.2" cy="250.0" r="4.2" fill="#8f8a7c"/>
+  <circle cx="178.2" cy="241.6" r="4.2" fill="#8f8a7c"/>
+  <circle cx="170.5" cy="251.1" r="4.2" fill="#8f8a7c"/>
+  <circle cx="204.3" cy="231.6" r="4.2" fill="#8f8a7c"/>
+  <circle cx="163.1" cy="261.1" r="4.2" fill="#8f8a7c"/>
+  <circle cx="206.7" cy="265.5" r="4.2" fill="#8f8a7c"/>
+  <line x1="246" y1="193" x2="274" y2="193" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <circle cx="281" cy="22" r="11" fill="#16182c"/>
+  <text class="num" x="281" y="26.2" text-anchor="middle">2</text>
+  <text class="h" x="300" y="28" text-anchor="start">Targeting</text>
+  <text class="s" x="270" y="50" text-anchor="start">Segmente wählen: attraktiv</text>
+  <text class="s" x="270" y="66" text-anchor="start">und passend zu unseren Stärken</text>
+  <rect x="270" y="78" width="230" height="230" rx="10" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <ellipse cx="340" cy="163" rx="44" ry="38" fill="none" stroke="#8f8a7c" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <ellipse cx="440" cy="153" rx="44" ry="38" fill="none" stroke="#c08a3e" stroke-width="1.4"/>
+  <ellipse cx="350" cy="258" rx="44" ry="38" fill="none" stroke="#8f8a7c" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <ellipse cx="445" cy="258" rx="44" ry="38" fill="none" stroke="#8f8a7c" stroke-width="1.4" stroke-dasharray="3 4"/>
+  <circle cx="336.2" cy="169.6" r="4.2" fill="#cfc9ba"/>
+  <circle cx="336.6" cy="158.9" r="4.2" fill="#cfc9ba"/>
+  <circle cx="326.0" cy="160.2" r="4.2" fill="#cfc9ba"/>
+  <circle cx="356.7" cy="168.5" r="4.2" fill="#cfc9ba"/>
+  <circle cx="355.6" cy="166.2" r="4.2" fill="#cfc9ba"/>
+  <circle cx="345.9" cy="165.4" r="4.2" fill="#cfc9ba"/>
+  <circle cx="315.0" cy="174.1" r="4.2" fill="#cfc9ba"/>
+  <circle cx="347.6" cy="169.5" r="4.2" fill="#cfc9ba"/>
+  <circle cx="314.6" cy="140.3" r="4.2" fill="#cfc9ba"/>
+  <circle cx="426.7" cy="146.9" r="4.2" fill="#c08a3e"/>
+  <circle cx="444.6" cy="152.4" r="4.2" fill="#c08a3e"/>
+  <circle cx="447.8" cy="144.7" r="4.2" fill="#c08a3e"/>
+  <circle cx="444.6" cy="158.1" r="4.2" fill="#c08a3e"/>
+  <circle cx="430.1" cy="175.3" r="4.2" fill="#c08a3e"/>
+  <circle cx="448.3" cy="168.6" r="4.2" fill="#c08a3e"/>
+  <circle cx="430.7" cy="143.4" r="4.2" fill="#c08a3e"/>
+  <circle cx="434.8" cy="151.6" r="4.2" fill="#c08a3e"/>
+  <circle cx="449.5" cy="156.2" r="4.2" fill="#c08a3e"/>
+  <circle cx="343.3" cy="245.6" r="4.2" fill="#cfc9ba"/>
+  <circle cx="342.2" cy="273.9" r="4.2" fill="#cfc9ba"/>
+  <circle cx="337.9" cy="261.2" r="4.2" fill="#cfc9ba"/>
+  <circle cx="356.4" cy="238.6" r="4.2" fill="#cfc9ba"/>
+  <circle cx="350.7" cy="275.0" r="4.2" fill="#cfc9ba"/>
+  <circle cx="319.8" cy="253.8" r="4.2" fill="#cfc9ba"/>
+  <circle cx="348.4" cy="247.4" r="4.2" fill="#cfc9ba"/>
+  <circle cx="357.5" cy="257.2" r="4.2" fill="#cfc9ba"/>
+  <circle cx="328.0" cy="268.8" r="4.2" fill="#cfc9ba"/>
+  <circle cx="455.0" cy="270.3" r="4.2" fill="#cfc9ba"/>
+  <circle cx="466.6" cy="262.7" r="4.2" fill="#cfc9ba"/>
+  <circle cx="446.8" cy="241.1" r="4.2" fill="#cfc9ba"/>
+  <circle cx="454.2" cy="250.0" r="4.2" fill="#cfc9ba"/>
+  <circle cx="438.2" cy="241.6" r="4.2" fill="#cfc9ba"/>
+  <circle cx="430.5" cy="251.1" r="4.2" fill="#cfc9ba"/>
+  <circle cx="464.3" cy="231.6" r="4.2" fill="#cfc9ba"/>
+  <circle cx="423.1" cy="261.1" r="4.2" fill="#cfc9ba"/>
+  <circle cx="466.7" cy="265.5" r="4.2" fill="#cfc9ba"/>
+  <line x1="506" y1="193" x2="534" y2="193" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <circle cx="541" cy="22" r="11" fill="#16182c"/>
+  <text class="num" x="541" y="26.2" text-anchor="middle">3</text>
+  <text class="h" x="560" y="28" text-anchor="start">Positionierung</text>
+  <text class="s" x="530" y="50" text-anchor="start">in der Wahrnehmung verankern,</text>
+  <text class="s" x="530" y="66" text-anchor="start">abgegrenzt vom Wettbewerb</text>
+  <rect x="530" y="78" width="230" height="230" rx="10" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <ellipse cx="700" cy="153" rx="44" ry="38" fill="none" stroke="#c08a3e" stroke-width="1.4"/>
+  <circle cx="686.7" cy="146.9" r="4.2" fill="#c08a3e"/>
+  <circle cx="704.6" cy="152.4" r="4.2" fill="#c08a3e"/>
+  <circle cx="707.8" cy="144.7" r="4.2" fill="#c08a3e"/>
+  <circle cx="704.6" cy="158.1" r="4.2" fill="#c08a3e"/>
+  <circle cx="690.1" cy="175.3" r="4.2" fill="#c08a3e"/>
+  <circle cx="708.3" cy="168.6" r="4.2" fill="#c08a3e"/>
+  <circle cx="690.7" cy="143.4" r="4.2" fill="#c08a3e"/>
+  <circle cx="694.8" cy="151.6" r="4.2" fill="#c08a3e"/>
+  <circle cx="709.5" cy="156.2" r="4.2" fill="#c08a3e"/>
+  <rect x="554" y="228" width="182" height="52" rx="8" fill="#faf9f4" stroke="#c08a3e" stroke-width="1.5"/>
+  <text class="s" x="645" y="250" text-anchor="middle">klares Nutzenversprechen</text>
+  <text class="s" x="645" y="267" text-anchor="middle">für dieses Segment</text>
+  <line x1="700" y1="184" x2="680" y2="226" stroke="#c08a3e" stroke-width="1.5"/>
+  <text class="s" x="10" y="334" text-anchor="start">Kriterien: geografisch, demografisch,</text>
+  <text class="s" x="10" y="350" text-anchor="start">psychografisch, verhaltensbezogen</text>
+  <text class="s" x="270" y="334" text-anchor="start">Leitfragen: Wie attraktiv ist</text>
+  <text class="s" x="270" y="350" text-anchor="start">das Segment? Wie gut passt es?</text>
+  <text class="s" x="530" y="334" text-anchor="start">eigene Lesson</text>
+</svg>

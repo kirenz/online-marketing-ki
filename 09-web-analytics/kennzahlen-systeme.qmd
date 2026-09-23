@@ -43,6 +43,8 @@ Für einen fiktiven Shop betrachten wir eine vollständig erfasste Woche: 2.000 
 | Medien-CAC | 2.000 / 25 = 80 Euro | Werbekosten je neu gewonnener Person |
 | ROAS | 4.000 / 2.000 = 2 | Zugeordneter Nettoumsatz je Werbe-Euro, kein Gewinn |
 
+![Dieselben 2.000 Euro Werbekosten ergeben je nach Nenner eine andere Kennzahl.](../images/kostenbezug.svg){#fig-kostenbezug fig-alt="Oben ein Kasten mit 2.000 Euro Werbekosten. Darunter vier Kästen: 2.000 Euro geteilt durch 1.000 Klicks ergibt einen CPC von 2 Euro; durch 40 Bestellungen 50 Euro Kosten je Bestellung, kein Kunden-CAC; durch 25 Neukunden einen Medien-CAC von 80 Euro; 4.000 Euro Umsatz geteilt durch 2.000 Euro einen ROAS von 2, kein Gewinn."}
+
 Der vollständige CAC berücksichtigt zusätzlich die abgegrenzten Kosten der Kundengewinnung, etwa Vertrieb und Agentur. Wiederholungskäufe erhöhen die Bestellzahl, aber nicht die Zahl neu gewonnener Personen. Ein ROAS von 2 deckt bei 40 Prozent Deckungsbeitrag vor Werbung nur 1.600 Euro der 2.000 Euro Werbekosten; nach Werbung bleiben minus 400 Euro, noch vor weiteren Fixkosten.
 
 Bei fehlenden Trackingtagen berechnen wir eine Rate nur aus zusammengehörigen Zählern und Nennern derselben vollständig erfassten Tage. Tatsächlich angefallene Kosten und Shop-Bestellungen bleiben für die wirtschaftliche Gesamtbetrachtung relevant. Fehlend ist nicht null.

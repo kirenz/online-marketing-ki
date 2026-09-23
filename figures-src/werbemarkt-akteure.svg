@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 380" role="img" aria-labelledby="t d">
+  <title id="t">Akteure am Online-Werbemarkt</title>
+  <desc id="d">Oben die Handelskette: Werbungtreibende und Agenturen kaufen über eine Demand-Side-Platform, Publisher und Vermarkter verkaufen über eine Supply-Side-Platform, beide treffen sich am Ad Exchange. Messdienstleister prüfen Sichtbarkeit und Umfeld. Unten ein Walled Garden: Suchmaschinen, soziale Netzwerke und Handelsplattformen sind Publisher, Vermarkter und Messsystem in einem geschlossenen System; Werbungtreibende buchen dort direkt.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="380" fill="#faf9f4"/>
+  <text class="h" x="10" y="30" text-anchor="start">Nachfrage</text>
+  <text class="sub" x="10" y="48" text-anchor="start">kauft Werbeplätze</text>
+  <text class="h" x="750" y="30" text-anchor="end">Angebot</text>
+  <text class="sub" x="750" y="48" text-anchor="end">verkauft Werbeplätze</text>
+  <rect x="10" y="64" width="128" height="66" rx="8" fill="#e6e9ef" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="74" y="92" text-anchor="middle" style="font-size:13.5px">Werbungtreibende</text>
+  <text class="s" x="74" y="112" text-anchor="middle">und Agenturen</text>
+  <rect x="163" y="64" width="128" height="66" rx="8" fill="#e6e9ef" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="227" y="92" text-anchor="middle">DSP</text>
+  <text class="s" x="227" y="112" text-anchor="middle">Einkaufssystem</text>
+  <rect x="316" y="64" width="128" height="66" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="380" y="92" text-anchor="middle">Ad Exchange</text>
+  <text class="s" x="380" y="112" text-anchor="middle">Handelsplatz</text>
+  <rect x="469" y="64" width="128" height="66" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="533" y="92" text-anchor="middle">SSP</text>
+  <text class="s" x="533" y="112" text-anchor="middle">Verkaufssystem</text>
+  <rect x="622" y="64" width="128" height="66" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="686" y="92" text-anchor="middle">Publisher</text>
+  <text class="s" x="686" y="112" text-anchor="middle">und Vermarkter</text>
+  <line x1="141" y1="97" x2="159" y2="97" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="294" y1="97" x2="312" y2="97" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="466" y1="97" x2="448" y2="97" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="619" y1="97" x2="601" y2="97" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="380" y="152" text-anchor="middle">Gebote in Millisekunden</text>
+  <rect x="163" y="176" width="587" height="34" rx="8" fill="none" stroke="#8f8a7c" stroke-width="1.25" stroke-dasharray="4 4"/>
+  <text class="s" x="456.5" y="198" text-anchor="middle">Messdienstleister prüfen Sichtbarkeit und Umfeld</text>
+  <rect x="170" y="246" width="580" height="104" rx="12" fill="#f3f0e8" stroke="#555a6e" stroke-width="3"/>
+  <text class="n" x="188" y="272" text-anchor="start">Walled Garden</text>
+  <text class="s" x="302" y="272" text-anchor="start">Suchmaschinen, soziale Netzwerke, Handelsplattformen</text>
+  <rect x="188" y="292" width="172" height="40" rx="20" fill="#faf9f4" stroke="#8f8a7c" stroke-width="1"/>
+  <text class="d" x="274" y="317" text-anchor="middle">Publisher</text>
+  <rect x="374" y="292" width="172" height="40" rx="20" fill="#faf9f4" stroke="#8f8a7c" stroke-width="1"/>
+  <text class="d" x="460" y="317" text-anchor="middle">Vermarkter</text>
+  <rect x="560" y="292" width="172" height="40" rx="20" fill="#faf9f4" stroke="#8f8a7c" stroke-width="1"/>
+  <text class="d" x="646" y="317" text-anchor="middle">Messsystem</text>
+  <text class="s" x="746" y="372" text-anchor="end">alles in einem geschlossenen System</text>
+  <path d="M74.0,132 L74.0,298.0 L166,298.0" fill="none" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="82" y="290" text-anchor="start">direkt buchen</text>
+</svg>

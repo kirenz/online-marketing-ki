@@ -39,6 +39,18 @@ $code-bg:                #f3f0e8 !default;   // ≈ oklch(0.965 0.007 85) Paper-
 $code-color:             $body-color;
 $code-block-bg:          $code-bg !default;
 
+// Callouts: Quarto färbt Rand und Icon über diese Variablen (Standard wäre
+// Cosmo-Grün/-Rot/-Blau). Gedämpfte Töne aus der Buchpalette, ohne Aufhellung
+// oder Abdunklung durch Quarto (Scale 0 %).
+$callout-color-tip:       #c08a3e;   // Ochre
+$callout-color-note:      #5a6a86;   // Schiefer (gedämpftes Plattform-Blau)
+$callout-color-important: #b0603f;   // Terracotta, leicht zurückgenommen
+$callout-color-caution:   #b0603f;
+$callout-color-warning:   #b0603f;
+$callout-border-scale:    0%;
+$callout-icon-scale:      0%;
+$table-border-color:      $border-color;
+
 /*-- scss:rules --*/
 
 // CSS Custom Properties — die eigentlichen Plattform-Tokens in OKLch.
@@ -192,61 +204,57 @@ nav[role="doc-toc"] {
 }
 
 // ---------- Callouts ----------
-// Bootstrap/Quarto rendert Callouts mit eigener Border + Header-Background.
-// Ein Akzent pro Box: Tip = Ochre, Note = Plattform-Blau (gedämpft),
-// Important/Caution = Terracotta. Hauchdünner Tint, --rule für die Outline.
+// Ein Akzent pro Box, nur in Randlinie und Icon: Tip = Ochre, Note = Schiefer,
+// Important/Caution/Warning = Terracotta. Die Fläche trägt einen Hauch des
+// Akzents, der Titel bleibt in Tinte. Randfarben kommen aus den
+// $callout-color-*-Variablen oben (Quarto setzt sie mit höherer Spezifität).
 .callout {
-  background-color: var(--paper-deep);
-  border: 1px solid var(--rule);
+  --callout-accent: var(--ink-soft);
+  background-color: color-mix(in oklch, var(--callout-accent) 5%, var(--paper));
+  border-color: var(--rule);
   border-left-width: 3px;
   border-radius: var(--radius);
-  margin: 1.5em 0;
-  padding: 0;
+  margin: 1.6em 0;
+  padding: 0.2em 0.2em 0.4em;
 
   .callout-header {
     background-color: transparent;
     border-bottom: none;
     color: var(--ink);
     font-weight: 600;
-    padding: 0.8em 1em 0.3em;
   }
 
   .callout-body-container,
   .callout-body {
-    padding: 0.4em 1em 1em;
     color: var(--ink);
 
     > p:last-child { margin-bottom: 0; }
   }
-
-  // Icon-Farbe folgt dem Border-Akzent
-  .callout-icon::before { color: inherit; }
 }
 
-.callout-tip {
-  border-left-color: var(--ochre);
-  .callout-header, .callout-icon::before { color: var(--ochre); }
+div.callout.callout-style-simple {
+  border-top-color: var(--rule);
+  border-right-color: var(--rule);
+  border-bottom-color: var(--rule);
 }
 
-.callout-note {
-  border-left-color: var(--primary-blue);
-  .callout-header, .callout-icon::before { color: var(--primary-blue); }
+div.callout.callout-style-simple > div.callout-header {
+  opacity: 1;
+  font-size: 0.92rem;
 }
 
-.callout-important {
-  border-left-color: var(--terracotta);
-  .callout-header, .callout-icon::before { color: var(--terracotta); }
-}
+.callout-tip       { --callout-accent: #{$callout-color-tip}; }
+.callout-note      { --callout-accent: #{$callout-color-note}; }
+.callout-important,
+.callout-caution,
+.callout-warning   { --callout-accent: #{$callout-color-important}; }
 
-.callout-warning {
-  border-left-color: var(--terracotta);
-  background-color: var(--terracotta-soft);
-  .callout-header, .callout-icon::before { color: var(--terracotta); }
-}
-
-.callout-caution {
-  border-left-color: var(--terracotta);
-  .callout-header, .callout-icon::before { color: var(--terracotta); }
+// ---------- Abbildungen ----------
+.figure-caption,
+figcaption {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+  margin-top: 0.6em;
 }
 
 // ---------- Inline-Code ----------
