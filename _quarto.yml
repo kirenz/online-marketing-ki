@@ -20,6 +20,7 @@ project:
 lang: de
 
 bibliography: slides/references.bib
+csl: https://www.zotero.org/styles/apa
 link-citations: true
 
 execute:
