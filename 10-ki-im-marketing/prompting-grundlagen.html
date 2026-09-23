@@ -584,7 +584,7 @@ div.csl-indent {
 <section id="warum-die-anweisung-über-das-ergebnis-entscheidet" class="level2" data-number="33.1">
 <h2 data-number="33.1" class="anchored" data-anchor-id="warum-die-anweisung-über-das-ergebnis-entscheidet"><span class="header-section-number">33.1</span> Warum die Anweisung über das Ergebnis entscheidet</h2>
 <p>Ein Sprachmodell hat keinen Zugriff auf das, was wir uns im Kopf vorstellen. Es arbeitet mit dem verfügbaren Kontext; je nach Werkzeug können dazu auch Dateien, Bilder, gespeicherte Informationen und abgerufene Quellen gehören. Auf nicht bereitgestelltes internes Wissen dürfen wir uns nicht verlassen. Eine ungenaue Anweisung führt deshalb fast immer zu einer beliebigen Antwort, während eine durchdachte Anweisung das Modell auf das gewünschte Ergebnis ausrichtet.</p>
-<p>Wir behandeln den Prompt wie eine Arbeitsanweisung an eine neue Kollegin, die fachlich sehr fähig ist, aber unseren konkreten Fall noch nicht kennt. Je genauer wir Ziel, Rolle und Rahmen beschreiben, desto brauchbarer fällt das Ergebnis aus. Genau hier setzt das Prompt Engineering an, das die systematische Gestaltung solcher Anweisungen beschreibt <span class="citation" data-cites="anthropicPrompting2024">(<a href="#ref-anthropicPrompting2024" role="doc-biblioref">Anthropic nd</a>)</span>.</p>
+<p>Wir behandeln den Prompt wie eine Arbeitsanweisung an eine neue Kollegin, die fachlich sehr fähig ist, aber unseren konkreten Fall noch nicht kennt. Je genauer wir Ziel, Rolle und Rahmen beschreiben, desto brauchbarer fällt das Ergebnis aus. Genau hier setzt das Prompt Engineering an, das die systematische Gestaltung solcher Anweisungen beschreibt <span class="citation" data-cites="anthropicPrompting2024">(<a href="#ref-anthropicPrompting2024" role="doc-biblioref">Anthropic, nd</a>)</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled" title="Analogie: Briefing an eine neue Kollegin">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -630,7 +630,7 @@ Abbildung&nbsp;33.1: Ein fiktiver Beispielprompt, nach den vier Bausteinen marki
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Oft liegt die schwache Antwort nicht an einem ungeschickten Satzbau, sondern an fehlendem Kontext. Wer Produkt, Zielgruppe, Anlass und gewünschtes Format mitliefert, erhält bessere Ergebnisse als jemand, der nur an der Formulierung feilt. Diese Verlagerung von der reinen Formulierung hin zur Bereitstellung des richtigen Kontexts wird zunehmend als eigene Kompetenz beschrieben <span class="citation" data-cites="schmid2025">(<a href="#ref-schmid2025" role="doc-biblioref">Schmid 2025</a>)</span>.</p>
+<p>Oft liegt die schwache Antwort nicht an einem ungeschickten Satzbau, sondern an fehlendem Kontext. Wer Produkt, Zielgruppe, Anlass und gewünschtes Format mitliefert, erhält bessere Ergebnisse als jemand, der nur an der Formulierung feilt. Diese Verlagerung von der reinen Formulierung hin zur Bereitstellung des richtigen Kontexts wird zunehmend als eigene Kompetenz beschrieben <span class="citation" data-cites="schmid2025">(<a href="#ref-schmid2025" role="doc-biblioref">Schmid, 2025</a>)</span>.</p>
 </div>
 </div>
 <p>Als Drittes der <strong>Kontext</strong>. Hintergrundinformationen wie Zielgruppe, Anlass oder Rahmenbedingungen geben dem Modell den Boden, auf dem es eine passende Antwort bauen kann. Wir trennen diesen Kontext mit deutlichen Markierungen vom eigentlichen Auftrag, damit das Modell beides nicht verwechselt. Bewährt haben sich XML-ähnliche Tags wie <code>&lt;kontext&gt; ... &lt;/kontext&gt;</code> oder <code>&lt;email&gt; ... &lt;/email&gt;</code>, die einen Textblock klar umschließen.</p>
@@ -639,7 +639,7 @@ Abbildung&nbsp;33.1: Ein fiktiver Beispielprompt, nach den vier Bausteinen marki
 <section id="schritt-für-schritt-zu-besseren-antworten" class="level2" data-number="33.3">
 <h2 data-number="33.3" class="anchored" data-anchor-id="schritt-für-schritt-zu-besseren-antworten"><span class="header-section-number">33.3</span> Schritt für Schritt zu besseren Antworten</h2>
 <p>Ein guter Prompt entsteht selten im ersten Versuch. Wir starten mit einer klaren Aufgabe, prüfen die Antwort und ergänzen gezielt das, was gefehlt hat, etwa eine Rolle, einen Kontextblock oder ein Beispiel. Dieses schrittweise Schärfen kostet wenig Zeit und hebt die Qualität spürbar.</p>
-<p>Für wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie <code>[ROLLE]</code> oder <code>[ZIELGRUPPE]</code>. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zur nächsten Lesson geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet <span class="citation" data-cites="bolz2024">(<a href="#ref-bolz2024" role="doc-biblioref">Bolz 2024</a>)</span>.</p>
+<p>Für wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie <code>[ROLLE]</code> oder <code>[ZIELGRUPPE]</code>. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zur nächsten Lesson geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet <span class="citation" data-cites="bolz2024">(<a href="#ref-bolz2024" role="doc-biblioref">Bolz, 2024</a>)</span>.</p>
 </section>
 <section id="ein-ergebnis-überprüfbar-bestellen" class="level2" data-number="33.4">
 <h2 data-number="33.4" class="anchored" data-anchor-id="ein-ergebnis-überprüfbar-bestellen"><span class="header-section-number">33.4</span> Ein Ergebnis überprüfbar bestellen</h2>
@@ -647,15 +647,15 @@ Abbildung&nbsp;33.1: Ein fiktiver Beispielprompt, nach den vier Bausteinen marki
 <p><strong>Prüfkriterium:</strong> Wir rechnen mindestens eine Kennzahl unabhängig nach und prüfen, ob eine Empfehlung über die vorhandenen Daten hinausgeht. Eine zugewiesene Expertenrolle ersetzt weder Fachwissen noch Quellenprüfung.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-anthropicPrompting2024" class="csl-entry" role="listitem">
-Anthropic. nd. <span>„Prompt engineering overview“</span>. nd. <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview</a>.
+Anthropic. (nd, nd). <em>Prompt engineering overview</em>. <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview</a>
 </div>
 <div id="ref-bolz2024" class="csl-entry" role="listitem">
-Bolz, Thomas. 2024. <em>Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse</em>.
+Bolz, T. (2024). <em>Generative Künstliche Intelligenz in Marketing und Sales: Innovative Unternehmenspraxis: Insights, Strategien und Impulse</em>.
 </div>
 <div id="ref-schmid2025" class="csl-entry" role="listitem">
-Schmid, Philipp. 2025. <span>„The New Skill in AI is Not Prompting, It’s Context Engineering“</span>. 2025. <a href="https://www.philschmid.de/context-engineering">https://www.philschmid.de/context-engineering</a>.
+Schmid, P. (2025). <em>The New Skill in AI is Not Prompting, It’s Context Engineering</em>. <a href="https://www.philschmid.de/context-engineering">https://www.philschmid.de/context-engineering</a>
 </div>
 </div>
 </section>
