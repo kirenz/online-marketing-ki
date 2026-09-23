@@ -1,104 +1,123 @@
 # Online-Marktforschung mit KI
 
-In dieser Lesson lernen wir, wie wir mit Online-Quellen und KI-Werkzeugen Hinweise auf Kundenbedürfnisse sammeln und wie wir prüfen, was diese Hinweise tatsächlich tragen.
+In dieser Lesson lernen wir, wie Marktforschung abläuft, welche Online-Methoden es gibt und an welchen Stellen KI die Arbeit schneller und gründlicher macht.
 
-Die Empathy Map und das Kundenprofil des Value Proposition Canvas leben von Beobachtungen [@osterwalder2014]. Online-Marktforschung liefert solche Beobachtungen schnell und günstig. KI beschleunigt das Suchen, Lesen und Ordnen zusätzlich. Gerade deshalb brauchen wir eine klare Frage und eine saubere Prüfung, sonst entsteht in kurzer Zeit ein überzeugend formulierter Bericht auf dünner Grundlage.
+Die Empathy Map und das Kundenprofil des Value Proposition Canvas leben von Beobachtungen [@osterwalder2014]. Marktforschung liefert diese Beobachtungen. Ihr Zweck ist schlicht: Fragen beantworten, bevor Budget fließt. Welche Bedenken hat die Kundschaft? Welche Botschaft versteht sie? Welcher Preis erscheint ihr angemessen? Wer diese Fragen vorher klärt, investiert gezielter [@kotler2022].
 
-Als durchgehendes Beispiel dient die Rösterei Morgenrot. Sie möchte die Seite für ihr Kaffeeabo überarbeiten und fragt sich: **Welche Bedenken haben Menschen, bevor sie ein Kaffeeabo abschließen?**
+## Der Forschungsprozess in fünf Schritten
 
-## Mit der Frage beginnen
+Jedes Marktforschungsprojekt folgt, ob groß oder klein, demselben Ablauf. Lehrbücher unterscheiden meist fünf oder sechs Schritte; wir arbeiten mit einer vereinfachten Fassung [@malhotra2019; @kotler2022]:
 
-Eine brauchbare Recherchefrage benennt zwei Dinge: den Gegenstand und die Entscheidung, für die das Ergebnis gebraucht wird. Für Morgenrot ist der Gegenstand die Zeit vor dem Abschluss eines Abos. Die Entscheidung betrifft die Angebotsseite: Welche Fragen soll sie beantworten, welche Bedingungen soll sie erklären?
+1. **Frage:** Wir formulieren, was wir wissen wollen und welche Entscheidung davon abhängt.
+2. **Design:** Wir wählen Methode, Zielgruppe und Stichprobe.
+3. **Erhebung:** Wir sammeln die Daten, etwa über eine Befragung oder Interviews.
+4. **Auswertung:** Wir ordnen, zählen und deuten die Daten.
+5. **Entscheidung:** Wir leiten eine Empfehlung ab und halten fest, was offen bleibt.
 
-Diese Abgrenzung schützt vor zwei typischen Fehlern. Erstens sammeln wir sonst alles, was sich zum Thema Kaffee finden lässt. Zweitens erwarten wir von einer kleinen Recherche Antworten, die sie nicht geben kann, etwa eine Absatzprognose oder den Anteil abowilliger Haushalte. Die Frage legt also auch fest, was die Recherche **nicht** leisten soll.
+Der erste Schritt entscheidet über den Wert aller weiteren. Eine gute Frage benennt den Gegenstand und die Entscheidung, für die das Ergebnis gebraucht wird. Sie legt auch fest, was die Forschung nicht leisten soll. Die Frage „Was denken unsere Kunden?“ führt zu einer Materialsammlung. Die Frage „Welche Bedenken halten Neukunden vom Abschluss eines Abos ab?“ führt zu einer Grundlage für die Angebotsseite.
 
-Interessant sind konkrete Situationen: Der Kaffee reicht nicht bis zur nächsten Lieferung. Im Urlaub kommen weitere Packungen an. Eine neue Sorte schmeckt anders als erwartet. Solche Situationen lassen sich später direkt in Pains und Gains übersetzen.
+## Grundbegriffe: primär und sekundär, qualitativ und quantitativ
 
-## Welche Quelle was zeigen kann
+Zwei Unterscheidungen helfen bei der Wahl der Methode [@malhotra2019].
 
-Jede Quelle beantwortet eine andere Frage. Die Grenze einer Quelle gehört deshalb zu ihrer Beschreibung dazu [@kotler2022; @chaffey2022].
+**Sekundärforschung** wertet vorhandenes Material aus: Studien, Statistiken, Branchenberichte, Webseiten von Wettbewerbern. Sie ist schnell und günstig. **Primärforschung** erhebt neue Daten für die eigene Frage, etwa mit einer Befragung. Sie ist aufwendiger, passt aber genau. In der Praxis beginnen wir mit Sekundärforschung und erheben dort selbst, wo Lücken bleiben.
 
-| Quelle | Mögliche Erkenntnis | Grenze |
+**Qualitative Forschung** fragt nach dem Warum. Interviews oder offene Kommentare zeigen, welche Gründe, Situationen und Begriffe es gibt. **Quantitative Forschung** fragt nach dem Wie viel. Befragungen mit festen Antwortoptionen oder Kaufdaten zeigen, wie häufig etwas vorkommt. Eine bewährte Reihenfolge ist: erst qualitativ verstehen, dann quantitativ messen.
+
+## Online-Methoden im Überblick
+
+| Methode | Wofür sie sich eignet | Grenze |
 |---|---|---|
-| Kundenbewertungen, Foren, Social Media | Erfahrungen, Fragen und die Begriffe der Kundschaft | Wer schreibt, wählt sich selbst aus |
-| Interviews | Gründe und Situationen hinter einer Entscheidung | Wenige Gespräche erlauben keine Aussage über Häufigkeiten |
-| Online-Befragungen | Verteilung von Antworten in der befragten Gruppe | Auswahl und Teilnahme prägen das Ergebnis |
-| Bestell- und Nutzungsdaten | Käufe, Wiederbestellungen, Kündigungen | Das Motiv fehlt meist |
-| Anbieterseiten | Eigenschaften und Bedingungen eines Angebots | Ein Angebot belegt keine Kundenpräferenz |
+| Desk Research | Markt, Wettbewerb, vorhandene Studien | Aktualität und Herkunft der Quellen |
+| Online-Befragung | Häufigkeiten und Vergleiche | Wer antwortet, prägt das Ergebnis |
+| Interview, auch per Video | Gründe, Situationen, Sprache der Kundschaft | Wenige Fälle, keine Häufigkeiten |
+| Bewertungen und Social Listening | Erfahrungen und Stimmung in öffentlichen Gesprächen | Wer schreibt, wählt sich selbst aus |
+| Web- und Kaufdaten | tatsächliches Verhalten | Das Motiv fehlt meist |
+| Experiment (A/B-Test) | Wirkung einer konkreten Änderung | Braucht genug Besuche und eine klare Hypothese |
 
-Die ersten beiden Zeilen liefern vor allem **qualitative** Einsichten: Sie zeigen, welche Bedenken es gibt und wie Menschen darüber sprechen. Befragungen und Bestelldaten liefern **quantitative** Aussagen: Sie zeigen, wie oft etwas vorkommt. Für eine Angebotsseite beginnen wir meist qualitativ und prüfen die wichtigsten Befunde später quantitativ.
+**Social Listening** bezeichnet die systematische Beobachtung öffentlicher Onlinegespräche über Marken, Produkte und Themen [@tuten2023]. Ein **A/B-Test** zeigt zwei Varianten einer Seite oder Anzeige zufällig verteilten Besuchergruppen und vergleicht das Verhalten. Er ist die einzige Methode in dieser Liste, die eine Wirkung belegen kann.
 
-Die systematische Beobachtung öffentlicher Onlinegespräche heißt **Social Listening** [@tuten2023]. Für die Einordnung zählen Plattform, Zeitraum und Auswahl der Beiträge. Ein viel diskutiertes Problem muss nicht das häufigste Problem der Kundschaft sein.
+## Wo KI welchen Schritt verbessert
 
-## Wo KI in der Recherche hilft
+Der Prozess bleibt derselbe. KI macht einzelne Schritte schneller und oft gründlicher [@grewal2025; @kumar2025]. Eine umfassende Untersuchung dazu stammt von @arora2025. Sie haben Sprachmodelle in qualitativen und quantitativen Studien als Mitarbeitende eingesetzt. Ihr Befund: Ein Hybrid aus Mensch und KI arbeitete effizienter und lieferte reichhaltigere Ergebnisse als Menschen allein. Die KI übernimmt aufwendige Routinearbeit wie Fragebogenentwürfe, Interviews und Zusammenfassungen. Menschen formulieren das Problem, legen das Design fest und entscheiden, wo KI nicht passt. Schwächen zeigten die Modelle bei neuen Informationen, kulturellen Besonderheiten und ethisch heiklen Themen.
 
-KI-Werkzeuge unterstützen die Marktforschung an drei Stellen [@huang2021; @kumar2025]:
+Die folgende Übersicht überträgt diese Arbeitsteilung auf die fünf Schritte.
 
-- **Suchen:** Suchbegriffe vorschlagen und mit Webzugriff mehrere Quellen finden und zusammenfassen.
-- **Ordnen:** viele Texte, etwa Bewertungen oder Interviewnotizen, nach wiederkehrenden Themen gruppieren.
-- **Entwerfen:** Interviewleitfäden oder Fragebögen vorbereiten, die wir anschließend mit echten Menschen einsetzen.
+| Schritt | Was KI übernimmt | Was Menschen prüfen |
+|---|---|---|
+| Frage | Frage schärfen, Hypothesen und Unterfragen vorschlagen | Passt die Frage zur Entscheidung? |
+| Sekundärforschung | Deep Research: viele Webquellen suchen, lesen, zusammenfassen | Trägt jede Originalquelle die Aussage? |
+| Design | Fragebogen und Leitfaden entwerfen, auf Fehler prüfen, übersetzen, Pretest vorbereiten | Misst die Frage, was sie messen soll? |
+| Erhebung | Interviews transkribieren, KI-moderierte Interviews führen | Ist die Gesprächsführung fair und datenschutzkonform? |
+| Auswertung | offene Antworten und Bewertungen kodieren, Themen clustern, Stimmung einordnen | Stichprobe von Hand gegenprüfen |
+| Bericht | Ergebnisse zusammenfassen, Entwurf strukturieren | Beobachtung, Deutung und Empfehlung getrennt? |
 
-In allen drei Fällen ist das Ergebnis ein Vorschlag. Der Arbeitsauftrag legt fest, welche Frage zu beantworten ist, welches Material verwendet werden darf und in welcher Form die Belege erscheinen sollen.
+Drei Punkte verdienen einen genaueren Blick.
 
-::: {.callout-tip title="Auftrag für die Auswertung von Kundenstimmen"}
-„Ordne die folgenden Kundenstimmen nach wiederkehrenden Themen. Nenne zu jeder Zuordnung die Kennung und die passende Textstelle. Halte widersprüchliche Aussagen fest. Ergänze keine Eigenschaften der Personen, die nicht in den Texten stehen. Wenn etwas nicht aus dem Material hervorgeht, schreibe ‚nicht bekannt‘.“
+**Deep Research.** Viele KI-Assistenten bieten eine Recherche mit Webzugriff an, die mehrere Seiten liest und einen Bericht mit Quellenverweisen erstellt [@openaiDeepResearch2025]. Das spart Stunden an Desk Research. Die Anbieter weisen aber selbst darauf hin, dass solche Berichte Fakten falsch wiedergeben und zuverlässige Quellen nicht immer von Gerüchten unterscheiden. Wir öffnen deshalb die wichtigsten Quellen und prüfen, ob sie die Aussage tatsächlich tragen.
+
+**KI-moderierte Interviews.** Einige Werkzeuge führen schriftliche oder gesprochene Interviews selbstständig und stellen Nachfragen. So lassen sich deutlich mehr Gespräche führen als mit einer Interviewerin allein. In der Studie von @arora2025 lieferten von einem Sprachmodell moderierte Tiefeninterviews inhaltlich reichhaltige Daten. Offen bleibt, wie gut die KI nachfragt und ob sich Befragte ihr gegenüber anders äußern. Solche Interviews ergänzen persönliche Gespräche. Ersetzen können sie diese bisher nicht.
+
+**Kodieren.** Das Zuordnen offener Antworten zu Themen war bisher Handarbeit. KI erledigt es für Hunderte Texte in Minuten. Bei der Analyse qualitativer Daten erreichten Sprachmodelle in der genannten Studie das Niveau menschlicher Fachleute [@arora2025]. Entscheidend bleibt die Gegenprobe: Wir prüfen eine Stichprobe der Zuordnungen selbst.
+
+## Beispiel: KI prüft einen Fragebogen
+
+Ein kleines Unternehmen hat einen ersten Fragebogen entworfen. Er enthält typische Fehler:
+
+| Entwurf | Problem | Verbesserte Fassung |
+|---|---|---|
+| „Wie sehr schätzen Sie unseren schnellen und freundlichen Service?“ | suggestiv und doppelt: zwei Merkmale, positive Vorgabe | „Wie bewerten Sie die Lieferzeit?“ und „Wie bewerten Sie die Freundlichkeit am Telefon?“ |
+| „Kaufen Sie regelmäßig online?“ | „regelmäßig“ ist unklar | „Wie oft haben Sie in den letzten drei Monaten online bestellt?“ |
+| „Würden Sie ein Abo abschließen?“ | hypothetisch, überschätzt die Kaufbereitschaft | „Haben Sie schon einmal ein Produkt im Abo bezogen?“ |
+
+Solche Fehler findet eine KI meist schnell, wenn wir sie ausdrücklich danach fragen.
+
+::: {.callout-tip title="Auftrag für die Fragebogen-Prüfung"}
+„Prüfe den folgenden Fragebogen. Markiere suggestive Formulierungen, Fragen mit zwei Inhalten, unklare Begriffe und hypothetische Fragen. Begründe jeden Befund in einem Satz und schlage eine neutrale Fassung vor. Ändere nicht das Ziel der Frage.“
 :::
 
-Die Pflicht zur Textstelle ist der wichtigste Teil. Sie macht jede Zuordnung überprüfbar.
+Die KI ersetzt keinen Pretest. Einige echte Personen aus der Zielgruppe beantworten den Bogen vorab und sagen, wo sie gestutzt haben.
 
-## Eine KI-Auswertung prüfen
+## Beispiel: offene Antworten in Minuten kodiert
 
-Wie diese Prüfung aussieht, zeigt ein kleines, für dieses Kapitel konstruiertes Beispiel. Eine Kundin schreibt: „In den Ferien blieb Kaffee übrig. Eine Pause wäre hilfreich gewesen.“ Eine KI-Auswertung könnte daraus zwei Aussagen machen:
+Eine Online-Befragung liefert 400 Antworten auf die offene Frage „Was hat Sie beim Bestellen gestört?“. Von Hand dauert das Kodieren leicht einen Arbeitstag. Eine KI ordnet die Antworten in wenigen Minuten Themen zu, etwa Lieferzeit, Versandkosten oder Bezahlung, und nennt zu jeder Zuordnung die Textstelle.
 
-| Aussage der KI | Prüfung am Text |
-|---|---|
-| Thema: Liefermenge und Pause. Beleg: „Kaffee übrig“, „Pause wäre hilfreich“. | Nachvollziehbar. Beide Textstellen tragen die Zuordnung. |
-| Berufstätige Familien brauchen grundsätzlich flexible Abos. | Nicht gedeckt. Beruf, Haushalt und Verbreitung stehen nirgends im Text. |
+Danach folgt die Gegenprobe. Wir ziehen zufällig 30 bis 50 Antworten und kodieren sie selbst. Stimmen die Zuordnungen weitgehend überein, übernehmen wir die Auswertung. Weichen sie ab, schärfen wir die Themenliste und lassen neu kodieren. Typische Fehler sind zu grobe Themen und Ironie, die als Lob gelesen wird.
 
-Die zweite Aussage klingt plausibel und ist gerade deshalb gefährlich. Sprachmodelle ergänzen fehlende Details gern mit typischen Mustern. Aus einer einzelnen Stimme wird so eine Zielgruppe.
-
-Was das Material tatsächlich trägt, lässt sich knapp festhalten: **Situation:** Nach den Ferien ist Kaffee übrig. **Geäußerter Wunsch:** eine Lieferpause. **Offen:** die Ursache des Überschusses und alle weiteren Merkmale der Person. Eine solche Verdichtung ist ein Baustein für eine spätere Persona. Sie beschreibt weder eine vollständige Person noch ein nachgewiesenes Kundensegment.
-
-## Deep Research und Quellenprüfung
-
-Viele KI-Assistenten bieten inzwischen eine Recherche mit Webzugriff an, die mehrere Seiten sucht, liest und zu einem Bericht mit Quellenverweisen zusammenführt. Diese Arbeitsweise wird häufig als **Deep Research** bezeichnet [@openaiDeepResearch2025]. Auch die Anbieter selbst weisen darauf hin, dass solche Berichte Fakten falsch wiedergeben und zuverlässige Quellen nicht immer von Gerüchten unterscheiden können.
-
-Ein Quellenverweis allein genügt deshalb nicht. Wir öffnen die Originalseite und prüfen, ob sie die konkrete Aussage tatsächlich trägt. Dabei achten wir auf drei Punkte:
-
-- **Stimmt die Aussage?** Die verlinkte Seite enthält genau das, was der Bericht behauptet.
-- **Wer spricht?** Eine Anbieterseite beschreibt ein Angebot, ein Testbericht eine Einschätzung, eine Befragung eine bestimmte Gruppe.
-- **Ist es eine eigene Quelle?** Mehrere Webseiten wiederholen oft dieselbe ursprüngliche Studie.
-
-Ein kurzes Beispiel: Welche Möglichkeiten nennt der Anbieter Coffee Circle, um ein Kaffeeabo anzupassen? Die [Abo-Seite](https://www.coffeecircle.com/de/e/abo) nennt wählbare Lieferintervalle, das Pausieren des Abos, eine Kündigung im Kundenkonto und die Versandkosten unterhalb eines Mindestbestellwerts (Stand der Sichtung: 23.09.2026). Das sind belegte Aussagen über das Angebot dieses Anbieters. Welche dieser Funktionen der Kundschaft wichtig sind, beantwortet die Seite nicht.
+Ein weiterer Fehler ist die Ergänzung von Details. Aus „In den Ferien blieb Kaffee übrig“ macht ein Sprachmodell leicht „Berufstätige Familien brauchen flexible Abos“. Beruf, Haushalt und Verbreitung stehen aber nirgends im Text. Deshalb verlangen wir im Auftrag zu jeder Aussage eine Textstelle.
 
 ## Synthetische Befragte
 
-Ein neueres Versprechen lautet, Befragungen ganz durch KI zu ersetzen: Das Sprachmodell soll wie eine bestimmte Kundengruppe antworten. Die Forschung dazu ist ernst zu nehmen. Unter bestimmten Bedingungen geben Sprachmodelle Antwortverteilungen menschlicher Gruppen erstaunlich gut wieder [@argyle2023]. Eine Studie zur Zahlungsbereitschaft fand jedoch neben vergleichbaren Werten auch deutlich abweichende und teils in die falsche Richtung zeigende Schätzungen [@brand2023].
+Ein neueres Versprechen lautet, Befragte ganz durch KI zu ersetzen: Das Sprachmodell antwortet, als wäre es eine bestimmte Kundengruppe. In der Forschung heißen solche künstlichen Stichproben **Silicon Samples** [@argyle2023; @horton2023]. Die Befunde sind gemischt:
+
+| Studie | Befund |
+|---|---|
+| @argyle2023 | Mit passenden Angaben zur Person gibt ein Sprachmodell Antwortverteilungen menschlicher Teilgruppen erstaunlich gut wieder. |
+| @li2024 | Bei Wahrnehmungsanalysen, etwa zur Ähnlichkeit von Marken und zu Produkteigenschaften, stimmten KI- und Befragungsdaten in über 75 Prozent der Fälle überein. |
+| @goli2024 | Bei Entscheidungen zwischen früher und später Belohnung antworteten GPT-3.5 und GPT-4 deutlich ungeduldiger als Menschen. |
+| @brand2025 | Die Zahlungsbereitschaft für Produkteigenschaften lag oft nah an Befragungswerten. Frühere Befragungsdaten verbesserten die Schätzung, allerdings nicht für neue Produktkategorien und nicht für Unterschiede zwischen Kundensegmenten. |
+
+@sarstedt2024 leiten daraus eine klare Empfehlung ab: Silicon Samples sind vor allem am Anfang einer Studie nützlich, etwa für Vortests und Pilotstudien. Für die eigentliche Erhebung braucht es weiterhin echte Menschen.
 
 ::: {.callout-important title="KI-Antworten sind keine Kundendaten"}
-Synthetische Befragte eignen sich, um Hypothesen zu sammeln oder einen Fragebogen vorab zu testen. Sie ersetzen keine Gespräche mit der Kundschaft. Eine von KI beschriebene Persona enthält Annahmen, keine Beobachtungen. Ob die Annahmen stimmen, zeigt erst der Abgleich mit echten Daten.
+Synthetische Befragte eignen sich, um Hypothesen zu sammeln und einen Fragebogen vorab zu testen. Sie ersetzen keine Erhebung bei echten Menschen. Eine von KI beschriebene Persona enthält Annahmen, keine Beobachtungen.
 :::
 
-## Die Auswahl begrenzt die Aussage
+## Grenzen und gute Praxis
 
-Selbst eine fehlerfreie KI-Auswertung ändert nichts daran, woher die Daten stammen. Bewertungen schreiben vor allem sehr zufriedene und sehr unzufriedene Menschen. An einer Online-Befragung nehmen Menschen teil, die erreichbar und interessiert sind. Die Statistik spricht hier von Auswahl- und Nichtantwortverzerrung [@cetinkaya2024].
+Vier Regeln halten KI-gestützte Marktforschung belastbar.
 
-Für die Praxis heißt das: Acht gezielt ausgewählte Kommentare können zeigen, **welche** Bedenken es gibt. Sie zeigen nicht, **wie verbreitet** diese Bedenken unter allen potenziellen Kundinnen und Kunden sind. Die Formulierung „Die Kunden wollen flexible Abos“ geht deshalb zu weit. Treffender ist: „Drei der acht Stimmen betreffen Lieferpausen oder einen unpassenden Liefertakt.“ Diese Zahl beschreibt nur das Material.
+- **Die Auswahl begrenzt die Aussage.** Auch eine fehlerfreie Auswertung ändert nichts daran, woher die Daten stammen. Bewertungen schreiben vor allem sehr zufriedene und sehr unzufriedene Menschen. An Online-Befragungen nehmen erreichbare und interessierte Menschen teil. Die Statistik spricht von Auswahl- und Nichtantwortverzerrung [@cetinkaya2024].
+- **Jede Aussage braucht einen Beleg.** Textstelle, Quelle oder Datensatz. Was sich nicht zurückführen lässt, bleibt eine Vermutung.
+- **Beobachtung, Deutung und Empfehlung bleiben getrennt.** „Drei von acht Antworten nennen Versandkosten“ ist eine Beobachtung. „Die Kunden wollen kostenlosen Versand“ ist bereits eine Deutung.
+- **Datenschutz gilt auch für KI-Werkzeuge.** Antworten, E-Mails und Bewertungen enthalten oft Namen oder andere personenbezogene Daten.
 
-::: {.callout-note title="Datenschutz bei Kundenstimmen"}
-Bewertungen, E-Mails und Support-Anfragen enthalten oft Namen oder andere personenbezogene Daten. Bevor wir solche Texte in ein KI-Werkzeug geben, klären wir, ob das Werkzeug dafür freigegeben ist, und entfernen Angaben, die für die Auswertung nicht nötig sind [@dsgvo2016].
+::: {.callout-note title="Datenschutz bei Kundendaten"}
+Bevor wir Befragungsdaten oder Kundenstimmen in ein KI-Werkzeug geben, klären wir, ob das Werkzeug dafür freigegeben ist. Angaben, die für die Auswertung nicht nötig sind, entfernen wir vorher [@dsgvo2016].
 :::
 
-## Vom Befund zur Entscheidung
+## Übungsfall: Bedenken vor dem Kaffeeabo
 
-Am Ende einer kleinen Recherche stehen drei Dinge: einige belegte Beobachtungen, eine begründete Empfehlung und eine offene Frage. Für Morgenrot könnte das so aussehen:
+Die Rösterei Morgenrot möchte die Seite für ihr Kaffeeabo überarbeiten und fragt: Welche Bedenken haben Menschen vor dem Abschluss? In der Übung werten wir acht erfundene Kundenstimmen aus, mit oder ohne KI. Wir halten drei belegte Beobachtungen fest und prüfen auf einer realen Anbieterseite, welche dieser Bedenken dort beantwortet werden. Am Ende stehen eine Empfehlung für die Abo-Seite und eine offene Frage, die eine Befragung klären müsste.
 
-- **Beobachtung:** Mehrere Stimmen betreffen einen wechselnden Verbrauch, etwa im Urlaub.
-- **Empfehlung:** Die Abo-Seite erklärt Pause, Lieferintervall und Kündigungsweg an prominenter Stelle.
-- **Offene Frage:** Wie verbreitet ist dieses Bedenken bei Menschen, die bisher einzeln bestellen? Dafür bräuchten wir einige Interviews und anschließend eine Befragung mit nachvollziehbarer Auswahl.
-
-Ob die geänderte Seite mehr Abschlüsse bringt, beantwortet die Recherche nicht. Das zeigt erst ein Test der Seite. Die belegten Beobachtungen wandern in die Empathy Map und in das Kundenprofil, die offenen Fragen auf die Liste dessen, was noch zu validieren ist.
-
-::: {.callout-note title="Übung zum Kapitel"}
-In der Übung werten wir acht erfundene Kundenstimmen zum Kaffeeabo aus, mit oder ohne KI. Dazu prüfen wir eine Funktion auf einer realen Anbieterseite und formulieren eine Empfehlung für die Abo-Seite der Rösterei.
-:::
+Denselben Ablauf können wir auf jede eigene Fragestellung übertragen: Frage schärfen, Methode wählen, Daten erheben, mit KI auswerten, Stichprobe prüfen, Entscheidung begründen.
