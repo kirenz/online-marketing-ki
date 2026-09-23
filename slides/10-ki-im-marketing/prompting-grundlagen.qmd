@@ -123,6 +123,14 @@ Seminar zukommen lassen? Gruss, Martin
 Der dritte Baustein ist der Kontext. Tags wie email umschließen einen Textblock klar und trennen ihn vom eigentlichen Auftrag. So weiß das Modell, was Anweisung ist und was Material, das es verarbeiten soll.
 :::
 
+## Ein guter Prompt enthält Aufgabe, Rolle, Kontext und Beispiel
+
+![](../images/prompt-bausteine.svg){fig-alt="Beispielprompt, nach den vier Bausteinen markiert" width="1000px"}
+
+::: {.notes}
+Alle vier Bausteine in einem Prompt. Die Rolle steuert die Perspektive, die Aufgabe nennt Ergebnis und Umfang, der Kontext steht abgegrenzt in Tags, das Beispiel zeigt den Zielstil. Das Beispiel ist fiktiv.
+:::
+
 ## Schritt für Schritt schärfen
 
 Ein guter Prompt entsteht selten im ersten Versuch.

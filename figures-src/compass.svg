@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 262" role="img" aria-labelledby="t d">
+  <title id="t">Die sieben Komponenten von COMPASS</title>
+  <desc id="d">Sieben Kacheln mit den Buchstaben C O M P A S S: Context (Kontext), Objective (Ziel), Mode (Rolle oder Modus), People of Interest (Zielgruppe), Attitude (Tonfall), Style (Stil), Specifications (Spezifikationen). Gruppiert in Fundament (Context, Objective), Perspektive (Mode, People of Interest), Klang (Attitude, Style) und Rahmen (Specifications). Hinweis: Bei kurzen Fragen genügen oft Kontext und Ziel.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="760" height="262" fill="#faf9f4"/>
+  <path d="M20,34 L20,28 L225,28 L225,34" fill="none" stroke="#555a6e" stroke-width="1.2"/>
+  <text class="s" x="122.5" y="20" text-anchor="middle" style="font-weight:600">Fundament</text>
+  <path d="M230,34 L230,28 L435,28 L435,34" fill="none" stroke="#555a6e" stroke-width="1.2"/>
+  <text class="s" x="332.5" y="20" text-anchor="middle" style="font-weight:600">Perspektive</text>
+  <path d="M440,34 L440,28 L645,28 L645,34" fill="none" stroke="#555a6e" stroke-width="1.2"/>
+  <text class="s" x="542.5" y="20" text-anchor="middle" style="font-weight:600">Klang</text>
+  <path d="M650,34 L650,28 L750,28 L750,34" fill="none" stroke="#555a6e" stroke-width="1.2"/>
+  <text class="s" x="700" y="20" text-anchor="middle" style="font-weight:600">Rahmen</text>
+  <rect x="20" y="44" width="100" height="150" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="big" x="70" y="104" text-anchor="middle" style="font-size:44px">C</text>
+  <text class="n" x="70" y="140" text-anchor="middle">Context</text>
+  <text class="s" x="70" y="161" text-anchor="middle">Kontext</text>
+  <rect x="125" y="44" width="100" height="150" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="big" x="175" y="104" text-anchor="middle" style="font-size:44px">O</text>
+  <text class="n" x="175" y="140" text-anchor="middle">Objective</text>
+  <text class="s" x="175" y="161" text-anchor="middle">Ziel</text>
+  <rect x="230" y="44" width="100" height="150" rx="8" fill="#e6e9ef" stroke="#16182c" stroke-width="1.25"/>
+  <text class="big" x="280" y="104" text-anchor="middle" style="font-size:44px">M</text>
+  <text class="n" x="280" y="140" text-anchor="middle">Mode</text>
+  <text class="s" x="280" y="161" text-anchor="middle">Rolle/Modus</text>
+  <rect x="335" y="44" width="100" height="150" rx="8" fill="#e6e9ef" stroke="#16182c" stroke-width="1.25"/>
+  <text class="big" x="385" y="104" text-anchor="middle" style="font-size:44px">P</text>
+  <text class="n" x="385" y="140" text-anchor="middle">People</text>
+  <text class="n" x="385" y="157" text-anchor="middle">of Interest</text>
+  <text class="s" x="385" y="178" text-anchor="middle">Zielgruppe</text>
+  <rect x="440" y="44" width="100" height="150" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="big" x="490" y="104" text-anchor="middle" style="font-size:44px">A</text>
+  <text class="n" x="490" y="140" text-anchor="middle">Attitude</text>
+  <text class="s" x="490" y="161" text-anchor="middle">Tonfall</text>
+  <rect x="545" y="44" width="100" height="150" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="big" x="595" y="104" text-anchor="middle" style="font-size:44px">S</text>
+  <text class="n" x="595" y="140" text-anchor="middle">Style</text>
+  <text class="s" x="595" y="161" text-anchor="middle">Stil</text>
+  <rect x="650" y="44" width="100" height="150" rx="8" fill="#f6e4dc" stroke="#16182c" stroke-width="1.25"/>
+  <text class="big" x="700" y="104" text-anchor="middle" style="font-size:44px">S</text>
+  <text class="n" x="700" y="140" text-anchor="middle" style="font-size:13px">Specifications</text>
+  <text class="s" x="700" y="161" text-anchor="middle">Spezifikationen</text>
+  <text class="s" x="122.5" y="216" text-anchor="middle">worum es geht</text>
+  <text class="s" x="332.5" y="216" text-anchor="middle">wer spricht, für wen</text>
+  <text class="s" x="542.5" y="216" text-anchor="middle">wie es klingt</text>
+  <text class="s" x="700" y="216" text-anchor="middle">Regeln, Grenzen</text>
+  <text class="d" x="20" y="250" text-anchor="start">Bei kurzen Fragen genügen oft Kontext und Ziel. Je sichtbarer das Ergebnis, desto vollständiger die Liste.</text>
+</svg>

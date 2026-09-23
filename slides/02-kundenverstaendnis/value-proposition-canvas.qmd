@@ -75,6 +75,14 @@ Quelle: @osterwalder2014
 Die zweite Hälfte spiegelt das Kundenprofil. Produkte und Services, Pain Relievers und Gain Creators stehen jeweils im Bezug zu einem Eintrag im Profil. Eine Leistung ohne solchen Bezug ist ein Warnsignal.
 :::
 
+## Gain Creators zielen auf Gains, Pain Relievers auf Pains
+
+![](../images/value-proposition-canvas.svg){fig-alt="Value Proposition Canvas mit Wertkarte links und Kundenprofil rechts, verbunden durch Fit-Pfeile" width="977px"}
+
+::: {.notes}
+Beide Hälften nebeneinander: rechts das Kundenprofil, links die Wertkarte. Die Nummerierung zeigt die Reihenfolge, zuerst das Profil, dann die Wertkarte. Die Pfeile markieren, wo der Fit geprüft wird: Gain Creators gegen Gains, Pain Relievers gegen Pains.
+:::
+
 ## Schlüssel und Schloss {.stage background-color="#0a0a0f"}
 
 Das Kundenprofil ist das Schloss, die Wertkarte der Schlüssel. Erst der passende Bart öffnet die Tür.

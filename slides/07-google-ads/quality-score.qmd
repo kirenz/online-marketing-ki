@@ -65,6 +65,14 @@ Quelle: @googleQualityScore2024
 Der Quality Score setzt sich aus drei Komponenten zusammen, die Google getrennt bewertet: die erwartete Klickrate als geschätzte Klickwahrscheinlichkeit, die Anzeigenrelevanz als Passung von Text und Suchanfrage, und die Zielseiten-Erfahrung als Nützlichkeit der Seite nach dem Klick. Jede Komponente ist zugleich ein eigener Ansatzpunkt.
 :::
 
+## Jede Komponente des Quality Score hat einen eigenen Hebel
+
+![](../images/quality-score.svg){fig-alt="Quality Score: Anzeigenrelevanz, erwartete Klickrate und Zielseiten-Erfahrung entlang von Suche, Anzeige und Zielseite" width="1000px"}
+
+::: {.notes}
+Die drei Komponenten sitzen an verschiedenen Stellen des Wegs. Relevanz zwischen Suche und Anzeige, Klickrate an der Anzeige, Zielseiten-Erfahrung nach dem Klick. Verbessert werden die Komponenten, nicht die Zahl.
+:::
+
 ## Analogie: Das Vorstellungsgespräch {.stage background-color="#0a0a0f"}
 
 Eine Bewerbung überzeugt nie über einen einzigen Punkt, sondern über das Zusammenspiel: erster Eindruck, passende Antworten, stimmiges Auftreten.

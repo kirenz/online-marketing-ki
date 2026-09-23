@@ -53,6 +53,14 @@ Quelle: @shemshaki2025
 Das Konto gliedert sich in drei Ebenen: Die Kampagne bündelt Ziel und Budget, die Anzeigengruppe deckt ein enges Thema ab, und darunter liegen Keywords und Anzeigentexte. Je enger eine Anzeigengruppe gefasst ist, desto besser passen Keyword, Text und Zielseite zusammen, was die Relevanz in der Auktion erhöht.
 :::
 
+## Enge Anzeigengruppen halten Keyword, Anzeige und Zielseite zusammen
+
+![](../images/kampagnenstruktur.svg){fig-alt="Kampagnenstruktur am fiktiven Beispiel Kaffeemaschinen" width="977px"}
+
+::: {.notes}
+Die Kampagne bündelt Ziel und Budget. Jede Anzeigengruppe deckt ein enges Thema ab, hier Siebträger und Vollautomaten. Darin liegen passende Keywords, ein Anzeigentext und eine eigene Zielseite. Diese durchgängige Linie zahlt später auf den Quality Score ein.
+:::
+
 ## Analogie: Das Archiv im Büro {.stage background-color="#0a0a0f"}
 
 Akten liegen nicht in einem großen Stapel, sondern in beschrifteten Ordnern mit klaren Registern.

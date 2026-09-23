@@ -20,6 +20,8 @@ Die zweite Kennzahl ist INP (Interaction to Next Paint). Sie misst die Reaktions
 
 Die dritte Kennzahl ist CLS (Cumulative Layout Shift). Sie misst die visuelle Stabilität, also wie stark Elemente während des Ladens ungewollt verrutschen. Ein niedriger CLS bedeutet, dass nichts unter den Fingern wegspringt, während wir lesen oder klicken wollen [@googleWebVitals2024].
 
+![Die drei Core Web Vitals beschreiben drei Momente eines Besuchs: laden, reagieren, stabil bleiben.](../images/core-web-vitals.svg){#fig-core-web-vitals fig-alt="Drei stilisierte Browserfenster: LCP mit hervorgehobenem größtem Inhalt, INP mit Klick auf Absenden und sichtbarer Reaktion, CLS mit einem nachgeladenen Banner, das eine Schaltfläche nach unten schiebt. Hinweis, Zielwerte in der aktuellen Dokumentation nachzuschlagen."}
+
 ::: {.callout-important title="Keine erfundenen Schwellenwerte"}
 Google legt für jede Kennzahl Zielbereiche fest und passt diese gelegentlich an. Wir schlagen konkrete Grenzwerte deshalb immer in der aktuellen offiziellen Dokumentation nach, statt uns auf gemerkte Zahlen zu verlassen.
 :::

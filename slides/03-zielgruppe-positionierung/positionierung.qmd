@@ -34,6 +34,14 @@ Hilfreich ist der Blick auf die entscheidenden Dimensionen, etwa Preis und Leist
 Eine Positionierungs-Matrix mit zwei relevanten Dimensionen zeigt die Landschaft: Wo stehen die Wettbewerber, und welcher attraktive Platz ist noch frei? Genau diese Lücke kann das eigene Angebot besetzen.
 :::
 
+## Eine freie, attraktive Position schlägt den Kampf um einen besetzten Platz
+
+![](../images/positionierungskarte.svg){fig-alt="Positionierungskarte mit Spezialisierung und Preis, vier Wettbewerbern und einem freien Platz" width="981px"}
+
+::: {.notes}
+Die Achsen sind die Dimensionen, die für die Zielgruppe entscheiden. Im Beispiel drängt sich der Wettbewerb bei breitem Sortiment und niedrigem Preis. Oben rechts ist ein Platz frei. Die Wettbewerber sind fiktiv.
+:::
+
 ## Eine Positionierung formulieren
 
 ::: {.formula .editorial}

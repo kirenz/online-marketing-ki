@@ -62,6 +62,14 @@ Im Zentrum steht die Kundschaft, nicht das Produkt. Wer zuerst das Produkt baut 
 Kundinnen und Kunden entstehen nicht mit einem Klick, sondern auf einer Reise. Sie führt von der ersten flüchtigen Wahrnehmung über das Interesse bis zur aktiven Empfehlung. Jede Station hat eine passende Aufgabe: anwerben, überzeugen, gewinnen, binden. Eine Maßnahme ist deshalb selten gut oder schlecht an sich, sondern passend oder unpassend für die jeweilige Station.
 :::
 
+## Zwischen zwei Stationen liegt jeweils eine eigene Marketingaufgabe
+
+![](../images/kundenreise.svg){fig-alt="Kundenreise in fünf Stationen mit den Aufgaben Anwerben, Überzeugen, Gewinnen und Binden" width="1000px"}
+
+::: {.notes}
+Die Abbildung fasst die Reise auf einen Blick zusammen. Jede Maßnahme lässt sich einer Station zuordnen: Suchmaschinenwerbung und SEO werben an, Content überzeugt, Angebot und Conversion gewinnen, Service und Community binden. Eine Maßnahme ist damit nicht gut oder schlecht, sondern passend oder unpassend für die Station.
+:::
+
 ## Der Kunde im Mittelpunkt {.stage background-color="#0a0a0f"}
 
 ::: {.quote-box}

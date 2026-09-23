@@ -93,6 +93,14 @@ Quelle: @googleKeyEvents2026
 Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Es wird bewusst entschieden, welche Events den Rang eines Schlüsselereignisses verdienen. Damit werden sie aus der Masse der Ereignisse herausgehoben und zur eigentlichen Steuerungsgröße.
 :::
 
+## Erst die Markierung macht aus einem Event eine Steuerungsgröße
+
+![](../images/ga4-events.svg){fig-alt="Vom Event über Parameter zum Schlüsselereignis" width="1000px"}
+
+::: {.notes}
+Links die Vielzahl erfasster Events. Parameter liefern den Kontext, etwa Bestellwert oder Formular. Nur wenige Events werden bewusst als Schlüsselereignis markiert, hier Anfrage und Kauf. Die Werte sind fiktiv.
+:::
+
 ## Analogie: Das Kassenbuch im Einzelhandel
 
 Ein Geschäft zählt nicht nur, wer den Laden betritt.

@@ -124,6 +124,14 @@ Zwei Werbekonten mit je 100 Zuordnungen ergeben keine 200 Shop-Käufe.
 Im fiktiven Beispiel haben alle hundert Kaufpfade einen Social-Kontakt und danach einen Suchanzeigenklick. Die Regel verändert die Zurechnung, nicht die Gesamtzahl der Käufe. Transaktionen und Attributionsfenster müssen mit dem Shop abgeglichen werden. Eine Kontrollgruppe in einem vorab geplanten randomisierten Test kann zusätzliche Wirkung untersuchen; ein Vorher-nachher-Vergleich allein vermischt Einflussfaktoren. Simulationsergebnisse belegen keine reale Kanalwirkung.
 :::
 
+## Zurechnung verteilt Käufe, sie vermehrt sie nicht
+
+![](../images/attribution-zurechnung.svg){fig-alt="Balken zu Last-Click, gleichmäßiger Verteilung und den Berichten beider Werbekonten" width="1000px"}
+
+::: {.notes}
+Last-Click gibt der Suche alle 100 Käufe, die gleichmäßige Regel verteilt 50 zu 50. Die Summe bleibt 100. Melden beide Werbekonten je 100, entstehen auf dem Papier 200 Käufe. Das Beispiel ist fiktiv.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
 Attribution ordnet Erfolge zu. Zusätzliche Wirkung braucht einen geeigneten Vergleich. Ein Dashboard zeigt neben Kennzahlen auch Quellen, Auswertungsfenster und Datenlücken.

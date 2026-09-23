@@ -26,6 +26,14 @@ Quelle: @smith1956
 Der Gründungsgedanke der Segmentierung stammt von Wendell Smith: Heterogene Märkte lassen sich produktiv nutzen, statt sie zu ignorieren. Wer alle gleichzeitig anspricht, erreicht niemanden mit voller Wirkung.
 :::
 
+## Segmentieren, auswählen, positionieren: drei Schritte, eine Reihenfolge
+
+![](../images/stp-modell.svg){fig-alt="STP-Modell in drei Feldern: Gruppen bilden, ein Segment wählen, Position bestimmen" width="1000px"}
+
+::: {.notes}
+Zuerst entstehen Gruppen mit ähnlichen Bedürfnissen. Dann wird ausgewählt, welches Segment attraktiv ist und zu den eigenen Stärken passt. Erst für dieses Segment wird die Position bestimmt, das Thema der nächsten Lektion.
+:::
+
 ## Segmentierungskriterien
 
 | Kriterium | Beispiele |

@@ -63,6 +63,14 @@ Quelle: @googleWebVitals2024
 Drei Kennzahlen bilden den Kern, und jede beschreibt einen anderen Moment im Besuch. LCP steht für die Ladewahrnehmung, INP für die Reaktionsfähigkeit, CLS für die visuelle Stabilität. Wichtig ist, INP über den ganzen Besuch hinweg zu denken: Es hat 2024 die frühere Kennzahl FID abgelöst.
 :::
 
+## LCP, INP und CLS messen drei verschiedene Momente eines Besuchs
+
+![](../images/core-web-vitals.svg){fig-alt="Drei Browserfenster zu LCP, INP und CLS" width="1000px"}
+
+::: {.notes}
+LCP fragt, wann der größte Inhalt sichtbar ist. INP fragt, wie schnell die Seite auf eine Eingabe sichtbar reagiert. CLS fragt, wie stark Elemente verrutschen, etwa durch ein nachgeladenes Banner. Zielwerte stehen bewusst nicht auf der Folie, sie werden in der aktuellen Google-Dokumentation nachgeschlagen.
+:::
+
 ## Analogie: Die Eröffnung eines Geschäfts {.stage background-color="#0a0a0f"}
 
 Wie schnell die Ware ausliegt, wie zügig jemand auf eine Frage reagiert, ob die Regale ruhig stehen.

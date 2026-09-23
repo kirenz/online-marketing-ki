@@ -83,6 +83,14 @@ Quelle: @enge2023
 Vier Grundabsichten lassen sich unterscheiden: informieren, navigieren, vergleichen und handeln. Ein Ratgeber gewinnt bei informierenden Anfragen, eine Produktseite bei kauforientierten. Das Format richtet sich nach der erkennbaren Absicht, nicht umgekehrt.
 :::
 
+## Das Seitenformat folgt der Suchabsicht
+
+![](../images/suchintention.svg){fig-alt="Vier Suchintentionen mit Beispielsuche und passendem Format" width="1000px"}
+
+::: {.notes}
+Dieselbe Produktwelt, vier Absichten. Wer informieren will, braucht einen Ratgeber; wer kaufen will, eine Produktseite. Die Beispielsuchen sind fiktiv. Entscheidend ist, das Format an der Absicht auszurichten, nicht umgekehrt.
+:::
+
 ## Vom Keyword zum Thema
 
 Einzelne Keywords sind nur der Rohstoff. Verwandte Begriffe werden zu **Themenclustern** gebündelt.

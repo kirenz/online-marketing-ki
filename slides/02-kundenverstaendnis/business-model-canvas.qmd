@@ -32,6 +32,14 @@ Value Proposition Canvas und Empathy Map schärfen den Blick auf Kundschaft und 
 Neun Felder beschreiben das Geschäftsmodell, von den Kundensegmenten über das Wertangebot bis zur Kostenstruktur. Jedes Feld beantwortet eine Leitfrage, und zusammen ergeben sie ein vollständiges Bild.
 :::
 
+## Das Wertangebot verbindet die innere und die äußere Seite des Geschäftsmodells
+
+![](../images/business-model-canvas.svg){fig-alt="Business Model Canvas mit neun Bausteinen und Leitfragen" width="989px"}
+
+::: {.notes}
+Links die nach innen gerichtete Seite: Partner, Aktivitäten, Ressourcen, Kosten. Rechts die nach außen gerichtete Seite: Beziehungen, Kanäle, Segmente, Einnahmen. In der Mitte das Wertangebot. Für das Marketing ist vor allem die rechte Seite relevant.
+:::
+
 ## Die rechte und die linke Seite
 
 :::: {.columns}

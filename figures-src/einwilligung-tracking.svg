@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 494" role="img" aria-labelledby="t d">
+  <title id="t">Einwilligung beim Tracking</title>
+  <desc id="d">Entscheidungsweg: Werden Informationen auf dem Endgerät gespeichert oder ausgelesen, fragt sich, ob das für den ausdrücklich gewünschten Dienst unbedingt erforderlich ist. Ja: ohne Einwilligung zulässig, zum Beispiel der Warenkorb im Shop, Paragraf 25 TDDDG. Nein: Einwilligung nötig, zum Beispiel Reichweitenmessung und Werbe-Cookies. Wirksam wird sie durch eine aktive Handlung ohne vorangekreuztes Kästchen (EuGH, Planet49); Ablehnen muss so einfach sein wie Zustimmen und der Widerruf so leicht wie die Zustimmung (EDSA, DSK). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge laden. Vereinfachte Übersicht; die DSGVO gilt daneben weiter.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="494" fill="#faf9f4"/>
+  <rect x="235" y="14" width="300" height="50" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="385" y="36" text-anchor="middle">Informationen auf dem Endgerät</text>
+  <text class="s" x="385" y="55" text-anchor="middle">speichern oder auslesen</text>
+  <line x1="385" y1="66" x2="385" y2="88" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <path d="M385,92 L535,130 L385,168 L235,130 Z" fill="#faf9f4" stroke="#16182c" stroke-width="1.25"/>
+  <text class="s" x="385" y="126" text-anchor="middle" style="fill:#16182c">unbedingt erforderlich für den</text>
+  <text class="s" x="385" y="142" text-anchor="middle" style="fill:#16182c">ausdrücklich gewünschten Dienst?</text>
+  <path d="M235,130 L130,130 L130,196" fill="none" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="182" y="122" text-anchor="middle" style="font-weight:600">ja</text>
+  <path d="M535,130 L640,130 L640,196" fill="none" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="588" y="122" text-anchor="middle" style="font-weight:600">nein</text>
+  <rect x="20" y="200" width="220" height="80" rx="8" fill="#e6e9ef" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="36" y="226" text-anchor="start" style="font-size:14px">ohne Einwilligung zulässig</text>
+  <text class="d" x="36" y="248" text-anchor="start">z. B. Warenkorb im Shop</text>
+  <text class="s" x="36" y="268" text-anchor="start">§ 25 TDDDG</text>
+  <rect x="460" y="200" width="290" height="80" rx="8" fill="#f6e4dc" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="476" y="226" text-anchor="start" style="font-size:14px">Einwilligung nötig</text>
+  <text class="d" x="476" y="248" text-anchor="start">z. B. Reichweitenmessung,</text>
+  <text class="d" x="476" y="268" text-anchor="start">Werbe-Cookies</text>
+  <line x1="605" y1="282" x2="605" y2="304" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="460" y="308" width="290" height="148" rx="8" fill="#faf9f4" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="476" y="332" text-anchor="start" style="font-size:14px">Wirksam einwilligen lassen</text>
+  <circle cx="481" cy="350" r="2.5" fill="#b85a3a"/>
+  <text class="s" x="490" y="354" text-anchor="start" style="fill:#3d4255">aktive Handlung, kein vorangekreuztes</text>
+  <text class="s" x="490" y="370" text-anchor="start" style="fill:#3d4255">Kästchen (EuGH, Planet49)</text>
+  <circle cx="481" cy="390" r="2.5" fill="#b85a3a"/>
+  <text class="s" x="490" y="394" text-anchor="start" style="fill:#3d4255">Ablehnen so einfach wie Zustimmen,</text>
+  <text class="s" x="490" y="410" text-anchor="start" style="fill:#3d4255">Widerruf so leicht wie Zustimmung</text>
+  <text class="s" x="490" y="426" text-anchor="start" style="fill:#3d4255">(EDSA, DSK)</text>
+  <rect x="20" y="308" width="420" height="148" rx="8" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
+  <text class="n" x="36" y="332" text-anchor="start" style="font-size:14px">Consent-Management-Lösung</text>
+  <text class="d" x="36" y="354" text-anchor="start">protokolliert die Entscheidungen</text>
+  <text class="d" x="36" y="373" text-anchor="start">und steuert, welche Werkzeuge</text>
+  <text class="d" x="36" y="392" text-anchor="start">überhaupt laden</text>
+  <line x1="456" y1="374" x2="444" y2="374" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="20" y="482" text-anchor="start">Vereinfachte Übersicht nach dem Kapiteltext; die DSGVO gilt daneben weiter.</text>
+</svg>

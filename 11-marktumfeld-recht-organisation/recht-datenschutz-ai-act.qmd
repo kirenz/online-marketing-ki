@@ -24,6 +24,8 @@ Für Zugriffe auf das Endgerät gilt in Deutschland zusätzlich das Telekommunik
 
 Der Europäische Gerichtshof hat im Verfahren Planet49 zwei Punkte geklärt: Ein vorangekreuztes Kästchen ist keine wirksame Einwilligung, und über die Speicherdauer sowie den Zugriff Dritter ist zu informieren [@eughPlanet49]. Für heutige Einwilligungsbanner folgt daraus die aktive Handlung statt einer Voreinstellung. Dass Ablehnen genauso einfach erreichbar sein muss wie Zustimmen und der Widerruf so leicht wie die Zustimmung, ergibt sich nicht aus diesem Urteil, sondern aus den Vorgaben der Aufsichtsbehörden, also des Europäischen Datenschutzausschusses (EDSA) und der Datenschutzkonferenz (DSK). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge überhaupt laden.
 
+![Vereinfachter Entscheidungsweg für die Einwilligung beim Tracking.](../images/einwilligung-tracking.svg){#fig-einwilligung-tracking fig-alt="Entscheidungsweg: Speichern oder Auslesen auf dem Endgerät; ist es für den gewünschten Dienst unbedingt erforderlich, ist es ohne Einwilligung zulässig, sonst ist eine Einwilligung nötig. Diese braucht eine aktive Handlung, Ablehnen muss so einfach wie Zustimmen sein; eine Consent-Management-Lösung protokolliert und steuert das Laden der Werkzeuge."}
+
 ## E-Mail-Marketing
 
 Werbliche E-Mails setzen nach § 7 Abs. 2 Nr. 2 UWG eine vorherige ausdrückliche Einwilligung voraus. In der Praxis sichern wir sie über das Double-Opt-in-Verfahren: Nach der Anmeldung folgt eine Bestätigungsmail, erst der Klick darin schaltet den Versand frei. Für einen nachvollziehbaren Nachweis dokumentieren wir zusätzlich Inhalt und Version der Einwilligungserklärung sowie Anmeldung und Bestätigung [@uwg].

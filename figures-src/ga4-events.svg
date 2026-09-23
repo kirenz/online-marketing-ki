@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 350" role="img" aria-labelledby="t d">
+  <title id="t">Vom Event zum Schlüsselereignis in GA4</title>
+  <desc id="d">Links sechs Events: page_view, scroll, click, file_download, generate_lead, purchase; die letzten beiden sind hervorgehoben. In der Mitte Beispiele für Parameter: generate_lead mit Formular Kontakt und Seite /beratung, purchase mit Bestellwert 89 Euro und Artikel Mahlwerk. Rechts die Schlüsselereignisse Anfrage und Kauf als Steuerungsgrößen. Fiktive Werte.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="350" fill="#faf9f4"/>
+  <text class="h" x="20" y="30" text-anchor="start">Events</text>
+  <text class="sub" x="20" y="48" text-anchor="start">jede erfasste Handlung</text>
+  <rect x="20" y="64" width="180" height="30" rx="15" fill="#efece3" stroke="#8f8a7c" stroke-width="1"/>
+  <text class="mono" x="36" y="84" text-anchor="start">page_view</text>
+  <rect x="20" y="104" width="180" height="30" rx="15" fill="#efece3" stroke="#8f8a7c" stroke-width="1"/>
+  <text class="mono" x="36" y="124" text-anchor="start">scroll</text>
+  <rect x="20" y="144" width="180" height="30" rx="15" fill="#efece3" stroke="#8f8a7c" stroke-width="1"/>
+  <text class="mono" x="36" y="164" text-anchor="start">click</text>
+  <rect x="20" y="184" width="180" height="30" rx="15" fill="#efece3" stroke="#8f8a7c" stroke-width="1"/>
+  <text class="mono" x="36" y="204" text-anchor="start">file_download</text>
+  <rect x="20" y="224" width="180" height="30" rx="15" fill="#f6ecd8" stroke="#c08a3e" stroke-width="1.5"/>
+  <text class="mono" x="36" y="244" text-anchor="start">generate_lead</text>
+  <rect x="20" y="264" width="180" height="30" rx="15" fill="#f6ecd8" stroke="#c08a3e" stroke-width="1.5"/>
+  <text class="mono" x="36" y="284" text-anchor="start">purchase</text>
+  <text class="h" x="250" y="30" text-anchor="start">Parameter</text>
+  <text class="sub" x="250" y="48" text-anchor="start">liefern den Kontext</text>
+  <rect x="250" y="264" width="250" height="72" rx="8" fill="#faf9f4" stroke="#16182c" stroke-width="1.25"/>
+  <text class="mono" x="264" y="286" text-anchor="start">purchase</text>
+  <text class="d" x="264" y="306" text-anchor="start">Bestellwert: 89 €</text>
+  <text class="d" x="264" y="326" text-anchor="start">Artikel: Mahlwerk</text>
+  <rect x="250" y="184" width="250" height="72" rx="8" fill="#faf9f4" stroke="#16182c" stroke-width="1.25"/>
+  <text class="mono" x="264" y="206" text-anchor="start">generate_lead</text>
+  <text class="d" x="264" y="226" text-anchor="start">Formular: Kontakt</text>
+  <text class="d" x="264" y="246" text-anchor="start">Seite: /beratung</text>
+  <line x1="203" y1="239" x2="246" y2="222" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="203" y1="279" x2="246" y2="296" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="d" x="250" y="90" text-anchor="start">Ein Event nennt die Art</text>
+  <text class="d" x="250" y="108" text-anchor="start">der Handlung, Parameter</text>
+  <text class="d" x="250" y="126" text-anchor="start">beschreiben sie genauer.</text>
+  <text class="h" x="550" y="30" text-anchor="start">Schlüsselereignisse</text>
+  <text class="sub" x="550" y="48" text-anchor="start">bewusst markierte Zielhandlungen</text>
+  <rect x="550" y="184" width="200" height="152" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.5"/>
+  <text class="n" x="566" y="210" text-anchor="start">Anfrage</text>
+  <text class="s" x="566" y="230" text-anchor="start">aus generate_lead</text>
+  <text class="n" x="566" y="268" text-anchor="start">Kauf</text>
+  <text class="s" x="566" y="288" text-anchor="start">aus purchase</text>
+  <text class="s" x="566" y="322" text-anchor="start" style="font-weight:600;fill:#c08a3e">Steuerungsgrößen</text>
+  <line x1="503" y1="260" x2="546" y2="260" stroke="#c08a3e" stroke-width="1.5" marker-end="url(#ao)"/>
+</svg>

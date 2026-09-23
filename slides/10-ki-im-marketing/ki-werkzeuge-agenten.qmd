@@ -54,6 +54,14 @@ Hier kommt die zweite Stufe. Der Unterschied zum Assistenten liegt in der Selbst
 Diese Tabelle fasst das Modul zusammen. Die erste Stufe ist der Chat mit einzelnen Prompts. Die zweite ist der Assistent, der direkt im Programm arbeitet. Die dritte ist der Agent, der ein Ziel selbst in Teilschritte zerlegt. Mit jeder Stufe steigt die Eigenständigkeit des Werkzeugs.
 :::
 
+## Mit der Autonomie wächst der Bedarf an Aufsicht
+
+![](../images/chat-assistent-agent.svg){fig-alt="Drei ansteigende Stufen: Chat, Assistent, Agent" width="1000px"}
+
+::: {.notes}
+Der Chat beantwortet einzelne Prompts, der Assistent arbeitet im Programm, der Agent zerlegt ein Ziel in Teilschritte und nutzt Werkzeuge. Je eigenständiger das Werkzeug, desto wichtiger werden Prüfung, begrenzte Rechte und klare Freigabepunkte.
+:::
+
 ## Mehr Autonomie, mehr Aufsicht
 
 Je eigenständiger ein Werkzeug handelt, desto wichtiger wird die [Kontrolle]{.highlight-red}.

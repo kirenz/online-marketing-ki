@@ -80,6 +80,14 @@ Quelle: @eughPlanet49
 Diese Unterscheidung ist präzise zu halten, weil beide Anforderungen oft demselben Urteil zugeschrieben werden. Der Europäische Gerichtshof hat im Verfahren Planet49 genau zwei Punkte geklärt: Ein vorangekreuztes Kästchen ist keine wirksame Einwilligung, und über die Speicherdauer sowie den Zugriff Dritter ist zu informieren. Daraus folgt für heutige Einwilligungsbanner die aktive Handlung statt einer Voreinstellung. Dass Ablehnen genauso einfach erreichbar sein muss wie Zustimmen und der Widerruf so leicht wie die Zustimmung, ergibt sich dagegen aus den Vorgaben der Aufsichtsbehörden, also des Europäischen Datenschutzausschusses und der Datenschutzkonferenz. Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge überhaupt laden.
 :::
 
+## Nur Unerlässliches kommt ohne Einwilligung aus
+
+![](../images/einwilligung-tracking.svg){fig-alt="Entscheidungsweg zur Einwilligung beim Tracking" width="811px"}
+
+::: {.notes}
+Der Weg beginnt beim Speichern oder Auslesen auf dem Endgerät. Unbedingt erforderlich für den gewünschten Dienst, etwa der Warenkorb, heißt: keine Einwilligung nötig. Reichweitenmessung und Werbe-Cookies brauchen eine Einwilligung durch aktive Handlung. Die Übersicht ist vereinfacht, die DSGVO gilt daneben weiter.
+:::
+
 ## Werbliche E-Mails setzen eine vorherige ausdrückliche Einwilligung voraus
 
 Grundlage ist § 7 Abs. 2 Nr. 2 UWG. In der Praxis sichert das [Double-Opt-in-Verfahren]{.highlight-blue} sie ab: Anmeldung, Bestätigungsmail, erst der Klick darin schaltet den Versand frei.

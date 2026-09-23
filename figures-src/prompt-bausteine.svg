@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 316" role="img" aria-labelledby="t d">
+  <title id="t">Vier Bausteine eines Prompts</title>
+  <desc id="d">Ein Beispielprompt, dessen Zeilen links nach Baustein markiert sind. Rolle: Verhalte dich als erfahrene SEO-Beraterin. Aufgabe: Bewerte den folgenden Seitentitel und schlage drei Alternativen mit höchstens 60 Zeichen vor. Kontext in Kontext-Tags: Fachhandel für Siebträger, Zielgruppe Einsteiger mit kleinem Budget. Beispiel: Orientiere dich an diesem Stil, gefolgt von einem Mustertitel.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="316" fill="#faf9f4"/>
+  <rect x="20" y="16" width="730" height="260" rx="10" fill="#faf9f4" stroke="#16182c" stroke-width="1.25"/>
+  <text class="s" x="40" y="44" text-anchor="start" style="font-weight:600">Prompt</text>
+  <text class="n" x="40" y="86" text-anchor="start" style="fill:#3f63a8">Rolle</text>
+  <rect x="160" y="71" width="4" height="22" fill="#3f63a8"/>
+  <text class="mono" x="176" y="86" text-anchor="start" style="font-size:14px">Verhalte dich als erfahrene SEO-Beraterin.</text>
+  <text class="n" x="40" y="120" text-anchor="start" style="fill:#b98232">Aufgabe</text>
+  <rect x="160" y="105" width="4" height="22" fill="#b98232"/>
+  <text class="mono" x="176" y="120" text-anchor="start" style="font-size:14px">Bewerte den folgenden Seitentitel und schlage</text>
+  <rect x="160" y="131" width="4" height="22" fill="#b98232"/>
+  <text class="mono" x="176" y="146" text-anchor="start" style="font-size:14px">drei Alternativen mit höchstens 60 Zeichen vor.</text>
+  <text class="n" x="40" y="180" text-anchor="start" style="fill:#6b7a52">Kontext</text>
+  <rect x="160" y="165" width="4" height="22" fill="#6b7a52"/>
+  <text class="mono" x="176" y="180" text-anchor="start" style="font-size:14px">&lt;kontext&gt; Fachhandel für Siebträger, Zielgruppe:</text>
+  <rect x="160" y="191" width="4" height="22" fill="#6b7a52"/>
+  <text class="mono" x="176" y="206" text-anchor="start" style="font-size:14px">Einsteiger mit kleinem Budget &lt;/kontext&gt;</text>
+  <text class="n" x="40" y="240" text-anchor="start" style="fill:#b85a3a">Beispiel</text>
+  <rect x="160" y="225" width="4" height="22" fill="#b85a3a"/>
+  <text class="mono" x="176" y="240" text-anchor="start" style="font-size:14px">Orientiere dich an diesem Stil:</text>
+  <rect x="160" y="251" width="4" height="22" fill="#b85a3a"/>
+  <text class="mono" x="176" y="266" text-anchor="start" style="font-size:14px">„Siebträger für Einsteiger: ehrlich verglichen“</text>
+  <text class="s" x="20" y="304" text-anchor="start">Vier Bausteine: klare Aufgabe, Rolle, abgegrenzter Kontext, Beispiel im Zielstil. Beispiel fiktiv.</text>
+</svg>

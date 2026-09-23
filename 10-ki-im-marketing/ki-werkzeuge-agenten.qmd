@@ -26,6 +26,8 @@ Die folgende Tabelle stellt die drei Stufen gegenüber, die wir in diesem Modul 
 | Assistent | Anweisungen direkt im Programm | In Word einen Berichtsentwurf erstellen |
 | Agent | Ein Ziel vorgeben, Teilschritte werden selbst ausgeführt | Ein Meeting vorbereiten lassen |
 
+![Drei Stufen vom Chat zum Agenten: Mit der Autonomie wächst der Bedarf an Aufsicht.](../images/chat-assistent-agent.svg){#fig-chat-assistent-agent fig-alt="Drei ansteigende Stufen Chat, Assistent und Agent mit Beispielen; beim Agenten die Schritte planen, mit Werkzeugen ausführen, Entwurf zur Freigabe. Darunter ein Pfeil von mehr Autonomie zu mehr Aufsicht."}
+
 ::: {.callout-important title="Mehr Autonomie, mehr Aufsicht"}
 Je eigenständiger ein Werkzeug handelt, desto wichtiger wird die Kontrolle. Ein Agent, der selbst Schritte ausführt, kann auch selbstständig Fehler fortpflanzen. Ergebnisse müssen geprüft werden, sensible Daten gehören nur in dafür freigegebene Werkzeuge, und die Verantwortung für das Resultat bleibt bei uns [@kumar2025].
 :::

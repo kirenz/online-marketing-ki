@@ -26,6 +26,8 @@ Die vier P denken vom Unternehmen aus. Die vier C übersetzen jeden Hebel in die
 | Place | Convenience (Bequemlichkeit) | Wie einfach ist der Zugang? |
 | Promotion | Communication (Dialog) | Wie entsteht ein echter Austausch? |
 
+![Jeder der vier P hat eine Entsprechung aus Sicht der Kundschaft.](../images/marketing-mix.svg){#fig-marketing-mix fig-alt="Links die vier P Product, Price, Place, Promotion; Pfeile führen zu den vier C Customer Value, Cost, Convenience, Communication, rechts je eine Leitfrage."}
+
 Der Wechsel ist mehr als eine Umbenennung. Wer von Communication statt von Promotion spricht, denkt an einen Dialog statt an eine einseitige Botschaft, und genau dieser Dialog prägt das digitale Marketing.
 
 ## Den Mix als Ganzes denken

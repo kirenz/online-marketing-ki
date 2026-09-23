@@ -8,6 +8,7 @@ Stand 2026-09-23. Ziel: Abbildungen dort, wo ein Modell, ein Ablauf oder eine Be
 - **Datengrafiken** (Rechenbeispiele): ebenfalls SVG im selben Stil, nach den Regeln des dataviz-Skills (direkte Beschriftung, keine Legende, wenige Farben).
 - **KI-Bilder** (Gemini): nur für Analogien ohne Text. Für Lernabbildungen ungeeignet, weil deutsche Beschriftung und Pfeile unzuverlässig sind. Die Folien haben bereits Hero-Bilder; im Buch vorerst keine.
 - Quellen erzeugen: `uv run scripts/generate_figure_sources.py` (Welle 1; das Value Proposition Canvas ist handgeschrieben), danach `uv run scripts/build_figures.py`.
+- Folien: `build_figures.py` schreibt zusätzlich nach `slides/images/`; jedes betroffene Deck hat eine eigene Abbildungsfolie mit Aussage-Überschrift und Sprechernotiz.
 - Einbindung: `![Bildunterschrift](../images/<name>.svg){#fig-<name> fig-alt="..."}`.
 
 ## Welle 1 (Kernmodelle, erstellt am 2026-09-23)
@@ -27,13 +28,13 @@ Stand 2026-09-23. Ziel: Abbildungen dort, wo ein Modell, ein Ablauf oder eine Be
 | 11 | 09 Kennzahlen und Kennzahlensysteme | Ein Kostenblock (2.000 €), vier Nenner: CPC, Kosten je Bestellung, Medien-CAC, ROAS (Zahlen aus dem Kapitelbeispiel) | Zähler/Nenner sauber trennen |
 | 12 | 09 Attribution und Dashboards | Touchpoint-Kette plus Balken: dieselben 100 Käufe unter Last-Click und gleichmäßiger Verteilung | Zurechnung ist Verteilung, keine Zusatzwirkung |
 
-## Welle 2 (nach Freigabe von Welle 1)
+## Welle 2 (erstellt am 2026-09-23)
 
 | Kapitel | Abbildung |
 |---|---|
 | 01 Marketing-Mix | Vier P gegenüber vier C |
 | 03 Positionierung | Positionierungskarte mit zwei Achsen und fiktiven Wettbewerbern |
-| 06 Core Web Vitals | LCP, INP, CLS mit Schwellen gut / verbesserungswürdig / schlecht |
+| 06 Core Web Vitals | LCP, INP, CLS als drei Momente eines Besuchs, ohne Schwellenwerte (Kapitel verlangt Nachschlagen) |
 | 06 Keyword-Recherche | Suchintentionen als vier Felder mit Beispielsuchen |
 | 07 Quality Score | Drei Komponenten mit je einem Hebel |
 | 08 LinkedIn-Grundlagen | Markenaufbau und Aktivierung im Gleichgewicht |

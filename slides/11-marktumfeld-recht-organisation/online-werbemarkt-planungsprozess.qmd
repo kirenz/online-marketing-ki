@@ -52,6 +52,14 @@ Quelle: @chaffey2022
 Der Begriff der ummauerten Gärten beschreibt eine Besonderheit dieses Marktes. Bei den großen Plattformen fallen drei Rollen zusammen, die im klassischen Mediageschäft getrennt waren: Sie stellen das Umfeld, sie verkaufen den Platz, und sie liefern die Zahlen zur Wirkung. Weil sich ein großer Teil der weltweiten Online-Werbeinvestitionen auf wenige solcher Anbieter konzentriert, ist die Verhandlungsposition einzelner Werbungtreibender begrenzt. Für die Führungsebene folgt daraus eine nüchterne Konsequenz: Abhängigkeit von einem einzelnen Kanal ist ein Geschäftsrisiko, kein technisches Detail.
 :::
 
+## Offene Handelskette und Walled Garden funktionieren nach verschiedenen Regeln
+
+![](../images/werbemarkt-akteure.svg){fig-alt="Akteure am Online-Werbemarkt: Werbungtreibende, DSP, Ad Exchange, SSP, Publisher sowie ein Walled Garden" width="1000px"}
+
+::: {.notes}
+Oben die offene Kette: Die DSP kauft für Werbungtreibende ein, die SSP verkauft für Publisher, der Ad Exchange ist der Handelsplatz. Messdienstleister prüfen unabhängig. Unten der Walled Garden: Publisher, Vermarkter und Messsystem liegen in einer Hand, gebucht wird direkt. Genau deshalb braucht es dort den Abgleich mit eigenen Daten.
+:::
+
 ## Die Plattform misst ihren eigenen Erfolg {.stage background-color="#0a0a0f"}
 
 Zahlen aus dem Werbekonto eines Anbieters sind zugleich sein Leistungsnachweis. Der Abgleich mit eigener Webanalyse und Kundendatenbank bleibt deshalb Pflicht.
@@ -155,6 +163,14 @@ Quelle: @kreutzer2025; @chaffey2022
 
 ::: {.notes}
 Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Die vier Phasen fassen acht Schritte zusammen. Der erste Schritt klärt die Lage in Markt und Wettbewerb und liefert ein Lagebild. Der zweite legt messbare Ziele fest, der dritte die Zielgruppen und Personas, der vierte die Positionierung und das Versprechen. Erst der fünfte Schritt wählt Kanäle und Maßnahmen, der sechste verteilt das Budget, der siebte regelt Verantwortung und Termine, der achte richtet Reporting und Anpassung ein. Jeder Schritt hat ein prüfbares Ergebnis. Dieses Raster lässt sich auf jede Kanalentscheidung anwenden, unabhängig von der Größe des Budgets.
+:::
+
+## Das Controlling liefert das Lagebild für die nächste Planungsrunde
+
+![](../images/planungsprozess.svg){fig-alt="Planungsprozess in acht Schritten als Kreislauf" width="834px"}
+
+::: {.notes}
+Die acht Schritte bilden einen Kreislauf, keine Einbahnstraße. In der Praxis laufen sie in Schleifen, aber keiner wird übersprungen. Der hervorgehobene Bogen zeigt: Was das Controlling misst, geht als Lagebild in die nächste Situationsanalyse ein.
 :::
 
 ## Kampagnen scheitern selten an der Kreation {.stage background-color="#0a0a0f"}

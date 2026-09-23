@@ -24,6 +24,8 @@ GA4 unterscheidet dabei verschiedene Arten von Events. Einige werden automatisch
 
 Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Geschäftsziel ein, etwa ein Kauf oder eine Anfrage. Solche besonders wertvollen Ereignisse markieren wir in GA4 als Schlüsselereignis (Key Event). Aus einem Schlüsselereignis kann eine Google-Ads-Conversion erstellt werden; die Bezeichnungen und Einstellungen sind zu unterscheiden [@googleKeyEvents2026]. Damit heben wir sie aus der Masse der Events hervor und machen sie zur Steuerungsgröße.
 
+![Vom Event über Parameter zum Schlüsselereignis. Werte fiktiv.](../images/ga4-events.svg){#fig-ga4-events fig-alt="Links sechs Events von page_view bis purchase, in der Mitte Parameterbeispiele für generate_lead und purchase, rechts die daraus markierten Schlüsselereignisse Anfrage und Kauf."}
+
 Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang eines Schlüsselereignisses verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern [@kaushik2010].
 
 ## Ein Trackingplan mit Abnahme

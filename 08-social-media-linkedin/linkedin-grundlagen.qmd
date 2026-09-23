@@ -20,6 +20,8 @@ Eine der wichtigsten Erkenntnisse des B2B-Marketings betrifft die Aufteilung des
 
 Binet und Field diskutieren für B2B eine ungefähr hälftige Verteilung auf Markenaufbau und Aktivierung [@binetField2019; @linkedinB2bBalance2026]. Das ist eine Orientierung aus untersuchten Kampagnen, keine für jedes Unternehmen optimale Budgetregel. Kaufzyklus, Bekanntheit, Ziel und Messhorizont bestimmen die konkrete Aufteilung. Wer ausschließlich auf kurzfristige Abschlüsse optimiert, kann den langfristigen Markenaufbau vernachlässigen. Ob dadurch Wachstum ausbleibt, hängt vom Markt, der bestehenden Bekanntheit und weiteren Maßnahmen ab.
 
+![Markenaufbau und Aktivierung haben verschiedene Aufgaben. Die ungefähr hälftige Verteilung ist eine Orientierung, keine Regel.](../images/marke-aktivierung.svg){#fig-marke-aktivierung fig-alt="Zwei Kästen mit den Merkmalen von Markenaufbau und Aktivierung, darunter ein ungefähr hälftig geteilter Budgetbalken und der Hinweis auf Binet und Field als Orientierung."}
+
 ::: {.callout-important title="Häufige Stolperfalle"}
 Viele Kampagnen messen nur kurzfristige Abschlüsse und kürzen deshalb zuerst das Budget für den Markenaufbau. Das wirkt kurzfristig effizient, schwächt aber mittelfristig die gesamte Nachfrage. Wir prüfen deshalb bei jeder Kampagne, ob sie auf Markenaufbau oder auf Aktivierung einzahlt, und halten beide Aufgaben im Gleichgewicht.
 :::

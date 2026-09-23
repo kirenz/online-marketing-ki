@@ -48,6 +48,14 @@ Das Bild des Cockpits trägt die Lesson: Auch erfahrene Profis arbeiten Listen a
 Diese Tabelle ist der Kern der Lesson. Jede Komponente steht für eine Frage: Context klärt den Hintergrund, Objective das Ziel, Mode die Rolle, People of Interest den Adressaten, Attitude den Tonfall, Style die Schreibweise und Specifications die Grenzen. Sieben Felder, sieben Fragen.
 :::
 
+## Sieben Komponenten ordnen sich zu vier Aufgaben
+
+![](../images/compass.svg){fig-alt="Sieben Kacheln C O M P A S S in vier Gruppen" width="1000px"}
+
+::: {.notes}
+Context und Objective bilden das Fundament. Mode und People of Interest klären Perspektive und Adressat. Attitude und Style bestimmen den Klang. Specifications setzt den Rahmen. Bei kurzen Fragen genügen oft Kontext und Ziel.
+:::
+
 ## Das Fundament: Kontext und Ziel
 
 :::: {.features}

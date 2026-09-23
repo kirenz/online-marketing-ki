@@ -26,6 +26,8 @@ Die folgende Tabelle fasst zusammen, wofür jede Komponente steht und welche Fra
 | Style (Stil) | Sprachliche Gestaltung und Textform | In welcher Schreibweise? |
 | Specifications (Spezifikationen) | Konkrete Vorgaben und Einschränkungen | Welche Regeln und Grenzen gelten? |
 
+![Die sieben Komponenten von COMPASS in vier Gruppen.](../images/compass.svg){#fig-compass fig-alt="Sieben Kacheln C, O, M, P, A, S, S mit Context, Objective, Mode, People of Interest, Attitude, Style, Specifications, gruppiert in Fundament, Perspektive, Klang und Rahmen."}
+
 Context und Objective bilden das Fundament: Ein präziser Kontext reduziert vermeidbare Annahmen, ein klares Ziel richtet die Antwort auf das gewünschte Ergebnis aus. Mode und People of Interest steuern Perspektive und Adressat. Attitude und Style bestimmen, wie die Antwort klingt und in welcher Form sie erscheint. Specifications setzt schließlich den Rahmen, etwa eine Zeichenzahl, Pflichtbegriffe oder eine Handlungsaufforderung.
 
 ## COMPASS in der Marketingpraxis

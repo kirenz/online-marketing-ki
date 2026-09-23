@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 368" role="img" aria-labelledby="t d">
+  <title id="t">Vier Suchintentionen</title>
+  <desc id="d">Vier Karten. Informieren, etwas verstehen wollen, Beispielsuche: was ist ein siebträger, passendes Format: Ratgeber-Text. Navigieren, eine bestimmte Seite ansteuern, Beispiel: kaffeehaus müller login, Format: die gesuchte Seite. Kommerziell vergleichen, Optionen abwägen, Beispiel: siebträger oder vollautomat, Format: Vergleich. Transaktional handeln, kaufen oder buchen, Beispiel: siebträger kaufen, Format: Produktseite.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="368" fill="#faf9f4"/>
+  <rect x="20" y="16" width="360" height="154" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="38" y="46" text-anchor="start">Informieren</text>
+  <text class="s" x="38" y="66" text-anchor="start">etwas verstehen wollen</text>
+  <rect x="38" y="80" width="324" height="32" rx="16" fill="#faf9f4" stroke="#e2dfd6" stroke-width="1"/>
+  <circle cx="56" cy="96" r="5.5" fill="none" stroke="#555a6e" stroke-width="1.5"/><line x1="60" y1="100" x2="65" y2="105" stroke="#555a6e" stroke-width="1.5"/>
+  <text class="mono" x="74" y="101" text-anchor="start">was ist ein siebträger</text>
+  <text class="s" x="38" y="144" text-anchor="start">passendes Format:</text>
+  <text class="n" x="156" y="144" text-anchor="start" style="font-size:14px">Ratgeber-Text</text>
+  <rect x="390" y="16" width="360" height="154" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="408" y="46" text-anchor="start">Navigieren</text>
+  <text class="s" x="408" y="66" text-anchor="start">eine bestimmte Seite ansteuern</text>
+  <rect x="408" y="80" width="324" height="32" rx="16" fill="#faf9f4" stroke="#e2dfd6" stroke-width="1"/>
+  <circle cx="426" cy="96" r="5.5" fill="none" stroke="#555a6e" stroke-width="1.5"/><line x1="430" y1="100" x2="435" y2="105" stroke="#555a6e" stroke-width="1.5"/>
+  <text class="mono" x="444" y="101" text-anchor="start">kaffeehaus müller login</text>
+  <text class="s" x="408" y="144" text-anchor="start">passendes Format:</text>
+  <text class="n" x="526" y="144" text-anchor="start" style="font-size:14px">die gesuchte Seite</text>
+  <rect x="20" y="184" width="360" height="154" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="38" y="214" text-anchor="start">Kommerziell vergleichen</text>
+  <text class="s" x="38" y="234" text-anchor="start">Optionen abwägen</text>
+  <rect x="38" y="248" width="324" height="32" rx="16" fill="#faf9f4" stroke="#e2dfd6" stroke-width="1"/>
+  <circle cx="56" cy="264" r="5.5" fill="none" stroke="#555a6e" stroke-width="1.5"/><line x1="60" y1="268" x2="65" y2="273" stroke="#555a6e" stroke-width="1.5"/>
+  <text class="mono" x="74" y="269" text-anchor="start">siebträger oder vollautomat</text>
+  <text class="s" x="38" y="312" text-anchor="start">passendes Format:</text>
+  <text class="n" x="156" y="312" text-anchor="start" style="font-size:14px">Vergleich</text>
+  <rect x="390" y="184" width="360" height="154" rx="8" fill="#f6ecd8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="408" y="214" text-anchor="start">Transaktional handeln</text>
+  <text class="s" x="408" y="234" text-anchor="start">kaufen oder buchen</text>
+  <rect x="408" y="248" width="324" height="32" rx="16" fill="#faf9f4" stroke="#e2dfd6" stroke-width="1"/>
+  <circle cx="426" cy="264" r="5.5" fill="none" stroke="#555a6e" stroke-width="1.5"/><line x1="430" y1="268" x2="435" y2="273" stroke="#555a6e" stroke-width="1.5"/>
+  <text class="mono" x="444" y="269" text-anchor="start">siebträger kaufen</text>
+  <text class="s" x="408" y="312" text-anchor="start">passendes Format:</text>
+  <text class="n" x="526" y="312" text-anchor="start" style="font-size:14px">Produktseite</text>
+  <text class="s" x="20" y="358" text-anchor="start">Das Format folgt der Absicht, nicht umgekehrt. Beispielsuchen fiktiv.</text>
+</svg>

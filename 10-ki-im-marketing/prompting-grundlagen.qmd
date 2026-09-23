@@ -16,6 +16,8 @@ Eine neue Kollegin im Marketingteam ist kompetent, kennt aber weder das Produkt 
 
 Vier Elemente heben die Qualität einer Antwort verlässlich an: eine klare Aufgabe, eine zugewiesene Rolle, mitgelieferter Kontext und konkrete Beispiele. Wir betrachten sie der Reihe nach.
 
+![Ein fiktiver Beispielprompt, nach den vier Bausteinen markiert.](../images/prompt-bausteine.svg){#fig-prompt-bausteine fig-alt="Ein Prompt mit farbig markierten Zeilen: Rolle SEO-Beraterin, Aufgabe Seitentitel bewerten und drei Alternativen vorschlagen, Kontext in Kontext-Tags, Beispiel für den gewünschten Stil."}
+
 Zuerst die **klare Aufgabe**. Statt eines allgemeinen Themas benennen wir das gewünschte Ergebnis samt Format und Umfang.
 
 ```markdown

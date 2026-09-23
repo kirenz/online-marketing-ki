@@ -52,6 +52,14 @@ Wie verhält sie sich nach außen?
 Die Empathy Map ordnet Beobachtungen in mehrere Felder: sehen, hören, denken und fühlen, sagen und tun. Ergänzt wird das durch Pains und Gains, die direkt an das Kundenprofil anschließen.
 :::
 
+## Vier Blickwinkel machen eine konkrete Person greifbar
+
+![](../images/empathy-map.svg){fig-alt="Empathy Map mit Denken und Fühlen, Sehen, Hören, Sagen und Tun sowie Pains und Gains" width="1000px"}
+
+::: {.notes}
+In der Mitte steht eine konkrete Person, keine abstrakte Zielgruppe. Die vier Felder sammeln Beobachtungen aus verschiedenen Richtungen. Pains und Gains darunter wandern direkt ins Kundenprofil des Value Proposition Canvas.
+:::
+
 ## Mit echten Beobachtungen füllen
 
 Im Mittelpunkt steht eine konkrete, beispielhafte Person statt einer abstrakten Zielgruppe. Die Felder werden mit echten Beobachtungen gefüllt, idealerweise aus Gesprächen, Bewertungen oder Support-Anfragen.

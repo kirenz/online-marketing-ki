@@ -140,6 +140,14 @@ Das Beispiel enthält vollständig erfasste Daten derselben Woche. Vierzig Beste
 Der zugeordnete Nettoumsatz pro Werbe-Euro ist kein Gewinn. Auch ein positiver Durchschnitts-ROAS beantwortet die Budgetfrage nicht: Dafür fehlt der erwartete zusätzliche Deckungsbeitrag des nächsten Budgetschritts. Tatsächlich angefallene Kosten und Shop-Bestellungen bleiben trotz Trackinglücken wirtschaftlich relevant.
 :::
 
+## Dieselben Werbekosten ergeben je nach Nenner eine andere Kennzahl
+
+![](../images/kostenbezug.svg){fig-alt="Ein Kostenblock von 2.000 Euro mit vier Kennzahlen: CPC, Kosten je Bestellung, Medien-CAC, ROAS" width="1000px"}
+
+::: {.notes}
+Die Zusammenfassung des Shop-Beispiels. Der Zähler bleibt gleich, der Nenner wechselt: Klicks, Bestellungen, erstmals kaufende Personen. Jede Kennzahl beantwortet eine andere Frage. 50 Euro je Bestellung sind kein CAC, und ein ROAS von 2 ist kein Gewinn.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
 Kennzahlen sind kein Applaus, sondern Steuerung. Wer Vanity-Metriken aussortiert, wenige KPIs bewusst wählt und sie entlang der Customer Journey anordnet, verwandelt rohe Zahlen in begründete Entscheidungen.

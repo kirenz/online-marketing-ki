@@ -100,6 +100,14 @@ Quelle: @farris2010
 Der Weg vom Ziel zur Messung verläuft in vier Schritten. Zuerst steht das Ziel mit seiner Kennzahl, dann der Ergebnisindikator, danach ein oder zwei Frühindikatoren und zuletzt der Rhythmus, in dem die Werte abgelesen werden. So entsteht aus den Kennzahlen ein verlässliches Steuerungsbild statt einer Momentaufnahme.
 :::
 
+## Frühindikatoren zeigen unterwegs, ob das Ziel erreichbar bleibt
+
+![](../images/ziel-kennzahlen.svg){fig-alt="Kennzahlenbaum am Webinar-Beispiel: Frühindikatoren, Ergebnisindikator, Ziel" width="1000px"}
+
+::: {.notes}
+Abgeleitet wird von rechts nach links: Ziel, dann Ergebnisindikator, dann Frühindikatoren. Gemessen wird von links nach rechts: Besuche und Conversion-Rate sind früh sichtbar, die Zahl der Anmeldungen erst am Ende. Schritt vier legt Rhythmus und Datenquelle fest.
+:::
+
 ## Eitelkeitszahlen erkennen
 
 ::: {.callout-important}

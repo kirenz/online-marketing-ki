@@ -452,5 +452,332 @@ def attribution():
         "\n".join(b))
 
 
-for f in [kundenreise, planungsprozess, werbemarkt, empathy, bmc, stp, kennzahlenbaum, anzeigenrang, kampagne, kostenbezug, attribution]:
-    f()
+# ================================================================ Welle 2
+
+# ------------------------------------------------------------ Marketing-Mix
+def marketing_mix():
+    rows = [("Product", "Produkt", "Customer Value", "Kundennutzen", "Welchen Nutzen hat die Kundschaft?"),
+            ("Price", "Preis", "Cost", "Gesamtkosten", "Was kostet es die Kundschaft insgesamt?"),
+            ("Place", "Distribution", "Convenience", "Bequemlichkeit", "Wie einfach ist der Zugang?"),
+            ("Promotion", "Kommunikation", "Communication", "Dialog", "Wie entsteht ein echter Austausch?")]
+    b = [t(20, 30, "Vier P", "h"), t(20, 48, "Sicht des Anbieters", "sub"),
+         t(300, 30, "Vier C", "h"), t(300, 48, "Sicht der Kundschaft", "sub"),
+         t(530, 48, "Leitfrage", "sub")]
+    for i, (p1, p2, c1, c2, q) in enumerate(rows):
+        y = 66 + i * 66
+        b.append(rect(20, y, 220, 52, SLA_T, INK, 1.25, 8))
+        b.append(t(36, y + 22, p1, "n")); b.append(t(36, y + 41, p2, "s"))
+        b.append(arrow(246, y + 26, 294, y + 26))
+        b.append(rect(300, y, 220, 52, OCH_T, INK, 1.25, 8))
+        b.append(t(316, y + 22, c1, "n")); b.append(t(316, y + 41, c2, "s"))
+        words = q.split(" "); half = (len(words) + 1) // 2
+        b.append(lines(530, y + 22, [" ".join(words[:half]), " ".join(words[half:])], "d", "start", 18))
+    b.append(t(20, 350, "Die Hebel wirken nur zusammen: Sie sollen dieselbe Geschichte erzählen.", "d"))
+    svg("marketing-mix", 770, 362, "Vier P und vier C",
+        "Links die vier P aus Sicht des Anbieters: Product, Price, Place, Promotion. Pfeile führen zu den vier C aus Sicht der Kundschaft: Customer Value (Kundennutzen), Cost (Gesamtkosten), Convenience (Bequemlichkeit), Communication (Dialog). Rechts je eine Leitfrage. Darunter der Satz: Die Hebel wirken nur zusammen.",
+        "\n".join(b))
+
+
+# ----------------------------------------------------------- Positionierung
+def positionierung():
+    X0, Y0, W, H = 90, 20, 600, 320
+    b = [f'  <rect x="{X0}" y="{Y0}" width="{W}" height="{H}" fill="#f3f0e8" stroke="{RULE}"/>',
+         f'  <line x1="{X0+W/2}" y1="{Y0}" x2="{X0+W/2}" y2="{Y0+H}" stroke="{RULE}" stroke-width="1.5"/>',
+         f'  <line x1="{X0}" y1="{Y0+H/2}" x2="{X0+W}" y2="{Y0+H/2}" stroke="{RULE}" stroke-width="1.5"/>',
+         arrow(X0, Y0 + H + 14, X0 + W, Y0 + H + 14, SOFT, "ar", 1.2),
+         t(X0, Y0 + H + 34, "breites Sortiment", "s"), t(X0 + W, Y0 + H + 34, "spezialisiert", "s", "end"),
+         t(X0 + W / 2, Y0 + H + 34, "Spezialisierung", "s", "middle", ' style="font-weight:600"'),
+         f'  <line x1="{X0-14}" y1="{Y0+H}" x2="{X0-14}" y2="{Y0+6}" stroke="{SOFT}" stroke-width="1.2" marker-end="url(#ar)"/>',
+         t(X0 - 22, Y0 + 12, "hoch", "s", "end"), t(X0 - 22, Y0 + H, "niedrig", "s", "end"),
+         t(X0 - 22, Y0 + H / 2 + 4, "Preis", "s", "end", ' style="font-weight:600"')]
+    comp = [("A", 180, 280), ("B", 250, 240), ("C", 215, 100), ("D", 330, 290)]
+    for n, x, y in comp:
+        b.append(f'  <circle cx="{x}" cy="{y}" r="17" fill="{NEUT}" stroke="{LINE}" stroke-width="1.5"/>')
+        b.append(t(x, y + 5, n, "n", "middle", f' style="fill:{SOFT}"'))
+    b.append(t(265, 322, "Wettbewerb drängt sich hier", "s", "middle"))
+    gx, gy = 580, 100
+    b.append(f'  <circle cx="{gx}" cy="{gy}" r="60" fill="{OCH_T}" stroke="{OCH}" stroke-width="1.5" stroke-dasharray="5 4"/>')
+    b.append(t(gx, gy - 4, "freier,", "n", "middle")); b.append(t(gx, gy + 15, "attraktiver Platz", "s", "middle"))
+    b.append(t(X0, 396, "Die Achsen sind die Dimensionen, die für die Zielgruppe entscheiden. Fiktives Beispiel.", "s"))
+    svg("positionierungskarte", 770, 408, "Positionierungskarte",
+        "Ein Achsenkreuz mit Spezialisierung (von breitem Sortiment bis spezialisiert) und Preis (von niedrig bis hoch). Vier Wettbewerber A bis D stehen überwiegend im Bereich breit und günstig bis mittel. Oben rechts, spezialisiert und hochpreisig, ist ein freier, attraktiver Platz markiert. Fiktives Beispiel.",
+        "\n".join(b))
+
+
+# ---------------------------------------------------------- Core Web Vitals
+def core_web_vitals():
+    b = []
+    panels = [("LCP", "Largest Contentful Paint", "Ladewahrnehmung", ["Wann erscheint der größte", "sichtbare Inhalt?"]),
+              ("INP", "Interaction to Next Paint", "Reaktionsfähigkeit", ["Wie schnell reagiert die Seite", "sichtbar auf Eingaben?"]),
+              ("CLS", "Cumulative Layout Shift", "visuelle Stabilität", ["Wie stark verrutschen", "Elemente ungewollt?"])]
+    for i, (k, full, what, q) in enumerate(panels):
+        x = 20 + 250 * i; w = 230
+        b.append(t(x, 30, k, "h")); b.append(t(x + 42, 30, what, "d"))
+        b.append(t(x, 50, full, "s"))
+        # Browserrahmen
+        fy = 66
+        b.append(rect(x, fy, w, 190, PAPER, INK, 1.25, 8))
+        b.append(f'  <line x1="{x}" y1="{fy+22}" x2="{x+w}" y2="{fy+22}" stroke="{RULE}" stroke-width="1.2"/>')
+        for d in range(3):
+            b.append(f'  <circle cx="{x+14+d*12}" cy="{fy+11}" r="3.2" fill="{RULE}"/>')
+        if i == 0:
+            b.append(f'  <rect x="{x+14}" y="{fy+34}" width="{w-28}" height="86" rx="4" fill="{OCH_T}" stroke="{OCH}" stroke-width="1.5"/>')
+            b.append(t(x + w / 2, fy + 82, "größter Inhalt", "s", "middle", f' style="fill:{INK}"'))
+            for j in range(3):
+                b.append(f'  <rect x="{x+14}" y="{fy+132+j*14}" width="{(w-28)*(0.9-0.2*j):.0f}" height="6" rx="3" fill="{RULE}"/>')
+        elif i == 1:
+            for j in range(4):
+                b.append(f'  <rect x="{x+14}" y="{fy+36+j*14}" width="{(w-28)*(0.95-0.15*j):.0f}" height="6" rx="3" fill="{RULE}"/>')
+            b.append(f'  <rect x="{x+14}" y="{fy+106}" width="96" height="30" rx="15" fill="{NEUT}" stroke="{INK}" stroke-width="1.2"/>')
+            b.append(t(x + 62, fy + 126, "Absenden", "s", "middle", f' style="fill:{INK}"'))
+            b.append(f'  <path d="M{x+92},{fy+128} l0,16 l4,-4 l4,8 l3,-1.5 l-4,-8 l6,0 Z" fill="{INK}"/>')
+            b.append(f'  <rect x="{x+124}" y="{fy+106}" width="{w-138}" height="30" rx="4" fill="{OCH_T}" stroke="{OCH}" stroke-width="1.5"/>')
+            b.append(t(x + 124 + (w - 138) / 2, fy + 126, "Reaktion", "s", "middle", f' style="fill:{INK}"'))
+            b.append(arrow(x + 112, fy + 121, x + 121, fy + 121, OCH, "ao", 1.5))
+        else:
+            b.append(f'  <rect x="{x+14}" y="{fy+34}" width="{w-28}" height="30" rx="15" fill="none" stroke="{LINE}" stroke-width="1.2" stroke-dasharray="4 3"/>')
+            b.append(t(x + w / 2, fy + 54, "hier wollten wir klicken", "s", "middle"))
+            b.append(f'  <rect x="{x+14}" y="{fy+72}" width="{w-28}" height="44" rx="4" fill="{TER_T}" stroke="{TER}" stroke-width="1.5"/>')
+            b.append(t(x + w / 2, fy + 99, "nachgeladenes Banner", "s", "middle", f' style="fill:{INK}"'))
+            b.append(f'  <rect x="{x+14}" y="{fy+124}" width="{w-28}" height="30" rx="15" fill="{NEUT}" stroke="{INK}" stroke-width="1.2"/>')
+            b.append(t(x + w / 2, fy + 144, "Schaltfläche", "s", "middle", f' style="fill:{INK}"'))
+            b.append(arrow(x + w - 22, fy + 66, x + w - 22, fy + 120, TER, "ar", 1.5))
+        b.append(lines(x, fy + 216, q, "d", "start", 18))
+    b.append(t(20, 340, "Konkrete Zielwerte legt Google fest und passt sie an; wir schlagen sie in der aktuellen Dokumentation nach.", "s"))
+    svg("core-web-vitals", 770, 352, "Die drei Core Web Vitals",
+        "Drei stilisierte Browserfenster. LCP, Largest Contentful Paint, Ladewahrnehmung: Ein großer Inhaltsblock ist hervorgehoben; Frage: Wann erscheint der größte sichtbare Inhalt? INP, Interaction to Next Paint, Reaktionsfähigkeit: Ein Klick auf Absenden führt zu einer sichtbaren Reaktion; Frage: Wie schnell reagiert die Seite sichtbar auf Eingaben? CLS, Cumulative Layout Shift, visuelle Stabilität: Ein nachgeladenes Banner schiebt eine Schaltfläche nach unten; Frage: Wie stark verrutschen Elemente ungewollt? Hinweis: Zielwerte in der aktuellen Dokumentation nachschlagen.",
+        "\n".join(b))
+
+
+# ------------------------------------------------------------ Suchintention
+def suchintention():
+    cards = [("Informieren", "etwas verstehen wollen", "was ist ein siebträger", "Ratgeber-Text", NEUT),
+             ("Navigieren", "eine bestimmte Seite ansteuern", "kaffeehaus müller login", "die gesuchte Seite", NEUT),
+             ("Kommerziell vergleichen", "Optionen abwägen", "siebträger oder vollautomat", "Vergleich", OCH_T),
+             ("Transaktional handeln", "kaufen oder buchen", "siebträger kaufen", "Produktseite", OCH_T)]
+    b = []
+    for i, (n, d, q, fmt, f) in enumerate(cards):
+        x = 20 + (i % 2) * 370; y = 16 + (i // 2) * 168; w = 360; h = 154
+        b.append(rect(x, y, w, h, f, INK, 1.25, 8))
+        b.append(t(x + 18, y + 30, n, "n")); b.append(t(x + 18, y + 50, d, "s"))
+        b.append(rect(x + 18, y + 64, w - 36, 32, PAPER, RULE, 1, 16))
+        b.append(f'  <circle cx="{x+36}" cy="{y+80}" r="5.5" fill="none" stroke="{SOFT}" stroke-width="1.5"/><line x1="{x+40}" y1="{y+84}" x2="{x+45}" y2="{y+89}" stroke="{SOFT}" stroke-width="1.5"/>')
+        b.append(t(x + 54, y + 85, q, "mono"))
+        b.append(t(x + 18, y + 128, "passendes Format:", "s")); b.append(t(x + 136, y + 128, fmt, "n", "start", ' style="font-size:14px"'))
+    b.append(t(20, 358, "Das Format folgt der Absicht, nicht umgekehrt. Beispielsuchen fiktiv.", "s"))
+    svg("suchintention", 770, 368, "Vier Suchintentionen",
+        "Vier Karten. Informieren, etwas verstehen wollen, Beispielsuche: was ist ein siebträger, passendes Format: Ratgeber-Text. Navigieren, eine bestimmte Seite ansteuern, Beispiel: kaffeehaus müller login, Format: die gesuchte Seite. Kommerziell vergleichen, Optionen abwägen, Beispiel: siebträger oder vollautomat, Format: Vergleich. Transaktional handeln, kaufen oder buchen, Beispiel: siebträger kaufen, Format: Produktseite.",
+        "\n".join(b))
+
+
+# ------------------------------------------------------------ Quality Score
+def quality_score():
+    b = []
+    stations = [(20, "Suchanfrage", "siebträger kaufen", True), (275, "Anzeige", "Siebträger vom Fachhändler", False), (530, "Zielseite", "/siebtraeger", True)]
+    for x, n, ex, mono in stations:
+        b.append(rect(x, 20, 220, 64, NEUT, INK, 1.25, 8))
+        b.append(t(x + 16, 44, n, "n"))
+        b.append(t(x + 16, 68, ex, "mono" if mono else "d"))
+    b.append(arrow(243, 52, 271, 52)); b.append(arrow(498, 52, 526, 52))
+    b.append(t(512, 40, "Klick", "s", "middle"))
+    comps = [(150, "Anzeigenrelevanz", "Passt der Anzeigentext zur Suche?", ["Begriffe aus dem Keyword", "im Anzeigentext, enge", "Anzeigengruppen"], (130, 262)),
+             (385, "Erwartete Klickrate", "Wie wahrscheinlich ist ein Klick?", ["Suchbegriff aufgreifen,", "klarer Nutzen, eindeutige", "Handlungsaufforderung"], (385, 385)),
+             (640, "Zielseiten-Erfahrung", "Hilft die Seite nach dem Klick?", ["schnell, übersichtlich,", "inhaltlich passend"], (640, 640))]
+    for cx0, n, q, lever, (fx1, fx2) in comps:
+        x = cx0 - 115
+        b.append(f'  <path d="M{fx1},92 L{fx1},104 L{fx2},104 L{fx2},92" fill="none" stroke="{OCH}" stroke-width="1.5"/>' if fx1 != fx2 else f'  <line x1="{fx1}" y1="92" x2="{fx1}" y2="104" stroke="{OCH}" stroke-width="1.5"/>')
+        b.append(f'  <line x1="{cx0}" y1="104" x2="{cx0}" y2="118" stroke="{OCH}" stroke-width="1.5"/>')
+        b.append(rect(x, 120, 230, 70, OCH_T, INK, 1.25, 8))
+        b.append(t(x + 14, 144, n, "n")); b.append(t(x + 14, 166, q, "s"))
+        b.append(t(x + 14, 216, "Hebel", "s", "start", ' style="font-weight:600"'))
+        b.append(lines(x + 14, 236, lever, "d", "start", 18))
+    b.append(rect(20, 300, 730, 40, "#f3f0e8", RULE, 1, 8))
+    b.append(t(36, 325, "Quality Score 1 bis 10: Diagnosewert. Wir verbessern die drei Komponenten, nicht die Zahl.", "d"))
+    svg("quality-score", 770, 352, "Drei Komponenten des Quality Score",
+        "Oben der Weg Suchanfrage (siebträger kaufen), Anzeige (Siebträger vom Fachhändler), nach dem Klick die Zielseite (/siebtraeger). Darunter drei Komponenten mit Hebeln: Anzeigenrelevanz zwischen Suche und Anzeige, Hebel: Begriffe aus dem Keyword im Anzeigentext, enge Anzeigengruppen. Erwartete Klickrate an der Anzeige, Hebel: Suchbegriff aufgreifen, klarer Nutzen, eindeutige Handlungsaufforderung. Zielseiten-Erfahrung, Hebel: schnell, übersichtlich, inhaltlich passend. Unten: Quality Score 1 bis 10 ist ein Diagnosewert; verbessert werden die Komponenten.",
+        "\n".join(b))
+
+
+# ---------------------------------------------------- Markenaufbau/Aktivierung
+def marke_aktivierung():
+    b = []
+    b.append(rect(20, 20, 360, 176, SLA_T, INK, 1.25, 8))
+    b.append(t(40, 50, "Markenaufbau", "h"))
+    b.append(lines(40, 80, ["wirkt langfristig", "spricht eine breite Zielgruppe an", "sorgt dafür, dass wir überhaupt", "in Erwägung gezogen werden"], "d", "start", 22))
+    b.append(rect(390, 20, 360, 176, OCH_T, INK, 1.25, 8))
+    b.append(t(410, 50, "Aktivierung", "h"))
+    b.append(lines(410, 80, ["wirkt kurzfristig", "spricht kaufbereite Kontakte an", "löst Handlungen aus, etwa", "Anfragen oder Anmeldungen"], "d", "start", 22))
+    b.append(t(20, 232, "Budget", "n"))
+    b.append(f'  <rect x="90" y="216" width="330" height="26" rx="4" fill="{C_BLUE}"/>')
+    b.append(f'  <rect x="422" y="216" width="328" height="26" rx="4" fill="{C_OCH}"/>')
+    b.append(t(255, 262, "Markenaufbau, ungefähr die Hälfte", "s", "middle", f' style="fill:{INK}"'))
+    b.append(t(586, 262, "Aktivierung, ungefähr die Hälfte", "s", "middle", f' style="fill:{INK}"'))
+    b.append(t(20, 296, "Orientierung aus untersuchten B2B-Kampagnen (Binet und Field), keine feste Regel. Kaufzyklus, Bekanntheit,", "s"))
+    b.append(t(20, 313, "Ziel und Messhorizont bestimmen die konkrete Aufteilung.", "s"))
+    svg("marke-aktivierung", 770, 326, "Markenaufbau und Aktivierung",
+        "Zwei Kästen. Markenaufbau: wirkt langfristig, spricht eine breite Zielgruppe an, sorgt dafür, dass wir in Erwägung gezogen werden. Aktivierung: wirkt kurzfristig, spricht kaufbereite Kontakte an, löst Handlungen wie Anfragen oder Anmeldungen aus. Darunter ein Budgetbalken, ungefähr hälftig geteilt. Hinweis: Orientierung aus untersuchten B2B-Kampagnen nach Binet und Field, keine feste Regel.",
+        "\n".join(b))
+
+
+# ---------------------------------------------------------------- GA4-Events
+def ga4_events():
+    b = []
+    b.append(t(20, 30, "Events", "h")); b.append(t(20, 48, "jede erfasste Handlung", "sub"))
+    ev = ["page_view", "scroll", "click", "file_download", "generate_lead", "purchase"]
+    for i, e in enumerate(ev):
+        y = 64 + i * 40; key = e in ("generate_lead", "purchase")
+        b.append(rect(20, y, 180, 30, OCH_T if key else NEUT, OCH if key else LINE, 1.5 if key else 1, 15))
+        b.append(t(36, y + 20, e, "mono"))
+    b.append(t(250, 30, "Parameter", "h")); b.append(t(250, 48, "liefern den Kontext", "sub"))
+    b.append(rect(250, 264, 250, 72, PAPER, INK, 1.25, 8))
+    b.append(t(264, 286, "purchase", "mono")); b.append(t(264, 306, "Bestellwert: 89 €", "d")); b.append(t(264, 326, "Artikel: Mahlwerk", "d"))
+    b.append(rect(250, 184, 250, 72, PAPER, INK, 1.25, 8))
+    b.append(t(264, 206, "generate_lead", "mono")); b.append(t(264, 226, "Formular: Kontakt", "d")); b.append(t(264, 246, "Seite: /beratung", "d"))
+    b.append(arrow(203, 239, 246, 222)); b.append(arrow(203, 279, 246, 296))
+    b.append(t(250, 90, "Ein Event nennt die Art", "d")); b.append(t(250, 108, "der Handlung, Parameter", "d")); b.append(t(250, 126, "beschreiben sie genauer.", "d"))
+    b.append(t(550, 30, "Schlüsselereignisse", "h")); b.append(t(550, 48, "bewusst markierte Zielhandlungen", "sub"))
+    b.append(rect(550, 184, 200, 152, OCH_T, INK, 1.5, 8))
+    b.append(t(566, 210, "Anfrage", "n")); b.append(t(566, 230, "aus generate_lead", "s"))
+    b.append(t(566, 268, "Kauf", "n")); b.append(t(566, 288, "aus purchase", "s"))
+    b.append(t(566, 322, "Steuerungsgrößen", "s", "start", f' style="font-weight:600;fill:{OCH}"'))
+    b.append(arrow(503, 260, 546, 260, OCH, "ao"))
+    svg("ga4-events", 770, 350, "Vom Event zum Schlüsselereignis in GA4",
+        "Links sechs Events: page_view, scroll, click, file_download, generate_lead, purchase; die letzten beiden sind hervorgehoben. In der Mitte Beispiele für Parameter: generate_lead mit Formular Kontakt und Seite /beratung, purchase mit Bestellwert 89 Euro und Artikel Mahlwerk. Rechts die Schlüsselereignisse Anfrage und Kauf als Steuerungsgrößen. Fiktive Werte.",
+        "\n".join(b))
+
+
+# --------------------------------------------------------------- Prompting
+def prompt_bausteine():
+    b = []
+    parts = [("Rolle", "Verhalte dich als erfahrene SEO-Beraterin.", C_BLUE),
+             ("Aufgabe", "Bewerte den folgenden Seitentitel und schlage", C_OCH),
+             (None, "drei Alternativen mit höchstens 60 Zeichen vor.", C_OCH),
+             ("Kontext", "<kontext> Fachhandel für Siebträger, Zielgruppe:", "#6b7a52"),
+             (None, "Einsteiger mit kleinem Budget </kontext>", "#6b7a52"),
+             ("Beispiel", "Orientiere dich an diesem Stil:", TER),
+             (None, "„Siebträger für Einsteiger: ehrlich verglichen“", TER)]
+    b.append(rect(20, 16, 730, 260, PAPER, INK, 1.25, 10))
+    b.append(t(40, 44, "Prompt", "s", "start", ' style="font-weight:600"'))
+    y = 78
+    for lab, line, col in parts:
+        if lab:
+            y += 8
+            b.append(t(40, y, lab, "n", "start", f' style="fill:{col}"'))
+        b.append(f'  <rect x="160" y="{y-15}" width="4" height="22" fill="{col}"/>')
+        b.append(t(176, y, line, "mono", "start", ' style="font-size:14px"'))
+        y += 26
+    b.append(t(20, 304, "Vier Bausteine: klare Aufgabe, Rolle, abgegrenzter Kontext, Beispiel im Zielstil. Beispiel fiktiv.", "s"))
+    svg("prompt-bausteine", 770, 316, "Vier Bausteine eines Prompts",
+        "Ein Beispielprompt, dessen Zeilen links nach Baustein markiert sind. Rolle: Verhalte dich als erfahrene SEO-Beraterin. Aufgabe: Bewerte den folgenden Seitentitel und schlage drei Alternativen mit höchstens 60 Zeichen vor. Kontext in Kontext-Tags: Fachhandel für Siebträger, Zielgruppe Einsteiger mit kleinem Budget. Beispiel: Orientiere dich an diesem Stil, gefolgt von einem Mustertitel.",
+        "\n".join(b))
+
+
+# ------------------------------------------------------------------ COMPASS
+def compass():
+    comps = [("C", "Context", "Kontext", 0), ("O", "Objective", "Ziel", 0), ("M", "Mode", "Rolle/Modus", 1),
+             ("P", "People of Interest", "Zielgruppe", 1), ("A", "Attitude", "Tonfall", 2), ("S", "Style", "Stil", 2),
+             ("S", "Specifications", "Spezifikationen", 3)]
+    groups = [("Fundament", "worum es geht", OCH_T), ("Perspektive", "wer spricht, für wen", SLA_T),
+              ("Klang", "wie es klingt", NEUT), ("Rahmen", "Regeln, Grenzen", TER_T)]
+    b = []
+    w = 100; gap = 5; x0 = 20
+    xs = [x0 + i * (w + gap) for i in range(7)]
+    spans = {0: (0, 1), 1: (2, 3), 2: (4, 5), 3: (6, 6)}
+    for g, (a, e) in spans.items():
+        gx1, gx2 = xs[a], xs[e] + w
+        b.append(f'  <path d="M{gx1},34 L{gx1},28 L{gx2},28 L{gx2},34" fill="none" stroke="{SOFT}" stroke-width="1.2"/>')
+        b.append(t((gx1 + gx2) / 2, 20, groups[g][0], "s", "middle", ' style="font-weight:600"'))
+    for i, (L, en, de, g) in enumerate(comps):
+        x = xs[i]
+        b.append(rect(x, 44, w, 150, groups[g][2], INK, 1.25, 8))
+        b.append(t(x + w / 2, 104, L, "big", "middle", ' style="font-size:44px"'))
+        enl = en.split(" ") if len(en) > 12 else [en]
+        if len(enl) > 1:
+            enl = [" ".join(enl[:1]), " ".join(enl[1:])]
+        b.append(lines(x + w / 2, 140, enl, "n", "middle", 17) if en != "Specifications" else t(x + w / 2, 140, en, "n", "middle", ' style="font-size:13px"'))
+        b.append(t(x + w / 2, 140 + 17 * len(enl) + 4, de, "s", "middle"))
+    for g, (a, e) in spans.items():
+        b.append(t((xs[a] + xs[e] + w) / 2, 216, groups[g][1], "s", "middle"))
+    b.append(t(20, 250, "Bei kurzen Fragen genügen oft Kontext und Ziel. Je sichtbarer das Ergebnis, desto vollständiger die Liste.", "d"))
+    svg("compass", 760, 262, "Die sieben Komponenten von COMPASS",
+        "Sieben Kacheln mit den Buchstaben C O M P A S S: Context (Kontext), Objective (Ziel), Mode (Rolle oder Modus), People of Interest (Zielgruppe), Attitude (Tonfall), Style (Stil), Specifications (Spezifikationen). Gruppiert in Fundament (Context, Objective), Perspektive (Mode, People of Interest), Klang (Attitude, Style) und Rahmen (Specifications). Hinweis: Bei kurzen Fragen genügen oft Kontext und Ziel.",
+        "\n".join(b))
+
+
+# ---------------------------------------------------------- Chat bis Agent
+def chat_agent():
+    b = []
+    cols = [("Chat", "einzelne Prompts in einem KI-Fenster", ["Anzeige in fünf", "Varianten texten"], 0),
+            ("Assistent", "Anweisungen direkt im Programm", ["In Word einen", "Berichtsentwurf erstellen"], 1),
+            ("Agent", "Ziel vorgeben, Teilschritte laufen selbst", ["Meeting vorbereiten", "lassen"], 2)]
+    for x, (n, d, ex, i) in zip([20, 270, 520], cols):
+        top = 150 - i * 50
+        b.append(rect(x, top, 230, 314 - top, [NEUT, SLA_T, OCH_T][i], INK, 1.25, 8))
+        b.append(t(x + 16, top + 28, n, "h"))
+        dl = d.split(", ") if ", " in d else [d]
+        words = d.split(" "); half = (len(words) + 1) // 2
+        b.append(lines(x + 16, top + 50, [" ".join(words[:half]), " ".join(words[half:])], "s", "start", 16))
+        b.append(t(x + 16, 262, "Beispiel", "s", "start", ' style="font-weight:600"'))
+        b.append(lines(x + 16, 280, ex, "d", "start", 18))
+    # Agentenschleife
+    loop = ["Teilschritte planen", "mit Werkzeugen ausführen", "Entwurf zur Freigabe"]
+    for j, s in enumerate(loop):
+        yy = 150 + j * 28
+        b.append(rect(536, yy - 16, 198, 24, PAPER, OCH, 1.2, 12))
+        b.append(t(548, yy, s, "s", "start", f' style="fill:{INK}"'))
+    b.append(arrow(20, 344, 750, 344, SOFT, "ar", 1.2))
+    b.append(t(20, 364, "mehr Autonomie", "s", "start", ' style="font-weight:600"'))
+    b.append(t(750, 364, "mehr Aufsicht: prüfen, Rechte begrenzen, Verantwortung bleibt bei uns", "s", "end", f' style="font-weight:600;fill:{TER}"'))
+    svg("chat-assistent-agent", 770, 376, "Chat, Assistent, Agent",
+        "Drei ansteigende Stufen. Chat: einzelne Prompts in einem KI-Fenster, Beispiel Anzeige in fünf Varianten texten. Assistent: Anweisungen direkt im Programm, Beispiel in Word einen Berichtsentwurf erstellen. Agent: Ziel vorgeben, Teilschritte laufen selbst, mit den Schritten Teilschritte planen, mit Werkzeugen ausführen, Entwurf zur Freigabe; Beispiel Meeting vorbereiten lassen. Ein Pfeil darunter: mehr Autonomie verlangt mehr Aufsicht, die Verantwortung bleibt bei uns.",
+        "\n".join(b))
+
+
+# -------------------------------------------------------- Einwilligung Tracking
+def einwilligung():
+    b = []
+    b.append(rect(235, 14, 300, 50, NEUT, INK, 1.25, 8))
+    b.append(t(385, 36, "Informationen auf dem Endgerät", "n", "middle")); b.append(t(385, 55, "speichern oder auslesen", "s", "middle"))
+    b.append(arrow(385, 66, 385, 88))
+    b.append(f'  <path d="M385,92 L535,130 L385,168 L235,130 Z" fill="{PAPER}" stroke="{INK}" stroke-width="1.25"/>')
+    b.append(t(385, 126, "unbedingt erforderlich für den", "s", "middle", f' style="fill:{INK}"'))
+    b.append(t(385, 142, "ausdrücklich gewünschten Dienst?", "s", "middle", f' style="fill:{INK}"'))
+    b.append(f'  <path d="M235,130 L130,130 L130,196" fill="none" stroke="{LINE}" stroke-width="1.5" marker-end="url(#ar)"/>')
+    b.append(t(182, 122, "ja", "s", "middle", ' style="font-weight:600"'))
+    b.append(f'  <path d="M535,130 L640,130 L640,196" fill="none" stroke="{LINE}" stroke-width="1.5" marker-end="url(#ar)"/>')
+    b.append(t(588, 122, "nein", "s", "middle", ' style="font-weight:600"'))
+    b.append(rect(20, 200, 220, 80, SLA_T, INK, 1.25, 8))
+    b.append(t(36, 226, "ohne Einwilligung zulässig", "n", "start", ' style="font-size:14px"'))
+    b.append(t(36, 248, "z. B. Warenkorb im Shop", "d")); b.append(t(36, 268, "§ 25 TDDDG", "s"))
+    b.append(rect(460, 200, 290, 80, TER_T, INK, 1.25, 8))
+    b.append(t(476, 226, "Einwilligung nötig", "n", "start", ' style="font-size:14px"'))
+    b.append(t(476, 248, "z. B. Reichweitenmessung,", "d")); b.append(t(476, 268, "Werbe-Cookies", "d"))
+    b.append(arrow(605, 282, 605, 304))
+    b.append(rect(460, 308, 290, 148, PAPER, INK, 1.25, 8))
+    b.append(t(476, 332, "Wirksam einwilligen lassen", "n", "start", ' style="font-size:14px"'))
+    req = [("aktive Handlung, kein vorangekreuztes", "Kästchen (EuGH, Planet49)", None),
+           ("Ablehnen so einfach wie Zustimmen,", "Widerruf so leicht wie Zustimmung", "(EDSA, DSK)")]
+    yy = 354
+    for a1, a2, a3 in req:
+        b.append(f'  <circle cx="{481}" cy="{yy-4}" r="2.5" fill="{TER}"/>')
+        b.append(t(490, yy, a1, "s", "start", f' style="fill:{DESC}"')); b.append(t(490, yy + 16, a2, "s", "start", f' style="fill:{DESC}"'))
+        if a3:
+            b.append(t(490, yy + 32, a3, "s", "start", f' style="fill:{DESC}"'))
+        yy += 40
+    b.append(rect(20, 308, 420, 148, "#f3f0e8", RULE, 1, 8))
+    b.append(t(36, 332, "Consent-Management-Lösung", "n", "start", ' style="font-size:14px"'))
+    b.append(lines(36, 354, ["protokolliert die Entscheidungen", "und steuert, welche Werkzeuge", "überhaupt laden"], "d", "start", 19))
+    b.append(arrow(456, 374, 444, 374, LINE, "ar", 1.5))
+    b.append(t(20, 482, "Vereinfachte Übersicht nach dem Kapiteltext; die DSGVO gilt daneben weiter.", "s"))
+    svg("einwilligung-tracking", 770, 494, "Einwilligung beim Tracking",
+        "Entscheidungsweg: Werden Informationen auf dem Endgerät gespeichert oder ausgelesen, fragt sich, ob das für den ausdrücklich gewünschten Dienst unbedingt erforderlich ist. Ja: ohne Einwilligung zulässig, zum Beispiel der Warenkorb im Shop, Paragraf 25 TDDDG. Nein: Einwilligung nötig, zum Beispiel Reichweitenmessung und Werbe-Cookies. Wirksam wird sie durch eine aktive Handlung ohne vorangekreuztes Kästchen (EuGH, Planet49); Ablehnen muss so einfach sein wie Zustimmen und der Widerruf so leicht wie die Zustimmung (EDSA, DSK). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge laden. Vereinfachte Übersicht; die DSGVO gilt daneben weiter.",
+        "\n".join(b))
+
+
+ALL = [kundenreise, planungsprozess, werbemarkt, empathy, bmc, stp, kennzahlenbaum, anzeigenrang, kampagne, kostenbezug, attribution,
+       marketing_mix, positionierung, core_web_vitals, suchintention, quality_score, marke_aktivierung, ga4_events,
+       prompt_bausteine, compass, chat_agent, einwilligung]
+
+if __name__ == "__main__":
+    for f in ALL:
+        f()

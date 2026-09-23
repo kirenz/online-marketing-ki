@@ -72,6 +72,14 @@ Das Bild der Fachmesse macht den Charakter der Plattform greifbar. Auf einer Mes
 Zwei Aufgaben, die sich ergänzen. Markenaufbau wirkt langfristig und breit und sorgt dafür, dass ein Anbieter überhaupt in die engere Wahl kommt. Aktivierung wirkt kurzfristig und spricht die an, die schon kaufbereit sind. Wer nur auf kurzfristige Abschlüsse optimiert, kann langfristigen Markenaufbau vernachlässigen; die Wirkung hängt vom jeweiligen Markt und der Ausgangslage ab.
 :::
 
+## Markenaufbau und Aktivierung erfüllen verschiedene Aufgaben
+
+![](../images/marke-aktivierung.svg){fig-alt="Markenaufbau und Aktivierung mit einem ungefähr hälftig geteilten Budgetbalken" width="1000px"}
+
+::: {.notes}
+Markenaufbau sorgt dafür, überhaupt in Erwägung gezogen zu werden; Aktivierung löst konkrete Handlungen aus. Die ungefähr hälftige Aufteilung stammt aus untersuchten B2B-Kampagnen von Binet und Field. Sie ist eine Orientierung, keine feste Regel.
+:::
+
 ## B2B-Orientierung, keine feste Regel
 
 :::: {.big-stat .zoom-in-bounce}
