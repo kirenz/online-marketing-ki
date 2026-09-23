@@ -756,7 +756,8 @@ def einwilligung():
     b.append(rect(460, 308, 290, 148, PAPER, INK, 1.25, 8))
     b.append(t(476, 332, "Wirksam einwilligen lassen", "n", "start", ' style="font-size:14px"'))
     req = [("aktive Handlung, kein vorangekreuztes", "Kästchen (EuGH, Planet49)", None),
-           ("Ablehnen so einfach wie Zustimmen,", "Widerruf so leicht wie Zustimmung", "(EDSA, DSK)")]
+           ("Ablehnen so einfach wie Zustimmen", "(EDSA, DSK)", None),
+           ("Widerruf so leicht wie Zustimmung", "(Art. 7 Abs. 3 DSGVO)", None)]
     yy = 354
     for a1, a2, a3 in req:
         b.append(f'  <circle cx="{481}" cy="{yy-4}" r="2.5" fill="{TER}"/>')
@@ -770,7 +771,7 @@ def einwilligung():
     b.append(arrow(456, 374, 444, 374, LINE, "ar", 1.5))
     b.append(t(20, 482, "Vereinfachte Übersicht nach dem Kapiteltext; die DSGVO gilt daneben weiter.", "s"))
     svg("einwilligung-tracking", 770, 494, "Einwilligung beim Tracking",
-        "Entscheidungsweg: Werden Informationen auf dem Endgerät gespeichert oder ausgelesen, fragt sich, ob das für den ausdrücklich gewünschten Dienst unbedingt erforderlich ist. Ja: ohne Einwilligung zulässig, zum Beispiel der Warenkorb im Shop, Paragraf 25 TDDDG. Nein: Einwilligung nötig, zum Beispiel Reichweitenmessung und Werbe-Cookies. Wirksam wird sie durch eine aktive Handlung ohne vorangekreuztes Kästchen (EuGH, Planet49); Ablehnen muss so einfach sein wie Zustimmen und der Widerruf so leicht wie die Zustimmung (EDSA, DSK). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge laden. Vereinfachte Übersicht; die DSGVO gilt daneben weiter.",
+        "Entscheidungsweg: Werden Informationen auf dem Endgerät gespeichert oder ausgelesen, fragt sich, ob das für den ausdrücklich gewünschten Dienst unbedingt erforderlich ist. Ja: ohne Einwilligung zulässig, zum Beispiel der Warenkorb im Shop, Paragraf 25 TDDDG. Nein: Einwilligung nötig, zum Beispiel Reichweitenmessung und Werbe-Cookies. Wirksam wird sie durch eine aktive Handlung ohne vorangekreuztes Kästchen (EuGH, Planet49); Ablehnen muss so einfach sein wie Zustimmen (EDSA, DSK), der Widerruf so leicht wie die Zustimmung (Art. 7 Abs. 3 DSGVO). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge laden. Vereinfachte Übersicht; die DSGVO gilt daneben weiter.",
         "\n".join(b))
 
 

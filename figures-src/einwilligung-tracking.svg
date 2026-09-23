@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 494" role="img" aria-labelledby="t d">
   <title id="t">Einwilligung beim Tracking</title>
-  <desc id="d">Entscheidungsweg: Werden Informationen auf dem Endgerät gespeichert oder ausgelesen, fragt sich, ob das für den ausdrücklich gewünschten Dienst unbedingt erforderlich ist. Ja: ohne Einwilligung zulässig, zum Beispiel der Warenkorb im Shop, Paragraf 25 TDDDG. Nein: Einwilligung nötig, zum Beispiel Reichweitenmessung und Werbe-Cookies. Wirksam wird sie durch eine aktive Handlung ohne vorangekreuztes Kästchen (EuGH, Planet49); Ablehnen muss so einfach sein wie Zustimmen und der Widerruf so leicht wie die Zustimmung (EDSA, DSK). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge laden. Vereinfachte Übersicht; die DSGVO gilt daneben weiter.</desc>
+  <desc id="d">Entscheidungsweg: Werden Informationen auf dem Endgerät gespeichert oder ausgelesen, fragt sich, ob das für den ausdrücklich gewünschten Dienst unbedingt erforderlich ist. Ja: ohne Einwilligung zulässig, zum Beispiel der Warenkorb im Shop, Paragraf 25 TDDDG. Nein: Einwilligung nötig, zum Beispiel Reichweitenmessung und Werbe-Cookies. Wirksam wird sie durch eine aktive Handlung ohne vorangekreuztes Kästchen (EuGH, Planet49); Ablehnen muss so einfach sein wie Zustimmen (EDSA, DSK), der Widerruf so leicht wie die Zustimmung (Art. 7 Abs. 3 DSGVO). Eine Consent-Management-Lösung protokolliert die Entscheidungen und steuert, welche Werkzeuge laden. Vereinfachte Übersicht; die DSGVO gilt daneben weiter.</desc>
   <style>
     /*@FONT@*/
     text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
@@ -44,9 +44,11 @@
   <text class="s" x="490" y="354" text-anchor="start" style="fill:#3d4255">aktive Handlung, kein vorangekreuztes</text>
   <text class="s" x="490" y="370" text-anchor="start" style="fill:#3d4255">Kästchen (EuGH, Planet49)</text>
   <circle cx="481" cy="390" r="2.5" fill="#b85a3a"/>
-  <text class="s" x="490" y="394" text-anchor="start" style="fill:#3d4255">Ablehnen so einfach wie Zustimmen,</text>
-  <text class="s" x="490" y="410" text-anchor="start" style="fill:#3d4255">Widerruf so leicht wie Zustimmung</text>
-  <text class="s" x="490" y="426" text-anchor="start" style="fill:#3d4255">(EDSA, DSK)</text>
+  <text class="s" x="490" y="394" text-anchor="start" style="fill:#3d4255">Ablehnen so einfach wie Zustimmen</text>
+  <text class="s" x="490" y="410" text-anchor="start" style="fill:#3d4255">(EDSA, DSK)</text>
+  <circle cx="481" cy="430" r="2.5" fill="#b85a3a"/>
+  <text class="s" x="490" y="434" text-anchor="start" style="fill:#3d4255">Widerruf so leicht wie Zustimmung</text>
+  <text class="s" x="490" y="450" text-anchor="start" style="fill:#3d4255">(Art. 7 Abs. 3 DSGVO)</text>
   <rect x="20" y="308" width="420" height="148" rx="8" fill="#f3f0e8" stroke="#e2dfd6" stroke-width="1"/>
   <text class="n" x="36" y="332" text-anchor="start" style="font-size:14px">Consent-Management-Lösung</text>
   <text class="d" x="36" y="354" text-anchor="start">protokolliert die Entscheidungen</text>
