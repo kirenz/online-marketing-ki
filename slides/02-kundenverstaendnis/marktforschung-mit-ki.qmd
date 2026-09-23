@@ -408,7 +408,7 @@ Der Forschungsprozess bleibt derselbe. KI beschleunigt Recherche, Fragebogenentw
 :::: {.columns}
 
 ::: {.column width="30%"}
-![](../images/section-background.svg)
+![](../images/hero-marktforschung-mit-ki.png)
 :::
 
 ::: {.column width="70%"}
