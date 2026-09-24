@@ -32,6 +32,10 @@ Besonders Reziprozität ist der rote Faden zur vorigen Lesson: Wer zuerst nützl
 Ein kostenloser Leitfaden oder eine brauchbare Vorlage kostet uns wenig, erzeugt aber ein echtes Gefühl der Gegenleistung. Genau deshalb steht der Lead-Magnet aus der Content-Strategie und das Prinzip der Reziprozität so eng beieinander.
 :::
 
+::: {.callout-note title="Vertiefung: Video und Studie"}
+Cialdini erklärt die Prinzipien selbst in einem [Video auf YouTube](https://www.youtube.com/watch?v=cFdCzN7RYbw). Eine Studie von Google und The Behavioural Architects zur „Messy Middle“, der Phase zwischen erstem Impuls und Kauf, hat mehrere dieser Prinzipien in Kaufentscheidungen getestet und bestätigt, darunter Social Proof, Knappheit und Autorität. Bewertungen anderer Kundinnen und Kunden wirkten dabei fast immer am stärksten ([Studie „Decoding Decisions“](https://www.thinkwithgoogle.com/_qs/documents/9998/Decoding_Decisions_The_Messy_Middle_of_Purchase_Behavior.pdf)).
+:::
+
 ## Wirksamkeit endet an der Ethik
 
 Die Prinzipien sind wirkungsvoll, und genau deshalb tragen wir Verantwortung. Knappheit, die nur vorgetäuscht ist, oder Social Proof mit erfundenen Bewertungen mögen kurzfristig wirken, untergraben aber das Vertrauen, das Content-Marketing überhaupt erst aufbaut. Cialdini unterscheidet darum klar zwischen Überzeugung, die auf echten Stärken beruht, und Manipulation, die mit falschen Signalen arbeitet.

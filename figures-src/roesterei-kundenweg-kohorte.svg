@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 348" role="img" aria-labelledby="t d">
+  <title id="t">Kundenweg einer Kohorte der Rösterei Morgenrot</title>
+  <desc id="d">Fünf Stationen mit Balken: K1 erster Shopbesuch 200 Personen, K2 Sortenseite angesehen 120 (60 Prozent von K1, 80 verlassen den Weg), K3 Bestellvorgang begonnen 40 (33,3 Prozent von K2, 80 verlassen den Weg), K4 erste Bestellung bezahlt 20 (50 Prozent von K3, 20 verlassen den Weg), K5 weitere Bestellung oder Abo in 30 Tagen ab Erstkauf 8 (40 Prozent von K4, 12 ohne Wiederkauf). Erfundene Übungszahlen.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="348" fill="#faf9f4"/>
+  <text class="s" x="20" y="30" text-anchor="start">Station</text>
+  <text class="s" x="330" y="30" text-anchor="start">Personen</text>
+  <text class="s" x="750" y="30" text-anchor="end">Übergang</text>
+  <line x1="20" y1="42" x2="750" y2="42" stroke="#e2dfd6" stroke-width="1.5"/>
+  <rect x="20" y="62" width="40" height="30" rx="6" fill="#e6e9ef" stroke="#3f63a8" stroke-width="1.25"/>
+  <text class="n" x="40" y="82" text-anchor="middle" style="fill:#3f63a8">K1</text>
+  <text class="d" x="74" y="74" text-anchor="start">Erster Shopbesuch,</text>
+  <text class="d" x="74" y="92" text-anchor="start">1. bis 7. März</text>
+  <rect x="330" y="64" width="260" height="26" rx="4" fill="#3f63a8"/>
+  <text class="n" x="600" y="83" text-anchor="start">200</text>
+  <rect x="20" y="114" width="40" height="30" rx="6" fill="#e6e9ef" stroke="#3f63a8" stroke-width="1.25"/>
+  <text class="n" x="40" y="134" text-anchor="middle" style="fill:#3f63a8">K2</text>
+  <text class="d" x="74" y="126" text-anchor="start">Sortenseite angesehen</text>
+  <text class="d" x="74" y="144" text-anchor="start">(14 Tage)</text>
+  <rect x="330" y="116" width="156" height="26" rx="4" fill="#3f63a8"/>
+  <text class="n" x="496" y="135" text-anchor="start">120</text>
+  <text class="n" x="750" y="126" text-anchor="end">60 % von K1</text>
+  <text class="s" x="750" y="144" text-anchor="end" style="fill:#b85a3a">80 verlassen den Weg</text>
+  <rect x="20" y="166" width="40" height="30" rx="6" fill="#e6e9ef" stroke="#3f63a8" stroke-width="1.25"/>
+  <text class="n" x="40" y="186" text-anchor="middle" style="fill:#3f63a8">K3</text>
+  <text class="d" x="74" y="178" text-anchor="start">Bestellvorgang begonnen</text>
+  <text class="d" x="74" y="196" text-anchor="start">(14 Tage)</text>
+  <rect x="330" y="168" width="52" height="26" rx="4" fill="#3f63a8"/>
+  <text class="n" x="392" y="187" text-anchor="start">40</text>
+  <text class="n" x="750" y="178" text-anchor="end">33,3 % von K2</text>
+  <text class="s" x="750" y="196" text-anchor="end" style="fill:#b85a3a">80 verlassen den Weg</text>
+  <rect x="20" y="218" width="40" height="30" rx="6" fill="#e6e9ef" stroke="#3f63a8" stroke-width="1.25"/>
+  <text class="n" x="40" y="238" text-anchor="middle" style="fill:#3f63a8">K4</text>
+  <text class="d" x="74" y="230" text-anchor="start">Erste Bestellung bezahlt</text>
+  <text class="d" x="74" y="248" text-anchor="start">(14 Tage)</text>
+  <rect x="330" y="220" width="26" height="26" rx="4" fill="#3f63a8"/>
+  <text class="n" x="366" y="239" text-anchor="start">20</text>
+  <text class="n" x="750" y="230" text-anchor="end">50 % von K3</text>
+  <text class="s" x="750" y="248" text-anchor="end" style="fill:#b85a3a">20 verlassen den Weg</text>
+  <rect x="20" y="270" width="40" height="30" rx="6" fill="#e6e9ef" stroke="#3f63a8" stroke-width="1.25"/>
+  <text class="n" x="40" y="290" text-anchor="middle" style="fill:#3f63a8">K5</text>
+  <text class="d" x="74" y="282" text-anchor="start">Weitere Bestellung oder Abo</text>
+  <text class="d" x="74" y="300" text-anchor="start">(30 Tage ab Erstkauf)</text>
+  <rect x="330" y="272" width="10.4" height="26" rx="4" fill="#3f63a8"/>
+  <text class="n" x="350.4" y="291" text-anchor="start">8</text>
+  <text class="n" x="750" y="282" text-anchor="end">40 % von K4</text>
+  <text class="s" x="750" y="300" text-anchor="end" style="fill:#b85a3a">12 ohne Wiederkauf</text>
+  <text class="s" x="20" y="334" text-anchor="start">Erfundene Übungszahlen. Jede Quote bezieht sich auf die Station davor.</text>
+</svg>

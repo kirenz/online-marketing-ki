@@ -26,6 +26,10 @@ Im Kapitel zum Marketingbegriff haben wir die Kundenreise als Folge von Statione
 
 Eine Übergangsquote braucht drei Angaben: einen Zähler, einen Nenner und einen Zeitraum. Vom ersten Besuch zur Sortenseite gelangen 120 von 200 Personen innerhalb von 14 Tagen, das sind 60 Prozent. Gezählt werden Personen, keine Seitenaufrufe. Wer eine Sortenseite fünfmal öffnet, zählt einmal. Beim Wiederkauf ändert sich der Bezugspunkt. Er wird ab dem Erstkauf beobachtet und auf die Erstkäufer bezogen, nicht auf alle 200 Besucher.
 
+In @fig-kohorte-kundenweg sehen wir alle Übergänge der Kohorte. Zwischen K1 und K2 sowie zwischen K2 und K3 gehen je 80 Personen verloren. Relativ ist der zweite Verlust größer, denn dort steigen zwei Drittel aus.
+
+![Der Kundenweg der Übungskohorte: Jede Quote bezieht sich auf die Station davor.](../images/roesterei-kundenweg-kohorte.svg){#fig-kohorte-kundenweg fig-alt="Fünf Stationen mit Balken: K1 erster Shopbesuch 200 Personen, K2 Sortenseite angesehen 120 (60 Prozent von K1, 80 verlassen den Weg), K3 Bestellvorgang begonnen 40 (33,3 Prozent von K2, 80 verlassen den Weg), K4 erste Bestellung bezahlt 20 (50 Prozent von K3, 20 verlassen den Weg), K5 weitere Bestellung oder Abo in 30 Tagen ab Erstkauf 8 (40 Prozent von K4, 12 ohne Wiederkauf)."}
+
 ::: {.callout-important title="Der größte Verlust ist nicht automatisch der beste Ansatzpunkt"}
 Die Tabelle zeigt, wo Menschen den Weg verlassen. Sie zeigt nicht, warum. Vielleicht fehlen Informationen, vielleicht passt der Preis nicht, vielleicht kauft jemand später im Supermarkt. Ob wir den größten Verlust absolut oder relativ messen, verändert zudem die Rangfolge. Für die Wahl des Ansatzpunkts zählen deshalb auch die vermutete Ursache, die Kosten einer Änderung und der mögliche Beitrag zum Ergebnis.
 :::
@@ -50,7 +54,13 @@ Die Reihenfolge der Buchstaben ist kein fester Ablauf. Eine Empfehlung kann vor 
 
 Ein Trichter läuft in eine Richtung: Oben kommen Menschen hinein, unten kommen Kunden heraus. Ein Growth Loop beschreibt dagegen einen Mechanismus, bei dem das Ergebnis eines Durchlaufs zum Eingang des nächsten wird [@balfour2018]. Bei Morgenrot wäre ein Empfehlungskreislauf denkbar: Eine zufriedene Abo-Kundin empfiehlt die Rösterei, daraus entsteht ein Erstkontakt, ein Kauf und vielleicht die nächste Empfehlung. Ein zweites Beispiel ist ein Inhaltekreislauf: Zubereitungsanleitungen werden über Suchmaschinen gefunden und bringen neue Besucher, von denen einige kaufen. Ob ein solcher Loop bei Morgenrot existiert und wie stark er ist, wissen wir nicht. Empfehlungen können ausbleiben und kosten Aufwand.
 
+![Trichter und Growth Loop: Im Loop wird das Ergebnis eines Durchlaufs zum Eingang des nächsten.](../images/roesterei-growthloop.svg){#fig-trichter-loop fig-alt="Links ein Trichter mit drei Stufen, Erstbesuch, Erstkauf, Wiederkauf oder Abo, darunter: mehr Ergebnis braucht mehr Eingang. Rechts ein Empfehlungskreislauf: Kundin mit Abo, Empfehlung, Erstkontakt, Kauf oder Abo, und ein gestrichelter Pfeil zurück zur Kundin mit Abo. Ob dieser Kreislauf bei Morgenrot trägt, ist offen."}
+
 Der Experimentzyklus beschreibt etwas anderes, nämlich die Arbeit des Teams. @ellis2017 gliedern ihn in vier Schritte: Daten analysieren, Ideen sammeln, Ideen priorisieren und testen. Aus jedem Test entsteht Wissen, das in die nächste Runde einfließt.
+
+Feiner gegliedert beschreiben wir den Zyklus in sieben Stufen: Frage, Plan, Daten, Analyse, Report, Aktion und Evaluation (@fig-experimentzyklus). Bei Morgenrot beginnt er mit der Frage, warum nur 8 von 20 Erstkäufern erneut bestellen. Aus der Evaluation entsteht die nächste Frage, deshalb schließt sich der Kreis.
+
+![Der Experimentzyklus in sieben Stufen am Beispiel der Rösterei.](../images/roesterei-experimentzyklus.svg){#fig-experimentzyklus fig-alt="Links ein Kreis aus sieben Stufen: Frage, Plan, Daten, Analyse, Report, Aktion, Evaluation, ein gestrichelter Pfeil führt zurück zur Frage. Rechts je Stufe das Beispiel Morgenrot: Warum bestellen nur 8 von 20 Erstkäufern erneut? Plan mit Zubereitungshilfe, Zufallsgruppen, Entscheidungsregel und Leitplanke; Wiederkauf in 30 Tagen je Erstkäufer erheben; Wiederkaufquote je Gruppe vergleichen; Schlüsse mit Fallzahl und Grenzen mitteilen; nach der Regel handeln; weiter beobachten und die nächste Frage ableiten."}
 
 | | Growth Loop | Experimentzyklus |
 |---|---|---|

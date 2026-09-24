@@ -64,12 +64,12 @@ Quelle: @hollebeek2019
 Das Format ist nie der erste Schritt. Zuerst steht die Funktion im Kundenprozess, dann das passende Gefäß. Frühe Phasen verlangen Erklärung, späte Phasen verlangen Belege und konkrete Handlungsangebote.
 :::
 
-## Die Speisekarte {.stage background-color="#0a0a0f" data-kicker="Analogie"}
+## Merksatz {.stage background-color="#0a0a0f" data-kicker="Content je Phase"}
 
-Ein gutes Content-Angebot ist wie eine durchdachte Speisekarte: ein Appetithappen für Neugierige, ein Hauptgang für Entschlossene, für jeden Hunger das Passende.
+Frühe Phasen brauchen Erklärung. Späte Phasen brauchen Belege und ein konkretes Angebot.
 
 ::: {.notes}
-Das Bild der Speisekarte trägt den Gedanken der Phasen: Niemand bekommt zur Begrüßung das schwerste Menü, und niemand bleibt hungrig, weil nur ein einziges Gericht im Angebot steht. Content braucht Vielfalt entlang der Reise.
+Am Kaffeeabo der Rösterei: Ein Ratgeber zum Mahlgrad erklärt und erreicht Menschen, die die Rösterei noch nicht kennen. Ein kurzes Video aus der Röstung weckt Interesse. Ein Vergleich von Abo und Einzelkauf mit Preis und Lieferrhythmus liefert den Beleg für die Entscheidung. Das Probierpaket ist das konkrete Angebot für den ersten Schritt.
 :::
 
 ## Redaktionell steuern

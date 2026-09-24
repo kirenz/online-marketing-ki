@@ -1,0 +1,162 @@
+<!-- Rösterei Morgenrot: animierter Kundenweg einer Kohorte (K1 200, K2 120, K3 40, K4 20, K5 8). Gleiches Schaubild wie in der Lernplattform-Lektion growth-marketing (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-kw, .reveal .rw-cy, .reveal .rw-gl { font-size: 0.95em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-cy svg, .reveal .rw-gl svg { max-height: 430px; }</style>
+<div class="rw-kw" id="rw-kw" lang="de" data-show-k5-rate="1">
+  <div class="rw-kw__stations" id="rw-kw-stations" role="group" aria-label="Stationen des Kundenwegs"></div>
+  <canvas id="rw-kw-canvas" aria-hidden="true"></canvas>
+  <div class="rw-kw__counts" id="rw-kw-counts" aria-live="off"></div>
+  <div class="rw-kw__controls">
+    <button type="button" id="rw-kw-play">Abspielen</button>
+    <button type="button" id="rw-kw-reset" class="is-secondary">Zurücksetzen</button>
+  </div>
+  <div class="rw-kw__hint" id="rw-kw-hint" aria-live="polite"></div>
+</div>
+<style>
+.rw-kw { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.45; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-kw * { box-sizing: border-box; }
+.rw-kw__stations, .rw-kw__counts { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.35em; }
+.rw-kw__st { font: inherit; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 0.1em; min-height: 3.6em; padding: 0.45em 0.25em; border: 1px solid var(--w-rule); border-radius: 0.6em; background: var(--w-card); color: var(--w-ink); cursor: pointer; text-align: center; line-height: 1.15; margin: 0; }
+.rw-kw__st:hover { background: var(--w-deep); }
+.rw-kw__st.is-active { border-color: var(--w-blue); background: var(--w-blue-soft); box-shadow: inset 0 0 0 1px var(--w-blue); }
+.rw-kw__st:focus-visible, .rw-kw__controls button:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-kw__code { font-weight: 700; font-size: 0.95em; color: var(--w-blue); }
+.rw-kw__name { font-size: 0.8em; color: var(--w-soft); hyphens: manual; }
+@media (max-width: 480px) { .rw-kw__name { font-size: 0.72em; } .rw-kw__st { padding: 0.4em 0.1em; } }
+.rw-kw canvas { display: block; width: 100%; height: 7.2em; }
+.rw-kw__cell { text-align: center; }
+.rw-kw__cell b { display: block; font-size: 1.5em; font-variant-numeric: tabular-nums; line-height: 1.1; color: var(--w-ink); }
+.rw-kw__cell span { font-size: 0.75em; color: var(--w-soft); }
+.rw-kw__controls { display: flex; flex-wrap: wrap; gap: 0.5em; margin-top: 0.8em; }
+.rw-kw__controls button { font: inherit; font-size: 0.9em; font-weight: 600; padding: 0.45em 1.1em; border-radius: 999px; border: 1px solid var(--w-blue); background: var(--w-blue); color: #fff; cursor: pointer; margin: 0; }
+.rw-kw__controls button.is-secondary { background: var(--w-card); color: var(--w-ink); border-color: var(--w-rule); }
+.rw-kw__hint { margin-top: 0.7em; padding: 0.65em 0.9em; border: 1px solid var(--w-rule); border-left: 3px solid var(--w-blue); border-radius: 0.5em; background: var(--w-deep); min-height: 4.4em; font-size: 0.92em; }
+.rw-kw__hint b { font-weight: 650; }
+</style>
+<script>
+(function () {
+  var root = document.getElementById("rw-kw");
+  var showK5Rate = root.getAttribute("data-show-k5-rate") === "1";
+  var cv = document.getElementById("rw-kw-canvas"), ctx = cv.getContext("2d");
+  var hint = document.getElementById("rw-kw-hint");
+  var C = {};
+  function colors() { var cs = getComputedStyle(root); function g(n, f) { return cs.getPropertyValue(n).trim() || f; }
+    C = { rule: g("--w-rule", "#dedbd3"), blue: g("--w-blue", "#2c4f9e"), terra: g("--w-terra", "#c2512c"), green: g("--w-green", "#2f7d4f"), card: g("--w-card", "#ffffff") }; }
+  var stations = [
+    { code: "K1", name: "Erster Besuch", n: 200, info: "<b>K1 Erster Shopbesuch:</b> 200 Personen besuchen zwischen dem 1. und 7. März zum ersten Mal den Shop. Diese Kohorte ist der Ausgangspunkt. Gezählt werden Personen, keine Seitenaufrufe." },
+    { code: "K2", name: "Sorten&shy;seite", n: 120, info: "<b>K2 Sortenseite angesehen:</b> 120 von 200 sehen innerhalb von 14 Tagen mindestens eine Sortenseite an, also 60 Prozent. 80 Personen verlassen den Weg vorher." },
+    { code: "K3", name: "Bestel&shy;lung begonnen", n: 40, info: "<b>K3 Bestellvorgang begonnen:</b> 40 von 120 beginnen innerhalb von 14 Tagen eine Bestellung. Wieder gehen 80 Personen verloren. Relativ ist der Verlust hier größer: Zwei Drittel steigen aus." },
+    { code: "K4", name: "Erstkauf bezahlt", n: 20, info: "<b>K4 Erste Bestellung bezahlt:</b> 20 von 40 begonnenen Bestellungen werden innerhalb von 14 Tagen bezahlt. Die andere Hälfte bricht den Bestellvorgang ab." },
+    { code: "K5", name: "Wieder&shy;kauf oder Abo", n: 8, info: "" }
+  ];
+  stations[4].info = "<b>K5 Weitere Bestellung oder Abo:</b> 8 Personen bestellen innerhalb von 30 Tagen nach dem Erstkauf erneut oder schließen ein Abo ab. Der Nenner sind hier die 20 Erstkäufer, nicht die 200 Besucher." + (showK5Rate ? " 8 von 20 sind 40 Prozent." : "");
+  var HINT0 = "Ein Punkt ist eine Person. „Abspielen“ schickt die 200 Erstbesucher der Kohorte durch den Kundenweg. Eine Station antippen zeigt, was dort passiert. Die Zahlen sind für die Übung erfunden.";
+  var HINT_RUN = "Die Kohorte läuft. Rote Punkte verlassen den Weg, grüne Punkte kommen bis K5.";
+  var HINT_END = "Alle 200 sind durch, 8 kommen bis K5. Die Zahlen zeigen, wo Menschen gehen. Sie zeigen nicht, warum.";
+
+  var stBox = document.getElementById("rw-kw-stations"), cntBox = document.getElementById("rw-kw-counts");
+  var stEls = [], cntEls = [];
+  stations.forEach(function (s, i) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "rw-kw__st";
+    b.innerHTML = '<span class="rw-kw__code">' + s.code + '</span><span class="rw-kw__name">' + s.name + "</span>";
+    b.addEventListener("click", function () { select(i); });
+    stBox.appendChild(b); stEls.push(b);
+    var c = document.createElement("div"); c.className = "rw-kw__cell";
+    c.innerHTML = "<b>0</b><span>Personen</span>";
+    cntBox.appendChild(c); cntEls.push(c.firstChild);
+  });
+
+  // Wer wo aussteigt: 80 vor K2, 80 vor K3, 20 vor K4, 12 vor K5, 8 erreichen K5.
+  var plan = [];
+  function push(k, v) { for (var i = 0; i < k; i++) plan.push(v); }
+  push(80, 1); push(80, 2); push(20, 3); push(12, 4); push(8, 99);
+  for (var i = plan.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = plan[i]; plan[i] = plan[j]; plan[j] = t; }
+
+  var SPREAD = 3200, TRAVEL = 5200, FALL = 900, END = SPREAD + TRAVEL + FALL + 300;
+  var dots = plan.map(function (d, k) { return { drop: d, delay: (k / plan.length) * SPREAD, jy: Math.random() - 0.5, jx: Math.random() - 0.5 }; });
+  var W = 0, H = 0, base = 15, xs = [], elapsed = -1, running = false, raf = null, t0 = 0, selected = -1, lastCounts = "";
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function layout() {
+    var w = cv.clientWidth, h = cv.clientHeight;
+    if (!w || !h) return false;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    if (w !== W || h !== H) {
+      W = w; H = h; cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    base = parseFloat(getComputedStyle(root).fontSize) || 15; colors();
+    var col = W / 5; xs = stations.map(function (_, k) { return (k + 0.5) * col; });
+    return true;
+  }
+  function dotX(d, e) {
+    var t = e - d.delay; if (t < 0) return null;
+    return xs[0] + Math.min(1, t / TRAVEL) * (xs[4] - xs[0]);
+  }
+  function draw() {
+    if (!layout()) return;
+    var e = elapsed;
+    ctx.clearRect(0, 0, W, H);
+    var pathY = H * 0.24, fallDepth = H * 0.52, r = Math.max(2.2, base * 0.17), gap = xs[1] - xs[0];
+    ctx.strokeStyle = C.rule; ctx.lineWidth = Math.max(3, base * 0.3); ctx.lineCap = "round";
+    ctx.beginPath(); ctx.moveTo(xs[0], pathY); ctx.lineTo(xs[4], pathY); ctx.stroke();
+    xs.forEach(function (x, k) {
+      ctx.beginPath(); ctx.arc(x, pathY, base * 0.42, 0, Math.PI * 2);
+      ctx.fillStyle = k === selected ? C.blue : C.card; ctx.fill();
+      ctx.lineWidth = 2; ctx.strokeStyle = C.blue; ctx.stroke();
+    });
+    var fallen = [0, 0, 0, 0, 0], counts = [0, 0, 0, 0, 0];
+    if (e >= 0) {
+      dots.forEach(function (d) {
+        var x = dotX(d, e); if (x === null) return;
+        var dropX = d.drop <= 4 ? xs[d.drop] - gap * 0.5 : Infinity;
+        for (var k = 0; k < 5; k++) if (x >= xs[k] - 0.5 && d.drop > k) counts[k]++;
+        var y = pathY + d.jy * base * 0.9, a = 1, col = C.blue;
+        if (x >= dropX) {
+          var tf = (e - d.delay - TRAVEL * (dropX - xs[0]) / (xs[4] - xs[0])) / FALL;
+          x = dropX + d.jx * gap * 0.35;
+          fallen[d.drop]++;
+          if (tf >= 1) return;
+          y = pathY + d.jy * base * 0.9 + tf * fallDepth; a = 1 - tf; col = C.terra;
+        } else if (d.drop === 99 && x >= xs[4] - 0.5) {
+          x = xs[4] + d.jx * base * 2.2; y = pathY + d.jy * base * 1.4; col = C.green;
+        }
+        ctx.globalAlpha = a; ctx.fillStyle = col;
+        ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+      });
+      ctx.globalAlpha = 1;
+    }
+    ctx.textAlign = "center"; ctx.fillStyle = C.terra;
+    ctx.font = "600 " + Math.round(base * 0.95) + "px system-ui, sans-serif";
+    for (var k = 1; k < 5; k++) if (fallen[k] > 0) ctx.fillText("−" + fallen[k], xs[k] - gap * 0.5, H - base * 0.35);
+    var key = counts.join(",");
+    if (key !== lastCounts) { lastCounts = key; counts.forEach(function (c, k) { cntEls[k].textContent = c; }); }
+  }
+  function frame(now) {
+    elapsed = now - t0; draw();
+    if (elapsed < END) raf = requestAnimationFrame(frame);
+    else { running = false; if (selected < 0) hint.textContent = HINT_END; }
+  }
+  function play() {
+    if (running) return;
+    selected = -1; stEls.forEach(function (b) { b.classList.remove("is-active"); });
+    if (reduce) { elapsed = END; draw(); hint.textContent = HINT_END; return; }
+    hint.textContent = HINT_RUN; running = true; t0 = performance.now(); raf = requestAnimationFrame(frame);
+  }
+  function reset() {
+    cancelAnimationFrame(raf); running = false; elapsed = -1; selected = -1;
+    stEls.forEach(function (b) { b.classList.remove("is-active"); });
+    hint.textContent = HINT0; draw();
+  }
+  function select(i) {
+    selected = i;
+    stEls.forEach(function (b, k) { b.classList.toggle("is-active", k === i); });
+    hint.innerHTML = stations[i].info;
+    if (!running) draw();
+  }
+  document.getElementById("rw-kw-play").addEventListener("click", play);
+  document.getElementById("rw-kw-reset").addEventListener("click", reset);
+  if (window.ResizeObserver) new ResizeObserver(function () { if (!running) draw(); }).observe(cv);
+  window.addEventListener("resize", function () { if (!running) draw(); });
+  reset();
+})();
+</script>

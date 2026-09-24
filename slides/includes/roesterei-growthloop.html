@@ -1,0 +1,182 @@
+<!-- Rösterei Morgenrot: Empfehlungskreislauf als Growth Loop, zwei schematische Szenarien. Gleiches Schaubild wie in der Lernplattform-Lektion growth-marketing (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-kw, .reveal .rw-cy, .reveal .rw-gl { font-size: 0.95em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-cy svg, .reveal .rw-gl svg { max-height: 430px; }</style>
+<div class="rw-gl" id="rw-gl">
+  <svg id="rw-gl-svg" viewBox="0 0 600 550" role="img" aria-label="Empfehlungskreislauf: Kundin mit Abo, Empfehlung, Erstkontakt, Kauf oder Abo, danach wieder Kundin mit Abo"></svg>
+  <div class="rw-gl__panel">
+    <div class="rw-gl__kicker" id="rw-gl-kicker">Growth Loop</div>
+    <div class="rw-gl__title" id="rw-gl-title">Das Ergebnis eines Durchlaufs ist der Eingang des nächsten</div>
+    <div class="rw-gl__text" id="rw-gl-text" aria-live="polite"></div>
+    <div class="rw-gl__switch" role="group" aria-label="Szenario">
+      <button type="button" id="rw-gl-s-up" class="is-on" aria-pressed="true">Kreislauf trägt</button>
+      <button type="button" id="rw-gl-s-down" aria-pressed="false">Kreislauf reißt ab</button>
+    </div>
+    <div class="rw-gl__rounds" id="rw-gl-rounds" aria-hidden="true"></div>
+    <div class="rw-gl__actions">
+      <button type="button" id="rw-gl-next">Runde abspielen</button>
+      <button type="button" id="rw-gl-reset" class="is-secondary">Zurücksetzen</button>
+    </div>
+    <div class="rw-gl__note">Schema zur Veranschaulichung, ein Punkt steht für eine Person. Wie stark ein Empfehlungskreislauf bei Morgenrot wirkt, ist offen.</div>
+  </div>
+</div>
+<style>
+.rw-gl { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.5; color: var(--w-ink); font-family: inherit; text-align: left; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.2em; align-items: center; }
+.rw-gl * { box-sizing: border-box; }
+.rw-gl svg { width: 100%; height: auto; display: block; }
+.rw-gl__kicker { font-size: 0.75em; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; color: var(--w-blue); }
+.rw-gl__title { font-size: 1.2em; font-weight: 650; margin: 0.25em 0 0.45em; line-height: 1.25; }
+.rw-gl__text { min-height: 6em; font-size: 0.95em; }
+.rw-gl__text b { font-weight: 650; }
+.rw-gl__switch { display: inline-flex; margin-top: 0.8em; border: 1px solid var(--w-rule); border-radius: 999px; padding: 0.15em; background: var(--w-deep); flex-wrap: wrap; }
+.rw-gl__switch button { font: inherit; font-size: 0.85em; font-weight: 600; padding: 0.35em 0.9em; border-radius: 999px; border: 0; background: transparent; color: var(--w-soft); cursor: pointer; margin: 0; }
+.rw-gl__switch button.is-on { background: var(--w-card); color: var(--w-ink); box-shadow: 0 0 0 1px var(--w-rule); }
+.rw-gl__rounds { display: flex; flex-direction: column; gap: 0.25em; margin-top: 0.7em; min-height: 1.4em; font-size: 0.8em; color: var(--w-soft); }
+.rw-gl__row { display: flex; align-items: center; gap: 0.6em; }
+.rw-gl__row span { min-width: 7.5em; }
+.rw-gl__row i { display: inline-block; width: 0.7em; height: 0.7em; border-radius: 50%; background: var(--w-green); margin-right: 0.2em; }
+.rw-gl__row em { font-style: normal; color: var(--w-terra); }
+.rw-gl__actions { display: flex; gap: 0.5em; margin-top: 0.8em; flex-wrap: wrap; }
+.rw-gl__actions button { font: inherit; font-size: 0.9em; font-weight: 600; padding: 0.45em 1.1em; border-radius: 999px; border: 1px solid var(--w-blue); background: var(--w-blue); color: #fff; cursor: pointer; margin: 0; }
+.rw-gl__actions button.is-secondary { background: var(--w-card); color: var(--w-ink); border-color: var(--w-rule); }
+.rw-gl__actions button:disabled { opacity: 0.45; cursor: default; }
+.rw-gl button:focus-visible, .rw-gl .node:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-gl__note { margin-top: 0.7em; font-size: 0.78em; color: var(--w-soft); }
+.rw-gl .node { cursor: pointer; }
+.rw-gl .node rect { fill: var(--w-card); stroke: var(--w-rule); stroke-width: 2; transition: fill 0.2s, stroke 0.2s; }
+.rw-gl .node.is-hot rect { stroke: var(--w-green); stroke-width: 4; }
+.rw-gl .node.is-info rect { stroke: var(--w-ochre); stroke-width: 3; fill: #fbf5e9; }
+.rw-gl .node text { fill: var(--w-ink); font-family: inherit; font-size: 23px; font-weight: 650; text-anchor: middle; pointer-events: none; }
+.rw-gl .node .sub { fill: var(--w-soft); font-size: 17px; font-weight: 400; }
+.rw-gl .arc { fill: none; stroke: var(--w-blue); stroke-width: 4; }
+.rw-gl .arc.is-back { stroke-dasharray: 9 8; }
+.rw-gl .dot { fill: var(--w-green); }
+.rw-gl .center { fill: var(--w-soft); font-family: inherit; font-size: 19px; text-anchor: middle; }
+@media (max-width: 620px) { .rw-gl { grid-template-columns: minmax(0, 1fr); } .rw-gl svg { max-width: 440px; margin: 0 auto; } .rw-gl__text { min-height: 0; } }
+</style>
+<script>
+(function () {
+  var svg = document.getElementById("rw-gl-svg"), NS = "http://www.w3.org/2000/svg";
+  var names = ["Kundin mit Abo", "Empfehlung", "Erstkontakt", "Kauf oder Abo"];
+  var subs = ["zufrieden", "an Bekannte", "erster Shopbesuch", "vielleicht wieder"];
+  var infos = [
+    "Der Kreislauf beginnt bei zufriedenen Kundinnen und Kunden mit Abo. In der Übungskohorte bestellen 8 von 200 Erstbesuchern innerhalb von 30 Tagen nach dem Erstkauf erneut oder schließen ein Abo ab (K5).",
+    "Die Kundin empfiehlt die Rösterei weiter. Zählbar wird das nur mit nachverfolgbaren Empfehlungen, dem Bereich Referral in AARRR. Empfehlungen können ausbleiben und kosten Aufwand.",
+    "Aus der Empfehlung wird ein erster Shopbesuch. Die empfohlene Person startet vorne im Kundenweg, bei K1, und durchläuft dieselben Übergänge wie alle anderen.",
+    "Ein Teil der Empfohlenen kauft, und einige bestellen erneut oder schließen ein Abo ab. Diese Personen sind der Eingang der nächsten Runde."
+  ];
+  var START = "Eine Abo-Kundin empfiehlt die Rösterei. Daraus entsteht ein Erstkontakt, ein Kauf und vielleicht die nächste Empfehlung. „Runde abspielen“ zeigt den Mechanismus, ein Klick auf einen Knoten erklärt ihn.";
+  // Schema: je Runde [Empfehlungen, Erstkontakte, Käufe, neue Abo-Kundinnen]
+  var SC = {
+    up: { start: 2, rounds: [[4, 3, 3, 3], [6, 5, 4, 4], [8, 7, 6, 6]],
+      text: "Jede Runde bringt mehr neue Abo-Kundinnen, als sie begonnen hat. Der Kreislauf wächst aus sich selbst heraus, ohne neue Kampagne.",
+      end: "Nach drei Runden ist der Eingang größer als am Anfang. Voraussetzung: Genug Kundinnen empfehlen, und genug Empfohlene kaufen." },
+    down: { start: 3, rounds: [[2, 2, 2, 2], [1, 1, 1, 1], [0, 0, 0, 0]],
+      text: "Zu wenige empfehlen, oder zu wenige Empfohlene kaufen. Jede Runde bringt weniger zurück, als sie begonnen hat.",
+      end: "Der Kreislauf läuft aus. Ohne neue Kontakte von außen bleibt nur ein Trichter, der in eine Richtung läuft." }
+  };
+  var cx = 300, cy = 275, R = 190, n = 4, w = 196, h = 84;
+  function ang(i) { return -Math.PI / 2 + i * 2 * Math.PI / n; }
+  function pos(i) { return [cx + R * Math.cos(ang(i)), cy + R * Math.sin(ang(i))]; }
+  function el(tag, attrs, parent) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || svg).appendChild(e); return e; }
+  var defs = el("defs", {});
+  var mk = el("marker", { id: "rw-gl-arr", viewBox: "0 0 10 10", refX: "8", refY: "5", markerWidth: "6", markerHeight: "6", orient: "auto-start-reverse" }, defs);
+  el("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: getComputedStyle(document.getElementById("rw-gl")).getPropertyValue("--w-blue").trim() || "#2c4f9e" }, mk);
+  function exit(i, dir) { var p = pos(i), a = ang(i); for (var k = 0; k < 400; k++) { a += dir * 0.005; var x = cx + R * Math.cos(a), y = cy + R * Math.sin(a); if (Math.abs(x - p[0]) > w / 2 + 8 || Math.abs(y - p[1]) > h / 2 + 8) return a; } return a; }
+  var A0 = [], A1 = [];
+  for (var q = 0; q < n; q++) { A0.push(exit(q, 1)); A1.push(exit((q + 1) % n, -1) + (q === n - 1 ? 2 * Math.PI : 0)); }
+  for (var i = 0; i < n; i++) {
+    var a0 = A0[i], a1 = A1[i];
+    el("path", { d: "M " + (cx + R * Math.cos(a0)) + " " + (cy + R * Math.sin(a0)) + " A " + R + " " + R + " 0 0 1 " + (cx + R * Math.cos(a1)) + " " + (cy + R * Math.sin(a1)), "class": "arc" + (i === n - 1 ? " is-back" : ""), "marker-end": "url(#rw-gl-arr)" });
+  }
+  var cl = el("text", { x: cx, y: cy - 4, "class": "center" }); cl.textContent = "Kreislauf über";
+  var cl2 = el("text", { x: cx, y: cy + 20, "class": "center" }); cl2.textContent = "Empfehlungen";
+  var nodes = [];
+  for (i = 0; i < n; i++) {
+    var p = pos(i), g = el("g", { "class": "node", tabindex: "0", role: "button", "aria-label": names[i] + " erklären" });
+    el("rect", { x: p[0] - w / 2, y: p[1] - h / 2, width: w, height: h, rx: 14 }, g);
+    var t = el("text", { x: p[0], y: p[1] - 2 }, g); t.textContent = names[i];
+    var s = el("text", { x: p[0], y: p[1] + 24, "class": "sub" }, g); s.textContent = subs[i];
+    (function (idx) {
+      function info() {
+        if (animating) return;
+        nodes.forEach(function (x, k) { x.setAttribute("class", "node" + (k === idx ? " is-info" : "")); });
+        setPanel("Was hier passiert", names[idx], infos[idx]);
+      }
+      g.addEventListener("click", info);
+      g.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); info(); } });
+    })(i);
+    nodes.push(g);
+  }
+  var dotLayer = el("g", {});
+  var scen = "up", round = 0, animating = false, history = [];
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var nextBtn = document.getElementById("rw-gl-next");
+  function setPanel(k, t, x) {
+    document.getElementById("rw-gl-kicker").textContent = k;
+    document.getElementById("rw-gl-title").textContent = t;
+    document.getElementById("rw-gl-text").innerHTML = x;
+  }
+  function hot(i) { nodes.forEach(function (g, k) { g.setAttribute("class", "node" + (k === i ? " is-hot" : "")); }); }
+  function rows() {
+    var box = document.getElementById("rw-gl-rounds"); box.innerHTML = "";
+    history.forEach(function (v, k) {
+      var d = document.createElement("div"); d.className = "rw-gl__row";
+      var dots = ""; for (var j = 0; j < v; j++) dots += "<i></i>";
+      d.innerHTML = "<span>" + (k === 0 ? "Start" : "Nach Runde " + k) + "</span><div>" + (v ? dots : "<em>niemand</em>") + "</div>";
+      box.appendChild(d);
+    });
+  }
+  function travel(from, count, cb) {
+    if (reduce || count === 0) { cb(); return; }
+    var a0 = A0[from], a1 = A1[from];
+    var ds = []; for (var j = 0; j < count; j++) ds.push(el("circle", { r: 8, "class": "dot" }, dotLayer));
+    var start = performance.now(), dur = 850;
+    (function fr(now) {
+      var u = Math.min(1, (now - start) / dur);
+      ds.forEach(function (d, j) {
+        var uu = Math.max(0, Math.min(1, u * 1.35 - j * 0.35 / ds.length));
+        var a = a0 + (a1 - a0) * uu;
+        d.setAttribute("cx", cx + R * Math.cos(a)); d.setAttribute("cy", cy + R * Math.sin(a));
+      });
+      if (u < 1) requestAnimationFrame(fr); else { ds.forEach(function (d) { d.remove(); }); cb(); }
+    })(start);
+  }
+  function nextRound() {
+    var sc = SC[scen];
+    if (animating || round >= sc.rounds.length) return;
+    animating = true; nextBtn.disabled = true;
+    var r = sc.rounds[round]; round++;
+    setPanel("Runde " + round + " von " + sc.rounds.length, scen === "up" ? "Der Kreislauf trägt" : "Der Kreislauf reißt ab", sc.text);
+    hot(0);
+    travel(0, r[0], function () { hot(1);
+      travel(1, r[1], function () { hot(2);
+        travel(2, r[2], function () { hot(3);
+          travel(3, r[3], function () {
+            hot(0); history.push(r[3]); rows(); animating = false;
+            if (round >= sc.rounds.length) { document.getElementById("rw-gl-text").innerHTML = sc.end; }
+            nextBtn.disabled = round >= sc.rounds.length;
+          });
+        });
+      });
+    });
+  }
+  function reset() {
+    round = 0; animating = false; history = [SC[scen].start]; dotLayer.innerHTML = "";
+    nextBtn.disabled = false; hot(-1); rows();
+    setPanel("Growth Loop", "Das Ergebnis eines Durchlaufs ist der Eingang des nächsten", START);
+  }
+  function setScen(s) {
+    if (animating) return;
+    scen = s;
+    ["up", "down"].forEach(function (k) {
+      var b = document.getElementById("rw-gl-s-" + k);
+      b.classList.toggle("is-on", k === s); b.setAttribute("aria-pressed", k === s ? "true" : "false");
+    });
+    reset();
+  }
+  document.getElementById("rw-gl-s-up").addEventListener("click", function () { setScen("up"); });
+  document.getElementById("rw-gl-s-down").addEventListener("click", function () { setScen("down"); });
+  nextBtn.addEventListener("click", nextRound);
+  document.getElementById("rw-gl-reset").addEventListener("click", reset);
+  reset();
+})();
+</script>

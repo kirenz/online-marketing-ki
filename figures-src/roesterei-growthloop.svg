@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 350" role="img" aria-labelledby="t d">
+  <title id="t">Trichter und Growth Loop am Beispiel der Rösterei Morgenrot</title>
+  <desc id="d">Links ein Trichter mit drei Stufen, Erstbesuch, Erstkauf, Wiederkauf oder Abo, darunter: mehr Ergebnis braucht mehr Eingang. Rechts ein Growth Loop als Empfehlungskreislauf: Kundin mit Abo, Empfehlung, Erstkontakt, Kauf oder Abo, und ein gestrichelter Pfeil zurück zur Kundin mit Abo. Ob dieser Kreislauf bei Morgenrot trägt, ist offen.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="350" fill="#faf9f4"/>
+  <text class="h" x="20" y="30" text-anchor="start">Trichter</text>
+  <text class="sub" x="20" y="52" text-anchor="start">läuft in eine Richtung</text>
+  <path d="M10,78 L290,78 L260,130 L40,130 Z" fill="#f3f0e8" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="150" y="109" text-anchor="middle" style="font-size:14px">Erstbesuch</text>
+  <path d="M40,138 L260,138 L235,190 L65,190 Z" fill="#efe6d3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="150" y="169" text-anchor="middle" style="font-size:14px">Erstkauf</text>
+  <path d="M65,198 L235,198 L210,250 L90,250 Z" fill="#ead9b9" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="150" y="229" text-anchor="middle" style="font-size:14px">Wiederkauf oder Abo</text>
+  <line x1="150" y1="260" x2="150" y2="288" stroke="#8f8a7c" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text class="s" x="150" y="308" text-anchor="middle">mehr Ergebnis braucht</text>
+  <text class="s" x="150" y="325" text-anchor="middle">mehr Eingang</text>
+  <line x1="310" y1="20" x2="310" y2="330" stroke="#e2dfd6" stroke-width="1.5"/>
+  <text class="h" x="340" y="30" text-anchor="start">Growth Loop</text>
+  <text class="sub" x="340" y="52" text-anchor="start">das Ergebnis wird zum Eingang der nächsten Runde</text>
+  <rect x="475" y="72" width="140" height="46" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="545" y="93" text-anchor="middle" style="font-size:14px">Kundin mit Abo</text>
+  <text class="s" x="545" y="110" text-anchor="middle" style="font-size:11.5px">zufrieden</text>
+  <rect x="615" y="167" width="140" height="46" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="685" y="188" text-anchor="middle" style="font-size:14px">Empfehlung</text>
+  <text class="s" x="685" y="205" text-anchor="middle" style="font-size:11.5px">an Bekannte</text>
+  <rect x="475" y="262" width="140" height="46" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="545" y="283" text-anchor="middle" style="font-size:14px">Erstkontakt</text>
+  <text class="s" x="545" y="300" text-anchor="middle" style="font-size:11.5px">erster Shopbesuch</text>
+  <rect x="335" y="167" width="140" height="46" rx="8" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="405" y="188" text-anchor="middle" style="font-size:14px">Kauf oder Abo</text>
+  <text class="s" x="405" y="205" text-anchor="middle" style="font-size:11.5px">vielleicht wieder</text>
+  <path d="M617,90 Q672,100 680,164" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M682,216 Q672,280 617,286" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M473,286 Q418,280 408,216" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M410,164 Q420,100 473,92" fill="none" stroke="#c08a3e" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#ao)"/>
+  <text class="s" x="545" y="186" text-anchor="middle">Kreislauf über</text>
+  <text class="s" x="545" y="203" text-anchor="middle">Empfehlungen</text>
+  <text class="s" x="340" y="336" text-anchor="start">Ob dieser Kreislauf bei Morgenrot trägt, ist offen.</text>
+</svg>

@@ -1,0 +1,132 @@
+<!-- Rösterei Morgenrot: Experimentzyklus in sieben Stufen, zwei Runden. Gleiches Schaubild wie in der Lernplattform-Lektion growth-marketing (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-kw, .reveal .rw-cy, .reveal .rw-gl { font-size: 0.95em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-cy svg, .reveal .rw-gl svg { max-height: 430px; }</style>
+<div class="rw-cy" id="rw-cy">
+  <svg id="rw-cy-svg" viewBox="0 0 600 560" role="img" aria-label="Experimentzyklus mit sieben Stufen: Frage, Plan, Daten, Analyse, Report, Aktion, Evaluation, danach wieder Frage"></svg>
+  <div class="rw-cy__panel">
+    <div class="rw-cy__kicker" id="rw-cy-kicker">Experimentzyklus</div>
+    <div class="rw-cy__title" id="rw-cy-title">Von der Frage zur Aktion und zurück zur Frage</div>
+    <div class="rw-cy__text" id="rw-cy-text" aria-live="polite"></div>
+    <div class="rw-cy__actions">
+      <button type="button" id="rw-cy-next">Weiter</button>
+      <button type="button" id="rw-cy-prev" class="is-secondary">Zurück</button>
+    </div>
+  </div>
+</div>
+<style>
+.rw-cy { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-green: #2f7d4f; font-size: 15px; line-height: 1.5; color: var(--w-ink); font-family: inherit; text-align: left; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.2em; align-items: center; }
+.rw-cy * { box-sizing: border-box; }
+.rw-cy svg { width: 100%; height: auto; display: block; }
+.rw-cy__kicker { font-size: 0.75em; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; color: var(--w-blue); }
+.rw-cy__title { font-size: 1.2em; font-weight: 650; margin: 0.25em 0 0.45em; line-height: 1.25; }
+.rw-cy__text { color: var(--w-ink); min-height: 7.5em; font-size: 0.95em; }
+.rw-cy__text b { font-weight: 650; }
+.rw-cy__actions { display: flex; gap: 0.5em; margin-top: 0.9em; flex-wrap: wrap; }
+.rw-cy__actions button { font: inherit; font-size: 0.9em; font-weight: 600; padding: 0.45em 1.1em; border-radius: 999px; border: 1px solid var(--w-blue); background: var(--w-blue); color: #fff; cursor: pointer; margin: 0; }
+.rw-cy__actions button.is-secondary { background: var(--w-card); color: var(--w-ink); border-color: var(--w-rule); }
+.rw-cy__actions button:disabled { opacity: 0.45; cursor: default; }
+.rw-cy__actions button:focus-visible, .rw-cy .node:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-cy .node { cursor: pointer; }
+.rw-cy .node rect { fill: var(--w-card); stroke: var(--w-rule); stroke-width: 2; transition: fill 0.2s, stroke 0.2s; }
+.rw-cy .node text { fill: var(--w-soft); font-family: inherit; font-size: 23px; font-weight: 600; text-anchor: middle; pointer-events: none; }
+.rw-cy .node.is-done rect { stroke: var(--w-blue); }
+.rw-cy .node.is-done text { fill: var(--w-ink); }
+.rw-cy .node.is-active rect { fill: var(--w-blue); stroke: var(--w-blue); }
+.rw-cy .node.is-active text { fill: #ffffff; }
+.rw-cy .node.is-info rect { stroke: var(--w-ochre); stroke-width: 3; fill: #fbf5e9; }
+.rw-cy .arc { fill: none; stroke: var(--w-rule); stroke-width: 4; transition: stroke 0.2s; }
+.rw-cy .arc.is-done { stroke: var(--w-blue); }
+.rw-cy .arc.is-back { stroke-dasharray: 9 8; }
+.rw-cy .arc.is-back.is-done { stroke: var(--w-green); stroke-dasharray: none; }
+.rw-cy .center { fill: var(--w-soft); font-family: inherit; font-size: 20px; text-anchor: middle; }
+.rw-cy .center-strong { fill: var(--w-ink); font-family: inherit; font-size: 26px; font-weight: 700; text-anchor: middle; }
+@media (max-width: 620px) { .rw-cy { grid-template-columns: minmax(0, 1fr); } .rw-cy svg { max-width: 440px; margin: 0 auto; } .rw-cy__text { min-height: 0; } }
+</style>
+<script>
+(function () {
+  var names = ["Frage", "Plan", "Daten", "Analyse", "Report", "Aktion", "Evaluation"];
+  var infos = [
+    "Eine Frage aus dem Geschäft und eine erste Vermutung dazu.",
+    "Hypothese, Kennzahl mit Nenner und Zeitraum, Vergleich, Entscheidungsregel und Leitplanke festlegen, bevor Daten entstehen.",
+    "Daten so erheben, wie der Plan es vorsieht.",
+    "Kennzahlen je Gruppe berechnen und vergleichen.",
+    "Schlüsse ziehen und mitteilen, samt ihren Grenzen.",
+    "Auf die Schlüsse handeln, nach der vorher festgelegten Regel.",
+    "Prüfen, ob die Aktion wirkt. Daraus entsteht die nächste Frage."
+  ];
+  var START = "„Weiter“ führt Stufe für Stufe durch den Zyklus am Beispiel der Rösterei Morgenrot. Ein Klick auf eine Stufe erklärt sie allgemein.";
+  var steps = [
+    { r: 1, i: 0, t: "Frage: Warum nur 8 von 20?", x: "Warum bestellen nur <b>8 von 20 Erstkäufern</b> innerhalb von 30 Tagen erneut? Eine Vermutung: Ein enttäuschendes erstes Ergebnis hält vom Wiederkauf ab." },
+    { r: 1, i: 1, t: "Plan: Hypothese und Vergleich", x: "Wenn Erstkäufer eine Woche nach der Lieferung eine <b>Zubereitungshilfe</b> zu ihrer Sorte erhalten, bestellen in 30 Tagen mehr von ihnen erneut. Kennzahl: Wiederkaufquote in 30 Tagen. Zwei zufällig zugeteilte Gruppen. Entscheidungsregel und Leitplanke (Newsletter-Abmeldungen) stehen vorher fest." },
+    { r: 1, i: 2, t: "Daten: je Person ein Ergebnis", x: "Jeder Erstkäufer landet zufällig in einer Gruppe. Nach 30 Tagen steht je Person fest: weitere Bestellung oder Abo, ja oder nein. Bei 20 Erstkäufern pro Woche dauert das <b>mehrere Wochen</b>." },
+    { r: 1, i: 3, t: "Analyse: zwei Quoten", x: "Je Gruppe die Wiederkaufquote berechnen: Wiederkäufer geteilt durch die zugeteilten Erstkäufer, im selben Zeitraum. Dazu die Leitplanke prüfen: Haben sich mehr Personen vom Newsletter abgemeldet?" },
+    { r: 1, i: 4, t: "Report: Hinweis mit Grenzen", x: "Schlüsse ziehen und mitteilen. Bei kleinen Gruppen kann ein Unterschied von wenigen Personen <b>Zufall</b> sein. Der Report nennt deshalb auch die Fallzahl." },
+    { r: 1, i: 5, t: "Aktion: nach der Regel", x: "Die Zubereitungshilfe wird übernommen, wenn der Unterschied die vorher festgelegte Schwelle erreicht und die Leitplanke hält. Sonst bleibt es beim Bisherigen." },
+    { r: 1, i: 6, t: "Evaluation: wirkt es im Alltag?", x: "Die Wiederkaufquote wird weiter beobachtet. Was dabei auffällt, wird zur <b>nächsten Frage</b>. Deshalb ist der Zyklus ein Kreis." },
+    { r: 2, i: 0, t: "Frage, zweite Runde", x: "Die andere Erklärung wird zur neuen Frage: Reicht ein Beutel Kaffee länger als 30 Tage? Dann wäre die Wiederkaufquote in 30 Tagen die falsche Kennzahl." },
+    { r: 2, i: 1, t: "Plan, zweite Runde", x: "Kennzahl und Zeitraum neu festlegen, bevor wieder getestet wird. Jede Runde beginnt mit dem, was die letzte offen gelassen hat." }
+  ];
+  var svg = document.getElementById("rw-cy-svg"), NS = "http://www.w3.org/2000/svg";
+  var cx = 300, cy = 280, R = 212, n = names.length, w = 136, h = 54;
+  function ang(i) { return -Math.PI / 2 + i * 2 * Math.PI / n; }
+  function pos(i) { return [cx + R * Math.cos(ang(i)), cy + R * Math.sin(ang(i))]; }
+  function el(tag, attrs, parent) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || svg).appendChild(e); return e; }
+  var defs = el("defs", {});
+  var cs = getComputedStyle(document.getElementById("rw-cy"));
+  function g(n, f) { return cs.getPropertyValue(n).trim() || f; }
+  [["rw-cy-a0", g("--w-rule", "#dedbd3")], ["rw-cy-a1", g("--w-blue", "#2c4f9e")], ["rw-cy-a2", g("--w-green", "#2f7d4f")]].forEach(function (m) {
+    var mk = el("marker", { id: m[0], viewBox: "0 0 10 10", refX: "8", refY: "5", markerWidth: "6", markerHeight: "6", orient: "auto-start-reverse" }, defs);
+    el("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: m[1] }, mk);
+  });
+  function exit(i, dir) { var p = pos(i), a = ang(i); for (var k = 0; k < 400; k++) { a += dir * 0.005; var x = cx + R * Math.cos(a), y = cy + R * Math.sin(a); if (Math.abs(x - p[0]) > w / 2 + 7 || Math.abs(y - p[1]) > h / 2 + 7) return a; } return a; }
+  var arcs = [], nodes = [];
+  for (var i = 0; i < n; i++) {
+    var a0 = exit(i, 1), a1 = exit((i + 1) % n, -1) + (i === n - 1 ? 2 * Math.PI : 0);
+    arcs.push(el("path", { d: "M " + (cx + R * Math.cos(a0)) + " " + (cy + R * Math.sin(a0)) + " A " + R + " " + R + " 0 0 1 " + (cx + R * Math.cos(a1)) + " " + (cy + R * Math.sin(a1)), "class": "arc", "marker-end": "url(#rw-cy-a0)" }));
+  }
+  var c1 = el("text", { x: cx, y: cy - 6, "class": "center-strong" }); c1.textContent = "Runde 1";
+  var c2 = el("text", { x: cx, y: cy + 24, "class": "center" }); c2.textContent = "sieben Stufen";
+  for (i = 0; i < n; i++) {
+    var p = pos(i), g = el("g", { "class": "node", tabindex: "0", role: "button", "aria-label": names[i] + " erklären" });
+    el("rect", { x: p[0] - w / 2, y: p[1] - h / 2, width: w, height: h, rx: 12 }, g);
+    var t = el("text", { x: p[0], y: p[1] + 8 }, g); t.textContent = names[i];
+    (function (idx) {
+      function info() {
+        render(); nodes[idx].classList.add("is-info");
+        document.getElementById("rw-cy-kicker").textContent = "Stufe " + (idx + 1) + " von 7";
+        document.getElementById("rw-cy-title").textContent = names[idx];
+        document.getElementById("rw-cy-text").innerHTML = infos[idx];
+      }
+      g.addEventListener("click", info);
+      g.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); info(); } });
+    })(i);
+    nodes.push(g);
+  }
+  var step = -1, prevBtn = document.getElementById("rw-cy-prev"), nextBtn = document.getElementById("rw-cy-next");
+  function render() {
+    nodes.forEach(function (g) { g.setAttribute("class", "node"); });
+    arcs.forEach(function (a, k) { a.setAttribute("class", "arc" + (k === n - 1 ? " is-back" : "")); a.setAttribute("marker-end", "url(#rw-cy-a0)"); });
+    prevBtn.disabled = step < 0; nextBtn.disabled = step >= steps.length - 1;
+    if (step < 0) {
+      c1.textContent = "Runde 1";
+      document.getElementById("rw-cy-kicker").textContent = "Experimentzyklus";
+      document.getElementById("rw-cy-title").textContent = "Von der Frage zur Aktion und zurück zur Frage";
+      document.getElementById("rw-cy-text").innerHTML = START;
+      return;
+    }
+    var s = steps[step];
+    for (var k = 0; k <= step; k++) {
+      var st = steps[k];
+      nodes[st.i].classList.add("is-done");
+      if (k < step) { arcs[st.i].classList.add("is-done"); arcs[st.i].setAttribute("marker-end", st.i === n - 1 ? "url(#rw-cy-a2)" : "url(#rw-cy-a1)"); }
+    }
+    nodes[s.i].classList.add("is-active");
+    c1.textContent = "Runde " + s.r;
+    document.getElementById("rw-cy-kicker").textContent = "Runde " + s.r + " · Stufe " + (s.i + 1) + " von 7";
+    document.getElementById("rw-cy-title").textContent = s.t;
+    document.getElementById("rw-cy-text").innerHTML = s.x;
+  }
+  nextBtn.addEventListener("click", function () { if (step < steps.length - 1) { step++; render(); } });
+  prevBtn.addEventListener("click", function () { if (step >= 0) { step--; render(); } });
+  render();
+})();
+</script>

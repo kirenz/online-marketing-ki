@@ -18,8 +18,15 @@ Verschiedene Formate erfüllen verschiedene Zwecke. In der Awareness-Phase infor
 
 Eine hilfreiche Struktur dahinter ist das Topic-Cluster-Modell. Eine umfassende Hauptseite zu einem Kernthema, die Cornerstone-Page, bündelt das Thema im Überblick. Mehrere spezifische Artikel vertiefen einzelne Unterfragen und verlinken zurück auf die Hauptseite. So entsteht ein thematisch geschlossenes Netz, das sowohl Suchmaschinen als auch Leserinnen und Leser leichter durchdringen.
 
-::: {.callout-note title="Die Speisekarte eines Restaurants"}
-Ein gutes Content-Angebot ist wie eine durchdachte Speisekarte. Es gibt Gerichte für jeden Hunger und jeden Anlass, vom kleinen Appetithappen für Neugierige bis zum Hauptgang für Entschlossene. Niemand bekommt zur Begrüßung das schwerste Menü, und niemand bleibt hungrig, weil nur eine einzige Speise im Angebot steht.
+::: {.callout-note title="Beispiel: Content der Rösterei Morgenrot"}
+Für das Kaffeeabo der Rösterei könnte der Content je Phase so aussehen:
+
+| Phase | Aufgabe | Format |
+|---|---|---|
+| Awareness | erklären | Ratgeber „Welcher Mahlgrad passt zu welcher Zubereitung?“ |
+| Consideration | Interesse wecken | kurzes Video aus der Röstung |
+| Entscheidung | belegen | Vergleich Abo und Einzelkauf mit Preis und Lieferrhythmus |
+| Handlung | aktivieren | Probierpaket mit Anmeldung zum Newsletter |
 :::
 
 ## Redaktionell steuern statt sporadisch posten

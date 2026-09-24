@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 390" role="img" aria-labelledby="t d">
+  <title id="t">Experimentzyklus in sieben Stufen am Beispiel der Rösterei Morgenrot</title>
+  <desc id="d">Links ein Kreis aus sieben Stufen: Frage, Plan, Daten, Analyse, Report, Aktion, Evaluation, von der Evaluation führt ein gestrichelter Pfeil zurück zur Frage. Rechts je Stufe das Beispiel Morgenrot: Warum bestellen nur 8 von 20 Erstkäufern erneut? Plan mit Zubereitungshilfe, zwei Zufallsgruppen, Kennzahl, Entscheidungsregel und Leitplanke. Daten je Erstkäufer, Wiederkaufquote je Gruppe vergleichen, Schlüsse mit Fallzahl und Grenzen mitteilen, nach der Entscheidungsregel handeln, weiter beobachten und daraus die nächste Frage ableiten.</desc>
+  <style>
+    /*@FONT@*/
+    text { font-family: Geist, 'Helvetica Neue', Arial, sans-serif; }
+    .h   { font-size: 17px; font-weight: 600; fill: #16182c; letter-spacing: -0.01em; }
+    .sub { font-size: 13px; fill: #555a6e; }
+    .n   { font-size: 15px; font-weight: 600; fill: #16182c; }
+    .d   { font-size: 13.5px; fill: #3d4255; }
+    .s   { font-size: 12.5px; fill: #555a6e; }
+    .big { font-size: 24px; font-weight: 600; fill: #16182c; letter-spacing: -0.02em; }
+    .num { font-size: 12px; font-weight: 600; fill: #faf9f4; }
+    .mono { font-family: 'Geist Mono', ui-monospace, Menlo, monospace; font-size: 12.5px; fill: #3d4255; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#8f8a7c"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#c08a3e"/></marker>
+  </defs>
+  <rect width="770" height="390" fill="#faf9f4"/>
+  <path d="M256.1,73.3 A134,134 0 0 1 282.3,89.3" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M319.0,133.5 A134,134 0 0 1 333.8,202.6" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M323.4,247.2 A134,134 0 0 1 290.8,293.5" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M201.7,329.0 A134,134 0 0 1 198.3,329.0" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M109.2,293.5 A134,134 0 0 1 76.6,247.2" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M66.2,202.6 A134,134 0 0 1 81.0,133.5" fill="none" stroke="#8f8a7c" stroke-width="1.6" marker-end="url(#ar)"/>
+  <path d="M117.7,89.3 A134,134 0 0 1 143.9,73.3" fill="none" stroke="#c08a3e" stroke-width="1.6" stroke-dasharray="6 5" marker-end="url(#ao)"/>
+  <rect x="150" y="45" width="100" height="32" rx="16" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="200" y="66" text-anchor="middle" style="font-size:14px">Frage</text>
+  <rect x="254.765" y="95.4524" width="100" height="32" rx="16" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="304.765" y="116.452" text-anchor="middle" style="font-size:14px">Plan</text>
+  <rect x="280.64" y="208.818" width="100" height="32" rx="16" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="330.64" y="229.818" text-anchor="middle" style="font-size:14px">Daten</text>
+  <rect x="208.14" y="299.73" width="100" height="32" rx="16" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="258.14" y="320.73" text-anchor="middle" style="font-size:14px">Analyse</text>
+  <rect x="91.8596" y="299.73" width="100" height="32" rx="16" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="141.86" y="320.73" text-anchor="middle" style="font-size:14px">Report</text>
+  <rect x="19.3597" y="208.818" width="100" height="32" rx="16" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="69.3597" y="229.818" text-anchor="middle" style="font-size:14px">Aktion</text>
+  <rect x="45.2346" y="95.4524" width="100" height="32" rx="16" fill="#efece3" stroke="#16182c" stroke-width="1.25"/>
+  <text class="n" x="95.2346" y="116.452" text-anchor="middle" style="font-size:14px">Evaluation</text>
+  <text class="n" x="200" y="193" text-anchor="middle">Experimentzyklus</text>
+  <text class="s" x="200" y="212" text-anchor="middle">am Ende die nächste Frage</text>
+  <text class="h" x="400" y="30" text-anchor="start">Am Beispiel Morgenrot</text>
+  <circle cx="411" cy="57" r="11" fill="#16182c"/>
+  <text class="num" x="411" y="61.2" text-anchor="middle">1</text>
+  <text class="n" x="430" y="62" text-anchor="start">Frage</text>
+  <text class="s" x="430" y="80" text-anchor="start">Warum bestellen nur 8 von 20 Erstkäufern erneut?</text>
+  <circle cx="411" cy="102" r="11" fill="#16182c"/>
+  <text class="num" x="411" y="106.2" text-anchor="middle">2</text>
+  <text class="n" x="430" y="107" text-anchor="start">Plan</text>
+  <text class="s" x="430" y="125" text-anchor="start">Zubereitungshilfe, Zufallsgruppen, Regel, Leitplanke</text>
+  <circle cx="411" cy="147" r="11" fill="#16182c"/>
+  <text class="num" x="411" y="151.2" text-anchor="middle">3</text>
+  <text class="n" x="430" y="152" text-anchor="start">Daten</text>
+  <text class="s" x="430" y="170" text-anchor="start">je Erstkäufer: Wiederkauf in 30 Tagen, ja oder nein</text>
+  <circle cx="411" cy="192" r="11" fill="#16182c"/>
+  <text class="num" x="411" y="196.2" text-anchor="middle">4</text>
+  <text class="n" x="430" y="197" text-anchor="start">Analyse</text>
+  <text class="s" x="430" y="215" text-anchor="start">Wiederkaufquote je Gruppe berechnen und vergleichen</text>
+  <circle cx="411" cy="237" r="11" fill="#16182c"/>
+  <text class="num" x="411" y="241.2" text-anchor="middle">5</text>
+  <text class="n" x="430" y="242" text-anchor="start">Report</text>
+  <text class="s" x="430" y="260" text-anchor="start">Schlüsse mit Fallzahl und Grenzen mitteilen</text>
+  <circle cx="411" cy="282" r="11" fill="#16182c"/>
+  <text class="num" x="411" y="286.2" text-anchor="middle">6</text>
+  <text class="n" x="430" y="287" text-anchor="start">Aktion</text>
+  <text class="s" x="430" y="305" text-anchor="start">nach der vorher festgelegten Regel handeln</text>
+  <circle cx="411" cy="327" r="11" fill="#16182c"/>
+  <text class="num" x="411" y="331.2" text-anchor="middle">7</text>
+  <text class="n" x="430" y="332" text-anchor="start">Evaluation</text>
+  <text class="s" x="430" y="350" text-anchor="start">weiter beobachten, daraus folgt die nächste Frage</text>
+</svg>

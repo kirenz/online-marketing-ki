@@ -65,6 +65,16 @@ Der Begriff geht auf Sean Ellis zurück, der um 2010 die Rolle des Growth Hacker
 Eine Kohorte ist eine Gruppe, die zur selben Zeit startet. Hier sind es 200 Personen mit erstem Shopbesuch in der ersten Märzwoche. Gezählt werden Personen, keine Seitenaufrufe. Die ersten vier Stationen werden 14 Tage ab dem ersten Besuch beobachtet. Der Wiederkauf wird 30 Tage ab dem Erstkauf beobachtet. Alle Zahlen sind für die Übung erfunden.
 :::
 
+## An jeder Station geht ein Teil der Kohorte
+
+``` {=html}
+{{< include ../includes/roesterei-kundenweg.html >}}
+```
+
+::: {.notes}
+Das Schaubild lässt die 200 Erstbesucher als Punkte durch den Kundenweg laufen. [KLICK] Vor der Sortenseite gehen 80 Personen verloren, vor dem Bestellstart noch einmal 80. Absolut sind beide Verluste gleich groß. Relativ ist der zweite größer, denn dort steigen zwei Drittel der verbliebenen 120 aus. Von den 40 begonnenen Bestellungen werden 20 bezahlt, und 8 der 20 Erstkäufer bestellen innerhalb von 30 Tagen erneut oder schließen ein Abo ab. Ein Klick auf eine Station zeigt die jeweilige Quote mit Zähler, Nenner und Zeitraum.
+:::
+
 ## Eine Quote braucht einen Bezug
 
 ::: {.formula}
@@ -144,6 +154,16 @@ Quelle: @balfour2018
 Ein Trichter beschreibt einen Weg in eine Richtung. [KLICK] Ein Growth Loop beschreibt einen Mechanismus, bei dem das Ergebnis eines Durchlaufs zum Eingang des nächsten wird. Bei Morgenrot wäre ein Empfehlungskreislauf denkbar, ebenso ein Inhaltekreislauf über Zubereitungsanleitungen, die in Suchmaschinen gefunden werden. Ob ein solcher Loop existiert und wie stark er wirkt, ist offen. Empfehlungen können ausbleiben und verursachen Aufwand.
 :::
 
+## Im Loop wird das Ergebnis zum nächsten Eingang
+
+``` {=html}
+{{< include ../includes/roesterei-growthloop.html >}}
+```
+
+::: {.notes}
+Der Empfehlungskreislauf hat vier Stationen: eine zufriedene Kundin mit Abo, ihre Empfehlung, der Erstkontakt der empfohlenen Person und deren Kauf oder Abo. [KLICK] Im ersten Szenario bringt jede Runde mehr neue Abo-Kundinnen, als sie begonnen hat, und der Kreislauf wächst aus sich selbst heraus. Im zweiten Szenario empfehlen zu wenige, oder zu wenige Empfohlene kaufen. Dann wird jede Runde kleiner, und am Ende bleibt ein Trichter. Beide Szenarien sind Schemata ohne Daten der Rösterei. Wie stark ein solcher Kreislauf bei Morgenrot wirkt, ist offen.
+:::
+
 ## Loop und Experimentzyklus sind zwei Dinge
 
 :::: {.columns}
@@ -168,6 +188,16 @@ Quelle: @ellis2017
 
 ::: {.notes}
 Der Experimentzyklus nach Ellis und Brown umfasst vier Schritte: Daten analysieren, Ideen sammeln, Ideen priorisieren und testen. Ein Durchlauf erzeugt Wissen und eine Entscheidung, aber nicht automatisch neue Kunden. Deshalb ist ein regelmäßiger Berichtstermin kein Growth Loop. Er gehört zur Arbeitsweise. Das Bild dazu: Der Loop ist die Maschine in der Werkstatt, der Zyklus ist das Labor daneben.
+:::
+
+## Der Zyklus endet mit der nächsten Frage
+
+``` {=html}
+{{< include ../includes/roesterei-experimentzyklus.html >}}
+```
+
+::: {.notes}
+Feiner gegliedert besteht der Experimentzyklus aus sieben Stufen: Frage, Plan, Daten, Analyse, Report, Aktion und Evaluation. [KLICK] Am Beispiel Morgenrot beginnt er mit der Frage, warum nur 8 von 20 Erstkäufern erneut bestellen. Der Plan legt die Zubereitungshilfe als Änderung fest, dazu zwei zufällig zugeteilte Gruppen, die Wiederkaufquote in 30 Tagen, eine Entscheidungsregel und eine Leitplanke. Nach Daten, Analyse, Report und Aktion prüft die Evaluation, ob die Änderung im Alltag wirkt. Daraus entsteht die nächste Frage, etwa ob ein Beutel Kaffee länger als 30 Tage reicht. Deshalb ist der Zyklus ein Kreis.
 :::
 
 # Von der Beobachtung zur Hypothese {.stage .chapter background-color="#0a0a0f"}
