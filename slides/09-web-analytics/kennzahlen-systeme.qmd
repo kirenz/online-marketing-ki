@@ -154,6 +154,16 @@ Der zugeordnete Nettoumsatz pro Werbe-Euro ist kein Gewinn. Auch ein positiver D
 Die Zusammenfassung des Shop-Beispiels. Der Zähler bleibt gleich, der Nenner wechselt: Klicks, Bestellungen, erstmals kaufende Personen. Jede Kennzahl beantwortet eine andere Frage. 50 Euro je Bestellung sind kein CAC, und ein ROAS von 2 ist kein Gewinn.
 :::
 
+## Vor der Runde steht die Prognose, danach der Vergleich
+
+``` {=html}
+{{< include ../includes/roesterei-prognose.html >}}
+```
+
+::: {.notes}
+Im Planspiel der Rösterei bleiben je Bestellung 10,26 Euro, bei 27 Euro Bestellwert und 38 Prozent Marge. Davon wird die Werbung bezahlt. Vor jeder Runde entsteht deshalb eine Prognose: erwartete Bestellungen mal 10,26 Euro minus geplantes Budget. [KLICK] Bei 500 Euro Budget und 60 erwarteten Bestellungen sind das 115,60 Euro. Ab 49 Bestellungen trägt sich dieses Budget. Ohne Bestellung lassen sich keine Kosten je Conversion berechnen, der Beitrag ist dann einfach minus Werbekosten. Die Prognose steht fest, bevor das Ergebnis kommt, danach wird beides verglichen.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
 Kennzahlen sind kein Applaus, sondern Steuerung. Wer Vanity-Metriken aussortiert, wenige KPIs bewusst wählt und sie entlang der Kundenreise anordnet, verwandelt rohe Zahlen in begründete Entscheidungen.
