@@ -203,9 +203,112 @@ Moderne, frische Komposition: eine große, diffuse Punktwolke, die sich rechts i
 </section>
 <section id="segmentieren-auswählen-positionieren-drei-schritte-eine-reihenfolge" class="slide level2">
 <h2>Segmentieren, auswählen, positionieren: drei Schritte, eine Reihenfolge</h2>
+<!-- STP-Modell als schrittweise Animation: ein uneinheitlicher Markt, vier Segmente, ein gewähltes Segment, das Nutzenversprechen für dieses Segment. Gleiches Schaubild wie in der Lernplattform-Lektion segmentierung-targeting (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-stp { font-size: 0.85em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-stp svg { max-height: 290px; } .reveal .rw-stp__text { min-height: 3em; }</style>
+<div class="rw-stp" id="rw-stp" lang="de">
+  <div class="rw-stp__steps" role="group" aria-label="Schritte des STP-Modells">
+    <button type="button" data-s="0">Markt</button>
+    <button type="button" data-s="1"><b>S</b>egmen­tierung</button>
+    <button type="button" data-s="2"><b>T</b>argeting</button>
+    <button type="button" data-s="3"><b>P</b>ositio­nierung</button>
+  </div>
+  <svg id="rw-stp-svg" viewbox="0 0 600 360" role="img" aria-label="Punkte stehen für Menschen im Markt"></svg>
+  <div class="rw-stp__panel">
+    <div class="rw-stp__title" id="rw-stp-title"></div>
+    <div class="rw-stp__text" id="rw-stp-text" aria-live="polite"></div>
+    <div class="rw-stp__actions">
+      <button type="button" id="rw-stp-next" class="is-primary">Weiter</button>
+      <button type="button" id="rw-stp-prev">Zurück</button>
+    </div>
+  </div>
+</div>
+<style>
+.rw-stp { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.45; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-stp * { box-sizing: border-box; }
+.rw-stp button { font: inherit; margin: 0; cursor: pointer; }
+.rw-stp button:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-stp__steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.35em; }
+.rw-stp__steps button { padding: 0.45em 0.2em; border: 1px solid var(--w-rule); border-radius: 0.6em; background: var(--w-card); color: var(--w-soft); font-size: 0.85em; font-weight: 600; }
+.rw-stp__steps button b { color: var(--w-blue); }
+.rw-stp__steps button.is-on { border-color: var(--w-blue); background: var(--w-blue-soft); color: var(--w-ink); box-shadow: inset 0 0 0 1px var(--w-blue); }
+.rw-stp svg { display: block; width: 100%; height: auto; margin: 0.4em 0; }
+.rw-stp .dot { transition: transform 0.9s cubic-bezier(.4,.1,.2,1), fill 0.5s, opacity 0.5s; }
+.rw-stp .hull { fill: none; stroke-width: 2; stroke-dasharray: 6 5; transition: opacity 0.5s, stroke-width 0.3s; }
+.rw-stp .hull.is-target { stroke-dasharray: none; stroke-width: 3.5; }
+.rw-stp .lab { font-family: inherit; font-size: 15px; font-weight: 650; text-anchor: middle; transition: opacity 0.5s; }
+.rw-stp .bubble rect { fill: var(--w-blue); }
+.rw-stp .bubble text { fill: #fff; font-family: inherit; font-size: 15px; font-weight: 650; text-anchor: middle; }
+.rw-stp .bubble { transition: opacity 0.5s; }
+.rw-stp__title { font-size: 1.15em; font-weight: 650; line-height: 1.25; }
+.rw-stp__text { margin-top: 0.3em; min-height: 4.4em; font-size: 0.95em; }
+.rw-stp__text b { font-weight: 650; }
+.rw-stp__actions { display: flex; gap: 0.5em; margin-top: 0.7em; }
+.rw-stp__actions button { font-size: 0.9em; font-weight: 600; padding: 0.45em 1.1em; border-radius: 999px; border: 1px solid var(--w-rule); background: var(--w-card); color: var(--w-ink); }
+.rw-stp__actions button.is-primary { background: var(--w-blue); border-color: var(--w-blue); color: #fff; }
+.rw-stp__actions button:disabled { opacity: 0.45; cursor: default; }
+@media (max-width: 480px) { .rw-stp__steps button { font-size: 0.74em; hyphens: manual; } }
+</style>
+<script>
+(function () {
+  var svg = document.getElementById("rw-stp-svg"), NS = "http://www.w3.org/2000/svg";
+  function el(tag, attrs, parent) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || svg).appendChild(e); return e; }
+  var cs = getComputedStyle(document.getElementById("rw-stp"));
+  function v(n, f) { return cs.getPropertyValue(n).trim() || f; }
+  var BLUE = v("--w-blue", "#2c4f9e"), RULE = v("--w-rule", "#dedbd3");
+  var HUES = [BLUE, "#b7791f", "#2f7d4f", "#8a5a9e"];
+  var CENTERS = [[165, 110], [435, 105], [160, 265], [440, 262]];
+  var seed = 7; function rnd() { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; }
+  var dots = [];
+  for (var g = 0; g < 4; g++) for (var k = 0; k < 12; k++) {
+    var a = rnd() * Math.PI * 2, r = 12 + rnd() * 46;
+    dots.push({ g: g, sx: 40 + rnd() * 520, sy: 30 + rnd() * 300, cx: CENTERS[g][0] + Math.cos(a) * r * 1.35, cy: CENTERS[g][1] + Math.sin(a) * r * 0.85 });
+  }
+  var hulls = CENTERS.map(function (c, g) { return el("ellipse", { cx: c[0], cy: c[1], rx: 104, ry: 66, "class": "hull", stroke: HUES[g] }); });
+  var labs = CENTERS.map(function (c, g) { var t = el("text", { x: c[0], y: c[1] - 74, "class": "lab", fill: HUES[g] }); t.textContent = "Segment " + (g + 1); return t; });
+  var nodes = dots.map(function (d) { return el("circle", { cx: 0, cy: 0, r: 7, "class": "dot" }); });
+  var bub = el("g", { "class": "bubble" });
+  el("rect", { x: 300, y: 70, width: 270, height: 76, rx: 14 }, bub);
+  el("path", { d: "M 300 118 L 262 112 L 300 100 z", fill: BLUE }, bub);
+  var b1 = el("text", { x: 435, y: 102 }, bub); b1.textContent = "Klares Nutzenversprechen";
+  var b2 = el("text", { x: 435, y: 126 }, bub); b2.textContent = "für dieses Segment";
+  var STEPS = [
+    { t: "Ein Markt, viele Bedürfnisse", x: "Jeder Punkt steht für einen Menschen im Markt. Kein Markt ist einheitlich. Ein Angebot für alle spricht niemanden richtig an." },
+    { t: "Segmentierung: Gruppen bilden", x: "Der Markt wird in Gruppen mit <b>ähnlichen Bedürfnissen</b> geteilt. Die Kriterien dafür sind geografisch, demografisch, psychografisch oder verhaltensbezogen. Ein Segment ohne eigene Maßnahme bleibt ein Etikett." },
+    { t: "Targeting: ein Segment auswählen", x: "Zwei Fragen leiten die Auswahl: <b>Wie attraktiv ist das Segment?</b> Und <b>wie gut passt es zu unseren Stärken?</b> Die übrigen Segmente werden vorerst beobachtet oder nicht verfolgt." },
+    { t: "Positionierung: das Versprechen", x: "Erst für das gewählte Segment wird die Position bestimmt: ein klares Nutzenversprechen, abgegrenzt vom Wettbewerb. Wie das geht, zeigt die Lektion zur Positionierung." }
+  ];
+  var step = 0, tabs = [].slice.call(document.querySelectorAll(".rw-stp__steps button"));
+  var prev = document.getElementById("rw-stp-prev"), next = document.getElementById("rw-stp-next");
+  function render() {
+    nodes.forEach(function (n, i) {
+      var d = dots[i], x = step === 0 ? d.sx : d.cx, y = step === 0 ? d.sy : d.cy;
+      n.style.transform = "translate(" + x + "px," + y + "px)";
+      n.setAttribute("fill", step === 0 ? "#8b93a3" : HUES[d.g]);
+      n.style.opacity = (step >= 2 && d.g !== 0) ? (step === 3 ? 0.08 : 0.22) : 1;
+    });
+    hulls.forEach(function (h, g) {
+      h.style.opacity = step === 0 ? 0 : (step >= 2 && g !== 0 ? (step === 3 ? 0 : 0.25) : 1);
+      h.setAttribute("class", "hull" + (step >= 2 && g === 0 ? " is-target" : ""));
+    });
+    labs.forEach(function (l, g) {
+      l.style.opacity = step === 0 ? 0 : (step >= 2 && g !== 0 ? (step === 3 ? 0 : 0.3) : 1);
+      l.textContent = step >= 2 && g === 0 ? "Zielsegment" : "Segment " + (g + 1);
+    });
+    bub.style.opacity = step === 3 ? 1 : 0;
+    tabs.forEach(function (b, k) { b.classList.toggle("is-on", k === step); b.setAttribute("aria-pressed", k === step ? "true" : "false"); });
+    document.getElementById("rw-stp-title").textContent = STEPS[step].t;
+    document.getElementById("rw-stp-text").innerHTML = STEPS[step].x;
+    prev.disabled = step === 0; next.disabled = step === 3;
+  }
+  tabs.forEach(function (b) { b.addEventListener("click", function () { step = parseInt(b.getAttribute("data-s"), 10); render(); }); });
+  next.addEventListener("click", function () { if (step < 3) { step++; render(); } });
+  prev.addEventListener("click", function () { if (step > 0) { step--; render(); } });
+  render();
+})();
+</script>
 
-<img data-src="../images/stp-modell.svg" alt="STP-Modell in drei Feldern: Gruppen bilden, ein Segment wählen, Position bestimmen" width="1000" class="r-stretch"><aside class="notes">
-<p>Zuerst entstehen Gruppen mit ähnlichen Bedürfnissen. Dann wird ausgewählt, welches Segment attraktiv ist und zu den eigenen Stärken passt. Erst für dieses Segment wird die Position bestimmt, das Thema der nächsten Lektion.</p>
+<aside class="notes">
+<p>Das Schaubild beginnt mit einem uneinheitlichen Markt, jeder Punkt ist ein Mensch. [KLICK] Zuerst entstehen Gruppen mit ähnlichen Bedürfnissen. Dann wird ausgewählt, welches Segment attraktiv ist und zu den eigenen Stärken passt. Erst für dieses Segment wird die Position bestimmt, das Thema der nächsten Lektion.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

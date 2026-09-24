@@ -220,9 +220,81 @@ Moderne, frische Komposition: ein Koordinatensystem mit zwei Achsen und einigen 
 </section>
 <section id="eine-freie-attraktive-position-schlägt-den-kampf-um-einen-besetzten-platz" class="slide level2">
 <h2>Eine freie, attraktive Position schlägt den Kampf um einen besetzten Platz</h2>
+<!-- Positionierungskarte der Rösterei Morgenrot (Preis × Kaufart) zum Antippen: Wettbewerber zeigen ihren Platz, der freie Platz zeigt die zwei Prüffragen. Alle Anbieter erfunden. Gleiches Schaubild wie in der Lernplattform-Lektion positionierung (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-pos { font-size: 0.85em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-pos svg { max-height: 380px; }</style>
+<div class="rw-pos" id="rw-pos" lang="de">
+  <svg id="rw-pos-svg" viewbox="0 0 640 420" role="img" aria-label="Positionierungskarte mit Preis und Kaufart. Supermarkt und Großversender stehen bei günstig und Einzelkauf, die Spezialitätenrösterei bei teuer und Einzelkauf, ein Kapselabo bei teuer und Abo. Frei ist der Bereich mittlerer Preis und Abo.">
+    <line x1="80" y1="370" x2="610" y2="370" class="ax"></line>
+    <line x1="80" y1="370" x2="80" y2="30" class="ax"></line>
+    <text x="345" y="405" class="axl" text-anchor="middle">Einzelkauf  →  Versorgung im Abo</text>
+    <text x="30" y="200" class="axl" text-anchor="middle" transform="rotate(-90 30 200)">günstig  →  teuer</text>
+    <g class="spot free" data-k="frei" tabindex="0" role="button" aria-label="Freier Platz: frisch im Abo, mittlerer Preis">
+      <ellipse cx="480" cy="215" rx="118" ry="56"></ellipse>
+      <text x="480" y="207" text-anchor="middle" class="ft">Freier Platz?</text>
+      <text x="480" y="229" text-anchor="middle" class="fs">frisch im Abo, mittlerer Preis</text>
+    </g>
+    <g class="spot comp" data-k="super" tabindex="0" role="button" aria-label="Supermarkt"><circle cx="150" cy="320" r="11"></circle><text x="168" y="325">Supermarkt</text></g>
+    <g class="spot comp" data-k="gross" tabindex="0" role="button" aria-label="Großversender"><circle cx="190" cy="270" r="11"></circle><text x="208" y="275">Großversender</text></g>
+    <g class="spot comp" data-k="spez" tabindex="0" role="button" aria-label="Spezialitätenrösterei"><circle cx="170" cy="90" r="11"></circle><text x="188" y="95">Spezialitätenrösterei</text></g>
+    <g class="spot comp" data-k="kapsel" tabindex="0" role="button" aria-label="Kapselabo"><circle cx="540" cy="75" r="11"></circle><text x="526" y="60" text-anchor="end">Kapselabo</text></g>
+    <g id="rw-pos-me" class="me"><circle cx="480" cy="250" r="12"></circle><text x="480" y="290" text-anchor="middle">Morgenrot</text></g>
+  </svg>
+  <div class="rw-pos__hint" id="rw-pos-hint" aria-live="polite"></div>
+  <div class="rw-pos__note">Alle Anbieter sind erfunden.</div>
+</div>
+<style>
+.rw-pos { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.45; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-pos * { box-sizing: border-box; }
+.rw-pos svg { display: block; width: 100%; height: auto; max-width: 640px; margin: 0 auto; }
+.rw-pos .ax { stroke: #8a94a3; stroke-width: 1.5; }
+.rw-pos .axl { font-size: 16px; fill: var(--w-soft); font-family: inherit; }
+.rw-pos .spot { cursor: pointer; outline: none; }
+.rw-pos .comp circle { fill: #9aa5b4; transition: fill 0.2s, r 0.2s; }
+.rw-pos .comp text { font-size: 17px; fill: var(--w-ink); font-family: inherit; }
+.rw-pos .comp:hover circle, .rw-pos .comp.is-on circle { fill: var(--w-terra); }
+.rw-pos .comp.is-on text { font-weight: 700; }
+.rw-pos .comp:focus-visible circle, .rw-pos .free:focus-visible ellipse { stroke: var(--w-ink); stroke-width: 3; }
+.rw-pos .free ellipse { fill: #635bff; fill-opacity: 0.1; stroke: #635bff; stroke-width: 2; stroke-dasharray: 6 5; transition: fill-opacity 0.2s; }
+.rw-pos .free:hover ellipse, .rw-pos .free.is-on ellipse { fill-opacity: 0.2; }
+.rw-pos .ft { font-size: 18px; font-weight: 650; fill: #3d35c9; font-family: inherit; }
+.rw-pos .fs { font-size: 15px; fill: #3d35c9; font-family: inherit; }
+.rw-pos .me { opacity: 0; transform: translateY(-14px); transition: opacity 0.5s, transform 0.5s; pointer-events: none; }
+.rw-pos .me.is-on { opacity: 1; transform: none; }
+.rw-pos .me circle { fill: var(--w-blue); }
+.rw-pos .me text { font-size: 16px; font-weight: 700; fill: var(--w-blue); font-family: inherit; }
+.rw-pos__hint { margin-top: 0.5em; padding: 0.65em 0.9em; border: 1px solid var(--w-rule); border-left: 3px solid var(--w-blue); border-radius: 0.5em; background: var(--w-deep); min-height: 4.4em; font-size: 0.93em; }
+.rw-pos__hint b { font-weight: 650; }
+.rw-pos__hint ol { margin: 0.3em 0 0; padding-left: 1.3em; }
+.rw-pos__note { margin-top: 0.4em; font-size: 0.78em; color: var(--w-soft); }
+</style>
+<script>
+(function () {
+  var hint = document.getElementById("rw-pos-hint"), me = document.getElementById("rw-pos-me");
+  var START = "Einen Anbieter antippen zeigt seinen Platz. Der gestrichelte Bereich zeigt, woran sich ein freier Platz messen lassen muss.";
+  var INFO = {
+    "super": "<b>Supermarkt:</b> günstiger Einzelkauf. Zusammen mit dem Großversender ist diese Ecke der Karte besetzt.",
+    "gross": "<b>Großversender:</b> ebenfalls günstiger Einzelkauf. Wer hier dazukommt, kämpft um einen Platz, den schon zwei halten.",
+    "spez": "<b>Spezialitätenrösterei:</b> teure Spezialitäten im Einzelkauf. Der Platz ist gehalten.",
+    "kapsel": "<b>Kapselabo:</b> das teure Abo. Auch diese Ecke ist besetzt.",
+    "frei": "<b>Frei ist frischer Kaffee im Abo zum mittleren Preis.</b> Attraktiv ist der Platz nur, wenn beide Prüffragen mit Ja beantwortet werden:<ol><li>Sitzen dort genügend Menschen? Bei Morgenrot: die Homeoffice-Haushalte.</li><li>Kann das eigene Angebot den Platz halten? Bei Morgenrot: Röstdatum plus fester Lieferrhythmus.</li></ol>Sonst ist ein Platz frei, weil er sich nicht lohnt."
+  };
+  var spots = [].slice.call(document.querySelectorAll("#rw-pos .spot"));
+  function pick(g) {
+    var k = g.getAttribute("data-k");
+    spots.forEach(function (s) { s.classList.toggle("is-on", s === g); });
+    me.classList.toggle("is-on", k === "frei");
+    hint.innerHTML = INFO[k];
+  }
+  spots.forEach(function (g) {
+    g.addEventListener("click", function () { pick(g); });
+    g.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); pick(g); } });
+  });
+  hint.textContent = START;
+})();
+</script>
 
-<img data-src="../images/positionierungskarte.svg" alt="Positionierungskarte mit Spezialisierung und Preis, vier Wettbewerbern und einem freien Platz" width="981" class="r-stretch"><aside class="notes">
-<p>Die Achsen sind die Dimensionen, die für die Zielgruppe entscheiden. Im Beispiel drängt sich der Wettbewerb bei breitem Sortiment und niedrigem Preis. Oben rechts ist ein Platz frei. Die Wettbewerber sind fiktiv.</p>
+<aside class="notes">
+<p>Die Achsen sind die Dimensionen, nach denen die Zielgruppe der Rösterei Morgenrot entscheidet: Preis und Kaufart. Günstige Einzelkäufe decken Supermarkt und Großversender ab, teure Spezialitäten eine Spezialitätenrösterei, das teure Abo ein Kapselanbieter. [KLICK] Frei ist frischer Kaffee im Abo zum mittleren Preis. Der Platz lohnt sich nur, wenn dort genügend Menschen sitzen, hier die Homeoffice-Haushalte, und das eigene Angebot ihn halten kann, hier mit Röstdatum und festem Lieferrhythmus. Alle Anbieter sind erfunden.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;

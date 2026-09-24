@@ -249,9 +249,135 @@ Abstrakte moderne Komposition eines Handelsplatzes für Aufmerksamkeit: viele fe
 </section>
 <section id="offene-handelskette-und-walled-garden-funktionieren-nach-verschiedenen-regeln" class="slide level2">
 <h2>Offene Handelskette und Walled Garden funktionieren nach verschiedenen Regeln</h2>
+<!-- Programmatic Advertising Schritt für Schritt: offene Handelskette (Publisher, SSP, Ad Exchange, DSP, Werbungtreibende, Messdienstleister) und daneben der Walled Garden. Rollen und Ablauf aus dem Buchkapitel online-werbemarkt-planungsprozess. Gleiches Schaubild wie in der Lernplattform-Lektion online-werbemarkt-planungsprozess (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-pa { font-size: 0.85em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); }</style>
+<div class="rw-pa" id="rw-pa" lang="de">
+  <div class="rw-pa__views" role="group" aria-label="Ansicht wählen">
+    <button type="button" data-v="open">Offene Handelskette</button>
+    <button type="button" data-v="wg">Walled Garden</button>
+  </div>
+  <div class="rw-pa__stage" id="rw-pa-open">
+    <div class="rw-pa__chain">
+      <div class="nd" data-n="adv"><b>Werbungtreibende</b><span>und Agenturen</span><div class="bids" aria-hidden="true"></div></div>
+      <div class="nd" data-n="dsp"><b>DSP</b><span>Einkaufssystem</span></div>
+      <div class="nd" data-n="adx"><b>Ad Exchange</b><span>Handelsplatz</span></div>
+      <div class="nd" data-n="ssp"><b>SSP</b><span>Verkaufssystem</span></div>
+      <div class="nd" data-n="pub"><b>Publisher</b><span>und Vermarkter</span><div class="slot" aria-hidden="true">Werbeplatz</div></div>
+    </div>
+    <div class="nd nd--wide" data-n="mess"><b>Messdienstleister</b><span>prüfen Sichtbarkeit und Umfeld</span></div>
+  </div>
+  <div class="rw-pa__stage" id="rw-pa-wg" hidden="">
+    <div class="rw-pa__wg">
+      <div class="nd is-lit" data-n="adv2"><b>Werbungtreibende</b><span>buchen direkt</span></div>
+      <div class="rw-pa__garden">
+        <div class="rw-pa__gtitle">Große Plattform, etwa Google oder Meta</div>
+        <div class="rw-pa__gin"><div class="nd is-lit"><b>Werbeplatz</b><span>Publisher</span></div><div class="nd is-lit"><b>Verkäufer</b><span>Vermarkter</span></div><div class="nd is-lit"><b>Messsystem</b><span>eigene Zahlen</span></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="rw-pa__panel">
+    <div class="rw-pa__kicker" id="rw-pa-kicker"></div>
+    <div class="rw-pa__text" id="rw-pa-text" aria-live="polite"></div>
+    <div class="rw-pa__actions" id="rw-pa-actions">
+      <button type="button" id="rw-pa-play" class="is-primary">Abspielen</button>
+      <button type="button" id="rw-pa-next">Weiter</button>
+      <button type="button" id="rw-pa-prev">Zurück</button>
+    </div>
+  </div>
+</div>
+<style>
+.rw-pa { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.4; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-pa * { box-sizing: border-box; }
+.rw-pa [hidden] { display: none !important; }
+.rw-pa button { font: inherit; margin: 0; cursor: pointer; }
+.rw-pa button:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-pa__views { display: grid; grid-template-columns: 1fr 1fr; gap: 0.4em; margin-bottom: 0.8em; }
+.rw-pa__views button { padding: 0.45em; border: 1px solid var(--w-rule); border-radius: 0.6em; background: var(--w-card); color: var(--w-soft); font-weight: 600; font-size: 0.9em; }
+.rw-pa__views button.is-on { border-color: var(--w-blue); background: var(--w-blue-soft); color: var(--w-ink); box-shadow: inset 0 0 0 1px var(--w-blue); }
+.rw-pa .nd { position: relative; border: 1px solid var(--w-rule); border-radius: 0.6em; background: var(--w-card); padding: 0.5em 0.4em; text-align: center; transition: border-color 0.25s, background 0.25s, box-shadow 0.25s; }
+.rw-pa .nd b { display: block; font-size: 0.9em; line-height: 1.2; }
+.rw-pa .nd span { display: block; font-size: 0.72em; color: var(--w-soft); line-height: 1.2; margin-top: 0.1em; }
+.rw-pa .nd.is-lit { border-color: var(--w-blue); background: var(--w-blue-soft); box-shadow: inset 0 0 0 1px var(--w-blue); }
+.rw-pa .nd.is-done { border-color: var(--w-blue); }
+.rw-pa__chain { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.1em; }
+.rw-pa__chain .nd:not(:last-child)::after { content: "⇄"; position: absolute; right: -1.05em; top: 50%; transform: translateY(-50%); color: var(--w-soft); font-size: 0.9em; width: 1em; text-align: center; }
+.rw-pa .nd--wide { margin-top: 0.7em; }
+.rw-pa .bids { display: flex; justify-content: center; gap: 0.2em; height: 0; overflow: hidden; transition: height 0.3s; }
+.rw-pa .bids.is-on { height: 1.5em; margin-top: 0.3em; }
+.rw-pa .bids i { font-style: normal; font-size: 0.68em; font-weight: 700; padding: 0.1em 0.4em; border-radius: 999px; background: var(--w-ochre); color: #fff; }
+.rw-pa .bids i.win { background: var(--w-green); }
+.rw-pa .slot { margin-top: 0.35em; font-size: 0.7em; font-weight: 700; border: 1.5px dashed var(--w-soft); border-radius: 0.35em; padding: 0.25em; color: var(--w-soft); transition: all 0.3s; }
+.rw-pa .slot.is-ad { border-style: solid; border-color: var(--w-green); background: var(--w-green); color: #fff; }
+.rw-pa__wg { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 3fr); gap: 1em; align-items: center; }
+.rw-pa__garden { border: 2px solid var(--w-ink); border-radius: 0.9em; padding: 0.6em; background: var(--w-deep); }
+.rw-pa__gtitle { font-size: 0.8em; font-weight: 700; margin-bottom: 0.45em; }
+.rw-pa__gin { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.4em; }
+.rw-pa__kicker { margin-top: 0.9em; font-size: 0.75em; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; color: var(--w-blue); }
+.rw-pa__text { margin-top: 0.25em; min-height: 4.4em; font-size: 0.95em; }
+.rw-pa__text b { font-weight: 650; }
+.rw-pa__actions { display: flex; gap: 0.5em; margin-top: 0.6em; flex-wrap: wrap; }
+.rw-pa__actions button { font-size: 0.9em; font-weight: 600; padding: 0.45em 1.1em; border-radius: 999px; border: 1px solid var(--w-rule); background: var(--w-card); color: var(--w-ink); }
+.rw-pa__actions button.is-primary { background: var(--w-blue); border-color: var(--w-blue); color: #fff; }
+.rw-pa__actions button:disabled { opacity: 0.45; cursor: default; }
+@media (max-width: 600px) {
+  .rw-pa__chain { display: flex; flex-direction: column-reverse; gap: 1.1em; }
+  .rw-pa__chain .nd:not(:last-child)::after { content: none; }
+  .rw-pa__chain .nd:not(:first-child)::after { content: "⇅"; position: absolute; left: 50%; right: auto; top: auto; bottom: -1.2em; transform: translateX(-50%); color: var(--w-soft); width: 1em; }
+  .rw-pa__wg { grid-template-columns: minmax(0, 1fr); }
+  .rw-pa__gin { grid-template-columns: minmax(0, 1fr); }
+}
+</style>
+<script>
+(function () {
+  var root = document.getElementById("rw-pa");
+  var STEPS = [
+    { lit: [], x: "Der größte Teil der Werbeplätze wird automatisiert gehandelt. „Abspielen“ oder „Weiter“ zeigt, was passiert, während eine Seite lädt." },
+    { lit: ["pub"], x: "<b>Jemand ruft eine Seite auf.</b> Beim Publisher ist ein Werbeplatz frei. Vermarkter bündeln solche Plätze und verkaufen sie." },
+    { lit: ["ssp"], x: "<b>Die SSP meldet den freien Platz.</b> Sie ist das Verkaufssystem der Publisher." },
+    { lit: ["adx"], x: "<b>Der Ad Exchange ist der Handelsplatz</b> zwischen Verkaufs- und Einkaufssystemen." },
+    { lit: ["dsp", "adv"], bids: true, x: "<b>Mehrere DSPs geben ein Gebot ab</b>, nach Regeln, die Werbungtreibende und Agenturen hinterlegt haben. Die DSP ist das Einkaufssystem der Werbungtreibenden." },
+    { lit: ["pub"], bids: true, win: true, x: "<b>Ein Gebot erhält den Zuschlag</b>, das Werbemittel wird ausgeliefert. Der ganze Ablauf dauert wenige Millisekunden." },
+    { lit: ["mess"], bids: true, win: true, x: "<b>Messdienstleister prüfen</b>, ob die Werbung sichtbar war und in welchem Umfeld sie erschienen ist." }
+  ];
+  var WG = "Bei großen Plattformen wie Google oder Meta liegen <b>Werbeplatz, Verkäufer und Messsystem in einer Hand</b>, man spricht von Walled Gardens. Werbungtreibende buchen dort direkt. Die Zahlen aus dem Werbekonto stammen vom Verkäufer selbst; wichtige Entscheidungen brauchen eine zweite Quelle, etwa die Webanalyse.";
+  var step = 0, view = "open", timer = null;
+  var nodes = [].slice.call(root.querySelectorAll("#rw-pa-open .nd")), bids = root.querySelector(".bids"), slot = root.querySelector(".slot");
+  var views = [].slice.call(root.querySelectorAll(".rw-pa__views button"));
+  var play = document.getElementById("rw-pa-play"), next = document.getElementById("rw-pa-next"), prev = document.getElementById("rw-pa-prev");
+  bids.innerHTML = "<i>Gebot</i><i>Gebot</i><i>Gebot</i>";
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function render() {
+    views.forEach(function (b) { var on = b.getAttribute("data-v") === view; b.classList.toggle("is-on", on); b.setAttribute("aria-pressed", on ? "true" : "false"); });
+    document.getElementById("rw-pa-open").hidden = view !== "open";
+    document.getElementById("rw-pa-wg").hidden = view !== "wg";
+    document.getElementById("rw-pa-actions").hidden = view !== "open";
+    if (view === "wg") { document.getElementById("rw-pa-kicker").textContent = "Walled Garden"; document.getElementById("rw-pa-text").innerHTML = WG; return; }
+    var s = STEPS[step], seen = {};
+    for (var k = 1; k < step; k++) STEPS[k].lit.forEach(function (n) { seen[n] = true; });
+    nodes.forEach(function (nd) { var n = nd.getAttribute("data-n"); nd.classList.toggle("is-lit", s.lit.indexOf(n) >= 0); nd.classList.toggle("is-done", !!seen[n]); });
+    bids.classList.toggle("is-on", !!s.bids);
+    var chips = bids.querySelectorAll("i"); chips[1].classList.toggle("win", !!s.win);
+    slot.classList.toggle("is-ad", !!s.win); slot.textContent = s.win ? "Anzeige" : "Werbeplatz";
+    document.getElementById("rw-pa-kicker").textContent = step === 0 ? "Programmatic Advertising" : "Schritt " + step + " von " + (STEPS.length - 1);
+    document.getElementById("rw-pa-text").innerHTML = s.x;
+    prev.disabled = step === 0; next.disabled = step === STEPS.length - 1;
+  }
+  function stopPlay() { clearInterval(timer); timer = null; play.textContent = "Abspielen"; }
+  play.addEventListener("click", function () {
+    if (timer) { stopPlay(); return; }
+    step = reduce ? STEPS.length - 1 : 1; render(); if (reduce) return;
+    play.textContent = "Anhalten";
+    timer = setInterval(function () { if (step < STEPS.length - 1) { step++; render(); } else stopPlay(); }, 2200);
+  });
+  next.addEventListener("click", function () { stopPlay(); if (step < STEPS.length - 1) { step++; render(); } });
+  prev.addEventListener("click", function () { stopPlay(); if (step > 0) { step--; render(); } });
+  views.forEach(function (b) { b.addEventListener("click", function () { stopPlay(); view = b.getAttribute("data-v"); render(); }); });
+  render();
+})();
+</script>
 
-<img data-src="../images/werbemarkt-akteure.svg" alt="Akteure am Online-Werbemarkt: Werbungtreibende, DSP, Ad Exchange, SSP, Publisher sowie ein Walled Garden" width="1000" class="r-stretch"><aside class="notes">
-<p>Oben die offene Kette: Die DSP kauft für Werbungtreibende ein, die SSP verkauft für Publisher, der Ad Exchange ist der Handelsplatz. Messdienstleister prüfen unabhängig. Unten der Walled Garden: Publisher, Vermarkter und Messsystem liegen in einer Hand, gebucht wird direkt. Genau deshalb braucht es dort den Abgleich mit eigenen Daten.</p>
+<aside class="notes">
+<p>Das Schaubild spielt den Handel um einen einzelnen Werbeplatz ab. [KLICK] Jemand ruft eine Seite auf, beim Publisher ist ein Platz frei. Die SSP verkauft für Publisher und meldet den Platz, der Ad Exchange ist der Handelsplatz, die DSPs kaufen für Werbungtreibende ein und geben nach hinterlegten Regeln ein Gebot ab. Ein Gebot erhält den Zuschlag, das Werbemittel wird ausgeliefert, alles in wenigen Millisekunden. Messdienstleister prüfen unabhängig, ob die Werbung sichtbar war. Die zweite Ansicht zeigt den Walled Garden: Werbeplatz, Verkäufer und Messsystem liegen in einer Hand, gebucht wird direkt. Genau deshalb braucht es dort den Abgleich mit eigenen Daten.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -319,6 +445,86 @@ Abstrakte moderne Komposition eines Handelsplatzes für Aufmerksamkeit: viele fe
 </div>
 <aside class="notes">
 <p>Die Modelle unterscheiden sich nicht in der Höhe, sondern in der Frage, wofür überhaupt bezahlt wird. Der Tausend-Kontakt-Preis rechnet je tausend erreichte Kontakte, der englische Cost per Mille je tausend Einblendungen; online werden beide Begriffe meist gleichgesetzt. Beim Cost per Click fällt Geld erst beim Klick an, beim Cost per Action erst bei einer definierten Handlung. Im Affiliate-Bereich kommt eine Beteiligung am vermittelten Umsatz hinzu. Die hervorgehobene Zeile markiert den Kipppunkt: Je weiter das Modell in Richtung Handlung rückt, desto mehr Risiko übernimmt der Vermarkter, und desto höher fällt der Preis pro Kontakt aus.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="beim-tkp-bleibt-die-rechnung-gleich-der-klickpreis-nicht" class="slide level2">
+<h2>Beim TKP bleibt die Rechnung gleich, der Klickpreis nicht</h2>
+<!-- Vom TKP zum Klickpreis: fiktives Angebot (100.000 Einblendungen, TKP 6,00 Euro) mit Regler für die angenommene Klickrate. Die Rechnung bleibt bei 600 Euro, Klicks und Kosten je Klick bewegen sich. Gleiches Schaubild wie in der Lernplattform-Lektion online-werbemarkt-planungsprozess (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-tkp { font-size: 0.85em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-tkp input[type=range] { width: 100%; } .reveal .rw-tkp__grid { grid-template-columns: repeat(50, 1fr); gap: 3px; } .reveal .rw-tkp__main { grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); }</style>
+<div class="rw-tkp" id="rw-tkp" lang="de">
+  <div class="rw-tkp__offer">
+    <div><span>Einblendungen</span><b>100.000</b></div>
+    <div><span>TKP</span><b>6,00 €</b></div>
+    <div class="is-fixed"><span>Rechnung</span><b>600,00 €</b></div>
+  </div>
+  <label class="rw-tkp__slider"><span>Angenommene Klickrate: <b id="rw-tkp-rate-v"></b></span>
+    <input type="range" id="rw-tkp-rate" min="0.05" max="0.5" step="0.025" value="0.25"></label>
+  <div class="rw-tkp__main">
+    <div class="rw-tkp__grid" id="rw-tkp-grid" aria-hidden="true"></div>
+    <div class="rw-tkp__out">
+      <div><span>Klicks</span><b id="rw-tkp-clicks"></b></div>
+      <div><span>Kosten je Klick</span><b id="rw-tkp-cpc"></b></div>
+    </div>
+  </div>
+  <div class="rw-tkp__hint" id="rw-tkp-hint" aria-live="polite"></div>
+  <div class="rw-tkp__note">Ein Punkt steht für einen Klick, das Raster fasst höchstens 500. Alle Zahlen sind erfunden.</div>
+</div>
+<style>
+.rw-tkp { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.45; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-tkp * { box-sizing: border-box; }
+.rw-tkp__offer { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.4em; }
+.rw-tkp__offer div, .rw-tkp__out div { border: 1px solid var(--w-rule); border-radius: 0.6em; padding: 0.45em 0.6em; background: var(--w-card); }
+.rw-tkp__offer span, .rw-tkp__out span { display: block; font-size: 0.72em; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 700; color: var(--w-soft); }
+.rw-tkp__offer b { font-size: 1.15em; font-variant-numeric: tabular-nums; }
+.rw-tkp__offer .is-fixed { border-color: var(--w-ochre); background: #fbf5e9; }
+.rw-tkp__slider { display: flex; flex-direction: column; gap: 0.25em; margin: 0.9em 0 0.7em; font-size: 0.95em; }
+.rw-tkp__slider input { width: 100%; accent-color: var(--w-blue); margin: 0; }
+.rw-tkp input:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-tkp__main { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 0.9em; align-items: stretch; }
+.rw-tkp__grid { display: grid; grid-template-columns: repeat(25, 1fr); gap: 2px; align-content: start; padding: 0.5em; border: 1px solid var(--w-rule); border-radius: 0.6em; background: var(--w-deep); }
+.rw-tkp__grid i { display: block; aspect-ratio: 1; border-radius: 50%; background: var(--w-rule); transition: background 0.25s; }
+.rw-tkp__grid i.on { background: var(--w-blue); }
+.rw-tkp__out { display: grid; gap: 0.4em; align-content: start; }
+.rw-tkp__out b { display: block; font-size: 1.7em; line-height: 1.15; font-variant-numeric: tabular-nums; }
+.rw-tkp__hint { margin-top: 0.8em; padding: 0.65em 0.9em; border: 1px solid var(--w-rule); border-left: 3px solid var(--w-blue); border-radius: 0.5em; background: var(--w-deep); min-height: 4.4em; font-size: 0.92em; }
+.rw-tkp__hint b { font-weight: 650; }
+.rw-tkp__note { margin-top: 0.5em; font-size: 0.78em; color: var(--w-soft); }
+@media (max-width: 480px) { .rw-tkp__main { grid-template-columns: minmax(0, 1fr); } .rw-tkp__out { grid-template-columns: 1fr 1fr; } .rw-tkp__offer b { font-size: 1em; } .rw-tkp__offer span { font-size: 0.6em; letter-spacing: 0.02em; } .rw-tkp__offer div { padding: 0.4em 0.45em; } }
+</style>
+<script>
+(function () {
+  var IMPR = 100000, COST = 600, MAX = 500;
+  var grid = document.getElementById("rw-tkp-grid"), rate = document.getElementById("rw-tkp-rate"), dots = [];
+  for (var i = 0; i < MAX; i++) { var d = document.createElement("i"); grid.appendChild(d); dots.push(d); }
+  function de(v, dec) { return v.toLocaleString("de-DE", { minimumFractionDigits: dec, maximumFractionDigits: dec }); }
+  function render() {
+    var r = parseFloat(rate.value), clicks = Math.round(IMPR * r / 100), cpc = COST / clicks;
+    var rtxt = r.toLocaleString("de-DE", { minimumFractionDigits: 1, maximumFractionDigits: 3 }) + " %";
+    document.getElementById("rw-tkp-rate-v").textContent = rtxt;
+    document.getElementById("rw-tkp-clicks").textContent = de(clicks, 0);
+    document.getElementById("rw-tkp-cpc").textContent = de(cpc, 2) + " €";
+    dots.forEach(function (d, k) { d.classList.toggle("on", k < clicks); });
+    var h = "Bei " + rtxt + " sind es <b>" + de(clicks, 0) + " Klicks</b> und <b>" + de(cpc, 2) + " € je Klick</b>. Die Rechnung des Vermarkters bleibt bei 600,00 €. ";
+    h += r < 0.2499 ? "Weniger Klicks machen jeden Klick teurer. Beim TKP liegt dieses Risiko bei der Rösterei." : (r > 0.2501 ? "Mehr Klicks machen jeden Klick günstiger. Die Klickrate bleibt aber eine Annahme, keine Zusage." : "Das ist die Annahme aus dem Rechenbeispiel. Der Regler verschiebt sie nach unten oder oben.");
+    document.getElementById("rw-tkp-hint").innerHTML = h;
+  }
+  rate.addEventListener("input", render);
+  render();
+})();
+</script>
+
+<aside class="notes">
+<p>Ein erfundenes Angebot an die Rösterei Morgenrot: 100.000 Einblendungen zum TKP von 6,00 Euro, also 600,00 Euro Mediakosten. Bei einer angenommenen Klickrate von 0,25 Prozent entstehen 250 Klicks, jeder kostet 2,40 Euro. [KLICK] Sinkt die Klickrate auf 0,125 Prozent, sind es nur 125 Klicks und 4,80 Euro je Klick. Die Rechnung des Vermarkters bleibt bei 600,00 Euro. Die Klickrate ist eine Annahme, keine Zusage, und beim TKP liegt dieses Risiko bei der Rösterei.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -443,9 +649,119 @@ Ein Händler in einem ruhigen modernen Handelssaal steht vor einer weit entfernt
 </section>
 <section id="das-controlling-liefert-das-lagebild-für-die-nächste-planungsrunde" class="slide level2">
 <h2>Das Controlling liefert das Lagebild für die nächste Planungsrunde</h2>
+<!-- Planungsprozess in acht Schritten als klickbarer Ring (Leitfrage und Ergebnis je Schritt aus dem Buchkapitel), der Bogen vom Controlling zurück zur Situationsanalyse wird zuletzt hervorgehoben. Gleiches Schaubild wie in der Lernplattform-Lektion online-werbemarkt-planungsprozess (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-pp { font-size: 0.9em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-pp svg { max-height: 460px; }</style>
+<div class="rw-pp" id="rw-pp" lang="de">
+  <svg id="rw-pp-svg" viewbox="0 0 600 560" role="img" aria-label="Planungsprozess mit acht Schritten im Kreis: Situationsanalyse, Ziele, Zielgruppen, Strategie und Positionierung, Kanäle und Maßnahmen, Budget, Umsetzung, Controlling, danach wieder Situationsanalyse"></svg>
+  <div class="rw-pp__panel">
+    <div class="rw-pp__kicker" id="rw-pp-kicker">Planungsprozess</div>
+    <div class="rw-pp__title" id="rw-pp-title">Acht Schritte, lange vor der Buchung</div>
+    <div class="rw-pp__text" id="rw-pp-text" aria-live="polite"></div>
+    <div class="rw-pp__actions">
+      <button type="button" id="rw-pp-next">Weiter</button>
+      <button type="button" id="rw-pp-prev" class="is-secondary">Zurück</button>
+    </div>
+  </div>
+</div>
+<style>
+.rw-pp { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-green: #2f7d4f; font-size: 15px; line-height: 1.5; color: var(--w-ink); font-family: inherit; text-align: left; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 1.2em; align-items: center; }
+.rw-pp * { box-sizing: border-box; }
+.rw-pp svg { width: 100%; height: auto; display: block; }
+.rw-pp__kicker { font-size: 0.75em; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; color: var(--w-blue); }
+.rw-pp__title { font-size: 1.2em; font-weight: 650; margin: 0.25em 0 0.45em; line-height: 1.25; }
+.rw-pp__text { color: var(--w-ink); min-height: 7em; font-size: 0.95em; }
+.rw-pp__text b { font-weight: 650; }
+.rw-pp__actions { display: flex; gap: 0.5em; margin-top: 0.9em; flex-wrap: wrap; }
+.rw-pp__actions button { font: inherit; font-size: 0.9em; font-weight: 600; padding: 0.45em 1.1em; border-radius: 999px; border: 1px solid var(--w-blue); background: var(--w-blue); color: #fff; cursor: pointer; margin: 0; }
+.rw-pp__actions button.is-secondary { background: var(--w-card); color: var(--w-ink); border-color: var(--w-rule); }
+.rw-pp__actions button:disabled { opacity: 0.45; cursor: default; }
+.rw-pp__actions button:focus-visible, .rw-pp .node:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-pp .node { cursor: pointer; }
+.rw-pp .node rect { fill: var(--w-card); stroke: var(--w-rule); stroke-width: 2; transition: fill 0.2s, stroke 0.2s; }
+.rw-pp .node text { fill: var(--w-soft); font-family: inherit; font-size: 22px; font-weight: 600; text-anchor: middle; pointer-events: none; }
+.rw-pp .node .no { font-size: 16px; font-weight: 700; fill: var(--w-blue); }
+.rw-pp .node.is-done rect { stroke: var(--w-blue); }
+.rw-pp .node.is-done text { fill: var(--w-ink); }
+.rw-pp .node.is-active rect { fill: var(--w-blue); stroke: var(--w-blue); }
+.rw-pp .node.is-active text, .rw-pp .node.is-active .no { fill: #ffffff; }
+.rw-pp .node.is-info rect { stroke: var(--w-ochre); stroke-width: 3; fill: #fbf5e9; }
+.rw-pp .arc { fill: none; stroke: var(--w-rule); stroke-width: 4; transition: stroke 0.2s; }
+.rw-pp .arc.is-done { stroke: var(--w-blue); }
+.rw-pp .arc.is-back { stroke-dasharray: 9 8; }
+.rw-pp .arc.is-back.is-done { stroke: var(--w-green); stroke-dasharray: none; stroke-width: 6; }
+.rw-pp .center { fill: var(--w-soft); font-family: inherit; font-size: 20px; text-anchor: middle; }
+.rw-pp .center-strong { fill: var(--w-ink); font-family: inherit; font-size: 26px; font-weight: 700; text-anchor: middle; }
+@media (max-width: 620px) { .rw-pp { grid-template-columns: minmax(0, 1fr); } .rw-pp svg { max-width: 440px; margin: 0 auto; } .rw-pp__text { min-height: 0; } }
+</style>
+<script>
+(function () {
+  var short = ["Situation", "Ziele", "Zielgruppen", "Positionierung", "Kanäle", "Budget", "Umsetzung", "Controlling"];
+  var names = ["Situationsanalyse", "Ziele", "Zielgruppen", "Strategie und Positionierung", "Kanäle und Maßnahmen", "Budget", "Umsetzung", "Controlling"];
+  var ask = ["Wo stehen wir in Markt und Wettbewerb?", "Was wollen wir messbar erreichen?", "Wen genau wollen wir erreichen?", "Wofür stehen wir, welches Versprechen geben wir?", "Welche Kanäle, welche Inhalte?", "Wie viel, wie verteilt?", "Wer macht was bis wann?", "Wirkt es, was ändern wir?"];
+  var res = ["Lagebild", "Zielsystem mit Kennzahlen", "Segmente und Personas", "Positionierungsaussage", "Kanalmix und Maßnahmenplan", "Budgetplan", "Zeit- und Verantwortungsplan", "Reporting und Anpassungen"];
+  var START = "„Weiter“ geht die acht Schritte der Reihe nach durch. Ein Klick auf einen Schritt zeigt Leitfrage und Ergebnis.";
+  var BACK = "Das Controlling wird zuletzt geplant, läuft aber <b>ab dem ersten Kampagnentag</b> mit. Was es misst, geht als Lagebild in die nächste Situationsanalyse ein. Deshalb ist der Prozess ein Kreis.";
+  var svg = document.getElementById("rw-pp-svg"), NS = "http://www.w3.org/2000/svg";
+  var cx = 300, cy = 280, R = 214, n = 8, w = 176, h = 58;
+  function ang(i) { return -Math.PI / 2 + i * 2 * Math.PI / n; }
+  function pos(i) { return [cx + R * Math.cos(ang(i)), cy + R * Math.sin(ang(i))]; }
+  function el(tag, attrs, parent) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || svg).appendChild(e); return e; }
+  var defs = el("defs", {});
+  var cs = getComputedStyle(document.getElementById("rw-pp"));
+  function g(v, f) { return cs.getPropertyValue(v).trim() || f; }
+  [["rw-pp-a0", g("--w-rule", "#dedbd3")], ["rw-pp-a1", g("--w-blue", "#2c4f9e")], ["rw-pp-a2", g("--w-green", "#2f7d4f")]].forEach(function (m) {
+    var mk = el("marker", { id: m[0], viewBox: "0 0 10 10", refX: "8", refY: "5", markerWidth: "5", markerHeight: "5", orient: "auto-start-reverse" }, defs);
+    el("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: m[1] }, mk);
+  });
+  function exit(i, dir) { var p = pos(i), a = ang(i); for (var k = 0; k < 400; k++) { a += dir * 0.005; var x = cx + R * Math.cos(a), y = cy + R * Math.sin(a); if (Math.abs(x - p[0]) > w / 2 + 6 || Math.abs(y - p[1]) > h / 2 + 6) return a; } return a; }
+  var arcs = [], nodes = [];
+  for (var i = 0; i < n; i++) {
+    var a0 = exit(i, 1), a1 = exit((i + 1) % n, -1) + (i === n - 1 ? 2 * Math.PI : 0);
+    arcs.push(el("path", { d: "M " + (cx + R * Math.cos(a0)) + " " + (cy + R * Math.sin(a0)) + " A " + R + " " + R + " 0 0 1 " + (cx + R * Math.cos(a1)) + " " + (cy + R * Math.sin(a1)), "class": "arc", "marker-end": "url(#rw-pp-a0)" }));
+  }
+  var c1 = el("text", { x: cx, y: cy - 6, "class": "center-strong" }), c2 = el("text", { x: cx, y: cy + 24, "class": "center" });
+  for (i = 0; i < n; i++) {
+    var p = pos(i), gr = el("g", { "class": "node", tabindex: "0", role: "button", "aria-label": "Schritt " + (i + 1) + ": " + names[i] + " erklären" });
+    el("rect", { x: p[0] - w / 2, y: p[1] - h / 2, width: w, height: h, rx: 12 }, gr);
+    var no = el("text", { x: p[0], y: p[1] - 7, "class": "no" }, gr); no.textContent = i + 1;
+    var t = el("text", { x: p[0], y: p[1] + 18 }, gr); t.textContent = short[i];
+    (function (idx) {
+      function info() {
+        step = idx; render(); nodes[idx].classList.add("is-info");
+      }
+      gr.addEventListener("click", info);
+      gr.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); info(); } });
+    })(i);
+    nodes.push(gr);
+  }
+  var step = -1, prevBtn = document.getElementById("rw-pp-prev"), nextBtn = document.getElementById("rw-pp-next");
+  function set(k, t, x) { document.getElementById("rw-pp-kicker").textContent = k; document.getElementById("rw-pp-title").textContent = t; document.getElementById("rw-pp-text").innerHTML = x; }
+  function render() {
+    nodes.forEach(function (gr) { gr.setAttribute("class", "node"); });
+    arcs.forEach(function (a, k) { a.setAttribute("class", "arc" + (k === n - 1 ? " is-back" : "")); a.setAttribute("marker-end", "url(#rw-pp-a0)"); });
+    prevBtn.disabled = step < 0; nextBtn.disabled = step >= n;
+    if (step < 0) { c1.textContent = "8 Schritte"; c2.textContent = "ein Kreislauf"; set("Planungsprozess", "Acht Schritte, lange vor der Buchung", START); return; }
+    var last = Math.min(step, n - 1);
+    for (var k = 0; k <= last; k++) { nodes[k].classList.add("is-done"); if (k < last) { arcs[k].classList.add("is-done"); arcs[k].setAttribute("marker-end", "url(#rw-pp-a1)"); } }
+    if (step === n) {
+      arcs[n - 1].classList.add("is-done"); arcs[n - 1].setAttribute("marker-end", "url(#rw-pp-a2)");
+      nodes[0].classList.add("is-active");
+      c1.textContent = "Zurück zu 1"; c2.textContent = "neues Lagebild";
+      set("Vom Controlling zur nächsten Runde", "Das Controlling liefert das nächste Lagebild", BACK);
+      return;
+    }
+    nodes[step].classList.add("is-active");
+    c1.textContent = "Schritt " + (step + 1); c2.textContent = "von 8";
+    set("Schritt " + (step + 1) + " von 8", names[step], "<b>Leitfrage:</b> " + ask[step] + "<br><b>Ergebnis:</b> " + res[step] + (step === n - 1 ? "<br>Geplant wird es zuletzt, laufen muss es ab dem ersten Kampagnentag." : ""));
+  }
+  nextBtn.addEventListener("click", function () { if (step < n) { step++; render(); } });
+  prevBtn.addEventListener("click", function () { if (step >= 0) { step--; render(); } });
+  render();
+})();
+</script>
 
-<img data-src="../images/planungsprozess.svg" alt="Planungsprozess in acht Schritten als Kreislauf" width="834" class="r-stretch"><aside class="notes">
-<p>Die acht Schritte bilden einen Kreislauf, keine Einbahnstraße. In der Praxis laufen sie in Schleifen, aber keiner wird übersprungen. Der hervorgehobene Bogen zeigt: Was das Controlling misst, geht als Lagebild in die nächste Situationsanalyse ein.</p>
+<aside class="notes">
+<p>Die acht Schritte bilden einen Kreislauf, keine Einbahnstraße. [KLICK] Schritt für Schritt erscheinen Leitfrage und Ergebnis, von der Situationsanalyse mit dem Lagebild bis zum Controlling mit Reporting und Anpassungen. In der Praxis laufen die Schritte in Schleifen, aber keiner wird übersprungen. Der letzte Klick hebt den Bogen zurück hervor: Was das Controlling misst, geht als Lagebild in die nächste Situationsanalyse ein.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
