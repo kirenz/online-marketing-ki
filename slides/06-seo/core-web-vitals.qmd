@@ -65,10 +65,12 @@ Drei Kennzahlen bilden den Kern, und jede beschreibt einen anderen Moment im Bes
 
 ## LCP, INP und CLS messen drei verschiedene Momente eines Besuchs
 
-![](../images/core-web-vitals.svg){fig-alt="Drei Browserfenster zu LCP, INP und CLS" width="1000px"}
+``` {=html}
+{{< include ../includes/roesterei-core-web-vitals.html >}}
+```
 
 ::: {.notes}
-LCP fragt, wann der größte Inhalt sichtbar ist. INP fragt, wie schnell die Seite auf eine Eingabe sichtbar reagiert. CLS fragt, wie stark Elemente verrutschen, etwa durch ein nachgeladenes Banner. Zielwerte stehen bewusst nicht auf der Folie, sie werden in der aktuellen Google-Dokumentation nachgeschlagen.
+Die drei Demos lassen sich live vorführen. LCP fragt, wann der größte Inhalt sichtbar ist: Der Text steht früh da, das Produktbild kommt später. [KLICK] INP fragt, wie schnell die Seite auf eine Eingabe sichtbar reagiert: Bei der trägen Fassung passiert nach dem Tippen erst einmal nichts. [KLICK] CLS fragt, wie stark Elemente verrutschen: Ein nachgeladenes Banner schiebt den Bestellknopf weg, der erste Klick geht ins Leere. Zielwerte stehen bewusst nicht auf der Folie, sie werden in der aktuellen Google-Dokumentation nachgeschlagen.
 :::
 
 ## Die Eröffnung eines Geschäfts {.stage background-color="#0a0a0f" data-kicker="Analogie"}

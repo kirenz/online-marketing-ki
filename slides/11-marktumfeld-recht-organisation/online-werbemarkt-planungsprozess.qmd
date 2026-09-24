@@ -54,10 +54,12 @@ Der Begriff der ummauerten Gärten beschreibt eine Besonderheit dieses Marktes. 
 
 ## Offene Handelskette und Walled Garden funktionieren nach verschiedenen Regeln
 
-![](../images/werbemarkt-akteure.svg){fig-alt="Akteure am Online-Werbemarkt: Werbungtreibende, DSP, Ad Exchange, SSP, Publisher sowie ein Walled Garden" width="1000px"}
+``` {=html}
+{{< include ../includes/roesterei-programmatic.html >}}
+```
 
 ::: {.notes}
-Oben die offene Kette: Die DSP kauft für Werbungtreibende ein, die SSP verkauft für Publisher, der Ad Exchange ist der Handelsplatz. Messdienstleister prüfen unabhängig. Unten der Walled Garden: Publisher, Vermarkter und Messsystem liegen in einer Hand, gebucht wird direkt. Genau deshalb braucht es dort den Abgleich mit eigenen Daten.
+Das Schaubild spielt den Handel um einen einzelnen Werbeplatz ab. [KLICK] Jemand ruft eine Seite auf, beim Publisher ist ein Platz frei. Die SSP verkauft für Publisher und meldet den Platz, der Ad Exchange ist der Handelsplatz, die DSPs kaufen für Werbungtreibende ein und geben nach hinterlegten Regeln ein Gebot ab. Ein Gebot erhält den Zuschlag, das Werbemittel wird ausgeliefert, alles in wenigen Millisekunden. Messdienstleister prüfen unabhängig, ob die Werbung sichtbar war. Die zweite Ansicht zeigt den Walled Garden: Werbeplatz, Verkäufer und Messsystem liegen in einer Hand, gebucht wird direkt. Genau deshalb braucht es dort den Abgleich mit eigenen Daten.
 :::
 
 ## Die Plattform misst ihren eigenen Erfolg {.stage background-color="#0a0a0f"}
@@ -85,6 +87,16 @@ Quelle: @lammenett2025
 
 ::: {.notes}
 Die Modelle unterscheiden sich nicht in der Höhe, sondern in der Frage, wofür überhaupt bezahlt wird. Der Tausend-Kontakt-Preis rechnet je tausend erreichte Kontakte, der englische Cost per Mille je tausend Einblendungen; online werden beide Begriffe meist gleichgesetzt. Beim Cost per Click fällt Geld erst beim Klick an, beim Cost per Action erst bei einer definierten Handlung. Im Affiliate-Bereich kommt eine Beteiligung am vermittelten Umsatz hinzu. Die hervorgehobene Zeile markiert den Kipppunkt: Je weiter das Modell in Richtung Handlung rückt, desto mehr Risiko übernimmt der Vermarkter, und desto höher fällt der Preis pro Kontakt aus.
+:::
+
+## Beim TKP bleibt die Rechnung gleich, der Klickpreis nicht
+
+``` {=html}
+{{< include ../includes/roesterei-tkp-klickpreis.html >}}
+```
+
+::: {.notes}
+Ein erfundenes Angebot an die Rösterei Morgenrot: 100.000 Einblendungen zum TKP von 6,00 Euro, also 600,00 Euro Mediakosten. Bei einer angenommenen Klickrate von 0,25 Prozent entstehen 250 Klicks, jeder kostet 2,40 Euro. [KLICK] Sinkt die Klickrate auf 0,125 Prozent, sind es nur 125 Klicks und 4,80 Euro je Klick. Die Rechnung des Vermarkters bleibt bei 600,00 Euro. Die Klickrate ist eine Annahme, keine Zusage, und beim TKP liegt dieses Risiko bei der Rösterei.
 :::
 
 ## Nicht der Einheitspreis entscheidet, sondern das Kampagnenziel
@@ -167,10 +179,12 @@ Eine Kampagne entsteht nicht mit der Buchung, sondern lange davor. Die vier Phas
 
 ## Das Controlling liefert das Lagebild für die nächste Planungsrunde
 
-![](../images/planungsprozess.svg){fig-alt="Planungsprozess in acht Schritten als Kreislauf" width="834px"}
+``` {=html}
+{{< include ../includes/roesterei-planungsprozess.html >}}
+```
 
 ::: {.notes}
-Die acht Schritte bilden einen Kreislauf, keine Einbahnstraße. In der Praxis laufen sie in Schleifen, aber keiner wird übersprungen. Der hervorgehobene Bogen zeigt: Was das Controlling misst, geht als Lagebild in die nächste Situationsanalyse ein.
+Die acht Schritte bilden einen Kreislauf, keine Einbahnstraße. [KLICK] Schritt für Schritt erscheinen Leitfrage und Ergebnis, von der Situationsanalyse mit dem Lagebild bis zum Controlling mit Reporting und Anpassungen. In der Praxis laufen die Schritte in Schleifen, aber keiner wird übersprungen. Der letzte Klick hebt den Bogen zurück hervor: Was das Controlling misst, geht als Lagebild in die nächste Situationsanalyse ein.
 :::
 
 ## Kampagnen scheitern selten an der Kreation {.stage background-color="#0a0a0f"}

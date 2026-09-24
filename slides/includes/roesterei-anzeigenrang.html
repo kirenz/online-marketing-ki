@@ -1,0 +1,122 @@
+<!-- Anzeigenauktion zum Ausprobieren: drei Anbieter A, B, C mit den fiktiven Zahlen aus dem Buchkapitel (Anzeigenrang = Gebot × Qualität, Klickpreis = nächster Rang ÷ eigene Qualität + 0,01 Euro). Gleiches Schaubild wie in der Lernplattform-Lektion funktionsweise-auktionen (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-ar { font-size: 0.85em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-ar input[type=range] { width: 100%; }</style>
+<div class="rw-ar" id="rw-ar" lang="de">
+  <div class="rw-ar__head" aria-hidden="true">
+    <span>Platz</span><span>Gebot</span><span>Qualität</span><span><span class="rw-ar__l">Anzeigen</span>rang</span><span>Klickpreis</span>
+  </div>
+  <div class="rw-ar__rows" id="rw-ar-rows" role="list" aria-label="Reihenfolge der Anzeigen"></div>
+  <div class="rw-ar__controls">
+    <div class="rw-ar__pick" role="group" aria-label="Anbieter auswählen">
+      <span class="rw-ar__label">Anpassen:</span>
+      <button type="button" data-id="A">A</button><button type="button" data-id="B">B</button><button type="button" data-id="C">C</button>
+    </div>
+    <label class="rw-ar__slider"><span>Gebot von <b id="rw-ar-n1">A</b>: <b id="rw-ar-bid-v"></b></span>
+      <input type="range" id="rw-ar-bid" min="0.5" max="6" step="0.1"></label>
+    <label class="rw-ar__slider"><span>Qualität von <b id="rw-ar-n2">A</b>: <b id="rw-ar-q-v"></b></span>
+      <input type="range" id="rw-ar-q" min="1" max="10" step="1"></label>
+    <button type="button" id="rw-ar-reset" class="is-secondary">Zurück zum Buchbeispiel</button>
+  </div>
+  <div class="rw-ar__hint" id="rw-ar-hint" aria-live="polite"></div>
+  <div class="rw-ar__note">Vereinfachtes Modell mit fiktiven Zahlen: Anzeigenrang = Gebot × Qualität. Klickpreis = Rang der nächsten Anzeige ÷ eigene Qualität + 0,01 Euro, höchstens das eigene Gebot. Die genaue Bildung bei Google ist nicht öffentlich.</div>
+</div>
+<style>
+.rw-ar { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.45; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-ar * { box-sizing: border-box; }
+.rw-ar__head, .rw-ar__row { display: grid; grid-template-columns: 3.4em 1fr 1fr 2fr 1.35fr; gap: 0.4em; align-items: center; }
+.rw-ar__head { padding: 0 0.6em 0.3em; }
+.rw-ar__head > span { font-size: 0.72em; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 700; color: var(--w-soft); }
+.rw-ar__rows { position: relative; height: 10.2em; }
+.rw-ar__row { position: absolute; left: 0; right: 0; height: 3.1em; padding: 0 0.6em; border: 1px solid var(--w-rule); border-radius: 0.6em; background: var(--w-card); transition: top 0.55s cubic-bezier(.4,.1,.2,1), border-color 0.2s, background 0.2s; font-variant-numeric: tabular-nums; }
+.rw-ar__row.is-sel { border-color: var(--w-blue); background: var(--w-blue-soft); box-shadow: inset 0 0 0 1px var(--w-blue); }
+.rw-ar__pos { display: flex; align-items: center; gap: 0.35em; font-weight: 700; }
+.rw-ar__pos i { font-style: normal; display: inline-grid; place-items: center; width: 1.7em; height: 1.7em; border-radius: 50%; background: var(--w-blue); color: #fff; font-size: 0.85em; }
+.rw-ar__rank { display: flex; align-items: center; gap: 0.4em; min-width: 0; }
+.rw-ar__bar { flex: 1; height: 0.7em; background: var(--w-deep); border-radius: 999px; overflow: hidden; }
+.rw-ar__bar span { display: block; height: 100%; background: var(--w-blue); border-radius: 999px; transition: width 0.4s; }
+.rw-ar__rank b { min-width: 1.6em; text-align: right; }
+.rw-ar__price { font-weight: 650; }
+.rw-ar__price small { display: block; font-weight: 400; font-size: 0.72em; color: var(--w-soft); line-height: 1.1; }
+.rw-ar__controls { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6em 1.2em; margin-top: 0.9em; align-items: end; }
+.rw-ar__pick { grid-column: 1 / -1; display: flex; align-items: center; gap: 0.4em; flex-wrap: wrap; }
+.rw-ar__label { font-size: 0.9em; color: var(--w-soft); margin-right: 0.2em; }
+.rw-ar button { font: inherit; font-size: 0.9em; font-weight: 600; padding: 0.4em 1em; border-radius: 999px; border: 1px solid var(--w-rule); background: var(--w-card); color: var(--w-ink); cursor: pointer; margin: 0; }
+.rw-ar__pick button.is-on { background: var(--w-blue); border-color: var(--w-blue); color: #fff; }
+.rw-ar button:focus-visible, .rw-ar input:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-ar__slider { display: flex; flex-direction: column; gap: 0.2em; font-size: 0.9em; }
+.rw-ar__slider input { width: 100%; accent-color: var(--w-blue); margin: 0; }
+#rw-ar-reset { grid-column: 1 / -1; justify-self: start; }
+.rw-ar__hint { margin-top: 0.8em; padding: 0.65em 0.9em; border: 1px solid var(--w-rule); border-left: 3px solid var(--w-blue); border-radius: 0.5em; background: var(--w-deep); min-height: 4.4em; font-size: 0.92em; }
+.rw-ar__hint b { font-weight: 650; }
+.rw-ar__note { margin-top: 0.5em; font-size: 0.78em; color: var(--w-soft); }
+@media (max-width: 480px) {
+  .rw-ar { font-size: 14px; }
+  .rw-ar__head, .rw-ar__row { grid-template-columns: 2.6em 1fr 0.8fr 0.8fr 1.3fr; gap: 0.3em; }
+  .rw-ar__head { padding: 0 0.45em 0.3em; }
+  .rw-ar__head > span { font-size: 0.64em; letter-spacing: 0.02em; }
+  .rw-ar__l { display: none; }
+  .rw-ar__bar { display: none; }
+  .rw-ar__price { font-size: 0.92em; }
+  .rw-ar__row { padding: 0 0.45em; }
+  .rw-ar__controls { grid-template-columns: 1fr; }
+}
+</style>
+<script>
+(function () {
+  var START = { A: { bid: 4.0, q: 3 }, B: { bid: 2.0, q: 8 }, C: { bid: 3.5, q: 4 } };
+  var ids = ["A", "B", "C"], data = {}, sel = "A", rows = {};
+  var box = document.getElementById("rw-ar-rows"), hint = document.getElementById("rw-ar-hint");
+  var bid = document.getElementById("rw-ar-bid"), q = document.getElementById("rw-ar-q");
+  var picks = [].slice.call(document.querySelectorAll(".rw-ar__pick button"));
+  function eur(v) { return v.toFixed(2).replace(".", ",") + " €"; }
+  function num(v) { return (Math.round(v * 10) / 10).toString().replace(".", ","); }
+  ids.forEach(function (id) {
+    var r = document.createElement("div"); r.className = "rw-ar__row"; r.setAttribute("role", "listitem");
+    r.innerHTML = '<span class="rw-ar__pos"><i></i><span>' + id + '</span></span><span class="c-bid"></span><span class="c-q"></span>' +
+      '<span class="rw-ar__rank"><span class="rw-ar__bar"><span></span></span><b></b></span><span class="rw-ar__price"></span>';
+    r.addEventListener("click", function () { choose(id); });
+    box.appendChild(r); rows[id] = r;
+  });
+  function reset() { ids.forEach(function (id) { data[id] = { bid: START[id].bid, q: START[id].q }; }); choose(sel); }
+  function choose(id) {
+    sel = id;
+    picks.forEach(function (b) { b.classList.toggle("is-on", b.getAttribute("data-id") === id); b.setAttribute("aria-pressed", b.getAttribute("data-id") === id ? "true" : "false"); });
+    document.getElementById("rw-ar-n1").textContent = id; document.getElementById("rw-ar-n2").textContent = id;
+    bid.value = data[id].bid; q.value = data[id].q; render();
+  }
+  function render() {
+    var list = ids.map(function (id) { return { id: id, bid: data[id].bid, q: data[id].q, rank: Math.round(data[id].bid * data[id].q * 100) / 100 }; });
+    list.sort(function (a, b) { return b.rank - a.rank || (a.id < b.id ? -1 : 1); });
+    var maxRank = Math.max.apply(null, list.map(function (e) { return e.rank; })) || 1, rowH = box.clientHeight / 3 || 50;
+    list.forEach(function (e, k) {
+      var next = list[k + 1];
+      e.pos = k + 1;
+      e.price = next ? Math.min(e.bid, Math.round((next.rank / e.q + 0.01) * 100) / 100) : null;
+      var r = rows[e.id];
+      r.style.top = (k * rowH) + "px";
+      r.classList.toggle("is-sel", e.id === sel);
+      r.querySelector("i").textContent = e.pos;
+      r.querySelector(".c-bid").textContent = eur(e.bid);
+      r.querySelector(".c-q").textContent = e.q;
+      r.querySelector(".rw-ar__bar span").style.width = Math.min(100, e.rank / maxRank * 100) + "%";
+      r.querySelector(".rw-ar__rank b").textContent = num(e.rank);
+      r.querySelector(".rw-ar__price").innerHTML = e.price === null ? "Mindest&shy;preis" : eur(e.price);
+      r.setAttribute("aria-label", "Platz " + e.pos + ": Anbieter " + e.id + ", Gebot " + eur(e.bid) + ", Qualität " + e.q + ", Anzeigenrang " + num(e.rank) + ", Klickpreis " + (e.price === null ? "Mindestpreis" : eur(e.price)));
+    });
+    document.getElementById("rw-ar-bid-v").textContent = eur(data[sel].bid);
+    document.getElementById("rw-ar-q-v").textContent = data[sel].q;
+    var top = list[0], second = list[1], richest = list.slice().sort(function (a, b) { return b.bid - a.bid; })[0];
+    var h = "<b>Platz 1: " + top.id + "</b> mit Anzeigenrang " + num(top.rank) + " (" + eur(top.bid) + " × " + top.q + "). ";
+    if (richest.id !== top.id) h += "Das höchste Gebot hat " + richest.id + " (" + eur(richest.bid) + ") und steht trotzdem auf Platz " + richest.pos + ". ";
+    else h += "Hier gewinnt das höchste Gebot, weil die Qualität mithält. ";
+    if (top.price < top.bid) h += top.id + " zahlt je Klick " + eur(top.price) + ", nicht " + eur(top.bid) + ": gerade genug, um Rang " + num(second.rank) + " von " + second.id + " zu übertreffen (" + num(second.rank) + " ÷ " + top.q + " + 0,01 €).";
+    else h += top.id + " zahlt das volle Gebot, weil " + second.id + " fast gleichauf liegt.";
+    hint.innerHTML = h;
+  }
+  bid.addEventListener("input", function () { data[sel].bid = parseFloat(bid.value); render(); });
+  q.addEventListener("input", function () { data[sel].q = parseInt(q.value, 10); render(); });
+  picks.forEach(function (b) { b.addEventListener("click", function () { choose(b.getAttribute("data-id")); }); });
+  document.getElementById("rw-ar-reset").addEventListener("click", reset);
+  if (window.ResizeObserver) new ResizeObserver(render).observe(box);
+  reset();
+})();
+</script>

@@ -75,10 +75,12 @@ Die zentrale Größe heißt Anzeigenrang. Vereinfacht ergibt er sich aus dem Geb
 
 ## Das höchste Gebot landet im Beispiel auf dem letzten Platz
 
-![](../images/anzeigenrang.svg){fig-alt="Rechenbeispiel Anzeigenrang mit drei Anbietern" width="1000px"}
+``` {=html}
+{{< include ../includes/roesterei-anzeigenrang.html >}}
+```
 
 ::: {.notes}
-Vereinfachtes Rechenmodell mit fiktiven Zahlen. Anbieter A bietet am meisten, hat aber die geringste Qualität und landet auf Platz drei. Anbieter B bietet am wenigsten und steht oben. Außerdem zahlt jeder weniger als sein Höchstgebot, nämlich gerade genug, um die nächste Anzeige zu übertreffen.
+Vereinfachtes Rechenmodell mit fiktiven Zahlen. Anbieter A bietet am meisten, hat aber die geringste Qualität und landet auf Platz drei. Anbieter B bietet am wenigsten und steht oben. Außerdem zahlt jeder weniger als sein Höchstgebot, nämlich gerade genug, um die nächste Anzeige zu übertreffen: B zahlt 1,76 Euro, weil 14 geteilt durch 8 plus ein Cent reicht. [KLICK] Mit den Reglern lässt sich live zeigen, wie viel Qualität A bräuchte, um nach oben zu rücken, und wie sich dabei die Klickpreise aller Anbieter verschieben.
 :::
 
 ## Analogie: Die Auftragsvergabe im Handwerksbetrieb

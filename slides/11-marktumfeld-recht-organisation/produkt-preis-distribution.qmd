@@ -161,6 +161,16 @@ Quelle: @lammenett2025
 Die Tabelle ordnet die Distributionswege nach drei Größen, die sich systematisch gegenläufig verhalten. Der eigene Shop bringt hohe Marge, eigene Daten und volle Preishoheit, aber die Reichweite muss teuer aufgebaut werden. Der Marktplatz kehrt das Verhältnis um: sofortige Reichweite gegen Provision, Werbekosten und die Regeln der Plattform. Der stationäre Handel liegt dazwischen und bleibt für Beratung und spontanen Kauf relevant. Die hervorgehobene Zeile zeigt, warum das Abo für viele Anbieter attraktiv ist: Es verbindet hohe Marge mit planbarem Umsatz und direkter Kundenbeziehung, wächst dafür aber langsam.
 :::
 
+## Je Bestellung gibt die Kundengewinnung den Ausschlag
+
+``` {=html}
+{{< include ../includes/roesterei-shop-marktplatz.html >}}
+```
+
+::: {.notes}
+Eine erfundene Rechnung für dieselbe 500-Gramm-Packung zu 14,00 Euro und 6,00 Euro Wareneinsatz. Im eigenen Shop fallen Zahlungsgebühr, ein Teil des Versands und 6,00 Euro Kundengewinnung an, es bleiben 0,22 Euro. Auf dem Marktplatz kosten Provision, voller Versand und 1,00 Euro Plattformwerbung, es bleiben 0,40 Euro. [KLICK] Sinkt die Kundengewinnung im Shop unter 5,82 Euro, liegt der Shop vorn. Die Provision allein entscheidet also nicht. Die Rechnung betrachtet eine Bestellung, keine Kundenbeziehung: Nachbestellungen und eigene Daten gibt es nur im eigenen Shop.
+:::
+
 ## Die Rösterei mischt bewusst, statt sich zu entscheiden
 
 Der Marktplatz bringt neue Kundschaft. Das Abo im eigenen Shop sichert wiederkehrenden Umsatz mit planbarer Nachlieferung (Replenishment). Der Laden bleibt Ort für Verkostung und Beratung.

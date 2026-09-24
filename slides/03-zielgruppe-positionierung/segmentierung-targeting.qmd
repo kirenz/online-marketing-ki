@@ -28,10 +28,12 @@ Der Gründungsgedanke der Segmentierung stammt von Wendell Smith: Heterogene Mä
 
 ## Segmentieren, auswählen, positionieren: drei Schritte, eine Reihenfolge
 
-![](../images/stp-modell.svg){fig-alt="STP-Modell in drei Feldern: Gruppen bilden, ein Segment wählen, Position bestimmen" width="1000px"}
+``` {=html}
+{{< include ../includes/roesterei-stp.html >}}
+```
 
 ::: {.notes}
-Zuerst entstehen Gruppen mit ähnlichen Bedürfnissen. Dann wird ausgewählt, welches Segment attraktiv ist und zu den eigenen Stärken passt. Erst für dieses Segment wird die Position bestimmt, das Thema der nächsten Lektion.
+Das Schaubild beginnt mit einem uneinheitlichen Markt, jeder Punkt ist ein Mensch. [KLICK] Zuerst entstehen Gruppen mit ähnlichen Bedürfnissen. Dann wird ausgewählt, welches Segment attraktiv ist und zu den eigenen Stärken passt. Erst für dieses Segment wird die Position bestimmt, das Thema der nächsten Lektion.
 :::
 
 ## Segmentierungskriterien

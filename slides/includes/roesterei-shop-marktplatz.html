@@ -1,0 +1,72 @@
+<!-- Dieselbe Packung, zwei Wege: Deckungsbeitrag je Bestellung im eigenen Shop und auf dem Marktplatz (fiktive Zahlen: 14,00 Euro Preis, 6,00 Euro Wareneinsatz), mit Reglern für Kundengewinnung im Shop und Plattformwerbung. Gleiches Schaubild wie in der Lernplattform-Lektion produkt-preis-distribution (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-sm { font-size: 0.85em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-sm input[type=range] { width: 100%; }</style>
+<div class="rw-sm" id="rw-sm" lang="de">
+  <div class="rw-sm__way" id="rw-sm-shop"></div>
+  <div class="rw-sm__way" id="rw-sm-mp"></div>
+  <div class="rw-sm__legend" aria-hidden="true"><span><i class="c-ware"></i>Wareneinsatz</span><span><i class="c-fee"></i>Gebühr oder Provision</span><span><i class="c-ship"></i>Versand</span><span><i class="c-acq"></i>Kundengewinnung oder Werbung</span><span><i class="c-db"></i>Deckungsbeitrag</span></div>
+  <div class="rw-sm__controls">
+    <label><span>Kundengewinnung im Shop: <b id="rw-sm-acq-v"></b></span><input type="range" id="rw-sm-acq" min="0" max="8" step="0.1" value="6"></label>
+    <label><span>Plattformwerbung am Marktplatz: <b id="rw-sm-ads-v"></b></span><input type="range" id="rw-sm-ads" min="0" max="4" step="0.1" value="1"></label>
+  </div>
+  <button type="button" id="rw-sm-reset">Zurück zum Rechenbeispiel</button>
+  <div class="rw-sm__hint" id="rw-sm-hint" aria-live="polite"></div>
+  <div class="rw-sm__note">Fiktive Annahmen je Bestellung: 500-Gramm-Packung zu 14,00 €, Wareneinsatz 6,00 €. Shop: Zahlungsgebühr 2 Prozent, Versand 4,50 €, davon 3,00 € von der Kundschaft getragen. Marktplatz: Provision 15 Prozent, Versand 4,50 € vollständig.</div>
+</div>
+<style>
+.rw-sm { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.45; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-sm * { box-sizing: border-box; }
+.rw-sm__way { margin-bottom: 0.7em; }
+.rw-sm__top { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5em; margin-bottom: 0.25em; }
+.rw-sm__top b { font-size: 1em; }
+.rw-sm__top span { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15em; }
+.rw-sm__top span.is-neg { color: var(--w-terra); }
+.rw-sm__top span.is-pos { color: var(--w-green); }
+.rw-sm__bar { display: flex; height: 2.1em; border-radius: 0.45em; overflow: hidden; border: 1px solid var(--w-rule); background: var(--w-deep); }
+.rw-sm__bar i { display: flex; align-items: center; justify-content: center; font-style: normal; font-size: 0.72em; font-weight: 650; color: #fff; white-space: nowrap; overflow: hidden; transition: flex-basis 0.3s; min-width: 0; }
+.rw-sm .c-ware { background: #8b93a3; } .rw-sm .c-fee { background: #8a5a9e; } .rw-sm .c-ship { background: var(--w-ochre); } .rw-sm .c-acq { background: var(--w-terra); } .rw-sm .c-db { background: var(--w-green); }
+.rw-sm__over { margin-top: 0.2em; font-size: 0.8em; color: var(--w-terra); min-height: 1.2em; }
+.rw-sm__legend { display: flex; flex-wrap: wrap; gap: 0.3em 0.9em; font-size: 0.78em; color: var(--w-soft); margin: 0.1em 0 0.8em; }
+.rw-sm__legend i { display: inline-block; width: 0.8em; height: 0.8em; border-radius: 0.2em; margin-right: 0.3em; vertical-align: -0.05em; }
+.rw-sm__controls { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6em 1.2em; }
+.rw-sm__controls label { display: flex; flex-direction: column; gap: 0.2em; font-size: 0.9em; }
+.rw-sm__controls input { width: 100%; accent-color: var(--w-blue); margin: 0; }
+.rw-sm button { font: inherit; font-size: 0.9em; font-weight: 600; padding: 0.4em 1em; border-radius: 999px; border: 1px solid var(--w-rule); background: var(--w-card); color: var(--w-ink); cursor: pointer; margin: 0.7em 0 0; }
+.rw-sm button:focus-visible, .rw-sm input:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-sm__hint { margin-top: 0.8em; padding: 0.65em 0.9em; border: 1px solid var(--w-rule); border-left: 3px solid var(--w-blue); border-radius: 0.5em; background: var(--w-deep); min-height: 4.4em; font-size: 0.92em; }
+.rw-sm__hint b { font-weight: 650; }
+.rw-sm__note { margin-top: 0.5em; font-size: 0.78em; color: var(--w-soft); }
+@media (max-width: 480px) { .rw-sm__controls { grid-template-columns: 1fr; } .rw-sm__bar i { font-size: 0.62em; } }
+</style>
+<script>
+(function () {
+  var PRICE = 14, WARE = 6;
+  var acq = document.getElementById("rw-sm-acq"), ads = document.getElementById("rw-sm-ads");
+  function eur(v) { return v.toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €"; }
+  function r2(v) { return Math.round(v * 100) / 100; }
+  function way(id, title, parts) {
+    var used = parts.reduce(function (s, p) { return s + p[1]; }, 0), db = r2(PRICE - used), scale = Math.max(PRICE, used);
+    var html = '<div class="rw-sm__top"><b>' + title + '</b><span class="' + (db < 0 ? "is-neg" : "is-pos") + '">' + eur(db) + '</span></div><div class="rw-sm__bar" role="img" aria-label="' + title + ': ' +
+      parts.map(function (p) { return p[0] + " " + eur(p[1]); }).join(", ") + ', Deckungsbeitrag ' + eur(db) + '">';
+    parts.forEach(function (p) { html += '<i class="' + p[2] + '" style="flex:0 0 ' + (p[1] / scale * 100) + '%">' + (p[1] >= 1.2 ? eur(p[1]) : "") + "</i>"; });
+    if (db > 0) html += '<i class="c-db" style="flex:0 0 ' + (db / scale * 100) + '%">' + (db >= 1.2 ? eur(db) : "") + "</i>";
+    html += '</div><div class="rw-sm__over">' + (db < 0 ? "Die Kosten übersteigen den Preis um " + eur(-db) + "." : "") + "</div>";
+    document.getElementById(id).innerHTML = html;
+    return db;
+  }
+  function render() {
+    var a = parseFloat(acq.value), w = parseFloat(ads.value);
+    document.getElementById("rw-sm-acq-v").textContent = eur(a);
+    document.getElementById("rw-sm-ads-v").textContent = eur(w);
+    var dbS = way("rw-sm-shop", "Eigener Shop", [["Ware", WARE, "c-ware"], ["Zahlungsgebühr", 0.28, "c-fee"], ["Versand, Anteil der Rösterei", 1.5, "c-ship"], ["Kundengewinnung", a, "c-acq"]]);
+    var dbM = way("rw-sm-mp", "Marktplatz", [["Ware", WARE, "c-ware"], ["Provision", 2.1, "c-fee"], ["Versand", 4.5, "c-ship"], ["Plattformwerbung", w, "c-acq"]]);
+    var be = r2(PRICE - WARE - 0.28 - 1.5 - dbM), h;
+    if (Math.abs(dbS - dbM) < 0.005) h = "<b>Beide Wege liegen gleichauf</b> bei " + eur(dbS) + " je Bestellung.";
+    else h = "<b>" + (dbS > dbM ? "Der eigene Shop" : "Der Marktplatz") + " liegt vorn</b>, um " + eur(Math.abs(dbS - dbM)) + " je Bestellung.";
+    h += " Bei dieser Plattformwerbung schlägt der Shop den Marktplatz, sobald die Kundengewinnung unter " + eur(be) + " liegt. Entschieden ist damit nichts: Die Rechnung betrachtet eine Bestellung, keine Kundenbeziehung.";
+    document.getElementById("rw-sm-hint").innerHTML = h;
+  }
+  acq.addEventListener("input", render); ads.addEventListener("input", render);
+  document.getElementById("rw-sm-reset").addEventListener("click", function () { acq.value = 6; ads.value = 1; render(); });
+  render();
+})();
+</script>

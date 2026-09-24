@@ -1,0 +1,78 @@
+<!-- Prognoserechner für eine Kanalzeile im Planspiel: erwartete Bestellungen × 10,26 Euro − geplantes Budget, dazu die Zahl der Bestellungen, ab der sich das Budget trägt. Gleiches Schaubild wie in der Lernplattform-Lektion kennzahlen-kanalzeile (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-prog { font-size: 0.85em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-prog input[type=range] { width: 100%; }</style>
+<div class="rw-prog" id="rw-prog" lang="de">
+  <div class="rw-prog__controls">
+    <label><span>Geplantes Budget: <b id="rw-prog-b-v"></b></span><input type="range" id="rw-prog-b" min="0" max="1500" step="50" value="500"></label>
+    <label><span>Erwartete Bestellungen: <b id="rw-prog-n-v"></b></span><input type="range" id="rw-prog-n" min="0" max="150" step="1" value="60"></label>
+  </div>
+  <div class="rw-prog__bars" aria-hidden="true">
+    <div class="rw-prog__row"><span>Beitrag aus Bestellungen</span><div class="rw-prog__track"><i id="rw-prog-bar-c" class="is-c"></i></div><b id="rw-prog-c"></b></div>
+    <div class="rw-prog__row"><span>Werbekosten</span><div class="rw-prog__track"><i id="rw-prog-bar-b" class="is-b"></i></div><b id="rw-prog-bb"></b></div>
+  </div>
+  <div class="rw-prog__out">
+    <div><span>Prognose Marketing-Deckungsbeitrag</span><b id="rw-prog-mdb"></b></div>
+    <div><span>Kosten je Conversion</span><b id="rw-prog-cpa"></b></div>
+    <div><span>Budget trägt sich ab</span><b id="rw-prog-be"></b></div>
+  </div>
+  <div class="rw-prog__hint" id="rw-prog-hint" aria-live="polite"></div>
+  <div class="rw-prog__note">Je Bestellung bleiben 10,26 € (27 € Bestellwert, 38 Prozent Marge); davon wird die Werbung bezahlt.</div>
+</div>
+<style>
+.rw-prog { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-terra: #c2512c; --w-green: #2f7d4f; font-size: 15px; line-height: 1.45; color: var(--w-ink); font-family: inherit; text-align: left; }
+.rw-prog * { box-sizing: border-box; }
+.rw-prog__controls { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6em 1.2em; }
+.rw-prog__controls label { display: flex; flex-direction: column; gap: 0.2em; font-size: 0.92em; }
+.rw-prog__controls input { width: 100%; accent-color: var(--w-blue); margin: 0; }
+.rw-prog input:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-prog__bars { margin: 0.9em 0 0.2em; display: grid; gap: 0.35em; }
+.rw-prog__row { display: grid; grid-template-columns: 11em minmax(0, 1fr) 6.2em; gap: 0.6em; align-items: center; font-size: 0.88em; }
+.rw-prog__row span { color: var(--w-soft); }
+.rw-prog__row b { text-align: right; font-variant-numeric: tabular-nums; }
+.rw-prog__track { height: 1.2em; background: var(--w-deep); border-radius: 999px; overflow: hidden; }
+.rw-prog__track i { display: block; height: 100%; border-radius: 999px; transition: width 0.3s; }
+.rw-prog__track i.is-c { background: var(--w-green); }
+.rw-prog__track i.is-b { background: var(--w-terra); }
+.rw-prog__out { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.4em; margin-top: 0.7em; }
+.rw-prog__out div { border: 1px solid var(--w-rule); border-radius: 0.6em; padding: 0.45em 0.6em; background: var(--w-card); }
+.rw-prog__out span { display: block; font-size: 0.7em; letter-spacing: 0.05em; text-transform: uppercase; font-weight: 700; color: var(--w-soft); line-height: 1.2; }
+.rw-prog__out b { display: block; font-size: 1.35em; margin-top: 0.15em; font-variant-numeric: tabular-nums; }
+.rw-prog__out b.is-neg { color: var(--w-terra); }
+.rw-prog__out b.is-pos { color: var(--w-green); }
+.rw-prog__hint { margin-top: 0.8em; padding: 0.65em 0.9em; border: 1px solid var(--w-rule); border-left: 3px solid var(--w-blue); border-radius: 0.5em; background: var(--w-deep); min-height: 4.4em; font-size: 0.92em; }
+.rw-prog__hint b { font-weight: 650; }
+.rw-prog__note { margin-top: 0.5em; font-size: 0.78em; color: var(--w-soft); }
+@media (max-width: 520px) {
+  .rw-prog__controls { grid-template-columns: 1fr; }
+  .rw-prog__row { grid-template-columns: 1fr 5.6em; }
+  .rw-prog__row span { grid-column: 1 / -1; margin-bottom: -0.3em; }
+  .rw-prog__out { grid-template-columns: 1fr 1fr; }
+  .rw-prog__out div:first-child { grid-column: 1 / -1; }
+}
+</style>
+<script>
+(function () {
+  var DB = 10.26, MAXV = 1540;
+  var b = document.getElementById("rw-prog-b"), n = document.getElementById("rw-prog-n");
+  function eur(v) { return v.toLocaleString("de-DE", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + " €"; }
+  function set(id, t, cls) { var e = document.getElementById(id); e.textContent = t; if (cls !== undefined) e.className = cls; }
+  function render() {
+    var B = parseFloat(b.value), N = parseInt(n.value, 10), C = Math.round(N * DB * 100) / 100, M = Math.round((C - B) * 100) / 100;
+    var be = B > 0 ? Math.ceil(B / DB - 1e-9) : 0;
+    set("rw-prog-b-v", eur(B)); set("rw-prog-n-v", N.toString());
+    set("rw-prog-c", eur(C)); set("rw-prog-bb", eur(B));
+    document.getElementById("rw-prog-bar-c").style.width = Math.min(100, C / MAXV * 100) + "%";
+    document.getElementById("rw-prog-bar-b").style.width = Math.min(100, B / MAXV * 100) + "%";
+    set("rw-prog-mdb", eur(M), M < 0 ? "is-neg" : "is-pos");
+    set("rw-prog-cpa", N > 0 ? eur(B / N) : "nicht berechenbar", N > 0 ? (B / N > DB ? "is-neg" : "is-pos") : "");
+    set("rw-prog-be", B > 0 ? be + " Bestellungen" : "sofort");
+    var h;
+    if (N === 0) h = "<b>Keine Bestellung erwartet:</b> Kosten je Conversion lassen sich nicht berechnen. Der Marketing-Deckungsbeitrag ist dann einfach minus Werbekosten, hier " + eur(B > 0 ? -B : 0) + ".";
+    else if (M >= 0) h = "<b>Die Prognose ist positiv:</b> " + N + " × 10,26 € − " + eur(B) + " = " + eur(M) + ". Jede Bestellung kostet " + eur(B / N) + " Werbung, nicht mehr als die 10,26 €, die sie einbringt.";
+    else h = "<b>Die Prognose ist negativ:</b> " + N + " × 10,26 € − " + eur(B) + " = " + eur(M) + ". Damit sich das Budget trägt, braucht es mindestens " + be + " Bestellungen.";
+    h += " Die Prognose steht fest, bevor das Ergebnis kommt. Danach wird beides verglichen.";
+    document.getElementById("rw-prog-hint").innerHTML = h;
+  }
+  b.addEventListener("input", render); n.addEventListener("input", render);
+  render();
+})();
+</script>

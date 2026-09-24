@@ -1,0 +1,110 @@
+<!-- Planungsprozess in acht Schritten als klickbarer Ring (Leitfrage und Ergebnis je Schritt aus dem Buchkapitel), der Bogen vom Controlling zurück zur Situationsanalyse wird zuletzt hervorgehoben. Gleiches Schaubild wie in der Lernplattform-Lektion online-werbemarkt-planungsprozess (vwa-digitales-marketing). Einbindung im Deck als Raw-HTML-Block. -->
+<style>.reveal .rw-pp { font-size: 0.9em; --w-ink: var(--ink); --w-soft: var(--ink-soft); --w-rule: var(--rule); --w-card: var(--paper); --w-deep: var(--paper-deep); --w-blue: var(--primary); --w-ochre: var(--ochre); --w-terra: var(--terracotta); } .reveal .rw-pp svg { max-height: 460px; }</style>
+<div class="rw-pp" id="rw-pp" lang="de">
+  <svg id="rw-pp-svg" viewBox="0 0 600 560" role="img" aria-label="Planungsprozess mit acht Schritten im Kreis: Situationsanalyse, Ziele, Zielgruppen, Strategie und Positionierung, Kanäle und Maßnahmen, Budget, Umsetzung, Controlling, danach wieder Situationsanalyse"></svg>
+  <div class="rw-pp__panel">
+    <div class="rw-pp__kicker" id="rw-pp-kicker">Planungsprozess</div>
+    <div class="rw-pp__title" id="rw-pp-title">Acht Schritte, lange vor der Buchung</div>
+    <div class="rw-pp__text" id="rw-pp-text" aria-live="polite"></div>
+    <div class="rw-pp__actions">
+      <button type="button" id="rw-pp-next">Weiter</button>
+      <button type="button" id="rw-pp-prev" class="is-secondary">Zurück</button>
+    </div>
+  </div>
+</div>
+<style>
+.rw-pp { --w-ink: #1c2233; --w-soft: #5a6272; --w-rule: #dedbd3; --w-card: #ffffff; --w-deep: #f6f4ef; --w-blue: #2c4f9e; --w-blue-soft: #e9eefa; --w-ochre: #b7791f; --w-green: #2f7d4f; font-size: 15px; line-height: 1.5; color: var(--w-ink); font-family: inherit; text-align: left; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 1.2em; align-items: center; }
+.rw-pp * { box-sizing: border-box; }
+.rw-pp svg { width: 100%; height: auto; display: block; }
+.rw-pp__kicker { font-size: 0.75em; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 700; color: var(--w-blue); }
+.rw-pp__title { font-size: 1.2em; font-weight: 650; margin: 0.25em 0 0.45em; line-height: 1.25; }
+.rw-pp__text { color: var(--w-ink); min-height: 7em; font-size: 0.95em; }
+.rw-pp__text b { font-weight: 650; }
+.rw-pp__actions { display: flex; gap: 0.5em; margin-top: 0.9em; flex-wrap: wrap; }
+.rw-pp__actions button { font: inherit; font-size: 0.9em; font-weight: 600; padding: 0.45em 1.1em; border-radius: 999px; border: 1px solid var(--w-blue); background: var(--w-blue); color: #fff; cursor: pointer; margin: 0; }
+.rw-pp__actions button.is-secondary { background: var(--w-card); color: var(--w-ink); border-color: var(--w-rule); }
+.rw-pp__actions button:disabled { opacity: 0.45; cursor: default; }
+.rw-pp__actions button:focus-visible, .rw-pp .node:focus-visible { outline: 2px solid var(--w-ink); outline-offset: 2px; }
+.rw-pp .node { cursor: pointer; }
+.rw-pp .node rect { fill: var(--w-card); stroke: var(--w-rule); stroke-width: 2; transition: fill 0.2s, stroke 0.2s; }
+.rw-pp .node text { fill: var(--w-soft); font-family: inherit; font-size: 22px; font-weight: 600; text-anchor: middle; pointer-events: none; }
+.rw-pp .node .no { font-size: 16px; font-weight: 700; fill: var(--w-blue); }
+.rw-pp .node.is-done rect { stroke: var(--w-blue); }
+.rw-pp .node.is-done text { fill: var(--w-ink); }
+.rw-pp .node.is-active rect { fill: var(--w-blue); stroke: var(--w-blue); }
+.rw-pp .node.is-active text, .rw-pp .node.is-active .no { fill: #ffffff; }
+.rw-pp .node.is-info rect { stroke: var(--w-ochre); stroke-width: 3; fill: #fbf5e9; }
+.rw-pp .arc { fill: none; stroke: var(--w-rule); stroke-width: 4; transition: stroke 0.2s; }
+.rw-pp .arc.is-done { stroke: var(--w-blue); }
+.rw-pp .arc.is-back { stroke-dasharray: 9 8; }
+.rw-pp .arc.is-back.is-done { stroke: var(--w-green); stroke-dasharray: none; stroke-width: 6; }
+.rw-pp .center { fill: var(--w-soft); font-family: inherit; font-size: 20px; text-anchor: middle; }
+.rw-pp .center-strong { fill: var(--w-ink); font-family: inherit; font-size: 26px; font-weight: 700; text-anchor: middle; }
+@media (max-width: 620px) { .rw-pp { grid-template-columns: minmax(0, 1fr); } .rw-pp svg { max-width: 440px; margin: 0 auto; } .rw-pp__text { min-height: 0; } }
+</style>
+<script>
+(function () {
+  var short = ["Situation", "Ziele", "Zielgruppen", "Positionierung", "Kanäle", "Budget", "Umsetzung", "Controlling"];
+  var names = ["Situationsanalyse", "Ziele", "Zielgruppen", "Strategie und Positionierung", "Kanäle und Maßnahmen", "Budget", "Umsetzung", "Controlling"];
+  var ask = ["Wo stehen wir in Markt und Wettbewerb?", "Was wollen wir messbar erreichen?", "Wen genau wollen wir erreichen?", "Wofür stehen wir, welches Versprechen geben wir?", "Welche Kanäle, welche Inhalte?", "Wie viel, wie verteilt?", "Wer macht was bis wann?", "Wirkt es, was ändern wir?"];
+  var res = ["Lagebild", "Zielsystem mit Kennzahlen", "Segmente und Personas", "Positionierungsaussage", "Kanalmix und Maßnahmenplan", "Budgetplan", "Zeit- und Verantwortungsplan", "Reporting und Anpassungen"];
+  var START = "„Weiter“ geht die acht Schritte der Reihe nach durch. Ein Klick auf einen Schritt zeigt Leitfrage und Ergebnis.";
+  var BACK = "Das Controlling wird zuletzt geplant, läuft aber <b>ab dem ersten Kampagnentag</b> mit. Was es misst, geht als Lagebild in die nächste Situationsanalyse ein. Deshalb ist der Prozess ein Kreis.";
+  var svg = document.getElementById("rw-pp-svg"), NS = "http://www.w3.org/2000/svg";
+  var cx = 300, cy = 280, R = 214, n = 8, w = 176, h = 58;
+  function ang(i) { return -Math.PI / 2 + i * 2 * Math.PI / n; }
+  function pos(i) { return [cx + R * Math.cos(ang(i)), cy + R * Math.sin(ang(i))]; }
+  function el(tag, attrs, parent) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); (parent || svg).appendChild(e); return e; }
+  var defs = el("defs", {});
+  var cs = getComputedStyle(document.getElementById("rw-pp"));
+  function g(v, f) { return cs.getPropertyValue(v).trim() || f; }
+  [["rw-pp-a0", g("--w-rule", "#dedbd3")], ["rw-pp-a1", g("--w-blue", "#2c4f9e")], ["rw-pp-a2", g("--w-green", "#2f7d4f")]].forEach(function (m) {
+    var mk = el("marker", { id: m[0], viewBox: "0 0 10 10", refX: "8", refY: "5", markerWidth: "5", markerHeight: "5", orient: "auto-start-reverse" }, defs);
+    el("path", { d: "M 0 0 L 10 5 L 0 10 z", fill: m[1] }, mk);
+  });
+  function exit(i, dir) { var p = pos(i), a = ang(i); for (var k = 0; k < 400; k++) { a += dir * 0.005; var x = cx + R * Math.cos(a), y = cy + R * Math.sin(a); if (Math.abs(x - p[0]) > w / 2 + 6 || Math.abs(y - p[1]) > h / 2 + 6) return a; } return a; }
+  var arcs = [], nodes = [];
+  for (var i = 0; i < n; i++) {
+    var a0 = exit(i, 1), a1 = exit((i + 1) % n, -1) + (i === n - 1 ? 2 * Math.PI : 0);
+    arcs.push(el("path", { d: "M " + (cx + R * Math.cos(a0)) + " " + (cy + R * Math.sin(a0)) + " A " + R + " " + R + " 0 0 1 " + (cx + R * Math.cos(a1)) + " " + (cy + R * Math.sin(a1)), "class": "arc", "marker-end": "url(#rw-pp-a0)" }));
+  }
+  var c1 = el("text", { x: cx, y: cy - 6, "class": "center-strong" }), c2 = el("text", { x: cx, y: cy + 24, "class": "center" });
+  for (i = 0; i < n; i++) {
+    var p = pos(i), gr = el("g", { "class": "node", tabindex: "0", role: "button", "aria-label": "Schritt " + (i + 1) + ": " + names[i] + " erklären" });
+    el("rect", { x: p[0] - w / 2, y: p[1] - h / 2, width: w, height: h, rx: 12 }, gr);
+    var no = el("text", { x: p[0], y: p[1] - 7, "class": "no" }, gr); no.textContent = i + 1;
+    var t = el("text", { x: p[0], y: p[1] + 18 }, gr); t.textContent = short[i];
+    (function (idx) {
+      function info() {
+        step = idx; render(); nodes[idx].classList.add("is-info");
+      }
+      gr.addEventListener("click", info);
+      gr.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); info(); } });
+    })(i);
+    nodes.push(gr);
+  }
+  var step = -1, prevBtn = document.getElementById("rw-pp-prev"), nextBtn = document.getElementById("rw-pp-next");
+  function set(k, t, x) { document.getElementById("rw-pp-kicker").textContent = k; document.getElementById("rw-pp-title").textContent = t; document.getElementById("rw-pp-text").innerHTML = x; }
+  function render() {
+    nodes.forEach(function (gr) { gr.setAttribute("class", "node"); });
+    arcs.forEach(function (a, k) { a.setAttribute("class", "arc" + (k === n - 1 ? " is-back" : "")); a.setAttribute("marker-end", "url(#rw-pp-a0)"); });
+    prevBtn.disabled = step < 0; nextBtn.disabled = step >= n;
+    if (step < 0) { c1.textContent = "8 Schritte"; c2.textContent = "ein Kreislauf"; set("Planungsprozess", "Acht Schritte, lange vor der Buchung", START); return; }
+    var last = Math.min(step, n - 1);
+    for (var k = 0; k <= last; k++) { nodes[k].classList.add("is-done"); if (k < last) { arcs[k].classList.add("is-done"); arcs[k].setAttribute("marker-end", "url(#rw-pp-a1)"); } }
+    if (step === n) {
+      arcs[n - 1].classList.add("is-done"); arcs[n - 1].setAttribute("marker-end", "url(#rw-pp-a2)");
+      nodes[0].classList.add("is-active");
+      c1.textContent = "Zurück zu 1"; c2.textContent = "neues Lagebild";
+      set("Vom Controlling zur nächsten Runde", "Das Controlling liefert das nächste Lagebild", BACK);
+      return;
+    }
+    nodes[step].classList.add("is-active");
+    c1.textContent = "Schritt " + (step + 1); c2.textContent = "von 8";
+    set("Schritt " + (step + 1) + " von 8", names[step], "<b>Leitfrage:</b> " + ask[step] + "<br><b>Ergebnis:</b> " + res[step] + (step === n - 1 ? "<br>Geplant wird es zuletzt, laufen muss es ab dem ersten Kampagnentag." : ""));
+  }
+  nextBtn.addEventListener("click", function () { if (step < n) { step++; render(); } });
+  prevBtn.addEventListener("click", function () { if (step >= 0) { step--; render(); } });
+  render();
+})();
+</script>
