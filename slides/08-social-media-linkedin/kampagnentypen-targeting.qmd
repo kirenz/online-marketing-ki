@@ -20,19 +20,19 @@ Jede Kampagne beginnt mit einem Ziel und endet mit der passenden Zielgruppe. Daz
 
 ::: {.timeline-item}
 [01]{.timeline-number}
-[Bekanntheit]{.timeline-title}
+[Bekanntheit (Anwerben)]{.timeline-title}
 [Breite Sichtbarkeit, gemessen an Reichweite.]{.timeline-detail}
 :::
 
 ::: {.timeline-item}
 [02]{.timeline-number}
-[Erwägung]{.timeline-title}
+[Erwägung (Überzeugen)]{.timeline-title}
 [Interesse vertiefen, gemessen an Klicks und Engagement.]{.timeline-detail}
 :::
 
 ::: {.timeline-item}
 [03]{.timeline-number}
-[Konversion]{.timeline-title}
+[Konversion (Gewinnen)]{.timeline-title}
 [Konkrete Handlung, gemessen an Leads und Abschlüssen.]{.timeline-detail}
 :::
 
@@ -43,7 +43,7 @@ Quelle: @linkedinAds2024
 :::
 
 ::: {.notes}
-Jede Kampagne startet mit einem Ziel aus einer von drei Phasen: Bekanntheit, Erwägung, Konversion. Diese Wahl steuert die Auslieferung durch den Algorithmus und bestimmt, welche Kennzahlen überhaupt sinnvoll sind. Erst danach folgen Format und Zielgruppe.
+Jede Kampagne startet mit einem Ziel aus einer von drei Phasen: Bekanntheit, Erwägung, Konversion. Diese Wahl steuert die Auslieferung durch den Algorithmus und bestimmt, welche Kennzahlen überhaupt sinnvoll sind. Erst danach folgen Format und Zielgruppe. In Klammern stehen die Aufgaben der Kundenreise vom ersten Tag, damit die LinkedIn-Begriffe an Bekanntes anschließen.
 :::
 
 ## Drei Formate, drei Aufgaben

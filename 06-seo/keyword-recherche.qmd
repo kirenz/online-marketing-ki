@@ -18,7 +18,7 @@ Ein Suchbegriff ist nie nur ein Wort, sondern ein Anliegen. Wir fragen uns desha
 
 ![Vier Suchintentionen mit fiktiven Beispielsuchen und dem jeweils passenden Seitenformat.](../images/suchintention.svg){#fig-suchintention fig-alt="Vier Karten: Informieren (was ist ein siebträger, Ratgeber-Text), Navigieren (kaffeehaus müller login, die gesuchte Seite), Kommerziell vergleichen (siebträger oder vollautomat, Vergleich), Transaktional handeln (siebträger kaufen, Produktseite)."}
 
-Diese Einordnung ist entscheidend, weil Suchmaschinen genau jene Inhalte bevorzugen, die zur erkennbaren Absicht passen. Ein Ratgeber-Text gewinnt bei informierenden Anfragen, eine Produktseite bei kauforientierten Anfragen. Wir richten unser Format also an der Intention aus, nicht umgekehrt [@enge2023].
+Diese Einordnung ist entscheidend, weil Suchmaschinen genau jene Inhalte bevorzugen, die zur erkennbaren Absicht passen. Ein Ratgeber-Text gewinnt bei informierenden Anfragen, eine Produktseite bei kauforientierten Anfragen. Wir richten unser Format also an der Intention aus, nicht umgekehrt [@enge2023]. Die Absichten passen zu den Aufgaben der Kundenreise aus dem ersten Modul: Informierende Suchen gehören zum Anwerben, vergleichende zum Überzeugen, kauforientierte zum Gewinnen.
 
 ## Von Keywords zu Themen
 

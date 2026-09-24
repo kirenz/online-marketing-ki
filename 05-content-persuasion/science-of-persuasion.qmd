@@ -6,7 +6,7 @@ Wir betrachten in dieser Lesson die sieben Prinzipien der Überzeugung nach Robe
 
 Menschen treffen täglich unzählige Entscheidungen und können dabei nicht jede Information vollständig abwägen. Stattdessen greifen wir auf gelernte Abkürzungen zurück, die meist gute Dienste leisten. Robert Cialdini hat aus jahrzehntelanger Forschung sieben solcher Prinzipien herausgearbeitet, die zuverlässig beeinflussen, ob wir zustimmen oder ablehnen [@cialdini2021].
 
-Diese sieben Prinzipien sind: Reziprozität, Commitment und Konsistenz, Social Proof, Sympathie, Autorität, Knappheit und Einheit. Sie wirken nicht, weil sie Menschen überlisten, sondern weil sie an etabliertes soziales Verhalten anknüpfen. Im Marketing helfen sie uns, eine ohnehin gute Botschaft so zu rahmen, dass sie ankommt.
+Diese sieben Prinzipien sind: Reziprozität, Commitment und Konsistenz, Social Proof, Sympathie, Autorität, Knappheit und Zugehörigkeit. Die ursprüngliche Fassung von 1984 nannte sechs Prinzipien. Zugehörigkeit (englisch Unity) kam später hinzu: Wir lassen uns eher von Menschen überzeugen, die wir zum eigenen „Wir“ zählen, etwa aus derselben Region, Branche oder Gemeinschaft. Sie wirken nicht, weil sie Menschen überlisten, sondern weil sie an etabliertes soziales Verhalten anknüpfen. Im Marketing helfen sie uns, eine ohnehin gute Botschaft so zu rahmen, dass sie ankommt.
 
 ::: {.callout-note title="Die Verkehrsregeln des Entscheidens"}
 Die Prinzipien wirken wie Verkehrsregeln im Kopf. Niemand prüft an jeder Kreuzung neu, ob Rot wirklich Halten bedeutet, denn die Regel spart Zeit und funktioniert fast immer. Genauso verlassen wir uns auf Hinweise wie Empfehlungen anderer oder das Urteil von Fachleuten, statt jede Entscheidung von Grund auf neu zu durchdenken.
@@ -24,7 +24,7 @@ Jedes Prinzip lässt sich direkt auf Marketingmaßnahmen übertragen:
 | Sympathie | Wir sagen eher Menschen zu, die wir mögen | Nahbarer Ton, gemeinsame Werte, echte Gesichter |
 | Autorität | Wir folgen anerkannter Fachkompetenz | Belege, Auszeichnungen, sichtbare Expertise |
 | Knappheit | Wir schätzen, was selten oder befristet ist | Begrenzte Plätze, Fristen, exklusive Inhalte |
-| Einheit | Wir folgen eher der eigenen Gruppe | Gemeinsame Identität und Zugehörigkeit ansprechen |
+| Zugehörigkeit | Wir folgen eher Menschen, die zum eigenen „Wir“ gehören | Gemeinsame Herkunft, Region oder Gemeinschaft ansprechen |
 
 Besonders Reziprozität ist der rote Faden zur vorigen Lesson: Wer zuerst nützlichen Content verschenkt, schafft genau jenes Gefühl der Gegenseitigkeit, das eine spätere Kontaktaufnahme erleichtert.
 
@@ -33,7 +33,7 @@ Ein kostenloser Leitfaden oder eine brauchbare Vorlage kostet uns wenig, erzeugt
 :::
 
 ::: {.callout-note title="Vertiefung: Video und Studie"}
-Cialdini erklärt die Prinzipien selbst in einem [Video auf YouTube](https://www.youtube.com/watch?v=cFdCzN7RYbw). Eine Studie von Google und The Behavioural Architects zur „Messy Middle“, der Phase zwischen erstem Impuls und Kauf, hat mehrere dieser Prinzipien in Kaufentscheidungen getestet und bestätigt, darunter Social Proof, Knappheit und Autorität. Bewertungen anderer Kundinnen und Kunden wirkten dabei fast immer am stärksten ([Studie „Decoding Decisions“](https://www.thinkwithgoogle.com/_qs/documents/9998/Decoding_Decisions_The_Messy_Middle_of_Purchase_Behavior.pdf)).
+Cialdini erklärt die Prinzipien selbst in einem [Video auf YouTube](https://www.youtube.com/watch?v=cFdCzN7RYbw). Eine kurze Übersicht aller sieben Prinzipien bietet [Influence at Work](https://www.influenceatwork.com/7-principles-of-persuasion/), das Beratungsunternehmen von Cialdini. Eine Studie von Google und The Behavioural Architects zur „Messy Middle“, der Phase zwischen erstem Impuls und Kauf, hat mehrere dieser Prinzipien in Kaufentscheidungen getestet und bestätigt, darunter Social Proof, Knappheit und Autorität. Bewertungen anderer Kundinnen und Kunden wirkten dabei fast immer am stärksten ([Studie „Decoding Decisions“](https://www.thinkwithgoogle.com/_qs/documents/9998/Decoding_Decisions_The_Messy_Middle_of_Purchase_Behavior.pdf)).
 :::
 
 ## Wirksamkeit endet an der Ethik

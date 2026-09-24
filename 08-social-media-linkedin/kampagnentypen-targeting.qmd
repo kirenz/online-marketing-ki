@@ -2,7 +2,7 @@
 
 In dieser Lesson schauen wir uns die wichtigsten Anzeigenformate von LinkedIn an und lernen, wie wir mit professioneller Demografie, eigenen Daten und kontobasiertem Marketing die richtige Zielgruppe erreichen.
 
-Jede LinkedIn-Kampagne beginnt mit einem Ziel, das einer von drei Phasen zugeordnet ist: Bekanntheit, Erwägung und Konversion. Diese Wahl steuert, wie der Algorithmus die Anzeige ausliefert und welche Kennzahlen sinnvoll sind. Erst danach wählen wir das passende Format und die Zielgruppe [@linkedinAds2024].
+Jede LinkedIn-Kampagne beginnt mit einem Ziel, das einer von drei Phasen zugeordnet ist: Bekanntheit, Erwägung und Konversion. Diese Wahl steuert, wie der Algorithmus die Anzeige ausliefert und welche Kennzahlen sinnvoll sind. Erst danach wählen wir das passende Format und die Zielgruppe [@linkedinAds2024]. Die drei Phasen entsprechen den ersten drei Aufgaben der Kundenreise: Bekanntheit dem Anwerben, Erwägung dem Überzeugen, Konversion dem Gewinnen.
 
 ## Die wichtigsten Anzeigenformate
 

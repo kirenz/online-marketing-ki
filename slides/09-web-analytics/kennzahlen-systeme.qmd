@@ -11,7 +11,7 @@ A dark, atmospheric composition evoking measurement and focus: a dimly glowing c
 -->
 
 ::: {.notes}
-Der Einstieg setzt eine bewusste Spannung: Hohe Zahlen wirken überzeugend, sagen aber oft wenig über den tatsächlichen Erfolg. Diese Lesson trennt den schönen Schein von der echten Steuerung und ordnet Kennzahlen entlang der Customer Journey.
+Der Einstieg setzt eine bewusste Spannung: Hohe Zahlen wirken überzeugend, sagen aber oft wenig über den tatsächlichen Erfolg. Diese Lesson trennt den schönen Schein von der echten Steuerung und ordnet Kennzahlen entlang der Kundenreise.
 :::
 
 ## Metrik ist nicht gleich KPI
@@ -59,28 +59,34 @@ Quelle: @kaushik2010
 Diese eine Frage trennt Steuerungsgröße von Dekoration. Eine wertorientierte Kennzahl beantwortet, ob das Ziel nähergerückt ist, und lenkt das nächste Handeln. Und sie wird immer im Verhältnis betrachtet: Erst Relationen wie die Conversion-Rate machen aus einer rohen Zahl eine steuerbare Größe.
 :::
 
-## Kennzahlen entlang der Customer Journey
+## Kennzahlen entlang der Kundenreise
 
-Einzeln überzeugen Kennzahlen selten, im Verbund dagegen sehr. Jede Journey-Phase trägt ihre eigene Leitkennzahl.
+Einzeln überzeugen Kennzahlen selten, im Verbund dagegen sehr. Jede Aufgabe der Kundenreise trägt ihre eigene Leitkennzahl.
 
 :::: {.timeline}
 
 ::: {.timeline-item}
 [1]{.timeline-number}
-[Aufmerksamkeit]{.timeline-title}
+[Anwerben]{.timeline-title}
 [Reichweite, neue Besuchende]{.timeline-detail}
 :::
 
 ::: {.timeline-item}
 [2]{.timeline-number}
-[Interesse]{.timeline-title}
+[Überzeugen]{.timeline-title}
 [Verweildauer, wiederkehrende Besuche]{.timeline-detail}
 :::
 
 ::: {.timeline-item}
 [3]{.timeline-number}
-[Handlung]{.timeline-title}
+[Gewinnen]{.timeline-title}
 [Conversion und Conversion-Wert]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[4]{.timeline-number}
+[Binden]{.timeline-title}
+[Wiederkäufe, Kündigungen]{.timeline-detail}
 :::
 
 ::::
@@ -150,10 +156,10 @@ Die Zusammenfassung des Shop-Beispiels. Der Zähler bleibt gleich, der Nenner we
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
-Kennzahlen sind kein Applaus, sondern Steuerung. Wer Vanity-Metriken aussortiert, wenige KPIs bewusst wählt und sie entlang der Customer Journey anordnet, verwandelt rohe Zahlen in begründete Entscheidungen.
+Kennzahlen sind kein Applaus, sondern Steuerung. Wer Vanity-Metriken aussortiert, wenige KPIs bewusst wählt und sie entlang der Kundenreise anordnet, verwandelt rohe Zahlen in begründete Entscheidungen.
 
 ::: {.notes}
-Als Kernbotschaft bleibt: messbar ist nicht gleich wichtig. Die Auswahl weniger, zielgerichteter Kennzahlen entlang der Journey ist die eigentliche Leistung, nicht das Sammeln möglichst vieler Zahlen.
+Als Kernbotschaft bleibt: messbar ist nicht gleich wichtig. Die Auswahl weniger, zielgerichteter Kennzahlen entlang der Kundenreise ist die eigentliche Leistung, nicht das Sammeln möglichst vieler Zahlen.
 :::
 
 ## Literatur

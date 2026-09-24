@@ -102,7 +102,7 @@ Es folgt denselben Prinzipien wie ein gutes Kennzahlensystem:
 
 - oben die Leitkennzahlen für den schnellen Gesundheitscheck
 - darunter die Treiber, die Veränderungen erklären
-- geordnet nach den Phasen der Customer Journey
+- geordnet nach den Aufgaben der Kundenreise
 
 ::: {.sources}
 Quelle: @ahrholdt2023

@@ -47,29 +47,29 @@ Drei Wirkungen tragen die Content-Strategie: Nutzen stiften, Vertrauen aufbauen,
 
 ## Format folgt Funktion
 
-Vor dem Format steht die Aufgabe. Erst klären wir Ziel, Zielgruppe und Phase der Customer Journey, dann fällt die Entscheidung für ein Format.
+Vor dem Format steht die Aufgabe. Erst klären wir Ziel, Zielgruppe und die Aufgabe auf der Kundenreise, dann fällt die Entscheidung für ein Format.
 
-| Phase | Aufgabe | Formate |
+| Kundenreise | Was der Inhalt leistet | Formate |
 |---|---|---|
-| Awareness | Informieren | Blogartikel, How-to, FAQ |
-| Consideration | Inspirieren | Erfahrungsberichte, Video |
-| Decision | Überzeugen | Fallstudie, Infografik |
-| Action | Aktivieren | Checkliste, Webinar |
+| Anwerben | erklären, gefunden werden | Ratgeber, How-to, FAQ |
+| Überzeugen | Interesse wecken, beim Vergleichen helfen | Erfahrungsbericht, Video |
+| Gewinnen | belegen, zum ersten Schritt bewegen | Fallstudie, Vergleich, Checkliste |
+| Binden | nach dem Kauf Nutzen stiften | Newsletter mit Tipps, Webinar |
 
 ::: {.sources}
-Quelle: @hollebeek2019
+Englische Fachbegriffe: Awareness, Consideration, Decision, Action. Quelle: @hollebeek2019
 :::
 
 ::: {.notes}
-Das Format ist nie der erste Schritt. Zuerst steht die Funktion im Kundenprozess, dann das passende Gefäß. Frühe Phasen verlangen Erklärung, späte Phasen verlangen Belege und konkrete Handlungsangebote.
+Das Format ist nie der erste Schritt. Zuerst steht die Aufgabe auf der Kundenreise, dieselben vier Aufgaben wie am ersten Tag: Anwerben, Überzeugen, Gewinnen, Binden. Dann folgt das passende Gefäß. Frühe Aufgaben verlangen Erklärung, späte Aufgaben verlangen Belege und konkrete Handlungsangebote.
 :::
 
-## Merksatz {.stage background-color="#0a0a0f" data-kicker="Content je Phase"}
+## Merksatz {.stage background-color="#0a0a0f" data-kicker="Content je Aufgabe"}
 
-Frühe Phasen brauchen Erklärung. Späte Phasen brauchen Belege und ein konkretes Angebot.
+Anwerben braucht Erklärung. Gewinnen braucht Belege und ein konkretes Angebot.
 
 ::: {.notes}
-Am Kaffeeabo der Rösterei: Ein Ratgeber zum Mahlgrad erklärt und erreicht Menschen, die die Rösterei noch nicht kennen. Ein kurzes Video aus der Röstung weckt Interesse. Ein Vergleich von Abo und Einzelkauf mit Preis und Lieferrhythmus liefert den Beleg für die Entscheidung. Das Probierpaket ist das konkrete Angebot für den ersten Schritt.
+Am Kaffeeabo der Rösterei: Ein Ratgeber zum Mahlgrad erklärt und erreicht Menschen, die die Rösterei noch nicht kennen (Anwerben). Ein kurzes Video aus der Röstung weckt Interesse (Überzeugen). Ein Vergleich von Abo und Einzelkauf mit Preis und Lieferrhythmus liefert den Beleg, das Probierpaket ist das konkrete Angebot für den ersten Schritt (Gewinnen). Zubereitungstipps nach der ersten Lieferung halten die Kundschaft (Binden).
 :::
 
 ## Redaktionell steuern

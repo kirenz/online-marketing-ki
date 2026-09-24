@@ -176,6 +176,15 @@ $color-stage-muted-a: #a8a4a0 !default;   // warm-grau für Kicker/Muted
   border-left: 1px solid var(--rule);
 }
 
+// Sieben Kacheln (z. B. Cialdini): vier Spalten statt drei
+.reveal .features.features-7 {
+  grid-template-columns: repeat(4, 1fr);
+
+  .feature {
+    padding: 1.2em 1.1em;
+  }
+}
+
 .reveal .features .feature {
   background: var(--paper);
   border: none;

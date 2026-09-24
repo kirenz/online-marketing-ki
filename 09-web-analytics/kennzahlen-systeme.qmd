@@ -1,6 +1,6 @@
 # Kennzahlen und Kennzahlensysteme
 
-Wir messen Marketingerfolg nicht an Applaus, sondern an Wirkung. In dieser Lesson lernen wir, sogenannte Vanity-Metriken von echten Steuerungsgrößen zu unterscheiden und unsere Kennzahlen so entlang der Customer Journey anzuordnen, dass sie zusammen ein stimmiges Bild ergeben.
+Wir messen Marketingerfolg nicht an Applaus, sondern an Wirkung. In dieser Lesson lernen wir, sogenannte Vanity-Metriken von echten Steuerungsgrößen zu unterscheiden und unsere Kennzahlen so entlang der Kundenreise anzuordnen, dass sie zusammen ein stimmiges Bild ergeben.
 
 ## Warum Kennzahlen überhaupt zählen
 
@@ -22,11 +22,11 @@ Das Problem liegt nicht in den Zahlen selbst, sondern in der fehlenden Verbindun
 Wir betrachten absolute Zahlen immer im Verhältnis. Tausend Klicks sind je nach eingesetztem Budget ein Erfolg oder eine Enttäuschung. Erst Relationen wie Conversion-Rate (mit ausdrücklich festgelegtem Zähler und Nenner) oder Kosten pro Conversion machen aus einer rohen Zahl eine steuerbare Größe.
 :::
 
-## Kennzahlen entlang der Customer Journey
+## Kennzahlen entlang der Kundenreise
 
-Kennzahlen wirken einzeln selten überzeugend, im Verbund dagegen sehr. Ein Kennzahlensystem ordnet die wichtigsten Größen so an, dass sie aufeinander aufbauen und gemeinsam den Weg der Kundschaft abbilden. Wir orientieren uns dabei an den Phasen der Customer Journey, also an der Reise von der ersten Aufmerksamkeit bis zur dauerhaften Bindung.
+Kennzahlen wirken einzeln selten überzeugend, im Verbund dagegen sehr. Ein Kennzahlensystem ordnet die wichtigsten Größen so an, dass sie aufeinander aufbauen und gemeinsam den Weg der Kundschaft abbilden. Wir orientieren uns dabei an den vier Aufgaben der Kundenreise aus dem ersten Modul: Anwerben, Überzeugen, Gewinnen und Binden. In der Fachliteratur heißt dieser Weg oft Customer Journey.
 
-In der frühen Phase messen wir Sichtbarkeit und Aufmerksamkeit, etwa über Reichweite oder neue Besuchende. In der mittleren Phase rückt das Interesse in den Blick, sichtbar an Verweildauer oder wiederkehrenden Besuchen. In der späten Phase zählt die Handlung, also die Conversion und ihr Wert. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt [@ahrholdt2023].
+Beim Anwerben messen wir Sichtbarkeit und Aufmerksamkeit, etwa über Reichweite oder neue Besuchende. Beim Überzeugen rückt das Interesse in den Blick, sichtbar an Verweildauer oder wiederkehrenden Besuchen. Beim Gewinnen zählt die Handlung, also die Conversion und ihr Wert. Beim Binden zeigen Wiederkäufe und Kündigungen, ob die Kundschaft bleibt. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt [@ahrholdt2023].
 
 Damit dieses System trägt, wählen wir bewusst wenige Schlüsselkennzahlen statt vieler Anzeigen. Vier bis fünf gut gewählte KPIs reichen aus, um eine Kampagne zu steuern. Mehr Zahlen erhöhen nicht die Klarheit, sondern den Aufwand der Interpretation.
 

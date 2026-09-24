@@ -16,7 +16,7 @@ Menschen können nicht jede Entscheidung vollständig abwägen und greifen desha
 
 ## Sieben Hebel der Überzeugung
 
-:::: {.features}
+:::: {.features .features-7}
 
 ::: {.feature}
 [{{< fa rotate >}}]{.accent-blue}
@@ -60,10 +60,17 @@ Anerkannter Kompetenz wird gefolgt.
 Seltenes erscheint wertvoller.
 :::
 
+::: {.feature}
+[{{< fa people-group >}}]{.accent-orange}
+**Zugehörigkeit**
+
+Dem eigenen „Wir“ wird eher gefolgt.
+:::
+
 ::::
 
 ::: {.notes}
-Die sieben Prinzipien lauten Reziprozität, Konsistenz, Social Proof, Sympathie, Autorität, Knappheit und Einheit. Sie überlisten niemanden, sondern knüpfen an etabliertes soziales Verhalten an. Das siebte Prinzip, Einheit, kommt auf der nächsten Folie als gemeinsame Identität hinzu.
+Die sieben Prinzipien lauten Reziprozität, Konsistenz, Social Proof, Sympathie, Autorität, Knappheit und Zugehörigkeit. Sie überlisten niemanden, sondern knüpfen an etabliertes soziales Verhalten an. Die ursprüngliche Fassung von 1984 nannte sechs Prinzipien; Zugehörigkeit (englisch Unity) kam später hinzu. Gemeint ist das gemeinsame „Wir“, etwa dieselbe Region, Branche oder Gemeinschaft. Sympathie heißt dagegen: Ich mag die Person.
 :::
 
 ## Von Prinzip zu Maßnahme
@@ -76,7 +83,7 @@ Die sieben Prinzipien lauten Reziprozität, Konsistenz, Social Proof, Sympathie,
 | Sympathie | Nahbarer Ton, gemeinsame Werte |
 | Autorität | Belege, Auszeichnungen, Expertise |
 | Knappheit | Begrenzte Plätze, klare Fristen |
-| Einheit | Zugehörigkeit und gemeinsame Identität |
+| Zugehörigkeit | Gemeinsame Herkunft, Region oder Gemeinschaft |
 
 ::: {.sources}
 Quelle: @cialdini2021

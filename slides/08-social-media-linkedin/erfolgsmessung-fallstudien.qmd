@@ -25,7 +25,7 @@ Quelle: @linkedinAds2024
 :::
 
 ::: {.notes}
-Eine Kampagne ist nur so gut wie ihre Messung, und entscheidend ist die passende Kennzahl. Wer Markenbekanntheit aufbaut, schaut auf Reichweite. Wer Leads gewinnt, schaut auf die Kosten pro Lead. Eine falsch gewählte Kennzahl führt zu falschen Schlüssen, etwa wenn ein Awareness-Ziel an Abschlüssen gemessen wird.
+Eine Kampagne ist nur so gut wie ihre Messung, und entscheidend ist die passende Kennzahl. Wer Markenbekanntheit aufbaut, schaut auf Reichweite. Wer Leads gewinnt, schaut auf die Kosten pro Lead. Eine falsch gewählte Kennzahl führt zu falschen Schlüssen, etwa wenn ein Bekanntheitsziel (Anwerben) an Abschlüssen gemessen wird.
 :::
 
 ## Die zentralen Kennzahlen

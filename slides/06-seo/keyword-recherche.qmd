@@ -88,7 +88,7 @@ Vier Grundabsichten lassen sich unterscheiden: informieren, navigieren, vergleic
 ![](../images/suchintention.svg){fig-alt="Vier Suchintentionen mit Beispielsuche und passendem Format" width="1000px"}
 
 ::: {.notes}
-Dieselbe Produktwelt, vier Absichten. Wer informieren will, braucht einen Ratgeber; wer kaufen will, eine Produktseite. Die Beispielsuchen sind fiktiv. Entscheidend ist, das Format an der Absicht auszurichten, nicht umgekehrt.
+Dieselbe Produktwelt, vier Absichten. Wer informieren will, braucht einen Ratgeber; wer kaufen will, eine Produktseite. Die Beispielsuchen sind fiktiv. Entscheidend ist, das Format an der Absicht auszurichten, nicht umgekehrt. Die Absichten passen zur Kundenreise vom ersten Tag: Informieren gehört zum Anwerben, Vergleichen zum Überzeugen, Kaufen zum Gewinnen.
 :::
 
 ## Vom Keyword zum Thema

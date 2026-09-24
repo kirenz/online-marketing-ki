@@ -28,7 +28,7 @@ Wir verlassen uns nicht allein auf den letzten Klick. Wer nur den finalen Schrit
 
 Die beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Dashboard bündelt die wichtigsten Kennzahlen an einem Ort und macht sie auf einen Blick lesbar. Werkzeuge wie Looker Studio verbinden sich dafür direkt mit GA4 und anderen Datenquellen und stellen die Zahlen als Diagramme und Übersichten dar.
 
-Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Phasen der Customer Journey. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann [@ahrholdt2023].
+Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Aufgaben der Kundenreise. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann [@ahrholdt2023].
 
 Wir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.
 

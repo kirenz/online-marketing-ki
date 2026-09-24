@@ -6,27 +6,27 @@ Wir planen in dieser Lesson Inhalte so, dass sie auf ein Ziel und eine Zielgrupp
 
 Content-Marketing verfolgt eine einfache Idee: Wir bauen Vertrauen auf, bevor wir etwas verkaufen. Statt nur Werbebotschaften zu senden, liefern wir Inhalte, die für die Zielgruppe nützlich, relevant oder unterhaltsam sind. Aus dieser Nützlichkeit entsteht Engagement, aus wiederholtem Engagement entsteht Vertrauen, und Vertrauen ist die Grundlage jeder späteren Kaufentscheidung [@hollebeek2019].
 
-Damit das funktioniert, brauchen wir vor dem ersten Wort drei Festlegungen: ein Ziel, eine Zielgruppe und eine Phase der Customer Journey. Wer für die frühe Awareness-Phase schreibt, erklärt und informiert. Wer für die Entscheidungsphase schreibt, liefert Belege wie Fallstudien oder Vergleiche. Dieselbe Botschaft wirkt also je nach Phase unterschiedlich gut.
+Damit das funktioniert, brauchen wir vor dem ersten Wort drei Festlegungen: ein Ziel, eine Zielgruppe und eine Aufgabe auf der Kundenreise. Das sind die vier Aufgaben aus dem Abschnitt „Die Kundenreise von Fremden zu Fürsprechern“ im ersten Modul: Anwerben, Überzeugen, Gewinnen und Binden. Wer anwerben will, erklärt und informiert. Wer gewinnen will, liefert Belege wie Fallstudien oder Vergleiche. Dieselbe Botschaft wirkt also je nach Aufgabe unterschiedlich gut. In der Fachliteratur heißen die Phasen oft Awareness, Consideration, Decision und Action.
 
 ::: {.callout-tip title="Format folgt Funktion"}
-Wir wählen das Format nie zuerst. Erst klären wir, welche Aufgabe der Inhalt in der Customer Journey erfüllt, dann entscheiden wir über Blogartikel, Video, Infografik oder Webinar.
+Wir wählen das Format nie zuerst. Erst klären wir, welche Aufgabe der Inhalt auf der Kundenreise erfüllt, dann entscheiden wir über Blogartikel, Video, Infografik oder Webinar.
 :::
 
-## Formate entlang der Customer Journey
+## Formate entlang der Kundenreise
 
-Verschiedene Formate erfüllen verschiedene Zwecke. In der Awareness-Phase informieren Blogartikel, How-to-Guides und FAQ-Seiten. In der Consideration-Phase inspirieren Erfahrungsberichte und kurze Videos. In der Entscheidungsphase überzeugen Fallstudien, Erfolgszahlen und Infografiken. Direkt vor der Handlung aktivieren Checklisten, Webinare oder Event-Einladungen, oft als sogenannter Lead-Magnet im Tausch gegen eine Kontaktadresse.
+Verschiedene Formate erfüllen verschiedene Zwecke. Beim Anwerben informieren Blogartikel, How-to-Guides und FAQ-Seiten. Beim Überzeugen helfen Erfahrungsberichte und kurze Videos, weil die Person jetzt vergleicht. Beim Gewinnen belegen Fallstudien, Erfolgszahlen und Vergleiche. Checklisten oder Webinare geben einen Anlass zum ersten Schritt, oft als sogenannter Lead-Magnet im Tausch gegen eine Kontaktadresse. Beim Binden stiften Newsletter mit Tipps oder Anleitungen nach dem Kauf weiteren Nutzen.
 
 Eine hilfreiche Struktur dahinter ist das Topic-Cluster-Modell. Eine umfassende Hauptseite zu einem Kernthema, die Cornerstone-Page, bündelt das Thema im Überblick. Mehrere spezifische Artikel vertiefen einzelne Unterfragen und verlinken zurück auf die Hauptseite. So entsteht ein thematisch geschlossenes Netz, das sowohl Suchmaschinen als auch Leserinnen und Leser leichter durchdringen.
 
 ::: {.callout-note title="Beispiel: Content der Rösterei Morgenrot"}
-Für das Kaffeeabo der Rösterei könnte der Content je Phase so aussehen:
+Für das Kaffeeabo der Rösterei könnte der Content je Aufgabe so aussehen:
 
-| Phase | Aufgabe | Format |
+| Kundenreise | Was der Inhalt leistet | Format |
 |---|---|---|
-| Awareness | erklären | Ratgeber „Welcher Mahlgrad passt zu welcher Zubereitung?“ |
-| Consideration | Interesse wecken | kurzes Video aus der Röstung |
-| Entscheidung | belegen | Vergleich Abo und Einzelkauf mit Preis und Lieferrhythmus |
-| Handlung | aktivieren | Probierpaket mit Anmeldung zum Newsletter |
+| Anwerben | erklären | Ratgeber „Welcher Mahlgrad passt zu welcher Zubereitung?“ |
+| Überzeugen | Interesse wecken | kurzes Video aus der Röstung |
+| Gewinnen | belegen, zum ersten Schritt bewegen | Vergleich Abo und Einzelkauf, Probierpaket mit Anmeldung zum Newsletter |
+| Binden | nach dem Kauf Nutzen stiften | Zubereitungstipps per E-Mail nach der ersten Lieferung |
 :::
 
 ## Redaktionell steuern statt sporadisch posten
