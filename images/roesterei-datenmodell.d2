@@ -1,0 +1,80 @@
+vars: {
+  d2-config: {
+    theme-id: 0
+    layout-engine: elk
+  }
+}
+direction: right
+
+verkauf: "Verkauf und Kundschaft" {
+  style: {fill: "#f7f7f8"; stroke: "#d4d4d8"; border-radius: 8; font-size: 20}
+  customers: {
+    shape: sql_table
+    style: {fill: "#1f3864"; stroke: "#ffffff"}
+    customer_id: text {constraint: primary_key}
+    erstkauf_datum: datum
+    akquise_kanal: kategorie
+    region: kategorie
+    segment: kategorie
+  }
+  orders: {
+    shape: sql_table
+    style: {fill: "#1f3864"; stroke: "#ffffff"}
+    order_id: text {constraint: primary_key}
+    customer_id: text {constraint: foreign_key}
+    bestelldatum: datum
+    kanal: kategorie
+    status: kategorie
+  }
+  order_items: {
+    shape: sql_table
+    style: {fill: "#3f5a8a"; stroke: "#ffffff"}
+    order_item_id: text {constraint: primary_key}
+    order_id: text {constraint: foreign_key}
+    sku: text {constraint: foreign_key}
+    menge: zahl
+    einzelpreis: zahl
+  }
+  products: {
+    shape: sql_table
+    style: {fill: "#3f5a8a"; stroke: "#ffffff"}
+    sku: text {constraint: primary_key}
+    name: text
+    listenpreis: zahl
+  }
+  subscriptions: {
+    shape: sql_table
+    style: {fill: "#3f5a8a"; stroke: "#ffffff"}
+    subscription_id: text {constraint: primary_key}
+    customer_id: text {constraint: foreign_key}
+    sku: text {constraint: foreign_key}
+    start_datum: datum
+    kuendigung_datum: datum
+  }
+  customers.customer_id <-> orders.customer_id: {source-arrowhead.shape: cf-one-required; target-arrowhead.shape: cf-many; style.stroke: "#71717a"}
+  orders.order_id <-> order_items.order_id: {source-arrowhead.shape: cf-one-required; target-arrowhead.shape: cf-many-required; style.stroke: "#71717a"}
+  products.sku <-> order_items.sku: {source-arrowhead.shape: cf-one-required; target-arrowhead.shape: cf-many; style.stroke: "#71717a"}
+  customers.customer_id <-> subscriptions.customer_id: {source-arrowhead.shape: cf-one-required; target-arrowhead.shape: cf-many; style.stroke: "#71717a"}
+  products.sku <-> subscriptions.sku: {source-arrowhead.shape: cf-one-required; target-arrowhead.shape: cf-many; style.stroke: "#71717a"}
+}
+
+marketing: "Marketing (Tageswerte je Kanal)" {
+  style: {fill: "#f7f7f8"; stroke: "#d4d4d8"; border-radius: 8; font-size: 20}
+  campaigns: {
+    shape: sql_table
+    style: {fill: "#b45309"; stroke: "#ffffff"}
+    campaign_id: text {constraint: primary_key}
+    kanal: kategorie
+    start_datum: datum
+    end_datum: datum
+    budget: zahl
+  }
+  web_sessions: {
+    shape: sql_table
+    style: {fill: "#b45309"; stroke: "#ffffff"}
+    datum: "datum"
+    kanal: kategorie
+    sessions: zahl
+    conversions: zahl
+  }
+}
