@@ -97,6 +97,8 @@ Solche Fehler findet eine KI meist schnell, wenn wir sie ausdrücklich danach fr
 
 Die KI ersetzt keinen Pretest. Einige echte Personen aus der Zielgruppe beantworten den Bogen vorab und sagen, wo sie gestutzt haben.
 
+Wie ein Fragebogen nach diesen Regeln aussieht, zeigt eine kurze [Übungsumfrage zum Kaffee-Abo](https://docs.google.com/forms/d/e/1FAIpQLSfdBVh1BoeeONxxFJcFe8Up8RC6eeIeK1_nWPAdm7-JYEiJ7g/viewform) in Google Forms. Sie beginnt mit einer Frage, die prüft, ob jemand überhaupt zur Zielgruppe gehört. Die Skalen sind ausgewogen, jede Frage fragt nur eine Sache, und die Angaben zur Person stehen am Ende. Die Rösterei ist erfunden.
+
 ## Beispiel: offene Antworten in Minuten kodiert
 
 Eine Online-Befragung liefert 400 Antworten auf die offene Frage „Was hat Sie beim Bestellen gestört?“. Von Hand dauert das Kodieren leicht einen Arbeitstag. Eine KI ordnet die Antworten in wenigen Minuten Themen zu, etwa Lieferzeit, Versandkosten oder Bezahlung, und nennt zu jeder Zuordnung die Textstelle.

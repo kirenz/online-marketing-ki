@@ -269,6 +269,8 @@ Die Demo zeigt Deep Research in der Gemini-App am Übungsfall Kaffeeabo. Der Auf
 
 ::::
 
+[Beispielumfrage in Google Forms →](https://docs.google.com/forms/d/e/1FAIpQLSfdBVh1BoeeONxxFJcFe8Up8RC6eeIeK1_nWPAdm7-JYEiJ7g/viewform){target="_blank"}
+
 ::: {.notes}
 Links steht ein erster Fragebogen mit drei typischen Fehlern. Die erste Frage ist suggestiv und fragt zwei Dinge zugleich. Die zweite enthält den unklaren Begriff regelmäßig. Die dritte ist hypothetisch und überschätzt die Kaufbereitschaft. [KLICK] Rechts stehen die überarbeiteten Fassungen. Ein kurzer Auftrag genügt: suggestive, doppelte, unklare und hypothetische Fragen markieren, jeden Befund begründen, eine neutrale Fassung vorschlagen. Einen Pretest mit echten Personen ersetzt diese Prüfung nicht.
 :::
