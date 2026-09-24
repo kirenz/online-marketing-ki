@@ -110,6 +110,37 @@ Quelle: @seebacher2023
 Mit Markeninvestitionen verbunden ist der Share of Voice, also der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern. Übersteigt er den Marktanteil, entsteht Wachstumsdruck nach oben. Für die Praxis heißt das: kontinuierlich sichtbar bleiben und so die mentale Verfügbarkeit aufbauen, die später über den Abschluss entscheidet.
 :::
 
+## Ohne Werbebudget: Seite, Beiträge, Mitarbeitende
+
+:::: {.features}
+
+::: {.feature}
+[{{< fa building >}}]{.accent-blue}
+**Unternehmensseite**
+
+Titelbild, Beschreibung mit Angebot im ersten Satz, Link und Button.
+:::
+
+::: {.feature}
+[{{< fa file-lines >}}]{.accent-green}
+**Eigene Beiträge**
+
+Dokument-Beitrag, Umfrage, Newsletter, Live-Übertragung.
+:::
+
+::: {.feature}
+[{{< fa users >}}]{.accent-orange}
+**Mitarbeitende**
+
+Teilen freiwillig Inhalte in ihren eigenen Netzwerken.
+:::
+
+::::
+
+::: {.notes}
+Nicht jede Wirkung auf LinkedIn kostet Werbebudget. Wer eine Anzeige sieht, schaut oft zuerst auf die Unternehmensseite; sie sollte im ersten Satz sagen, was der Betrieb für wen anbietet. Für eigene Beiträge eignen sich Dokument-Beiträge für Anleitungen, Umfragen für schnelle Meinungen und Newsletter für regelmäßige Fachbeiträge. Mitarbeitende erreichen Netzwerke, die die Unternehmensseite nicht erreicht; das nennt man Employee Advocacy und es funktioniert nur freiwillig. Beispiel Rösterei: ein Dokument-Beitrag „Kaffee im Büro: fünf Fragen vor dem ersten Abo“, geteilt von der Röstmeisterin.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
 LinkedIn erreicht Menschen im beruflichen Kontext, und genau das macht es im B2B stark. Wirkung entsteht aus Glaubwürdigkeit, aus dem Gleichgewicht von Markenaufbau und Aktivierung und aus dauerhafter Präsenz.

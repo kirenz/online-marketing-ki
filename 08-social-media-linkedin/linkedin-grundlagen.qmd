@@ -26,6 +26,18 @@ Binet und Field diskutieren für B2B eine ungefähr hälftige Verteilung auf Mar
 Viele Kampagnen messen nur kurzfristige Abschlüsse und kürzen deshalb zuerst das Budget für den Markenaufbau. Das wirkt kurzfristig effizient, schwächt aber mittelfristig die gesamte Nachfrage. Wir prüfen deshalb bei jeder Kampagne, ob sie auf Markenaufbau oder auf Aktivierung einzahlt, und halten beide Aufgaben im Gleichgewicht.
 :::
 
+## Ohne Werbebudget: Unternehmensseite und eigene Beiträge
+
+Nicht jede Wirkung auf LinkedIn kostet Werbebudget. Grundlage ist eine gepflegte Unternehmensseite, denn wer eine Anzeige sieht, schaut oft zuerst dort nach. Wir achten auf ein Titelbild, eine Beschreibung, die in den ersten Sätzen sagt, was der Betrieb für wen anbietet, einen Link zur Website und einen Button wie „Website besuchen“ oder „Kontakt“.
+
+Für eigene Beiträge bietet LinkedIn mehrere Formate. Ein Dokument-Beitrag ist ein PDF, das sich im Feed durchblättern lässt; er eignet sich für Anleitungen und Checklisten. Eine Umfrage holt schnell eine Meinung ein. Ein Newsletter bündelt regelmäßige Fachbeiträge, und wer ihn abonniert, wird bei jeder Ausgabe benachrichtigt. Live-Übertragungen passen zu Veranstaltungen.
+
+Mitarbeitende haben eigene Netzwerke, die eine Unternehmensseite nicht erreicht. Teilen und kommentieren sie Inhalte des Unternehmens, spricht man von Employee Advocacy. Das funktioniert nur freiwillig und mit Inhalten, hinter denen die Mitarbeitenden selbst stehen.
+
+::: {.callout-note title="Beispiel: die Rösterei ohne Werbebudget"}
+Die Rösterei Morgenrot veröffentlicht auf ihrer Unternehmensseite einen Dokument-Beitrag „Kaffee im Büro: fünf Fragen vor dem ersten Abo“. Die Röstmeisterin teilt ihn mit einem eigenen Satz aus ihrem Arbeitsalltag. Die Beschreibung der Seite nennt im ersten Satz, was die Rösterei anbietet: Kaffee-Abos für Büros und Privatkundschaft.
+:::
+
 ## Share of Voice als Wachstumshebel
 
 Mit der Frage nach Markeninvestitionen verbunden ist der Anteil der eigenen Werbestimme am Markt, der sogenannte Share of Voice. Damit ist gemeint, wie groß der eigene Werbeanteil im Verhältnis zu allen Wettbewerbern eines Marktes ist. Tendenziell wächst ein Unternehmen, wenn sein Share of Voice größer ist als sein aktueller Marktanteil, weil es sich überdurchschnittlich Aufmerksamkeit sichert.

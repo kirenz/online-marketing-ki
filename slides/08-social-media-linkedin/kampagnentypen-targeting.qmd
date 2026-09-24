@@ -61,7 +61,7 @@ Beitrag im Feed, für breite Sichtbarkeit und Traffic.
 [{{< fa comments >}}]{.accent-green}
 **Message- und Conversation Ads**
 
-Direktnachricht im Postfach, für persönliche Ansprache.
+Direktnachricht im Postfach, für persönliche Ansprache. In EWR und Schweiz nur bei Zustimmung.
 :::
 
 ::: {.feature}
@@ -74,7 +74,7 @@ Vorausgefülltes Formular, für Leads direkt auf LinkedIn.
 ::::
 
 ::: {.notes}
-Sponsored Content erscheint im Feed und sorgt für breite Aufmerksamkeit. Message- und Conversation Ads landen im Postfach und ermöglichen ein dialogartiges Gespräch mit wählbaren Antwortpfaden. Lead Gen Forms sind kein eigenes Format, sondern eine Funktion: Sie füllen das Formular mit Profildaten vor, sodass eine Anfrage in wenigen Klicks abgeschickt ist.
+Sponsored Content erscheint im Feed und sorgt für breite Aufmerksamkeit. Message- und Conversation Ads landen im Postfach und ermöglichen ein dialogartiges Gespräch mit wählbaren Antwortpfaden. Im EWR und in der Schweiz erreichen sie laut LinkedIn nur Mitglieder, die dem Empfang zugestimmt haben. Lead Gen Forms sind kein eigenes Format, sondern eine Funktion: Sie füllen das Formular mit Profildaten vor, sodass eine Anfrage in wenigen Klicks abgeschickt ist.
 :::
 
 ## Werkzeug zur Aufgabe wählen {.stage background-color="#0a0a0f"}
