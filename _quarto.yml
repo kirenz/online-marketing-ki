@@ -1,6 +1,9 @@
 project:
   type: book
   output-dir: _book
+  # Szenenbilder der Lernplattform (nicht im Buch referenziert, trotzdem veröffentlichen)
+  resources:
+    - "images/szenen/**"
   # Mono-Repo: Slides liegen unter slides/ als eigenständige Reveal.js-Decks
   # und werden NICHT vom Buch-Build erfasst.
   render:
