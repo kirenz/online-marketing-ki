@@ -1,0 +1,273 @@
+---
+title: "Datengetriebenes Marketing"
+subtitle: "Modul 4: Marketingziele und Strategie · das Netflix-Beispiel"
+author: Jan Kirenz
+---
+
+# Meinung gegen Meinung {.stage background-color="#0a0a0f"}
+
+::: {.notes}
+Im Marketing gibt es zu fast jeder Gestaltungsfrage mehrere Meinungen. Diese Lesson zeigt am Beispiel von Netflix, wie aus einer Meinung eine prüfbare Annahme wird, wie ein A/B-Test sie prüft und wie das Ergebnis mit einer einfachen Tabelle ausgewertet wird.
+:::
+
+## Netflix hat seine Startseite in zehn Jahren grundlegend umgebaut
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**2010**
+
+Ein starres Raster aus kleinen Titelbildern. Alle Mitglieder sehen dieselbe Seite.
+:::
+
+::: {.column width="50%"}
+**Heute**
+
+Große Bilder, Vorschauvideos und Titelbilder, die je nach Person wechseln.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @tingley2021decision
+:::
+
+::: {.notes}
+Die Startseite von Netflix sah 2010 statisch aus: ein Raster kleiner Titelbilder, für alle gleich. Heute ist sie bewegt, mit großen Bildern, Vorschauvideos und Titelbildern, die je nach Person wechseln. Hinter jedem dieser Schritte stand eine Entscheidung, und jede dieser Entscheidungen wurde mit Daten geprüft.
+:::
+
+## Jede Änderung beginnt mit einer Frage und mehreren Meinungen
+
+**Frage:** Wie sollen Titelbilder gestaltet sein, damit Mitglieder häufiger einen Titel anklicken?
+
+**Eine Meinung im Team:** Ein Titelbild, das auf dem Kopf steht, fällt mehr auf und wird öfter angeklickt.
+
+::: {.notes}
+Die Frage ist klar: Welche Gestaltung der Titelbilder führt zu mehr Klicks? Dazu gibt es im Team viele Ideen. Eine davon ist bewusst ungewöhnlich: das Titelbild auf den Kopf zu stellen, weil es dann mehr auffällt. Ob das stimmt, lässt sich durch Diskussion nicht klären.
+:::
+
+## Die Leitfrage {.stage background-color="#0a0a0f"}
+
+::: {.quote-box}
+Wie lässt sich entscheiden, wer recht hat, ohne dass die lauteste Stimme oder die ranghöchste Person gewinnt?
+:::
+
+::: {.notes}
+In vielen Organisationen entscheidet am Ende, wer am überzeugendsten auftritt oder die meiste Verantwortung trägt. Datengetriebenes Marketing setzt dagegen: Eine Entscheidung fällt erst, wenn Daten die Annahme dahinter gestützt oder verworfen haben.
+:::
+
+## Aus der Meinung wird eine prüfbare Hypothese
+
+::: {.formula .editorial}
+Das Titelbild auf dem Kopf (Version B) wird häufiger angeklickt als das normale Titelbild (Version A).
+:::
+
+Eine [Hypothese]{.highlight-blue} ist eine Aussage, die sich als falsch herausstellen kann.
+
+::: {.sources}
+Quelle: @tingley2021decision
+:::
+
+::: {.notes}
+Der erste Schritt macht aus der Meinung eine Hypothese. Sie ist so formuliert, dass Daten sie widerlegen können. Damit wird aus einer Geschmacksfrage eine Frage, die sich beantworten lässt.
+:::
+
+## Die Messgröße steht fest, bevor Daten gesammelt werden
+
+::: {.formula}
+Klickrate (CTR) = Klicks ÷ Impressionen
+:::
+
+- **Impression:** Ein Titelbild wird einem Mitglied angezeigt.
+- **Klick:** Das Mitglied klickt das Titelbild an.
+
+::: {.notes}
+Als Nächstes wird festgelegt, woran „häufiger angeklickt“ gemessen wird. Jede Einblendung eines Titelbilds zählt als Impression, jeder Klick darauf als Klick. Die Klickrate teilt Klicks durch Impressionen. Wichtig ist die Reihenfolge: Hypothese und Messgröße stehen fest, bevor Daten fließen. Wer die Messgröße erst nach dem Ergebnis wählt, findet fast immer eine Zahl, die die eigene Meinung stützt.
+:::
+
+## Im A/B-Test entscheidet der Zufall, wer welche Version sieht
+
+:::: {.comparison}
+
+::: {.comparison-side}
+**Kontrollgruppe (A)**
+
+- normales Titelbild
+- Impressionen und Klicks zählen
+- CTR A = Klicks A ÷ Impressionen A
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side .highlighted}
+**Testgruppe (B)**
+
+- Titelbild auf dem Kopf
+- Impressionen und Klicks zählen
+- CTR B = Klicks B ÷ Impressionen B
+:::
+
+::::
+
+::: {.sources}
+Quelle: @tingley2021abtest
+:::
+
+::: {.notes}
+Beide Versionen laufen gleichzeitig, aber bei verschiedenen Mitgliedern. Wer welche Version sieht, entscheidet der Zufall. Sonst ist für beide Gruppen alles gleich: Zeitraum, Startseite, Angebot. Weil der Zufall aufteilt, unterscheiden sich die Gruppen im Mittel nur in der Version. Ein Unterschied in der Klickrate geht dann auf die Version zurück oder auf Zufall, nicht auf Wochentag, Gerät oder Vorlieben.
+:::
+
+## Übung: die Klickraten in Google Sheets oder Excel
+
+Jede Zeile ist eine Impression: Gruppe (A oder B) und Ergebnis (Klick oder kein Klick).
+
+::: {.formula}
+| Impressionen A: =ZÄHLENWENN(A:A;\"A\")
+| Klicks A: =ZÄHLENWENNS(A:A;\"A\";B:B;\"Engagement\")
+:::
+
+Danach: Klicks ÷ Impressionen je Gruppe. Alternativ eine Pivot-Tabelle als Kreuztabelle.
+
+::: {.notes}
+Die Übungsdaten enthalten 2.000 Zeilen, erfundene Werte im Stil des Netflix-Beispiels. Spalte A zeigt die Gruppe, Spalte B, ob auf die Impression ein Klick folgte: „Engagement“ steht für Klick. ZÄHLENWENN zählt die Impressionen einer Gruppe, ZÄHLENWENNS die Klicks dieser Gruppe. Aus beiden Zahlen entsteht die Klickrate. Ohne Formeln geht es mit einer Pivot-Tabelle: Gruppe in die Zeilen, Ergebnis in die Spalten, Anzahl als Wert. In englischsprachigen Tabellen heißen die Funktionen COUNTIF und COUNTIFS, mit Komma statt Semikolon.
+:::
+
+## Die normale Version wird deutlich häufiger angeklickt
+
+:::: {.metrics-grid}
+
+::: {.metric}
+[64,5 %]{.number}
+[CTR A: 645 Klicks bei 1.000 Impressionen]{.label}
+:::
+
+::: {.metric}
+[43,6 %]{.number}
+[CTR B: 436 Klicks bei 1.000 Impressionen]{.label}
+:::
+
+::::
+
+::: {.notes}
+Die Auswertung ergibt für Gruppe A 645 Klicks bei 1.000 Impressionen, also 64,5 Prozent. Gruppe B kommt auf 436 Klicks bei 1.000 Impressionen, also 43,6 Prozent. Der Abstand beträgt 20,9 Prozentpunkte. Die Hypothese, dass das Titelbild auf dem Kopf häufiger angeklickt wird, wird von diesen Daten nicht gestützt. Das Gegenteil ist der Fall.
+:::
+
+## Das Ergebnis {.stage background-color="#0a0a0f"}
+
+:::: {.big-stat}
+[20,9]{.stat-number}
+[Prozentpunkte, nicht Prozent]{.stat-label}
+[Bezogen auf A liegt B rund 32 Prozent darunter]{.stat-context}
+::::
+
+::: {.notes}
+Beim Berichten zählt die Einheit. Der Abstand der beiden Klickraten beträgt 20,9 Prozentpunkte. Bezogen auf die Klickrate von A sind das 20,9 geteilt durch 64,5, also rund 32 Prozent weniger. Beide Angaben stimmen, sagen aber Verschiedenes. Deshalb gehört in jeden Bericht, ob Prozentpunkte oder Prozent gemeint sind.
+:::
+
+## Die getesteten Mitglieder sind nur eine Stichprobe
+
+- Eine zweite [Stichprobe]{.highlight-blue} ergäbe etwas andere Klickraten.
+- Der Schluss von der Stichprobe auf alle Mitglieder heißt **Inferenz**.
+- Die Prüffrage: Ist der Abstand größer, als der Zufall allein erklärt?
+
+::: {.notes}
+Entschieden werden soll für alle Mitglieder, getestet wurde aber nur ein Ausschnitt. Eine zweite Stichprobe ergäbe etwas andere Klickraten, auch ohne jede Änderung an den Bildern. Der Schluss von der Stichprobe auf alle heißt Inferenz. Ein statistischer Test beantwortet genau, ob ein Abstand größer ist, als der Zufall allein erklären würde.
+:::
+
+## Große Abstände bei großen Gruppen sind kaum Zufall
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Je 1.000 Impressionen**
+
+Eine Klickrate schwankt zufällig um etwa ±3 Prozentpunkte. 21 Punkte Abstand sind ein [starker Hinweis]{.highlight-green}.
+:::
+
+::: {.column width="50%"}
+**Je 20 Impressionen**
+
+Derselbe Abstand kann Zufall sein. Kleine Tests mit großen Unterschieden sind mit Vorsicht zu lesen.
+:::
+
+::::
+
+::: {.notes}
+Als Faustregel hilft die Größe der Gruppen. Bei rund 1.000 Impressionen je Gruppe schwankt eine Klickrate zufällig um etwa drei Prozentpunkte nach oben oder unten. Ein Abstand von 21 Prozentpunkten ist damit ein starker Hinweis, dass A wirklich besser ankommt. Einen statistischen Test ersetzt das nicht. Bei 20 Impressionen je Gruppe könnte derselbe Abstand dagegen Zufall sein. Im Planspiel kommt diese Frage beim A/B-Test in Runde 5 wieder.
+:::
+
+## Die Entscheidungskette führt von der Frage zur Bewertung
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[01]{.timeline-number}
+[Frage und Meinung]{.timeline-title}
+[Erfahrung und Recherche]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[02]{.timeline-number}
+[Plan]{.timeline-title}
+[Messgröße und Testaufbau]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[03]{.timeline-number}
+[Daten und Analyse]{.timeline-title}
+[erfassen, aufbereiten, auswerten]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[04]{.timeline-number}
+[Bericht und Handlung]{.timeline-title}
+[Schluss ziehen, umsetzen]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[05]{.timeline-number}
+[Bewertung]{.timeline-title}
+[Wirkung weiter beobachten]{.timeline-detail}
+:::
+
+::::
+
+::: {.sources}
+Quelle: @google2011valuechain
+:::
+
+::: {.notes}
+Das Vorgehen lässt sich auf jede Marketingentscheidung übertragen. Google beschreibt es als Kette von sieben Schritten: Frage und Meinung, Plan, Daten, Analyse, Bericht, Handlung und Bewertung. Auf der Folie sind jeweils zwei benachbarte Schritte zusammengefasst. Wert entsteht erst am Ende der Kette, wenn aus der Analyse eine Handlung folgt und deren Wirkung geprüft wird.
+:::
+
+## Bei Netflix endet die Kette mit dem Verzicht auf Version B
+
+| Schritt | Am Netflix-Beispiel |
+|---|---|
+| Plan | Klickrate, A/B-Test über 30 Tage |
+| Analyse | Kreuztabelle mit den Klickraten beider Gruppen |
+| Bericht | A liegt deutlich vorn, statistischer Test steht aus |
+| **Handlung** | **Das normale Titelbild bleibt** |
+| Bewertung | Klickrate wird weiter beobachtet |
+
+::: {.notes}
+Am Beispiel durchlaufen: Der Plan legt die Klickrate als Messgröße und einen A/B-Test über 30 Tage fest. Die Analyse vergleicht die Klickraten in einer Kreuztabelle. Der Bericht hält fest, dass A deutlich vorn liegt, ohne dass ein statistischer Test gerechnet wurde. Die Handlung: Version B wird nicht eingeführt. Die Bewertung beobachtet die Klickrate weiter, damit spätere Veränderungen auffallen.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Vor dem Test stehen Hypothese, Messgröße und Entscheidungsregel fest. Der Zufall teilt die Gruppen, die Tabelle vergleicht die Raten, und erst dann folgt die Entscheidung. Nächster Schritt: eine Annahme aus dem eigenen Fall als A/B-Test planen.
+
+::: {.notes}
+Als Kern bleibt: Datengetriebenes Marketing ersetzt die Diskussion über Meinungen durch einen fairen Vergleich. Hypothese, Messgröße und Entscheidungsregel werden festgelegt, bevor Daten fließen. Der Zufall sorgt dafür, dass sich die Gruppen nur in der Version unterscheiden. Die Übung in der Lektion überträgt das auf eine Annahme aus dem eigenen Fall.
+:::
+
+## Literatur
+
+::: {#refs}
+:::
+
+::: {.notes}
+Das Literaturverzeichnis baut sich automatisch aus den im Deck zitierten Quellen auf.
+:::
