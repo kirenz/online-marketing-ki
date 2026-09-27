@@ -353,9 +353,147 @@ A dark, atmospheric composition suggesting multiple paths converging: several fa
           display:block!important;
       }</style></aside>
 </section>
+<section id="inkrementalität-messen-drei-verfahren" class="slide level2">
+<h2>Inkrementalität messen: drei Verfahren</h2>
+<div class="features">
+<div class="feature fragment fade-up">
+<p><span class="feature-number">01</span> <strong>Holdout-Test</strong></p>
+<p>Zufällige Teilung der Zielgruppe: eine Gruppe sieht die Anzeigen, eine Kontrollgruppe nicht.</p>
+</div>
+<div class="feature fragment fade-up">
+<p><span class="feature-number">02</span> <strong>Geo-Test</strong></p>
+<p>Regionen statt Personen: Kampagne in einigen Gebieten, vergleichbare Gebiete ohne.</p>
+</div>
+<div class="feature fragment fade-up">
+<p><span class="feature-number">03</span> <strong>Marketing-Mix-Modelling</strong></p>
+<p>Statistische Schätzung aus Zeitreihen von Umsatz, Ausgaben je Kanal, Preisen und Saison.</p>
+</div>
+</div>
+<aside class="notes">
+<p>Für die Frage nach der zusätzlichen Wirkung, der Inkrementalität, haben sich drei Verfahren etabliert. [KLICK] Ein Holdout-Test teilt die erreichbare Zielgruppe zufällig. Eine Gruppe sieht die Anzeigen, eine Kontrollgruppe sieht sie nicht oder sieht eine neutrale Anzeige. Der Unterschied in der Kaufrate ist die zusätzliche Wirkung. Große Plattformen bieten das als Conversion-Lift an. [KLICK] Ein Geo-Test vergleicht Regionen statt Personen. Er braucht keine Nutzerkennungen und funktioniert auch für Außenwerbung oder Radio, setzt aber genügend vergleichbare Regionen und mehrere Wochen Laufzeit voraus. [KLICK] Marketing-Mix-Modelling schätzt aus langen Zeitreihen, welcher Kanal wie viel beiträgt. Es kommt ohne personenbezogene Daten aus, reagiert aber langsam und liefert breite Unsicherheitsbereiche. Für ein kleines Unternehmen wie die Rösterei ist es selten sinnvoll.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="beobachtung-überschätzt-das-experiment-korrigiert" class="slide level2">
+<h2>Beobachtung überschätzt, das Experiment korrigiert</h2>
+<p>In 15 Kampagnen bei Facebook wurden Beobachtungsverfahren, darunter Attributionsmodelle, mit einem <strong>randomisierten Experiment</strong> verglichen.</p>
+<div class="formula editorial">
+<p>Die Beobachtungsverfahren überschätzten die Wirkung häufig stark, in einzelnen Fällen um ein Vielfaches.</p>
+</div>
+<div class="sources">
+<p>Quelle: <span class="citation" data-cites="gordon2019">Gordon et al. (<a href="#/literatur" role="doc-biblioref" onclick="">2019</a>)</span></p>
+</div>
+<aside class="notes">
+<p>Wie groß der Unterschied zwischen Zurechnung und Wirkung werden kann, zeigt eine Untersuchung von fünfzehn Kampagnen bei Facebook. Für dieselben Kampagnen lagen sowohl experimentelle Ergebnisse aus zufälliger Zuteilung als auch Schätzungen gängiger Beobachtungsverfahren vor. Die Beobachtungsverfahren, darunter Attributionsmodelle, überschätzten die Wirkung häufig stark und wichen in einzelnen Fällen um ein Vielfaches vom Experiment ab.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="jedes-verfahren-beantwortet-eine-andere-frage" class="slide level2">
+<h2>Jedes Verfahren beantwortet eine andere Frage</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Verfahren</th>
+<th>Beantwortet</th>
+<th>Voraussetzung</th>
+<th>Grenze</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Attribution</td>
+<td>Verteilung erfasster Conversions auf Kontaktpunkte</td>
+<td>Tracking der Kontaktpunkte</td>
+<td>keine Aussage über Ursache</td>
+</tr>
+<tr class="even">
+<td>Holdout-Test</td>
+<td>Zusätzliche Käufe durch die Kampagne</td>
+<td>zufällige Zuteilung, genug Fälle</td>
+<td>nur getestete Kampagne und Zeit</td>
+</tr>
+<tr class="odd">
+<td>Geo-Test</td>
+<td>Stärkere Wirkung in Regionen mit Werbung</td>
+<td>vergleichbare Regionen, mehrere Wochen</td>
+<td>regionale Störeinflüsse</td>
+</tr>
+<tr class="even">
+<td>Marketing-Mix-Modelling</td>
+<td>Beitrag der Kanäle zum Umsatz über Monate</td>
+<td>lange Zeitreihen je Kanal</td>
+<td>breite Unsicherheit, träge</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>Die Tabelle ordnet die vier Verfahren nebeneinander. Attribution verteilt erfasste Conversions, sagt aber nichts über die Ursache. Der Holdout-Test misst zusätzliche Käufe, gilt aber nur für die getestete Kampagne im getesteten Zeitraum. Der Geo-Test braucht vergleichbare Regionen und ist anfällig für regionale Störeinflüsse. Marketing-Mix-Modelling erfasst auch Kanäle ohne Tracking, bleibt aber träge und unsicher.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="eine-einfache-rangfolge-für-die-praxis" class="slide level2">
+<h2>Eine einfache Rangfolge für die Praxis</h2>
+<div class="timeline">
+<div class="timeline-item fragment">
+<p><span class="timeline-number">1</span> <span class="timeline-title">Attribution</span> <span class="timeline-detail">für die laufende Steuerung</span></p>
+</div>
+<div class="timeline-item fragment">
+<p><span class="timeline-number">2</span> <span class="timeline-title">Holdout- oder Geo-Test</span> <span class="timeline-detail">vor jeder großen Budgetverschiebung</span></p>
+</div>
+<div class="timeline-item fragment">
+<p><span class="timeline-number">3</span> <span class="timeline-title">Marketing-Mix-Modelling</span> <span class="timeline-detail">für die jährliche Verteilung über Kanäle, sofern die Daten reichen</span></p>
+</div>
+</div>
+<aside class="notes">
+<p>Für die Praxis ergibt sich eine einfache Rangfolge. [KLICK] Attribution dient der laufenden Steuerung. Vor jeder großen Budgetverschiebung steht ein Holdout- oder Geo-Test, der die zusätzliche Wirkung prüft. Marketing-Mix-Modelling ergänzt das für die jährliche Verteilung über Kanäle, wenn mehrere Kanäle und Jahre an Daten vorliegen.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="was-bleibt" class="slide level2 stage closing" data-background-color="#0a0a0f">
 <h2>Was bleibt</h2>
-<p>Attribution ordnet Erfolge zu. Zusätzliche Wirkung braucht einen geeigneten Vergleich. Ein Dashboard zeigt neben Kennzahlen auch Quellen, Auswertungsfenster und Datenlücken.</p>
+<p>Attribution ordnet Erfolge zu. Zusätzliche Wirkung braucht einen geeigneten Vergleich, etwa einen Holdout- oder Geo-Test. Ein Dashboard zeigt neben Kennzahlen auch Quellen, Auswertungsfenster und Datenlücken.</p>
 <aside class="notes">
 <p>Als Kernbotschaft bleibt: Attribution und Visualisierung gehören zusammen. Zurechnung, Unsicherheit und mögliche zusätzliche Wirkung bleiben unterscheidbar. Das Dashboard macht diese Grenzen sichtbar.</p>
 <style type="text/css">
@@ -381,6 +519,9 @@ Berman, R. (2018). Beyond the Last Touch: Attribution in Online Advertising. <em
 </div>
 <div id="ref-googleGa4Attribution2026" class="csl-entry" role="listitem">
 Google. (nd, nd). <em>Select attribution settings - Analytics Help</em>. <a href="https://support.google.com/analytics/answer/10597962">https://support.google.com/analytics/answer/10597962</a>
+</div>
+<div id="ref-gordon2019" class="csl-entry" role="listitem">
+Gordon, B. R., Zettelmeyer, F., Bhargava, N., &amp; Chapsky, D. (2019). A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook. <em>Marketing Science</em>, <em>38</em>(2), 193–225. <a href="https://doi.org/10.1287/mksc.2018.1135">https://doi.org/10.1287/mksc.2018.1135</a>
 </div>
 <div id="ref-li2014" class="csl-entry" role="listitem">
 Li, H. (Alice)., &amp; Kannan, P. K. (2014). Attributing Conversions in a Multichannel Online Marketing Environment: An Empirical Model and a Field Experiment. <em>Journal of Marketing Research</em>. <a href="https://doi.org/10.1509/jmr.13.0050">https://doi.org/10.1509/jmr.13.0050</a>

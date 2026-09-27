@@ -519,6 +519,7 @@ div.csl-indent {
   <li><a href="#jede-suchanfrage-startet-eine-auktion" id="toc-jede-suchanfrage-startet-eine-auktion" class="nav-link active" data-scroll-target="#jede-suchanfrage-startet-eine-auktion"><span class="header-section-number">23.1</span> Jede Suchanfrage startet eine Auktion</a></li>
   <li><a href="#der-anzeigenrang-entscheidet-über-die-position" id="toc-der-anzeigenrang-entscheidet-über-die-position" class="nav-link" data-scroll-target="#der-anzeigenrang-entscheidet-über-die-position"><span class="header-section-number">23.2</span> Der Anzeigenrang entscheidet über die Position</a></li>
   <li><a href="#wir-zahlen-meist-weniger-als-unser-gebot" id="toc-wir-zahlen-meist-weniger-als-unser-gebot" class="nav-link" data-scroll-target="#wir-zahlen-meist-weniger-als-unser-gebot"><span class="header-section-number">23.3</span> Wir zahlen meist weniger als unser Gebot</a></li>
+  <li><a href="#gebot-und-budget-als-entscheidung" id="toc-gebot-und-budget-als-entscheidung" class="nav-link" data-scroll-target="#gebot-und-budget-als-entscheidung"><span class="header-section-number">23.4</span> Gebot und Budget als Entscheidung</a></li>
   </ul>
 </nav>
     </div>
@@ -544,7 +545,7 @@ div.csl-indent {
 </header>
 
 
-<p>Wir öffnen dieses Modul mit der Frage, die hinter jeder bezahlten Suchanzeige steht: Warum erscheint genau diese Anzeige auf genau dieser Position, und was kostet das? In dieser Lesson sehen wir, wie eine automatisierte Auktion bei jeder Suchanfrage Platzierung und Preis bestimmt.</p>
+<p>Wir öffnen dieses Modul mit der Frage, die hinter jeder bezahlten Suchanzeige steht: Warum erscheint genau diese Anzeige auf genau dieser Position, und was kostet das? Die Antwort liegt in einer automatisierten Auktion, die bei jeder Suchanfrage Platzierung und Preis bestimmt.</p>
 <section id="jede-suchanfrage-startet-eine-auktion" class="level2" data-number="23.1">
 <h2 data-number="23.1" class="anchored" data-anchor-id="jede-suchanfrage-startet-eine-auktion"><span class="header-section-number">23.1</span> Jede Suchanfrage startet eine Auktion</h2>
 <p>Sobald jemand einen Suchbegriff eingibt, prüft Google in Sekundenbruchteilen, welche Werbetreibenden auf passende Keywords bieten, und startet eine eigene Auktion für genau diese Anfrage. Es gibt also keine festen Plätze, die sich kaufen lassen, sondern für jede einzelne Suche wird neu entschieden, welche Anzeigen erscheinen und in welcher Reihenfolge.</p>
@@ -594,9 +595,76 @@ Abbildung&nbsp;23.1: Vereinfachtes Rechenbeispiel mit fiktiven Zahlen: Das höch
 <p>Wir verwechseln das maximale Gebot nicht mit den realen Kosten. Das Gebot legt fest, wie viel wir höchstens zu zahlen bereit sind. Der abgerechnete Klickpreis liegt meist darunter und hängt vom Wettbewerb und von der Qualität unserer Anzeige ab.</p>
 </div>
 </div>
+</section>
+<section id="gebot-und-budget-als-entscheidung" class="level2" data-number="23.4">
+<h2 data-number="23.4" class="anchored" data-anchor-id="gebot-und-budget-als-entscheidung"><span class="header-section-number">23.4</span> Gebot und Budget als Entscheidung</h2>
+<p>Wie viel ein Klick wert ist, folgt aus dem Geschäft, nicht aus der Auktion. Für die Rösterei Morgenrot bleiben nach Wareneinsatz und Versand rund 10 Euro Deckungsbeitrag je Erstbestellung. Führt jeder zwanzigste Klick zu einer Bestellung, darf ein Klick höchstens 50 Cent kosten, wenn die Erstbestellung sich allein tragen soll. Rechnen wir Wiederkäufe und Abos ein, also den Kundenwert aus dem Kapitel zu den Kennzahlensystemen, steigt die Grenze. Diese Rechnung legt den Ziel-CPA fest, also die Kosten, die eine Bestellung höchstens verursachen darf.</p>
+<p>Google Ads bietet für die Umsetzung zwei Wege. Bei manuellen Geboten legen wir je Keyword ein Höchstgebot fest. Bei automatisierten Strategien (Smart Bidding) geben wir ein Ziel vor, etwa einen Ziel-CPA oder einen Ziel-ROAS, und das System setzt je Auktion ein Gebot aus Signalen wie Gerät, Standort, Tageszeit und bisherigem Verhalten <span class="citation" data-cites="googleSmartBidding2026">(<a href="#ref-googleSmartBidding2026" role="doc-biblioref">Google, o.&nbsp;J.</a>)</span>. Die Automatik braucht dafür Conversion-Daten in ausreichender Zahl; bei wenigen Bestellungen pro Monat lernt sie langsam und schwankt stark. Sie optimiert außerdem nur das Ziel, das wir ihr geben: Ein Ziel-CPA für „Bestellung“ behandelt eine Probierpackung für 6 Euro und ein Jahresabo gleich, sofern wir keine Conversion-Werte übergeben.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Strategie</th>
+<th>Was wir vorgeben</th>
+<th>Wann sie passt</th>
+<th>Risiko</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Manueller CPC</td>
+<td>Höchstgebot je Keyword</td>
+<td>wenige Conversions, enge Kontrolle, Lernphase</td>
+<td>Zeitaufwand, keine Signale je Auktion</td>
+</tr>
+<tr class="even">
+<td>Ziel-CPA</td>
+<td>Kosten je Conversion</td>
+<td>stabile Conversion-Zahl, ein Zieltyp</td>
+<td>lernt langsam bei kleinen Zahlen</td>
+</tr>
+<tr class="odd">
+<td>Ziel-ROAS</td>
+<td>Umsatz je Werbe-Euro</td>
+<td>Conversion-Werte liegen vor, unterschiedliche Warenkörbe</td>
+<td>ROAS ist kein Gewinn</td>
+</tr>
+<tr class="even">
+<td>Conversions maximieren</td>
+<td>nur das Budget</td>
+<td>Budget soll vollständig ausgegeben werden</td>
+<td>Kosten je Conversion können steigen</td>
+</tr>
+</tbody>
+</table>
+<p>Das Budget entscheidet über die zweite Frage: wie viel insgesamt. Mit steigendem Budget kaufen wir zunehmend Auktionen, in denen wir schlechter platziert sind oder die weniger kaufbereite Menschen erreichen. Die Kosten je zusätzlicher Bestellung steigen deshalb, während der Durchschnitt noch gut aussieht. Für die Budgetentscheidung zählt der Grenzbeitrag: Bringt der nächste Hundert-Euro-Schritt noch Bestellungen, deren Deckungsbeitrag über den zusätzlichen Kosten liegt? Diese Frage beantwortet kein Bericht aus dem Werbekonto von selbst. Wir lesen sie aus dem Vergleich von Wochen mit unterschiedlichem Budget oder aus einem geplanten Test ab.</p>
+<div class="callout callout-style-simple callout-important callout-titled" title="Zugeordnete Conversions sind keine zusätzlichen Käufe">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Wichtig</span>Zugeordnete Conversions sind keine zusätzlichen Käufe
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Suchanzeigen auf den eigenen Markennamen erreichen oft Menschen, die ohnehin gekauft hätten. Ein Feldexperiment bei eBay zeigte, dass der Großteil der über Markensuchanzeigen zugeordneten Käufe auch ohne die Anzeigen zustande kam <span class="citation" data-cites="blake2015">(<a href="#ref-blake2015" role="doc-biblioref">Blake et al., 2015</a>)</span>. Vor einer Budgeterhöhung fragen wir deshalb, welche Bestellungen die Anzeige tatsächlich zusätzlich auslöst. Das Kapitel zur Attribution zeigt, wie sich das messen lässt.</p>
+</div>
+</div>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-blake2015" class="csl-entry" role="listitem">
+Blake, T., Nosko, C., &amp; Tadelis, S. (2015). Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment. <em>Econometrica</em>, <em>83</em>(1), 155–174. <a href="https://doi.org/10.3982/ECTA12423">https://doi.org/10.3982/ECTA12423</a>
+</div>
+<div id="ref-googleSmartBidding2026" class="csl-entry" role="listitem">
+Google. (o.&nbsp;J.). <em>About Smart Bidding - Google Ads Help</em>. Abgerufen 27. September 2026, von <a href="https://support.google.com/google-ads/answer/7065882">https://support.google.com/google-ads/answer/7065882</a>
+</div>
 <div id="ref-ostrovsky2023" class="csl-entry" role="listitem">
 Ostrovsky, M., &amp; Schwarz, M. (2023). Reserve Prices in Internet Advertising Auctions: A Field Experiment. <em>Journal of Political Economy</em>. <a href="https://doi.org/10.1086/725702">https://doi.org/10.1086/725702</a>
 </div>
