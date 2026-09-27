@@ -104,7 +104,7 @@ Auf der untersten Ebene stehen die Anzeigentexte, heute meist als Responsive Suc
 Drei Ebenen geben dem Konto Ordnung, enge Anzeigengruppen erhöhen die Relevanz, und Keyword-Optionen steuern, wie breit eine Anzeige ausgespielt wird. Wenn Keyword, Anzeige und Zielseite zusammenpassen, entsteht die Konsistenz, die später den Quality Score trägt.
 
 ::: {.notes}
-Als Kernbotschaft bleibt: Eine klare Struktur aus Kampagne, Anzeigengruppe und Keywords ist die Grundlage relevanter Werbung. Keyword-Optionen und ausschließende Keywords steuern Reichweite und Budget, und die Konsistenz bis zur Zielseite bereitet direkt die nächste Lesson zum Quality Score vor.
+Als Kernbotschaft bleibt: Eine klare Struktur aus Kampagne, Anzeigengruppe und Keywords ist die Grundlage relevanter Werbung. Keyword-Optionen und ausschließende Keywords steuern Reichweite und Budget, und die Konsistenz bis zur Zielseite bereitet direkt das nächste Kapitel zum Quality Score vor.
 :::
 
 ## Literatur

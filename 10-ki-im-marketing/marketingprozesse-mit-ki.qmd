@@ -1,6 +1,6 @@
 # Marketingprozesse mit KI gestalten
 
-Wir lernen in dieser Lesson, wie wir einen wiederkehrenden Marketingablauf Schritt für Schritt automatisieren und an einer bewusst gewählten Stelle einen KI-Schritt einbauen. Dabei klären wir, welche Arbeit eine feste Regel übernimmt, welche ein Sprachmodell und welche Entscheidung bei einer Person bleibt.
+Wir automatisieren einen wiederkehrenden Marketingablauf Schritt für Schritt und bauen an einer bewusst gewählten Stelle einen KI-Schritt ein. Dabei klären wir, welche Arbeit eine feste Regel übernimmt, welche ein Sprachmodell und welche Entscheidung bei einer Person bleibt.
 
 ## Der Fall: Anfragen nach dem Kauf
 
@@ -80,5 +80,5 @@ Eine dritte Grenze betrifft die Daten. Der KI-Schritt überträgt den Text des A
 Wer einen solchen Ablauf einführen möchte, startet deshalb mit einem begrenzten Pilot: eine verantwortliche Rolle, vorhandene Systeme als Grundlage, ein festes Abnahmekriterium und Kennzahlen wie Bearbeitungszeit, Korrekturquote und Anteil zurückgestellter Entwürfe.
 
 ::: {.callout-note title="Einordnung im Modul"}
-Die Lesson zu [KI-Werkzeugen und Agenten](ki-werkzeuge-agenten.qmd) beschreibt die Stufen vom Chat bis zum Agenten und den Grundsatz, dass mit der Autonomie der Bedarf an Aufsicht wächst. Hier setzen wir diesen Grundsatz in einem konkreten Ablauf um. Für den Modellauftrag im KI-Schritt eignet sich das [COMPASS-Raster](compass-framework.qmd).
+Das Kapitel zu [KI-Werkzeugen und Agenten](ki-werkzeuge-agenten.qmd) beschreibt die Stufen vom Chat bis zum Agenten und den Grundsatz, dass mit der Autonomie der Bedarf an Aufsicht wächst. Hier setzen wir diesen Grundsatz in einem konkreten Ablauf um. Für den Modellauftrag im KI-Schritt eignet sich das [COMPASS-Raster](compass-framework.qmd).
 :::

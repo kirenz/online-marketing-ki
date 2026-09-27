@@ -7,5 +7,6 @@ Wir werden:
 - ein KPI-Set für eigene Ziele festlegen
 - GA4-Tracking konzeptionell verstehen
 - ein Dashboard-Konzept entwerfen
+- Kundenwert, Amortisation und zusätzliche Wirkung einer Maßnahme beurteilen
 
-**Quellen:** [@li2014; @berman2018; @ahrholdt2023]
+**Quellen:** [@li2014; @berman2018; @ahrholdt2023; @gordon2019]

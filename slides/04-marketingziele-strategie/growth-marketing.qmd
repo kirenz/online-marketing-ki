@@ -11,7 +11,7 @@ Moderne, ruhige Szene aus leicht erhöhter Perspektive: ein geschwungener Weg au
 -->
 
 ::: {.notes}
-Die Rösterei Morgenrot gewinnt jede Woche neue Besucher für ihren Onlineshop. Einige sehen sich Sorten an, wenige bestellen, und nur ein Teil davon bestellt ein zweites Mal oder schließt ein Abo ab. Diese Lesson zeigt, wie sich der Kundenweg in Zahlen lesen, mit AARRR ordnen und in eine prüfbare Hypothese übersetzen lässt.
+Die Rösterei Morgenrot gewinnt jede Woche neue Besucher für ihren Onlineshop. Einige sehen sich Sorten an, wenige bestellen, und nur ein Teil davon bestellt ein zweites Mal oder schließt ein Abo ab. Dieses Kapitel zeigt, wie sich der Kundenweg in Zahlen lesen, mit AARRR ordnen und in eine prüfbare Hypothese übersetzen lässt.
 :::
 
 ## Drei Merkmale von Growth Marketing

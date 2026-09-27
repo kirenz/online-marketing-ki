@@ -11,7 +11,7 @@ Abstrakte moderne Komposition eines arbeitsteiligen Gefüges: mehrere klar abgeg
 -->
 
 ::: {.notes}
-Der Einstieg benennt die organisatorische Realität. Digitales Marketing verlangt mehrere Kompetenzen gleichzeitig, und keine davon deckt eine einzelne Person vollständig ab. Damit stellen sich drei Führungsfragen, die diese Lesson nacheinander behandelt: Welche Aufgaben gibt es überhaupt und wer verantwortet sie, was wird selbst aufgebaut und was eingekauft, und wie werden Dienstleister sowie neue Werkzeuge so gesteuert, dass die Verantwortung im Haus bleibt.
+Der Einstieg benennt die organisatorische Realität. Digitales Marketing verlangt mehrere Kompetenzen gleichzeitig, und keine davon deckt eine einzelne Person vollständig ab. Damit stellen sich drei Führungsfragen, die dieses Kapitel nacheinander behandelt: Welche Aufgaben gibt es überhaupt und wer verantwortet sie, was wird selbst aufgebaut und was eingekauft, und wie werden Dienstleister sowie neue Werkzeuge so gesteuert, dass die Verantwortung im Haus bleibt.
 :::
 
 ## Sechs Aufgabenbündel decken digitales Marketing ab

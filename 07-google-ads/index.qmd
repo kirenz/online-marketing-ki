@@ -7,5 +7,6 @@ Wir werden:
 - eine Google-Ads-Kampagne konzipieren
 - Kampagnen sinnvoll strukturieren
 - den Quality Score gezielt verbessern
+- Gebotsstrategie und Budget aus Deckungsbeitrag und Grenzkosten ableiten
 
-**Quellen:** [@shemshaki2025; @ostrovsky2023]
+**Quellen:** [@shemshaki2025; @ostrovsky2023; @googleSmartBidding2026]

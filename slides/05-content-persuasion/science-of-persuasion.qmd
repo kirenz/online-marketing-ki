@@ -90,20 +90,24 @@ Quelle: @cialdini2021
 :::
 
 ::: {.notes}
-Jedes Prinzip lässt sich direkt übersetzen. Reziprozität ist der rote Faden zur vorigen Lesson: Wer zuerst nützlichen Content verschenkt, schafft genau das Gefühl der Gegenseitigkeit, das eine spätere Kontaktaufnahme erleichtert.
+Jedes Prinzip lässt sich direkt übersetzen. Reziprozität ist der rote Faden zum vorigen Kapitel: Wer zuerst nützlichen Content verschenkt, schafft genau das Gefühl der Gegenseitigkeit, das eine spätere Kontaktaufnahme erleichtert.
 :::
 
-## Die Verkehrsregeln im Kopf {.stage background-color="#0a0a0f" data-kicker="Analogie"}
+## Gelernte Abkürzungen {.stage background-color="#0a0a0f" data-kicker="Merksatz"}
 
-Niemand prüft an jeder Kreuzung neu, ob Rot wirklich Halten bedeutet. Die Regel spart Zeit und stimmt fast immer. Genauso verlassen wir uns auf Empfehlungen und Fachurteile.
+Die Prinzipien überlisten niemanden. Sie knüpfen an etabliertes soziales Verhalten an, das im Alltag meist gute Dienste leistet.
+
+::: {.sources}
+Quelle: @cialdini2021
+:::
 
 ::: {.notes}
-Das Bild der Verkehrsregeln macht greifbar, warum die Prinzipien wirken: Sie sind mentale Abkürzungen, die im Alltag verlässlich funktionieren. Marketing nutzt diese Abkürzungen, statt gegen sie zu arbeiten.
+Warum wirken die Prinzipien so zuverlässig? Im Alltag lässt sich nicht jede Information vollständig abwägen. Menschen greifen deshalb auf gelernte Abkürzungen zurück, etwa auf Empfehlungen, Fachurteile oder das Verhalten anderer. Diese Abkürzungen leisten meist gute Dienste. Marketing rahmt eine ohnehin gute Botschaft so, dass sie an diese Abkürzungen anknüpft, statt gegen sie zu arbeiten.
 :::
 
 ## Überzeugung endet an der Ethik
 
-Die Prinzipien sind wirksam, und genau deshalb tragen wir Verantwortung. Vorgetäuschte Knappheit oder erfundene Bewertungen wirken kurz, untergraben aber das Vertrauen, das Content erst aufbaut.
+Die Prinzipien sind wirksam, und genau deshalb verlangen sie Verantwortung. Vorgetäuschte Knappheit oder erfundene Bewertungen wirken kurz, untergraben aber das Vertrauen, das Content erst aufbaut.
 
 ::: {.callout-important title="Überzeugen, nicht manipulieren"}
 Die Prinzipien machen wahre Stärken sichtbar. Wer mit falschen Signalen arbeitet, gewinnt kurzfristig und verliert das Vertrauen dauerhaft.
@@ -118,7 +122,7 @@ Cialdini trennt klar zwischen Überzeugung auf Basis echter Vorzüge und Manipul
 Sieben Prinzipien erklären, warum Menschen zustimmen. Sie verstärken gute Botschaften, und sie wirken nur dauerhaft, wenn sie ehrlich eingesetzt werden.
 
 ::: {.notes}
-Als Kern bleibt: sieben Hebel, eine ethische Grenze. Die nächste Lesson zeigt, wie Storytelling diese Prinzipien in ein emotionales Gefäß bringt und ihre Wirkung verstärkt.
+Als Kern bleibt: sieben Hebel, eine ethische Grenze. Das nächste Kapitel zeigt, wie Storytelling diese Prinzipien in ein emotionales Gefäß bringt und ihre Wirkung verstärkt.
 :::
 
 ## Literatur

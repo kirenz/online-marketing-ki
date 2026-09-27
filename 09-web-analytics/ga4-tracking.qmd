@@ -26,7 +26,7 @@ Nicht jedes Event ist gleich wichtig. Manche Handlungen zahlen direkt auf ein Ge
 
 ![Vom Event über Parameter zum Schlüsselereignis. Werte fiktiv.](../images/ga4-events.svg){#fig-ga4-events fig-alt="Links sechs Events von page_view bis purchase, in der Mitte Parameterbeispiele für generate_lead und purchase, rechts die daraus markierten Schlüsselereignisse Anfrage und Kauf."}
 
-Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus der vorigen Lesson. Wir entscheiden bewusst, welche Events den Rang eines Schlüsselereignisses verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern [@kaushik2010].
+Dieser Schritt verbindet die technische Erfassung mit den Kennzahlen aus dem vorigen Kapitel. Wir entscheiden bewusst, welche Events den Rang eines Schlüsselereignisses verdienen, und richten unsere Auswertung darauf aus. So wird aus einer Flut von Ereignissen eine überschaubare Zahl von Zielhandlungen, die wir tatsächlich verfolgen und verbessern [@kaushik2010].
 
 ## Ein Trackingplan mit Abnahme
 

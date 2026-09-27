@@ -1,6 +1,6 @@
 # Core Web Vitals und Page Experience
 
-Gute Inhalte entfalten ihre Wirkung nur, wenn die Seite sich auch gut anfühlt. In dieser Lesson lernen wir mit den Core Web Vitals drei messbare Kennzahlen kennen, mit denen Google die Nutzererfahrung beschreibt, und ordnen ein, was sie für unsere Arbeit bedeuten.
+Gute Inhalte entfalten ihre Wirkung nur, wenn die Seite sich auch gut anfühlt. Mit den Core Web Vitals macht Google dieses Gefühl in drei Kennzahlen messbar.
 
 ## Was die Core Web Vitals messen
 

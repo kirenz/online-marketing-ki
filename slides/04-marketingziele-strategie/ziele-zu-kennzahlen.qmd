@@ -11,7 +11,7 @@ Moderne, frische Szene aus der Vogelperspektive: ein ruhiges Armaturenbrett oder
 -->
 
 ::: {.notes}
-Ein SMART-Ziel nennt bereits eine Kennzahl, doch eine einzelne Zahl genügt selten, um den Weg zum Ziel zu beobachten. Diese Lesson zeigt, wie aus einem Ziel ein kleines Set passender Kennzahlen entsteht, mit dem sich der Fortschritt laufend verfolgen lässt.
+Ein SMART-Ziel nennt bereits eine Kennzahl, doch eine einzelne Zahl genügt selten, um den Weg zum Ziel zu beobachten. Dieses Kapitel zeigt, wie aus einem Ziel ein kleines Set passender Kennzahlen entsteht, mit dem sich der Fortschritt laufend verfolgen lässt.
 :::
 
 ## Was eine Kennzahl steuerbar macht

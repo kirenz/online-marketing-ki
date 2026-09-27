@@ -166,6 +166,8 @@ Der Generator strippt den Status-Callout und den TODO-Block automatisch beim Erz
 - **Cartoon-Emojis im Fließtext** — Ausnahme: Status-Marker in Tabellen (✅ 🟡)
 - **Lange Code-Blöcke ohne Folge-Callout-Erklärung** — wer Code zeigt, erklärt ihn auch
 - **Marketing-Sprache** — keine Superlative, keine „revolutionäre" oder „bahnbrechende" Tools
+- **Template-Eröffnungen** wie „In dieser Lesson lernen wir …" — ein Kapitel beginnt mit seiner Kernaussage; das Wort „Lesson" bleibt intern, im sichtbaren Text heißt es „Kapitel"
+- **Rhetorische Kontrastformeln** („kein Selbstzweck, sondern …", „nicht an Applaus, sondern an Wirkung") und Pflicht-Analogien ohne Erklärwert — eine Analogie nur, wenn sie etwas trägt, und dieselbe Analogie (Cockpit, Lager, Werkstatt) nicht in mehreren Kapiteln
 - **Tippfehler-konservierte Anglizismen** im sichtbaren Text — „Unlimited workflows" → „Unbegrenzte Workflows" (Anglizismus nur, wenn er der etablierte Fachbegriff ist und im selben Satz erklärt wird)
 
 ---

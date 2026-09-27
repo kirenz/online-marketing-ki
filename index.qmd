@@ -2,7 +2,7 @@
 
 Willkommen zum Kurs „Digitales Marketing & KI". Dieses Buch führt Schritt für Schritt durch das digitale Marketing und zeigt, wie sich generative KI sinnvoll in jeden Schritt einbinden lässt.
 
-Wir entwickeln den roten Faden entlang eines eigenen Projekts: von den Grundlagen über Kundenverständnis, Zielgruppe und Ziele bis zu den Kanälen (Content, SEO, Google Ads, LinkedIn), der Erfolgsmessung und dem gezielten Einsatz von KI.
+Wir entwickeln den roten Faden entlang eines eigenen Projekts: von den Grundlagen über Kundenverständnis, Zielgruppe und Ziele bis zu den Kanälen (Content, SEO, Google Ads, LinkedIn), der Erfolgsmessung und dem gezielten Einsatz von KI. Als durchgehendes Beispiel begleitet uns die erfundene Rösterei Morgenrot, eine kleine Kaffeerösterei mit Laden, Onlineshop und Abo.
 
 Beispiele für den Einsatz des Gelernten:
 

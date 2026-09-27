@@ -1,6 +1,6 @@
 # Keyword-Recherche
 
-Wir starten die Suchmaschinenoptimierung dort, wo auch unsere Kundschaft startet: beim Suchbegriff, den jemand in das Suchfeld tippt. In dieser Lesson finden wir relevante Suchbegriffe, bewerten sie und leiten daraus Themen für unsere Inhalte ab.
+Wir starten die Suchmaschinenoptimierung dort, wo auch unsere Kundschaft startet: beim Suchbegriff, den jemand in das Suchfeld tippt. Der erste Schritt jeder SEO-Arbeit ist deshalb, relevante Suchbegriffe zu finden, zu bewerten und zu Themen zu bündeln.
 
 ## Warum wir mit Keywords beginnen
 

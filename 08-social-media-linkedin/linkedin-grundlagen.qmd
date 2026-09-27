@@ -1,7 +1,5 @@
 # LinkedIn-Grundlagen und B2B-Wirkungsprinzipien
 
-In dieser Lesson klären wir, warum LinkedIn im B2B-Marketing eine besondere Rolle spielt und wie Markenaufbau und kurzfristige Aktivierung zusammenspielen. Wir lernen die Logik kennen, nach der wirksame B2B-Kampagnen ihr Budget verteilen.
-
 LinkedIn ist ein berufliches Netzwerk. Für eine konkrete Kampagne ist die erreichbare Zielgruppe im gewählten Markt wichtiger als eine globale Mitgliederzahl. Anders als auf rein privaten Plattformen sind Menschen hier in ihrer beruflichen Rolle unterwegs. Berufliche Profile erleichtern die Auswahl passender Zielgruppen, belegen aber keine aktuelle Kaufbereitschaft. Für das B2B-Marketing ist dieser berufliche Kontext der entscheidende Vorteil.
 
 ## Warum LinkedIn im B2B wirkt
@@ -32,7 +30,7 @@ Nicht jede Wirkung auf LinkedIn kostet Werbebudget. Grundlage ist eine gepflegte
 
 Für eigene Beiträge bietet LinkedIn mehrere Formate. Ein Dokument-Beitrag ist ein PDF, das sich im Feed durchblättern lässt; er eignet sich für Anleitungen und Checklisten. Eine Umfrage holt schnell eine Meinung ein. Ein Newsletter bündelt regelmäßige Fachbeiträge, und wer ihn abonniert, wird bei jeder Ausgabe benachrichtigt. Live-Übertragungen passen zu Veranstaltungen.
 
-Mitarbeitende haben eigene Netzwerke, die eine Unternehmensseite nicht erreicht. Teilen und kommentieren sie Inhalte des Unternehmens, spricht man von Employee Advocacy. Das funktioniert nur freiwillig und mit Inhalten, hinter denen die Mitarbeitenden selbst stehen.
+Mitarbeitende haben eigene Netzwerke, die eine Unternehmensseite nicht erreicht. Teilen und kommentieren sie Inhalte des Unternehmens, heißt das Employee Advocacy. Das funktioniert nur freiwillig und mit Inhalten, hinter denen die Mitarbeitenden selbst stehen.
 
 ::: {.callout-note title="Beispiel: die Rösterei ohne Werbebudget"}
 Die Rösterei Morgenrot veröffentlicht auf ihrer Unternehmensseite einen Dokument-Beitrag „Kaffee im Büro: fünf Fragen vor dem ersten Abo“. Die Röstmeisterin teilt ihn mit einem eigenen Satz aus ihrem Arbeitsalltag. Die Beschreibung der Seite nennt im ersten Satz, was die Rösterei anbietet: Kaffee-Abos für Büros und Privatkundschaft.

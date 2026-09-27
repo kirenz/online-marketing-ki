@@ -1,6 +1,6 @@
 # KI-Suche und Sichtbarkeit
 
-Eine Kundin der Rösterei Morgenrot fährt in drei Wochen in den Urlaub. Sie tippt in ihre Suchmaschine: „Wie lässt sich beim Kaffeeabo von Morgenrot eine Lieferung während des Urlaubs aussetzen?“ Immer häufiger bekommt sie darauf keine reine Liste mit Links, sondern eine formulierte Antwort mit Quellenhinweisen. In dieser Lesson klären wir, wie solche Antworten entstehen, was eine Seite zu einer brauchbaren Quelle macht, wo die Planbarkeit endet und was sich heute tatsächlich messen lässt.
+Eine Kundin der Rösterei Morgenrot fährt in drei Wochen in den Urlaub. Sie tippt in ihre Suchmaschine: „Wie lässt sich beim Kaffeeabo von Morgenrot eine Lieferung während des Urlaubs aussetzen?“ Immer häufiger bekommt sie darauf keine reine Liste mit Links, sondern eine formulierte Antwort mit Quellenhinweisen. Wir klären, wie solche Antworten entstehen, was eine Seite zu einer brauchbaren Quelle macht, wo die Planbarkeit endet und was sich heute tatsächlich messen lässt.
 
 ## Von der Trefferliste zur Antwort
 
@@ -16,7 +16,7 @@ Für die Arbeit an der Sichtbarkeit in solchen Antworten kursieren zwei Kürzel.
 
 ## Was eine Seite zitierfähig macht
 
-Google nennt für AI Overviews und AI Mode keine zusätzlichen Anforderungen. Eine Seite muss indexiert sein und mit einem Textausschnitt (Snippet) in der Suche erscheinen dürfen. Spezielle strukturierte Daten, KI-Textdateien wie `llms.txt` oder ein Zerlegen der Inhalte in kleine Häppchen sind nach Googles Angaben nicht nötig [@googleAiFeatures2026; @googleAiOptimization2026]. Es gelten die Grundlagen, die wir aus den vorherigen Lessons kennen: hilfreiche, eigenständige Inhalte, eine klare Gliederung mit Überschriften und eine technisch zugängliche Seite.
+Google nennt für AI Overviews und AI Mode keine zusätzlichen Anforderungen. Eine Seite muss indexiert sein und mit einem Textausschnitt (Snippet) in der Suche erscheinen dürfen. Spezielle strukturierte Daten, KI-Textdateien wie `llms.txt` oder ein Zerlegen der Inhalte in kleine Häppchen sind nach Googles Angaben nicht nötig [@googleAiFeatures2026; @googleAiOptimization2026]. Es gelten die Grundlagen, die wir aus den vorigen Kapiteln kennen: hilfreiche, eigenständige Inhalte, eine klare Gliederung mit Überschriften und eine technisch zugängliche Seite.
 
 Für die Praxis heißt das vor allem: Eine Seite wird dann zur brauchbaren Quelle, wenn sie eine konkrete Frage konkret beantwortet. Auf der Abo-Seite von Morgenrot steht bisher nur ein Werbesatz. Die tatsächlichen Bedingungen liegen intern vor, stehen aber nirgends öffentlich.
 
@@ -52,4 +52,4 @@ Mit dem Bericht kam eine Einstellung, über die Websitebetreiber ihre Inhalte au
 
 Für Morgenrot ergibt sich daraus ein nüchternes Vorgehen in drei Schritten. Erstens verbessern wir die Seiten, die konkrete Kundenfragen beantworten sollen. Zweitens beobachten wir über mehrere Wochen, wie sich Einblendungen in den KI-Funktionen und Besuche auf diesen Seiten entwickeln. Drittens ziehen wir Schlüsse erst aus dieser Entwicklung, nicht aus einer einzelnen Testsuche. Ob ein besserer Seitentext am Ende zu mehr Abo-Abschlüssen führt, bleibt eine eigene Frage, die wir über die Webanalyse beantworten.
 
-Damit schließt sich der Kreis zu den vorherigen Lessons. KI-Suche verlangt keine neue Disziplin. Sie erhöht aber den Wert von Seiten, die Fragen der Kundschaft präzise, richtig und vollständig beantworten.
+Damit schließt sich der Kreis zu den vorigen Kapiteln. KI-Suche verlangt keine neue Disziplin. Sie erhöht aber den Wert von Seiten, die Fragen der Kundschaft präzise, richtig und vollständig beantworten.

@@ -75,12 +75,16 @@ Eine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas best
 KI nimmt Routine ab: Muster in Interviews finden, Profile formulieren, Ideen vorschlagen. Die Verantwortung für Auswahl und Validierung bleibt menschlich, sonst zementiert eine Persona nur Vorannahmen.
 :::
 
-## Das Phantombild {.stage background-color="#0a0a0f" data-kicker="Analogie"}
+## Semi-fiktiv, aber datengestützt {.stage background-color="#0a0a0f" data-kicker="Merksatz"}
 
-Eine Persona zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtungen zu einem erkennbaren Gesicht.
+Eine Persona zeigt keine reale Einzelperson, sondern verdichtet Daten und Recherche zu einem erkennbaren Profil.
+
+::: {.sources}
+Quelle: @cooper1999
+:::
 
 ::: {.notes}
-Das Bild des Phantombilds trägt den Gedanken: Je besser die Zeugenaussagen, also die Daten, desto brauchbarer das Bild. Eine Persona ist ein datengestütztes Destillat, kein Steckbrief einer echten Person.
+Der Ansatz stammt aus der Softwaregestaltung. Eine Persona ist semi-fiktiv: Sie beschreibt keinen echten Menschen, sondern verdichtet viele Beobachtungen zu einem Profil, mit dem sich arbeiten lässt. Ihre Brauchbarkeit hängt deshalb an der Datenbasis. Eine Persona ist ein datengestütztes Destillat, kein Steckbrief einer echten Person.
 :::
 
 ## Drei Aussagen mit Quellenstatus

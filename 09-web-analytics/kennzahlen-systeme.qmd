@@ -1,6 +1,6 @@
 # Kennzahlen und Kennzahlensysteme
 
-Wir messen Marketingerfolg nicht an Applaus, sondern an Wirkung. In dieser Lesson lernen wir, sogenannte Vanity-Metriken von echten Steuerungsgrößen zu unterscheiden und unsere Kennzahlen so entlang der Kundenreise anzuordnen, dass sie zusammen ein stimmiges Bild ergeben.
+Wir unterscheiden sogenannte Vanity-Metriken von echten Steuerungsgrößen und ordnen Kennzahlen so entlang der Kundenreise an, dass sie zusammen ein stimmiges Bild ergeben.
 
 ## Warum Kennzahlen überhaupt zählen
 
@@ -8,15 +8,11 @@ Was wir nicht messen, können wir nicht gezielt verbessern. Kennzahlen übersetz
 
 Wir unterscheiden dabei zwei Begriffe, die oft verwechselt werden. Eine Metrik ist jede messbare Größe, also etwa die Zahl der Seitenaufrufe. Ein KPI (Key Performance Indicator) ist hingegen eine bewusst ausgewählte Schlüsselkennzahl, die direkt auf ein Ziel einzahlt. Jeder KPI ist eine Metrik, aber nicht jede Metrik verdient den Rang eines KPI [@farris2010].
 
-::: {.callout-tip title="Analogie: Das Armaturenbrett im Auto"}
-Wir stellen uns das Armaturenbrett eines Autos vor. Dort stehen nicht alle technisch messbaren Werte, sondern nur die wenigen, die für eine sichere Fahrt zählen: Geschwindigkeit, Tankfüllung, Motortemperatur. Genauso wählen wir aus der Fülle möglicher Zahlen jene wenigen aus, die uns wirklich steuern helfen. Ein Cockpit mit fünfzig Anzeigen lenkt nur ab.
-:::
-
 ## Vanity-Metriken erkennen und einordnen
 
 Manche Zahlen sehen beeindruckend aus, sagen aber wenig über den Geschäftserfolg. Solche Vanity-Metriken (Eitelkeits-Kennzahlen) steigen verlässlich, lassen sich gut präsentieren und führen doch leicht in die Irre. Typische Beispiele sind reine Reichweite, die Gesamtzahl der Follower oder die Menge der Seitenaufrufe ohne jeden Bezug zu einer Handlung.
 
-Das Problem liegt nicht in den Zahlen selbst, sondern in der fehlenden Verbindung zum Ziel. Zehntausend Aufrufe belegen noch keinen Geschäftserfolg; für ein Bekanntheitsziel können sie dennoch ein relevanter Zwischenindikator sein. Wir prüfen deshalb bei jeder Kennzahl, ob sich aus ihr eine Entscheidung ableiten lässt. Eine wertorientierte Kennzahl beantwortet die Frage, ob wir unserem Ziel nähergekommen sind, und lenkt das nächste Handeln [@kaushik2010].
+Das Problem ist die fehlende Verbindung zum Ziel. Zehntausend Aufrufe belegen noch keinen Geschäftserfolg; für ein Bekanntheitsziel können sie dennoch ein relevanter Zwischenindikator sein. Wir prüfen deshalb bei jeder Kennzahl, ob sich aus ihr eine Entscheidung ableiten lässt. Eine wertorientierte Kennzahl beantwortet die Frage, ob wir unserem Ziel nähergekommen sind, und lenkt das nächste Handeln [@kaushik2010].
 
 ::: {.callout-important title="Eine Zahl ohne Bezugsgröße steuert nicht"}
 Wir betrachten absolute Zahlen immer im Verhältnis. Tausend Klicks sind je nach eingesetztem Budget ein Erfolg oder eine Enttäuschung. Erst Relationen wie Conversion-Rate (mit ausdrücklich festgelegtem Zähler und Nenner) oder Kosten pro Conversion machen aus einer rohen Zahl eine steuerbare Größe.
@@ -48,5 +44,25 @@ Für einen fiktiven Shop betrachten wir eine vollständig erfasste Woche: 2.000 
 Der vollständige CAC berücksichtigt zusätzlich die abgegrenzten Kosten der Kundengewinnung, etwa Vertrieb und Agentur. Wiederholungskäufe erhöhen die Bestellzahl, aber nicht die Zahl neu gewonnener Personen. Ein ROAS von 2 deckt bei 40 Prozent Deckungsbeitrag vor Werbung nur 1.600 Euro der 2.000 Euro Werbekosten; nach Werbung bleiben minus 400 Euro, noch vor weiteren Fixkosten.
 
 Bei fehlenden Trackingtagen berechnen wir eine Rate nur aus zusammengehörigen Zählern und Nennern derselben vollständig erfassten Tage. Tatsächlich angefallene Kosten und Shop-Bestellungen bleiben für die wirtschaftliche Gesamtbetrachtung relevant. Fehlend ist nicht null.
+
+## Kundenwert und Amortisation
+
+Ob 80 Euro Medien-CAC viel oder wenig sind, entscheidet der Wert, den eine gewonnene Person über die Zeit einbringt. Der Kundenwert (Customer Lifetime Value, CLV) ist der Deckungsbeitrag, den eine Kundin oder ein Kunde über die erwartete Dauer der Beziehung erzielt [@farris2010]. Für ein Abo lässt er sich mit drei Größen schätzen: dem monatlichen Deckungsbeitrag, der monatlichen Kündigungsquote und daraus der erwarteten Dauer.
+
+Ein Abo der Rösterei kostet 24 Euro im Monat und lässt nach Wareneinsatz und Versand 40 Prozent Deckungsbeitrag, also 9,60 Euro. Kündigen im Monat 8 Prozent der Abonnenten, bleibt ein Abo im Durchschnitt 1 / 0,08 = 12,5 Monate. Der erwartete Deckungsbeitrag je Abo beträgt damit 9,60 × 12,5 = 120 Euro. Bei 80 Euro CAC bleibt ein Überschuss von 40 Euro je gewonnenem Abo, und die Werbekosten sind nach 80 / 9,60, also rund 8,3 Monaten, wieder eingespielt (CAC-Payback). Diese Amortisationsdauer ist für die Liquidität oft die wichtigere Zahl: Wer 8 Monate auf sein Geld wartet, kann nur so viele Kunden gewinnen, wie die Kasse vorfinanziert.
+
+| Größe | Rechnung | Wert |
+|---|---|---|
+| Deckungsbeitrag je Monat | 24 × 0,40 | 9,60 Euro |
+| Erwartete Dauer | 1 / 0,08 | 12,5 Monate |
+| Kundenwert (CLV) | 9,60 × 12,5 | 120 Euro |
+| Überschuss je Abo | 120 − 80 | 40 Euro |
+| CAC-Payback | 80 / 9,60 | 8,3 Monate |
+
+Die Rechnung ist eine Vereinfachung. Kündigungsquoten sind in den ersten Monaten meist höher als später, weshalb wir sie aus Kohorten ablesen, also aus Gruppen, die im selben Monat gestartet sind. Ein Deckungsbeitrag in zwei Jahren ist weniger wert als einer heute, und der CAC gilt nur für die Kanäle und Zielgruppen, aus denen die beobachteten Abos stammen. Trotzdem ist diese Rechnung der Maßstab, an dem wir Ziel-CPA und Budget im Kapitel zu Google Ads ausrichten.
+
+::: {.callout-important title="Durchschnitt und Grenzwert unterscheiden"}
+Ein CLV von 120 Euro bei 80 Euro CAC sagt, dass die bisherigen Kunden sich gelohnt haben. Er sagt nicht, dass die nächsten 100 Euro Werbebudget denselben Ertrag bringen. Mit steigendem Budget steigen die Kosten je zusätzlicher Person. Für Budgetentscheidungen vergleichen wir deshalb den Grenz-CAC des nächsten Schritts mit dem CLV, nicht den bisherigen Durchschnitt.
+:::
 
 **Kurzprüfung:** Wir erklären ohne KI, weshalb 40 / 800 = 5 Prozent nicht dieselbe Kennzahl wie die sitzungsbezogene Kaufrate ist und weshalb 50 Euro kein CAC sind. Danach nennen wir eine Information, die für zusätzliches Budget fehlt: etwa der erwartete zusätzliche Deckungsbeitrag der nächsten 100 Euro. Der bisherige Durchschnitts-ROAS allein beantwortet diese Frage nicht.

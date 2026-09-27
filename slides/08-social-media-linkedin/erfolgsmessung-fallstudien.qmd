@@ -11,7 +11,7 @@ Moderne, frische Komposition: ein abstraktes Cockpit-Instrumentenfeld mit wenige
 -->
 
 ::: {.notes}
-Ohne saubere Messung bleibt jede Kampagne Glückssache. Diese Lesson zeigt die zentralen Kennzahlen für LinkedIn-Werbung, ihre Zuordnung zu den Zielen und die wichtigsten Lernpunkte aus Fallbeispielen.
+Ohne saubere Messung bleibt jede Kampagne Glückssache. Dieses Kapitel zeigt die zentralen Kennzahlen für LinkedIn-Werbung, ihre Zuordnung zu den Zielen und die wichtigsten Lernpunkte aus Fallbeispielen.
 :::
 
 ## Kennzahl zum Ziel wählen
@@ -43,15 +43,15 @@ Quelle: @seebacher2023
 :::
 
 ::: {.notes}
-Diese fünf Kennzahlen begegnen uns im Kampagnen-Manager am häufigsten. Eine hohe Klickrate kann Interesse anzeigen, belegt aber keine qualifizierte Nachfrage. Steigende Leadkosten können mit Wettbewerb, Zielgruppe oder Anzeigenmüdigkeit zusammenhängen. Die Kennzahl allein liefert keine eindeutige Diagnose.
+Diese fünf Kennzahlen erscheinen im Kampagnen-Manager am häufigsten. Eine hohe Klickrate kann Interesse anzeigen, belegt aber keine qualifizierte Nachfrage. Steigende Leadkosten können mit Wettbewerb, Zielgruppe oder Anzeigenmüdigkeit zusammenhängen. Die Kennzahl allein liefert keine eindeutige Diagnose.
 :::
 
-## Das Cockpit-Prinzip {.stage background-color="#0a0a0f" data-kicker="Analogie"}
+## Keine Kennzahl liefert allein die Diagnose {.stage background-color="#0a0a0f" data-kicker="Merksatz"}
 
-Niemand fliegt allein nach dem Tachometer. Erst Höhe, Geschwindigkeit und Treibstoff zusammen ergeben ein verlässliches Bild. Genauso werden Reichweite, Klickrate und Kosten pro Lead immer gemeinsam gelesen.
+Reichweite, Klickrate und Kosten pro Lead werden immer gemeinsam gelesen.
 
 ::: {.notes}
-Das Bild des Cockpits macht klar, warum eine einzelne Zahl nie ausreicht. Kein Pilot verlässt sich auf ein einziges Instrument. Erst das Zusammenspiel der Werte ergibt die Lage. Eine einzelne Kennzahl zu verabsolutieren, führt in die Irre.
+Eine hohe Klickrate kann auf Interesse hinweisen, belegt aber noch keine qualifizierte Nachfrage. Steigende Kosten pro Lead können mit Wettbewerb, Auslieferung, Zielgruppe oder Anzeigenmüdigkeit zusammenhängen. Erst das Zusammenspiel der Werte ergibt die Lage. Eine einzelne Kennzahl zu verabsolutieren, führt in die Irre.
 :::
 
 ## Was Fallbeispiele lehren

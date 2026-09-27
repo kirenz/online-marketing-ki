@@ -11,7 +11,7 @@ Abstrakte moderne Komposition aus drei klar getrennten, ineinandergreifenden Rah
 -->
 
 ::: {.notes}
-Der Einstieg ordnet das Thema für eine Führungsrolle ein. Drei Felder sind es, in denen digitales Marketing regelmäßig auf Regeln trifft: der Umgang mit personenbezogenen Daten, die Ansprache in fremden Postfächern und der Einsatz maschinell erzeugter Inhalte. Für alle drei gelten klare Vorgaben, und diese Lesson verschafft einen Überblick, der ausreicht, um Vorhaben einzuordnen, gezielte Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden. Das Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung; bei konkreten Vorhaben gehört juristische Fachkunde hinzu.
+Der Einstieg ordnet das Thema für eine Führungsrolle ein. Drei Felder sind es, in denen digitales Marketing regelmäßig auf Regeln trifft: der Umgang mit personenbezogenen Daten, die Ansprache in fremden Postfächern und der Einsatz maschinell erzeugter Inhalte. Für alle drei gelten klare Vorgaben, und dieses Kapitel verschafft einen Überblick, der ausreicht, um Vorhaben einzuordnen, gezielte Rückfragen an Fachleute zu stellen und typische Fehler zu vermeiden. Das Kapitel vermittelt Orientierungswissen für Entscheidungen und ersetzt keine Rechtsberatung; bei konkreten Vorhaben gehört juristische Fachkunde hinzu.
 :::
 
 ## Ohne Rechtsgrundlage keine Verarbeitung personenbezogener Daten

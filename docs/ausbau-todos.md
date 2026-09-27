@@ -18,7 +18,6 @@ Diese Liste sammelt die Ausbau-Punkte, die früher als „Was als Nächstes ausg
 
 ## 01-marketing-grundlagen/was-ist-marketing
 
-- Ein durchgehendes Praxisbeispiel (ein fiktives Unternehmen) einführen, das den ganzen Kurs begleitet
 - Die Kundenreise mit einer Grafik illustrieren (Fremder bis Fürsprecher)
 - Abgrenzung von Marketing, Vertrieb und Kommunikation in einer kurzen Tabelle ergänzen
 - Definition von Marketing und Austauschprozessen aus @kotler2022 vertiefen

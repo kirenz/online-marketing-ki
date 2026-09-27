@@ -1,8 +1,6 @@
 # Personas erstellen und nutzen
 
-In dieser Lesson lernen wir, wie aus Segmenten greifbare Personas werden, die das Kundenverständnis konkret machen und die tägliche Marketingarbeit leiten.
-
-Ein Segment bleibt abstrakt. Eine Persona macht es greifbar. Personas sind semi-fiktive Darstellungen idealer Kundinnen und Kunden, gestützt auf Daten und Recherche. Sie verdichten genau die Kundenseite, die wir im Value Proposition Canvas und mit der Empathy Map erarbeitet haben [@osterwalder2014].
+Ein Segment bleibt abstrakt. Eine Persona macht es greifbar. Personas sind semi-fiktive Darstellungen idealer Kundinnen und Kunden, gestützt auf Daten und Recherche; der Ansatz stammt aus der Softwaregestaltung [@cooper1999]. Sie verdichten genau die Kundenseite, die wir im Value Proposition Canvas und mit der Empathy Map erarbeitet haben.
 
 ## Was eine Persona leistet
 
@@ -23,10 +21,6 @@ Personas entstehen aus Daten, nicht aus dem Bauch. Mehrere Quellen ergänzen sic
 ## Personas und KI
 
 Generative KI beschleunigt mehrere Schritte: das Clustern qualitativer Daten zu ersten Gruppen, das Ausformulieren von Persona-Profilen und das Ableiten erster Content-Ideen. Die Verantwortung für die Auswahl und Prüfung bleibt beim Menschen.
-
-::: {.callout-tip title="Analogie: das Fahndungsfoto und die Zeugenaussage"}
-Eine Persona ist wie ein Phantombild: Es zeigt keine reale Einzelperson, sondern verdichtet viele Beobachtungen zu einem erkennbaren Gesicht. Je besser die Zeugenaussagen, also die Daten, desto brauchbarer das Bild.
-:::
 
 ::: {.callout-important title="Daten statt Vermutung"}
 Eine Persona ist nur so gut wie die Daten dahinter. Frei erfundene Personas bestätigen vor allem die eigenen Annahmen und führen die Kommunikation in die Irre.

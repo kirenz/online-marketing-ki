@@ -7,7 +7,7 @@ author: Jan Kirenz
 # Meinung gegen Meinung {.stage background-color="#0a0a0f"}
 
 ::: {.notes}
-Im Marketing gibt es zu fast jeder Gestaltungsfrage mehrere Meinungen. Diese Lesson zeigt am Beispiel von Netflix, wie aus einer Meinung eine prüfbare Annahme wird, wie ein A/B-Test sie prüft und wie das Ergebnis mit einer einfachen Tabelle ausgewertet wird.
+Im Marketing gibt es zu fast jeder Gestaltungsfrage mehrere Meinungen. Dieses Kapitel zeigt am Beispiel von Netflix, wie aus einer Meinung eine prüfbare Annahme wird, wie ein A/B-Test sie prüft und wie das Ergebnis mit einer einfachen Tabelle ausgewertet wird.
 :::
 
 ## Netflix hat seine Startseite in zehn Jahren grundlegend umgebaut

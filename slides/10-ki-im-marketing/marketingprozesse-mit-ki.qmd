@@ -11,7 +11,7 @@ Moderne, ruhige Komposition: drei feine, parallel verlaufende Lichtbahnen über 
 -->
 
 ::: {.notes}
-Diese Lesson zeigt, wie ein wiederkehrender Marketingablauf Schritt für Schritt automatisiert wird. Drei Arten von Arbeit stehen dabei im Mittelpunkt: feste Regeln, ein Sprachmodell und die Entscheidung einer Person. Der Fall kommt aus der Rösterei Morgenrot.
+Dieses Kapitel zeigt, wie ein wiederkehrender Marketingablauf Schritt für Schritt automatisiert wird. Drei Arten von Arbeit stehen dabei im Mittelpunkt: feste Regeln, ein Sprachmodell und die Entscheidung einer Person. Der Fall kommt aus der Rösterei Morgenrot.
 :::
 
 ## Anfragen nach dem Kauf

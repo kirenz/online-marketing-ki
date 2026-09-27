@@ -1,6 +1,6 @@
 # Quality Score und Optimierung
 
-Wir kennen nun die Auktion und den Kontoaufbau und wenden uns der Stellschraube zu, die beides verbindet: der Anzeigenqualität. In dieser Lesson lernen wir die drei Komponenten des Quality Score kennen und sehen, an welchen Hebeln wir konkret ansetzen.
+Wir kennen nun die Auktion und den Kontoaufbau und wenden uns der Stellschraube zu, die beides verbindet: der Anzeigenqualität. Der Quality Score macht sie in drei Komponenten sichtbar, und an jeder lässt sich konkret ansetzen.
 
 ## Was der Quality Score misst
 
@@ -14,13 +14,9 @@ Der Quality Score setzt sich aus drei Komponenten zusammen, die Google getrennt 
 
 ![Die drei Komponenten des Quality Score entlang des Wegs von der Suche bis zur Zielseite, jeweils mit ihrem Hebel.](../images/quality-score.svg){#fig-quality-score fig-alt="Oben Suchanfrage, Anzeige und Zielseite. Darunter Anzeigenrelevanz, erwartete Klickrate und Zielseiten-Erfahrung mit je einem Hebel. Unten der Hinweis, dass der Quality Score ein Diagnosewert ist."}
 
-::: {.callout-tip title="Analogie: Das Vorstellungsgespräch"}
-Wir stellen uns ein Vorstellungsgespräch vor. Eine Bewerbung überzeugt nicht über einen einzigen Punkt, sondern über das Zusammenspiel mehrerer: ein ansprechender erster Eindruck, eine Antwort, die genau zur gestellten Frage passt, und ein stimmiges Auftreten im weiteren Verlauf. Genauso ergibt sich die Anzeigenqualität aus erwarteter Klickrate, Anzeigenrelevanz und Zielseiten-Erfahrung zusammen.
-:::
-
 ## An den richtigen Hebeln ziehen
 
-Aus den drei Komponenten ergeben sich drei konkrete Ansatzpunkte. Für eine bessere erwartete Klickrate schreiben wir Anzeigentexte, die den Suchbegriff aufgreifen und einen klaren Nutzen sowie eine eindeutige Handlungsaufforderung enthalten. Für eine höhere Anzeigenrelevanz sorgen wir dafür, dass die Begriffe aus dem Keyword auch im Anzeigentext vorkommen, was uns die enge thematische Gliederung der Anzeigengruppen aus der vorigen Lesson erleichtert. Für eine bessere Zielseiten-Erfahrung achten wir auf eine schnelle, übersichtliche und inhaltlich passende Seite.
+Aus den drei Komponenten ergeben sich drei konkrete Ansatzpunkte. Für eine bessere erwartete Klickrate schreiben wir Anzeigentexte, die den Suchbegriff aufgreifen und einen klaren Nutzen sowie eine eindeutige Handlungsaufforderung enthalten. Für eine höhere Anzeigenrelevanz sorgen wir dafür, dass die Begriffe aus dem Keyword auch im Anzeigentext vorkommen, was uns die enge thematische Gliederung der Anzeigengruppen aus dem vorigen Kapitel erleichtert. Für eine bessere Zielseiten-Erfahrung achten wir auf eine schnelle, übersichtliche und inhaltlich passende Seite.
 
 ::: {.callout-important title="Komponenten verbessern, nicht die Zahl jagen"}
 Wir optimieren nicht die Quality-Score-Zahl als solche, sondern die drei Komponenten dahinter. Wir prüfen Verbesserungen an erwarteter Klickrate, Relevanz und Zielseiten-Erfahrung anhand tatsächlicher Ergebnisse. Wettbewerb, Gebote und Suchkontext können sich gleichzeitig ändern; sinkende Kosten folgen nicht automatisch. Die Zahl ist das Thermometer, die Komponenten sind die Heizung.

@@ -1,6 +1,6 @@
 # GenAI für Marketing-Content
 
-Wir lernen in dieser Lesson, wie generative KI Texte und Bilder für das Marketing erstellt und worauf wir bei der Prüfung achten. Im Mittelpunkt steht das Zusammenspiel aus schnellem Entwurf durch die KI und kritischem Urteil durch uns.
+Der Wert generativer KI im Content entsteht aus dem Zusammenspiel von schnellem Entwurf durch die KI und kritischem Urteil durch uns.
 
 ## KI als Entwurfsmotor
 
@@ -16,7 +16,7 @@ Generative KI gleicht einer fleißigen Praktikantin: Sie legt in kurzer Zeit zwa
 
 ## Vom Prompt zum brauchbaren Entwurf
 
-Die Qualität des Entwurfs hängt direkt an der Anweisung. Hier zahlen sich die vorigen Lessons aus: Ein nach COMPASS aufgebauter Prompt mit Kontext, Ziel, Rolle, Zielgruppe und Stil liefert deutlich brauchbarere Texte als eine vage Bitte.
+Die Qualität des Entwurfs hängt direkt an der Anweisung. Hier zahlen sich die vorigen Kapitel aus: Ein nach COMPASS aufgebauter Prompt mit Kontext, Ziel, Rolle, Zielgruppe und Stil liefert deutlich brauchbarere Texte als eine vage Bitte.
 
 Bei Bildern übernehmen ähnliche Bausteine diese Rolle. Wir beschreiben Motiv, Bildstil, Stimmung und Bildausschnitt und benennen, was nicht im Bild erscheinen soll. Auch hier gilt: Je konkreter die Beschreibung, desto näher liegt das Ergebnis an der Vorstellung.
 
@@ -31,7 +31,7 @@ Geschwindigkeit ist nur dann ein Gewinn, wenn die Qualität stimmt. Generative K
 - **Rechtliches und Ethisches**: Sind Urheberrecht, Kennzeichnung und Datenschutz beachtet?
 - **Eigenständigkeit**: Hebt sich der Inhalt ab, oder gleicht er austauschbarer Massenware?
 
-Diese Prüfung ist keine lästige Pflicht, sondern der Kern verantwortungsvoller Nutzung. Die Forschung weist ausdrücklich darauf hin, dass generative KI im Marketing neben den Chancen auch Risiken birgt, von Fehlinformationen bis zu Fragen der Transparenz, die eine bewusste Steuerung erfordern [@kumar2025].
+Diese Prüfung ist der Kern verantwortungsvoller Nutzung. Die Forschung weist ausdrücklich darauf hin, dass generative KI im Marketing neben den Chancen auch Risiken birgt, von Fehlinformationen bis zu Fragen der Transparenz, die eine bewusste Steuerung erfordern [@kumar2025].
 
 ::: {.callout-important title="Verantwortung bleibt menschlich"}
 Wer einen KI-Entwurf ohne Prüfung veröffentlicht, übernimmt dessen Fehler als eigene. Die KI trägt keine Verantwortung für falsche Fakten oder fragwürdige Aussagen, das tut die Person oder das Unternehmen, das den Inhalt verbreitet.

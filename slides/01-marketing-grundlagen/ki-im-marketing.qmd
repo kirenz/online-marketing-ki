@@ -78,7 +78,7 @@ KI beschleunigt gute wie schlechte Entscheidungen gleichermaßen. Auf ein unscha
 :::
 
 ::: {.notes}
-Für die Praxis bleiben zwei Leitlinien. Erstens bekommt KI eine klar benannte Aufgabe, statt als Selbstzweck zu erscheinen. Zweitens bleibt das Kundenverständnis aus der ersten Lesson die Grundlage, denn KI verstärkt jede Entscheidung, die gute wie die schlechte.
+Für die Praxis bleiben zwei Leitlinien. Erstens bekommt KI eine klar benannte Aufgabe, statt als Selbstzweck zu erscheinen. Zweitens bleibt das Kundenverständnis aus dem ersten Kapitel die Grundlage, denn KI verstärkt jede Entscheidung, die gute wie die schlechte.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}

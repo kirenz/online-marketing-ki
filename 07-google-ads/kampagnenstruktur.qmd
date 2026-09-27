@@ -1,6 +1,6 @@
 # Kampagnenstruktur, Keywords und Anzeigen
 
-Nachdem wir verstanden haben, wie die Auktion funktioniert, bauen wir nun unser Werbekonto so auf, dass es übersichtlich bleibt und gute Ergebnisse liefert. In dieser Lesson setzen wir Kampagnen, Anzeigengruppen, Keywords und Anzeigentexte sauber auf.
+Nachdem wir verstanden haben, wie die Auktion funktioniert, bauen wir nun unser Werbekonto so auf, dass es übersichtlich bleibt und gute Ergebnisse liefert. Dafür setzen wir Kampagnen, Anzeigengruppen, Keywords und Anzeigentexte sauber auf.
 
 ## Drei Ebenen geben Ordnung
 

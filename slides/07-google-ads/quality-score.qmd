@@ -73,12 +73,12 @@ Der Quality Score setzt sich aus drei Komponenten zusammen, die Google getrennt 
 Die drei Komponenten sitzen an verschiedenen Stellen des Wegs. Relevanz zwischen Suche und Anzeige, Klickrate an der Anzeige, Zielseiten-Erfahrung nach dem Klick. Verbessert werden die Komponenten, nicht die Zahl.
 :::
 
-## Das Vorstellungsgespräch {.stage background-color="#0a0a0f" data-kicker="Analogie"}
+## Qualität entsteht im Zusammenspiel {.stage background-color="#0a0a0f" data-kicker="Merksatz"}
 
-Eine Bewerbung überzeugt nie über einen einzigen Punkt, sondern über das Zusammenspiel: erster Eindruck, passende Antworten, stimmiges Auftreten.
+Keine Komponente trägt allein: Klickrate, Relevanz und Zielseite ergeben gemeinsam die Anzeigenqualität.
 
 ::: {.notes}
-Das Bild des Vorstellungsgesprächs ordnet die drei Komponenten zu: Der erste Eindruck entspricht der erwarteten Klickrate, die zur Frage passende Antwort der Anzeigenrelevanz und das stimmige Auftreten im weiteren Verlauf der Zielseiten-Erfahrung. Erst das Zusammenspiel ergibt die Anzeigenqualität.
+Die drei Komponenten wirken nur gemeinsam. Eine Anzeige mit hoher Klickrate verliert, wenn die Zielseite nicht hält, was der Text verspricht. Eine perfekte Zielseite hilft wenig, wenn der Anzeigentext an der Suchanfrage vorbeigeht. Erst das Zusammenspiel auf dem ganzen Weg von der Suche bis zur Seite ergibt die Anzeigenqualität.
 :::
 
 ## An den richtigen Hebeln ziehen

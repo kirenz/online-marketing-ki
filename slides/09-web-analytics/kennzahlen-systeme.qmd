@@ -11,7 +11,7 @@ A dark, atmospheric composition evoking measurement and focus: a dimly glowing c
 -->
 
 ::: {.notes}
-Der Einstieg setzt eine bewusste Spannung: Hohe Zahlen wirken überzeugend, sagen aber oft wenig über den tatsächlichen Erfolg. Diese Lesson trennt den schönen Schein von der echten Steuerung und ordnet Kennzahlen entlang der Kundenreise.
+Der Einstieg setzt eine bewusste Spannung: Hohe Zahlen wirken überzeugend, sagen aber oft wenig über den tatsächlichen Erfolg. Dieses Kapitel trennt den schönen Schein von der echten Steuerung und ordnet Kennzahlen entlang der Kundenreise.
 :::
 
 ## Metrik ist nicht gleich KPI
@@ -28,7 +28,7 @@ Quelle: @farris2010
 :::
 
 ::: {.notes}
-Die Unterscheidung ist die Grundlage der ganzen Lesson. Metriken gibt es im Überfluss, doch nur wenige davon taugen zur Steuerung. Ein KPI wird bewusst ausgewählt, weil er direkt auf ein Geschäftsziel einzahlt. Diese Auswahl ist eine Entscheidung, keine technische Voreinstellung.
+Die Unterscheidung ist die Grundlage des ganzen Kapitels. Metriken gibt es im Überfluss, doch nur wenige davon taugen zur Steuerung. Ein KPI wird bewusst ausgewählt, weil er direkt auf ein Geschäftsziel einzahlt. Diese Auswahl ist eine Entscheidung, keine technische Voreinstellung.
 :::
 
 ## Vorsicht vor Vanity-Metriken {.stage background-color="#0a0a0f"}
@@ -99,16 +99,18 @@ Quelle: @ahrholdt2023
 Ein Kennzahlensystem ordnet die wichtigsten Größen so an, dass sie aufeinander aufbauen. In der frühen Phase zählt Sichtbarkeit, in der mittleren das Interesse, in der späten die Handlung. So entsteht ein Trichter, in dem jede Stufe ihre eigene Leitkennzahl trägt und auf eine übergeordnete Zielgröße einzahlt.
 :::
 
-## Analogie: Das Armaturenbrett im Auto
+## Wenige KPIs statt vieler Anzeigen
 
-Ein Armaturenbrett zeigt nicht alle messbaren Werte, sondern nur die wenigen, die für eine sichere Fahrt zählen.
+Ein Kennzahlensystem lebt von der Auswahl, nicht von der Menge.
 
-Geschwindigkeit, Tankfüllung, Motortemperatur: mehr braucht es nicht. Ein Cockpit mit fünfzig Anzeigen lenkt nur ab.
+::: {.formula .editorial}
+Vier bis fünf gut gewählte KPIs reichen, um eine Kampagne zu steuern.
+:::
 
-Genauso reichen **vier bis fünf** gut gewählte KPIs, um eine Kampagne zu steuern.
+Mehr Zahlen erhöhen nicht die Klarheit, sondern den **Aufwand der Interpretation**.
 
 ::: {.notes}
-Das Bild des Armaturenbretts macht die Disziplin greifbar. Aus der Fülle möglicher Zahlen werden wenige ausgewählt, die wirklich steuern helfen. Mehr Anzeigen erhöhen nicht die Klarheit, sondern nur den Aufwand der Interpretation.
+Damit das System trägt, werden bewusst wenige Schlüsselkennzahlen gewählt. Vier bis fünf gut gewählte KPIs reichen aus, um eine Kampagne zu steuern. Jede weitere Zahl muss begründen, welche Entscheidung sie zusätzlich ermöglicht. Mehr Anzeigen erhöhen nicht die Klarheit, sondern nur den Aufwand der Interpretation.
 :::
 
 ## Bestellungen sind keine Neukunden {.stage background-color="#0a0a0f"}
@@ -154,6 +156,89 @@ Der zugeordnete Nettoumsatz pro Werbe-Euro ist kein Gewinn. Auch ein positiver D
 Die Zusammenfassung des Shop-Beispiels. Der Zähler bleibt gleich, der Nenner wechselt: Klicks, Bestellungen, erstmals kaufende Personen. Jede Kennzahl beantwortet eine andere Frage. 50 Euro je Bestellung sind kein CAC, und ein ROAS von 2 ist kein Gewinn.
 :::
 
+## Ob 80 Euro viel sind, entscheidet der Kundenwert {.stage background-color="#0a0a0f"}
+
+:::: {.big-stat .fragment .zoom-in-bounce}
+[120 Euro]{.stat-number}
+[erwarteter Deckungsbeitrag je Abo über die ganze Laufzeit]{.stat-label}
+[Fiktives Abo der Rösterei: 24 Euro im Monat, 40 Prozent Deckungsbeitrag, 8 Prozent Kündigungen]{.stat-context}
+::::
+
+::: {.notes}
+Ob achtzig Euro Medien-CAC viel oder wenig sind, lässt sich erst im Verhältnis beantworten. [KLICK] Der Maßstab ist der Kundenwert, auf Englisch Customer Lifetime Value oder CLV: der Deckungsbeitrag, den eine Kundin oder ein Kunde über die erwartete Dauer der Beziehung erzielt. Für ein Abo der Rösterei sind das rund hundertzwanzig Euro.
+:::
+
+## Kundenwert und Amortisation in fünf Zeilen
+
+| Größe | Rechnung | Wert |
+|---|---|---|
+| Deckungsbeitrag je Monat | 24 × 0,40 | 9,60 Euro |
+| Erwartete Dauer | 1 / 0,08 | 12,5 Monate |
+| Kundenwert (CLV) | 9,60 × 12,5 | [120 Euro]{.highlight-yellow} |
+| Überschuss je Abo | 120 − 80 | 40 Euro |
+| CAC-Payback | 80 / 9,60 | 8,3 Monate |
+
+::: {.sources}
+Quelle: @farris2010
+:::
+
+::: {.notes}
+Drei Größen reichen für die Schätzung. Ein Abo kostet vierundzwanzig Euro im Monat und lässt nach Wareneinsatz und Versand vierzig Prozent Deckungsbeitrag, also neun Euro sechzig. Kündigen monatlich acht Prozent, bleibt ein Abo im Durchschnitt eins durch null Komma null acht, also zwölfeinhalb Monate. Neun Euro sechzig mal zwölfeinhalb ergibt hundertzwanzig Euro Kundenwert. Abzüglich achtzig Euro CAC bleiben vierzig Euro Überschuss je Abo. Und nach achtzig geteilt durch neun Euro sechzig, also rund 8,3 Monaten, sind die Werbekosten wieder eingespielt.
+:::
+
+## Die Amortisation bestimmt das Tempo
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**CAC-Payback: 8,3 Monate**
+
+Für die Liquidität oft die wichtigere Zahl. Wer acht Monate auf sein Geld wartet, gewinnt nur so viele Kunden, wie die Kasse vorfinanziert.
+:::
+
+::: {.column width="50%"}
+**Grenzen der Rechnung**
+
+- Kündigungen sind anfangs höher: Werte aus **Kohorten** ablesen
+- Ein Beitrag in zwei Jahren ist weniger wert als heute
+- Der CAC gilt nur für die beobachteten Kanäle und Zielgruppen
+:::
+
+::::
+
+::: {.notes}
+Neben dem Überschuss zählt die Zeit. Die Amortisationsdauer ist für die Liquidität oft die wichtigere Zahl, denn jedes gewonnene Abo muss über acht Monate vorfinanziert werden. [KLICK] Die Rechnung bleibt eine Vereinfachung. Kündigungsquoten sind in den ersten Monaten meist höher als später, deshalb werden sie aus Kohorten abgelesen, also aus Gruppen, die im selben Monat gestartet sind. Ein Deckungsbeitrag in zwei Jahren ist weniger wert als einer heute. Und der CAC gilt nur für die Kanäle und Zielgruppen, aus denen die beobachteten Abos stammen. Trotzdem ist diese Rechnung der Maßstab für Ziel-CPA und Budget im Modul zu Google Ads.
+:::
+
+## Durchschnitt und Grenzwert unterscheiden
+
+:::: {.comparison}
+
+::: {.comparison-side}
+**Durchschnitt**
+
+- CLV 120 Euro, bisheriger CAC 80 Euro
+- Aussage: Die bisherigen Kunden haben sich gelohnt
+- Keine Aussage über die nächsten 100 Euro Budget
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side .highlighted}
+**Grenzwert**
+
+- Grenz-CAC des nächsten Budgetschritts gegen den CLV
+- Mit steigendem Budget steigen die Kosten je zusätzlicher Person
+- Grundlage jeder [Budgetentscheidung]{.highlight-yellow}
+:::
+
+::::
+
+::: {.notes}
+Ein Kundenwert von hundertzwanzig Euro bei achtzig Euro CAC sagt, dass sich die bisherigen Kunden gelohnt haben. [KLICK] Er sagt nicht, dass die nächsten hundert Euro Werbebudget denselben Ertrag bringen. Mit steigendem Budget steigen die Kosten je zusätzlicher Person, weil die leicht erreichbaren Käuferinnen und Käufer zuerst gewonnen werden. Für Budgetentscheidungen zählt deshalb der Grenz-CAC des nächsten Schritts im Vergleich zum Kundenwert, nicht der bisherige Durchschnitt.
+:::
+
 ## Vor der Runde steht die Prognose, danach der Vergleich
 
 ``` {=html}
@@ -166,10 +251,10 @@ Im Planspiel der Rösterei bleiben je Bestellung 10,26 Euro, bei 27 Euro Bestell
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
-Kennzahlen sind kein Applaus, sondern Steuerung. Wer Vanity-Metriken aussortiert, wenige KPIs bewusst wählt und sie entlang der Kundenreise anordnet, verwandelt rohe Zahlen in begründete Entscheidungen.
+Kennzahlen sind kein Applaus, sondern Steuerung. Wer Vanity-Metriken aussortiert, wenige KPIs entlang der Kundenreise wählt und Kosten am Kundenwert misst, verwandelt rohe Zahlen in begründete Entscheidungen.
 
 ::: {.notes}
-Als Kernbotschaft bleibt: messbar ist nicht gleich wichtig. Die Auswahl weniger, zielgerichteter Kennzahlen entlang der Kundenreise ist die eigentliche Leistung, nicht das Sammeln möglichst vieler Zahlen.
+Als Kernbotschaft bleibt: messbar ist nicht gleich wichtig. Die Auswahl weniger, zielgerichteter Kennzahlen entlang der Kundenreise ist die eigentliche Leistung, nicht das Sammeln möglichst vieler Zahlen. Ob die Kundengewinnung sich lohnt, entscheidet der Vergleich mit dem Kundenwert, und für zusätzliches Budget zählt der Grenzwert, nicht der Durchschnitt.
 :::
 
 ## Literatur

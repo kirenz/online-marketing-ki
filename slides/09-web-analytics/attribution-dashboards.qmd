@@ -132,9 +132,97 @@ Im fiktiven Beispiel haben alle hundert Kaufpfade einen Social-Kontakt und danac
 Last-Click gibt der Suche alle 100 Käufe, die gleichmäßige Regel verteilt 50 zu 50. Die Summe bleibt 100. Melden beide Werbekonten je 100, entstehen auf dem Papier 200 Käufe. Das Beispiel ist fiktiv.
 :::
 
+## Inkrementalität messen: drei Verfahren
+
+:::: {.features}
+
+::: {.feature .fragment .fade-up}
+[01]{.feature-number}
+**Holdout-Test**
+
+Zufällige Teilung der Zielgruppe: eine Gruppe sieht die Anzeigen, eine Kontrollgruppe nicht.
+:::
+
+::: {.feature .fragment .fade-up}
+[02]{.feature-number}
+**Geo-Test**
+
+Regionen statt Personen: Kampagne in einigen Gebieten, vergleichbare Gebiete ohne.
+:::
+
+::: {.feature .fragment .fade-up}
+[03]{.feature-number}
+**Marketing-Mix-Modelling**
+
+Statistische Schätzung aus Zeitreihen von Umsatz, Ausgaben je Kanal, Preisen und Saison.
+:::
+
+::::
+
+::: {.notes}
+Für die Frage nach der zusätzlichen Wirkung, der Inkrementalität, haben sich drei Verfahren etabliert. [KLICK] Ein Holdout-Test teilt die erreichbare Zielgruppe zufällig. Eine Gruppe sieht die Anzeigen, eine Kontrollgruppe sieht sie nicht oder sieht eine neutrale Anzeige. Der Unterschied in der Kaufrate ist die zusätzliche Wirkung. Große Plattformen bieten das als Conversion-Lift an. [KLICK] Ein Geo-Test vergleicht Regionen statt Personen. Er braucht keine Nutzerkennungen und funktioniert auch für Außenwerbung oder Radio, setzt aber genügend vergleichbare Regionen und mehrere Wochen Laufzeit voraus. [KLICK] Marketing-Mix-Modelling schätzt aus langen Zeitreihen, welcher Kanal wie viel beiträgt. Es kommt ohne personenbezogene Daten aus, reagiert aber langsam und liefert breite Unsicherheitsbereiche. Für ein kleines Unternehmen wie die Rösterei ist es selten sinnvoll.
+:::
+
+## Beobachtung überschätzt, das Experiment korrigiert
+
+In 15 Kampagnen bei Facebook wurden Beobachtungsverfahren, darunter Attributionsmodelle, mit einem **randomisierten Experiment** verglichen.
+
+::: {.formula .editorial}
+Die Beobachtungsverfahren überschätzten die Wirkung häufig stark, in einzelnen Fällen um ein Vielfaches.
+:::
+
+::: {.sources}
+Quelle: @gordon2019
+:::
+
+::: {.notes}
+Wie groß der Unterschied zwischen Zurechnung und Wirkung werden kann, zeigt eine Untersuchung von fünfzehn Kampagnen bei Facebook. Für dieselben Kampagnen lagen sowohl experimentelle Ergebnisse aus zufälliger Zuteilung als auch Schätzungen gängiger Beobachtungsverfahren vor. Die Beobachtungsverfahren, darunter Attributionsmodelle, überschätzten die Wirkung häufig stark und wichen in einzelnen Fällen um ein Vielfaches vom Experiment ab.
+:::
+
+## Jedes Verfahren beantwortet eine andere Frage
+
+| Verfahren | Beantwortet | Voraussetzung | Grenze |
+|---|---|---|---|
+| Attribution | Verteilung erfasster Conversions auf Kontaktpunkte | Tracking der Kontaktpunkte | keine Aussage über Ursache |
+| Holdout-Test | Zusätzliche Käufe durch die Kampagne | zufällige Zuteilung, genug Fälle | nur getestete Kampagne und Zeit |
+| Geo-Test | Stärkere Wirkung in Regionen mit Werbung | vergleichbare Regionen, mehrere Wochen | regionale Störeinflüsse |
+| Marketing-Mix-Modelling | Beitrag der Kanäle zum Umsatz über Monate | lange Zeitreihen je Kanal | breite Unsicherheit, träge |
+
+::: {.notes}
+Die Tabelle ordnet die vier Verfahren nebeneinander. Attribution verteilt erfasste Conversions, sagt aber nichts über die Ursache. Der Holdout-Test misst zusätzliche Käufe, gilt aber nur für die getestete Kampagne im getesteten Zeitraum. Der Geo-Test braucht vergleichbare Regionen und ist anfällig für regionale Störeinflüsse. Marketing-Mix-Modelling erfasst auch Kanäle ohne Tracking, bleibt aber träge und unsicher.
+:::
+
+## Eine einfache Rangfolge für die Praxis
+
+:::: {.timeline}
+
+::: {.timeline-item}
+[1]{.timeline-number}
+[Attribution]{.timeline-title}
+[für die laufende Steuerung]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[2]{.timeline-number}
+[Holdout- oder Geo-Test]{.timeline-title}
+[vor jeder großen Budgetverschiebung]{.timeline-detail}
+:::
+
+::: {.timeline-item}
+[3]{.timeline-number}
+[Marketing-Mix-Modelling]{.timeline-title}
+[für die jährliche Verteilung über Kanäle, sofern die Daten reichen]{.timeline-detail}
+:::
+
+::::
+
+::: {.notes}
+Für die Praxis ergibt sich eine einfache Rangfolge. [KLICK] Attribution dient der laufenden Steuerung. Vor jeder großen Budgetverschiebung steht ein Holdout- oder Geo-Test, der die zusätzliche Wirkung prüft. Marketing-Mix-Modelling ergänzt das für die jährliche Verteilung über Kanäle, wenn mehrere Kanäle und Jahre an Daten vorliegen.
+:::
+
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
-Attribution ordnet Erfolge zu. Zusätzliche Wirkung braucht einen geeigneten Vergleich. Ein Dashboard zeigt neben Kennzahlen auch Quellen, Auswertungsfenster und Datenlücken.
+Attribution ordnet Erfolge zu. Zusätzliche Wirkung braucht einen geeigneten Vergleich, etwa einen Holdout- oder Geo-Test. Ein Dashboard zeigt neben Kennzahlen auch Quellen, Auswertungsfenster und Datenlücken.
 
 ::: {.notes}
 Als Kernbotschaft bleibt: Attribution und Visualisierung gehören zusammen. Zurechnung, Unsicherheit und mögliche zusätzliche Wirkung bleiben unterscheidbar. Das Dashboard macht diese Grenzen sichtbar.

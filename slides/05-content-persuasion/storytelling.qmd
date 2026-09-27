@@ -85,7 +85,7 @@ Erfundene Kundengeschichten berühren kurz und brechen das Vertrauen, sobald die
 :::
 
 ::: {.notes}
-Die Geschichte liefert das emotionale Gefäß, die Prinzipien liefern die überzeugende Wirkung. Auch hier gilt die ethische Grenze der vorigen Lesson: Eine Geschichte überzeugt nur dauerhaft, wenn sie wahr ist.
+Die Geschichte liefert das emotionale Gefäß, die Prinzipien liefern die überzeugende Wirkung. Auch hier gilt die ethische Grenze des vorigen Kapitels: Eine Geschichte überzeugt nur dauerhaft, wenn sie wahr ist.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
@@ -93,7 +93,7 @@ Die Geschichte liefert das emotionale Gefäß, die Prinzipien liefern die überz
 Geschichten überzeugen, wo Argumente abprallen. Figur, Konflikt und Auflösung bilden das Gerüst, und nur die wahre Geschichte hält der Wirklichkeit stand.
 
 ::: {.notes}
-Als Kern bleibt: Narrative Transportation senkt die Distanz, das Drei-Schritt-Gerüst macht es nutzbar. Die nächste Lesson zeigt, wie generative KI hilft, solche Entwürfe schneller zu erstellen.
+Als Kern bleibt: Narrative Transportation senkt die Distanz, das Drei-Schritt-Gerüst macht es nutzbar. Das nächste Kapitel zeigt, wie generative KI hilft, solche Entwürfe schneller zu erstellen.
 :::
 
 ## Literatur

@@ -1,7 +1,5 @@
 # Der Marketing-Mix
 
-In dieser Lesson lernen wir den Marketing-Mix kennen, das klassische Werkzeugset, mit dem wir eine Marketingstrategie in konkrete Entscheidungen übersetzen.
-
 Sobald Ziel und Strategie stehen, brauchen wir Werkzeuge für die Umsetzung. Der Marketing-Mix bündelt die zentralen Stellhebel, an denen wir drehen können [@kotler2022]. Traditionell sind das die vier P. Aus Kundensicht lassen sie sich als vier C lesen, was den Perspektivwechsel vom Anbieter zur Kundschaft betont.
 
 ## Die vier P
@@ -17,7 +15,7 @@ Im digitalen Marketing fällt der Großteil dieses Kurses in das Feld Promotion,
 
 ## Von den vier P zu den vier C
 
-Die vier P denken vom Unternehmen aus. Die vier C übersetzen jeden Hebel in die Perspektive der Kundschaft, was gut zur kundenzentrierten Haltung aus der vorigen Lesson passt.
+Die vier P denken vom Unternehmen aus. Die vier C übersetzen jeden Hebel in die Perspektive der Kundschaft, was gut zur kundenzentrierten Haltung aus dem ersten Kapitel passt.
 
 | Vier P (Anbietersicht) | Vier C (Kundensicht) | Leitfrage |
 |---|---|---|

@@ -11,7 +11,7 @@ Moderne, frische Komposition: aus einem leeren Blatt steigen angedeutete Textzei
 -->
 
 ::: {.notes}
-Den Auftakt bildet die Stelle, an der generative KI die Content-Arbeit am stärksten verändert: beim Tempo vom leeren Blatt zum ersten Entwurf. Diese Lesson zeigt, wie aus diesem Tempo brauchbarer Content wird und wo die Prüfung ansetzt.
+Den Auftakt bildet die Stelle, an der generative KI die Content-Arbeit am stärksten verändert: beim Tempo vom leeren Blatt zum ersten Entwurf. Dieses Kapitel zeigt, wie aus diesem Tempo brauchbarer Content wird und wo die Prüfung ansetzt.
 :::
 
 ## KI als Entwurfsmotor
@@ -66,7 +66,7 @@ Die Qualität des Entwurfs hängt direkt an der Anweisung.
 - **Beides**: iterativ schärfen statt auf den ersten Versuch hoffen
 
 ::: {.notes}
-Hier zahlen sich die vorigen Lessons aus. Für Text liefert ein nach COMPASS gebauter Prompt deutlich brauchbarere Ergebnisse als eine vage Bitte. Für Bilder übernehmen ähnliche Bausteine die Rolle: Motiv, Stil, Stimmung, Ausschnitt und ein Hinweis, was nicht erscheinen soll. In beiden Fällen wird iterativ geschärft.
+Hier zahlen sich die vorigen Kapitel aus. Für Text liefert ein nach COMPASS gebauter Prompt deutlich brauchbarere Ergebnisse als eine vage Bitte. Für Bilder übernehmen ähnliche Bausteine die Rolle: Motiv, Stil, Stimmung, Ausschnitt und ein Hinweis, was nicht erscheinen soll. In beiden Fällen wird iterativ geschärft.
 :::
 
 ## Bilder erreichen hohe Qualität {.stage background-color="#0a0a0f"}
@@ -119,7 +119,7 @@ Zähler, Nenner und Zeitraum werden bei Zahlen unabhängig nachgerechnet. Eine K
 KI ist Entwurfsmotor, kein Autopilot. Sie liefert Tempo und Varianten für Text und Bild, die Qualität sichern wir durch Prüfung. Der größte Gewinn ist Geschwindigkeit, die größte Gefahr ungeprüfte Beliebigkeit.
 
 ::: {.notes}
-Als Kern bleibt: Generative KI beschleunigt den Entwurf, menschliche Sorgfalt macht daraus wirksamen Content. Die nächste Lesson zeigt, wie diese KI von einzelnen Entwürfen in integrierte Werkzeuge und Agenten im Arbeitsalltag wandert.
+Als Kern bleibt: Generative KI beschleunigt den Entwurf, menschliche Sorgfalt macht daraus wirksamen Content. Das nächste Kapitel zeigt, wie diese KI von einzelnen Entwürfen in integrierte Werkzeuge und Agenten im Arbeitsalltag wandert.
 :::
 
 ## Literatur

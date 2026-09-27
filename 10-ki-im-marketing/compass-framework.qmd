@@ -1,10 +1,10 @@
 # Das COMPASS-Framework
 
-Wir lernen in dieser Lesson ein festes Raster für gute Prompts kennen. COMPASS fasst die wichtigsten Bausteine einer Anweisung in sieben Komponenten zusammen, sodass wir nichts Wesentliches vergessen.
+COMPASS ist ein festes Raster für gute Prompts. Es fasst die wichtigsten Bausteine einer Anweisung in sieben Komponenten zusammen, sodass wir nichts Wesentliches vergessen.
 
 ## Warum ein festes Raster hilft
 
-In der vorigen Lesson haben wir gesehen, welche Bausteine eine Antwort verbessern. Im Arbeitsalltag fällt es jedoch leicht, unter Zeitdruck die Hälfte davon zu vergessen. Genau dafür gibt es Checklisten: Sie sorgen dafür, dass auch bei Routine kein wichtiger Schritt ausfällt.
+Im vorigen Kapitel haben wir gesehen, welche Bausteine eine Antwort verbessern. Im Arbeitsalltag fällt es jedoch leicht, unter Zeitdruck die Hälfte davon zu vergessen. Genau dafür gibt es Checklisten: Sie sorgen dafür, dass auch bei Routine kein wichtiger Schritt ausfällt.
 
 COMPASS ist eine solche Checkliste für Prompts. Der Name steht für die sieben Komponenten Context, Objective, Mode, People of Interest, Attitude, Style und Specifications. Wir gehen die Liste durch wie eine Pilotin vor dem Start ihre Checkliste, Punkt für Punkt, und erst dann schicken wir den Prompt ab.
 
@@ -34,7 +34,7 @@ Context und Objective bilden das Fundament: Ein präziser Kontext reduziert verm
 
 Wir müssen nicht in jedem Prompt alle sieben Komponenten ausfüllen. Bei einer kurzen Frage genügen oft Kontext und Ziel. Je wichtiger und je sichtbarer das Ergebnis aber ist, etwa ein Newsletter-Text oder eine Anzeige, desto mehr lohnt es sich, die Liste vollständig durchzugehen.
 
-Der eigentliche Gewinn liegt in der Wiederholbarkeit. Wer einen Prompt einmal sauber nach COMPASS aufgebaut hat, kann ihn als Vorlage speichern und für ähnliche Aufgaben wiederverwenden, indem nur Kontext und Zielgruppe getauscht werden. So entstehen wiederverwendbare Arbeitsanweisungen; identische oder sachlich richtige Ausgaben sind dadurch nicht garantiert. Für Vergleiche speichern wir Prompt, Eingaben, Werkzeug beziehungsweise Modell und Datum. Die nächste Lesson zeigt, wie wir mit solchen strukturierten Prompts konkrete Marketing-Inhalte erstellen [@bolz2024].
+Der eigentliche Gewinn liegt in der Wiederholbarkeit. Wer einen Prompt einmal sauber nach COMPASS aufgebaut hat, kann ihn als Vorlage speichern und für ähnliche Aufgaben wiederverwenden, indem nur Kontext und Zielgruppe getauscht werden. So entstehen wiederverwendbare Arbeitsanweisungen; identische oder sachlich richtige Ausgaben sind dadurch nicht garantiert. Für Vergleiche speichern wir Prompt, Eingaben, Werkzeug beziehungsweise Modell und Datum. Das nächste Kapitel zeigt, wie wir mit solchen strukturierten Prompts konkrete Marketing-Inhalte erstellen [@bolz2024].
 
 ::: {.callout-important title="Struktur ersetzt keine Prüfung"}
 Auch ein sauber nach COMPASS gebauter Prompt liefert nur einen Entwurf. Das Modell kann Fakten und Zahlen erfinden, die überzeugend klingen, aber falsch sind. Jede Ausgabe braucht deshalb eine inhaltliche Prüfung, bevor sie verwendet wird [@kumar2025].

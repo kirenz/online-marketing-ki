@@ -1,6 +1,6 @@
 # On-Page- und technische SEO
 
-Sobald wir wissen, wonach unsere Zielgruppe sucht, gestalten wir unsere Seiten so, dass Menschen und Suchmaschinen sie gleichermaßen gut verstehen. In dieser Lesson kümmern wir uns um Inhalte, Struktur und Technik und ordnen ein, warum Glaubwürdigkeit dabei eine wachsende Rolle spielt.
+Sobald wir wissen, wonach unsere Zielgruppe sucht, gestalten wir unsere Seiten so, dass Menschen und Suchmaschinen sie gleichermaßen gut verstehen. Das betrifft Inhalte, Struktur und Technik, und zunehmend auch die Glaubwürdigkeit einer Seite.
 
 ## Inhalte und Struktur auf der Seite
 

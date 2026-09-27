@@ -1,7 +1,5 @@
 # Online-Marktforschung mit KI
 
-In dieser Lesson lernen wir, wie Marktforschung abläuft, welche Online-Methoden es gibt und an welchen Stellen KI die Arbeit schneller und gründlicher macht.
-
 Die Empathy Map und das Kundenprofil des Value Proposition Canvas leben von Beobachtungen [@osterwalder2014]. Marktforschung liefert diese Beobachtungen. Ihr Zweck ist schlicht: Fragen beantworten, bevor Budget fließt. Welche Bedenken hat die Kundschaft? Welche Botschaft versteht sie? Welcher Preis erscheint ihr angemessen? Wer diese Fragen vorher klärt, investiert gezielter [@kotler2022].
 
 ## Der Forschungsprozess in fünf Schritten

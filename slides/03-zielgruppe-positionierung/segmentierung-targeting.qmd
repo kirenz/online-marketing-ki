@@ -11,7 +11,7 @@ Moderne, frische Komposition: eine große, diffuse Punktwolke, die sich rechts i
 -->
 
 ::: {.notes}
-Kein Markt ist homogen. Menschen unterscheiden sich in Bedürfnissen, Vorlieben und Verhalten. Das STP-Modell macht diese Vielfalt nutzbar: Segmentierung, Targeting, Positionierung. Die ersten beiden Schritte stehen in dieser Lesson.
+Kein Markt ist homogen. Menschen unterscheiden sich in Bedürfnissen, Vorlieben und Verhalten. Das STP-Modell macht diese Vielfalt nutzbar: Segmentierung, Targeting, Positionierung. Die ersten beiden Schritte stehen in diesem Kapitel.
 :::
 
 ## Warum segmentieren
@@ -33,7 +33,7 @@ Der Gründungsgedanke der Segmentierung stammt von Wendell Smith: Heterogene Mä
 ```
 
 ::: {.notes}
-Das Schaubild beginnt mit einem uneinheitlichen Markt, jeder Punkt ist ein Mensch. [KLICK] Zuerst entstehen Gruppen mit ähnlichen Bedürfnissen. Dann wird ausgewählt, welches Segment attraktiv ist und zu den eigenen Stärken passt. Erst für dieses Segment wird die Position bestimmt, das Thema der nächsten Lektion.
+Das Schaubild beginnt mit einem uneinheitlichen Markt, jeder Punkt ist ein Mensch. [KLICK] Zuerst entstehen Gruppen mit ähnlichen Bedürfnissen. Dann wird ausgewählt, welches Segment attraktiv ist und zu den eigenen Stärken passt. Erst für dieses Segment wird die Position bestimmt, das Thema eines eigenen Kapitels.
 :::
 
 ## Segmentierungskriterien
@@ -61,20 +61,103 @@ Segmente entstehen nicht von allein in den Daten. Sie werden in Organisationen a
 Targeting wählt aus den Segmenten die aus, die bedient werden sollen. Attraktivität und Passung sind die beiden Leitkriterien. Wichtig bleibt: Ein definiertes Segment, das nicht in die Prozesse einfließt, bringt wenig.
 :::
 
-## Die Sortierung im Lager {.stage background-color="#0a0a0f" data-kicker="Analogie"}
+## Käufer konkurrierender Marken ähneln sich {.stage background-color="#0a0a0f" data-kicker="Gegenbefund"}
 
-Ein gutes Lager sortiert nicht alphabetisch, sondern nach Zugriffshäufigkeit und Zusammengehörigkeit.
+Über viele Kategorien hinweg unterscheiden sich die Kundschaften konkurrierender Marken in Demografie und Einstellungen kaum.
+
+::: {.sources}
+Quelle: @sharp2010
+:::
 
 ::: {.notes}
-Das Bild des Lagers trägt den Gedanken: Ein Markt wird nicht nach beliebigen Merkmalen geordnet, sondern nach den Gruppen, die sich wirklich unterschiedlich verhalten und die sich am besten bedienen lassen.
+Die Käuferverhaltensforschung des Ehrenberg-Bass-Instituts setzt der klassischen Segmentierung einen unbequemen Befund entgegen. Wer die Käuferinnen und Käufer konkurrierender Marken vergleicht, findet in vielen Kategorien kaum Unterschiede, weder im Alter noch in den Einstellungen. Das stellt die Segmentierung nicht in Frage, begrenzt aber, wofür sie taugt.
+:::
+
+## Grenzen der Segmentierung: wie Marken wachsen
+
+:::: {.features}
+
+::: {.feature .fragment .fade-up}
+[01]{.feature-number}
+**Durchdringung**
+
+Marken wachsen vor allem über [mehr Käufer]{.highlight-yellow}, weniger über die Loyalität eines Kernsegments.
+:::
+
+::: {.feature .fragment .fade-up}
+[02]{.feature-number}
+**Gelegenheitskäufer**
+
+Ein großer Teil des Umsatzes stammt von Menschen, die selten kaufen und wenig über die Marke nachdenken.
+:::
+
+::: {.feature .fragment .fade-up}
+[03]{.feature-number}
+**Verfügbarkeit**
+
+[Mental]{.highlight-blue}: Die Marke fällt in der Kaufsituation ein. **Physisch**: Sie ist leicht zu kaufen.
+:::
+
+::::
+
+::: {.sources}
+Quelle: @sharp2010
+:::
+
+::: {.notes}
+Drei Befunde prägen diese Sicht. [KLICK] Erstens wachsen Marken vor allem über Marktdurchdringung, also über mehr Käuferinnen und Käufer, und weniger über ein besonders treues Kernsegment. [KLICK] Zweitens stammt ein großer Teil des Umsatzes von Gelegenheitskäufern, die die Marke selten kaufen und kaum über sie nachdenken. [KLICK] Drittens zählt deshalb vor allem Verfügbarkeit: mental, damit die Marke in der Kaufsituation einfällt, und physisch, damit sie leicht zu kaufen ist.
+:::
+
+## Wofür Segmentierung taugt
+
+:::: {.comparison}
+
+::: {.comparison-side .highlighted}
+**Stark bei**
+
+- Wahl der Botschaft
+- Wahl des Kanals
+- Zuschnitt des Angebots
+- Beispiel: Ratgeber für Homeoffice-Haushalte statt Büro-Angebot
+:::
+
+::: {.separator}
+:::
+
+::: {.comparison-side}
+**Schwach als Begründung für**
+
+- einen eng gezogenen Markt
+- das Ausblenden aller anderen Käufergruppen
+- Beispiel: Abo nur für Homeoffice-Haushalte auffindbar
+:::
+
+::::
+
+::: {.notes}
+Daraus folgt eine Unterscheidung. [KLICK] Segmentierung leistet viel bei der Wahl von Botschaft, Kanal und Angebot. Ein Ratgeber für Homeoffice-Haushalte spricht anders als ein Angebot für Büros. [KLICK] Weniger eignet sie sich als Begründung, den Markt eng zu ziehen und alle anderen Gruppen auszublenden. Für die Rösterei Morgenrot heißt das: Die Kommunikation richtet sich an Homeoffice-Haushalte, das Abo bleibt aber für alle leicht zu finden und zu bestellen. Die Marke soll auch denen einfallen, die nur zweimal im Jahr Kaffee verschenken.
+:::
+
+## Ein Segment ist eine Hypothese
+
+::: {.formula .editorial}
+Ein Segment rechtfertigt eine eigene Kampagne erst, wenn es sich im Verhalten unterscheidet, nicht nur in der Beschreibung.
+:::
+
+::: {.tip-box}
+Vor der Budgetverteilung an **Bestell- und Befragungsdaten** prüfen, ob das Segment wirklich anders kauft als der übrige Markt.
+:::
+
+::: {.notes}
+Als Arbeitsregel bleibt: Ein Segment ist eine Hypothese. Ob eine Gruppe wirklich anders kauft als der übrige Markt, ist eine empirische Frage. Sie wird an Bestell- und Befragungsdaten geprüft, bevor Budget danach verteilt wird. Ein Segment, das sich nur in der Beschreibung unterscheidet und nicht im Verhalten, rechtfertigt keine eigene Kampagne.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
 
-Segmentierung ordnet den Markt, Targeting wählt die richtigen Gruppen. Beides zusammen ist die Grundlage für Personas und Positionierung.
+Segmentierung ordnet den Markt, Targeting wählt die richtigen Gruppen. Ob ein Segment trägt, zeigt erst das Kaufverhalten.
 
 ::: {.notes}
-Als Kern bleibt: erst aufteilen, dann auswählen. STP beginnt mit Segmentierung und Targeting, die nächste Lesson macht die Segmente als Personas greifbar.
+Als Kern bleibt: erst aufteilen, dann auswählen, und jedes Segment als Hypothese prüfen, statt den Markt vorschnell eng zu ziehen. STP beginnt mit Segmentierung und Targeting, das nächste Kapitel macht die Segmente als Personas greifbar.
 :::
 
 ## Literatur

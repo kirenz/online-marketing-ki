@@ -6,7 +6,7 @@ Wir klären zwei eng verwandte Fragen. Erstens: Welchem Kanal schreiben wir eine
 
 Eine Conversion entsteht selten nach einem einzigen Kontakt. Eine Person sieht vielleicht eine Anzeige, liest später einen Blogbeitrag, klickt Tage darauf auf eine Suchanzeige und kauft erst dann. Jede dieser Stationen ist ein Touchpoint, ein Berührungspunkt mit unserer Marke. Attribution beschreibt, wie wir erfasste Conversions nach einer Regel oder einem Modell diesen Berührungspunkten zurechnen. Diese Zuordnung ist noch kein Nachweis ihres ursächlichen Beitrags.
 
-Diese Verteilung ist keine technische Nebensache, sondern entscheidet über die Budgetlenkung. Wenn wir falsch zurechnen, verschieben wir Geld zu den falschen Kanälen. Die Forschung zeigt, dass eine realistische Zurechnung über mehrere Kontaktpunkte hinweg die Wirkung einzelner Kanäle deutlich anders bewertet als eine vereinfachte Betrachtung [@li2014].
+Diese Verteilung entscheidet über die Budgetlenkung. Wenn wir falsch zurechnen, verschieben wir Geld zu den falschen Kanälen. Die Forschung zeigt, dass eine realistische Zurechnung über mehrere Kontaktpunkte hinweg die Wirkung einzelner Kanäle deutlich anders bewertet als eine vereinfachte Betrachtung [@li2014].
 
 ::: {.callout-tip title="Analogie: Das Tor im Mannschaftssport"}
 Wir stellen uns ein Tor im Fußball vor. Es wäre ungerecht, allein der Person den Erfolg zuzuschreiben, die den Ball über die Linie bringt. Das Tor entsteht aus einer Kette: Ballgewinn, Pass, Vorlage, Abschluss. Genauso entsteht eine Conversion aus einer Kette von Kontaktpunkten. Attribution ist der Versuch, diese Vorlagen sichtbar zu machen und nicht nur den letzten Schritt zu zählen.
@@ -28,7 +28,7 @@ Wir verlassen uns nicht allein auf den letzten Klick. Wer nur den finalen Schrit
 
 Die beste Auswertung nützt wenig, wenn sie in Rohdaten verborgen bleibt. Ein Dashboard bündelt die wichtigsten Kennzahlen an einem Ort und macht sie auf einen Blick lesbar. Werkzeuge wie Looker Studio verbinden sich dafür direkt mit GA4 und anderen Datenquellen und stellen die Zahlen als Diagramme und Übersichten dar.
 
-Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt nicht alles, sondern das Wesentliche, geordnet nach den Aufgaben der Kundenreise. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann [@ahrholdt2023].
+Ein gutes Dashboard folgt denselben Prinzipien wie ein gutes Kennzahlensystem. Es zeigt das Wesentliche, geordnet nach den Aufgaben der Kundenreise. Oben stehen die Leitkennzahlen für den schnellen Gesundheitscheck, darunter die Treiber, die erklären, woher eine Veränderung kommt. So wird aus Daten eine Geschichte, der eine Entscheidung folgen kann [@ahrholdt2023].
 
 Wir richten Dashboards außerdem auf ihr Publikum aus. Die Geschäftsführung braucht den verdichteten Überblick, das Marketing-Team die operativen Details. Dieselben Daten erscheinen also in verschiedener Tiefe, je nachdem, wer mit ihnen arbeitet.
 
@@ -39,5 +39,24 @@ Im fiktiven Beispiel führen 100 Käufe jeweils über Social Media und danach ei
 ![Zurechnung verteilt die 100 Käufe nur um. Addieren wir die Berichte beider Werbekonten, entstehen scheinbar 200.](../images/attribution-zurechnung.svg){#fig-attribution-zurechnung fig-alt="Oben der Weg Social Media, Suchanzeige, Kauf. Darunter Balken: Last-Click gibt der Suche 100 Käufe, die gleichmäßige Regel Social und Suche je 50. Die Berichte beider Werbekonten melden je 100, zusammen 200; eine gestrichelte Linie markiert die tatsächlichen 100 Käufe."}
 
 Zusätzliche Wirkung heißt dagegen: Wie verändert sich das Ergebnis gegenüber einer vergleichbaren Situation ohne diese Maßnahme? Ein vorab geplanter, randomisierter Test mit Kontrollgruppe kann diese Frage beantworten. Ein Vorher-nachher-Vergleich allein vermischt die Maßnahme mit Saison, Nachfrage und anderen Änderungen. Auch im Experiment betrachten wir Unsicherheit, Stichprobengröße und wirtschaftlichen Nutzen getrennt.
+
+## Inkrementalität messen
+
+Für die Frage nach der zusätzlichen Wirkung haben sich drei Verfahren etabliert, die sich in Aufwand und Aussagekraft unterscheiden.
+
+Ein **Holdout-Test** teilt die erreichbare Zielgruppe zufällig: Eine Gruppe sieht die Anzeigen, eine Kontrollgruppe sieht sie nicht oder sieht eine neutrale Anzeige. Der Unterschied in der Kaufrate beider Gruppen ist die zusätzliche Wirkung. Große Plattformen bieten solche Tests als Conversion-Lift an. Eine Untersuchung von 15 Kampagnen bei Facebook zeigte, dass gängige Beobachtungsverfahren, darunter Attributionsmodelle, die Wirkung häufig stark überschätzten und in einzelnen Fällen um ein Vielfaches vom experimentellen Ergebnis abwichen [@gordon2019].
+
+Ein **Geo-Test** vergleicht Regionen statt Personen: In einigen Postleitzahlgebieten läuft die Kampagne, in vergleichbaren anderen nicht. Das Verfahren braucht keine Nutzerkennungen und funktioniert auch für Kanäle ohne Klick, etwa Außenwerbung oder Radio. Es setzt aber genügend vergleichbare Regionen und eine Laufzeit von mehreren Wochen voraus.
+
+**Marketing-Mix-Modelling** schätzt aus Zeitreihen von Umsatz, Werbeausgaben je Kanal, Preisen und Saison statistisch, welcher Kanal wie viel beiträgt. Es kommt ohne personenbezogene Daten aus und erfasst auch Kanäle ohne Tracking. Dafür braucht es lange Datenreihen, reagiert langsam und liefert Schätzungen mit breiten Unsicherheitsbereichen. Für ein kleines Unternehmen wie die Rösterei ist es selten sinnvoll; für Unternehmen mit mehreren Kanälen und Jahren an Daten ergänzt es die Attribution.
+
+| Verfahren | Beantwortet | Voraussetzung | Grenze |
+|---|---|---|---|
+| Attribution | Wie verteilen sich erfasste Conversions auf Kontaktpunkte? | Tracking der Kontaktpunkte | keine Aussage über Ursache |
+| Holdout-Test | Wie viele Käufe löst die Kampagne zusätzlich aus? | zufällige Zuteilung, genug Fälle | nur für die getestete Kampagne und Zeit |
+| Geo-Test | Wirkt die Kampagne in Regionen mit Werbung stärker? | vergleichbare Regionen, mehrere Wochen | regionale Störeinflüsse |
+| Marketing-Mix-Modelling | Wie tragen Kanäle über Monate zum Umsatz bei? | lange Zeitreihen je Kanal | breite Unsicherheit, träge |
+
+Für die Praxis gilt eine einfache Rangfolge: Attribution für die laufende Steuerung, ein Holdout- oder Geo-Test vor jeder großen Budgetverschiebung, Marketing-Mix-Modelling für die jährliche Verteilung über Kanäle, sofern die Daten reichen.
 
 **Kurzprüfung:** Wir berechnen für die 100 Käufe beide Zurechnungen und formulieren einen zulässigen Ergebnissatz sowie eine offene Wirkungsfrage. Ins Dashboard gehören neben Zeitraum und Kennzahlendefinition auch Quelle, Attributionsfenster, Modell und erkennbare Datenlücken. Im Planspiel sind ausgewiesene Kanalwerte Ergebnisse der Simulation; sie belegen keine entsprechende Wirkung in einem realen Werbekonto.

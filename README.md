@@ -23,6 +23,7 @@ Pro Modul entsteht erst das Buch-Kapitel (Wir-Form), dann das daraus generierte 
 | 8 | Social Media & LinkedIn Ads | ✅ | ✅ |
 | 9 | Web-Analytics & Erfolgsmessung | ✅ | ✅ |
 | 10 | KI im Marketing | ✅ | ✅ |
+| 11 | Marktumfeld, Recht & Organisation | ✅ | ✅ |
 
 Legende: ✅ fertig, 🟡 in Arbeit, ⬜ offen.
 

@@ -1,6 +1,6 @@
 # Prompting-Grundlagen
 
-Wir lernen in dieser Lesson, wie aus einer vagen Bitte an ein KI-System eine präzise Anweisung wird. Mit klaren Aufgaben, einer passenden Rolle, Beispielen und genug Kontext steigt die Qualität der Antworten deutlich.
+Aus einer vagen Bitte an ein KI-System wird eine präzise Anweisung, wenn Aufgabe, Rolle, Kontext und Beispiele benannt sind. Damit steigt die Qualität der Antworten deutlich.
 
 ## Warum die Anweisung über das Ergebnis entscheidet
 
@@ -37,7 +37,7 @@ Bewerte den folgenden Seitentitel und schlage drei Alternativen vor.
 Die zugewiesene Rolle steuert die Perspektive der Antwort: Eine SEO-Beraterin achtet auf andere Aspekte als eine Texterin. Unterschiedliche Rollen liefern damit gezielt unterschiedliche Sichtweisen.
 
 ::: {.callout-tip title="Kontext schlägt cleveres Formulieren"}
-Oft liegt die schwache Antwort nicht an einem ungeschickten Satzbau, sondern an fehlendem Kontext. Wer Produkt, Zielgruppe, Anlass und gewünschtes Format mitliefert, erhält bessere Ergebnisse als jemand, der nur an der Formulierung feilt. Diese Verlagerung von der reinen Formulierung hin zur Bereitstellung des richtigen Kontexts wird zunehmend als eigene Kompetenz beschrieben [@schmid2025].
+Eine schwache Antwort liegt oft an fehlendem Kontext, seltener am Satzbau. Wer Produkt, Zielgruppe, Anlass und gewünschtes Format mitliefert, erhält bessere Ergebnisse als jemand, der nur an der Formulierung feilt. Diese Verlagerung von der reinen Formulierung hin zur Bereitstellung des richtigen Kontexts wird zunehmend als eigene Kompetenz beschrieben [@schmid2025].
 :::
 
 Als Drittes der **Kontext**. Hintergrundinformationen wie Zielgruppe, Anlass oder Rahmenbedingungen geben dem Modell den Boden, auf dem es eine passende Antwort bauen kann. Wir trennen diesen Kontext mit deutlichen Markierungen vom eigentlichen Auftrag, damit das Modell beides nicht verwechselt. Bewährt haben sich XML-ähnliche Tags wie `<kontext> ... </kontext>` oder `<email> ... </email>`, die einen Textblock klar umschließen.
@@ -48,7 +48,7 @@ Als Viertes das **Beispiel**. Ein mitgeliefertes Muster zeigt dem Modell die gew
 
 Ein guter Prompt entsteht selten im ersten Versuch. Wir starten mit einer klaren Aufgabe, prüfen die Antwort und ergänzen gezielt das, was gefehlt hat, etwa eine Rolle, einen Kontextblock oder ein Beispiel. Dieses schrittweise Schärfen kostet wenig Zeit und hebt die Qualität spürbar.
 
-Für wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie `[ROLLE]` oder `[ZIELGRUPPE]`. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zur nächsten Lesson geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet [@bolz2024].
+Für wiederkehrende Aufgaben lohnen sich Platzhalter. Wir schreiben einen Prompt einmal sauber aus und ersetzen die variablen Teile durch Marker wie `[ROLLE]` oder `[ZIELGRUPPE]`. So lässt sich derselbe Prompt für viele Fälle wiederverwenden, ohne ihn jedes Mal neu zu formulieren. Damit ist die Brücke zum nächsten Kapitel geschlagen, in der das COMPASS-Framework genau diese Bausteine zu einem festen Raster ordnet [@bolz2024].
 
 ## Ein Ergebnis überprüfbar bestellen
 

@@ -1,6 +1,10 @@
 # Einführung {.unnumbered}
 
-Bevor wir mit dem ersten Modul beginnen, lohnt sich ein kurzer Überblick über die Begriffe, die uns durch den Kurs begleiten. Jeder Begriff wird in zwei Sätzen erklärt, damit klar ist, worauf wir aufbauen. Die Reihenfolge folgt grob dem Aufbau des Buches.
+Bevor wir mit dem ersten Modul beginnen, stellen wir das Beispielunternehmen vor und verschaffen uns einen kurzen Überblick über die Begriffe, die uns durch den Kurs begleiten. Jeder Begriff wird in zwei Sätzen erklärt, damit klar ist, worauf wir aufbauen. Die Reihenfolge folgt grob dem Aufbau des Buches.
+
+## Das Beispiel: die Rösterei Morgenrot
+
+Viele Kapitel arbeiten mit einem erfundenen Unternehmen. Die Rösterei Morgenrot ist eine kleine Kaffeerösterei mit Ladengeschäft und Onlineshop. Sie verkauft Bohnen einzeln und im Abo, an Privathaushalte und an Büros. Ihre wichtigste Zielgruppe sind Haushalte im Homeoffice, die regelmäßig frischen Kaffee wollen, ohne ans Nachbestellen zu denken. Der Laden dient der Verkostung und Beratung, der Shop dem Verkauf, das Abo dem wiederkehrenden Umsatz. Alle Zahlen, Kundenstimmen und Wettbewerber sind für Übungszwecke erfunden. Das Beispiel zeigt, wie sich die Werkzeuge anwenden lassen; der Maßstab bleibt das eigene Projekt.
 
 ## Marketing-Mix
 

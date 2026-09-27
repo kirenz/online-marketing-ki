@@ -1,11 +1,12 @@
 # Zielgruppe und Positionierung {.unnumbered}
 
-Wir lernen, wie aus einem heterogenen Markt klar beschriebene Zielgruppen werden und wie man sich gegenüber dem Wettbewerb positioniert.
+Wir lernen, wie aus einem heterogenen Markt klar beschriebene Zielgruppen werden und wie sich ein Angebot gegenüber dem Wettbewerb positioniert. Wir prüfen auch, wo Segmentierung an ihre Grenzen stößt.
 
 Wir werden:
 
 - eine Kernzielgruppe als Persona beschreiben
 - Segmentierung und Targeting anwenden
 - eine klare Positionierung formulieren
+- die Reichweite einer Segmentierung gegen die Befunde der Käuferverhaltensforschung abwägen
 
-**Quellen:** [@smith1956; @venter2015]
+**Quellen:** [@smith1956; @venter2015; @sharp2010]

@@ -36,7 +36,7 @@ Der erste Kerngedanke: Werbeplätze sind nicht fest buchbar. Jede Suchanfrage l�
 Wer am meisten bietet, steht nicht automatisch ganz oben.
 
 ::: {.notes}
-Dieser Stage-Moment hält die wichtigste Überraschung der Lesson fest: Das höchste Gebot allein entscheidet nicht über die Position. Qualität und Kontext zählen gleichermaßen. Das bereitet den Anzeigenrang auf der nächsten Folie vor.
+Dieser Stage-Moment hält die wichtigste Überraschung des Kapitels fest: Das höchste Gebot allein entscheidet nicht über die Position. Qualität und Kontext zählen gleichermaßen. Das bereitet den Anzeigenrang auf der nächsten Folie vor.
 :::
 
 ## Der Anzeigenrang bestimmt die Position
@@ -111,12 +111,83 @@ Quelle: @ostrovsky2023
 Eine zweite wichtige Eigenschaft betrifft das Budget: Der abgerechnete Klickpreis liegt in der Regel unter dem eigenen Höchstgebot. Das Gebot ist eine Obergrenze, kein Festpreis. Zur Stabilität der Auktion tragen Mindestpreise bei, also Reservepreise, unterhalb derer eine Anzeige nicht ausgeliefert wird.
 :::
 
-## Was bleibt {.stage .closing background-color="#0a0a0f"}
+## Was ein Klick wert ist, folgt aus dem Geschäft {.stage background-color="#0a0a0f"}
 
-Jede Suche startet eine eigene Auktion, und über die Platzierung entscheidet der Anzeigenrang aus Gebot und Qualität. Das Gebot ist nur die Obergrenze, der reale Klickpreis liegt meist darunter. Wer Qualität ernst nimmt, kann mit weniger Geld weiter oben stehen.
+:::: {.big-stat .fragment .zoom-in-bounce}
+[50 Cent]{.stat-number}
+[höchster Klickpreis, bei dem sich die Erstbestellung allein trägt]{.stat-label}
+[Rösterei Morgenrot: 10 Euro Deckungsbeitrag je Erstbestellung, jeder zwanzigste Klick bestellt]{.stat-context}
+::::
 
 ::: {.notes}
-Als Kernbotschaft bleibt: Platzierung und Preis entstehen in einer Auktion pro Suchanfrage. Der Anzeigenrang verbindet Gebot und Qualität, und der tatsächliche Klickpreis bleibt meist unter dem Gebot. Gute Anzeigen werden mit besseren Positionen und niedrigeren Kosten belohnt.
+Die Auktion bestimmt den Preis, aber nicht, wie viel ein Klick wert ist. Das folgt aus dem Geschäft. [KLICK] Bei der Rösterei Morgenrot bleiben nach Wareneinsatz und Versand rund zehn Euro Deckungsbeitrag je Erstbestellung. Führt jeder zwanzigste Klick zu einer Bestellung, darf ein Klick höchstens fünfzig Cent kosten. Die Bestellung selbst darf also höchstens zehn Euro kosten, das ist der Ziel-CPA. Werden Wiederkäufe und Abos über den Kundenwert eingerechnet, steigt diese Grenze.
+:::
+
+## Vier Gebotsstrategien, vier Vorgaben
+
+| Strategie | Vorgabe | Passt, wenn | Risiko |
+|---|---|---|---|
+| Manueller CPC | Höchstgebot je Keyword | wenige Conversions, Lernphase | Zeitaufwand, keine Signale je Auktion |
+| Ziel-CPA | Kosten je Conversion | stabile Conversion-Zahl, ein Zieltyp | lernt langsam bei kleinen Zahlen |
+| Ziel-ROAS | Umsatz je Werbe-Euro | Conversion-Werte liegen vor | **ROAS ist kein Gewinn** |
+| Conversions maximieren | nur das Budget | Budget soll ganz ausgegeben werden | Kosten je Conversion steigen |
+
+::: {.sources}
+Quelle: @googleSmartBidding2026
+:::
+
+::: {.notes}
+Für die Umsetzung gibt es zwei Wege. Bei manuellen Geboten wird je Keyword ein Höchstgebot festgelegt. Bei automatisierten Strategien, dem Smart Bidding, wird ein Ziel vorgegeben, etwa ein Ziel-CPA oder ein Ziel-ROAS. Das System setzt dann je Auktion ein Gebot aus Signalen wie Gerät, Standort, Tageszeit und bisherigem Verhalten. Die Automatik braucht dafür Conversion-Daten in ausreichender Zahl; bei wenigen Bestellungen im Monat lernt sie langsam und schwankt stark. Und sie optimiert nur das vorgegebene Ziel: Ein Ziel-CPA für Bestellungen behandelt eine Probierpackung für sechs Euro und ein Jahresabo gleich, solange keine Conversion-Werte übergeben werden.
+:::
+
+## Für das Budget zählt der Grenzbeitrag
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Mit steigendem Budget kauft die Kampagne zunehmend Auktionen mit **schlechterer Platzierung** oder weniger kaufbereiten Menschen.
+
+Die Kosten je zusätzlicher Bestellung steigen, während der Durchschnitt noch gut aussieht.
+:::
+
+::: {.column width="50%"}
+::: {.formula .editorial}
+Bringt der nächste Hundert-Euro-Schritt mehr Deckungsbeitrag als zusätzliche Kosten?
+:::
+
+Antwort aus dem Vergleich von Wochen mit unterschiedlichem Budget oder aus einem geplanten Test.
+:::
+
+::::
+
+::: {.notes}
+Das Budget beantwortet die zweite Frage: wie viel insgesamt. [KLICK] Mit jedem zusätzlichen Euro kauft die Kampagne Auktionen, in denen sie schlechter platziert ist oder weniger kaufbereite Menschen erreicht. Die Kosten je zusätzlicher Bestellung steigen, während der Durchschnitt noch gut aussieht. Für die Budgetentscheidung zählt deshalb der Grenzbeitrag: Bringt der nächste Hundert-Euro-Schritt noch Bestellungen, deren Deckungsbeitrag über den zusätzlichen Kosten liegt? Kein Bericht aus dem Werbekonto beantwortet diese Frage von selbst. Sie wird aus dem Vergleich von Wochen mit unterschiedlichem Budget oder aus einem geplanten Test abgelesen.
+:::
+
+## Zugeordnete Conversions sind keine zusätzlichen Käufe
+
+Suchanzeigen auf den eigenen Markennamen erreichen oft Menschen, die ohnehin gekauft hätten.
+
+Ein Feldexperiment bei eBay zeigte: Der Großteil der über Markensuchanzeigen zugeordneten Käufe kam **auch ohne die Anzeigen** zustande.
+
+::: {.tip-box}
+Vor jeder Budgeterhöhung klären, welche Bestellungen die Anzeige **tatsächlich zusätzlich** auslöst.
+:::
+
+::: {.sources}
+Quelle: @blake2015
+:::
+
+::: {.notes}
+Eine letzte Vorsicht betrifft die Zahlen im Werbekonto. Suchanzeigen auf den eigenen Markennamen erreichen oft Menschen, die ohnehin gekauft hätten, weil sie bereits nach der Marke suchen. Ein Feldexperiment bei eBay hat die Anzeigen dafür gezielt abgeschaltet: Der Großteil der zugeordneten Käufe kam auch ohne sie zustande. Vor einer Budgeterhöhung steht deshalb die Frage, welche Bestellungen die Anzeige tatsächlich zusätzlich auslöst. Wie sich das messen lässt, zeigt das Kapitel zur Attribution.
+:::
+
+## Was bleibt {.stage .closing background-color="#0a0a0f"}
+
+Jede Suche startet eine eigene Auktion, und über die Platzierung entscheidet der Anzeigenrang aus Gebot und Qualität. Das Gebot ist nur die Obergrenze, der reale Klickpreis liegt meist darunter. Wie viel ein Klick kosten darf, folgt aus dem Deckungsbeitrag, und über das Budget entscheidet der Grenzbeitrag.
+
+::: {.notes}
+Als Kernbotschaft bleibt: Platzierung und Preis entstehen in einer Auktion pro Suchanfrage. Der Anzeigenrang verbindet Gebot und Qualität, und der tatsächliche Klickpreis bleibt meist unter dem Gebot. Gute Anzeigen werden mit besseren Positionen und niedrigeren Kosten belohnt. Ziel-CPA und Budget werden aus dem Geschäft abgeleitet, und vor jeder Budgeterhöhung steht die Frage nach den tatsächlich zusätzlichen Käufen.
 :::
 
 ## Literatur

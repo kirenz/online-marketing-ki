@@ -1,6 +1,6 @@
 # Organisation: Make-or-buy, Agentursteuerung und KI-Einführung
 
-Digitales Marketing gelingt selten an einer einzigen Stelle im Unternehmen. Es braucht mehrere Kompetenzen, klare Zuständigkeiten und die Entscheidung, was wir selbst aufbauen und was wir einkaufen. In dieser Lesson klären wir die Rollen, die Kriterien für Make-or-buy, die Steuerung von Dienstleistern und den geordneten Einstieg in KI-Werkzeuge.
+Digitales Marketing gelingt selten an einer einzigen Stelle im Unternehmen. Es braucht mehrere Kompetenzen, klare Zuständigkeiten und die Entscheidung, was wir selbst aufbauen und was wir einkaufen. Wir klären die Rollen, die Kriterien für Make-or-buy, die Steuerung von Dienstleistern und den geordneten Einstieg in KI-Werkzeuge.
 
 ## Rollen und Kompetenzen
 

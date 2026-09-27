@@ -41,6 +41,7 @@ ALLOWED_CLASSES = {
     "semi-fade-out",
     "d2",
     "features",
+    "features-7",
     "feature",
     "feature-number",
     "example",

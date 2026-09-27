@@ -11,7 +11,7 @@ Moderne, frische Komposition: eine aufgeräumte Werkbank von oben mit wenigen ab
 -->
 
 ::: {.notes}
-Jede Kampagne beginnt mit einem Ziel und endet mit der passenden Zielgruppe. Dazwischen liegt die Wahl des richtigen Formats. Diese Lesson zeigt die wichtigsten Anzeigentypen und die Logik des Targetings auf LinkedIn.
+Jede Kampagne beginnt mit einem Ziel und endet mit der passenden Zielgruppe. Dazwischen liegt die Wahl des richtigen Formats. Dieses Kapitel zeigt die wichtigsten Anzeigentypen und die Logik des Targetings auf LinkedIn.
 :::
 
 ## Erst das Ziel, dann das Format
@@ -98,7 +98,7 @@ Quelle: @linkedinTargeting2024
 :::
 
 ::: {.notes}
-Die Stärke von LinkedIn liegt in den beruflichen Merkmalen der Profile. Standort und Sprache sind die Pflichtbasis, darüber hinaus lässt sich nach Unternehmen, Ausbildung und Berufserfahrung eingrenzen. So erreicht man zum Beispiel gezielt Personalverantwortliche in mittelgroßen Industrieunternehmen einer Region.
+Die Stärke von LinkedIn liegt in den beruflichen Merkmalen der Profile. Standort und Sprache sind die Pflichtbasis, darüber hinaus lässt sich nach Unternehmen, Ausbildung und Berufserfahrung eingrenzen. So lassen sich zum Beispiel gezielt Personalverantwortliche in mittelgroßen Industrieunternehmen einer Region erreichen.
 :::
 
 ## Die Falle der zu engen Zielgruppe
@@ -146,7 +146,7 @@ Quelle: @linkedinTargeting2024
 Erst das Ziel, dann das Format, dann die Zielgruppe. Berufliche Merkmale und eigene Daten machen die Ansprache präzise, und kontobasiertes Marketing richtet sie auf die wirklich relevanten Konten aus.
 
 ::: {.notes}
-Als Kern bleibt: die Reihenfolge aus Ziel, Format und Zielgruppe, drei Formate für drei Aufgaben sowie ein Targeting über Berufsprofile und eigene Daten. Account-Based Marketing bündelt den Aufwand auf die wenigen Konten, die zählen. Die nächste Lesson zeigt, wie sich der Erfolg dieser Kampagnen messen lässt.
+Als Kern bleibt: die Reihenfolge aus Ziel, Format und Zielgruppe, drei Formate für drei Aufgaben sowie ein Targeting über Berufsprofile und eigene Daten. Account-Based Marketing bündelt den Aufwand auf die wenigen Konten, die zählen. Das nächste Kapitel zeigt, wie sich der Erfolg dieser Kampagnen messen lässt.
 :::
 
 ## Literatur

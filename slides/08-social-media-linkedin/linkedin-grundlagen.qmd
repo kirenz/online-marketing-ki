@@ -11,7 +11,7 @@ Moderne, frische Komposition: ein abstraktes Netz aus leuchtenden Knotenpunkten 
 -->
 
 ::: {.notes}
-LinkedIn ist der Ort, an dem Menschen in ihrer beruflichen Rolle unterwegs sind. Genau das macht die Plattform für das Geschäftskundengeschäft so wertvoll. Diese Lesson klärt, warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
+LinkedIn ist der Ort, an dem Menschen in ihrer beruflichen Rolle unterwegs sind. Genau das macht die Plattform für das Geschäftskundengeschäft so wertvoll. Dieses Kapitel klärt, warum LinkedIn im B2B wirkt und wie Markenaufbau und Aktivierung zusammenspielen.
 :::
 
 ## Beruflicher Kontext statt bloßer Größe
@@ -43,7 +43,7 @@ Geschäftsentscheidungen fallen in Gremien und über lange Zeiträume. LinkedIn 
 Auf einer Branchenmesse zählt das Fachgespräch mit den richtigen Leuten, nicht das lauteste Plakat. LinkedIn ist diese Fachmesse im Dauerbetrieb: berufliches Umfeld, gezielte Kontakte, Substanz vor Lautstärke.
 
 ::: {.notes}
-Das Bild der Fachmesse macht den Charakter der Plattform greifbar. Auf einer Messe trifft man gezielt Menschen in ihrer Berufsrolle und überzeugt durch einen kompetenten Auftritt, nicht durch das größte Plakat. Genauso wirkt LinkedIn am besten mit fachlich glaubwürdigen Inhalten in einem beruflichen Umfeld.
+Das Bild der Fachmesse macht den Charakter der Plattform greifbar. Auf einer Messe begegnen sich Menschen gezielt in ihrer Berufsrolle, und es überzeugt ein kompetenter Auftritt, nicht durch das größte Plakat. Genauso wirkt LinkedIn am besten mit fachlich glaubwürdigen Inhalten in einem beruflichen Umfeld.
 :::
 
 ## Markenaufbau und Aktivierung
@@ -138,7 +138,7 @@ Teilen freiwillig Inhalte in ihren eigenen Netzwerken.
 ::::
 
 ::: {.notes}
-Nicht jede Wirkung auf LinkedIn kostet Werbebudget. Wer eine Anzeige sieht, schaut oft zuerst auf die Unternehmensseite; sie sollte im ersten Satz sagen, was der Betrieb für wen anbietet. Für eigene Beiträge eignen sich Dokument-Beiträge für Anleitungen, Umfragen für schnelle Meinungen und Newsletter für regelmäßige Fachbeiträge. Mitarbeitende erreichen Netzwerke, die die Unternehmensseite nicht erreicht; das nennt man Employee Advocacy und es funktioniert nur freiwillig. Beispiel Rösterei: ein Dokument-Beitrag „Kaffee im Büro: fünf Fragen vor dem ersten Abo“, geteilt von der Röstmeisterin.
+Nicht jede Wirkung auf LinkedIn kostet Werbebudget. Wer eine Anzeige sieht, schaut oft zuerst auf die Unternehmensseite; sie sollte im ersten Satz sagen, was der Betrieb für wen anbietet. Für eigene Beiträge eignen sich Dokument-Beiträge für Anleitungen, Umfragen für schnelle Meinungen und Newsletter für regelmäßige Fachbeiträge. Mitarbeitende erreichen Netzwerke, die die Unternehmensseite nicht erreicht; dieses Prinzip heißt Employee Advocacy und funktioniert nur freiwillig. Beispiel Rösterei: ein Dokument-Beitrag „Kaffee im Büro: fünf Fragen vor dem ersten Abo“, geteilt von der Röstmeisterin.
 :::
 
 ## Was bleibt {.stage .closing background-color="#0a0a0f"}
@@ -146,7 +146,7 @@ Nicht jede Wirkung auf LinkedIn kostet Werbebudget. Wer eine Anzeige sieht, scha
 LinkedIn erreicht Menschen im beruflichen Kontext, und genau das macht es im B2B stark. Wirkung entsteht aus Glaubwürdigkeit, aus dem Gleichgewicht von Markenaufbau und Aktivierung und aus dauerhafter Präsenz.
 
 ::: {.notes}
-Als Kern bleibt: beruflicher Kontext, glaubwürdige Quellen, das Gleichgewicht aus Markenaufbau und Aktivierung mit einer ungefähr hälftigen Verteilung als kontextabhängiger Orientierung und ein Share of Voice über dem Marktanteil. Die nächste Lesson zeigt, mit welchen Kampagnentypen und welchem Targeting sich das konkret umsetzen lässt.
+Als Kern bleibt: beruflicher Kontext, glaubwürdige Quellen, das Gleichgewicht aus Markenaufbau und Aktivierung mit einer ungefähr hälftigen Verteilung als kontextabhängiger Orientierung und ein Share of Voice über dem Marktanteil. Das nächste Kapitel zeigt, mit welchen Kampagnentypen und welchem Targeting sich das konkret umsetzen lässt.
 :::
 
 ## Literatur

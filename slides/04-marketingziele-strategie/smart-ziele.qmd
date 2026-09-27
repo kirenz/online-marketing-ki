@@ -11,7 +11,7 @@ Moderne, frische Szene aus der Vogelperspektive: eine ruhige Schreibtischfläche
 -->
 
 ::: {.notes}
-Marketingvorhaben starten oft mit guten Absichten, die sich später weder steuern noch bewerten lassen. Diese Lesson zeigt, wie aus einem vagen Vorsatz ein klar formuliertes Ziel wird, das Richtung gibt und gleichzeitig den Maßstab für die spätere Erfolgsmessung liefert.
+Marketingvorhaben starten oft mit guten Absichten, die sich später weder steuern noch bewerten lassen. Dieses Kapitel zeigt, wie aus einem vagen Vorsatz ein klar formuliertes Ziel wird, das Richtung gibt und gleichzeitig den Maßstab für die spätere Erfolgsmessung liefert.
 :::
 
 ## Warum vage Ziele scheitern

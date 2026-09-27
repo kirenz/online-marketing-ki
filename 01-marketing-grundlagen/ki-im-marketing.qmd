@@ -1,7 +1,5 @@
 # Die Rolle der KI im Marketing
 
-In dieser Lesson verschaffen wir uns einen ersten Überblick darüber, wie Künstliche Intelligenz im Marketing wirkt, und ordnen sie mit einem einfachen Framework so ein, dass wir sie im weiteren Kurs gezielt einsetzen können.
-
 KI im Marketing wird leicht zum Schlagwort, das alles und nichts bedeutet. Damit wir konkret bleiben, behandeln wir KI nicht als eine einzige Technologie, sondern als drei Klassen mit unterschiedlichen Aufgaben. Diese Unterscheidung geht auf das Drei-Stufen-Framework von @huang2021 zurück und hilft uns, jede KI-Anwendung sauber einzuordnen statt pauschal über „die KI" zu reden.
 
 ## Drei Arten von KI
@@ -28,7 +26,7 @@ Diese Landkarte begleitet uns durch den Kurs. Wenn wir später Content erstellen
 
 ## Was das für die Praxis heißt
 
-Für unsere Arbeit ergeben sich daraus zwei Leitlinien. Erstens setzen wir KI dort ein, wo sie eine klar benannte Aufgabe übernimmt, statt sie als Selbstzweck einzuführen. Zweitens bleibt das Kundenverständnis aus der ersten Lesson die Grundlage, denn KI beschleunigt gute wie schlechte Marketingentscheidungen gleichermaßen.
+Für unsere Arbeit ergeben sich daraus zwei Leitlinien. Erstens setzen wir KI dort ein, wo sie eine klar benannte Aufgabe übernimmt, statt sie als Selbstzweck einzuführen. Zweitens bleibt das Kundenverständnis aus dem ersten Kapitel die Grundlage, denn KI beschleunigt gute wie schlechte Marketingentscheidungen gleichermaßen.
 
 ::: {.callout-tip title="Analogie: das Assistenz-Team"}
 Wir können uns KI wie ein Assistenz-Team mit drei Profilen vorstellen. Eine Kraft erledigt zuverlässig Routine, eine zweite rechnet und empfiehlt, eine dritte hat ein Gespür für Ton und Stimmung. Wer die Aufgabe kennt, weiß, an welches Profil er sie übergibt.
